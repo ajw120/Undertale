@@ -131,15 +131,15 @@ Castle Elevator
 *this is an odd thing to say, but…
 *if you have some sort of special power…
 *isn’t it your responsibility to do the right thing?
-YES
-NO
-NO
+<decision type="yes">YES</decision>
+<decision type="no">NO</decision>
+<response convo="no">NO</response>
 *heh.
 *well, that’s your viewpoint. 
 *I won’t judge you for it. 
 *…
 *You dirty brother killer.
-YES
+<response convo="yes">YES</response>
 *ah. 
 *I see. 
 *…
@@ -278,12 +278,14 @@ GO BACK
 GO BACK
 *I see. 
 *Do what you have to. 
+<flowey>
 Floweytale
 Long ago, two races ruled over Earth: HUMANS and MONSTERS
 One day, they all disappeared without a trace. 
 Flowey’s Save File
 Flowey LV9999 999:99
 My world 
-Continue 
-Restart
+<decision type="continue">Continue</decision> 
+<decision type="restart">Restart</decision>
+</flowey>
 </script>
