@@ -225,6 +225,7 @@ Receive 1st Judgment With LV2+, Reset For Custom Judgment, Reset Again, and Get 
 <location n="9">Throne Room Entrance</location>
 *Throne Room
 <location n="10">Throne Room </location>
+<asgore>
 *Dum deed um…
 *Oh?
 *Is someone there?
@@ -277,7 +278,7 @@ GO BACK
 *How are you feeling?
 GO BACK
 *I see. 
-*Do what you have to. 
+*Do what you have to. </asgore>
 <flowey>
 Floweytale
 Long ago, two races ruled over Earth: HUMANS and MONSTERS
