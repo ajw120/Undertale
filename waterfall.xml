@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Waterfall>
+    <undynehouse>
+        <conditions route="neutral" killed="Undyne">
+            <p speaker="Papyrus">
+                <box n="1">HEY! READY TO HANG OUT WITH UNDYNE???</box>
+                <box N="2">GREAT!!! ME TOO!!!</box>
+                <box n="3">HOWEVER, SHE'S NOT HERE.</box>
+                <box n="4">NORMALLY SHE RETURNS AT ABOUT THIS TIME</box>
+                <box n="5">SHE'S LATE THOUGH...</box>
+                <box n="6">AND SHE'S NOT ANSWERING HER PHONE</box>
+            </p>
+        </conditions>
+    </undynehouse>
+    <snailfarm>
+        <p speaker="napstablook">
+            <box n="1">hm... i should probably try to make friends with my neighbors</box>
+            <box n="2">she's kind of scary,but i feel like i'm always too late to make friends...</box>
+            <box n="3">i should at least try...</box>
+        </p>
+    </snailfarm>
+    <napstablookhouse speaker="napstablook">
+        
+        <p speaker="naspstablook">
+            <box n="1">I've almost got a mix cd finished for my scary neighbor...</box> 
+            <box n="2">it's 74 minutes of people screaming their signature wrestling moves</box>
+            <box n="3">but they're all autotuned. i hope she likes it</box>
+        </p>
+    </napstablookhouse>
+</Waterfall>
