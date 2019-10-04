@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="IntroAndInstructionsRelaxNG.rnc" type="application/relax-ng-compact-syntax"?>
 <Intro SepiaTonedMemories="beginning"><title>Undertale</title>
     <p n="1">Story A long time ago, two races ruled peacefully over the Earth: HUMANS and
         MONSTERS.</p>
@@ -8,18 +9,18 @@
     <p n="5">Many years later...</p>
     <p n="6">MT. Ebbot 201X</p>
     <p n="7">Legends say that those who climb the mountain never return.</p>
-    <p n="8" text="none">Seeking refuge from the rainy weather, the child enters a cave and
+    <p n="8">Seeking refuge from the rainy weather, the child enters a cave and
         discovers an enormous hole.</p>
     <p>Moving closer to get a better look…</p>
     <p n="9">the child falls in.</p>
     <p n="10">Now, our story begins.</p>
-    <instruction><title>Instruction</title>
-        <command Confirm="ZorEnter">[Z or ENTER] – Confirm</command>
+    <title>Instruction</title>
+        <instruction><command Confirm="ZorEnter">[Z or ENTER] – Confirm</command>
         <command Cancel="XorShift">[X or SHIFT] – Cancel</command>
         <command In-GameMenu="CorControl">[C or CONTROL] – Menu (In-Game)</command>
-        <commandm Fullscreen="F4">[F4] – Fullscreen</commandm>
-        <command Quit="HoldEsc">[Hold ESC] – Quit</command>
-        <GameOver lose="HP0">When HP is 0, you lose.</GameOver></instruction> Name the Fallen Human
+        <command Fullscreen="F4">[F4] – Fullscreen</command>
+        <command Quit="HoldEsc">[Hold ESC] – Quit</command></instruction>
+    <GameOver lose="HP0">When HP is 0, you lose.</GameOver></instruction> Name the Fallen Human
     (Name’s Allowed) (Non-Special Names) Is this name correct? AAAAAA Not very creative…? Mercy
     That’s a little on-the-nose, isn’t it? Murder That’s a little on-the-nose, isn’t it? Drak Is
     this name correct? {Fights Fsteak} Gigi Is this name correct? {Fights Fsteak} Gugu Is this name
@@ -31,4 +32,4 @@
     Like, OK I guess. Bpants You are really scraping the bottom of the barrel. Chara The true name.
     (Names not allowed) Flowey I already CHOSE that name. Toriel I think you should think of your
     own name, my child. Sans nope. Undyne Get your OWN name! Alphys D-don’t do that. Asgore You
-    cannot. Asriel </Intro>
+    cannot. Asriel</Intro> <!-- not sure what  it wants me to do here-->
