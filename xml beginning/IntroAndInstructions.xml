@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="IntroAndInstructionsRelaxNG.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../IntroAndInstructionsRelaxNG.rnc" type="application/relax-ng-compact-syntax"?>
+<!--2019-10-07 ebb: I just updated your schema line so it could find your schema in the GitHub repo! 
+Your schema is not in the same file directory with the XML, but is up one directory (in the parent directory), so I added ../
+The schema is definitely in a good place in the repo (I wouldn't move it), because the XML in your other directories probably has to reach it.
+
+-->
 <Intro SepiaTonedMemories="beginning"><title>Undertale</title>
     <p n="1">Story A long time ago, two races ruled peacefully over the Earth: HUMANS and
         MONSTERS.</p>
@@ -20,7 +25,11 @@
         <command In-GameMenu="CorControl">[C or CONTROL] – Menu (In-Game)</command>
         <command Fullscreen="F4">[F4] – Fullscreen</command>
         <command Quit="HoldEsc">[Hold ESC] – Quit</command></instruction>
-    <GameOver lose="HP0">When HP is 0, you lose.</GameOver></instruction> Name the Fallen Human
+    <GameOver lose="HP0">When HP is 0, you lose.</GameOver></instruction><!--ebb: You have stray </instruction> close-tag here which is 
+    preventing your XML from being well-formed. Do you want to wrap <instruction> around <GameOver>, or remove it?
+    Looking at your schema, apparently <GameOver> can be inside <Intro> and also inside <instruction>, so it's not clear to me how best
+    to fix this! Once you deal with it though, your XML is well formed! 
+    --> Name the Fallen Human
     (Name’s Allowed) (Non-Special Names) Is this name correct? AAAAAA Not very creative…? Mercy
     That’s a little on-the-nose, isn’t it? Murder That’s a little on-the-nose, isn’t it? Drak Is
     this name correct? {Fights Fsteak} Gigi Is this name correct? {Fights Fsteak} Gugu Is this name
