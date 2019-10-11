@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Waterfall>
+    <sansstation>
+        <conditions route="neutral">
+            <p speaker="monsterkid">
+                <box n="1">*Yo! 
+                    *Are you sneaking out to see her, too?</box>
+                <box n="2">*Awesome... 
+                    *She's the coolest, right!?</box>
+                <box n="3">*I wanna be just like her when I grow up...</box>
+                <box n="4">*Hey, don't tell my parents I'm here.
+                    *Ha ha.</box>
+                <box n="5">*OK, I'm ready when you are.</box></p>
+              <p speaker="echoflowerexplainer">
+                  <box n="6">*This is an Echo Flower. 
+                      *It repeats the last thing it heard, over and over...</box>
+                  <conditions talkedtoonce="echoflower"></conditions>
+                    <box n="8">*Neat, huh?</box>
+              </p><p speaker="echoflower">
+                  <box n="7">*This is an Echo Flower. 
+                      *It repeats the last thing it heard, over and over...</box></p>
+              <p speaker ="determination">
+                  <box n="9">*(The sound of rushing water fills you with determination)</box>
+              </p>
+            <p speaker="sans">
+                <box n="11">*what? 
+                    *haven't you seen a guy with two jobs before?</box>
+                <box n ="12">*fortunately, two jobs means twice as many legally-required breaks.</box>
+                <box n="13">*i'm going to grillby's.
+                *wanna come?
+                <choice>Yeah    I'm busy</choice></box>
+                <conditions></conditions>
+            </p>
+        </conditions>
+    </sansstation>
     <undynehouse>
-        <conditions route="neutral" killed="Undyne">
             <p speaker="Papyrus">
+                <conditions route="neutral" killed="Undyne">
                 <box n="1">HEY! READY TO HANG OUT WITH UNDYNE???</box>
                 <box N="2">GREAT!!! ME TOO!!!</box>
                 <box n="3">HOWEVER, SHE'S NOT HERE.</box>
@@ -10,8 +43,8 @@
                 <box n="5">SHE'S LATE THOUGH...</box>
                 <box n="6">AND SHE'S NOT ANSWERING HER PHONE</box>
                 <box n="7"></box>
+                </conditions>
             </p>
-        </conditions>
     </undynehouse>
     <snailfarm>
         <p speaker="napstablook">
