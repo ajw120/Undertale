@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script type="genocide" name="newHome">
+        <p>Use the box?</p>
+            <decision type="yes">YES </decision>
+            <decision type="no">NO</decision>
+    <location n="1">Asgore’s Foyer</location>
+        <p>*(He leaves them in the kitchen and the hallway.)</p>
+        <p>*(There are two keys.)</p>
+        <p>*(I unlocked the chain.)</p>
+        <p>*(The date I came here.)</p>
+    <location n="2">Living Room</location>
+        <p>*(Nothing useful.)</p>
+    <location n="3">Kitchen </location>
+        <p>*No chocolate.</p>
+        <p>*I’ve read this already.</p>
+        <p> Stovetop.</p>
+    <location n="4">Bedrooms</location>
+        <p>*It’s me, Chara. </p>
+    <location n="5">Asgore’s Room</location>
+        <p>*The entries are always the same.</p>
+        <p>*Nothing useful.</p>
+        <p>*Still has that sweater. </p>
+    <location n="6">Children’s Room</location>
+        <p>*His bed. </p>
+        <p>*Our clothes. </p>
+        <p>*…</p>
+        <p>*My drawing.</p>
+        <p>*My bed. </p>
+        <p>*(There’s a heart-shaped locket inside the box.)</p>
+        <p>*(Will you take it?)</p>
+               <decision type="take">TAKE IT</decision>
+               <decision type="leave">LEAVE IT</decision>
+        <p>*(You got The Locket.)</p>
+        <p>*(Knife inside the box.)</p>
+        <p>*(Will you take it?</p>
+               <decision type="take">TAKE IT</decision>
+               <decision type="leave">LEAVE IT</decision>
+        <p>*(You got the Real Knife.)</p>
+    <location n="7">Sans’ Corridor</location>
+        <p>*Use the box?</p>
+               <decision type="yes">YES </decision>
+               <decision type="no">NO</decision>
+        <p>Haven’t fought Sans Yet</p>
+    <sans>
+        <p>*heya.</p>
+        <p>*you’ve been busy, huh?</p>
+        <p>*… </p>
+        <p>*so, i’ve got a question for ya. </p>
+        <p>*do you think even worst person can change…?</p>
+        <p>*that everybody can be a good person, if they just try?</p>
+        <p>*heh heh heh heh…</p>
+        <p>*all right. </p>
+        <p>*well, here’s a better question. </p>
+        <p>*do you wanna have a bad time?</p>
+        <p>*‘cause if you take another step forward…</p>
+        <p>*you are REALLY not going to like what happens next. </p>
+        <p>*welp.</p>
+        <p>*sorry, old lady.</p>
+        <p>*this is why i never make promises.</p>
+        <p>First Death</p>
+        <p>*heya </p>
+        <p>*you look frustrated about something. </p>
+        <p>*guess i’m pretty good at my job, huh?</p>
+        <p>Second Death</p>
+        <p>*hmm.</p>
+        <p>*that expression…</p>
+        <p>*that’s the expression of someone who’s died twice in a row. </p>
+        <p>*suffice to say, you look really…</p>
+        <p>*unsatisfied. </p>
+        <p>*all right. </p>
+        <p>* how ‘bout we make it a third?</p>
+        <p>Third Death</p>
+        <p>*hmm.</p>
+        <p>*that expression. </p>
+        <p>*that’s the expression of someone who’s died thrice in a row. </p>
+        <p>*…</p>
+        <p>*hey, what comes after “thrice,” anyway?</p>
+        <p>*wanna help me find out?</p>
+        <p>Fourth Death</p>
+        <p>*hmm.</p>
+        <p>*that expression…</p>
+        <p>*that’s the expression of someone who’s died quice in a row. </p>
+        <p>*quice? frice?</p>
+        <p>*welp, won’t have to use it again anyways. </p>
+        <p>Fifth Death </p>
+        <p>*hmm.</p>
+        <p>*that expression…</p>
+        <p>*that’s the expression of someone who’s died five times in a row. </p>
+        <p>*convenient, huh?</p>
+        <p>*that’s one for each finger. </p>
+        <p>*but soon.. </p>
+        <p>Sixth Death </p>
+        <p>*hmm. </p>
+        <p>*that expression…</p>
+        <p>*that’s the expression of someone who’s died six times in a row. </p>
+        <p>*that’s the number of fingers on a mutant hand. </p>
+        <p>*but soon… </p>
+        <p>Seventh Death </p>
+        <p>*hmm. </p>
+        <p>*that expression…</p>
+        <p>*that’s the expression of someone who’s died seven times in a row. </p>
+        <p>*hey, that’s good. </p>
+        <p>*seven’s supposed to be a lucky number. </p>
+        <p>*who knows, maybe you’ll hit the jackpot…</p>
+        <p>Eighth Death </p>
+        <p>*hmm. </p>
+        <p>*that expression…</p>
+        <p>*that’s the expression of someone who’s died eight times in a row. </p>
+        <p>*that’s the number of fingers on a spider. </p>
+        <p>*but soon.. </p>
+        <p>Ninth Death </p>
+        <p>*hmm. </p>
+        <p>*that expression…</p>
+        <p>*that’s the expression of someone who’s died seven times in a row. </p>
+        <p>*…</p>
+        <p>*nope, wait, that’s definitely nine, sorry. </p>
+        <p>*or was it ten?</p>
+        <p>Tenth Death </p>
+        <p>*hmm. </p>
+        <p>*that expression… </p>
+        <p>*that’s the expression of someone who’s died ten times in a row. </p>
+        <p>*hey, congrats!</p>
+        <p>*the big one-oh!</p>
+        <p>*let’s invite all your friends over for a big shindig.</p>
+        <p>*we can have pie, and hot dogs, and … </p>
+        <p>*hmmm… wait. </p>
+        <p>*something’s not right. </p>
+        <p>*you don’t have any friends. </p>
+        <p>Eleventh Death</p>
+        <p>*hmm. </p>
+        <p>*that expression…</p>
+        <p>*that’s the expression of someone who’s died eleven times in a row. </p>
+        <p>*well, give or take. </p>
+        <p>*there’s nuance to this stuff. </p>
+        <p>*don’t think i’ll be able to count very well from here. </p>
+        <p>*count for me, ok?</p>
+        <p>*we’ll start from 12. </p>
+        <p>Twelfth Death and Onwards</p>
+        <p>*let’s just get to the point. </p>
+        <p>Killed Sans Once</p>
+        <p>*…</p>
+        <p>*that expression that you’re wearing..</p>
+        <p>*…</p>
+        <p>*well, i won’t grace it with a description </p>
+        <p>Killed Sans Twice</p>
+        <p>*… </p>
+        <p>*that expression that you’re wearing…</p>
+        <p>*…</p>
+        <p>*you’re really kind of a freak, huh?</p>
+    </sans>
+    <location n="8">Coffins</location>
+        <p>*(It’s as comfortable as it looks.)</p>
+    <location n="9">Throne Room </location>
+    <asgore>
+        <p>*Curious</p>
+        <p>*I’ve never seen a plant…</p>
+        <p>*Cry before. </p>
+        <p>*… huh?</p>
+        <p>*You must be the one that flower just warned me about.</p>
+        <p>*Howdy!</p>
+        <p>*… </p>
+        <p>*Erm…</p>
+        <p>*What kind of monster are you…?</p>
+        <p>*Sorry, I cannot tell. </p>
+        <p>*Well we can always…</p>
+        <location n="10">Fight Sequence</location>
+        <p>Now, now, </p>
+        <p>There’s no need to fight</p>
+        <p>Why not settle this…</p>
+        <p>Over a nice cup of tea?</p>
+        <p>Why…</p>
+        <p>You…</p>
+    </asgore>
+    <flowey>
+        <p>It was all a trick, see?</p>
+        <p>I was waiting to kill him for you!</p>
+        <p>After all it’s me your best friend!</p>
+        <p>I’m helpful, I can be useful to you</p>
+        <p>I promise I won’t get in your way</p>
+        <p>I can help…</p>
+        <p>I can help…</p>
+        <p>I can…</p>
+        <p>I can…</p>
+        <p>Please don’t kill me. </p>
+    </flowey>
+    <location n="11">Chara</location>
+    <chara>
+        <p>First Meeting</p>
+        <p>Greetings.</p>
+        <p>I am Chara. </p>
+        <p>Thank you. </p>
+        <p>Your power awakened me from death. </p>
+        <p>My “human soul.”</p>
+        <p>My “determination.”</p>
+        <p>They were not mine, but YOURS.</p>
+        <p>At first, I was so confused. </p>
+        <p>Our plan had failed, hadn’t it?</p>
+        <p>Why was I brought back to life?</p>
+        <p>…</p>
+        <p>You.</p>
+        <p>With you guidance. </p>
+        <p>I realized the purpose of my reincarnation. </p>
+        <p>Power. </p>
+        <p>Together, we eradicate the enemy and became strong. </p>
+        <p>HP. ATK. DEF. GOLD. EXP. LV. </p>
+        <p>Every time a number increases, that feeling…</p>
+        <p>That’s me. </p>
+        <p>“Chara.”</p>
+        <p>Now. </p>
+        <p>Now, we have reached the absolute. </p>
+        <p>There is nothing left for us here. </p>
+        <p>Let us erase this pointless world, and move on to the next. </p>
+                <decision type="erase">ERASE</decision>
+                <decision type="dont">DO NOT</decision>
+                    <response convo="erase">Erase</response>
+        <p>Right. You are a great partner. </p>
+        <p>We’ll be together forever, won’t we?</p>
+                    <response convo="dont">Do Not</response>
+        <p>No…?</p>
+        <p>Hmm…</p>
+        <p>How curious.</p>
+        <p>You must have misunderstood. </p>
+        <p>SINCE WHEN WERE YOU THE ONE IN CONTROL?</p>
+        <p>Second Meeting</p>
+        <p>Greetings.</p>
+        <p>I am Chara. </p>
+        <p>“Chara.”</p>
+        <p>The demon that comes when people call its name. </p>
+        <p>It doesn’t matter when.</p>
+        <p>It doesn’t matter where. </p>
+        <p>Time after time, I will appear. </p>
+        <p>And, with your help.</p>
+        <p>We will eradicate the enemy and become strong. </p>
+        <p>HP. ATK. DEF. GOLD. EXP. LV. </p>
+        <p>Every time a number increases, that feeling… </p>
+        <p>That’s me. </p>
+        <p>“Chara.”</p>
+        <p>…</p>
+        <p>But. </p>
+        <p>You and I are not the same, are we?</p>
+        <p>This SOUL resonates with a strange feeling. </p>
+        <p>There is a reason you continue to recreate this world. </p>
+        <p>There is a reason you continue to destroy it. </p>
+        <p>You.</p>
+        <p>You are wracked with a perverted sentimentality. </p>
+        <p>Hmm. </p>
+        <p>I cannot understand these feelings any more. </p>
+        <p>Despite this. </p>
+        <p>I feel obligated to suggest. </p>
+        <p>Should you choose to create this world once more. </p>
+        <p>Another path would be better suited. </p>
+        <p>Now, partner. </p>
+        <p>Let us send this world back into the abyss. </p>
+                <decision type="erase">ERASE </decision>
+                <decision type="dont">DO NOT </decision>
+                    <response convo="erase">Erase</response>
+        <p>Right. You are a great partner. </p>
+        <p>We’ll be together forever, won’t we?</p>
+                    <response convo="dont">Do Not</response>
+        <p>No…?</p>
+        <p>Hmm…</p>
+        <p>This feeling you have. </p>
+        <p>This is what I spoke of. </p>
+        <p>Unfortunately, regarding this…</p>
+        <p>YOU MADE YOUR CHOICE LONG AGO.</p>
+    </chara>
+    <location n="12">Abyss </location>
+               <decision>You Want To Go Back</decision>
+    <p>Interesting. </p>
+    <p>You want to go back. </p>
+    <p>You want to go back to the world you destroyed. </p>
+    <p>It was you who pushed everything to its edge. </p>
+    <p>It was you who led the world to its destruction. </p>
+    <p>But you cannot accept it. </p>
+    <p>You think you are above consequences.</p>
+              <decision type="yes">YES </decision>
+              <decision type="no">NO</decision>
+                  <response convo="yes">Yes.</response>
+    <p>Exactly</p>
+                  <response convo="no">No. </response>
+    <p>Then what are you looking for?</p>
+    <p>Perhaps.</p>
+    <p>We can reach a compromise. </p>
+    <p>You still have something I want. </p>
+    <p>Give it to me. </p>
+    <p>And I will bring this world back. </p>
+              <decision type="yes">YES </decision>
+              <decision type="no">NO</decision>
+                  <response convo="yes">Yes </response>
+    <p>Then it is agreed. </p>
+                  <response convo="no">No</response>
+    <p>Then stay here for all eternity. </p>
+    <p>You will give me your SOUL.</p>
+              <decision type="yes">YES </decision>
+              <decision type="no">NO</decision>
+                  <response convo="yes">Yes</response>
+    <p>…</p>
+    <p>Then, it is done. </p>
+                  <response convo="no">No</response>
+    <p>Then stay here for all eternity. </p>
+</script>
