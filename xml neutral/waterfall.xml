@@ -29,10 +29,57 @@
                 <box n="13">*i'm going to grillby's.
                 *wanna come?
                 <choice>Yeah    I'm busy</choice></box>
-                <conditions></conditions>
+                <conditions choice="Yeah">
+                    <p speaker="sans">
+                        <box n="15">*OK. have fun.</box>
+                    </p>
+                </conditions>
+                <conditions choice ="I'm busy">
+                    <p speaker="sans">
+                     <box n="16">>
+                    *well, if you insist...
+                    *i'll pry myself away from my work</box></p>
+                    <box n="17">*over here.
+                    *i know a shortcut</box>
+                </conditions>
             </p>
         </conditions>
     </sansstation>
+    <fallingrocks>
+        <p speaker="signpost">
+                <box n="1">
+                    *(This is a box.) 
+                </box>
+                <box n="2">
+                    *(You canput an item in or take a item out.)
+                </box>
+                <box n="3">
+                    *(Why would you, though???)
+                    *(You can't use items when they're in the box!)
+                </box>
+                <box n="4">
+                    *(Sincerely, a box hater.)
+                </box>
+        </p>
+        <p speaker="box">
+            <box n="5">*Use the box?
+            <choice>Yes   No</choice></box>
+        </p>
+        <p speaker="echoflower">
+            <box n="6">*I swore I saw something...
+            *Behind that rushing water...</box>
+        </p>
+    </fallingrocks>
+    <tuturoom>
+        <p speaker="tutu">
+            <box n="1">*(There's a tutu lying on the ground here.)
+                </box>
+            <box n="2">
+                *(Will you take it?)
+                <choice>Take it    Leave it</choice>
+            </box>
+            <box n="3">*(You got the Old Tutu.)</box>
+    </p></tuturoom>
     <undynehouse>
             <p speaker="Papyrus">
                 <conditions route="neutral" killed="Undyne">
