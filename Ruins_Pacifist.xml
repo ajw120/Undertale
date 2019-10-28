@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script type="pacifist" location="Ruins">
+    <Bedrooms n="01" p="1" >*Still just you, Frisk.</Bedrooms>
+    <TorielsRoom n="02" p="1">* (Who knows what the future holds for Chairel.)</TorielsRoom>
+    <TorielsRoom n="02" p="2">* (Earlier, you identified this as bigger than a twin-sized bed.)</TorielsRoom>
+    <TorielsRoom n="02" p="3">* (But now, you realize it's actually one size bigger than a double.)</TorielsRoom>
+    <TorielsRoom n="02" p="4">* It's not like this cactus was waiting for you to come back or anything...</TorielsRoom>
+    <AsrielsRoom n="03" p="1">* (It felt strange to lie in the bed.)</AsrielsRoom>
+    <AsrielsRoom n="03" p="2">* (It feels entirely too small for you now.)</AsrielsRoom>
+    <AsrielsRoom n="03" p="3">* (An empty photo frame.) * (Someone's dusted it off.)</AsrielsRoom>
+    <Kitchen n="04" p="1">* (Most of the pie is gone.) * (There are dog prints in it...)</Kitchen>
+    <FroggitNearToyKnife n="05" p="1">* Ribbit, ribbit. * (Seems like the RUINS have finally opned up.)</FroggitNearToyKnife>
+    <FroggitNearToyKnife n="05" p="2">* (Maybe we should finally go out to the rest of the underground.)</FroggitNearToyKnife>
+    <FroggitNearToyKnife n="05" p="3">* (Huh? The barrier's open, too...?)</FroggitNearToyKnife>
+    <FroggitNearToyKnife n="05" p="4">*(... let's just take this one step at a time, OK?)</FroggitNearToyKnife>
+    <FroggitHallway n="06" p="1">* Ribbit ribbit. * (Did you ever find this room's fourth frog?)</FroggitHallway>
+    <FroggitHallway n="06" p="2">* Ribbit, ribbit. * (Say...)</FroggitHallway>
+    <FroggitHallway n="06" p="3">* (Now that your journey's over, maybe you'll have time to listen to me.)</FroggitHallway>
+    <FroggitHallway n="06" p="4">* (Since most people just press [X] to skip through my dialogue.)</FroggitHallway>
+    <FroggitHallway n="06" p="5">* (That's right.......) * (Pressing [X]............) * (................)</FroggitHallway>
+    <FroggitHallway n="06" p="6A">* (You've really matured, haven't you?)</FroggitHallway>
+    <FroggitHallway n="06" p="6B">* (... I suppose some things never change.)</FroggitHallway>
+    <SecondRockPuzzle n="07" p="1">* The exit's open? * Guess I better roll out...</SecondRockPuzzle>
+    <SecondRockPuzzle n="07" p="2">* Hey, y'mind giving me a push, pumpkin?</SecondRockPuzzle>
+    <CheeseRoom n="08" p="1" determination="saveScreen">* (Looks like cheese has a nibble taken out of it.)</CheeseRoom>
+    <LeafPileSaveRoom n="09" p="1" determination="saveScreen">* Ribbit, ribbit. * (Excuse me, human)</LeafPileSaveRoom>
+    <LeafPileSaveRoom n="09" p="2" determination="saveScreen">* (You seem like you have grown into a thoughtful and conscientious person.)</LeafPileSaveRoom>
+    <LeafPileSaveRoom n="09" p="3" determination="saveScreen">* (Whether that was from my advice or not...) * (I'm quite proud.)</LeafPileSaveRoom>
+    <LeafPileSaveRoom n="09" p="4" determination="saveScreen">* Ribbit.</LeafPileSaveRoom>
+    <GoldenFlowers n="10" p="1">* Don't worry about me.</GoldenFlowers>
+    <GoldenFlowers n="10" p="2">* Someone has to take care of these flowers.</GoldenFlowers>
+    <GoldenFlowers n="10" p="3">* Frisk, please leave me alone.</GoldenFlowers>
+    <GoldenFlowers n="10" p="4">* I can't come back. * I just can't, OK?</GoldenFlowers>
+    <GoldenFlowers n="10" p="5">* I don't want to break their hearts all over again.</GoldenFlowers>
+    <GoldenFlowers n="10" p="6">* It's better if they never see me.</GoldenFlowers>
+    <GoldenFlowers n="10" p="7">* ... why are you still here?</GoldenFlowers>
+    <GoldenFlowers n="10" p="8">* Are you trying to keep me company?</GoldenFlowers>
+    <GoldenFlowers n="10" p="9">* Frisk...</GoldenFlowers>
+    <GoldenFlowers n="10" p="10">* ...</GoldenFlowers>
+    <GoldenFlowers n="10" p="11">* Hey.</GoldenFlowers>
+    <GoldenFlowers n="10" p="12">* Let me ask you a question.</GoldenFlowers>
+    <GoldenFlowers n="10" p="13">* Frisk... * Why did you come here?</GoldenFlowers>
+    <GoldenFlowers n="10" p="14">* Everyone knows the legend, right...?</GoldenFlowers>
+    <GoldenFlowers n="10" p="15">* "Travellers who climb Mt. Ebott are said to disappear."</GoldenFlowers>
+    <GoldenFlowers n="10" p="16">* ...</GoldenFlowers>
+    <GoldenFlowers n="10" p="17">* Frisk.</GoldenFlowers>
+    <GoldenFlowers n="10" p="18">* Why would you ever climb a mountain like that?</GoldenFlowers>
+    <GoldenFlowers n="10" p="19">* Was it foolishness?</GoldenFlowers>
+    <GoldenFlowers n="10" p="20">* Was it fate?</GoldenFlowers>
+    <GoldenFlowers n="10" p="21">* Or was it... * Because you...?</GoldenFlowers>
+    <GoldenFlowers n="10" p="22">* Well.</GoldenFlowers>
+    <GoldenFlowers n="10" p="23">* Only you know the answer, don't you...?</GoldenFlowers>
+    <GoldenFlowers n="10" p="24">* I know why Chara climbed the mountain.</GoldenFlowers>
+    <GoldenFlowers n="10" p="25">* It wasn't for a very happy reason.</GoldenFlowers>
+    <GoldenFlowers n="10" p="26">* Frisk. * I'll be honest with you.</GoldenFlowers>
+    <GoldenFlowers n="10" p="27">* Chara hated humanity.</GoldenFlowers>
+    <GoldenFlowers n="10" p="28">* Why htey did, they never talked about it.</GoldenFlowers>
+    <GoldenFlowers n="10" p="29">* But they felt very strongly about that.</GoldenFlowers>
+    <GoldenFlowers n="10" p="30">* Frisk... * You really ARE different from Chara.</GoldenFlowers>
+    <GoldenFlowers n="10" p="31">* In fact, though you have similar, uh, fashion choices...</GoldenFlowers>
+    <GoldenFlowers n="10" p="32">* I don't know why I ever acted like you were the same person.</GoldenFlowers>
+    <GoldenFlowers n="10" p="33">* Maybe... * The truth is...</GoldenFlowers>
+    <GoldenFlowers n="10" p="34">* Chara wasn't really the greatest person.</GoldenFlowers>
+    <GoldenFlowers n="10" p="35">* While, Frisk...</GoldenFlowers>
+    <GoldenFlowers n="10" p="36">* You're the type of friend I wish I always had.</GoldenFlowers>
+    <GoldenFlowers n="10" p="37">* So maybe I was kind of projecting a little bit.</GoldenFlowers>
+    <GoldenFlowers n="10" p="38">* Let's be honest * I did some weird stuff as a flower.</GoldenFlowers>
+    <GoldenFlowers n="10" p="39">* There's one last thing I feel like I should tell you.</GoldenFlowers>
+    <GoldenFlowers n="10" p="40">* Frisk, when Chara and I combined our SOULs together...</GoldenFlowers>
+    <GoldenFlowers n="10" p="41">* The control over our body was actually split between us.</GoldenFlowers>
+    <GoldenFlowers n="10" p="42">* They were the one that picked up their own empty body.</GoldenFlowers>
+    <GoldenFlowers n="10" p="43">* And then, when we got to the village...</GoldenFlowers>
+    <GoldenFlowers n="10" p="44">* They were the one that wanted to...</GoldenFlowers>
+    <GoldenFlowers n="10" p="45">* ... to use our full power.</GoldenFlowers>
+    <GoldenFlowers n="10" p="46">* I was the one that resisted.</GoldenFlowers>
+    <GoldenFlowers n="10" p="47">* And then, because of me, we...</GoldenFlowers>
+    <GoldenFlowers n="10" p="48">* Well, that's why I ended up a flower.</GoldenFlowers>
+    <GoldenFlowers n="10" p="49">* Frisk...</GoldenFlowers>
+    <GoldenFlowers n="10" p="50">* This whole time, I've blamed myself for that decision.</GoldenFlowers>
+    <GoldenFlowers n="10" p="51">* That's why I adopted that horrible view of the world</GoldenFlowers>
+    <GoldenFlowers n="10" p="52">* "Kill or be killed."</GoldenFlowers>
+    <GoldenFlowers n="10" p="53">* But now... * After meeting you...</GoldenFlowers>
+    <GoldenFlowers n="10" p="54">* Frisk, I don't regret that decision anymore.</GoldenFlowers>
+    <GoldenFlowers n="10" p="55">* I did the right thing.</GoldenFlowers>
+    <GoldenFlowers n="10" p="56">* If I killed those humans...</GoldenFlowers>
+    <GoldenFlowers n="10" p="57">* We would have had to wage war against all of humanity.</GoldenFlowers>
+    <GoldenFlowers n="10" p="58">* And in the end, everyone went free, right?</GoldenFlowers>
+    <GoldenFlowers n="10" p="59">* I sitll feel kind of sad knowing how long it took...</GoldenFlowers>
+    <GoldenFlowers n="10" p="60">* ... so maybe it wasn't a perfect decision.</GoldenFlowers>
+    <GoldenFlowers n="10" p="61">* But you can't regret hard choices your whole life, right?</GoldenFlowers>
+    <GoldenFlowers n="10" p="62">* Well, not that I have much of a life left.</GoldenFlowers>
+    <GoldenFlowers n="10" p="63">* But that's besides the point.</GoldenFlowers>
+    <GoldenFlowers n="10" p="64">* Frisk, thank you for listening to me.</GoldenFlowers>
+    <GoldenFlowers n="10" p="65">* You should really go be with your friends now, OK?</GoldenFlowers>
+    <GoldenFlowers n="10" p="66">* Oh, and, please...</GoldenFlowers>
+    <GoldenFlowers n="10" p="67">* In the future, if you uh, see me...</GoldenFlowers>
+    <GoldenFlowers n="10" p="68">* Don't think of it as me, OK?</GoldenFlowers>
+    <GoldenFlowers n="10" p="69">* I just want you to remember me like this.</GoldenFlowers>
+    <GoldenFlowers n="10" p="70">* Someone that was your friend for a little while.</GoldenFlowers>
+    <GoldenFlowers n="10" p="71">* Oh, and Frisk...</GoldenFlowers>
+    <GoldenFlowers n="10" p="72">* Be careful in the outside world, OK?</GoldenFlowers>
+    <GoldenFlowers n="10" p="73">* Despite what everyone thinks, it's not as nice as it is here.</GoldenFlowers>
+    <GoldenFlowers n="10" p="74">* There are a lot of Floweys out there.</GoldenFlowers>
+    <GoldenFlowers n="10" p="75">* And not everything can be resolved by just being nice.</GoldenFlowers>
+    <GoldenFlowers n="10" p="76">* Frisk...</GoldenFlowers>
+    <GoldenFlowers n="10" p="77">* Don't kill, and don't be killed alright?</GoldenFlowers>
+    <GoldenFlowers n="10" p="78">* That's the best you can strive for.</GoldenFlowers>
+    <GoldenFlowers n="10" p="79">* Well, see you.</GoldenFlowers>
+    <GoldenFlowers n="10" p="80">* Frisk...</GoldenFlowers>
+    <GoldenFlowers n="10" p="81">* Don't you have anything better to do?</GoldenFlowers>
+    
+    
+    
+</script>
