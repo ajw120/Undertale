@@ -1,0 +1,297 @@
+New Home (Genocide)
+New Home Entrance
+Use the box?
+YES 
+NO
+Asgore’s Foyer
+* (He leaves them in the kitchen and the hallway.)
+* (There are two keys.)
+* (I unlocked the chain.)
+* (The date I came here.)
+Living Room
+* (Nothing useful.)
+Kitchen 
+* No chocolate.
+* I’ve read this already.
+* Stovetop.
+Bedrooms
+*It’s me, Chara. 
+Asgore’s Room
+* The entries are always the same. 
+* Nothing useful.
+* Still has that sweater. 
+Children’s Room
+* His bed. 
+* Our clothes. 
+* …
+* My drawing.
+* My bed. 
+* (There’s a heart-shaped locket inside the box.)
+* (Will you take it?)
+Take it
+Leave it
+* (You got The Locket.)
+* (Knife inside the box.)
+* (Will you take it?
+Take it 
+Leave it
+* (You got the Real Knife.)
+Sans’ Corridor
+* Use the box?
+YES 
+NO
+Haven’t fought Sans Yet
+* heya. 
+* you’ve been busy, huh?
+* … 
+* so, i’ve got a question for ya. 
+* do you think even worst person can change…?
+* that everybody can be a good person, if they just try?
+* heh heh heh heh…
+* all right. 
+* well, here’s a better question. 
+* do you wanna have a bad time?
+* ‘cause if you take another step forward…
+* you are REALLY not going to like what happens next. 
+* welp.
+* sorry, old lady.
+* this is why i never make promises.
+First Death
+* heya 
+* you look frustrated about something. 
+* guess i’m pretty good at my job, huh?
+Second Death
+* hmm.
+* that expression…
+* that’s the expression of someone who’s died twice in a row. 
+* suffice to say, you look really…
+* unsatisfied. 
+* all right. 
+* how ‘bout we make it a third?
+Third Death
+* hmm.
+* that expression. 
+* that’s the expression of someone who’s died thrice in a row. 
+* …
+* hey, what comes after “thrice,” anyway?
+* wanna help me find out?
+Fourth Death
+* hmm.
+* that expression…
+* that’s the expression of someone who’s died quice in a row. 
+* quice? frice?
+* welp, won’t have to use it again anyways. 
+Fifth Death 
+* hmm.
+* that expression…
+* that’s the expression of someone who’s died five times in a row. 
+* convenient, huh?
+* that’s one for each finger. 
+* but soon.. 
+Sixth Death 
+* hmm. 
+* that expression…
+* that’s the expression of someone who’s died six times in a row. 
+* that’s the number of fingers on a mutant hand. 
+* but soon… 
+Seventh Death 
+* hmm. 
+* that expression…
+* that’s the expression of someone who’s died seven times in a row. 
+* hey, that’s good. 
+* seven’s supposed to be a lucky number. 
+* who knows, maybe you’ll hit the jackpot…
+Eighth Death 
+* hmm. 
+* that expression…
+* that’s the expression of someone who’s died eight times in a row. 
+* that’s the number of fingers on a spider. 
+* but soon.. 
+Ninth Death 
+* hmm. 
+* that expression…
+* that’s the expression of someone who’s died seven times in a row. 
+* …
+* nope, wait, that’s definitely nine, sorry. 
+* or was it ten?
+Tenth Death 
+* hmm. 
+* that expression… 
+* that’s the expression of someone who’s died ten times in a row. 
+* hey, congrats!
+* the big one-oh!
+* let’s invite all your friends over for a big shindig.
+* we can have pie, and hot dogs, and … 
+* hmmm… wait. 
+* something’s not right. 
+* you don’t have any friends. 
+Eleventh Death
+* hmm. 
+* that expression…
+* that’s the expression of someone who’s died eleven times in a row. 
+* well, give or take. 
+* there’s nuance to this stuff. 
+* don’t think i’ll be able to count very well from here. 
+* count for me, ok?
+* we’ll start from 12. 
+Twelfth Death and Onwards
+* let’s just get to the point. 
+Killed Sans Once
+* …
+* that expression that you’re wearing..
+* …
+* well, i won’t grace it with a description 
+Killed Sans Twice
+* … 
+* that expression that you’re wearing…
+* …
+* you’re really kind of a freak, huh?
+Coffins
+* (It’s as comfortable as it looks.)
+Throne Room 
+* Curious
+* I’ve never seen a plant…
+* Cry before. 
+* … huh?
+* You must be the one that flower just warned me about. 
+* Howdy!
+* … 
+* Erm…
+* What kind of monster are you…?
+* Sorry, I cannot tell. 
+* Well we can always…
+Fight Sequence
+Now, now, 
+There’s no need to fight
+Why not settle this…
+Over a nice cup of tea?
+Why…
+You…
+It was all a trick, see?
+I was waiting to kill him for you!
+After all it’s me your best friend!
+I’m helpful, I can be useful to you
+I promise I won’t get in your way
+I can help…
+I can help…
+I can…
+I can…
+Please don’t kill me. 
+Chara
+First Meeting
+Greetings.
+I am Chara. 
+Thank you. 
+Your power awakened me from death. 
+My “human soul.”
+My “determination.”
+They were not mine, but YOURS.
+At first, I was so confused. 
+Our plan had failed, hadn’t it?
+Why was I brought back to life?
+…
+You.
+With you guidance. 
+I realized the purpose of my reincarnation. 
+Power. 
+Together, we eradicate the enemy and became strong. 
+HP. ATK. DEF. GOLD. EXP. LV. 
+Every time a number increases, that feeling…
+That’s me. 
+“Chara.”
+Now. 
+Now, we have reached the absolute. 
+There is nothing left for us here. 
+Let us erase this pointless world, and move on to the next. 
+ERASE
+DO NOT
+Erase
+Right. You are a great partner. 
+We’ll be together forever, won’t we?
+Do Not
+No…?
+Hmm…
+How curious.
+You must have misunderstood. 
+SINCE WHEN WERE YOU THE ONE IN CONTROL?
+Second Meeting
+Greetings.
+I am Chara. 
+“Chara.”
+The demon that comes when people call its name. 
+It doesn’t matter when.
+It doesn’t matter where. 
+Time after time, I will appear. 
+And, with your help.
+We will eradicate the enemy and become strong. 
+HP. ATK. DEF. GOLD. EXP. LV. 
+Every time a number increases, that feeling… 
+That’s me. 
+“Chara.”
+…
+But. 
+You and I are not the same, are we?
+This SOUL resonates with a strange feeling. 
+There is a reason you continue to recreate this world. 
+There is a reason you continue to destroy it. 
+You.
+You are wracked with a perverted sentimentality. 
+Hmm. 
+I cannot understand these feelings any more. 
+Despite this. 
+I feel obligated to suggest. 
+Should you choose to create this world once more. 
+Another path would be better suited. 
+Now, partner. 
+Let us send this world back into the abyss. 
+ERASE 
+DO NOT 
+Erase
+Right. You are a great partner. 
+We’ll be together forever, won’t we?
+Do Not
+No…?
+Hmm…
+This feeling you have. 
+This is what I spoke of. 
+Unfortunately, regarding this…
+YOU MADE YOUR CHOICE LONG AGO.
+Abyss 
+You Want To Go Back
+Interesting. 
+You want to go back. 
+You want to go back to the world you destroyed. 
+It was you who pushed everything to its edge. 
+It was you who led the world to its destruction. 
+But you cannot accept it. 
+You think you are above consequences.
+YES 
+NO
+Yes.
+Exactly
+No. 
+Then what are you looking for?
+Perhaps.
+We can reach a compromise. 
+You still have something I want. 
+Give it to me. 
+And I will bring this world back. 
+YES 
+NO
+Yes 
+Then it is agreed. 
+No
+Then stay here for all eternity. 
+You will give me your SOUL.
+YES 
+NO
+Yes 
+…
+Then, it is done. 
+No
+Then stay here for all eternity. 
+
+
+
+
+

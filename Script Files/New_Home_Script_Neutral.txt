@@ -1,0 +1,286 @@
+New Home (Neutral)
+Castle Elevator 
+*(The elevator is in use.)
+Asgore’s Foyer
+*(It’s a golden flower.)
+*(The way is blocked by two padlocks.)
+*(There’s a note attached.)
+*(Howdy! I’m in the garden.)
+*(If you have anything you need to get off your chest, please don’t hesitate to come.)
+*(The keys are in the kitchen and the hallway.)
+*(You’ll need both keys to get through.)
+*(You unlocked the chain.)
+*(There’s an old calendar from the end of 201X.)
+*(A date is circled on it.)
+Living Room 
+*Seems like gardening tools.
+*(There are photo albums…)
+*(Scrapbooks…)
+*(Books on how to make tea…)
+*The coals are still warm.
+*(It’s a great reading chair.)
+*(But it doesn’t seem like anyone uses it.)
+*It’s a golden flower. 
+Kitchen 
+*(The fridge is full of unopened containers of snails.)
+*(There is some white fur stuck in the drain.)
+*(It’s a note.)
+*Howdy! Help yourself to anything you want!
+*(You took the key and put it on your phone’s key-chain.)
+*(The stove top is very clean.)
+*(Someone must use fire magic instead.)
+*(It’s a trash can.)
+*(It’s full of crumpled-up recipes for butterscotch pie.)
+Bedrooms
+*It’s a golden flower.
+*It’s a golden flower.
+*It’s a golden flower.
+*”Room under renovations.”
+*(You took the key and put it on your phone’s keychain.)
+*Despite everything, it’s still you. 
+*It’s a golden flower. 
+Asgore’s Room
+*(It’s ASGORE’s journal.)
+*(All the current page says is ‘Nice day today!’)
+*(The ink is still almost wet.)
+*(It’s just a chair.)
+*(It’s a king-sized bed.)
+*(Macaroni art of a flower.)
+*(‘For King Dad!’)
+*It’s a bureau.
+*There’s a Santa Claus outfit inside.
+*It’s a clothes drawer. 
+*There are robes, button-up shirts…
+*… and a pink, hand-knit sweater that says ‘Mr. Dad Guy.’)
+*(It’s a trophy.)
+*(Number 1 Nose-Nuzzle Champs ’98!)
+Children’s Room
+*(Dusty toys.)
+*(It’s a twin-sized bed.)
+*(There are a lot of striped shirts in here.)
+*(It’s a family photograph.)
+*(Everyone is smiling.)
+*(It’s a drawing of a golden flower.)
+*(What a comfortable bed.)
+*(If you laid down here, you might not ever get up.)
+*(You’re carrying too much.)
+*(There’s a worn dagger inside the box.)
+*(Will you take it?)
+TAKE IT 
+LEAVE IT 
+*(You got the Worn dagger.)
+*(There’s a heart-shaped locket inside the box.)
+*(Will you take it?)
+TAKE IT
+LEAVE IT
+*(You got the Heart-shaped Locket.)
+*(The box is empty.)
+*(The box is empty.)
+Coffins 
+*(It’s a coffin.)
+*(There’s a name engraved on it.)
+*(“Chara” “Player’s Name.”)
+*(It’s empty.)
+Judgment Hall 
+*So you finally made it. 
+*The end of your journey is at hand. 
+*In a few moments, you will meet the king.
+*Together… 
+*You will determine the future of this world. 
+*That’s then. 
+*Now. 
+*You will be judged.
+*You will be judged for your every action. 
+*You will be judged for every EXP you’ve earned. 
+*What’s EXP?
+*It’s an acronym.
+*It stands for “execution points.”
+*A way of quantifying the pain you have inflicted on others. 
+*When you kill someone, your EXP increases. 
+*When you have enough EXP, you LOVE increases. 
+*LOVE, too, is an acronym. 
+*It stands for “Level of Violence.”
+*A way of measuring someone’s capacity to hurt. 
+*The more you kill, the easier it becomes to distance yourself. 
+*The more you distance yourself, the less you will hurt. 
+*The more easily you can bring yourself to hurt others. 
+*Now you understand. 
+*It’s time to begin your judgment. 
+*Look inside yourself.
+*Have you really done the right thing?
+*And, considering what you’ve done… 
+*What will you do now?
+*Take a moment to think about this. 
+*…
+*Truthfully, it doesn’t really matter what you said. 
+*all that’s important is that you were honest with yourself. 
+*what happens now…
+*we leave up to you. 
+PAPYRUS IS KILLED 
+*though
+*one thing about you always struck me as kinda odd.
+*now, I understand acting in self defense 
+*you were thrown into those situations against your will
+*but
+*sometimes…
+*you act like you know what’s going to happen
+*like you’ve already experienced it all before. 
+*this is an odd thing to say, but…
+*if you have some sort of special power…
+*isn’t it your responsibility to do the right thing?
+YES
+NO
+NO
+*heh.
+*well, that’s your viewpoint. 
+*I won’t judge you for it. 
+*…
+*You dirty brother killer.
+YES
+*ah. 
+*I see. 
+*…
+*Then why’d you kill my brother?
+Reset	
+Looked Bored
+*huh?
+*you look bored. 
+* i get the feeling you aren’t gonna learn anything from this.
+*well, guess i gotta judge you then. 
+LVL 1 WITH EXP
+*come on. really?	
+LVL 2
+*lv2…
+*seems like you messed up the slightest amount. 
+*welp.
+*that’s pretty sad.
+*you probably weren’t even aware of what you were doing...
+*and when you learned, it was too late. 
+*nah, just kidding.
+*who gets lv2 on accident?
+*get outta here. 
+LVL 3
+*lv3…
+*3’s just an ok number, i guess.
+*I’ll give you a C+.
+*you can do better, right?
+LVL 4-9
+*hmmm…
+*over lv3, huh.
+*you killed some people on purpose, didn’t you?
+*that’s probably bad. 
+*though, maybe some of it was in self-defense…
+*I don’t know. 
+*help me out here. 
+*I wasn’t watching. 
+*anyways, don’t do that. 
+LVL 10-14
+*hmmm…
+*over lv9, huh.
+*that’s over halfway to lv20, the maximum
+*but don’t think that means you’re still 50-percent good. 
+*50-percent. 20-percent.
+*those are still failing grades. 
+*besides.
+*chances are…
+*I’ve already tried to steer you in the right direction. 
+*so what can I say?
+*what can I say that will change the mind of a being like you…?
+*hmmm…
+*over lv14, huh.
+*well, hmmm…
+*judgment-wise…
+*you’re a pretty bad person. 
+*you wander around, looking for people?
+*killing them to take their money.
+*that’s just plain messed up.
+*and what’s worse, is that as bad as you are…
+*you aren’t anywhere near as bad as you could be. 
+*you pretty much suck at being evil 
+*honestly, it’s super embarrassing.
+*but maybe you’d better…
+*at not killing anyone?
+*crazy idea, huh?
+*let me know how that one goes.
+Reset Again
+*huh?
+*you look bored.
+*I get the feeling you aren’t gonna learn anything from this.
+*well,  guess I judge you then.
+*huh?
+*you STILL look bored.
+*okay then, consider our session over.
+Received Judgment, Reset Again, Raised LV By 1
+*huh?
+*what’s with that look in your eye?
+*did you go through and kill someone…
+*wow.
+*you’re a pretty gross person, huh?
+Receive 1st Judgment With LV2+, Reset For Custom Judgment, Reset Again, and Get Judgment With LV1
+*come on.
+*really?
+Throne Room Entrance
+*Throne Room
+Throne Room 
+*Dum deed um…
+*Oh?
+*Is someone there?
+*Just a moment!
+*I have almost finished watering these flowers. 
+*…Here we are!
+*Howdy!
+*How can I…
+*Oh. 
+*…
+*I so badly want to say, “would you like a cup of tea?”
+*But…
+*You know how it is.
+*Nice day today, huh?
+*Birds are singing, flowers are blooming…
+*Perfect weather for a game of catch. 
+*…
+*You know what we must do.
+*When you are ready, come into the next room.
+*(It’s a throne.)
+*(It’s another throne covered by a white sheet.)  
+The End
+*How tense…
+*Just think of it like…
+*A visit to the dentist.
+*Are you ready?
+*If you are not, I understand. 
+*I am not ready either. 
+Barrier
+*This is the barrier. 
+*This is what keeps us all trapped underground.
+*…
+*If…
+*If by chance you have any unfinished business…
+*Please do what you must. 
+CONTINUE OR READY
+GO BACK 
+CONTINUE (READY)
+*…
+*… I see…
+*This is it, then.
+*Ready?
+GO BACK
+*I see. 
+*Anything you want to do is important enough.
+*Even something as small as reading a book, or taking a walk…
+*Please take your time. 
+*Oh.. 
+*Back so soon?
+*How are you feeling?
+GO BACK
+*I see. 
+*Do what you have to. 
+Floweytale
+Long ago, two races ruled over Earth: HUMANS and MONSTERS
+One day, they all disappeared without a trace. 
+Flowey’s Save File
+ Flowey LV9999 999:99
+My world 
+Continue 
+Restart
+
