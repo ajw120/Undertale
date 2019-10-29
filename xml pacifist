@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script type="pacifist" map="Ruins">
+    <p map="Ruins" place="Bedrooms" n="01" pg="1" >*Still just you, Frisk.</p>
+    <p map="Ruins" place="TorielsRoom" n="02" pg="1">* (Who knows what the future holds for Chairel.)</p>
+    <p map="Ruins" place="TorielsRoom" n="02" pg="2">* (Earlier, you identified this as bigger than a twin-sized bed.)</p>
+    <p map="Ruins" place="TorielsRoom" n="02" pg="3">* (But now, you realize it's actually one size bigger than a double.)</p>
+    <p map="Ruins" place="TorielsRoom" n="02" pg="4">* It's not like this cactus was waiting for you to come back or anything...</p>
+    <p map="Ruins" place="AsrielsRoom" n="03" pg="1">* (It felt strange to lie in the bed.)</p>
+    <p map="Ruins" place="AsrielsRoom" n="03" pg="2">* (It feels entirely too small for you now.)</p>
+    <p map="Ruins" place="AsrielsRoom" n="03" pg="3">* (An empty photo frame.) * (Someone's dusted it off.)</p>
+    <p map="Ruins" place="Kitchen" n="04" pg="1">* (Most of the pie is gone.) * (There are dog prints in it...)</p>
+    <p map="Ruins" place="FroggitNearToyKnife" n="05" pg="1">* Ribbit, ribbit. * (Seems like the RUINS have finally opned up.)</p>
+    <p map="Ruins" place="FroggitNearToyKnife" n="05" pg="2">* (Maybe we should finally go out to the rest of the underground.)</p>
+    <p map="Ruins" place="FroggitNearToyKnife" n="05" pg="3">* (Huh? The barrier's open, too...?)</p>
+    <p map="Ruins" place="FroggitNearToyKnife" n="05" pg="4">*(... let's just take this one step at a time, OK?)</p>
+    <p map="Ruins" place="FroggitHallway" n="06" pg="1">* Ribbit ribbit. * (Did you ever find this room's fourth frog?)</p>
+    <p map="Ruins" place="FroggitHallway" n="06" pg="2">* Ribbit, ribbit. * (Say...)</p>
+    <p map="Ruins" place="FroggitHallway" n="06" pg="3">* (Now that your journey's over, maybe you'll have time to listen to me.)</p>
+    <p map="Ruins" place="FroggitHallway" n="06" pg="4">* (Since most people just press [X] to skip through my dialogue.)</p>
+    <p map="Ruins" palce="FroggitHallway" n="06" pg="5">* (That's right.......) * (Pressing [X]............) * (................)</p>
+    <p map="Ruins" place="FroggitHallway" n="06" pg="6A">* (You've really matured, haven't you?)</p>
+    <p map="Ruins" place="FroggitHallway" n="06" pg="6B">* (... I suppose some things never change.)</p>
+    <p map="Ruins" place="SecondRockPuzzle" n="07" pg="1">* The exit's open? * Guess I better roll out...</p>
+    <p map="Ruins" place="SecondRockPuzzle" n="07" pg="2">* Hey, y'mind giving me a push, pumpkin?</p>
+    <p map="Ruins" place="CheeseRoom" n="08" pg="1" determination="saveScreen">* (Looks like cheese has a nibble taken out of it.)</p>
+    <p map="Ruins" place="LeafPileSaveRoom" n="09" pg="1" determination="saveScreen">* Ribbit, ribbit. * (Excuse me, human)</p>
+    <p map="Ruins" place="LeafPileSaveRoom" n="09" pg="2" determination="saveScreen">* (You seem like you have grown into a thoughtful and conscientious person.)</p>
+    <p map="Ruins" place="LeafPileSaveRoom" n="09" pg="3" determination="saveScreen">* (Whether that was from my advice or not...) * (I'm quite proud.)</p>
+    <p map="Ruins" place="LeafPileSaveRoom" n="09" pg="4" determination="saveScreen">* Ribbit.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="1">* Don't worry about me.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="2">* Someone has to take care of these flowers.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="3">* Frisk, please leave me alone.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="4">* I can't come back. * I just can't, OK?</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="5">* I don't want to break their hearts all over again.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="6">* It's better if they never see me.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="7">* ... why are you still here?</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="8">* Are you trying to keep me company?</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="9">* Frisk...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="10">* ...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="11">* Hey.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="12">* Let me ask you a question.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="13">* Frisk... * Why did you come here?</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="14">* Everyone knows the legend, right...?</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="15">* "Travellers who climb Mt. Ebott are said to disappear."</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="16">* ...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="17">* Frisk.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="18">* Why would you ever climb a mountain like that?</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="19">* Was it foolishness?</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="20">* Was it fate?</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="21">* Or was it... * Because you...?</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="22">* Well.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="23">* Only you know the answer, don't you...?</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="24">* I know why Chara climbed the mountain.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="25">* It wasn't for a very happy reason.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="26">* Frisk. * I'll be honest with you.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="27">* Chara hated humanity.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="28">* Why htey did, they never talked about it.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="29">* But they felt very strongly about that.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="30">* Frisk... * You really ARE different from Chara.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="31">* In fact, though you have similar, uh, fashion choices...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="32">* I don't know why I ever acted like you were the same person.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="33">* Maybe... * The truth is...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="34">* Chara wasn't really the greatest person.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="35">* While, Frisk...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="36">* You're the type of friend I wish I always had.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="37">* So maybe I was kind of projecting a little bit.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="38">* Let's be honest * I did some weird stuff as a flower.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="39">* There's one last thing I feel like I should tell you.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="40">* Frisk, when Chara and I combined our SOULs together...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="41">* The control over our body was actually split between us.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="42">* They were the one that picked up their own empty body.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="43">* And then, when we got to the village...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="44">* They were the one that wanted to...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="45">* ... to use our full power.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="46">* I was the one that resisted.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="47">* And then, because of me, we...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="48">* Well, that's why I ended up a flower.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="49">* Frisk...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="50">* This whole time, I've blamed myself for that decision.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="51">* That's why I adopted that horrible view of the world</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="52">* "Kill or be killed."</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="53">* But now... * After meeting you...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="54">* Frisk, I don't regret that decision anymore.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="55">* I did the right thing.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="56">* If I killed those humans...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="57">* We would have had to wage war against all of humanity.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="58">* And in the end, everyone went free, right?</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="59">* I sitll feel kind of sad knowing how long it took...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="60">* ... so maybe it wasn't a perfect decision.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="61">* But you can't regret hard choices your whole life, right?</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="62">* Well, not that I have much of a life left.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="63">* But that's besides the point.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="64">* Frisk, thank you for listening to me.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="65">* You should really go be with your friends now, OK?</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="66">* Oh, and, please...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="67">* In the future, if you uh, see me...</p>
+    <p map="Ruins" place="GoldenFlowers" pg="68">* Don't think of it as me, OK?</p>
+    <p map="Ruins" place="GoldenFlowers" pg="69">* I just want you to remember me like this.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="70">* Someone that was your friend for a little while.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="71">* Oh, and Frisk...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="72">* Be careful in the outside world, OK?</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="73">* Despite what everyone thinks, it's not as nice as it is here.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="74">* There are a lot of Floweys out there.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="75">* And not everything can be resolved by just being nice.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="76">* Frisk...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="77">* Don't kill, and don't be killed alright?</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="78">* That's the best you can strive for.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="79">* Well, see you.</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="80">* Frisk...</p>
+    <p map="Ruins" place="GoldenFlowers" n="10" pg="81">* Don't you have anything better to do?</p>
+    
+    
+    
+</script>
