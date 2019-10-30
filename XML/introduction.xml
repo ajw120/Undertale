@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Intro SepiaTonedMemories="beginning">
+    <title>Undertale</title>
+    <p n="1">Story A long time ago, two races ruled peacefully over the Earth: HUMANS and
+        MONSTERS.</p>
+    <p n="2">One day, a terrible war broke out between the two races.</p>
+    <p n="3">After a long battle, the humans were victorious.</p>
+    <p n="4">They sealed the monsters underground with a magical spell.</p>
+    <p n="5">Many years later...</p>
+    <p n="6">MT. Ebbot 201X</p>
+    <p n="7">Legends say that those who climb the mountain never return.</p>
+    <p n="8">Seeking refuge from the rainy weather, the child enters a cave and discovers an
+        enormous hole.</p>
+    <p>Moving closer to get a better look…</p>
+    <p n="9">the child falls in.</p>
+    <p n="10">Now, our story begins.</p>
+    <title>Instruction</title>
+    <instruction>
+        <command Confirm="ZorEnter">[Z or ENTER] – Confirm</command>
+        <command Cancel="XorShift">[X or SHIFT] – Cancel</command>
+        <command In-GameMenu="CorControl">[C or CONTROL] – Menu (In-Game)</command>
+        <command Fullscreen="F4">[F4] – Fullscreen</command>
+        <command Quit="HoldEsc">[Hold ESC] – Quit</command>
+        <GameOver lose="HP0">When HP is 0, you lose.</GameOver>
+    </instruction>
+    <spkr ref="#game">Name the Fallen Human (Name’s Allowed) (Non-Special Names)</spkr>
+    <forbidden-names-list>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">AAAAAA</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">Not very creative…?</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Mercy</spkr>
+                <spkr ref="#player">Murder</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">That’s a little on-the-nose, isn’t it?</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Drak</spkr>
+                <spkr ref="#player">Gigi</spkr>
+                <spkr ref="#player">Gugu</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">Is this name correct? {Fights Fsteak}</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Frisk</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">WARNING: This name will make your life hell. Proceed anyway?</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Napsta</spkr>
+                <spkr ref="#player">Blooky</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">……….. (They’re powerless to stop you.)</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Papyru</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">I'LL ALLOW IT!!!!</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Jerry</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">Jerry.</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Woshua</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">Clean name.</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Aaron</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">Is this name correct? ;)</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Shyren</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">...?</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Gerson</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">Wah ha ha! Why not?</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Temmie</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">hOI!</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Alphy</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">Uh…. OK?</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Metta</spkr>
+                <spkr ref="#player">Mett</spkr>
+                <spkr ref="#player">Mtt</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">OOOOH!!! ARE YOU PROMOTING MY BRAND?</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Catty</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">Bratty! Bratty! That’s MY name!</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Bratty</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">Like, OK I guess.</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Bpants</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">You are really scraping the bottom of the barrel.</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Chara</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">The true name. (Names not allowed)</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Flowey</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">I already CHOSE that name.</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Toriel</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">I think you should think of your own name, my child.</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Sans</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">nope.</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Undyne</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">Get your OWN name!</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Alphys</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">D-don’t do that.</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Asgore</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">You cannot.</spkr>
+            </output>
+        </forbidden-name>
+        <forbidden-name>
+            <input>
+                <spkr ref="#player">Asriel</spkr>
+            </input>
+            <output>
+                <spkr ref="#game">...</spkr>
+            </output>
+        </forbidden-name>
+    </forbidden-names-list>
+</Intro>

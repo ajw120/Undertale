@@ -1,0 +1,95 @@
+Character Reference
+
+Game
+    id="game"
+    ref="#game"
+Player
+    id="player"
+    ref="#player"
+Mercy
+    id="mercy"
+    ref="#mercy"
+Murder
+    id="murder"
+    ref="#murder"
+Drak
+    id="drak"
+    ref="#drak"
+Gigi
+    id="gigi"
+    ref="#gigi"
+Gugu
+    id="gugu"
+    ref="#gugu"
+Frisk
+    id="frisk"
+    ref="#frisk"
+Napsta
+    id="napsta"
+    ref="#napsta"
+Blooky
+    id="blooky"
+    ref="#blooky"
+Papyru
+    id="papyru"
+    ref="#papyru"
+Jerry
+    id="jerry"
+    ref="#jerry"
+Woshua
+    id="woshua"
+    ref="#woshua"
+Aaron
+    id="aaron"
+    ref="#aaron"
+Shyren
+    id="shyren"
+    ref="#shyren"
+Gerson
+    id="gerson"
+    ref="#gerson"
+Temmie
+    id="temmie"
+    ref="#temmie"
+Alphy
+    id="alphy"
+    ref="#alphy"
+Metta
+    id="metta"
+    ref="#metta"
+Mett
+    id="mett"
+    ref="#mett"
+Catty
+    id="catty"
+    ref="#catty"
+Bratty
+    id="bratty"
+    ref="#bratty"
+Bpants
+    id="bpants"
+    ref="#bpants"
+Chara
+    id="chara"
+    ref="#chara"
+Flowey
+    id="flowey"
+    ref="#flowey"
+Toriel
+    id="toriel"
+    ref="#toriel"
+Sans
+    id="sans"
+    ref="#sans"
+Undyne
+    id="undyne"
+    ref="#undyne"
+Alphys
+    id="alphys"
+    ref="#alphys"
+Asgore
+    id="asgore"
+    ref="#asgore"
+Asriel
+    id="asriel"
+    ref="#asriel"
