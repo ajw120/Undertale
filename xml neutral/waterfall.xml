@@ -1,111 +1,373 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Waterfall>
-    <sansstation>
-        <conditions route="neutral">
-            <p speaker="monsterkid">
-                <box n="1">*Yo! 
-                    *Are you sneaking out to see her, too?</box>
-                <box n="2">*Awesome... 
-                    *She's the coolest, right!?</box>
-                <box n="3">*I wanna be just like her when I grow up...</box>
-                <box n="4">*Hey, don't tell my parents I'm here.
-                    *Ha ha.</box>
-                <box n="5">*OK, I'm ready when you are.</box></p>
-              <p speaker="echoflowerexplainer">
-                  <box n="6">*This is an Echo Flower. 
-                      *It repeats the last thing it heard, over and over...</box>
-                  <conditions talkedtoonce="echoflower"></conditions>
+<waterfall>
+    <overworld>
+        <sansstation>
+            <conditions route="neutral">
+                <p speaker="monsterkid">
+                    <box n="1">*Yo! *Are you sneaking out to see her, too?</box>
+                    <box n="2">*Awesome... *She's the coolest, right!?</box>
+                    <box n="3">*I wanna be just like her when I grow up...</box>
+                    <box n="4">*Hey, don't tell my parents I'm here. *Ha ha.</box>
+                    <box n="5">*OK, I'm ready when you are.</box>
+                </p>
+                <p speaker="echoflowerexplainer">
+                    <box n="6">*This is an Echo Flower. *It repeats the last thing it heard, over
+                        and over...</box>
+                    <conditions talkedtoonce="echoflower"/>
                     <box n="8">*Neat, huh?</box>
-              </p><p speaker="echoflower">
-                  <box n="7">*This is an Echo Flower. 
-                      *It repeats the last thing it heard, over and over...</box></p>
-              <p speaker ="determination">
-                  <box n="9">*(The sound of rushing water fills you with determination)</box>
-              </p>
-            <p speaker="sans">
-                <box n="11">*what? 
-                    *haven't you seen a guy with two jobs before?</box>
-                <box n ="12">*fortunately, two jobs means twice as many legally-required breaks.</box>
-                <box n="13">*i'm going to grillby's.
-                *wanna come?
-                <choice>Yeah    I'm busy</choice></box>
-                <conditions choice="Yeah">
-                    <p speaker="sans">
-                        <box n="15">*OK. have fun.</box>
-                    </p>
+                </p>
+                <p speaker="echoflower">
+                    <box n="7">*This is an Echo Flower. *It repeats the last thing it heard, over
+                        and over...</box>
+                </p>
+                <p speaker="determination">
+                    <box n="9">*(The sound of rushing water fills you with determination)</box>
+                </p>
+                <p speaker="sans">
+                    <box n="11">*what? *haven't you seen a guy with two jobs before?</box>
+                    <box n="12">*fortunately, two jobs means twice as many legally-required
+                        breaks.</box>
+                    <box n="13">*i'm going to grillby's. *wanna come? <choice>Yeah I'm
+                        busy</choice></box>
+                    <conditions choice="Yeah">
+                        <p speaker="sans">
+                            <box n="15">*OK. have fun.</box>
+                        </p>
+                    </conditions>
+                    <conditions choice="I'm busy">
+                        <p speaker="sans">
+                            <box n="16">> *well, if you insist... *i'll pry myself away from my
+                                work</box>
+                        </p>
+                        <box n="17">*over here. *i know a shortcut</box>
+                    </conditions>
+                </p>
+            </conditions>
+        </sansstation>
+        <fallingrocks>
+            <p speaker="signpost">
+                <box n="1"> *(This is a box.) </box>
+                <box n="2"> *(You canput an item in or take a item out.) </box>
+                <box n="3"> *(Why would you, though???) *(You can't use items when they're in the
+                    box!) </box>
+                <box n="4"> *(Sincerely, a box hater.) </box>
+            </p>
+            <p speaker="box">
+                <box n="5">*Use the box? <choice>Yes No</choice></box>
+            </p>
+            <p speaker="echoflower">
+                <box n="6">*I swore I saw something... *Behind that rushing water...</box>
+            </p>
+        </fallingrocks>
+        <tuturoom>
+            <p speaker="tutu">
+                <box n="1">*(There's a tutu lying on the ground here.) </box>
+                <box n="2"> *(Will you take it?) <choice>Take it Leave it</choice>
+                </box>
+                <box n="3">*(You got the Old Tutu.)</box>
+            </p>
+        </tuturoom>
+        <firstundyneencounter>
+            <conditions route="neutral">
+                <p speaker="Papyrus">
+                    <box n="1">H... HI, UNDYNE! I'M HERE WITH MY DAILY REPORT...</box>
+                    <box n="2">UHHH... REGARDING THAT HUMAN I CALLED YOU ABOUT EARLIER...</box>
+                    <box n="3">... HUH? DID I FIGHT THEM?</box>
+                    <box n="4"> Y-YES! OF COURSE I DID!</box>
+                    <box n="5">I FOUGHT THEM VALIANTLY!</box>
+                    <box n="6">...WHAT? DID I CAPTURE THEM...?</box>
+                    <box n="7">W- W- WELL...</box>
+                    <box n="8">NO.</box>
+                    <box n="9">I TRIED VERY HARD, UNDYNE, BUT IN THE END...</box>
+                    <box n="10">I FAILED.</box>
+                    <box n="11">... W-WHAT?</box>
+                    <box n="12">YOU'RE GOING TO TAKE THE HUMAN'S SOUL YOURSELF...</box>
+                    <box n="13">BUT UNDYNE, YOU DON'T H- HAVE TO DESTROY THEM! YOU SEE...</box>
+                    <box n="14">YOU SEE...</box>
+                    <box n="15">...</box>
+                    <box n="16">... I UNDERSTAND.</box>
+                    <box n="17">I'LL HELP YOU IN ANY WAY I CAN.</box>
+                </p>
+                <p speaker="monsterkid">
+                    <box n="21">*Yo... did you see the way she was staring at you...?</box>
+                    <box n="22">*That...</box>
+                    <box n="23">*... was AWESOME!</box>
+                    <box n="24">*I'm SOOOO jealous!</box>
+                    <box n="25">*What'd you do to get her attention...? *Ha ha.</box>
+                    <box n="26">*C'mon! *Let's go watch her beat up some bad guys!</box>
+                </p>
+                <p speaker="determination">*(A feeling of dread hangs over you...) *(But you stay
+                    determined.)</p>
+            </conditions>
+            <conditions killed="Papyrus"> </conditions>
+        </firstundyneencounter>
+        <firstbridgeseedroom>
+            <p speaker="signpost">
+                <box n="1">*When four Bridge Seeds align in the water, thez will sprout.</box>
+            </p>
+        </firstbridgeseedroom>
+        <secondbridgeseedroom>
+            <p speaker="signpost">
+                <box n="1">*If an error is made, the Bell Blossom can call Bridge Seeds back to
+                    where they started.</box>
+            </p>
+            <p speaker="signpost">
+                <box n="2">*Congratulations!</box>
+                <box n="3">*You failed the puzzle!</box>
+            </p>
+            <p speaker="phone">
+                <box n="4">* Ring...</box>
+                <box n="5">HELLO! THIS IS PAPYRUS!!!</box>
+                <box n="6">HOW DID I GET THIS NUMBER...?</box>
+                <box n="7">IT WAS EASY!!!</box>
+                <box n="8">I JUST DIALED EVERY NUMBER SEQUENTIALLY UNTIL I GOT YOURS!!!</box>
+                <box n="9">NYEH HEH HEH HEH!!</box>
+                <box n="10">SO... WHAT ARE YOU WEARING...?</box>
+                <box n="11">I'M... ASKING FOR A FRIEND.</box>
+                <conditions equipped="bandage">
+                    <box n="1">SHE THOUGHT SHE SAW YOU WEARING A GROSS BANDAGE</box>
+                    <box n="2">IS THAT TRUE? ARE YOU WEARING A GROSS BANDAGE?</box>
+                    <box n="1">*(What will you say?) *Yes No</box>
+                    <conditions choice="Yes">
+                        <box n="2">SO YOU ARE WEARING A GROSS BANDAGE</box>
+                        <box n="3">GOT IT!!! WINK WINK!!!</box>
+                        <box n="4">HAVE A NICE DAY!</box>
+                        <box n="5">Click...</box>
+                    </conditions>
+                    <conditions choice="No">
+                        <box n="2">SO YOU AREN'T WEARING A GROSS BANDAGE...</box>
+                        <box n="3">GOT IT!</box>
+                        <box n="4">YOU'RE MY FRIEND, SO I TRUST YOU 100-PERCENT</box>
+                        <box n="5">HAVE A NICE DAY!</box>
+                        <box n="6">Click...</box>
+                    </conditions>
                 </conditions>
-                <conditions choice ="I'm busy">
-                    <p speaker="sans">
-                     <box n="16">>
-                    *well, if you insist...
-                    *i'll pry myself away from my work</box></p>
-                    <box n="17">*over here.
-                    *i know a shortcut</box>
+                <conditions equipped="Ribbon">
+                    <box n="1">SHE THOUGHT SHE SAW YOU WEARING A FADED RIBBON.</box>
+                    <box n="2">IS THAT TRUE? ARE YOU WEARING A FADED RIBBON?</box>
+                    <box n="3">(What will you say? *Yes No</box>
+                    <conditions choice="Yes">
+                        <box n="2">SO YOU ARE WEARING A FADED RIBBON </box>
+                        <box n="3">GOT IT!!! WINK WINK!!!</box>
+                        <box n="4">HAVE A NICE DAY!</box>
+                        <box n="5">*Click...</box>
+                    </conditions>
+                    <conditions choice="No">
+                        <box n="2">SO YOU AREN'T WEARING A FADED RIBBON...</box>
+                        <box n="3">GOT IT!</box>
+                        <box n="4">YOU'RE MY FRIEND SO I TRUST YOU 100-PERCENT.</box>
+                        <box n="5">HAVE A NICE DAY!</box>
+                        <box n="6">Click...</box>
+                    </conditions>
+
+                </conditions>
+                <conditions equipped="">
+                    <box n="2">SHE THOUGHT SHE SAW YOU WEARING A DUSTY TUTU</box>
+                    <box n="3">IS THAT TRUE? ARE YOU WEARING A DUSTY TUTU?</box>
+                    <box n="4">*(What will you say?) *Yes No</box>
+                    <conditions choice="Yes">
+                        <box n="2">SO YOU ARE WEARINA A BANDANNA...</box>
+                        <box n="3">GOT IT !!! WINK WINK!!!</box>
+                        <box n="4">HAVE A NICE DAY!</box>
+                        <box n="5">*Click</box>
+                    </conditions>
+                    <conditions choice="No">
+                        <box n="2">SO YOU AREN'T WEARING A BANDANNA...</box>
+                        <box n="3">GOT IT!</box>
+                        <box n="4">YOU'RE MY FRIEND, SO I TRUST YOU 100-PERCENT.</box>
+                        <box n="5">HAVE A NICE DAY!</box>
+                        <box n="6">*Click...</box>
+                    </conditions>
                 </conditions>
             </p>
-        </conditions>
-    </sansstation>
-    <fallingrocks>
-        <p speaker="signpost">
-                <box n="1">
-                    *(This is a box.) 
-                </box>
-                <box n="2">
-                    *(You canput an item in or take a item out.)
-                </box>
-                <box n="3">
-                    *(Why would you, though???)
-                    *(You can't use items when they're in the box!)
-                </box>
-                <box n="4">
-                    *(Sincerely, a box hater.)
-                </box>
-        </p>
-        <p speaker="box">
-            <box n="5">*Use the box?
-            <choice>Yes   No</choice></box>
-        </p>
-        <p speaker="echoflower">
-            <box n="6">*I swore I saw something...
-            *Behind that rushing water...</box>
-        </p>
-    </fallingrocks>
-    <tuturoom>
-        <p speaker="tutu">
-            <box n="1">*(There's a tutu lying on the ground here.)
-                </box>
-            <box n="2">
-                *(Will you take it?)
-                <choice>Take it    Leave it</choice>
+        </secondbridgeseedroom>
+        <quicheroom>
+            <p speaker="bench">
+                <box n="1">*(There's a long quiche sitting underneath this bench.)</box>
+                <box n="2">*(Will you take it?) *Take it Leave it</box>
+                <decisions choice="Leave it">
+                    <box n="3">*(The quiche was left all alone...)</box>
+                </decisions>
+                <decisions choice="Take it">
+                    <box n="5">*(You got the Abandoned Quiche.)</box>
+                </decisions>
+            </p>
+            <p speaker="bench" taken="quiche">
+                <box n="6">*It's just a bench.</box>
+            </p>
+
+            <p speaker="echoflower">
+                <box n="7">*I just wasn't ready for the responsibility</box>
+            </p>
+        </quicheroom>
+        <wishingroom>
+            <p speaker="echoflower">
+                <box n="1">*A long time ago, monsters would whisper their wishes o the stars in the
+                    sky.</box>
+                <box n="2">*If you hoped with all your heart, your wish would come true.</box>
+                <box n="3">*Now, all we have are these sparkling stones on the ceiling...</box>
+            </p>
+            <p speaker="signpost">
+                <box n="4">* WISHING ROOM</box>
+            </p>
+            <p speaker="echoflower">
+                <box n="5">*Thousands of people wishing together can't be wrong!</box>
+                <box n="6">* The king will prove that.</box>
+            </p>
+            <p speaker="echoflower">
+                <box n="7">* C'mon, sis! * Make a wish!</box>
+            </p>
+            <p speaker="echoflower">*I wish my sister and I will see the real stars someday...</p>
+            <p speaker="telescope">*(Look through the telescope?) *Yes No</p>
+            <p speaker="echoflower">
+                <box n="8">*Ah... seems my horoscope is the same as last week's...</box>
+            </p>
+        </wishingroom>
+        <historyplaques>
+            <p speaker="signpost">
+                <box n="1">*(Ancient writing covers the walls... you can just make out the
+                    words.)</box>
+                <box n="2">*"The War of Humans and Monsters."</box>
+                <p speaker="signpost">
+                    <box n="3">*Why did the humans attack?*Indeed, it seemed that they had nothing
+                        to fear.</box>
+                    <box n="4">*Humans are unbelievably strong. *It would take the SOUL of nearly
+                        every monster...</box>
+                    <box n="5">*... just to equal the power of a single human SOUL</box>
+                </p>
+                <p speaker="signpost">
+                    <box n="6">*But humans have one weakness. *Ironically, it is the strength of
+                        their SOUL.</box>
+                    <box n="7">*Its power allows it to persist outside the human body, </box>
+                </p>
+            </p>
+            <p speaker="signpost">
+                <box n="8">*If a monster defeats a human, they can take its SOUL.</box>
+                <box n="9">*A monster with a human SOUL... *A horrible beast with unfathomable
+                    power</box>
+            </p>
+            <p speaker="signpost">
+                <box n="10">*(It's an illustration of a strange creature...)</box>
+                <box n="11">*(There's something very unsettling about this drawing.)</box>
+            </p>
+            <conditions fought="Undyne">
+                <p speaker="ferry">
+                    <box n="1">*Three gold for the ferry *Yes No</box>
+                    <conditions choice="Yes">
+                        <box n="2">* Later, then.</box>
+                    </conditions>
+                    <conditions choice="no">
+                        <box n="4">*Hop on!</box>
+                    </conditions>
+                </p>
+            </conditions>
+            <p speaker="ferry">
+                <conditions killed="Undyne" disembarked="ferry">
+                    <box n="1">*Thanks for stepping on my face. * Here's the 3 gold.</box>
+                    <box n="2">*(You got 3 gold.)</box>
+                </conditions>
+            </p>
+        </historyplaques>
+        <seaweed>
+            <p speaker="monsterkid">
+                <box n="1">*Yo... did you see that!?</box>
+                <box n="2">*Undyne just...</box>
+                <box n="3">*... TOUCHED ME!</box>
+                <box n="4">*I'm never washing my face ever again...!</box>
+                <box n="5">*Man, are you unlucky.</box>
+                <box n="6">*If you were standing just a LITTLE bit to the left...!</box>
+                <conditions spearsdodged="enough">
+                    <box n="7">*...yo, did you notice? *She seemed really mad about something!</box>
+                    <box n="8">*She looked liked she was gonna blast me to pieces!</box>
+                    <box n="9">*But... sigh... *Then she decided to put me down...</box>
+                    <box n="10">*Yo! *There's always next time, right? Let's go!</box>
+                </conditions>
+                <conditions spearsdodged="notenough">
+                    <box n="7">*Yo, don't worry! *I'm sure we'll see her again!</box>
+                </conditions>
+            </p>
+            <conditions holding="umbrella">
+                <p speaker="ferry">
+                    <box n="1">*Ahhh... *No umbrellas allowed!</box>
+                </p>
+            </conditions>
+            <p speaker="ferry">
+                <box n="1"> *Three gold for the ferry. *Yes No </box>
+                <conditions choice="No">
+                    <box n="3">*Later, then.</box>
+                </conditions>
+
+                <conditions choice="Hop on!">
+                    <box n="4"/>
+                </conditions>
+            </p>
+            <conditions disembarked="ferry">
+                <box n="1"> *Thanks for stepping on my face. *Here's the 3 gold. </box>
+                <box n="2">*(You got 3 gold.)</box>
+            </conditions>
+        </seaweed>
+        <mouseroom>
+            <p speaker="cheese">
+                <box n="1">*This cheese has been here so long, a magical crystal has rown around
+                    it.</box>
+                <box n="2">*It's stuck to the table...</box>
+            </p>
+            <p speaker="echoflower">
+                <box n="3">*Squeak.</box>
+            </p>
+            <p speaker="determination">
+                <box n="4">*(Knowing the mouse might one day extract the cheese from the mystical
+                    crystal...) </box>
+                <box n="5">*(It fills you with determination.)</box>
+            </p>
+        </mouseroom>
+        <sanstelscoperoom>
+            <p speaker="telescope">
+                <box n="1">*(It's an odd-looking telescope.)</box>
+            </p>
+            <p speaker="sans"><box n="2">
+                * i'm thinking about getting into the telescope business.
             </box>
-            <box n="3">*(You got the Old Tutu.)</box>
-    </p></tuturoom>
-    <undynehouse>
+            <box n="3">*it's normally 50000G to use this premium telescope...</box>
+            <box n="4">*but...
+            *since i know you, you can use it for free.</box>
+            <box n="5">*howzabout it?</box>
+                <box n="6">*(Use the telescope>)
+                *Yes    No</box>
+                <conditions choice ="No">
+                    <box n="7"></box>
+                </conditions>
+            </p>
+            <p></p>
+        </sanstelscoperoom>
+        <undynehouse>
             <p speaker="Papyrus">
                 <conditions route="neutral" killed="Undyne">
-                <box n="1">HEY! READY TO HANG OUT WITH UNDYNE???</box>
-                <box N="2">GREAT!!! ME TOO!!!</box>
-                <box n="3">HOWEVER, SHE'S NOT HERE.</box>
-                <box n="4">NORMALLY SHE RETURNS AT ABOUT THIS TIME</box>
-                <box n="5">SHE'S LATE THOUGH...</box>
-                <box n="6">AND SHE'S NOT ANSWERING HER PHONE</box>
-                <box n="7"></box>
+                    <box n="1">HEY! READY TO HANG OUT WITH UNDYNE???</box>
+                    <box N="2">GREAT!!! ME TOO!!!</box>
+                    <box n="3">HOWEVER, SHE'S NOT HERE.</box>
+                    <box n="4">NORMALLY SHE RETURNS AT ABOUT THIS TIME</box>
+                    <box n="5">SHE'S LATE THOUGH...</box>
+                    <box n="6">AND SHE'S NOT ANSWERING HER PHONE</box>
+                    <box n="7"> </box>
                 </conditions>
             </p>
-    </undynehouse>
-    <snailfarm>
-        <p speaker="napstablook">
-            <box n="1">hm... i should probably try to make friends with my neighbors</box>
-            <box n="2">she's kind of scary,but i feel like i'm always too late to make friends...</box>
-            <box n="3">i should at least try...</box>
-        </p>
-    </snailfarm>
-    <napstablookhouse speaker="napstablook">
-        
-        <p speaker="naspstablook">
-            <box n="1">I've almost got a mix cd finished for my scary neighbor...</box> 
-            <box n="2">it's 74 minutes of people screaming their signature wrestling moves</box>
-            <box n="3">but they're all autotuned. i hope she likes it</box>
-        </p>
-    </napstablookhouse>
-</Waterfall>
+        </undynehouse>
+        <snailfarm>
+            <p speaker="napstablook">
+                <box n="1">hm... i should probably try to make friends with my neighbors</box>
+                <box n="2">she's kind of scary,but i feel like i'm always too late to make
+                    friends...</box>
+                <box n="3">i should at least try...</box>
+            </p>
+        </snailfarm>
+        <napstablookhouse speaker="napstablook">
+            <p speaker="naspstablook">
+                <box n="1">I've almost got a mix cd finished for my scary neighbor...</box>
+                <box n="2">it's 74 minutes of people screaming their signature wrestling moves</box>
+                <box n="3">but they're all autotuned. i hope she likes it</box>
+            </p>
+        </napstablookhouse>
+    </overworld>
+    <battle> </battle>
+</waterfall>
