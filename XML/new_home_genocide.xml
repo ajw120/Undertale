@@ -1,461 +1,467 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <location>New Home (Genocide)</location>
-    <setting type="entrance">
-        <title>New Home Entrance</title>
-        <choice>
-            <question>Use the box?</question>
-            <option>YES</option>
-            <option>NO</option>
-        </choice>
-    </setting>
-    <setting type="asgores_foyer">
-        <location>Asgore’s Foyer</location>
-        <interaction>
-            <p>* (He leaves them in the kitchen and the hallway.)</p>
-            <p>* (There are two keys.)</p>
-            <p>* (I unlocked the chain.)</p>
-            <p>* (The date I came here.)</p>
-        </interaction>
-    </setting>
-    <setting type="living_room">
-        <title>Living Room</title>
-        <interaction>
-            <p>* (Nothing useful.)</p>
-        </interaction>
-    </setting>
-    <setting type="kitchen">
-        <title>Kitchen</title>
-        <interaction>
-            <p>* No chocolate.</p>
-            <p>* I’ve read this already.</p>
-            <p>* Stovetop.</p>
-        </interaction>
-    </setting>
-    <setting type="bedrooms">
-        <title>Bedrooms</title>
-        <interaction>
-            <p>*It’s me, Chara.</p>
-        </interaction>
-    </setting>
-    <setting type="asgores_room">
-        <title>Asgore’s Room</title>
-        <interaction>
-            <p>* The entries are always the same.</p>
-            <p>* Nothing useful.</p>
-            <p>* Still has that sweater.</p>
-        </interaction>
-    </setting>
-    <setting type="childrens_room">
-        <title>Children’s Room</title>
-        <interaction>
-            <p>* His bed.</p>
-            <p>* Our clothes.</p>
-            <p>* …</p>
-            <p>* My drawing.</p>
-            <p>* My bed.</p>
-            <p>* (There’s a heart-shaped locket inside the box.)</p>
+    <location>
+        <title>New Home</title>
+        <route>Genocide</route>
+        <setting type="entrance">
+            <title>New Home Entrance</title>
             <choice>
-                <question>* (Will you take it?)</question>
-                <div>
-                    <option>Take it</option>
-                    <outcome>* (You got The Locket.)</outcome>
-                </div>
-                <option>Leave it</option>
+                <question>Use the box?</question>
+                <option>YES</option>
+                <option>NO</option>
             </choice>
-            <p>* (Knife inside the box.)</p>
-            <choice>
-                <question>* (Will you take it?</question>
-                <div>
-                    <option>Take it</option>
-                    <outcome>* (You got the Real Knife.)</outcome>
-                </div>
-                <option>Leave it</option>
-            </choice>
-        </interaction>
-    </setting>
-    <setting type="sans_corridor"><title>Sans’ Corridor</title>
-        <choice>
-            <question>* Use the box?</question>
-            <option>YES</option>
-            <option>NO</option>
-        </choice>
-        <scenario>
-            <title>Haven’t fought Sans Yet</title>
-            <speech spkr="#sans">
-                <p>* heya. </p>
-                <p>* you’ve been busy, huh?</p>
-                <p>* … </p>
-                <p>* so, i’ve got a question for ya. </p>
-                <p>* do you think even worst person can change…?</p>
-                <p>* that everybody can be a good person, if they just try?</p>
-                <p>* heh heh heh heh…</p>
-                <p>* all right. </p>
-                <p>* well, here’s a better question. </p>
-                <p>* do you wanna have a bad time?</p>
-                <p>* ‘cause if you take another step forward…</p>
-                <p>* you are REALLY not going to like what happens next. </p>
-                <p>* welp.</p>
-                <p>* sorry, old lady.</p>
-                <p>* this is why i never make promises.</p>
-            </speech>
-        </scenario>
-        <scenario>
-            <title>First Death</title>
-            <speech spkr="#sans">
-                <p>* heya </p>
-                <p>* you look frustrated about something. </p>
-                <p>* guess i’m pretty good at my job, huh?</p>
-            </speech>
-        </scenario>
-        <scenario>
-            <title>Second Death</title>
-            <speech spkr="#sans">
-                <p>* hmm.</p>
-                <p>* that expression…</p>
-                <p>* that’s the expression of someone who’s died twice in a row. </p>
-                <p>* suffice to say, you look really…</p>
-                <p>* unsatisfied. </p>
-                <p>* all right. </p>
-                <p>* how ‘bout we make it a third?</p>
-            </speech>
-        </scenario>
-        <scenario>
-            <title>Third Death</title>
-            <speech spkr="#sans">
-                <p>* hmm.</p>
-                <p>* that expression. </p>
-                <p>* that’s the expression of someone who’s died thrice in a row. </p>
+        </setting>
+        <setting type="asgores_foyer">
+            <location>Asgore’s Foyer</location>
+            <interaction>
+                <p>* (He leaves them in the kitchen and the hallway.)</p>
+                <p>* (There are two keys.)</p>
+                <p>* (I unlocked the chain.)</p>
+                <p>* (The date I came here.)</p>
+            </interaction>
+        </setting>
+        <setting type="living_room">
+            <title>Living Room</title>
+            <interaction>
+                <p>* (Nothing useful.)</p>
+            </interaction>
+        </setting>
+        <setting type="kitchen">
+            <title>Kitchen</title>
+            <interaction>
+                <p>* No chocolate.</p>
+                <p>* I’ve read this already.</p>
+                <p>* Stovetop.</p>
+            </interaction>
+        </setting>
+        <setting type="bedrooms">
+            <title>Bedrooms</title>
+            <interaction>
+                <p>*It’s me, Chara.</p>
+            </interaction>
+        </setting>
+        <setting type="asgores_room">
+            <title>Asgore’s Room</title>
+            <interaction>
+                <p>* The entries are always the same.</p>
+                <p>* Nothing useful.</p>
+                <p>* Still has that sweater.</p>
+            </interaction>
+        </setting>
+        <setting type="childrens_room">
+            <title>Children’s Room</title>
+            <interaction>
+                <p>* His bed.</p>
+                <p>* Our clothes.</p>
                 <p>* …</p>
-                <p>* hey, what comes after “thrice,” anyway?</p>
-                <p>* wanna help me find out?</p>
-            </speech>
-        </scenario>
-        <scenario>
-            <title>Fourth Death</title>
-            <speech spkr="#sans">
-                <p>* hmm.</p>
-                <p>* that expression…</p>
-                <p>* that’s the expression of someone who’s died quice in a row. </p>
-                <p>* quice? frice?</p>
-                <p>* welp, won’t have to use it again anyways. </p>
-            </speech>
-        </scenario>
-        <scenario>
-            <title>Fifth Death </title>
-            <speech spkr="#sans">
-                <p>* hmm.</p>
-                <p>* that expression…</p>
-                <p>* that’s the expression of someone who’s died five times in a row. </p>
-                <p>* convenient, huh?</p>
-                <p>* that’s one for each finger. </p>
-                <p>* but soon.. </p>
-            </speech>
-        </scenario>
-        <scenario>
-            <title>Sixth Death </title>
-            <speech spkr="#sans">
-                <p>* hmm. </p>
-                <p>* that expression…</p>
-                <p>* that’s the expression of someone who’s died six times in a row. </p>
-                <p>* that’s the number of fingers on a mutant hand. </p>
-                <p>* but soon… </p>
-            </speech>
-        </scenario>
-        <scenario>
-            <title>Seventh Death </title>
-            <speech spkr="#sans">
-                <p>* hmm. </p>
-                <p>* that expression…</p>
-                <p>* that’s the expression of someone who’s died seven times in a row. </p>
-                <p>* hey, that’s good. </p>
-                <p>* seven’s supposed to be a lucky number. </p>
-                <p>* who knows, maybe you’ll hit the jackpot…</p>
-            </speech>
-        </scenario>
-        <scenario>
-            <title>Eighth Death </title>
-            <speech spkr="#sans">
-                <p>* hmm. </p>
-                <p>* that expression…</p>
-                <p>* that’s the expression of someone who’s died eight times in a row. </p>
-                <p>* that’s the number of fingers on a spider. </p>
-                <p>* but soon.. </p>
-            </speech>
-        </scenario>
-        <scenario>
-            <title>Ninth Death </title>
-            <speech spkr="#sans">
-                <p>* hmm. </p>
-                <p>* that expression…</p>
-                <p>* that’s the expression of someone who’s died seven times in a row. </p>
-                <p>* …</p>
-                <p>* nope, wait, that’s definitely nine, sorry. </p>
-                <p>* or was it ten?</p>
-            </speech>
-        </scenario>
-        <scenario>
-            <title>Tenth Death </title>
-            <speech spkr="#sans">
-                <p>* hmm. </p>
-                <p>* that expression… </p>
-                <p>* that’s the expression of someone who’s died ten times in a row. </p>
-                <p>* hey, congrats!</p>
-                <p>* the big one-oh!</p>
-                <p>* let’s invite all your friends over for a big shindig.</p>
-                <p>* we can have pie, and hot dogs, and … </p>
-                <p>* hmmm… wait. </p>
-                <p>* something’s not right. </p>
-                <p>* you don’t have any friends. </p>
-            </speech>
-        </scenario>
-        <scenario>
-            <title>Eleventh Death</title>
-            <speech spkr="#sans">
-                <p>* hmm. </p>
-                <p>* that expression…</p>
-                <p>* that’s the expression of someone who’s died eleven times in a row. </p>
-                <p>* well, give or take. </p>
-                <p>* there’s nuance to this stuff. </p>
-                <p>* don’t think i’ll be able to count very well from here. </p>
-                <p>* count for me, ok?</p>
-                <p>* we’ll start from 12. </p>
-            </speech>
-        </scenario>
-        <scenario>
-            <title>Twelfth Death and Onwards</title>
-            <speech spkr="#sans">
-                <p>* let’s just get to the point. </p>
-            </speech>
-        </scenario>
-        <scenario>
-            <title>Killed Sans Once</title>
-            <speech spkr="#sans">
-                <p>* …</p>
-                <p>* that expression that you’re wearing..</p>
-                <p>* …</p>
-                <p>* well, i won’t grace it with a description </p>
-            </speech>
-        </scenario>
-        <scenario>
-            <title>Killed Sans Twice</title>
-            <speech spkr="#sans">
-                <p>* … </p>
-                <p>* that expression that you’re wearing…</p>
-                <p>* …</p>
-                <p>* you’re really kind of a freak, huh?</p>
-            </speech>
-        </scenario>
-    </setting>
-    <setting type="coffins">
-        <title>Coffins</title>
-        <interaction>
-            <p>* (It’s as comfortable as it looks.)</p>
-        </interaction>
-    </setting>
-    <setting type="throne_room">
-        <title>Throne Room</title>
-        <speech spkr="#flowey">
-            <p>* Curious</p>
-            <p>* I’ve never seen a plant…</p>
-            <p>* Cry before. </p>
-            <p>* … huh?</p>
-            <p>* You must be the one that flower just warned me about. </p>
-            <p>* Howdy!</p>
-            <p>* … </p>
-            <p>* Erm…</p>
-            <p>* What kind of monster are you…?</p>
-            <p>* Sorry, I cannot tell. </p>
-            <p>* Well we can always…</p>
-        </speech>
-        <scenario>
-            <title>Fight Sequence</title>
-            <speech spkr="flowey">
-                <p>Now, now,</p>
-                <p>There’s no need to fight</p>
-                <p>Why not settle this…</p>
-                <p>Over a nice cup of tea?</p>
-                <p>Why…</p>
-                <p>You…</p>
-                <p>It was all a trick, see?</p>
-                <p>I was waiting to kill him for you!</p>
-                <p>After all it’s me your best friend!</p>
-                <p>I’m helpful, I can be useful to you</p>
-                <p>I promise I won’t get in your way</p>
-                <p>I can help…</p>
-                <p>I can help…</p>
-                <p>I can…</p>
-                <p>I can…</p>
-                <p>Please don’t kill me.</p>
-            </speech>
-        </scenario>
-    </setting>
-    <setting type="chara">
-        <scenario>
-            <title>First Meeting</title>
-            <speech spkr="chara">
-                <p>Greetings.</p>
-                <p>I am Chara. </p>
-                <p>Thank you. </p>
-                <p>Your power awakened me from death. </p>
-                <p>My “human soul.”</p>
-                <p>My “determination.”</p>
-                <p>They were not mine, but YOURS.</p>
-                <p>At first, I was so confused. </p>
-                <p>Our plan had failed, hadn’t it?</p>
-                <p>Why was I brought back to life?</p>
-                <p>…</p>
-                <p>You.</p>
-                <p>With you guidance. </p>
-                <p>I realized the purpose of my reincarnation. </p>
-                <p>Power. </p>
-                <p>Together, we eradicate the enemy and became strong. </p>
-                <p>HP. ATK. DEF. GOLD. EXP. LV. </p>
-                <p>Every time a number increases, that feeling…</p>
-                <p>That’s me. </p>
-                <p>“Chara.”</p>
-                <p>Now. </p>
-                <p>Now, we have reached the absolute. </p>
-                <p>There is nothing left for us here. </p>
+                <p>* My drawing.</p>
+                <p>* My bed.</p>
+                <p>* (There’s a heart-shaped locket inside the box.)</p>
                 <choice>
-                    <question>Let us erase this pointless world, and move on to the next. </question>
+                    <question>* (Will you take it?)</question>
                     <div>
-                        <option>ERASE</option>
-                        <outcome>
-                            <p>Right. You are a great partner. </p>
-                            <p>We’ll be together forever, won’t we?</p>
-                        </outcome>
+                        <option>Take it</option>
+                        <outcome>* (You got The Locket.)</outcome>
                     </div>
-                    <div>
-                        <option>DO NOT</option>
-                        <outcome>
-                            <p>No…?</p>
-                            <p>Hmm…</p>
-                            <p>How curious.</p>
-                            <p>You must have misunderstood. </p>
-                            <p>SINCE WHEN WERE YOU THE ONE IN CONTROL?</p>
-                        </outcome>
-                    </div>
+                    <option>Leave it</option>
                 </choice>
-            </speech>
-        </scenario>
-        <scenario>
-            <title>Second Meeting</title>
-            <speech spkr="chara">
-                <p>Greetings.</p>
-                <p>I am Chara. </p>
-                <p>“Chara.”</p>
-                <p>The demon that comes when people call its name. </p>
-                <p>It doesn’t matter when.</p>
-                <p>It doesn’t matter where. </p>
-                <p>Time after time, I will appear. </p>
-                <p>And, with your help.</p>
-                <p>We will eradicate the enemy and become strong. </p>
-                <p>HP. ATK. DEF. GOLD. EXP. LV. </p>
-                <p>Every time a number increases, that feeling… </p>
-                <p>That’s me. </p>
-                <p>“Chara.”</p>
-                <p>…</p>
-                <p>But. </p>
-                <p>You and I are not the same, are we?</p>
-                <p>This SOUL resonates with a strange feeling. </p>
-                <p>There is a reason you continue to recreate this world. </p>
-                <p>There is a reason you continue to destroy it. </p>
-                <p>You.</p>
-                <p>You are wracked with a perverted sentimentality. </p>
-                <p>Hmm. </p>
-                <p>I cannot understand these feelings any more. </p>
-                <p>Despite this. </p>
-                <p>I feel obligated to suggest. </p>
-                <p>Should you choose to create this world once more. </p>
-                <p>Another path would be better suited. </p>
-                <p>Now, partner. </p>
+                <p>* (Knife inside the box.)</p>
                 <choice>
-                    <question>Let us send this world back into the abyss.</question>
+                    <question>* (Will you take it?</question>
                     <div>
-                        <option>ERASE</option>
-                        <outcome>
-                            <p>Right. You are a great partner. </p>
-                            <p>We’ll be together forever, won’t we?</p>
-                        </outcome>
+                        <option>Take it</option>
+                        <outcome>* (You got the Real Knife.)</outcome>
                     </div>
-                    <div>
-                        <option>DO NOT</option>
-                        <outcome>
-                            <p>No…?</p>
-                            <p>Hmm…</p>
-                            <p>This feeling you have. </p>
-                            <p>This is what I spoke of. </p>
-                            <p>Unfortunately, regarding this…</p>
-                            <p>YOU MADE YOUR CHOICE LONG AGO.</p>
-                        </outcome>
-                    </div>
+                    <option>Leave it</option>
                 </choice>
-            </speech>
-        </scenario>
-    </setting>
-    <setting type="abyss">
-        <title>Abyss</title>
-        <speech spkr="#abyss">
-            <p>You Want To Go Back</p>
-            <p>Interesting. </p>
-            <p>You want to go back. </p>
-            <p>You want to go back to the world you destroyed. </p>
-            <p>It was you who pushed everything to its edge. </p>
-            <p>It was you who led the world to its destruction. </p>
-            <p>But you cannot accept it. </p>
-            <choice>
-                <question>You think you are above consequences.</question>
-                <div>
+            </interaction>
+        </setting>
+        <setting type="sans_corridor">
+            <title>Sans’ Corridor</title>
+            <interaction>
+                <choice>
+                    <question>* Use the box?</question>
                     <option>YES</option>
-                    <coutcome>
-                        <p>Exactly</p>
-                    </coutcome>
-                </div>
-                <div>
                     <option>NO</option>
-                    <outcome>
-                        <p>Then what are you looking for?</p>
-                        <p>Perhaps.</p>
-                        <p>We can reach a compromise. </p>
-                        <p>You still have something I want. </p>
-                        <choice>
-                            <question>
-                                <p>Give it to me. </p>
-                                <p>And I will bring this world back. </p>
-                            </question>
-                            <div>
-                                <option>YES</option>
-                                <outcome>
-                                    <p>Then it is agreed. </p>
-                                </outcome>
-                            </div>
-                            <div>
-                                <option>NO</option>
-                                <outcome>
-                                    <p>Then stay here for all eternity. </p>
-                                    <choice>
-                                        <question>You will give me your SOUL.</question>
-                                        <div>
-                                            <option>YES</option>
-                                            <outcome>
-                                                <p>…</p>
-                                                <p>Then, it is done. </p>
-                                            </outcome>
-                                        </div>
-                                        <div>
-                                            <option>NO</option>
-                                            <outcome>
-                                                <p>Then stay here for all eternity. </p>
-                                            </outcome>
-                                        </div>
-                                    </choice>
-                                </outcome>
-                            </div>
-                        </choice>
-                    </outcome>
-                </div>
-            </choice>
-        </speech>
-    </setting>
+                </choice>
+            </interaction>
+            <scenario>
+                <title>Haven’t fought Sans Yet</title>
+                <speech spkr="#sans">
+                    <p>* heya. </p>
+                    <p>* you’ve been busy, huh?</p>
+                    <p>* … </p>
+                    <p>* so, i’ve got a question for ya. </p>
+                    <p>* do you think even worst person can change…?</p>
+                    <p>* that everybody can be a good person, if they just try?</p>
+                    <p>* heh heh heh heh…</p>
+                    <p>* all right. </p>
+                    <p>* well, here’s a better question. </p>
+                    <p>* do you wanna have a bad time?</p>
+                    <p>* ‘cause if you take another step forward…</p>
+                    <p>* you are REALLY not going to like what happens next. </p>
+                    <p>* welp.</p>
+                    <p>* sorry, old lady.</p>
+                    <p>* this is why i never make promises.</p>
+                </speech>
+            </scenario>
+            <scenario>
+                <title>First Death</title>
+                <speech spkr="#sans">
+                    <p>* heya </p>
+                    <p>* you look frustrated about something. </p>
+                    <p>* guess i’m pretty good at my job, huh?</p>
+                </speech>
+            </scenario>
+            <scenario>
+                <title>Second Death</title>
+                <speech spkr="#sans">
+                    <p>* hmm.</p>
+                    <p>* that expression…</p>
+                    <p>* that’s the expression of someone who’s died twice in a row. </p>
+                    <p>* suffice to say, you look really…</p>
+                    <p>* unsatisfied. </p>
+                    <p>* all right. </p>
+                    <p>* how ‘bout we make it a third?</p>
+                </speech>
+            </scenario>
+            <scenario>
+                <title>Third Death</title>
+                <speech spkr="#sans">
+                    <p>* hmm.</p>
+                    <p>* that expression. </p>
+                    <p>* that’s the expression of someone who’s died thrice in a row. </p>
+                    <p>* …</p>
+                    <p>* hey, what comes after “thrice,” anyway?</p>
+                    <p>* wanna help me find out?</p>
+                </speech>
+            </scenario>
+            <scenario>
+                <title>Fourth Death</title>
+                <speech spkr="#sans">
+                    <p>* hmm.</p>
+                    <p>* that expression…</p>
+                    <p>* that’s the expression of someone who’s died quice in a row. </p>
+                    <p>* quice? frice?</p>
+                    <p>* welp, won’t have to use it again anyways. </p>
+                </speech>
+            </scenario>
+            <scenario>
+                <title>Fifth Death </title>
+                <speech spkr="#sans">
+                    <p>* hmm.</p>
+                    <p>* that expression…</p>
+                    <p>* that’s the expression of someone who’s died five times in a row. </p>
+                    <p>* convenient, huh?</p>
+                    <p>* that’s one for each finger. </p>
+                    <p>* but soon.. </p>
+                </speech>
+            </scenario>
+            <scenario>
+                <title>Sixth Death </title>
+                <speech spkr="#sans">
+                    <p>* hmm. </p>
+                    <p>* that expression…</p>
+                    <p>* that’s the expression of someone who’s died six times in a row. </p>
+                    <p>* that’s the number of fingers on a mutant hand. </p>
+                    <p>* but soon… </p>
+                </speech>
+            </scenario>
+            <scenario>
+                <title>Seventh Death </title>
+                <speech spkr="#sans">
+                    <p>* hmm. </p>
+                    <p>* that expression…</p>
+                    <p>* that’s the expression of someone who’s died seven times in a row. </p>
+                    <p>* hey, that’s good. </p>
+                    <p>* seven’s supposed to be a lucky number. </p>
+                    <p>* who knows, maybe you’ll hit the jackpot…</p>
+                </speech>
+            </scenario>
+            <scenario>
+                <title>Eighth Death </title>
+                <speech spkr="#sans">
+                    <p>* hmm. </p>
+                    <p>* that expression…</p>
+                    <p>* that’s the expression of someone who’s died eight times in a row. </p>
+                    <p>* that’s the number of fingers on a spider. </p>
+                    <p>* but soon.. </p>
+                </speech>
+            </scenario>
+            <scenario>
+                <title>Ninth Death </title>
+                <speech spkr="#sans">
+                    <p>* hmm. </p>
+                    <p>* that expression…</p>
+                    <p>* that’s the expression of someone who’s died seven times in a row. </p>
+                    <p>* …</p>
+                    <p>* nope, wait, that’s definitely nine, sorry. </p>
+                    <p>* or was it ten?</p>
+                </speech>
+            </scenario>
+            <scenario>
+                <title>Tenth Death </title>
+                <speech spkr="#sans">
+                    <p>* hmm. </p>
+                    <p>* that expression… </p>
+                    <p>* that’s the expression of someone who’s died ten times in a row. </p>
+                    <p>* hey, congrats!</p>
+                    <p>* the big one-oh!</p>
+                    <p>* let’s invite all your friends over for a big shindig.</p>
+                    <p>* we can have pie, and hot dogs, and … </p>
+                    <p>* hmmm… wait. </p>
+                    <p>* something’s not right. </p>
+                    <p>* you don’t have any friends. </p>
+                </speech>
+            </scenario>
+            <scenario>
+                <title>Eleventh Death</title>
+                <speech spkr="#sans">
+                    <p>* hmm. </p>
+                    <p>* that expression…</p>
+                    <p>* that’s the expression of someone who’s died eleven times in a row. </p>
+                    <p>* well, give or take. </p>
+                    <p>* there’s nuance to this stuff. </p>
+                    <p>* don’t think i’ll be able to count very well from here. </p>
+                    <p>* count for me, ok?</p>
+                    <p>* we’ll start from 12. </p>
+                </speech>
+            </scenario>
+            <scenario>
+                <title>Twelfth Death and Onwards</title>
+                <speech spkr="#sans">
+                    <p>* let’s just get to the point. </p>
+                </speech>
+            </scenario>
+            <scenario>
+                <title>Killed Sans Once</title>
+                <speech spkr="#sans">
+                    <p>* …</p>
+                    <p>* that expression that you’re wearing..</p>
+                    <p>* …</p>
+                    <p>* well, i won’t grace it with a description </p>
+                </speech>
+            </scenario>
+            <scenario>
+                <title>Killed Sans Twice</title>
+                <speech spkr="#sans">
+                    <p>* … </p>
+                    <p>* that expression that you’re wearing…</p>
+                    <p>* …</p>
+                    <p>* you’re really kind of a freak, huh?</p>
+                </speech>
+            </scenario>
+        </setting>
+        <setting type="coffins">
+            <title>Coffins</title>
+            <interaction>
+                <p>* (It’s as comfortable as it looks.)</p>
+            </interaction>
+        </setting>
+        <setting type="throne_room">
+            <title>Throne Room</title>
+            <speech spkr="#flowey">
+                <p>* Curious</p>
+                <p>* I’ve never seen a plant…</p>
+                <p>* Cry before. </p>
+                <p>* … huh?</p>
+                <p>* You must be the one that flower just warned me about. </p>
+                <p>* Howdy!</p>
+                <p>* … </p>
+                <p>* Erm…</p>
+                <p>* What kind of monster are you…?</p>
+                <p>* Sorry, I cannot tell. </p>
+                <p>* Well we can always…</p>
+            </speech>
+            <scenario>
+                <title>Fight Sequence</title>
+                <speech spkr="flowey">
+                    <p>Now, now,</p>
+                    <p>There’s no need to fight</p>
+                    <p>Why not settle this…</p>
+                    <p>Over a nice cup of tea?</p>
+                    <p>Why…</p>
+                    <p>You…</p>
+                    <p>It was all a trick, see?</p>
+                    <p>I was waiting to kill him for you!</p>
+                    <p>After all it’s me your best friend!</p>
+                    <p>I’m helpful, I can be useful to you</p>
+                    <p>I promise I won’t get in your way</p>
+                    <p>I can help…</p>
+                    <p>I can help…</p>
+                    <p>I can…</p>
+                    <p>I can…</p>
+                    <p>Please don’t kill me.</p>
+                </speech>
+            </scenario>
+        </setting>
+        <setting type="chara">
+            <scenario>
+                <title>First Meeting</title>
+                <speech spkr="chara">
+                    <p>Greetings.</p>
+                    <p>I am Chara. </p>
+                    <p>Thank you. </p>
+                    <p>Your power awakened me from death. </p>
+                    <p>My “human soul.”</p>
+                    <p>My “determination.”</p>
+                    <p>They were not mine, but YOURS.</p>
+                    <p>At first, I was so confused. </p>
+                    <p>Our plan had failed, hadn’t it?</p>
+                    <p>Why was I brought back to life?</p>
+                    <p>…</p>
+                    <p>You.</p>
+                    <p>With you guidance. </p>
+                    <p>I realized the purpose of my reincarnation. </p>
+                    <p>Power. </p>
+                    <p>Together, we eradicate the enemy and became strong. </p>
+                    <p>HP. ATK. DEF. GOLD. EXP. LV. </p>
+                    <p>Every time a number increases, that feeling…</p>
+                    <p>That’s me. </p>
+                    <p>“Chara.”</p>
+                    <p>Now. </p>
+                    <p>Now, we have reached the absolute. </p>
+                    <p>There is nothing left for us here. </p>
+                    <choice>
+                        <question>Let us erase this pointless world, and move on to the next. </question>
+                        <div>
+                            <option>ERASE</option>
+                            <outcome>
+                                <p>Right. You are a great partner. </p>
+                                <p>We’ll be together forever, won’t we?</p>
+                            </outcome>
+                        </div>
+                        <div>
+                            <option>DO NOT</option>
+                            <outcome>
+                                <p>No…?</p>
+                                <p>Hmm…</p>
+                                <p>How curious.</p>
+                                <p>You must have misunderstood. </p>
+                                <p>SINCE WHEN WERE YOU THE ONE IN CONTROL?</p>
+                            </outcome>
+                        </div>
+                    </choice>
+                </speech>
+            </scenario>
+            <scenario>
+                <title>Second Meeting</title>
+                <speech spkr="chara">
+                    <p>Greetings.</p>
+                    <p>I am Chara. </p>
+                    <p>“Chara.”</p>
+                    <p>The demon that comes when people call its name. </p>
+                    <p>It doesn’t matter when.</p>
+                    <p>It doesn’t matter where. </p>
+                    <p>Time after time, I will appear. </p>
+                    <p>And, with your help.</p>
+                    <p>We will eradicate the enemy and become strong. </p>
+                    <p>HP. ATK. DEF. GOLD. EXP. LV. </p>
+                    <p>Every time a number increases, that feeling… </p>
+                    <p>That’s me. </p>
+                    <p>“Chara.”</p>
+                    <p>…</p>
+                    <p>But. </p>
+                    <p>You and I are not the same, are we?</p>
+                    <p>This SOUL resonates with a strange feeling. </p>
+                    <p>There is a reason you continue to recreate this world. </p>
+                    <p>There is a reason you continue to destroy it. </p>
+                    <p>You.</p>
+                    <p>You are wracked with a perverted sentimentality. </p>
+                    <p>Hmm. </p>
+                    <p>I cannot understand these feelings any more. </p>
+                    <p>Despite this. </p>
+                    <p>I feel obligated to suggest. </p>
+                    <p>Should you choose to create this world once more. </p>
+                    <p>Another path would be better suited. </p>
+                    <p>Now, partner. </p>
+                    <choice>
+                        <question>Let us send this world back into the abyss.</question>
+                        <div>
+                            <option>ERASE</option>
+                            <outcome>
+                                <p>Right. You are a great partner. </p>
+                                <p>We’ll be together forever, won’t we?</p>
+                            </outcome>
+                        </div>
+                        <div>
+                            <option>DO NOT</option>
+                            <outcome>
+                                <p>No…?</p>
+                                <p>Hmm…</p>
+                                <p>This feeling you have. </p>
+                                <p>This is what I spoke of. </p>
+                                <p>Unfortunately, regarding this…</p>
+                                <p>YOU MADE YOUR CHOICE LONG AGO.</p>
+                            </outcome>
+                        </div>
+                    </choice>
+                </speech>
+            </scenario>
+        </setting>
+        <setting type="abyss">
+            <title>Abyss</title>
+            <speech spkr="#abyss">
+                <p>You Want To Go Back</p>
+                <p>Interesting. </p>
+                <p>You want to go back. </p>
+                <p>You want to go back to the world you destroyed. </p>
+                <p>It was you who pushed everything to its edge. </p>
+                <p>It was you who led the world to its destruction. </p>
+                <p>But you cannot accept it. </p>
+                <choice>
+                    <question>You think you are above consequences.</question>
+                    <div>
+                        <option>YES</option>
+                        <coutcome>
+                            <p>Exactly</p>
+                        </coutcome>
+                    </div>
+                    <div>
+                        <option>NO</option>
+                        <outcome>
+                            <p>Then what are you looking for?</p>
+                            <p>Perhaps.</p>
+                            <p>We can reach a compromise. </p>
+                            <p>You still have something I want. </p>
+                            <choice>
+                                <question>
+                                    <p>Give it to me. </p>
+                                    <p>And I will bring this world back. </p>
+                                </question>
+                                <div>
+                                    <option>YES</option>
+                                    <outcome>
+                                        <p>Then it is agreed. </p>
+                                    </outcome>
+                                </div>
+                                <div>
+                                    <option>NO</option>
+                                    <outcome>
+                                        <p>Then stay here for all eternity. </p>
+                                        <choice>
+                                            <question>You will give me your SOUL.</question>
+                                            <div>
+                                                <option>YES</option>
+                                                <outcome>
+                                                  <p>…</p>
+                                                  <p>Then, it is done. </p>
+                                                </outcome>
+                                            </div>
+                                            <div>
+                                                <option>NO</option>
+                                                <outcome>
+                                                  <p>Then stay here for all eternity. </p>
+                                                </outcome>
+                                            </div>
+                                        </choice>
+                                    </outcome>
+                                </div>
+                            </choice>
+                        </outcome>
+                    </div>
+                </choice>
+            </speech>
+        </setting>
+    </location>
 </root>
