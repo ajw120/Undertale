@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map name="Waterfall">
-    <path type="neutral">
+    <path route="neutral">
         <setting name="SansStation">
 
             <sp speaker="MonsterKid">
@@ -100,7 +100,6 @@
         </setting>
         <setting name="FallingRocks">
             <event name="1stUndyneEncounter">
-                <path type="neutral">
                     <sp speaker="Papyrus">
                         <box n="1" who="Papyrus" to="Undyne">H... HI, UNDYNE! I'M HERE WITH MY DAILY
                             REPORT...</box>
@@ -144,7 +143,7 @@
                     </sp>
                     </option>
 </choice>
-                </path>
+                
             </event>
         </setting>
         <setting name="1stBridgeSeedRoom">
