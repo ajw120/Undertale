@@ -330,9 +330,10 @@
                     <box n="9" who="game" to="you">*(Look through the telescope?) *Yes No</box>
                 </sp>
             </option>
+          </choice>
             <choice><option what="Yes">
                 <box n="10" who="telescope" to="you">CHECK WALL</box>
-            </option></choice></choice>
+            </option></choice>
             <choice><option what="select">
                 <sp speaker="echoflower">
                     <box n="11" who="echoFlower" to="you">*Ah... seems my horoscope is the same as

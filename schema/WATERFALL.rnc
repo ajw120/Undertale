@@ -1,3 +1,30 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
-start =Waterfall
-Waterfall = element Waterfall{overworld, sansstation,fallingrocks, tuturoom}
+start = map
+map = element map {name, path+}
+path = element path {route, (setting | battle)}
+route = attribute route {list {"pacifist"? | "neutral"? | "genocide"?}}
+setting = element setting {name, (sp | choice | event | conditions | path)*}
+name =  attribute name{"Waterfall" | "SansStation" | "FallingRocks" | "TutuRoom" | "1stBridgeSeedRoom" | "2ndBridgeSeedRoom" | "QuicheRoom" | "WishingRoom" | "HistoryPlaque" | "SeaWeedHidingSpot" | "MouseRoom" | "SansTelescopeRoom" | "Undyne" }
+# 2019-11-07 ebb: We'll need Schematron to control which names are allowed on which specific elements.
+battle = element battle {text} 
+# 2019-11-07 ebb: We don't know what goes inside battle yet. 
+sp = element sp {speaker, (box | choice | conditions)*}
+speaker = attribute speaker {text}
+# ebb: REFINE THIS with specific values.
+choice = element choice {(option | box)*}
+event = element event {(sp | choice | path)*}
+conditions = element conditions {(box | choice)*}
+box = element box {n, who?, to?, mixed{(choice)*} }
+# ebb: We need Schematron to refine this.
+who = attribute who {text}
+# ebb: REFINE THIS with specific values.
+to = attribute to {text}
+# ebb: REFINE THIS with specific values.
+n = attribute n {xsd:integer}
+option = element option {talkTo?, what, read?}
+talkTo = attribute talkTo {text}
+# ebb: REFINE THIS with specific values. (Same as the who attribute?)
+what = attribute what {"select" | "Yeah" | "Im_busy" | "TakeIt" | "LeaveIt" | "ReadSign" | "Yes" | "No" |  "Talk" }
+read = attribute read {"signPost"}
+
+
