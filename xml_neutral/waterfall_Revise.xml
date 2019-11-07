@@ -19,17 +19,25 @@
 
                 <box n="8" who="EchoFlowerExplainer" to="you">*Neat, huh?</box>
             </sp>
-            <option TalkTo="echoFlower"/>
+            <choice>
+                <option TalkTo="echoFlower">
+            
 
             <sp speaker="echoFlower">
                 <box n="7">*This is an Echo Flower. *It repeats the last thing it heard, over and
                     over...</box>
             </sp>
-            <option determination="saveGame"/>
+                </option>
+            </choice>
+            <choice>
+                <option what="select" determination="saveGame">
+           
             <sp speaker="determination">
                 <box n="9" who="determination" to="you">*(The sound of rushing water fills you with
                     determination)</box>
             </sp>
+                </option>
+            </choice>
             <sp speaker="sans">
                 <box n="11" who="sans" to="you">*what? *haven't you seen a guy with two jobs
                     before?</box>
@@ -37,47 +45,57 @@
                     legally-required breaks.</box>
                 <box n="13" who="sans" to="you">*i'm going to grillby's. *wanna come? <choice>Yeah
                         I'm busy</choice></box>
-                <option choice="Yeah">
-                    <sp speaker="sans">
-                        <box n="15" who="sans" to="you">*well, if you insist... *i'll pry myself
-                            away from my work.</box>
-                    </sp>
-                </option>
-                <option choice="I'm busy">
-                    <sp speaker="Sans">
-                        <box n="16" who="Sans" to="you">*Ok. havefun. </box>
-                    </sp>
-                    <box n="17" who="Sans" to="you">*over here. *i know a shortcut</box>
-                </option>
+                <choice>
+                    <option what="Yeah">
+                        <sp speaker="sans">
+                            <box n="15" who="sans" to="you">*well, if you insist... *i'll pry myself
+                                away from my work.</box>
+                        </sp>
+                    </option>
+                    <option what="I'm busy">
+                        <sp speaker="Sans">
+                            <box n="16" who="Sans" to="you">*Ok. havefun. </box>
+                        </sp>
+                        <box n="17" who="Sans" to="you">*over here. *i know a shortcut</box>
+                    </option>
+                </choice>
             </sp>
 
         </setting>
         <setting name="FallingRocks">
-            <option read="signPost"/>
-            <sp speaker="signPost">
-                <box n="1" who="signPost" to="you"> *(This is a box.) </box>
-                <box n="2" who="signPost" to="you"> *(You can put an item in or take a item out.) </box>
-                <box n="3" who="signPost" to="you"> *(Why would you, though???) *(You can't use
-                    items when they're in the box!) </box>
-                <box n="4" who="SignPost" to="you"> *(Sincerely, a box hater.) </box>
-            </sp>
-            <option choice="select"/>
-            <sp speaker="Box">
-                <box n="5" who="Box" to="you">*Use the box? <choice>Yes No</choice></box>
-            </sp>
-            <sp speaker="EchoFlower">
-                <box n="6" who="EchoFlower" to="you">*I swore I saw something... *Behind that
-                    rushing water...</box>
-            </sp>
+            <choice>
+                <option read="signPost">
+                <sp speaker="signPost">
+                    <box n="1" who="signPost" to="you"> *(This is a box.) </box>
+                    <box n="2" who="signPost" to="you"> *(You can put an item in or take a item
+                        out.) </box>
+                    <box n="3" who="signPost" to="you"> *(Why would you, though???) *(You can't use
+                        items when they're in the box!) </box>
+                    <box n="4" who="SignPost" to="you"> *(Sincerely, a box hater.) </box>
+                </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                <sp speaker="Box">
+                    <box n="5" who="Box" to="you">*Use the box? <choice>Yes No</choice></box>
+                </sp>
+                <sp speaker="EchoFlower">
+                    <box n="6" who="EchoFlower" to="you">*I swore I saw something... *Behind that
+                        rushing water...</box>
+                </sp>
+                </option>
+            </choice>
         </setting>
         <setting name="TutuRoom">
             <sp speaker="game">
                 <box n="1" who="game" to="you">*(There's a tutu lying on the ground here.) </box>
-                <box n="2" who="game" to="you"> *(Will you take it?) <choice>Take it Leave
-                        it</choice>
-                </box>
-                <option choice="TakeIt"/>
-                <box n="3" who="game" to="you">*(You got the Old Tutu.)</box>
+                <choice>
+                    <box n="2" who="game" to="you"> *(Will you take it?) </box>
+                    <option what="TakeIt">Take it. <box n="3" who="game" to="you">*(You got the
+                            Old Tutu.)</box></option>
+                    <option what="LeaveIt">Leave it.</option>
+                </choice>
             </sp>
         </setting>
         <setting name="FallingRocks">
@@ -107,7 +125,6 @@
                         <box n="16" who="Papyrus" to="Undyne">... I UNDERSTAND.</box>
                         <box n="17" who="Papyrus" to="Undyne">I'LL HELP YOU IN ANY WAY I CAN.</box>
                     </sp>
-                    <option choice="spare"/>
                     <sp speaker="monsterkid">
                         <box n="21" who="MonsterKid" to="You">*Yo... did you see the way she was
                             staring at you...?</box>
@@ -119,32 +136,38 @@
                         <box n="26" who="MonsterKid" to="You">*C'mon! *Let's go watch her beat up
                             some bad guys!</box>
                     </sp>
-                    <option determination="SaveGame"/>
+                    
+<choice>                    <option determination="SaveGame">
                     <sp speaker="Determination">
                         <box n="27" who="Determination" to="You">*(A feeling of dread hangs over
                             you...) *(But you stay determined.)</box>
                     </sp>
+                    </option>
+</choice>
                 </path>
             </event>
         </setting>
         <setting name="1stBridgeSeedRoom">
-            <option choice="readSign"/>
+            <choice><option what="readSign">
             <sp speaker="signPost">
                 <box n="1" who="signPost" to="you">*When four Bridge Seeds align in the water, thez
                     will sprout.</box>
             </sp>
+            </option></choice>
         </setting>
         <setting name="2ndBridgeSeedRoom">
-            <option choice="readSign"/>
+           <choice> <option what="readSign">
             <sp speaker="signPost">
                 <box n="1" who="signPost" to="you">*If an error is made, the Bell Blossom can call
                     Bridge Seeds back to where they started.</box>
             </sp>
-            <option choice="readSign"/>
+            </option></choice>
+            <choice><option what="readSign">
             <sp speaker="sign">
                 <box n="2" who="sign" to="you">*Congratulations!</box>
                 <box n="3" who="sign" to="you">*You failed the puzzle!</box>
             </sp>
+            </option></choice>
             <sp speaker="phone">
                 <box n="4" who="phone" to="you">* Ring...</box>
                 <box n="5" who="Papyrus" to="you">HELLO! THIS IS PAPYRUS!!!</box>
@@ -161,13 +184,13 @@
                     <box n="2" who="Papyrus" to="you">IS THAT TRUE? ARE YOU WEARING A GROSS
                         BANDAGE?</box>
                     <box n="1" who="game" to="you">*(What will you say?) *Yes No</box>
-                    <option choice="Yes">
+                    <choice><option what="Yes">
                         <box n="2" who="Papyrus" to="you">SO YOU ARE WEARING A GROSS BANDAGE</box>
                         <box n="3" who="Papyrus" to="you">GOT IT!!! WINK WINK!!!</box>
                         <box n="4" who="Papyrus" to="you">HAVE A NICE DAY!</box>
                         <box n="5" who="phone" to="you">Click...</box>
                     </option>
-                    <option choice="No">
+                    <option what="No">
                         <box n="2" who="Papyrus" to="you">SO YOU AREN'T WEARING A GROSS
                             BANDAGE...</box>
                         <box n="3" who="Papyrus" to="you">GOT IT!</box>
@@ -175,7 +198,7 @@
                             100-PERCENT</box>
                         <box n="5" who="Papyrus" to="you">HAVE A NICE DAY!</box>
                         <box n="6" who="phone" to="you">Click...</box>
-                    </option>
+                    </option></choice>
                 </conditions>
                 <conditions equipped="Ribbon">
                     <box n="1" who="Papyrus" to="you">SHE THOUGHT SHE SAW YOU WEARING A FADED
@@ -183,13 +206,13 @@
                     <box n="2" who="Papyrus" to="you">IS THAT TRUE? ARE YOU WEARING A FADED
                         RIBBON?</box>
                     <box n="3" who="game" to="you">(What will you say? *Yes No</box>
-                    <option choice="Yes">
+                   <choice> <option what="Yes">
                         <box n="2" who="Papyrus" to="you">SO YOU ARE WEARING A FADED RIBBON </box>
                         <box n="3" who="Papyrus" to="you">GOT IT!!! WINK WINK!!!</box>
                         <box n="4" who="Papyrus" to="you">HAVE A NICE DAY!</box>
                         <box n="5" who="phone" to="you">*Click...</box>
                     </option>
-                    <option choice="No">
+                    <option what="No">
                         <box n="2" who="Papyrus" to="you">SO YOU AREN'T WEARING A FADED
                             RIBBON...</box>
                         <box n="3" who="Papyrus" to="you">GOT IT!</box>
@@ -197,7 +220,7 @@
                             100-PERCENT.</box>
                         <box n="5" who="Papyrus" to="you">HAVE A NICE DAY!</box>
                         <box n="6" who="phone" to="you">Click...</box>
-                    </option>
+                    </option></choice>
 
                 </conditions>
                 <conditions equipped="oldTutu">
@@ -206,13 +229,13 @@
                     <box n="3" who="Papyrus" to="you">IS THAT TRUE? ARE YOU WEARING A DUSTY
                         TUTU?</box>
                     <box n="4" who="game" to="you">*(What will you say?) *Yes No</box>
-                    <option choice="Yes">
+                   <choice> <option what="Yes">
                         <box n="2" who="Papyrus" to="you">SO YOU ARE WEARING A DUSTY TUTU...</box>
                         <box n="3" who="Papyrus" to="you">GOT IT !!! WINK WINK!!!</box>
                         <box n="4" who="Papyrus" to="you">HAVE A NICE DAY!</box>
                         <box n="5" who="phone" to="you">*Click</box>
                     </option>
-                    <option choice="No">
+                    <option what="No">
                         <box n="2" who="Papyrus" to="you">SO YOU AREN'T WEARING A DUSTY
                             TUTU...</box>
                         <box n="3" who="Papyrus" to="you">GOT IT!</box>
@@ -221,50 +244,56 @@
                         <box n="5" who="Papyrus" to="you">HAVE A NICE DAY!</box>
                         <box n="6" who="phone" to="you">*Click...</box>
                     </option>
+                   </choice>
                 </conditions>
                 <conditions equipped="bandanna">
                     <box n="1" who="Papyrus" to="you">SHE THOUGHT SHE SAW YOU WEARING A
                         BANDANNA.</box>
                     <box n="2" who="Papyrus" to="you">IS THAT TRUE? ARE YOU WEARING A
                         BANDANNA?</box>
-                    <box n="3" who="game" to="you">*(What will you say?) Yes No</box>
-                    <option choice="Yes">
+                  <choice><!--2019-11-07 ebb: TEXT MISSING HERE. Fill in with full decision. -->  <box n="3" who="game" to="you">*(What will you say?) Yes No</box>
+                    <option what="Yes">
                         <box n="2" who="Papyrus" to="you">SO YOU ARE WEARING A BANDANNA...</box>
                         <box n="3" who="Papyrus" to="you">GOT IT!!! WINK WINK!!!</box>
                         <box n="4" who="Papyrus" to="you">HAVE A NICE DAY!</box>
                         <box n="5" who="phone" to="you">*Click...</box>
                     </option>
+                  </choice>
                 </conditions>
             </sp>
         </setting>
         <setting name="QuicheRoom">
-            <option choice="select"/>
+            <choice><option what="select">
             <sp speaker="bench">
                 <box n="1" who="game" to="you">*(There's a long quiche sitting underneath this
                     bench.)</box>
                 <box n="2" who="game" to="you">*(Will you take it?) *Take it Leave it</box>
-                <option choice="Leave it">
+                
+                <choice>
+                    <option what="Leave it">
                     <box n="3" who="game" to="you">*(The quiche was left all alone...)</box>
                 </option>
-                <option choice="TakeIt">
+                <option what="TakeIt">
                     <box n="5" who="game" to="you">*(You got the Abandoned Quiche.)</box>
                 </option>
+                </choice>
             </sp>
+            </option></choice>
             <sp speaker="bench">
                 <conditions taken="quiche"/>
-                <option choice="select">
+                <choice><option what="select">
                     <box n="6" who="game" to="you">*It's just a bench.</box>
-                </option>
+                </option></choice>
             </sp>
-            <option talkTo="echoFlower">
+            <choice><option talkTo="echoFlower">
                 <sp speaker="echoFlower">
                     <box n="7" who="echoFlower" to="you">*I just wasn't ready for the
                         responsibility</box>
                 </sp>
-            </option>
+            </option></choice>
         </setting>
         <setting name="WishingRoom">
-            <option choice="select">
+            <choice><option what="talkTo">
                 <sp speaker="echoFlower">
                     <box n="1" who="echoFlower" to="you">*A long time ago, monsters would whisper
                         their wishes o the stars in the sky.</box>
@@ -273,54 +302,54 @@
                     <box n="3" who="echoFlower" to="you">*Now, all we have are these sparkling
                         stones on the ceiling...</box>
                 </sp>
-            </option>
-            <option choice="select">
+            </option></choice>
+           <choice> <option what="select">
                 <sp speaker="sign">
                     <box n="4" who="sign" to="you">* WISHING ROOM</box>
                 </sp>
-            </option>
-            <option choice="select">
+            </option></choice>
+           <choice> <option what="select">
                 <sp speaker="echoflower">
                     <box n="5" who="echoFlower" to="you">*Thousands of people wishing together can't
                         be wrong!</box>
                     <box n="6" who="echoFlower" to="you">* The king will prove that.</box>
                 </sp>
-            </option>
-            <option choice="select">
+            </option></choice>
+           <choice><option what="select">
                 <sp speaker="echoflower">
                     <box n="7">* C'mon, sis! * Make a wish!</box>
                 </sp>
-            </option>
-            <option choice="select">
+            </option></choice>
+            <choice><option what="select">
                 <sp speaker="echoFlower">
                     <box n="8" who="echoFlower" to="you">*I wish my sister and I will see the real
                         stars someday...</box>
                 </sp>
-            </option>
-            <option choice="select">
+            </option></choice>
+          <choice>  <option what="select">
                 <sp speaker="telescope">
                     <box n="9" who="game" to="you">*(Look through the telescope?) *Yes No</box>
                 </sp>
             </option>
-            <option choice="Yes">
+            <choice><option what="Yes">
                 <box n="10" who="telescope" to="you">CHECK WALL</box>
-            </option>
-            <option choice="select">
+            </option></choice></choice>
+            <choice><option what="select">
                 <sp speaker="echoflower">
                     <box n="11" who="echoFlower" to="you">*Ah... seems my horoscope is the same as
                         last week's...</box>
                 </sp>
-            </option>
+            </option></choice>
         </setting>
         <setting name="HistoryPlaque">
-            <option choice="select">
+            <choice><option what="select">
                 <sp speaker="sign">
                     <box n="1" who="sign" to="you">*(Ancient writing covers the walls... you can
                         just make out the words.)</box>
                     <box n="2" who="sign" to="you">*"The War of Humans and Monsters."</box>
                 </sp>
-            </option>
-            <option choice="select">
+            </option></choice>
+            <choice><option what="select">
                 <sp speaker="sign">
                     <box n="3" who="sign" to="you">*Why did the humans attack?*Indeed, it seemed
                         that they had nothing to fear.</box>
@@ -329,44 +358,44 @@
                     <box n="5" who="sign" to="you">*... just to equal the power of a single human
                         SOUL</box>
                 </sp>
-            </option>
-            <option choice="select">
+            </option></choice>
+            <choice><option what="select">
                 <sp speaker="sign">
                     <box n="6" who="sign" to="you">*But humans have one weakness. *Ironically, it is
                         the strength of their SOUL.</box>
                     <box n="7" who="sign" to="you">*Its power allows it to persist outside the human
                         body, </box>
                 </sp>
-            </option>
-            <option choice="select">
+            </option></choice>
+           <choice> <option what="select">
                 <sp speaker="sign">
                     <box n="8" who="sign" to="you">*If a monster defeats a human, they can take its
                         SOUL.</box>
                     <box n="9" who="sign" to="you">*A monster with a human SOUL... *A horrible beast
                         with unfathomable power</box>
                 </sp>
-            </option>
-            <option choice="select">
+           </option></choice>
+            <choice><option what="select">
                 <sp speaker="sign">
                     <box n="10" who="game" to="you">*(It's an illustration of a strange
                         creature...)</box>
                     <box n="11" who="game" to="you">*(There's something very unsettling about this
                         drawing.)</box>
                 </sp>
-            </option>
+            </option></choice>
         </setting>
         <setting name="SeaWeedHidingSpot">
-            <option choice="select"/>
+           <choice> <option what="select">
             <sp speaker="ferry">
                 <box n="1" who="ferry" to="you">*Three gold for the ferry *Yes No</box>
-                <option choice="No">
-                    <box n="2">* Later, then.</box>
-                </option>
-                <option choice="yes">
+                <choice><option what="No">
+                    <box n="2">* Later, then.</box></option>
+                
+                <option what="yes">
                     <box n="4">*Hop on!</box>
                 </option>
+                </choice>
             </sp>
-
             <sp speaker="ferry">
                 <conditions killed="Undyne" disembarked="ferry">
                     <box n="1" who="ferry" to="you">*Thanks for stepping on my face. * Here's the 3
@@ -374,6 +403,7 @@
                     <box n="2" who="ferry" to="you">*(You got 3 gold.)</box>
                 </conditions>
             </sp>
+           </option></choice>
             <sp speaker="MonsterKid">
                 <box n="1" who="MonsterKid" to="you">*Yo... did you see that!?</box>
                 <box n="2" who="MonsterKid" to="you">*Undyne just...</box>
@@ -398,80 +428,91 @@
                 </conditions>
             </sp>
             <conditions holding="umbrella">
-                <option choice="select">
+                <choice><option what="select">
                     <sp speaker="ferry">
                         <box n="1" who="ferry" to="you">*Ahhh... *No umbrellas allowed!</box>
                     </sp>
-                </option>
+                </option></choice>
             </conditions>
-            <option choice="select">
+           <choice> <option what="select">
                 <sp speaker="ferry">
                     <box n="1" who="ferry" to="you"> *Three gold for the ferry. *Yes No </box>
                 </sp>
-            </option>
-            <option choice="No">
+           <choice> <option what="No">
                 <box n="3" who="ferry" to="you">*Later, then.</box>
             </option>
-            <option choice="Yes">
+            <option what="Yes">
                 <box n="4" who="ferry" to="you">* Hop on!</box>
                 <box n="1" who="ferry" to="you"> *Thanks for stepping on my face. *Here's the 3
                     gold. </box>
                 <box n="2" who="game" to="you">*(You got 3 gold.)</box>
-            </option>
+            </option></choice>
+            </option></choice>
         </setting>
 
         <setting name="MouseRoom">
-            <option choice="select">
+            <choice><option what="select">
                 <sp speaker="cheese">
                     <box n="1" who="game" to="you">*This cheese has been here so long, a magical
                         crystal has rown around it.</box>
                     <box n="2" who="game" to="you">*It's stuck to the table...</box>
                 </sp>
-            </option>
-            <option choice="select">
+            </option></choice>
+            <choice><option what="select">
                 <sp speaker="echoFlower">
                     <box n="3" who="echoFlower" to="you">*Squeak.</box>
                 </sp>
-            </option>
-            <option choice="select">
+            </option></choice>
+            <choice>
+                <option what="select" determination="saveGame">
                 <sp speaker="determination">
                     <box n="4" who="determination" to="you">*(Knowing the mouse might one day
                         extract the cheese from the mystical crystal...) </box>
                     <box n="5" who="determination" to="you">*(It fills you with
                         determination.)</box>
                 </sp>
-                <option determintation="saveGame"/>
-            </option>
+                </option>
+            </choice>
         </setting>
         <setting name="SansTelescopeRooom">
-            <option choice="select">
-                <sp speaker="telescope">
-                    <box n="1" who="game" to="you">*(It's an odd-looking telescope.)</box>
-                </sp>
-            </option>
-            <option choice="talk">
-                <sp speaker="sans">
-                    <box n="2" who="Sans" to="you"> * i'm thinking about getting into the telescope
-                        business. </box>
-                    <box n="3" who="Sans" to="you">*it's normally 50000G to use this premium
-                        telescope...</box>
-                    <box n="4" who="Sans" to="you">*but... *since i know you, you can use it for
-                        free.</box>
-                    <box n="5" who="Sans" to="you">*howzabout it?</box>
-                    <box n="6" who="game" to="you">*(Use the telescope>) *Yes No</box>
-                    <option choice="No">
-                        <box n="7" who="Sans" to="you">* well, come back whenever you want.</box>
-                    </option>
-                    <option choice="Yes">
-                        <box n="11" who="Sans" to="you">*huh? *you aren't satisfied?</box>
-                        <box n="12" who="Sans" to="you">* don't worry.</box>
-                        <box n="13" who="Sans" to="you">* i&apos;ll give you a refund.</box>
-                    </option>
-                </sp>
-            </option>
-            <option choice="select"><box n="14" who="game" to="you"/>*Use the bod? Yes No</option>
-            <!-- not sure of the character involved with the next 9 pages-->
-
+            <choice>
+                <option what="select">
+                    <sp speaker="telescope">
+                        <box n="1" who="game" to="you">*(It's an odd-looking telescope.)</box>
+                    </sp>
+                </option>
+                
+            </choice>
+            <choice>
+                <option what="talk">
+                    <sp speaker="sans game">
+                        <box n="2" who="Sans" to="you"> * i'm thinking about getting into the
+                            telescope business. </box>
+                        <box n="3" who="Sans" to="you">*it's normally 50000G to use this premium
+                            telescope...</box>
+                        <box n="4" who="Sans" to="you">*but... *since i know you, you can use it for
+                            free.</box>
+                        <box n="5" who="Sans" to="you">*howzabout it?</box>
+                        <box n="6" who="game" to="you">*(Use the telescope>) *Yes No</box>
+                        <choice>
+                            <option what="No">
+                                <box n="7" who="Sans" to="you">* well, come back whenever you
+                                    want.</box>
+                            </option>
+                            <option what="Yes">
+                                <box n="11" who="Sans" to="you">*huh? *you aren't satisfied?</box>
+                                <box n="12" who="Sans" to="you">* don't worry.</box>
+                                <box n="13" who="Sans" to="you">* i&apos;ll give you a refund.</box>
+                            </option>
+                        </choice>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select"><box n="14" who="game" to="you"/>*Use the bod? Yes
+                    No</option>
+                <!-- not sure of the character involved with the next 9 pages-->
+            </choice>
         </setting>
 
         <setting name="Undyne">
