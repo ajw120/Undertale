@@ -84,7 +84,7 @@
     </setting>
     <setting type="childrens_room">
         <title>Children’s Room</title>
-        <interaction>
+        <interaction who="game" to="you">
             <p>*(Dusty toys.)</p>
             <p>*(It’s a twin-sized bed.)</p>
             <p>*(There are a lot of striped shirts in here.)</p>
@@ -97,10 +97,10 @@
             <p>*(There’s a worn dagger inside the box.)</p>
             <choice>
                 <option>*(Will you take it?)</option>
-                <div>
-                    <option>TAKE IT</option>
+                <event>
+                    <action>TAKE IT</action>
                     <outcome>*(You got the Worn dagger.)</outcome>
-                </div>
+                </event>
                 <option>LEAVE IT</option>
             </choice>
             <p>*(There’s a heart-shaped locket inside the box.)</p>
