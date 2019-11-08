@@ -4,7 +4,9 @@ map = element map {name, path+}
 path = element path {route, (setting | battle)}
 route = attribute route {list {"pacifist"? | "neutral"? | "genocide"?}}
 setting = element setting {name, (sp | choice | event | conditions | path)*}
-name =  attribute name{"Waterfall" |"Ruins" | "SansStation" | "FallingRocks" | "TutuRoom" | "1stBridgeSeedRoom" | "2ndBridgeSeedRoom" | "QuicheRoom" | "WishingRoom" | "HistoryPlaque" | "SeaWeedHidingSpot" | "MouseRoom" | "SansTelescopeRoom" | "Undyne" }
+name =  attribute name{"Waterfall" |"Ruins" |
+"SansStation" | "FallingRocks" | "TutuRoom" | "1stBridgeSeedRoom" | "2ndBridgeSeedRoom" | "QuicheRoom" | "WishingRoom" | "HistoryPlaque" | "SeaWeedHidingSpot" | "MouseRoom" | "SansTelescopeRoom" | "UndyneHouse" |
+"Undyne" }
 # 2019-11-07 ebb: We'll need Schematron to control which names are allowed on which specific elements.
 battle = element battle {text} 
 # 2019-11-07 ebb: We don't know what goes inside battle yet. 
@@ -21,10 +23,10 @@ who = attribute who {text}
 to = attribute to {text}
 # ebb: REFINE THIS with specific values.
 n = attribute n {xsd:integer}
-option = element option {talkTo?, what, read?}
-talkTo = attribute talkTo {text}
+option = element option {TalkTo?, what, read?, sp}
+TalkTo = attribute TalkTo {text}
 # ebb: REFINE THIS with specific values. (Same as the who attribute?)
-what = attribute what {"select" | "Yeah" | "Im_busy" | "TakeIt" | "LeaveIt" | "ReadSign" | "Yes" | "No" |  "Talk" }
+what = attribute what {"select" | "Yeah" | "Im_busy" | "TakeIt" | "LeaveIt" | "ReadSign" | "Yes" | "No" |  "Talk" | "saveGame" | "HPRestore"}
 read = attribute read {"signPost"}
 
 

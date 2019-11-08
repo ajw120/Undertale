@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/Undertale.rnc" type="application/relax-ng-compact-syntax"?>
 <map name="Waterfall">
     <path route="neutral genocide pacifist">
         <setting name="SansStation">
@@ -18,7 +19,7 @@
                 <box n="8" who="EchoFlowerExplainer" to="you">*Neat, huh?</box>
             </sp>
             <choice>
-                <option TalkTo="echoFlower">
+                <option TalkTo="echoFlower" what="Talk">
                     <sp speaker="echoFlower">
                         <box n="7">*This is an Echo Flower. *It repeats the last thing it heard,
                             over and over...</box>
@@ -26,7 +27,7 @@
                 </option>
             </choice>
             <choice>
-                <option what="select" determination="saveGame">
+                <option what="saveGame HPRestore">
                     <sp speaker="determination">
                         <box n="9" who="determination" to="you">*(The sound of rushing water fills
                             you with determination)</box>
@@ -258,7 +259,6 @@
                     <box n="2" who="Papyrus" to="you">IS THAT TRUE? ARE YOU WEARING A
                         BANDANNA?</box>
                     <choice>
-                        <!--2019-11-07 ebb: TEXT MISSING HERE. Fill in with full decision. -->
                         <box n="3" who="game" to="you">*(What will you say?) Yes No</box>
                         <option what="Yes">
                             <box n="2" who="Papyrus" to="you">SO YOU ARE WEARING A BANDANNA...</box>
@@ -267,7 +267,8 @@
                             <box n="5" who="phone" to="you">*Click...</box>
                         </option>
                         <option what="NO">
-                            <box n="2" who="Papyrus" to="you">SO YOU AREN'T WEARING A BANDANNA...</box>
+                            <box n="2" who="Papyrus" to="you">SO YOU AREN'T WEARING A
+                                BANDANNA...</box>
                             <box n="3" who="Papyrus" to="you">GOT IT!</box>
                             <box n="4" who="Papyrus" to="you">YOU'RE MY FRIEND, SO I TRUST YOU
                                 100-PERCENT.</box>
@@ -285,7 +286,6 @@
                         <box n="1" who="game" to="you">*(There's a long quiche sitting underneath
                             this bench.)</box>
                         <box n="2" who="game" to="you">*(Will you take it?) *Take it Leave it</box>
-
                         <choice>
                             <option what="Leave it">
                                 <box n="3" who="game" to="you">*(The quiche was left all
@@ -341,14 +341,14 @@
                     <sp speaker="echoflower">
                         <box n="5" who="echoFlower" to="you">*Thousands of people wishing together
                             can't be wrong!</box>
-                        <box n="6" who="echoFlower" to="you">* The king will prove that.</box>
+                        <box n="6" who="echoFlower" to="you">*The king will prove that.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
                     <sp speaker="echoflower">
-                        <box n="7">* C'mon, sis! * Make a wish!</box>
+                        <box n="7">*C'mon, sis! *Make a wish!</box>
                     </sp>
                 </option>
             </choice>
@@ -443,7 +443,6 @@
                             <option what="No">
                                 <box n="2">* Later, then.</box>
                             </option>
-
                             <option what="yes">
                                 <box n="4">*Hop on!</box>
                             </option>
@@ -549,7 +548,7 @@
             </choice>
             <choice>
                 <option what="talk">
-                    <sp speaker="sans game">
+                    <sp speaker="sans">
                         <box n="2" who="Sans" to="you"> * i'm thinking about getting into the
                             telescope business. </box>
                         <box n="3" who="Sans" to="you">*it's normally 50000G to use this premium
@@ -573,12 +572,12 @@
                 </option>
             </choice>
             <choice>
-                <option what="select"><box n="14" who="game" to="you"/>*Use the bod? Yes No</option>
+                <option what="select"><box n="14" who="game" to="you"/>*Use the box? Yes No</option>
                 <!-- not sure of the character involved with the next 9 pages-->
             </choice>
         </setting>
 
-        <setting name="Undyne">
+        <setting name="UndyneHouse">
             <sp speaker="Papyrus">
                 <conditions route="neutral" killed="Undyne">
                     <box n="1">HEY! READY TO HANG OUT WITH UNDYNE???</box>
@@ -606,7 +605,8 @@
                 <box n="3">but they're all autotuned. i hope she likes it</box>
             </sp>
         </napstablookhouse>
-
-        <battle> </battle>
+        <battle>
+            <monster name="Undyne"> </monster>
+        </battle>
     </path>
 </map>
