@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map name="Ruins">
-    <path route="neutral">
+    <path route="neutral pacifist genocide">
         <setting name="RoomWithFlowers">
             <choice>
                 <option C_Or_Control="In-Game_Menu">
@@ -42,8 +42,7 @@
                     <box n="1">*Remember...</box>
                     <box n="2">*THIS time, you've GOT to become friends with everyone.</box>
                     <box n="3">*OK?</box>
-                    <box n="4">*If you DON"T, you'll be miserable
-                        FOREVER</box>
+                    <box n="4">*If you DON"T, you'll be miserable FOREVER</box>
                     <box n="5">*And we wouldn't want THAT, would we?</box>
                     <box n="6">*No... *We just want you to be happy, right?</box>
                     <box n="7">*Good luck.</box>
@@ -95,11 +94,30 @@
         <setting name="1stPuzzleRoom">
             <sp who="Toriel" to="you">
                 <box n="1">*Welcome to your new home, innocent one.</box>
-                <box n="2">* Allow me to educate you in the operation of the RUINS.</box>
-                <box n="3">* The Ruins are full of puzzles</box>
-                <box n="4"></box>
-                <box n="5"></box>
-                <box n="5"></box>
+                <box n="2">*Allow me to educate you in the operation of the RUINS.</box>
+                <box n="3">*The Ruins are full of puzzles</box>
+                <box n="4">*Ancient fusions between diversions and doorkeys.</box>
+                <box n="5">*One must solve them to move from room to room.</box>
+                <box n="6">*Please adjust yourself to the sight of them.</box>
+                <box n="7">*Only the fearless may proceed. *Brave ones, foolish ones. *Both walk not
+                    the middle road.</box>
+            </sp>
+        </setting>
+        <setting name="LablledSwitchRoom">
+            <sp who="Toriel" to="you">
+                <box n="1">*To make progress here, you will need to trigger several switches.</box>
+                <box n="2">*Do not worry, I have labelled the ones that you need to flip.</box>
+                <box n="3">*"Press [Z] to read signs!"</box>
+                <box n="4">*Stay on the path.</box>
+                <box n="5">*</box>
+                <box n="6"></box>
+                <box n="7"></box>
+                <box></box>
+                <box></box>
+                <box></box>
+                <box></box>
+                <box></box>
+                <box></box>
                 <box></box>
             </sp>
         </setting>
