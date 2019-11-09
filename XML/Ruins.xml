@@ -109,17 +109,157 @@
                 <box n="2">*Do not worry, I have labelled the ones that you need to flip.</box>
                 <box n="3">*"Press [Z] to read signs!"</box>
                 <box n="4">*Stay on the path.</box>
-                <box n="5">*</box>
-                <box n="6"></box>
-                <box n="7"></box>
-                <box></box>
-                <box></box>
-                <box></box>
-                <box></box>
-                <box></box>
-                <box></box>
-                <box></box>
+                <box n="5">*The first switch is over on the wall.</box>
+                <box n="6">* Do you need some help..? *Press the switch on the wall.</box>
+                <box n="7">*Come on, you can do it!</box>
             </sp>
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="8">*Please press this switch. -TORIEL</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select"/>
+            </choice>
+            <sp who="Toriel" to="you">
+                <box n="9">*Go on, press the switch on the left.</box>
+                <box n="10">*You do know which way left is, do you not?</box>
+                <box n="11">*Press the switch that I labelled for you.</box>
+            </sp>
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="12">*Please press this switch too. -TORIEL</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="Toriel" to="you">
+                        <box n="13">*Splendid! *I am proud of you, little one.</box>
+                        <box n="14">* Let us move to the next room.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="15">*This switch doesn't even work...</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="DummyRoom">
+            <sp who="Toriel" to="you">
+                <box n="1">*As ahuman living in the UNDERGROUND, monsters may attack you.</box>
+                <box n="2">*You will need to be prepared for this situation.</box>
+                <box n="3">*However, worry not! *The process is simple.</box>
+                <box n="4">*When you encounter a monster, you will enter a FIGHT.</box>
+                <box n="5">*While you are in a FIGHT, strike up a friendly conversation.</box>
+                <box n="6">*Stall for time. I will come to reolve the conflict.</box>
+                <box n="7">*Practice talking to the dummy.</box>
+                <box n="8">*Do you need some ideas for conversation topics?</box>
+                <box n="9">*Well, I often start with a simple 'how do you do...'</box>
+                <box n="10">*You could ask them about their favorite books...</box>
+                <box n="11">*Jokes can be useful for 'breaking the ice.'</box>
+                <box n="12">*Listen to this one...</box>
+                <box n="13">*What did the skeleton tile his roof with?</box>
+                <box n="14">*... SHIN-gles!</box>
+                <box n="15">*...</box>
+                <box n="16">*Well, I thought it was amusing.</box>
+                <box n="17">*You can say anything... *The dummy will not be bothered.</box>
+                <box n="18">*Practice talking to the dummy.</box>
+            </sp>
+            <event name="1stMonsterBattle practice">
+                <choice>
+                    <option what="talkTo">
+                        <sp who="Toriel" to="you">
+                            <box n="1">*Ah, very good! *You are very good.</box>
+                        </sp>
+                    </option>
+                    <option what="kill">
+                        <sp who="Toriel" to="you">
+                            <box n="1">*Ahh, the dummies are not for fighting! *They are for
+                                talking!</box>
+                            <box n="2">*We do not want to hurt anybody, do we...? *Come now.</box>
+                        </sp>
+                    </option>
+                    <option what="ran">
+                        <sp who="Toriel" to="you">
+                            <box n="1">*...</box>
+                            <box n="2">*... you ran away...</box>
+                            <box n="3">*Truthfully, that was not a poor choice.</box>
+                            <box n="4">*It is better to avoid conflict whenever possible.</box>
+                            <box n="5">*That... however, is only a dummy. *It cannot harm you.</box>
+                            <box n="6">*It is made of cotton. *It has no desire for revenge...</box>
+                            <box n="7">*Nevermind. *Stay close to me and I will keep you safe.</box>
+                        </sp>
+                    </option>
+                    <option what="bored">
+                        <sp who="Toriel" to="you">
+                            <box n="1">*...</box>
+                            <box n="2">*...</box>
+                            <box n="3">*The next room awaits.</box>
+                        </sp>
+                    </option>
+                </choice>
+            </event>
+        </setting>
+        <setting name="SpikedTileRoom">
+            <sp who="Toriel" to="you">
+                <box n="1">*There is another puzzle in this room...</box>
+                <box n="2">*I wonder if you can solve it?</box>
+                <box n="3">*The western room is the eastern room's blueprint.</box>
+                <box n="4">*This is the puzzle, but...</box>
+                <box n="5">*Here, take my hand for a moment.</box>
+                <box n="8">*Puzzles seem a little too dangerous for now.</box>
+            </sp>
+        </setting>
+        <setting name="IndependenceHallway">
+            <sp who="Toriel" to="you">
+                <box n="1">*You have done excellently thus far, my child.</box>
+                <box n="2">*However... I have a difficult request to ask of you.</box>
+                <box n="3">*...</box>
+                <box n="4">*I would like you to walk to the end of the room by yourself.</box>
+                <box n="5">*Forgive me for this.</box>
+                <box n="6">...</box>
+                <box n="7">*Greetings, my child. *Do not worry, I did not leave you.</box>
+                <box n="8">*I was merely behind this pillar the whole time.</box>
+                <box n="9">*Thank you for trusting me.</box>
+                <box n="10">*However, there was an important reason for this exercise.</box>
+                <box n="11">*... to test your independence.</box>
+                <box n="12">*I must attend to some business, and you must stay alone for a
+                    while.</box>
+                <box n="13">*Please remain here. *It's dangerous to explore by yourself.</box>
+                <box n="14">*I have an idea. *I will give you a CELL PHONE.</box>
+                <box n="15">*If you have a need for anything, just call.</box>
+                <box n="16">*Be good, alright?</box>
+            </sp>
+        </setting>
+        <setting name="LeafPileSaveRoom">
+            <choice>
+                <option what="talkTo">
+                    <sp who="Froggit" to="you">
+                        <box n="1">*Ribbit, ribbit. *(Excuse me, human.)</box>
+                        <box n="2">*(I have some advice for you about battling monsters.)</box>
+                        <box n="3">*(If you ACT a certain way or FIGHT until you almost defeat
+                            them...)</box>
+                        <box n="4">*(They might not want to battle you anymore.)</box>
+                        <box n="5">*(If a monster does not want to fight you, please...)</box>
+                        <box n="6">*(Use some MERCY, human.) *Ribbit</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select saveGame" HP="restore">
+                    <sp who="determination">
+                        <box n="7">*(Playfully crinkling through the leaves fills you with
+                            determination.)</box>
+                    </sp>
+                </option>
+            </choice>
         </setting>
     </path>
 </map>
