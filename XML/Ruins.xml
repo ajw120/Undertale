@@ -4,10 +4,10 @@
         <setting name="RoomWithFlowers">
             <choice>
                 <option C_Or_Control="In-Game_Menu">
-                    <sp speaker="game"> Chara LV 1 HP 20/20 G 0<choice>Item Stat</choice><option
-                            what="Stat"><box n="4">"Chara LV1 HP 20/20 AT 0(0) EXP:0 DF0(0) NEXT:10
+                    <stats> Chara LV 1 HP 20/20 G 0<choice>Item Stat</choice><option what="Stat"
+                                ><box n="4">"Chara LV1 HP 20/20 AT 0(0) EXP:0 DF0(0) NEXT:10
                                 WEAPON:Stick ARMOR:Bandage GOLD:0</box></option>
-                        <box n="2"/></sp>
+                        <box n="2"/></stats>
                 </option>
             </choice>
         </setting>
@@ -21,7 +21,7 @@
                 <box n="6">*I guess little old me will have to do.</box>
                 <box n="7">*Ready? *Here we go!</box>
             </sp>
-            <conditions variation="Close_Window_Once">
+            <condition variation="Close_Window_Once">
                 <sp who="Flowey" to="you">
                     <box n="1">*Howdy! *I'm FLOWEY. *FLOWEY the FLOWER!</box>
                     <box n="2">*Hee hee hee...</box>
@@ -31,13 +31,13 @@
                     <box n="6">I guess little old me will have to do.</box>
                     <box n="7">Ready? *Here we go!</box>
                 </sp>
-            </conditions>
-            <conditions variation="Close_Window_Twice">
+            </condition>
+            <condition variation="Close_Window_Twice">
                 <sp who="Flowey" to="you">
                     <box n="1">*Don't you have anything better to do?</box>
                 </sp>
-            </conditions>
-            <conditions variation="Befriend_Everyone">
+            </condition>
+            <condition variation="Befriend_Everyone">
                 <sp who="Flowey" to="you">
                     <box n="1">*Remember...</box>
                     <box n="2">*THIS time, you've GOT to become friends with everyone.</box>
@@ -47,8 +47,8 @@
                     <box n="6">*No... *We just want you to be happy, right?</box>
                     <box n="7">*Good luck.</box>
                 </sp>
-            </conditions>
-            <conditions variation="Don't_Kill_Anyone">
+            </condition>
+            <condition variation="Don't_Kill_Anyone">
                 <sp who="Flowey" to="you">
                     <box n="1">*Hey. *Remember.</box>
                     <box n="2">*DON'T kill anyone.</box>
@@ -57,14 +57,14 @@
                     <box n="5">*Hee hee hee...</box>
                     <box n="6">*Good luck!</box>
                 </sp>
-            </conditions>
-            <conditions variation="Abort_Genocide">
-                <sp who="Flowey EvilFlowey" to="you">
+            </condition>
+            <condition variation="Abort_Genocide">
+                <sp who="Flowey" to="you">
                     <box n="1" who="Flowey" to="you">*Really, Chara?</box>
-                    <box n="2" who="EvilFlowey" to="you">*Well, do what you will.</box>
-                    <box n="3" who="EvilFlowey" to="you">*I'll be waiting for you!</box>
+                    <box n="2" who="Flowey" to="you">*Well, do what you will.</box>
+                    <box n="3" who="Flowey" to="you">*I'll be waiting for you!</box>
                 </sp>
-            </conditions>
+            </condition>
             <sp who="Toriel" to="you">
                 <box n="1">*Hello... *Are you all right?</box>
                 <box n="2">*You must be so lost and confused...</box>
@@ -257,6 +257,250 @@
                     <sp who="determination">
                         <box n="7">*(Playfully crinkling through the leaves fills you with
                             determination.)</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="MonsterCandyRoom">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*It says 'take one.' *Take a piece of candy? Yes No</box>
+                        <Option what="No">
+                            <box n="3">*You decided not to take some.</box>
+                        </Option>
+                        <option what="Yes">
+                            <condition item="full">
+                                <box n="6">*You tried to take a piece of candy, but you didn't have
+                                    any room.</box>
+                            </condition>
+                        </option>
+                        <option what="Yes"><box n="2"/>*You took a piece of candy. *(Press [C] to
+                            open the menu.)</option>
+                        <option what="select">
+                            <conition candy="tookOne">
+                                <box n="1">*'Take one.' *Take a candy? Yes No</box>
+                                <option what="Yes">
+                                    <box n="2">*You took more candy. *How disgusting..</box>
+                                </option>
+                            </conition>
+                        </option>
+                        <option what="select">
+                            <condition candy="tookTwo">
+                                <box n="1">*'Take one.' *Take a candy? Yes No</box>
+                                <option what="Yes">
+                                    <box n="2">*You take another piece. *You feelf like the scum of
+                                        the earth...</box>
+                                </option>
+                            </condition>
+                        </option>
+                        <option what="select">
+                            <condition candy="tookThree">
+                                <box n="1">*'Take one.' *Take a candy? Yes No</box>
+                                <option what="Yes">
+                                    <box n="2">*You took too much too fast. *The candy spills onto
+                                        the floor.</box>
+                                    <box n="3">*Look at what you've done.</box>
+                                </option>
+                            </condition>
+                        </option>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="1stRockPuzzle">
+            <sp who="cellPhone Toriel" to="you">
+                <box n="1">*Ring...</box>
+                <box n="2">*Hello? *This is TORIEL.</box>
+                <box n="3">*For no reason in particular... *Which do you prefer?</box>
+                <box n="4">Cinnamon or butterscotch? Cinnamon Bscotch</box>
+                <choice>
+                    <option what="Cinnamon Bscotch">
+                        <box n="5">*Oh, I see. *Thank you very much!</box>
+                        <box n="6">*Click...</box>
+                        <box n="1">*Ring...</box>
+                        <box n="2">*Hello? *This is TORIEL.</box>
+                        <box n="3A" select="Bscotch">*You do not DISLIKE cinnamon, do you?</box>
+                        <box n="3B" select="Cinnamon">*You do not DISLIKE butterscotch, do
+                            you?</box>
+                        <box n="4">*I know what your preference is, but...</box>
+                        <box n="5">*Would you turn up your nose if you found it on your plate?</box>
+                        <box n="6">*Right, right, I understand.</box>
+                        <box n="7">*Thank you for being patient, by the way.</box>
+                        <box n="8">*Click...</box>
+                    </option>
+                    <option what="Cinnamon"/>
+                </choice>
+            </sp>
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*Three out of four grey rocks recommend you push them.</box>
+                    </sp>
+                </option>
+            </choice>
+            <sp who="cellPhone Toriel">
+                <box n="1">*Ring...</box>
+                <box n="2">*Hello?</box>
+                <box n="3">*You do not have any allergies, do you ?</box>
+                <box n="4">*Huh? *Why am I asking?</box>
+                <box n="5">*No reason... *No reason at all.</box>
+                <box n="6">*Click...</box>
+            </sp>
+        </setting>
+        <setting name="Don'tStepOnTheLeavesRoom">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*Please don't step on the leaves.</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="2ndCrackedTileRoom">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*Didn't you read the sign downstairs?</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="2ndRockPuzzleRoom">
+            <sp who="rock1" to="you">
+                <box n="1">*WHOA there, pardner! *Who said you could push me around?</box>
+                <box n="2">*HMM? *So you're ASKIN' me to move over?</box>
+                <box n="3">*Okay, just for you pumpkin.</box>
+                <box n="4">*HMM? *You want me to move some more?</box>
+                <box n="5">*Alright, how's this?</box>
+                <box n="6">*HMM? *That was the wrong direction?</box>
+                <box n="7">*Okay, think I got it.</box>
+                <box n="8">*Was that helpful?</box>
+                <box n="9">*HMM? *You wanted me to STAY there?</box>
+                <box n="10">*You're giving me a real workout.</box>
+                <box n="11">Aren't things easier when you just ask?</box>
+            </sp>
+        </setting>
+        <setting name="TableWithCheeseRoom">
+            <choice>
+                <option what="select saveGame" HP="restore">
+                    <sp who="determination">
+                        <box n="1">*(Knowing the mouse might one day leave its hole and get the
+                            cheese...)</box>
+                        <box n="2">*(It fills you with determination.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="4">*This cheese has been here quite a long time.</box>
+                        <box n="5">*It's stuck to the table...</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="NapstablookRoom">
+            <sp who="Napstablook" to="you">
+                <box n="1">*ZZZZZZZZZZZZZZZ... *ZZZZZZZZZZZZZZ...</box>
+                <box n="2">*ZZZZZZZZZZ... *(are they gone yet) *ZZZZZZZZZZZZZZZ...</box>
+            </sp>
+            <sp who="game" to="you">
+                <box n="3">*(This ghost keeps saying 'z' out loud repeatedly, pretending to
+                    sleep.)</box>
+                <box n="4">*Move it with force? Yes No</box>
+                <option what="Yes"/>
+            </sp>
+            <choice what="spare kill">
+                <option what="spare">
+                    <sp who="Napstablook" to="you">
+                        <box n="1">*i usually come to the RUINS because there's nobody
+                            around...</box>
+                        <box n="2">*but today i met somebody nice...</box>
+                        <box n="3">*...</box>
+                        <box n="4">*oh, i'm rambling again</box>
+                        <box n="5">*i'll get out of your way</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="SpiderBakeSale">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*Spider Bake Sale *All proceeds go to real spiders.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="2">*Leave 7G in the web? Yes No</box>
+                    </sp>
+                </option>
+                <option what="yes">
+                    <sp who="game" to="you">
+                        <box n="3">*Some spiders crawled down and gave you a donut.</box>
+                        <condition what="NotEnoughGold">
+                            <box n="1">*You didn't have enough gold.</box>
+                        </condition>
+                        <condition what="ItemFull">
+                            <box n="1">*You are carrying too many items.</box>
+                        </condition>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="4">*Leave 18G in the web? Yes No</box>
+                    </sp>
+                </option>
+                <option what="Yes">
+                    <sp who="game" to="you">
+                        <box n="5">*Some spiders crawled down and gave you a jug.</box>
+                        <condition what="NotEnoughGold">
+                            <box n="2">*You didn't have enough gold.</box>
+                        </condition>
+                        <condition what="ItemFull">
+                            <box n="1">*You are carrying too many items.</box>
+                        </condition>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="FroggitHallway">
+            <choice>
+                <option what="talkTo">
+                    <sp who="Froggit" to="you">
+                        <box n="1">*Did you miss it? *Spider Bakesale down and to the right.</box>
+                        <box n="2">*Come eat food made by spiders, for spiders of spiders!</box>
+                        <box n="3">*Ribbit, ribbit. *(Sigh...)</box>
+                        <box n="4">*(My friend never listens to me.)</box>
+                        <box n="5">*(Whenevre I talk, they skip through my words by pressing
+                            [X].)</box>
+                        <box n="6">*(That's right.......) *(Pressing [X]............)
+                            *(................)</box>
+                        <box n="7A">*(Well, at least you listen to me.)</box>
+                        <box n="7B">*(Oh, not you too!)</box>
+                        <box n="8">*Ribbit, ribbit. *(I heard using "F4" can make you have a "full screen.") </box>
+                        <box n="9">*(But what does "F4" stand for?) *("Four Frogs"?)</box>
+                        <box n="10">*(I have only seen a maximum of three frogs in this room...)</box>
+                        <box n="11">*(This is troubling, to say the least.) *Ribbit.</box>
+                        <box n="12">*(Surely you know by now a monster wears a YELLOW name when you can SPARE it.)</box>
+                        <box n="13">*</box>
+                        <box n="14">*</box>
+                        <box n="15">*</box>
+                        <box n="16">*</box>
+                        <box n="17">*</box>
+                        <box n="18">*</box>
+                        <box n="19">*</box>
+                        <box n="20">*</box>
+                        <box n="21">*</box>
+                        <box n="22">*</box>
+                        <box n="23">*</box>
+
+
                     </sp>
                 </option>
             </choice>
