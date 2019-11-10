@@ -471,39 +471,137 @@
         </setting>
         <setting name="FroggitHallway">
             <choice>
-                <option what="talkTo">
-                    <sp who="Froggit" to="you">
+                <option what="read">
+                    <sp who="sign" to="you">
                         <box n="1">*Did you miss it? *Spider Bakesale down and to the right.</box>
                         <box n="2">*Come eat food made by spiders, for spiders of spiders!</box>
-                        <box n="3">*Ribbit, ribbit. *(Sigh...)</box>
-                        <box n="4">*(My friend never listens to me.)</box>
-                        <box n="5">*(Whenevre I talk, they skip through my words by pressing
-                            [X].)</box>
-                        <box n="6">*(That's right.......) *(Pressing [X]............)
-                            *(................)</box>
-                        <box n="7A">*(Well, at least you listen to me.)</box>
-                        <box n="7B">*(Oh, not you too!)</box>
-                        <box n="8">*Ribbit, ribbit. *(I heard using "F4" can make you have a "full screen.") </box>
-                        <box n="9">*(But what does "F4" stand for?) *("Four Frogs"?)</box>
-                        <box n="10">*(I have only seen a maximum of three frogs in this room...)</box>
-                        <box n="11">*(This is troubling, to say the least.) *Ribbit.</box>
-                        <box n="12">*(Surely you know by now a monster wears a YELLOW name when you can SPARE it.)</box>
-                        <box n="13">*</box>
-                        <box n="14">*</box>
-                        <box n="15">*</box>
-                        <box n="16">*</box>
-                        <box n="17">*</box>
-                        <box n="18">*</box>
-                        <box n="19">*</box>
-                        <box n="20">*</box>
-                        <box n="21">*</box>
-                        <box n="22">*</box>
-                        <box n="23">*</box>
-
-
+                    </sp>
+                </option>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="Froggit1">
+                            <box n="3">*Ribbit, ribbit. *(Sigh...)</box>
+                            <box n="4">*(My friend never listens to me.)</box>
+                            <box n="5">*(Whenevre I talk, they skip through my words by pressing
+                                [X].)</box>
+                            <box n="6">*(That's right.......) *(Pressing [X]............)
+                                *(................)</box>
+                            <box n="7A">*(Well, at least you listen to me.)</box>
+                            <box n="7B">*(Oh, not you too!)</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="Froggit2">
+                            <box n="8">*Ribbit, ribbit. *(I heard using "F4" can make you have a
+                                "full screen.") </box>
+                            <box n="9">*(But what does "F4" stand for?) *("Four Frogs"?)</box>
+                            <box n="10">*(I have only seen a maximum of three frogs in this
+                                room...)</box>
+                            <box n="11">*(This is troubling, to say the least.) *Ribbit.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="12">*(There's an ant-sized frog in a crack in the wall...) *(It
+                                waves at you.)</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="Froggit3">
+                            <box n="13">*Ribbit, ribbit. *(I have heard you are quite merciful, for
+                                a human...)</box>
+                            <box n="14">*(Surely you know by now a monster wears a YELLOW name when
+                                you can SPARE it.)</box>
+                        </sp>
+                    </option>
+                </choice>
+                <sp who="cellPhone Toriel">
+                    <box n="15">*Ring...</box>
+                    <box n="16">*Hello?</box>
+                    <box n="17">*I just realized that it has been a while since I have cleaned
+                        up.</box>
+                    <box n="18">*I was not expecting to have company so soon.</box>
+                    <box n="19">*There are probably a lot of things lying about here and
+                        there.</box>
+                    <box n="20">*You can pick them up, but do not carry more than you need.</box>
+                    <box n="21">*Someday you might see something you really like.</box>
+                    <box n="22">*You will want to leave room in your pockets for that.</box>
+                    <box n="23">*Click...</box>
+                </sp>
+            </choice>
+        </setting>
+        <setting name="SixHolesRoom" where="BottomMiddle">
+            <choice>
+                <option what="talkTo">
+                    <sp who="Napstablook" to="you"/>
+                    <box n="1">*i fell down a hole... *now i cant get up...</box>
+                    <box n="2">*go on without me...</box>
+                    <box n="3">*wait, ghosts can fly, can't they...</box>
+                    <box n="4">*oh well...</box>
+                </option>
+            </choice>
+        </setting>
+        <setting name="SixSwitchesPuzzle">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*There is just one switch.</box>
                     </sp>
                 </option>
             </choice>
         </setting>
+        <setting name="SwitchesRoom" perspective="A">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*The far door is not an exit. *It simply marks a rotation in
+                            perspective.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select blueSwitch">
+                    <sp who="game" to="you">
+                        <box n="2">*It's a switch *Press it? Yes No</box>
+                    </sp>
+                </option>
+                <option what="Yes">
+                    <box n="3">*Nothing happened.</box>
+                </option>
+            </choice>
+            <choice>
+                <option what="select yellowSwitch">
+                    <box n="4">*It's a switch *Press it? Yes No</box>
+                    <option what="Yes">
+                        <box n="5">*Nothing happened.</box>
+                    </option>
+                </option>
+            </choice>
+            <choice>
+                <option what="select redSwitch">
+                    <box n="6">*It's a switch *Press it? Yes No</box>
+                    <option what="Yes">
+                        <box n="5">*Nothing happened.</box>
+                    </option>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <condition what="PressingTheSwitchesTooManyTimes">
+                        <sp who="game" to="you">
+                            <box n="1">*You're making the switches uncomfortable with all this
+                                attention.</box>
+                        </sp>
+                    </condition>
+                </option>
+            </choice>
+        </setting>
+
     </path>
 </map>
