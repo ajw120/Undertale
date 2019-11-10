@@ -78,7 +78,7 @@
         </setting>
         <setting name="RuinsEntrance">
             <choice>
-                <option what="select" determination="saveGame" HP="restore">
+                <option what="select saveGame" HP="restore">
                     <sp who="determination game" to="you">
                         <box n="1" who="determination game" to="you">*(The shadow of the ruins looms
                             above, filling you with determination.)</box>
@@ -602,6 +602,139 @@
                 </option>
             </choice>
         </setting>
-
+        <setting name="SwitchesRoom" persepective="B">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*If you can read this, press the blue switch.</box>
+                    </sp>
+                </option>
+                <condition what="foundBlueSwitch">
+                    <sp who="game" to="you">
+                        <box n="1">*(You noticed there was a blue switch behind the top
+                            pillar.)</box>
+                        <option what="select">
+                            <sp who="game" to="you">
+                                <box n="2">*It's a switch *Press it? Yes No</box>
+                                <option what="Yes">
+                                    <box n="3">*You hear a clicking sound.</box>
+                                </option>
+                            </sp>
+                        </option>
+                    </sp>
+                </condition>
+            </choice>
+        </setting>
+        <seting name="SwitchesRoom" perspective="C">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*If you can read this, press the red switch.</box>
+                    </sp>
+                </option>
+                <option what="select redSwitch">
+                    <sp who="game" to="you">
+                        <box n="4">*It's a switch. *Press it? Yes No</box>
+                        <option what="Yes">
+                            <box n="5">*You hear a clicking sound.</box>
+                        </option>
+                    </sp>
+                </option>
+            </choice>
+        </seting>
+        <setting name="SwitchesRoom" perspective="D">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="3">*If you can read this, press the green switch.</box>
+                    </sp>
+                </option>
+                <condition what="foundGreenSwitch">
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="4">*It's a switch *Press it? Yes No</box>
+                            <option what="Yes">
+                                <box n="5">*You hear a clicking sound.</box>
+                            </option>
+                        </sp>
+                    </option>
+                </condition>
+            </choice>
+        </setting>
+        <setting name="FroggitNearToyKnife">
+            <choice>
+                <option what="talkTo">
+                    <sp who="Froggit" to="you">
+                        <box n="1">*Ribbit, ribbit *(Just between you and me...)</box>
+                        <box n="2">*(I saw TORIEL come out of here just a little while ago.)</box>
+                        <box n="3">*(She was carrying some groceries.</box>
+                        <box n="4">*(I didn't ask what they were for...)</box>
+                        <box n="5">*(We're all too intimidated to talk to her.) *Ribbit.</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="ToyKnifeRoom">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*You found the Toy Knife.</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="BlackTreeRoom">
+            <sp who="Toriel" to="you">
+                <box n="1">*Oh dear, that took longer than I thought it would.</box>
+                <box n="3">*How did you get here, my child? *Are you hurt?</box>
+                <condition what="fullHP">
+                    <box n="1">*Not a scratch... *Impressive! *But still...</box>
+                </condition>
+                <condition what="wounded">
+                    <box n="1">*There, there, I will heal you.</box>
+                </condition>
+                <condition what="2HPorLess">
+                    <box n="1">*Who did this to you? *You will get an apology.</box>
+                </condition>
+            </sp>
+        </setting>
+        <setting name="EntranceToToriel'sHome">
+            <sp who="Toriel" to="you">
+                <box n="1">*I should not have left you alone for so long.</box>
+                <box n="2">*It was irresponsible to try to surprise you like this.</box>
+                <box n="3">*Err...</box>
+                <box n="4">*Well, I suppose I cannot hide it any longer.</box>
+                <box n="5">*Come, small one!</box>
+            </sp>
+            <option what="select">
+                <sp who="game" to="you">
+                    <box n="6">*Every time this old tree grows any leaves, they fall right
+                        off.</box>
+                </sp>
+            </option>
+            <option what="select saveGame" HP="restore">
+                <sp who="determination" to="you">
+                    <box n="7">*(Seeing such a cute, tidy house in the RUINS gives you
+                        determination.)</box>
+                </sp>
+            </option>
+        </setting>
+        <setting name="TorielHome">
+            <sp who="Toriel" to="you">
+                <box n="1">*Do you smell that?</box>
+                <box n="2">*Surprise!</box>
+                <box n="3">*It is a butterscotch-cinnamon pie.</box>
+                <box n="4">*I thought we might celebrate your arrival.</box>
+                <box n="5">*I want you to have a nice time living here.</box>
+                <box n="6">*So I will hold off on snail pie for tonight.</box>
+                <box n="7">*Here, I have another surprise for you.</box>
+                <option what="select">
+                    <box n="8">*Inside is an old calendar from the beginning of 201X.</box>
+                </option>
+                <option what="select">
+                    <box n="9">*These books are worn... *They must have been read many times.</box>
+                </option>
+            </sp>
+        </setting>
     </path>
 </map>
