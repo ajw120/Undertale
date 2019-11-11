@@ -1039,31 +1039,94 @@
             </condition>
             <condition what="killedThenSparedToriel">
                 <sp who="Flowey" to="you">
-                    <box n="1">*</box>
-                    <box n="2">*</box>
-                    <box n="3">*</box>
-                    <box n="4">*</box>
-                    <box n="5">*</box>
-                    <box n="6">*</box>
-                    <box n="7">*</box>
-                    <box n="8">*</box>
-                    <box n="9">*</box>
-                    <box n="10">*</box>
-                    <box n="11">*</box>
-                    <box n="12">*</box>
-                    <box n="13">*</box>
-                    <box n="14">*</box>
-                    <box n="15">*</box>
-                    <box n="16">*</box>
-                    <box n="17">*</box>
-                    <box n="18">*</box>
-                    <box n="19">*</box>
-                    <box n="20">*</box>
-                    <box n="21">*</box>
-                    <box n="22">*</box>
-                    <box n="23">*</box>
-                    <box n="24">*</box>
+                    <box n="1">*Clever. *Verrrryyy clever.</box>
+                    <box n="2">*You think you're really smart, don't you.</box>
+                    <box n="3">*In this world, it's kill or be killed.</box>
+                    <box n="4">*So you were able to play by your own rules.</box>
+                    <box n="5">*You spared the life of a single person.</box>
+                    <box n="6">*Hee hee hee...</box>
+                    <box n="7">*Bud don't act so cocky.</box>
+                    <box n="8">*I know what you did.</box>
+                    <box n="9">*You murdered her.</box>
+                    <box n="10">*And then you went back, because you regretted it.</box>
+                    <box n="11">*Ha ha ha ha...</box>
+                    <box n="12">*You naive idiot.</box>
+                    <box n="13">*Do you think you are the only one with that power?</box>
+                    <box n="14">*The power to reshape the world...</box>
+                    <box n="15">*Purely by your own determination.</box>
+                    <box n="16">*The ability to play God!</box>
+                    <box n="17">*The ability to "SAVE."</box>
+                    <box n="18">*I thought I was the only one with that power. But...</box>
+                    <box n="19">*I can't SAVE anymore.</box>
+                    <box n="20">*Apparently YOUR desires for this world override MINE.</box>
+                    <box n="21">*Well well</box>
+                    <box n="22">*Enjoy that power while you can.</box>
+                    <box n="23">*I'll be watching.</box>
                 </sp>
+            </condition>
+            <condition what="sparedThenKilledToriel">
+                <sp who="Flowey" to="you">
+                    <box n="1">*Wow, you're utterly repulsive.</box>
+                    <box n="2">*You spared her life...</box>
+                    <box n="3">*Then you decided that just wasn't interesting enough for you.</box>
+                    <box n="4">*So you murdered her just to see what would happen.</box>
+                    <box n="5">*You killed her out of boredom.</box>
+                    <box n="6">*Hee hee...</box>
+                    <box n="7">*you naive idiot.</box>
+                    <box n="8">*Do you think you are the only one with that power?</box>
+                    <box n="9">*The power to reshape the world...</box>
+                    <box n="10">*Purely by your own determination.</box>
+                    <box n="11">*The ability to play God!</box>
+                    <box n="12">*The ability to "SAVE."</box>
+                    <box n="13">*I thought I was the only one with that power. But...</box>
+                    <box n="14">*I can't SAVE anymore.</box>
+                    <box n="15">*Apparently YOUR desires for this world override MINE.</box>
+                    <box n="16">*Well well.</box>
+                    <box n="17">*Enjoy that power while you can.</box>
+                    <box n="18">*I;ll be watching.</box>
+                </sp>
+            </condition>
+            <condition what="killedTorielTwice">
+                <sp who="Flowey" to="you">
+                    <box n="1">*Heheheheh.</box>
+                    <box n="2">*You just can't get enough, can you!?</box>
+                    <box n="3">*...</box>
+                    <box n="4">*How many more times will you kill her?</box>
+                    <box n="5">*Ha ha ha ha ha...</box>
+                    <box n="6">*You disgusting animal.</box>
+                    <box n="7">*You didn't even TRY to spare her.</box>
+                </sp>
+            </condition>
+            <condition what="killTorielThree+Times">
+                <sp who="Flowey" to="you">
+                    <box n="1">*Wow, you really can't get enough.</box>
+                    <box n="2">*You kind of remind me of myself.</box>
+                </sp>
+            </condition>
+            <condition what="killedMonstersSparedToriel">
+                <sp who="Flowey" to="you">
+                    <box n="1">*Clever. *Verrrryyy clever.</box>
+                    <box n="2">*You think you're really smart, don't you.</box>
+                    <box n="3">*In this world, it's kill or be killed.</box>
+                    <box n="4">*So you were able to play by your own rules.</box>
+                    <box n="5">*You spared the life of a single person.</box>
+                    <box n="6">*Hee hee hee...</box>
+                    <box n="7">*Froggit, Whimsun. *Vegetoid, Loox. *Migosp, Moldsmal.</box>
+                    <box n="8">*Think about those names.</box>
+                    <box n="9">*Do you think any of those monsters have families?</box>
+                    <box n="10">*Do you think any of them have friends?</box>
+                    <box n="11">*Each one could have been someone else's Toriel.</box>
+                    <box n="12">*Selfish brat.</box>
+                    <box n="13">*Somebody is dead because of you.</box>
+                </sp>
+            </condition>
+            <condition what="KillSpareKillToriel">
+                <box n="1">*Wow, you're utterly repulsive.</box>
+                <box n="2">*You spared her life...</box>
+                <box n="3">*Then you decided that wasn't interesting enough for you.</box>
+                <box n="4">*So you murdered her just to see what would happen.</box>
+                <box n="5">*You killed her out of boredom.</box>
+                <box n="6">*Truly disgusting...</box>
             </condition>
         </setting>
     </path>
