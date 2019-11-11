@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="Snowdin">
+    <path route="neutral pacifist genocide">
+        <setting name="OutsideRuinsDoor">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*...!? *There's a camera hidden in the bushes.</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="SansHallway">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*(It's a tough-looking branch.) *(It's too heavy to pick
+                            up.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="2">*(It's a tough-looking branch.) *(It's too heavy to pick
+                            up.)</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="MeetingSans">
+            <sp who="Sans" to="you">
+                <box n="1">*</box>
+            </sp>
+        </setting>
+    </path>
+</map>
