@@ -965,5 +965,106 @@
             </condition>
         </setting>
         <setting name="Basement"/>
+        <setting name="TorielBossRoom">
+            <sp who="Toriel">
+                <box n="1">*You want to leave so badly?</box>
+                <box n="2">*Hmph.</box>
+                <box n="3">*You are just like the others.</box>
+                <box n="4">*There is only one solution to this.</box>
+                <box n="5">*Prove yourself...</box>
+                <box n="6">*Prove to me you are strong enough to survive.</box>
+                <condition what="runAway">
+                    <box n="1">*That is right.</box>
+                    <box n="2">*Go upstairs.</box>
+                </condition>
+                <condition what="re-fight">
+                    <box n="1">*Already?</box>
+                    <box n="2">*What will it take for you to learn your lesson?</box>
+                </condition>
+                <condition what="spare">
+                    <box n="1">*If you truly wish to leave the RUINS...</box>
+                    <box n="2">*I will not stop you.</box>
+                    <box n="3">*However, when you leave...</box>
+                    <box n="4">*Please do not come back.</box>
+                    <box n="5">*I hope you understand.</box>
+                    <box n="7">*Goodbye, my child.</box>
+                </condition>
+                <condition what="killedTorielBefore">
+                    <box n="1">*There is only one solution to this.</box>
+                    <box n="2">*Prove to me you are strong enough to survive!</box>
+                    <box n="3">*... wait.</box>
+                    <box n="4">*... why are you looking at me like that?</box>
+                    <box n="5">*Like you have seen a ghost.</box>
+                    <box n="6">Do you know something that I do not?</box>
+                    <box n="7">*No... *That is impossible.</box>
+                </condition>
+            </sp>
+        </setting>
+        <setting name="FloweyExitHall">
+            <condition what="sparedToriel">
+                <sp who="Flowey" to="you">
+                    <box n="1">*Clever. *Verrrryyy clever.</box>
+                    <box n="2">*You think you're really smart, don't you?</box>
+                    <box n="3">*In this world, it's kill or be killed.</box>
+                    <box n="4">*So you were able to play by your own rules.</box>
+                    <box n="5">*You spared the life of a single person.</box>
+                    <box n="6">*Hee hee hee...</box>
+                    <box n="7">*I bet you feel really great.</box>
+                    <box n="8">*You didn't kill anybody this time.</box>
+                    <box n="9">*But what will you do if you meet a relentless killer?</box>
+                    <box n="10">*You'll die and you'll die and you'll die.</box>
+                    <box n="11">*Until you tire of trying.</box>
+                    <box n="12">*What will you do then?</box>
+                    <box n="13">*Will you kill out of frustration?</box>
+                    <box n="14">*Or will you give up entirely on this world...</box>
+                    <box n="15">*...and let ME inherit the power to control it?</box>
+                    <box n="16">*I am the prince of this world's future.</box>
+                    <box n="17">*Don't worry my little monarch, my plan isn't regicide.</box>
+                    <box n="18">*This is SO much more interesting.</box>
+                </sp>
+            </condition>
+            <condition what="killedToriel">
+                <sp who="Flowey" to="you">
+                    <box n="1">*Hee hee hee...</box>
+                    <box n="2">*I hope you like your choice.</box>
+                    <box n="3">*After all, it's not as if you can go back and change fate.</box>
+                    <box n="4">*In this world, it's kill or be killed.</box>
+                    <box n="5">*That old hag thought she could break the rules.</box>
+                    <box n="6">*She tried so hard to save you humans.</box>
+                    <box n="7">*But when it came down to it...</box>
+                    <box n="8">*Hee hee...</box>
+                    <box n="9">*SHE COULDN"T EVEN SAVE HERSELF.</box>
+                    <box n="10">*WHAT AN IDIOT!!</box>
+                </sp>
+            </condition>
+            <condition what="killedThenSparedToriel">
+                <sp who="Flowey" to="you">
+                    <box n="1">*</box>
+                    <box n="2">*</box>
+                    <box n="3">*</box>
+                    <box n="4">*</box>
+                    <box n="5">*</box>
+                    <box n="6">*</box>
+                    <box n="7">*</box>
+                    <box n="8">*</box>
+                    <box n="9">*</box>
+                    <box n="10">*</box>
+                    <box n="11">*</box>
+                    <box n="12">*</box>
+                    <box n="13">*</box>
+                    <box n="14">*</box>
+                    <box n="15">*</box>
+                    <box n="16">*</box>
+                    <box n="17">*</box>
+                    <box n="18">*</box>
+                    <box n="19">*</box>
+                    <box n="20">*</box>
+                    <box n="21">*</box>
+                    <box n="22">*</box>
+                    <box n="23">*</box>
+                    <box n="24">*</box>
+                </sp>
+            </condition>
+        </setting>
     </path>
 </map>
