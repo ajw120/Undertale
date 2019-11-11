@@ -728,13 +728,143 @@
                 <box n="5">*I want you to have a nice time living here.</box>
                 <box n="6">*So I will hold off on snail pie for tonight.</box>
                 <box n="7">*Here, I have another surprise for you.</box>
-                <option what="select">
-                    <box n="8">*Inside is an old calendar from the beginning of 201X.</box>
-                </option>
-                <option what="select">
-                    <box n="9">*These books are worn... *They must have been read many times.</box>
-                </option>
+                <choice>
+                    <option what="select">
+                        <box n="8">*Inside is an old calendar from the beginning of 201X.</box>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="select">
+                        <box n="9">*These books are worn... *They must have been read many
+                            times.</box>
+                    </option>
+                </choice>
             </sp>
+        </setting>
+        <setting name="TorielLivingRoom">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*The ends of the tools have been filed down to make them
+                            safer.</box>
+                    </sp>
+                </option>
+            </choice>
+            <option what="select">
+                <sp who="game" to="you">
+                    <box n="2">*It's a history book. *Here's a random page...</box>
+                    <box n="3">*Trapped behind the barrier and fearful of further human attacks, we
+                        retreated.</box>
+                    <box n="4">*This was our new home, which we named...</box>
+                    <box n="5">*"Home"</box>
+                    <box n="6">*As great as our king is, he is pretty lousy at names.</box>
+                </sp>
+            </option>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="7">*This fire isn't burning hot... *Just pleasantly warm. *You could
+                            put your hand inside.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="8">*(Seems like the right size for Toriel.)</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="Kitchen">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*For some reason, there is a brand-name chocolate bar in the
+                            fridge.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="2">*There is some white fur stuck in the drain.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="3">*Inside the cupboard are cookie cutters for gingerbread
+                            monsters.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="4">*The size of the pie intimidates you too much for you to eat
+                            it.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="5">*The stovetop is very clean. *Toriel must use fire magic
+                            instead.</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="Bedrooms">
+            <sp who="Toriel" to="you">
+                <box n="1">*This is it...</box>
+                <box n="3">*A room of your own. *I hope you like it!</box>
+                <box n="5">*Is something burning...? *Um, make yourself at home!</box>
+            </sp>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="6">*You have seen this type of plant before but do not know its
+                            name.</box>
+                        <condition what="readBook">
+                            <box n="1">*Oh! *It is a "water sausage."</box>
+                        </condition>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="7">*Inside the drawer are flower seeds and some broken
+                            crayons.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="8">*It's you!</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="9">*"Room under renovations."</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="Toriel'sRoom">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*Just a regular old bucket of snails.</box>
+                    </sp>
+                </option>
+            </choice>
         </setting>
     </path>
 </map>
