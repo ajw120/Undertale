@@ -865,6 +865,105 @@
                     </sp>
                 </option>
             </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="2">*(Toriel's small chair. *(Its name is Chairel.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="3">*It's TORIEL's diary. *Read the circled passage? Yes No</box>
+                        <option what="Yes">
+                            <box n="4">*You read the passage...</box>
+                            <box n="5">*"Why did the skeleton want a friend?"</box>
+                            <box n="6">*"Because she was feeling BONELY..."></box>
+                            <box n="7">*The rest of the page is filled with jokes of a similar
+                                caliber.</box>
+                        </option>
+                    </sp>
+                </option>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="8">*(Definitely bigger than a twin-sized bed.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="9">*It's an encyclopedia of subterranean plants. YOu opend to the
+                            middle...</box>
+                        <box n="10">*"Typha" - A group of wetland flowering plants with brown,
+                            oblong seedpods.</box>
+                        <box n="11">*Known more commonly as "water sausages."</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="12">*You peek inside... *Scandalous!</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="13">*It's TORIEL's sock drawer.</box>
+                        <box n="14">*You can't stop looking at the socks.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="15">*Ah, the cactus. *Truly the most tsundere of plants.</box>
+                    </sp>
+                </option>
+            </choice>
         </setting>
+        <setting name="Asriel'sRoom">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*Look at these cool toys! *They don't inerest you at all.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="2">*(An empty photo frame.) *(It's really dusty...)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="3">*(A box of kids' shoes in a disparity of sizes.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <condition what="pie">
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="4">*You found a slice of butterscotch-cinnamon pie.</box>
+                        </sp>
+                    </option>
+                </condition>
+            </choice>
+            <condition what="runAwayFromToriel killToriel">
+                <sp who="game" to="you">
+                    <box n="1">*Chara, please...</box>
+                    <box n="2">*Wake up!</box>
+                    <box n="3">*You are the future of humans and monsters...</box>
+                </sp>
+            </condition>
+        </setting>
+        <setting name="Basement"/>
     </path>
 </map>
