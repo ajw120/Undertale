@@ -175,5 +175,127 @@
                 <box n="14">*thanks a million. *i'll be up ahead.</box>
             </sp>
         </setting>
+        <setting name="SavePoint">
+            <choice>
+                <option what="select saveGame restoreHP">
+                    <sp who="determination" to="you">
+                        <box n="1">*(The convenience of that lamp still fills you with
+                            determination.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="3">*(This is a box.)</box>
+                        <box n="4">*(You can put an item inside or take an item out.)</box>
+                        <box n="5">*(The same box will appear later, so don't worry about coming
+                            back.)</box>
+                        <box n="6">*(Sincerely, a box lover.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="7">*Use the box? Yes No</box>
+                    </sp>
+                </option>
+                <option what="Yes">
+                    <box n="8">INVENTORY BOX Press [X] to Finish</box>
+                </option>
+            </choice>
+        </setting>
+        <setting name="FishingPoleRoom">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*It's a fishing rod affixed to the ground...</box>
+                        <box n="2">*Reel it in? Yes No</box>
+                        <option what="No">
+                            <box n="3">*You leave it alone.</box>
+                        </option>
+                        <option what="Yes">
+                            <box n="4">*All that's attached to the end is a photo of a weird-looking
+                                monster...</box>
+                            <box n="5">*(Call Me! Here's my number!)</box>
+                            <box n="6">*You decide not to call.</box>
+                            <box n="7">*You send the line back out.</box>
+                        </option>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="SansAndPapyrus">
+            <sp who="Papyrus" to="Sans">
+                <box n="1">OH.</box>
+            </sp>
+            <sp who="Sans" to="Papyrus">
+                <box n="2">*hey, what's that in front of that rock?</box>
+            </sp>
+            <sp who="Papyrus" to="Sans">
+                <box n="3">OH MY GOD!!!</box>
+                <box n="4">(IS... IS THAT A HUMAN)</box>
+            </sp>
+            <sp who="Sans" to="Papyrus">
+                <box n="5">(yes)</box>
+            </sp>
+            <sp who="Papyrus" to="Sans">
+                <box n="6">OH MY GOD!!!</box>
+                <box n="7">SANS! I FINALLY DID IT!!</box>
+                <box n="8">UNDYNE WILL...</box>
+                <box n="9">I'M GONNA...</box>
+                <box n="10">I'LL BE SO...</box>
+                <box n="11">POPULAR!!! POPULAR!!! POPULAR!!!</box>
+            </sp>
+            <sp who="Papyrus" to="you">
+                <box n="12">...'AHEM'</box>
+                <box n="13">HUMAN! YOU SHALL NOT PASS THIS AREA!</box>
+                <box n="14">I, THE GREAT PAPYRUS, WILL STOP YOU!!!</box>
+                <box n="15">I WILL THEN CAPTURE YOU!</box>
+                <box n="16">YOU WILL BE DELIVERED TO THE CAPITAL!</box>
+                <box n="17">THEN... THEN!!!</box>
+                <box n="18">I'M NOT SURE WHAT'S NEXT.</box>
+                <box n="19">IN ANY CASE!</box>
+                <box n="20">CONTINUE... ONLY IF YOU DARE!!!</box>
+                <box n="21">NEYH HEH HEH HEH HEH HEH HEH HEH!!!</box>
+            </sp>
+            <sp who="Sans" to="you">
+                <box n="22">*well, that went well.</box>
+                <box n="23">*don't sweat it, kid.</box>
+                <box n="24">*i'll keep an eyesocket out for ya.</box>
+            </sp>
+        </setting>
+        <setting name="PapyrusStation">
+            <choice>
+                <option what="read">
+                    <sp who="game sign" to="you">
+                        <box n="1">*There's some narration on this cardboard box.</box>
+                        <box n="2">YOU OBSERVE THE WELL-CRAFTED SENTRY STATION.</box>
+                        <box n="3">WHO COULD HAVE BUILT THIS, YOU PONDER...</box>
+                        <box n="4">I BET IT WAS THAT VERY FAMOUS ROYAL GUARDSMAN!</box>
+                        <box n="5">(NOTE. NOT YET A VERY FAMOUS ROYAL GUARDSMAN.</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="DoggoStation">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*(Absolutely NO MOVING!!!)</box>
+                    </sp>
+                </option>
+            </choice>
+            <sp who="Doggo">
+                <box n="2">*Did something move? *Was it my imagination?</box>
+                <box n="3">*I can only see moving things.</box>
+                <box n="4">* if something WAS moving... *For example a human...</box>
+                <box n="5">I'll make sure it NEVER moves again!</box>
+            </sp>
+            <choice>
+                <option what="select">*(Someone's been smoking dog treats.)</option>
+            </choice>
+        </setting>
     </path>
 </map>
