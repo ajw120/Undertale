@@ -30,7 +30,149 @@
         </setting>
         <setting name="MeetingSans">
             <sp who="Sans" to="you">
-                <box n="1">*</box>
+                <box n="1">*i'm ans. *sans the skeleton.</box>
+                <box n="2">*im actually supposed to be on watch for humans right now.</box>
+                <box n="3">*but... y'know...</box>
+                <box n="4">*i dont really care about capturing anybody.</box>
+                <box n="5">*now my brother papyrus...</box>
+                <box n="6">*he's a human-hunting FANATIC.</box>
+                <box n="7">*hey, actually. I think that's him over there.</box>
+                <box n="8">*i have an idea. *go through this gate thingy.</box>
+                <box n="9">*yeah, go right through. *my bro made the bars too wide to stop
+                    anyone.</box>
+            </sp>
+            <condition what="normalMeeting">
+                <sp who="Sans" to="you">
+                    <box n="1">*Human.</box>
+                    <box n="2">*Don't you know how to greet a new pal?</box>
+                    <box n="3">*Turn around and shake my hand.</box>
+                    <box n="4">*</box>
+                    <box n="5">*</box>
+                    <box n="6">*heheh... the old whoopee cushion in the hand trick.</box>
+                    <box n="7">*it's ALWAYS funny.</box>
+                    <box n="8">*anyways, you're a human, right?</box>
+                    <box n="9">*that's hilarious.</box>
+                </sp>
+            </condition>
+            <condition what="reset">
+                <sp who="Sans" to="you">
+                    <box n="1">*Human.</box>
+                    <box n="2">*heh, the old whoopee cushion in the hand trick...</box>
+                    <box n="3">*wait a sec... *have you heard it before or something?</box>
+                    <box n="4">*you turned around before i said to... *...weird.</box>
+                    <box n="5">*...whatever. *you're a human, right?</box>
+                </sp>
+            </condition>
+        </setting>
+        <setting name="MeetingPapyrus">
+            <sp who="Sans" to="you">
+                <box n="1">*quick, behind that conveniently-shaped lamp.</box>
+            </sp>
+            <sp who="Sans" to="Papyrus">
+                <box n="2">*sup, bro?</box>
+            </sp>
+            <sp who="Papyrus" to="Sans">
+                <box n="3">YOU KNOW WHAT -SUP,- BROTHER!</box>
+                <box n="4">IT'S BEEN EIGHT DAYS AND YOU STILL HAVEN'T...</box>
+                <box n="5">RECALIBRATED. YOUR. PUZZLES!</box>
+                <box n="6">YOU JUST HANG AROUND OUTSIDE YOUR STATION!</box>
+                <box n="7">WHAT ARE YOU EVEN DOING?!?</box>
+
+            </sp>
+            <sp who="Sans" to="Papyrus">
+                <box n="8">*staring at this lamp. *it's really cool. *do you wanna look?</box>
+            </sp>
+            <sp who="Papyrus" to="Sans">
+                <box n="9">NO!! I DON'T HAVE TIME FOR THAT!!</box>
+                <box n="10">WHAT IF A HUMAN COMES THROUGH HERE!?!</box>
+                <box n="11">I WANT TO BE READY!!!</box>
+                <box n="12">I WILL BE THE ONE! I MUST BE THE ONE!</box>
+                <box n="13">I WILL CAPTURE A HUMAN!</box>
+                <box n="14">THEN, I, THE GREAT PAPYRUS...</box>
+                <box n="15">WILL GET ALL THE THINGS I UTTERLY DESERVE!</box>
+                <box n="16">RESPECT... RECOGNITION...</box>
+                <box n="17">I WILL FINALLY BE ABLE TO JOIN THE ROYAL GUARD!</box>
+                <box n="18">PEOPLE WILL ASK, TO, BE MY, -FRIEND?-</box>
+                <box n="19">I WILL BATHE IN A SHOWER OF KISSES EVERY MORNING.</box>
+            </sp>
+            <sp who="Sans" to="Papyrus">
+                <box n="20">*hmm...</box>
+                <box n="21">*maybe this lamp will help you.</box>
+            </sp>
+            <sp who="Papyrus" to="Sans">
+                <box n="22">SANS!! YOU ARE NOT HELPING!! YOU LAZYBONES!!</box>
+                <box n="23">ALL YOU DO IS SIT AND BOONDOGGLE!</box>
+                <box n="24">YOU GET LAZIER AND LAZIER EVERY DAY!!!</box>
+            </sp>
+            <sp who="Sans" to="Papyrus">
+                <box n="25">*hey, take it easy. *i've gotten a ton of work done today.</box>
+                <box n="26">*a skele-ton.</box>
+            </sp>
+            <sp who="Papyrus" to="Sans">
+                <box n="28">SANS!!!</box>
+            </sp>
+            <sp who="Sans" to="Papyrus">
+                <box n="29">*come on. *you're smiling.</box>
+            </sp>
+            <sp who="Papyrus" to="Sans">
+                <box n="30">I AM AND I HATE IT!</box>
+                <box n="31">SIGH...</box>
+                <box n="32">WHY DOES SOMEONE AS GREAT AS ME...</box>
+                <box n="33">HAVE TO DO SO MUCH JUST TO GET SOME RECOGNITION...</box>
+            </sp>
+            <sp who="Sans" to="Papyrus">
+                <box n="34">*wow, sounds like you're really working yourself...</box>
+                <box n="35">*down to the bone.</box>
+            </sp>
+            <sp who="Papryus" to="Sans">
+                <box n="37">UGH!!!</box>
+                <box n="38">I WILL ATTEND TO MY PUZZLES...</box>
+                <box n="39">AS FOR YOUR WORK?</box>
+                <box n="40">PUT A LITTLE MORE,</box>
+                <box n="41">-BACKBONE- INTO IT!!!!</box>
+                <box n="42">NYEHEHEHEHEHEHEHEHEHEHEHE!!!</box>
+                <box n="43">HEH!</box>
+            </sp>
+            <sp who="Sans" to="Papyrus">*ok, you can come out now.</sp>
+        </setting>
+        <setting name="AfterPapyrus">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*Just a conveniently-shaped lamp.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="Sans" to="you">
+                        <box n="2">*you oughta get going. *he might come back. *and if he
+                            does...</box>
+                        <box n="3">*...you'll have to sit through more of my hilarious jokes.</box>
+                        <box n="4">*what's the holdup? *look, there's nothin to be afraid of.</box>
+                        <box n="5">*it's just a dark cavern filled with skeletons and horrible
+                            monsters.</box>
+                        <box n="6">*well?</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="7">*It's some sort of checkpoint or sentry-station.</box>
+                        <box n="8">*But there are bottles of ketchup, mustard, and relish sitting
+                            inside...</box>
+                    </sp>
+                </option>
+            </choice>
+            <sp who="Sans" to="you">
+                <box n="9">*actually, hey... *hate to bother ya, but can you do me a favor?</box>
+                <box n="10">*i was thinking... *my brother's been kind of down lately...</box>
+                <box n="11">*he's never seen a human before. and seeing you might just make his
+                    day.</box>
+                <box n="12">*don't worry, he's not dangerous.</box>
+                <box n="13">*even if he tries to be.</box>
+                <box n="14">*thanks a million. *i'll be up ahead.</box>
             </sp>
         </setting>
     </path>
