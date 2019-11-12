@@ -294,7 +294,127 @@
                 <box n="5">I'll make sure it NEVER moves again!</box>
             </sp>
             <choice>
-                <option what="select">*(Someone's been smoking dog treats.)</option>
+                <option what="select">
+                    <sp who="Doggo">
+                        <box n="1">*Hello? *Is anybody there...? *No?</box>
+                        <box n="2">*Are you two playing a trick on me? *Real funny.</box>
+                        <box n="3">*Big guy? *Is that you? *Come on...</box>
+                        <box n="4">*Well, it's not the tall skeleton... *He's too loud.</box>
+                        <box n="5">*Whoever you are, knock it off!!!</box>
+                        <box n="6">*...</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <box n="6">*(Someone's been smoking dog treats.)</box>
+                </option>
+            </choice>
+            <condition what="spareWithPet">
+                <sp who="Doggo">
+                    <box n="1">*S-S-S Something pet me... *Something that isn't m-m-moving...</box>
+                    <box n="2">*I'm gonna need some dog treats for this!!!</box>
+                </sp>
+            </condition>
+            <condition what="spareWithStick">
+                <sp who="Doggo">
+                    <box n="1">*A stick appeared out of nowhere, then disappeared.</box>
+                    <box n="2">*Was it a ghost stick?</box>
+                    <box n="3">*Did I just return it to the afterlife?</box>
+                    <box n="4">*I need some dog treats to think about this.</box>
+                </sp>
+            </condition>
+            <condition what="reachedSnowdinTown">
+                <choice>
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="1">*(This note is written very oddly, as if the paper was moving
+                                while it was written.)</box>
+                            <box n="2">*(It says...) *(Out to lunch...?)</box>
+                        </sp>
+                    </option>
+                </choice>
+                <box n="1">*Hello?</box>
+            </condition>
+        </setting>
+        <setting name="SlipperyIceRoom">
+            <choice>
+                <option what="talkTo">
+                    <sp who="Sans" to="you">
+                        <box n="1">*hey, here's something important to remember.</box>
+                        <box n="2">*my brother has a very special attack.</box>
+                        <box n="3">*if you see a blue attack, don't move and it won't hurt
+                            you.</box>
+                        <box n="4">*here's an easy way to keep it in mind.</box>
+                        <box n="5">*imagine a stop sign. *when you see astop sign, you stop,
+                            right?</box>
+                        <box n="6">*stop signs are red. *so imagine a blue stop sign instead.</box>
+                        <box n="7">*simple, right? *when fighting, thinkg about blue stop
+                            signs.</box>
+                        <box n="8">*remember... *blue stop signs.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="9">*North: Ice *South: Ice *West: Ice</box>
+                        <box n="10">*East: Snowdin Town</box>
+                        <box n="11">*(... and ice)</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="SnowmanRoom">
+            <choice>
+                <option what="talkTo">
+                    <sp who="Snowman game" to="you">
+                        <box n="1">*Hello. *I am a snowman.</box>
+                        <box n="2">*I want to see the world... *But I cannot move.</box>
+                        <box n="3">*If you would be so kind, traveller, please...</box>
+                        <box n="4">*Take a piece of me and bring it very far away. Yes No</box>
+                        <option what="No">
+                            <box n="5">*I see. *Good journey, then.</box>
+                        </option>
+                        <option what="Yes">
+                            <box n="7">*Thank you... good luck!</box>
+                            <box n="8">*(You got the Snowman Piece.)</box>
+                            <option what="talkTo">
+                                <box n="9">*How am I doing? *By "I" I mean the piece of me I gave
+                                    you...</box>
+                                <condition what="lost1stPiece">
+                                    <box n="1">*How am I doing? *By "I" I mean the piece of me I
+                                        gave you...</box>
+                                    <box n="2">*Huh? You lost it...? *...I suppose I can give you
+                                        another piece...</box>
+                                    <box n="3">*Please be careful this time.</box>
+                                    <box n="4">*(You got the Snowman Piece.)</box>
+                                </condition>
+                                <condition what="lost2ndPiece">
+                                    <box n="1">Huh? Again...?</box>
+                                    <box n="2">I'm sorry... if I give you any more, there will be
+                                        nothing left of me.</box>
+                                    <box n="3">*I suppose it is true. *Travelling beyond our limits
+                                        is but a fantasy.</box>
+                                    <box n="4">*It's no different for anyone else.</box>
+                                    <box n="5">*All of monsterkind are doomed to stay underground,
+                                        forever...</box>
+                                </condition>
+                            </option>
+                            <condition what="itemFull">
+                                <box n="1">*It seems you do not have enough room for me.</box>
+                            </condition>
+                            <condition what="atePieceInFrontOfSnowman">
+                                <box n="1">*You ate the Snowman Piece. *Your HP was maxed out.</box>
+                                <box n="2">*Did you just... *Consume the part of me I had given
+                                    you?</box>
+                                <box n="3">*In front of my very eyes!?</box>
+                                <box n="4">*I have no words for you... *Begone!</box>
+                                <box n="5">*I shouldn't have given myself away so easily...</box>
+                            </condition>
+                        </option>
+                    </sp>
+                </option>
             </choice>
         </setting>
     </path>
