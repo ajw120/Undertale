@@ -77,7 +77,6 @@
                 <box n="5">RECALIBRATED. YOUR. PUZZLES!</box>
                 <box n="6">YOU JUST HANG AROUND OUTSIDE YOUR STATION!</box>
                 <box n="7">WHAT ARE YOU EVEN DOING?!?</box>
-
             </sp>
             <sp who="Sans" to="Papyrus">
                 <box n="8">*staring at this lamp. *it's really cool. *do you wanna look?</box>
@@ -478,32 +477,123 @@
                     <box n="2">DO I KNOW THAT PERSON???</box>
                 </sp>
                 <sp who="Sans" to="Papyrus">
-                    <box n="2">*do you not know...</box>
-                    <box n="2">*who you know?</box>
+                    <box n="3">*do you not know...</box>
+                    <box n="4">*who you know?</box>
                 </sp>
                 <sp who="Papyrus" to="Sans">
-                    <box n="2">PBPBPPBPT!!</box>
-                    <box n="2">OF COURSE I KNOW WHO I KNOW!!</box>
-                    <box n="2">I WANTED TO KNOW IF YOU KNOW...</box>
-                    <box n="2">I KNOW WHO I KNOW AS MUCH AS I KNOW I KNOW WHO I KNOW!</box>
-                    <box n="2">...YOU KNOW?</box>
-                    <box n="2">OH-HO! SPEAK OF THE DEVIL!</box>
+                    <box n="5">PBPBPPBPT!!</box>
+                    <box n="6">OF COURSE I KNOW WHO I KNOW!!</box>
+                    <box n="7">I WANTED TO KNOW IF YOU KNOW...</box>
+                    <box n="8">I KNOW WHO I KNOW AS MUCH AS I KNOW I KNOW WHO I KNOW!</box>
+                    <box n="9">...YOU KNOW?</box>
+                    <box n="10">OH-HO! SPEAK OF THE DEVIL!</box>
                 </sp>
             </condition>
         </setting>
         <setting name="BallGameRoom">
             <choice>
                 <option what="talkTo">
+                    <sp who="NiceCreamGuy game">
+                        <box n="1">*I don't understand why these aren't selling...</box>
+                        <box n="2">*It's the perfect weather for something cold...</box>
+                        <box n="3">*OH!!! *A CUSTOMER!!!</box>
+                    </sp>
                     <sp who="NiceCreamGuy" to="you">
-                        <box n="2">*</box>
-                        <box n="2">*</box>
-                        <box n="2">*</box>
-                        <box n="2">*</box>
-                        <box n="2">*</box>
-                        <box n="2">*</box>
-                        <box n="2">*</box>
-                        <box n="2">*</box>
-                        <box n="2">*</box>
+                        <box n="4">*Hello! *Would you like some Nice Cream?</box>
+                        <box n="5">*It's the frozen treat that warms your heart!</box>
+                        <box n="6">*Now just 15G! Yes No</box>
+                        <option what="No">
+                            <box n="7">*Well then... *Tell your friends...</box>
+                            <box n="8">*There's ice cream... *Out in the middle of the
+                                woods...</box>
+                        </option>
+                        <option what="Yes">
+                            <box n="10">*Here you go! *Have a super-duper day! *(You got the Nice
+                                Cream.)</box>
+                            <condition what="notEnoughG">
+                                <box n="11">*Huh? *You don't have enough mnoney...</box>
+                                <box n="12">*I wish I could make Nice Cream for free...</box>
+                            </condition>
+                            <condition what="itemFull">*It looks like you're holding too much stuff!
+                                *Oh well!</condition>
+                        </option>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="14">*...!? *There's a camera hidden inside this lump of snow.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="15">*Ah! Wow! Woah! *It's a "Hole".</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="16">*(It looks like a snow ball...</box>
+                        <box n="17">*(Actually, it's a snowdecahedron.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="Sans" to="you">
+                        <box n="1">*i've been thinking about selling treats too.</box>
+                        <box n="2">*want some fried snow? *it's just 5G. Buy No</box>
+                        <option what="No">
+                            <box n="3">*you're right.</box>
+                            <box n="4">*i should charge way more than that.</box>
+                        </option>
+                        <option what="Buy">
+                            <box n="6">*di i say 5G? *i meant 50G Buy No</box>
+                            <option what="No">
+                                <box n="7">*you're right.</box>
+                                <box n="8">*that's still too low.</box>
+                            </option>
+                            <option what="Buy">
+                                <box n="10">*really *how about 5000G Buy No</box>
+                                <option what="No">
+                                    <box n="11">*i have to pay for the raw materials somehow.</box>
+                                </option>
+                                <option what="Buy">
+                                    <box n="13">*50000G *that's my final offer. Buy No</box>
+                                    <option what="No">
+                                        <box n="14">*don't you know a good deal when you hear
+                                            one?</box>
+                                    </option>
+                                    <option what="Buy">
+                                        <box n="16">*what? you don't have the money.</box>
+                                        <box n="17">*hey, that's okay.</box>
+                                        <box n="18">*i don't have any snow.</box>
+                                        <condition what="50000+G">
+                                            <box n="2">*wow, that's a lot of cash.</box>
+                                            <box n="3">*that's why i'm sorry to say...</box>
+                                            <box n="4">*i can't sell you this fried snow.</box>
+                                            <box n="5">*it's got too much sentimental value.</box>
+                                        </condition>
+                                    </option>
+                                </option>
+                            </option>
+                        </option>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="playBallGame">
+                    <sp who="game" to="you">
+                        <condition what="lightBlue">
+                            <box n="1">*</box>
+                            <box n="2">*</box>
+                            <box n="3">*</box>
+                            <box n="4">*</box>
+                        </condition>
                     </sp>
                 </option>
             </choice>
