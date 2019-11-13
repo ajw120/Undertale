@@ -124,7 +124,7 @@
                 <box n="34">*wow, sounds like you're really working yourself...</box>
                 <box n="35">*down to the bone.</box>
             </sp>
-            <sp who="Papryus" to="Sans">
+            <sp who="Papyrus" to="Sans">
                 <box n="37">UGH!!!</box>
                 <box n="38">I WILL ATTEND TO MY PUZZLES...</box>
                 <box n="39">AS FOR YOUR WORK?</box>
@@ -413,6 +413,97 @@
                                 <box n="5">*I shouldn't have given myself away so easily...</box>
                             </condition>
                         </option>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="ElectricMazeRoom">
+            <sp who="Papyrus" to="you">
+                <box n="1">IN ORDER TO STOP YOU...</box>
+                <box n="2">MY BROTHER AND I HAVE CREATED SOME PUZZLES!</box>
+                <box n="3">I THINK YOU WILL FIND THIS ONE...</box>
+                <box n="4">QUITE SHOCKING!!!</box>
+                <box n="5">FOR YOU SEE, THIS IS THE INVISIBLE...</box>
+                <box n="6">ELECTRICITY MAZE!!!</box>
+                <box n="7">WHEN YOU TOUCH THE WALLS OF THIS MAZE,</box>
+                <box n="8">THIS ORB WILL ADMINISTER A HEARTY ZAP!</box>
+                <box n="9">SOUND LIKE FUN???</box>
+                <box n="10">BECAUSE!</box>
+                <box n="11">THE AMOUNT OF FUN YOU WILL PROBABLY HAVE,</box>
+                <box n="12">IS ACTUALLY RATHER SMALL I THINK.</box>
+                <box n="13">OK, YOU CAN GO AHEAD NOW.</box>
+            </sp>
+            <sp who="Papyrus" to="Sans">
+                <box n="15">SANS!! WHAT DID YOU DO?!?!</box>
+            </sp>
+            <sp who="Sans" to="Papyrus">
+                <box n="16">*i think the human has to hold the orb.</box>
+            </sp>
+            <sp who="Papyrus" to="Sans">
+                <box n="17">OH, OKAY.</box>
+            </sp>
+            <sp who="Papyrus" to="you">
+                <box n="18">HOLD THIS PLEASE!</box>
+                <box n="19">OKAY, TRY NOW!</box>
+                <box n="20">INCREDIBLE!! YOU SLIPPERY SNAIL!!</box>
+                <box n="21">YOU SOLVED IT SO EASILY... TOO EASILY!</box>
+                <box n="22">HOWEVER!!</box>
+                <box n="23">THE NEXT PUZZLE WILL NOT BE EASY!</box>
+                <box n="24">IT IS DESIGNED BY MY BROTHER SANS!</box>
+                <box n="25">YOU WILL SURELY BE CONFOUNDED!</box>
+                <box n="26">I KNOW I AM!</box>
+                <box n="27">NYEH HEH HEH HEH HEH!!</box>
+            </sp>
+            <sp who="Sans" to="you">
+                <box n="28">*hey, thanks... *my brother seems like he's having fun.</box>
+                <box n="29">*by the way, did you see that weird outfit he's wearing?</box>
+                <box n="30">*we made that a few weeks ago for a costume party.</box>
+                <box n="31">*he hasn't word anything else since...</box>
+                <box n="32">*keeps calling it his "battle body."</box>
+                <box n="33">*man.</box>
+                <box n="34">*isn't my brother cool?</box>
+            </sp>
+            <condition what="tryingToLeave">
+                <sp who="Papyrus" to="you">
+                    <box n="1">COME ON! DON'T BE SO RUDE!!!</box>
+                    <box n="2">I SET UP THIS PUZZLE JUST FOR YOU!</box>
+                    <box n="3">DO YOU TREAT YOUR MOTHER THIS WAY...</box>
+                    <box n="4">WHEN SHE MAKES YOU A PUZZLE?!?!?</box>
+                    <box n="5">HUMANS...</box>
+                </sp>
+            </condition>
+            <condition what="reset">
+                <sp who="Papyrus" to="Sans">
+                    <box n="1">REALLY THOUGH!!! THAT HUMAN!!!</box>
+                    <box n="2">DO I KNOW THAT PERSON???</box>
+                </sp>
+                <sp who="Sans" to="Papyrus">
+                    <box n="2">*do you not know...</box>
+                    <box n="2">*who you know?</box>
+                </sp>
+                <sp who="Papyrus" to="Sans">
+                    <box n="2">PBPBPPBPT!!</box>
+                    <box n="2">OF COURSE I KNOW WHO I KNOW!!</box>
+                    <box n="2">I WANTED TO KNOW IF YOU KNOW...</box>
+                    <box n="2">I KNOW WHO I KNOW AS MUCH AS I KNOW I KNOW WHO I KNOW!</box>
+                    <box n="2">...YOU KNOW?</box>
+                    <box n="2">OH-HO! SPEAK OF THE DEVIL!</box>
+                </sp>
+            </condition>
+        </setting>
+        <setting name="BallGameRoom">
+            <choice>
+                <option what="talkTo">
+                    <sp who="NiceCreamGuy" to="you">
+                        <box n="2">*</box>
+                        <box n="2">*</box>
+                        <box n="2">*</box>
+                        <box n="2">*</box>
+                        <box n="2">*</box>
+                        <box n="2">*</box>
+                        <box n="2">*</box>
+                        <box n="2">*</box>
+                        <box n="2">*</box>
                     </sp>
                 </option>
             </choice>
