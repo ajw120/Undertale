@@ -719,10 +719,41 @@
                 <box n="13">*what? really, dude? *that easy-peasy word scramble?</box>
                 <box n="14">*that's for baby bones.</box>
             </sp>
-            <sp who="Papyrus" to="Sans you">
+            <sp who="Papyrus game" to="Sans you">
                 <box n="15">UN BELIEVABLE</box>
                 <box n="16">HUMAN!!! SOLVE THIS DISPUTE!</box>
+                <box n="1">*(Which is harder?) Jumble Crossword</box>
             </sp>
+            <option what="Jumble">
+                <sp who="Papyrus Sans" to="you Sans">
+                    <box n="2">HA! HA! YES!</box>
+                    <box n="3">HUMANS MUST BE VERY INTELLIGENT!</box>
+                    <box n="4">IF THEY ALSO FIND JUNIOR JUMBLE SO DIFFICULT!</box>
+                    <box n="5">NYEH! HEH! HEH HEH!</box>
+                    <box n="6">*thanks for saying "junior jumble" just to appease my brother.</box>
+                    <box n="7">*yesterday he got stumped trying to "solve" the horoscope.</box>
+                </sp>
+            </option>
+            <option what="Crossword">
+                <sp who="Papyrus Sans" to="you Sans">
+                    <box n="1">YOU TWO ARE WEIRD!</box>
+                    <box n="2">CROSSWORDS ARE SO EASY.</box>
+                    <box n="3">IT'S THE SAME SOLUTION EVERY TIME.</box>
+                    <box n="4">I JUST FILL ALL THE BOXES IN WITH THE LETER 'Z'...</box>
+                    <box n="5">BECAUSE EVREY TIME I LOOK AT A CROSSWORD...</box>
+                    <box n="6">ALL I CAN DO IS SNORE!!!</box>
+                    <box n="7">NYEH HEH HEH!!!</box>
+                    <box n="8">*papyrus... *...finds difficulty in interesting places.</box>
+                    <box n="9">*yesterday he got stumped trying to "solve" the horoscope.</box>
+                </sp>
+            </option>
+            <option what="runAway">
+                <sp who="Papyrus" to="Sans you">
+                    <box n="1">SANS!!!! THE HUMAN IS ESCAPING!!!</box>
+                    <box n="2">YOU MADE THE PUZZLE TOO HARD!!</box>
+                    <box n="3">HEY YOU!!! GET BACK HERE!</box>
+                </sp>
+            </option>
         </setting>
     </path>
 </map>
