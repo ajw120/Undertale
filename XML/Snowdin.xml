@@ -755,5 +755,97 @@
                 </sp>
             </option>
         </setting>
+        <setting name="SpaghettiRoom">
+            <choice>
+                <option what="">
+                    <sp who="game Papyrus">
+                        <box n="1">*It's a note from Papyrus...</box>
+                        <box n="2">HUMAN!! PLEASE ENJOY THIS SPAGHETTI.</box>
+                        <box n="3">(LITTLE DO YOU KNOW THIS SPAGHETTI IS A TRAP...)</box>
+                        <box n="4">(DESIGNED TO ENTICE YOU!!!)</box>
+                        <box n="5">(YOU'LL BE SO BUSY EATING IT...)</box>
+                        <box n="6">(THAT YOU WON'T REALIZE THAT YOU AREN'T PROGRESSING!!)</box>
+                        <box n="7">(THOROUGHLY JAPED AGAIN BY THE GREAT PAPYRUS!!!)</box>
+                        <box n="8">NYEH- HEH- HEH, PAPYRUS</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="9">*(It's a plate of frozen spaghetti.)</box>
+                        <box n="10">*(It's so cold, it's stuck to the table...</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="11">*(It's an uplugged microwave.)</box>
+                        <box n="12">*(All of the settings say "spaghetti.")</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select saveGame restoreHP">
+                    <sp who="determination" to="you">
+                        <box n="13">*(Knowing the mouse might one day find a way to heat up the
+                            spaghetti...)</box>
+                        <box n="14">*(It fills you with determination.)</box>
+                        <box n="15">File saved.</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="DogiArena">
+            <choice>
+                <option what="read">
+                    <sp who="sign">
+                        <box n="1">*Warning: Dog Marriage</box>
+                        <box n="2">*(Yes, you read that correctly.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="3">*...!? *There's a camera hidden inside this tree.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="4">*There's a switch hidden in the snow. *Click!</box>
+                        <box n="5">*The switch is stuck now.</box>
+                    </sp>
+                </option>
+            </choice>
+            <sp who="Dogi">
+                <box n="7">*What's that smell? *(Where's that smell?)</box>
+                <box n="8">*If you're a smell... *(... identify yoursmellf!)</box>
+                <box n="9">*Hmmm... *Here's that weird smell...</box>
+                <box n="10">*It makes me want to eliminate.</box>
+                <box n="11">*(... Eliminate YOU!)</box>
+
+                <battle>
+                    <choice>
+                        <option what="kill">
+                            <routeSwitch what="pacifistToNeutral"/>
+                        </option>
+                    </choice>
+                </battle>
+
+                <condition what="spareByPet">
+                    <box n="1">*Dogs can pet other dogs??? *(A new world has opened up for
+                        us...)</box>
+                    <box n="2">*Thanks, weird puppy!</box>
+                </condition>
+                <condition what="spareWithStick">
+                    <box n="1">*Weird smells can bring good things... *(Friendly fun fetch!)</box>
+                    <box n="2">Thanks, weird smell! *(It sure was fun to "stick" together!)</box>
+                </condition>
+            </sp>
+        </setting>
     </path>
 </map>
