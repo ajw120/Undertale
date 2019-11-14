@@ -589,14 +589,140 @@
                 <option what="playBallGame">
                     <sp who="game" to="you">
                         <condition what="lightBlue">
-                            <box n="1">*</box>
-                            <box n="2">*</box>
-                            <box n="3">*</box>
-                            <box n="4">*</box>
+                            <sp who="game" to="you">
+                                <box n="1">*LIGHT BLUE - "Ball" is "Small." *You waited, still, for
+                                    this oppprotunity...</box>
+                                <box n="2">*... then dethroned "Ball" with a sharp attack.</box>
+                                <box n="3">*(You are awareded 4G.)</box>
+                                <option what="select">
+                                    <box n="4">*(This flag has nothing else to offer.)</box>
+                                </option>
+                            </sp>
+                        </condition>
+                        <condition what="blue">
+                            <box n="1">*BLUE - Hopping and twirling, your original style pulled you
+                                through.</box>
+                            <box n="2">*(You are awarded 2G.)</box>
+                            <option what="select">
+                                <box n="3">*(This flag has nothing else to offer.)</box>
+                            </option>
+                        </condition>
+                        <condition what="yellow">
+                            <box n="1">*YELLOW - Your sure-fire accuracy put an end to the mayhem of
+                                "Ball."</box>
+                            <box n="2">*(You are awarded 3G.)</box>
+                            <option what="select">
+                                <box n="3">*(This flag has nothing else to offer.)</box>
+                            </option>
+                        </condition>
+                        <condition what="green">
+                            <box n="1">*GREEN - Your concern and care for "Ball" led you to a
+                                delicious victory.</box>
+                            <box n="2">*(You are awarded 1G.)</box>
+                            <option what="select">
+                                <box n="3">*(This flag has nothing else to offer.)</box>
+                            </option>
+                        </condition>
+                        <condition what="orange">
+                            <box n="1">*ORANGE - You are the kind of person who rushes fists-first
+                                through all obstacles.</box>
+                            <box n="2">*(You are awarded 5G.)</box>
+                            <option what="select">
+                                <box n="3">*(This flag has nothing else to offer.)</box>
+                            </option>
+                        </condition>
+                        <condition what="purple">
+                            <box n="1">*PURPLE - Even when you felt trapped, you took notes and
+                                achieved the end of "Ball."</box>
+                            <box n="2">*(You are awarded 2G.)</box>
+                            <option what="select">
+                                <box n="3">*(This flag has nothing else to offer.)</box>
+                            </option>
+                        </condition>
+                        <condition what="red">
+                            <box n="1">*Bravery. Justice. *Integrity. Kindness. *Perseverance.
+                                Patience.</box><box n="2">*Using these, you were able to win at
+                                "Ball Game."</box><box n="3">*(You are awarded 50G.)</box>
+                            <option what="select">
+                                <box n="4">*(This flag has nothing else to offer.)</box>
+                            </option>" </condition>
+                        <condition what="redAgain">
+                            <box n="1">*RED - Try as you might, you continue to be yourself.</box>
+                            <box n="2">*(You are awarded 10G.)</box>
+                            <option what="select">
+                                <box n="3">*(This flag has nothing else to offer.)</box>
+                            </option>
                         </condition>
                     </sp>
                 </option>
             </choice>
+        </setting>
+        <setting name="DogiStation">
+            <choice>
+                <option what="read">
+                    <sp who="game" to="you">
+                        <box n="1">*(His.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="read">
+                    <sp who="game" to="you">
+                        <box n="2">*SMELL DANGER RATING</box>
+                        <box n="3">*Snow Smell - Snowman WHITE Rating Can become YELLOW Rating</box>
+                        <box n="4">*Unsuspicious Smell - Puppy BLUE Rating Smell of rolling
+                            around.</box>
+                        <box n="5">*Weird Smell - Humans GREEN Rating Destroy at all costs!</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="read">
+                    <sp who="game" to="you">
+                        <box n="6">*(Hers.)</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="CrosswordRoom">
+            <sp who="Papyrus" to="you">
+                <box n="1">HUMAN!!! I HOPE YOU'RE READY FOR...</box>
+            </sp>
+            <sp who="Papyrus" to="Sans">
+                <box n="2">SANS!! WHERE'S THE PUZZLE!!!</box>
+            </sp>
+            <sp who="Sans" to="Papyrus">
+                <box n="3">*it's right there. *on the ground.</box>
+                <box n="4">*trust me. *there's now way they can get past this one.</box>
+            </sp>
+            <sp who="crossword" to="you">
+                <box n="5">Monster Kidz Word Search Ice-E: Hey Kid's! Can you help me Solve this
+                    puzzle?
+                    GIASFCLFUBREHBERNPBAVUUJJCSEOMEOIWLSNOTELEKSTMFBRLXETMONSTERMNGOPMDIAMREMAUUJHITSCIGARSVXRSOUDCW
+                    fall monster cigars winter skeletons cig spring mermaid giasfclfebrehber summer
+                    robot hot</box>
+            </sp>
+            <sp who="Papyrus" to="Sans">
+                <box n="6">SANS!! THAT DIDN'T DO ANYTHING!</box>
+            </sp>
+            <sp who="Sans" to="Papyrus">
+                <box n="7">*whoops.</box>
+                <box n="8">*i knew i should have used today's crossword instead.</box>
+            </sp>
+            <sp who="Papyrus" to="Sans">
+                <box n="9">WHAT!? CROSSWORD!?</box>
+                <box n="10">I CAN'T BELIEVE YOU SAID THAT!!</box>
+                <box n="11">IN MY OPINION...</box>
+                <box n="12">JUNIOR JUMBLE IS EASILY THE HARDEST.</box>
+            </sp>
+            <sp who="Sans" to="Papyrus">
+                <box n="13">*what? really, dude? *that easy-peasy word scramble?</box>
+                <box n="14">*that's for baby bones.</box>
+            </sp>
+            <sp who="Papyrus" to="Sans you">
+                <box n="15">UN BELIEVABLE</box>
+                <box n="16">HUMAN!!! SOLVE THIS DISPUTE!</box>
+            </sp>
         </setting>
     </path>
 </map>
