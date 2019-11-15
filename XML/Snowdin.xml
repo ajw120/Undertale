@@ -1098,14 +1098,232 @@
                     </sp>
                 </option>
             </choice>
+            <condition what="didntPetLesserDog">
+                <choice what="talkTo">
+                    <sp who="game" to="you">
+                        <box n="1">*This dog is staring blankly into the snow, waiting for it to
+                            turn into art.</box>
+                    </sp>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="Faun" to="you">
+                            <box n="2">*That dog considers itself an artist, but doesn't ever know
+                                what to create.</box>
+                            <box n="3">*It probably doesn't help that its brain is the size of a
+                                piece of kibble. </box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="select saveGame restoreHP">
+                        <sp who="determination" to="you">
+                            <box n="4">*(Knowing that dog will never give up trying to make the
+                                perfect snowdog...)</box>
+                            <box n="5">*(It fills you with determination.)</box>
+                        </sp>
+                    </option>
+                </choice>
+                <condition what="reachedSnowdinTown">
+                    <choice>
+                        <option what="talkTo">
+                            <sp who="Faun" to="you">
+                                <box n="1">*That dog from earlier...? *It's at Grillby's. *I
+                                    think.</box>
+                                <box n="2">*After work, all of the dogs go there to play cards
+                                    together.</box>
+                                <box n="3">*But that dog doesn't really know how to express
+                                    itself.</box>
+                                <box n="4">*So, it ends up playing alone, instead of introducing
+                                    itself to the others...</box>
+                            </sp>
+                        </option>
+                    </choice>
+                </condition>
+            </condition>
+            <condition what="petLesserDog1-2Times">
+                <choice>
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="1">*Seems like the base of a snowdog.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="Faun" to="you">
+                            <box n="2">*That dog considers itself an artist, but doesn't ever know
+                                what to create.</box>
+                            <box n="3">*It probably doesn't help that its brain is the size of a
+                                piece of kibble. </box>
+                        </sp>
+                    </option>
+                </choice>
+            </condition>
+            <condition what="petLesserDog3+Times">
+                <choice>
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="1">*It's the broken head of a snowdog.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="2">*Seems like the base of a snowdog.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="3">It's the broken heaed of a snowdog.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="4">*Seems like the base of a snowdog.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="5">*Seems like the base of a snowdog.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="6">*Seems like the base of a snowdog.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <optin what="select">
+                        <sp who="game" to="you">
+                            <box n="7">*It's the broken head of a snowdog.</box>
+                        </sp>
+                    </optin>
+                </choice>
+                <choice>
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="8">*It's the broken head of a snowdog.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="9">*It's the broken head of a snowdog.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="10">*Seems like the base of a snowdog.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="Faun" to="you">
+                            <box n="11">*A dog just rushed in here filled with inspiration.</box>
+                            <box n="12">*It kept tyring to build a snowdog that expressed its own
+                                emotions...</box>
+                            <box n="13">*But, as it built, it kept getting more excited about the
+                                sculpture...</box>
+                            <box n="14">*Its neck got longer and longer, and it added more and more
+                                snow, until...</box>
+                            <box n="15">*It was rather sad to watch, but I couldn't turn away.</box>
+                        </sp>
+                    </option>
+                </choice>
+            </condition>
+            <condition what="killedLesserDog">
+                <choice>
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="1">*It's a pile of mushy snow.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="select saveGame restoreHP">
+                        <sp who="determination" to="you">
+                            <box n="2">*(Snow can always be broken down and rebuilt into something
+                                more useful.)</box>
+                            <box n="3">*(This simple fact fills you with determination.)</box>
+                        </sp>
+                    </option>
+                </choice>
+            </condition>
+        </setting>
+        <setting name="PapyrusAndSansSnowmen">
             <choice>
-                <option what="select saveGame restoreHP">
-                    <sp who="determination" to="you">
-                        <box n="4">*(Knowing that dog will never give up trying to make the perfect
-                            snowdog...)</box>
-                        <box n="5">*(It fills you with determination.)</box>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*(It's a lump of snow with the word 'sans' written on it in red
+                            marker.)</box>
                     </sp>
                 </option>
+            </choice>
+            <choice>
+                <optin what="select">
+                    <sp who="game" to="you">
+                        <box n="2">*(It's a snow Papyrus.)</box>
+                    </sp>
+                </optin>
+            </choice>
+        </setting>
+        <setting name="GyftrotRoom">
+            <choice>
+                <option what="talkTo">
+                    <sp who="Sans" to="you">
+                        <box n="1">*what's up?</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option>
+                    <sp who="Sans" to="you">
+                        <box n="2">*are you lost?</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option>
+                    <sp who="Sans" to="you">
+                        <box n="3">*you sure do like to exercise.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="Sans" to="you">
+                        <box n="4">*say..</box>
+                        <box n="5">*are you following me?</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="MysteriousDoorRoom">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*It's a door.</box>
+                    </sp>
+                </option>
+                <condition what="haveMysteryKey">
+                    <box n="1">*You used the Mystery Key. *The door's lock clicks...</box>
+                    <box n="2">*...as you fail to fit the key into it.</box>
+                </condition>
             </choice>
         </setting>
     </path>
