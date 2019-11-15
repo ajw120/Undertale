@@ -1581,6 +1581,161 @@
                     </sp>
                 </option>
             </choice>
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="5">*(don't want to walk to the other side of town?)</box>
+                        <box n="6">*(Try the undersnow tunnels!) *(They're efficiently laid
+                            out.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="RabbitKid" to="you">
+                        <box n="7">*That lady over there...</box>
+                        <box n="8">*Something about her disturbs me.</box>
+                        <option what="talkTo">
+                            <box n="9">*I think I've figured it out. *...no, nevermind.</box>
+                        </option>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="RabbitGirl">
+                        <box n="10">*Isn't my little Cinnamon just the cutest?</box>
+                        <box n="11">*Bub-buns are so adorable... *Tee hee!</box>
+                        <box n="12">*Bun-bun-bun-bun-bun...</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="GiftBear" to="you">
+                        <box n="13">*Awful teens tormented a local monster by decorating its
+                            tree-like horns.</box>
+                        <box n="14">*So we started giving that monster presents to make it feel
+                            better.</box>
+                        <box n="15">*Now it's a tradition to put presents underneath a decorated
+                            tree.</box>
+                        <box n="16">*Guess it was a good thing those teens tormented that
+                            monster...?</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="17">*(It's a carefully decorated tree.)</box>
+                        <box n="18">*(Some of the presents are addressed from "Santa" to various
+                            locals.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="MonsterKid">
+                        <box n="19">*Yo! *You're a kid too, right?</box>
+                        <box n="20">*I can tell 'cause you're wearing a striped shirt.</box>
+                        <box n="21">*I wonder if that weird skeleton is an adult or a kid.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="PoliticsBear">
+                        <box n="22">*This town doesn't have a mayor.</box>
+                        <box n="23">*But if there's ever a problem, a skeleton will tell a fish lady
+                            about it.</box>
+                        <box n="24">Thaaaaaat's politics!</box>
+                        <box n="25">*Politics.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="ScarfMouse" to="you">
+                        <box n="26">*Everyone is always laughing and cracking jokes, trying to
+                            forget our modern crises...</box>
+                        <box n="27">*Dreariness. *Crowding. *Lack of sunlight.</box>
+                        <box n="28">*I would join them, but I'm just not very funny.</box>
+                        <box n="29">*At least I'm not making puns.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option>
+                    <sp who="NacaratJester" to="you">
+                        <box n="30">*We all know the underground has problems, but we smile
+                            anyway.</box>
+                        <box n="31">*Why?</box>
+                        <box n="32">*We can't do anything, so why be morose about it?</box>
+                        <box n="33">*Smile smile</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="34">*...!? *There's a camera hidden in the trees here.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="35">*(It's a mailbox overflowing with unread junk mail.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="36">*(This mailbox is labelled "PAPYRUS".)</box>
+                        <box n="37">*(Look inside?) Yes No</box>
+                        <option what="Yes">
+                            <box n="38">*(It's empty.)</box>
+                        </option>
+                        <option what="No">
+                            <box n="40">*(You realize that would probably be illegal.)</box>
+                        </option>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="41">*(It's locked.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you"/>
+                    <box n="42">*(It's locked from the inside.)</box>
+                </option>
+            </choice>
+            <condition what="killedSnowdinRoyalGuard">
+                <choice>
+                    <option what="talkTo">
+                        <sp who="RabbitKid">
+                            <box n="1">*That lady over there seems happy today.</box>
+                            <box n="2">*Don't know why, but it's sending shivers down my
+                                spine...</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="RabbitGirl">
+                            <box n="3">*Ah, it's so peaceful and quiet...</box>
+                            <box n="4">*Usually one of those dogs chases my little Cinnamon
+                                around.</box>
+                        </sp>
+                    </option>
+                </choice>
+            </condition>
         </setting>
     </path>
 </map>
