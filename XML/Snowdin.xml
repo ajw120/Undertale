@@ -1326,5 +1326,261 @@
                 </condition>
             </choice>
         </setting>
+        <setting name="DevelopersRoom">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*(Rope.) *(Looks like this dog does all its own stunts.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="2">*(You tried to pet the dog but it collapsed into a pile of
+                            fluff...)</box>
+                        <box n="3">*(Seems like it was actually a dog-shaped husk of dog
+                            residue.)</box>
+                        <box n="4">*(It's a pile of dog residue.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="5">*(By barking with text-to-speech on, the dog accidentially
+                            programmed a whole game.)</box>
+                        <box n="6">*(Hmmm... seems fine.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="7">*(Looks like this dog makes a lot of bad posts on-line.)</box>
+                        <box n="8">*(Text to speech is on.)</box>
+                        <box n="9">*(Seems like the dog barks and it translates to these bad
+                            posts.)</box>
+                        <box n="10">*(It doesn't really know what it's saying.)</box>
+                        <box n="11">*(Seems like most bad posts on-line, are actually this
+                            dog.)</box>
+                        <box n="12">*(Thinking about this...) *(Brings you relief.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="13">*(Finally, the pieces of the puzzle are coming together.) *(The
+                            jigsaw puzzle.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="14">*(It's a small white dog.)</box>
+                        <box n="15">*(Fight the dog?) Yes No</box>
+                        <option what="Yes">
+                            <box n="2">*(Can't fight the dog.)</box>
+                            <box n="3">*(Seems like the fabric it's sleeping on has too many holes
+                                in it.)</box>
+                            <box n="4">*(Seems like the dog needs to "patch" the fabric.)</box>
+                            <box n="5">*(Then you can fight the dog.) *(... maybe.)</box>
+                            <box n="6">*(Upon closer examination, the holes in the fabric seem to be
+                                growing.)</box>
+                            <box n="7">*(Might take a while for the dog to fix all of them.)</box>
+                            <box n="8">*(Dogs aren't usually very good at knitting.)</box>
+                            <box n="9">*(A crocheting dog is out of the question.)</box>
+                        </option>
+                        <option what="No">
+                            <box n="2">*(Let sleeping dogs lie, instead of fighting them.) *(That's
+                                how the saying goes.)</box>
+                        </option>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="GreaterDogStation">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*It's a snow poff.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="2">*And this... *Is a snow poff</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="3">*(What a tiny doghouse!)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="4">*(Woof.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="5">*This, however, is a snow poff.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="6">*Surprisingly, it's a snow poff.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="7">*Snow poff...</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="8">*Is it really a snow poff?</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="9">*Behold! *A snow poff.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="10">*Eh? *There's 30G inside this... what is this?</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="11">*What's this called?</box>
+                    </sp>
+                </option>
+            </choice>
+            <condition what="afterGreaterDog">
+                <choice>
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="1">*(It must be bigger on the inside.)</box>
+                        </sp>
+                    </option>
+                </choice>
+            </condition>
+        </setting>
+        <setting name="GauntletOfDeadlyTerror">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*...!? *There's a camera underneath the bridge.</box>
+                    </sp>
+                </option>
+            </choice>
+            <sp who="Papyrus Sans" to="you">
+                <box n="2">HUMAN!</box>
+                <box n="3">THIS IS YOUR FINAL AND MOST DANGEROUS CHALLENGE!</box>
+                <box n="4">BEHOLD! THE GAUNTLET OF DEADLY TERROR!</box>
+                <box n="5">WHEN I SAY THE WORD. IT WILL FULLY ACTIVATE!!!</box>
+                <box n="6">CANNONS WILL FIRE! SPIKES WILL SWING! BLADES WILL SLICE!</box>
+                <box n="7">EACH PART WILL SWING VIOLENTLY UP AND DOWN!</box>
+                <box n="8">ONLY THE TINIEST CHANCE OF VICTORY WILL REMAIN!!!</box>
+                <box n="9">ARE YOU READY!?</box>
+                <box n="10">BECAUSE!</box>
+                <box n="11">I!</box>
+                <box n="12">AM!</box>
+                <box n="13">ABOUT!</box>
+                <box n="14">TO DO IT!</box>
+            </sp>
+            <sp who="Sans" to="Papyrus">
+                <box n="15">*well? *what's the holdup?</box>
+            </sp>
+            <sp who="Papyrus" to="Sans">
+                <box n="16">HOLDUP!? WHAT HOLDUP!?</box>
+                <box n="17">I'M... I'M ABOUT TO ACTIVATE IT NOW!</box>
+            </sp>
+            <sp who="Sans" to="Papyrus">
+                <box n="18">* that, uh, doesn't look very activated.</box>
+            </sp>
+            <sp who="Papyrus" to="Sans">
+                <box n="19">WELL!!!</box>
+                <box n="20">THIS CHALLENGE!!!</box>
+                <box n="21">IT SEEMS...</box>
+                <box n="22">MAYBE... TOO EASY TO DEFEAT THE HUMAN WITH.</box>
+                <box n="23">YEAH! WE CAN'T USE THIS ONE!!!</box>
+                <box n="24">I AM A SKELETON WITH STANDARDS!!!</box>
+                <box n="25">MY PUZZLES ARE VERY FAIR!</box>
+                <box n="26">AND MY TRAPS ARE EXPERTLY COOKED!</box>
+                <box n="27">BUT THIS METHOD IS TOO DIRECT! NO CLASS AT ALL!</box>
+                <box n="28">AWAY IT GOES!</box>
+                <box n="29">PHEW!</box>
+            </sp>
+            <sp who="Papyrus" to="you">
+                <box n="30">WHAT ARE YOU LOOKING AT!?</box>
+                <box n="31">THIS WAS ANOTHER DECISIVE VICTORY FOR PAPYRUS!!</box>
+                <box n="32">NYEH!!</box>
+                <box n="33">HEH!!</box>
+                <box n="34">...</box>
+                <box n="35">HEH???</box>
+            </sp>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="36">*...!? *There's a camera underneath the bridge.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="Sans" to="you">
+                        <box n="37">*i don't know what my brother's going to do now.</box>
+                        <box n="38">*if i were you, i would make sure i understand blue
+                            attacks.</box>
+                        <condition what="killedPapyrusBefore">
+                            <box n="1">*here, i'll give you some advice about fighting my
+                                brother.</box>
+                            <box n="2">*don't *capiche?</box>
+                        </condition>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="SnowdinTown">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*(Welcome to Snowdin Town!)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select saveGame restoreHP">
+                    <sp who="determination" to="you">
+                        <box n="2">*(The sight of such a friendly town fills you with
+                            determination.)</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
     </path>
 </map>
