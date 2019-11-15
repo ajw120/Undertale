@@ -847,5 +847,266 @@
                 </condition>
             </sp>
         </setting>
+        <setting name="1stXOPuzzle">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*Turn every X into and O. *Then press the switch.</box>
+                    </sp>
+                </option>
+            </choice>
+            <condtion what="solved">
+                <sp who="Papyrus game" to="you">
+                    <box n="2">WHAT!? HOW DID YOU AVOID MY TRAP?</box>
+                    <box n="3">AND, MORE IMPORTANTLY...</box>
+                    <box n="4">IS THERE ANY LEFT FOR ME???</box>
+                    <box n="5">*(What do you tell Papyrus about his spaghetti?) Ate it Left it</box>
+                    <option what="AteIt">
+                        <box n="1">REALLY!?</box>
+                        <box n="2">WOWIE...</box>
+                        <box n="3">NO ONE'S EVER ENJOYED MY COOKING BEFORE...</box>
+                        <box n="4">WELL THEN!!</box>
+                        <box n="5">FRET NOT HUMAN! I, MASTER CHEF PAPYRUS...</box>
+                        <box n="6">WILL MAKE YOU ALL THE PASTA YOU COULD EVER WANT!</box>
+                        <box n="7">HEH HEH HEH HEH HEH HEH NYEH!</box>
+                    </option>
+                    <option what="LeftIt">
+                        <box n="1">REALLY!?</box>
+                        <box n="2">WOWIE...</box>
+                        <box n="3">YOU RESISTED THE FLAVOR OF MY HOMECOOKED PASTA..</box>
+                        <box n="4">JUST SO YOU COULD SHARE IT WITH ME???</box>
+                        <box n="5">FRET NOT HUMAN! I, MASTER CHEF PAPYRUS...</box>
+                        <box n="6">WILL MAKE YOU ALL THE PASTA YOU COULD EVER WANT!</box>
+                        <box n="7">HEH HEH HEH HEH HEH HEH NYEH!</box>
+                    </option>
+                </sp>
+            </condtion>
+        </setting>
+        <setting name="2ndXOPuzzle">
+            <choice>
+                <option what="talkTo">
+                    <sp who="Papyrus" to="you">
+                        <box n="1">MY BROTHER STARTED A SOCK COLLECTION RECENTLY.</box>
+                        <box n="2">HOW SADDENING...</box>
+                        <box n="3">SOMETIMES I WONDER WHAT HE WOULD DO...</box>
+                        <box n="4">WITHOUT SUCH A COOL GUY TAKING CARE OF HIM???</box>
+                        <box n="5">NYEH HEH HEH!</box>
+                    </sp>
+                </option>
+            </choice>
+            <sp who="Papyrus game" to="you">
+                <box n="1">HUMAN!</box>
+                <box n="2">HMMM... HOW DO I SAY THIS...</box>
+                <box n="3">YOU WERE TAKING A LONG TIME TO ARRIVE, SO>>></box>
+                <box n="4">I DECIDED TO IMPROVE THIS PUZZLE...</box>
+                <box n="5">BY ARRANGING THE SNOW TO LOOK MORE LIKE MY FACE.</box>
+                <box n="6">UNFORTUNATELY, THE SNOW FROZE TO THE GROUND.</box>
+                <box n="7">NOW THE SOLUTION IS DIFFERENT!</box>
+                <box n="8">AND, AS USUAL, MY LAZY BROTHER IS NOWHERE AROUND.</box>
+                <box n="9">I SUPPOSE WHAT I AM SAYING IS...</box>
+                <box n="10">WORRY NOT, HUMAN!</box>
+                <box n="11">I, THE GREAT PAPYRUS, WILL SOLVE THIS CONUNDRUM!</box>
+                <box n="12">THEN WE CAN BOTH PROCEED!</box>
+                <box n="13">MEANWHILE, FEEL FREE TO TRY THE PUZZLE YOURSELF!</box>
+                <box n="14">I'LL TRY NOT TO GIVE AWAY THE ANSWER!!!</box>
+                <option what="talkTo">
+                    <box n="1">SO, YOU WANT A HINT, HUH?</box>
+                    <box n="2">WELL... I'VE BEEN LOOKING AT THE PUZZLE...</box>
+                    <box n="3">AND I THINK THE SOLUTION...</box>
+                    <box n="4">IS TO TURN ALL OF THE X'S INTO O'S!</box>
+                    <box n="5">YOU SHOULD TRY THAT!</box>
+                    <box n="6">ASK AGAIN FOR MORE GREAT HINTS!</box>
+                    <box n="7">MAYBE SOLVING THE LAST PUZZLE AGAIN WILL HELP.</box>
+                    <box n="8">ASK AGAIN FOR MORE GREAT HINTS!</box>
+                    <box n="9">EUREKA!!!</box>
+                    <box n="10">I'VE FIGURED OUT THE PUZZLE!!!</box>
+                    <box n="11">YOU SEEM LIKE YOU'RE HAVING FUN, THOUGH...</box>
+                    <box n="12">DO YOU ABSOLUTELY DAPSOLUTELY WANT THE SOLUTION???</box>
+                    <box n="1">*(Do you absolutely dapsolutely want the answer?) Yes No</box>
+                </option>
+                <option what="No">
+                    <box n="2">WOW... YOU'RE TRULY A PUZZLE PASSIONEER!</box>
+                    <box n="3">I'M SO ENTHUSED BY YOUR ENTHUSIASM!!!</box>
+                    <box n="4">YOU CAN DO IT, HUMAN!!!</box>
+                </option>
+                <option what="Yes">
+                    <box n="2">THE! SOLUTION! IS!</box>
+                    <box n="3">(PLEASE IMAGINE A DRUMROLL IN YOUR HEAD)</box>
+                    <box n="4">...THAT THE TREE OVER THERE HAS A SWITCH ON IT!</box>
+                    <box n="5">CHECK IT OUTIE!!!</box>
+                </option>
+                <condition what="solved answeredNo">
+                    <box n="1">WOW!!! YOU SOLVED IT!!</box>
+                    <box n="2">AND YOU DID IT ALL WITHOUT MY HELP...</box>
+                </condition>
+                <condition what="solved answeredYes">
+                    <box n="1">MY ADVICE HELPED! IT REALLY HELPED YOU!!</box>
+                </condition>
+                <condition what="solved">
+                    <box n="1">INCREDIBLE! I'M IMPRESSED!!</box>
+                    <box n="2">YOU MUST CARE ABOUT PUZZLES LIKE I DO!</box>
+                    <box n="3">WELL, I"M SURE YOU'LL LOVE THE NEXT PUZZLE THEN!</box>
+                    <box n="4">IT MIGHT EVEN BE TOO EASY FOR YOU!!</box>
+                    <box n="5">NYEH! HEH HEH! HEHEHEH!!!</box>
+                </condition>
+            </sp>
+            <choice>
+                <option what="talkTo">
+                    <sp who="Sans" to="you">
+                        <condition what="noHints">
+                            <box n="1">*good job on solving it so quickly.</box>
+                            <box n="2">*you didn't even need my help.</box>
+                            <box n="3">*which is great, 'cause i love doing absolutely
+                                nothing.</box>
+                        </condition>
+                        <condition what="hints">
+                            <box n="1">*hey, why didn't you ask for help?</box>
+                            <box n="2">*i was right her.</box>
+                        </condition>
+                        <condition what="reset">
+                            <box n="1">*... you must be really good at puzzles, huh?</box>
+                            <box n="2">*i mean.</box>
+                            <box n="3">*it's impossible for you to have seen this one before.</box>
+                        </condition>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="ColoredTilePuzzle">
+            <sp who="Papyrus game" to="Sans you">
+                <box n="1">HEY!</box>
+                <box n="2">IT'S THE HUMAN!</box>
+                <box n="3">YOU'RE GONNA LOVE THIS PUZZLE!</box>
+                <box n="4">IT WAS MADE BY THE GREAT DR. ALPHYS!</box>
+                <box n="5">YOU SEE THESE TILES!?</box>
+                <box n="6">ONCE I THROW THIS SWITCH...</box>
+                <box n="7">THEY WILL BEGIN TO CHANGE COLOR!</box>
+                <box n="8">EACH COLOR HAS A DIFFERENT FUNCTION!</box>
+                <box n="9">RED TILES ARE IMPASSABLE!</box>
+                <box n="10">YOU CANNOT WALK ON THEM!</box>
+                <box n="11">YELLOW TILES ARE ELECTRIC!</box>
+                <box n="12">THEY WILL ELECTROCUTE YOU!</box>
+                <box n="13">GREEN TILES ARE ALARM TILES!</box>
+                <box n="14">IF YOU STEP ON THEM...</box>
+                <box n="15">YOU WILL HAVE TO FIGHT A MONSTER!!</box>
+                <box n="16">ORANGE TILES ARE ORANGE-SCENTED.</box>
+                <box n="17">THEY WILL MAKE YOU SMELL DELICIOUS!</box>
+                <box n="18">BLUE TILES ARE WATER TILES.</box>
+                <box n="19">SWIM THROUGH IF YOU LIKE, BUT...</box>
+                <box n="20">IF YOU SMELL LIKE ORANGES!</box>
+                <box n="21">THE PIRANHAS WILL BITE YOU.</box>
+                <box n="22">ALSO,IF A BLUE TILE IS NEXT TO A,</box>
+                <box n="23">YELLOW TILE, THE WATER WILL ALSO ZAP YOU!</box>
+                <box n="24">PURPLE TILES ARE SLIPPERY!</box>
+                <box n="25">YOU WILL SLIDE TO THE NEXT TILE!</box>
+                <box n="26">HOWEVER, THE SLIPPERY SOAP...</box>
+                <box n="27">SMELLS LIKE LEMONS!!</box>
+                <box n="28">WHICH PIRANHAS DO NOT LIKE!</box>
+                <box n="29">PURPLE AND BLUE ARE OK!</box>
+                <box n="30">FINALLY, PINK TILES.</box>
+                <box n="31">THEY DON'T DO ANYTHING.</box>
+                <box n="32">STEP ON THEM ALL YOU LIKE.</box>
+                <box n="33">HOW WAS THAT!? UNDERSTAND???</box>
+                <box n="34">*(Understand the explanation?) Of course No</box>
+                <option what="No">
+                    <box n="2">OKAY... I GUESS I'LL REPEAT MYSELF...</box>
+                    <box n="3">RED TILES ARE IMPASSABLE!</box>
+                    <box n="4">YELLOW TILES ARE ELECTRIC AND DANGEROUS.</box>
+                    <box n="5">BLUE TILES MAKE YOU FIGHT A MONSTER.</box>
+                    <box n="6">GREEN TILES ARE WATER TILES.</box>
+                    <box n="7">ORANGE TILES ARE ORANGE SCENTED.</box>
+                    <box n="8">IF YOU STEP ON ORANGE, DON'T STEP ON GREEN.</box>
+                    <box n="9">BROWN TILES ARE...</box>
+                    <box n="10">WAIT!!! THERE ARE NO BROWN TILES...</box>
+                    <box n="11">PURPLE TILES SMELL LIKE LEMONS...</box>
+                    <box n="12">WHY DON'T THE YELLOW ONES SMELL LEMONY?</box>
+                    <box n="13">UMM...</box>
+                    <box n="14">WAIT!! DID I MIX UP GREEN AND BLUE!?</box>
+                    <box n="15">THE BLUE ONES ARE WATER ONES!</box>
+                    <box n="16">PINK TILES...</box>
+                    <box n="17">I DON'T... REMEMBER???</box>
+                    <box n="18">WAIT!!!</box>
+                    <box n="19">THOSE ONES DON'T DO ANYTHING.</box>
+                    <box n="20">OKAY! DO YOU UNDERSTAND BETTER NOW!?</box>
+                    <box n="21">*(Understand the explanation?) Yes Even less</box>
+                    <option what="EvenLess">
+                        <box n="2">..........</box>
+                        <box n="3">OK, YOU KNOW WHAT???</box>
+                        <box n="4">HOW ABOUT... YOU JUST...</box>
+                        <box n="5">DO THIS PUZZLE... ON YOUR OWN...</box>
+                        <box n="6">I'LL LEAVE THE INSTRUCTIONS...</box>
+                        <box n="7">JUST READ THEM.</box>
+                        <box n="8">THEN WHEN YOU UNDERSTAND IT...</box>
+                        <box n="9">YOU CAN THROW THE SWITCH.</box>
+                        <box n="10">AND DO IT AT YOUR OWN PACE.</box>
+                        <box n="11">GOOD LUCK.</box>
+                        <box n="12">NYEH... HEH... HEH!</box>
+                    </option>
+                    <choice>
+                        <option what="select">
+                            <box n="1">*(The machine isn't working.)</box>
+                        </option>
+                    </choice>
+                    <choice>
+                        <option what="read">
+                            <box n="2">*It's illegible chicken-scratch.</box>
+                        </option>
+                    </choice>
+                </option>
+                <option what="OfCourseOrYes">
+                    <box n="2">GREAT!! THEN THERE'S ONE LAST THING...</box>
+                    <box n="3">THIS PUZZLE...</box>
+                    <box n="4">IS ENTIRELY RANDOM!!!!!!</box>
+                    <box n="5">WHEN I PULL THIS SWITCH, IT WILL MAKE A PUZZLE...</box>
+                    <box n="6">THAT HAS NEVER BEEN SEEN BEFORE!</box>
+                    <box n="7">NOT EVEN I WILL KNOW THE SOLUTION!</box>
+                    <box n="8">NYEH HEH HEH! GET READY...!</box>
+                </option>
+            </sp>
+            <choice>
+                <option what="talkTo">
+                    <sp who="Sans" to="you">
+                        <box n="3">*actually, that spaghetti from earlier...</box>
+                        <box n="4">*it wasn't too bad for my brother.</box>
+                        <box n="5">*since he started cooking lessons, he's been improving a
+                            lot.</box>
+                        <box n="6">*i bet if he keeps it up, next year he'll even make something
+                            edible.</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="LesserDogStation">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*On the floor inside is a box of pomeraisins.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="2">*AWARE OF DOG *pleas pet dog</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="3">*...!? *There's a camera behind the sentry station.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select saveGame restoreHP">
+                    <sp who="determination" to="you">
+                        <box n="4">*(Knowing that dog will never give up trying to make the perfect
+                            snowdog...)</box>
+                        <box n="5">*(It fills you with determination.)</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
     </path>
 </map>
