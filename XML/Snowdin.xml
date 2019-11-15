@@ -1735,7 +1735,212 @@
                         </sp>
                     </option>
                 </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="GiftBear">
+                            <box n="5">*You know what's cute?</box>
+                            <box n="6">*Those two married dogs always put presents under the tree
+                                for each other.</box>
+                            <box n="7">*It's always the same. *A single bone.</box>
+                            <box n="8">*But every time, they act like it's the first time they've
+                                gotten it.</box>
+                            <box n="9">*Then Papyrus comes to take his bones back.</box>
+                            <box n="10">*Anyway, where are those two...?</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="ScarfMouse">
+                            <box n="11">*It just feels like... *Like everything is getting worse and
+                                worse.</box>
+                        </sp>
+                    </option>
+                </choice>
+            </condition>
+            <condition what="befriendedPapyrus">
+                <choice>
+                    <option what="select">
+                        <sp who="Papyrus" to="you">
+                            <box n="1">HOW NICE OF YOU TO CHECK MY MAIL</box>
+                            <box n="2">WAIT, NO. THAT'S VERY STRANGE.</box>
+                            <box n="3">THAT'S MY EMPTINESS, NOT YOURS.</box>
+                            <box n="4">STOP LOOKING IN MY EMPTY MAILBOX.</box>
+                            <box n="5">PLEASE DON'T ENTER THE MYSTERIOIUS SHACK.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <condition what="afterPapyrusUndyneWaterfallMeeting">
+                    <choice>
+                        <option what="talkTo">
+                            <sp who="Papyrus" to="you">
+                                <box n="1">HELLO... H-HOW ARE YOU, MY F-FRIEND?</box>
+                                <box n="2">I'M FEELING VERY NOT SUSPICIOUS TODAY.</box>
+                            </sp>
+                        </option>
+                    </choice>
+                </condition>
+                <condition what="afterPapyrusSecondWaterfallCall">
+                    <choice>
+                        <option what="talkTo">
+                            <sp who="Papyrus" to="you">
+                                <box n="1">HELLO... H-HOW ARE YOU, MY F-FRIEND?</box>
+                                <box n="2">I'M FEELING VERY NOT SUSPICIOUS TODAY.</box>
+                                <box n="3">HEY, I HAVE A GREAT IDEA.</box>
+                                <box n="4">LET'S HANG OUT WITH UNDYNE LATER.</box>
+                                <box n="5">I'LL CALL YOU WHEN I'M READY!</box>
+                            </sp>
+                        </option>
+                    </choice>
+                </condition>
+            </condition>
+            <condition what="postUndyne">
+                <choice>
+                    <option what="talkTo">
+                        <sp who="RabbitKid">
+                            <box n="1">*That lady over there's been going for a walk for a while
+                                now.</box>
+                            <box n="2">*...but she hasn't moved an inch from where she's
+                                standing.</box>
+                            <box n="3">*W-well, I haven't either, but I don't want her to notice me
+                                over here...</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="RabbitGirl">
+                            <box n="4">*Huh? Yes, I'm taking my bunny for a walk.</box>
+                            <box n="5">*It's just a very slow one.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="GiftBear">
+                            <box n="6">*Hmm? *Adjusting the presents is my responsibility.</box>
+                            <box n="7">*Nah, to be honest, I just keep looking to see if I've gotten
+                                one...</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="PoliticsBear">
+                            <box n="8">*What if I ran for mayor...?</box>
+                            <box n="9">*I don't think I would do a good job, and I hate
+                                responsibility...</box>
+                            <box n="10">*But I love politics. *So I might be a perfect match.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="ScarfMouse">
+                            <box n="11">*Wait! *I've got a joke!</box>
+                            <box n="12">*Knock knock!</box>
+                            <box n="13">*...Uh *That's all I've thought of.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="NacaratJester">
+                            <box n="14">*Maybe I'll try frowning for once.</box>
+                            <box n="15">*...no. *I just can't do it.</box>
+                        </sp>
+                    </option>
+                </choice>
+            </condition>
+            <condition what="befriendedUndyne">
+                <choice>
+                    <option what="talkTo">
+                        <sp who="Undyne" to="you">
+                            <box n="1">*Hey, punk! *What's up!?</box>
+                            <box n="2">*A-ACHOO!</box>
+                        </sp>
+                        <sp who="Undyne" to="Papyrus">
+                            <box n="3">*Papyrus, how can you stand this cold?</box>
+                        </sp>
+                        <sp who="Papyrus" to="Undyne">
+                            <box n="4">I HAVE NO SKIN.</box>
+                        </sp>
+                        <sp who="Undyne" to="Papyrus">
+                            <box n="5">*So why don't we stand in Grillby's instead?</box>
+                        </sp>
+                        <sp who="Papyrus" to="Undyne">
+                            <box n="6">BECAUSE I HATE GREASE.</box>
+                        </sp>
+                        <sp who="Undyne" to="Papyrus">
+                            <box n="7">*But you don't have a stomach!!</box>
+                        </sp>
+                        <sp who="Papyrus" to="Undyne">
+                            <box n="8">NO, BUT I HAVE STANDARDS!!!</box>
+                        </sp>
+                        <sp who="Undyne" to="Papyrus">
+                            <box n="9">*Papyrus...</box>
+                            <box n="10">*Why do you live in an icy wasteland?</box>
+                        </sp>
+                        <sp who="Papyrus" to="Undyne">
+                            <box n="11">THE RENT'S CHEAP.</box>
+                        </sp>
+                        <sp who="Undyne" to="Papyrus">
+                            <box n="12">*Really? *Don't you live in a huge house?</box>
+                        </sp>
+                        <sp who="Papyrus" to="Undyne">
+                            <box n="13">YEAH, BUT MY BROTHER PAYS FOR IT.</box>
+                        </sp>
+                        <sp who="Undyne" to="Papyrus">
+                            <box n="14">*Where's your brother get the money to pay for it...?</box>
+                        </sp>
+                        <sp who="Papyrus" to="Undyne">
+                            <box n="15">OH, THAT'S SIMPLE.</box>
+                            <box n="16">IT'S A MYSTERY.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="Papyrus" to="you">
+                            <box n="17">I'M SO GLAD YOU AND UNDYNE ARE FRIENDS NOW.</box>
+                            <box n="18">YOU TWO GO TOGETHER LIKE PASTA AND BURNING!</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="select">
+                        <sp who="Papyrus" to="you">
+                            <box n="19">HELLO THAT'S NOT MY HOUSE.</box>
+                            <box n="20">THAT'S JUST MY COOL TOOLSHED.</box>
+                        </sp>
+                        <sp who="Undyne" to="Papyrus">
+                            <box n="21">*Do you call it your COOLSHED!?</box>
+                        </sp>
+                        <sp who="Papyrus" to="Undyne">
+                            <box n="22">NO!!! I'VE NEVER THOUGHT OF THAT!!!</box>
+                            <box n="23">THAT'S WHY WE'RE FRIENDS, UNDYNE.</box>
+                            <box n="24">YOU ENRICH MY LIFE WITH SHED-BASED PUNS.</box>
+                        </sp>
+                        <sp who="Undyne" to="Papyrus">
+                            <box n="25">*That's the only one I've every made, dude.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <condition what="reachedCore">
+                    <choice>
+                        <option what="talkTo">
+                            <sp who="Papyrus" to="you">
+                                <box n="1">OH, HEY...</box>
+                                <box n="2">YOU'RE LEAVING SOON, RIGHT!?</box>
+                                <box n="3">DON'T COME HERE TO SAY GOODBYE!!</box>
+                                <box n="4">GOODBYES AREN'T ALLOWED IN MY TOWN.</box>
+                                <box n="5">JUST SEE-YOU LATERS.</box>
+                            </sp>
+                        </option>
+                    </choice>
+                </condition>
             </condition>
         </setting>
+        <setting name="SnowdinShop"/>
     </path>
 </map>
