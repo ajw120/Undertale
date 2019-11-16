@@ -1204,11 +1204,11 @@
                     </option>
                 </choice>
                 <choice>
-                    <optin what="select">
+                    <option what="select">
                         <sp who="game" to="you">
                             <box n="7">*It's the broken head of a snowdog.</box>
                         </sp>
-                    </optin>
+                    </option>
                 </choice>
                 <choice>
                     <option what="select">
@@ -1275,11 +1275,11 @@
                 </option>
             </choice>
             <choice>
-                <optin what="select">
+                <option what="select">
                     <sp who="game" to="you">
                         <box n="2">*(It's a snow Papyrus.)</box>
                     </sp>
-                </optin>
+                </option>
             </choice>
         </setting>
         <setting name="GyftrotRoom">
@@ -1941,6 +1941,256 @@
                 </condition>
             </condition>
         </setting>
-        <setting name="SnowdinShop"/>
+        <setting name="SnowdinShop">
+            <sp who="SnowdinShopkeeper" to="you">
+                <box n="1">*Hello, traveller. *How can I help you?</box>
+            </sp>
+            <sp who="game" to="you">
+                <box n="1">Buy Sell Talk Exit</box>
+            </sp>
+            <choice>
+                <option what="Talk">
+                    <sp who="game" to="you">Say hello What to do here Town history Your life
+                        Exit</sp>
+                    <option what="sayHello">
+                        <sp who="SnowdinShopkeeper" to="you">
+                            <box n="1">*Hiya! Welcome to Snowdin! *I can't remember the last time I
+                                saw a fresh face around here.</box>
+                            <box n="2">*Where did you come from? *The capital?</box>
+                            <box n="3">*You don't look like a tourist. *Are you here by
+                                yourself?</box>
+                        </sp>
+                    </option>
+                    <choice>
+                        <option what="whatToDoHere">
+                            <sp who="SnowdinShopkeeper" to="you">
+                                <box n="1">*You want to know what to do here in Snowdin?</box>
+                                <box n="2">*Grillby's has food, and the library has
+                                    information...</box>
+                                <box n="3">*If you're tired, you can take a nap at the inn. *It's
+                                    right next door - my sister runs it.</box>
+                                <box n="4">*And if you're bored, you can sit outside and watch those
+                                    wacky skeletons do their thing.</box>
+                                <box n="5">*There's two of 'em... *Brothers, I think. *They just
+                                    showed up one day and... *...asserted themselves.</box>
+                                <box n="6">*The town has gotten a lot more interesting since
+                                    then.</box>
+                            </sp>
+                        </option>
+                    </choice>
+                    <choice>
+                        <option what="townHistory">
+                            <sp who="SnowdinShopkeeper" to="you">
+                                <box n="1">*Think back to your history class...</box>
+                                <box n="2">*A long time ago, monsters lived in the RUINS back there
+                                    in the forest.</box>
+                                <box n="3">*Long story short, we all decided to leave the ruins and
+                                    head for the end of the caverns.</box>
+                                <box n="4">*Along the way, some fuzzy folk decided they liked the
+                                    cold and set up camp in Snowdin.</box>
+                                <box n="5">*Oh, and don't think about trying to explore the
+                                    RUINS...</box>
+                                <box n="6">*The door's been locked for ages. *So unless you're a
+                                    ghost or can burrow under the door, forget about it.</box>
+                            </sp>
+                        </option>
+                    </choice>
+                    <choice>
+                        <option what="YourLife">
+                            <sp who="SnowdinShopkeeper" to="you">
+                                <box n="2">*Life is the same as usual.</box>
+                                <box n="3">*A little claustrophobic...</box>
+                                <box n="4">*But... we all know deep down that freedom is coming,
+                                    don't we?</box>
+                                <box n="5">*As long as we got that hope, we can grit our teeth and
+                                    face the same struggles, day after day...</box>
+                                <box n="6">*That's life, ain't it?</box>
+                            </sp>
+                        </option>
+                    </choice>
+                </option>
+            </choice>
+            <choice>
+                <option what="Sell">
+                    <sp who="SnowdinShopkeeper" to="you">
+                        <box n="2">*Huh? *Sell somethin'? *Does this look like a pawn shop?</box>
+                        <box n="3">*I don't know how it works wher ou come from... but...</box>
+                        <box n="4">*If I started spending money oon old branches and used bandages,
+                            I'd be out of business in a jiffy!</box>
+                        <box n="5">*If you're really hurtin' for cash, then maybe you could do some
+                            crowdfunding.</box>
+                        <box n="6">*I hear people will pay for ANYTHING nowadays.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="Exit">
+                    <sp who="SnowdinShopkeeper" to="you">
+                        <box n="2">*Bye now! *Come again sometime!</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="SnowedInn">
+            <choice>
+                <option what="talkTo">
+                    <sp who="InnKeeprsKid" to="you">
+                        <box n="1">*Mom says that sleeping can recover your health above your
+                            maximum HP.</box>
+                        <box n="2">*... what's maximum HP?</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="InnKeeper" to="you">
+                        <box n="3">*Welcome to Snowed Inn! *Snowdin's premier hotel!</box>
+                        <box n="4">*One night is 80G Stay Leave</box>
+                    </sp>
+                </option>
+                <option what="Stay">
+                    <sp who="InnKeeper" to="you">
+                        <box n="1">*Here's your room key. *Make sure to bundle up!</box>
+                        <box n="3">*Hiya! *You look like you had a great sleep.</box>
+                        <box n="4">*Which is incredible, because you were only up there for about
+                            two minutes...</box>
+                        <box n="5">*Here's your money back. *You can pay me if you're going to stay
+                            overnight.</box>
+                    </sp>
+                    <condition what="notEnoughG">
+                        <sp who="InnKeeper" to="you">
+                            <box n="1">*... You don't even have 80G?</box>
+                            <box n="2">*Oh! You poor thing. *I can only imagine what you've been
+                                through.</box>
+                            <box n="3">*One of the rooms upstairs is empty.</box>
+                            <box n="4">You can sleep there for free, okay?</box>
+                            <box n="6">*Hiya! *You look like you had a great sleep.</box>
+                            <box n="7">*Which is incredible, because you were only up there for
+                                about two minutes...</box>
+                            <box n="8">*Feel free to come back if you get tired.</box>
+                            <option what="talkTo">
+                                <box n="9">*Back again? *Well, stay as long as you like. Stay
+                                    Leave</box>
+                            </option>
+                        </sp>
+                    </condition>
+                    <condition what="pressingZ">*What? *No, you can't get a second key!</condition>
+                </option>
+                <option what="Leave">
+                    <box n="2">*Well, feel free to come back any time.</box>
+                </option>
+            </choice>
+        </setting>
+        <setting name="Grillbys">
+            <choice>
+                <option what="talkTo">
+                    <sp who="DrunkBun" to="you">
+                        <box n="1">*No matter where I go, it's the same menu, the same
+                            people...</box>
+                        <box n="2">*Help! *I want new drinks an' h-h-h-hot guys!!!!</box>
+                        <box n="3">*I guess the bartender's kind of h-h-h-hot...</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="BigMouth" to="you">
+                        <box n="4">*Hmmm... *Isn't human food different from monster food?</box>
+                        <box n="5">*It does things like "spoil."</box>
+                        <box n="6">*And when you eat it, it passes all the way through your whole
+                            body.</box>
+                        <box n="7">*Disgusting.</box>
+                        <box n="8">*I'd love to try it sometime.</box>
+                        <box n="9">*And I've heard they have things called bathrooms.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="PunkHamster" to="you">
+                        <box n="10">*</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="RockFamily">
+            <choice>
+                <option what="talkTo">
+                    <sp who="KidSlime1" to="you">
+                        <box n="1">*Let's play Monsters and Humans!</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="KidSlime2">
+                        <box n="2">*You aren't gonna make me be the human again, are you?</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="DadSlime" to="you">
+                        <box n="3">*Ah, to be young again. *The world sure felt boundless.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="someone">
+                        <box n="4">*Ahh, what a beautiful knock...! *Maybe if I don't answer, I'll
+                            hear it again.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="someone">
+                        <box n="5">*Ahh, my patience rewards me.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="someone">
+                        <box n="6">*Ahh...</box>
+                    </sp>
+                </option>
+            </choice>
+            <condition what="postUndyne">
+                <choice>
+                    <option what="talkTo">
+                        <sp who="KidSlime1">
+                            <box n="1">*Let's continue to play Monsters and Humans!</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="KidSlime2">
+                            <box n="2">*Can we PLEASE play something else...?</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="DadSlime">
+                            <box n="3">*You like to wander. *You must be young.</box>
+                        </sp>
+                    </option>
+                </choice>
+            </condition>
+            <condition what="SnowdinGuardOrPapyrusKilled">
+                <!--possible route-difference indicator here, like NeutralGenocide or something-->
+                <choice>
+                    <option what="talkTo">
+                        <sp who="DadSlime" to="you">
+                            <box n="1">*I've sent the kids inside.</box>
+                            <box n="2">*It feels unsafe here today.</box>
+                        </sp>
+                    </option>
+                </choice>
+            </condition>
+        </setting>
     </path>
 </map>
