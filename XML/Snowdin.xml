@@ -855,7 +855,7 @@
                     </sp>
                 </option>
             </choice>
-            <condtion what="solved">
+            <condition what="solved">
                 <sp who="Papyrus game" to="you">
                     <box n="2">WHAT!? HOW DID YOU AVOID MY TRAP?</box>
                     <box n="3">AND, MORE IMPORTANTLY...</box>
@@ -880,7 +880,7 @@
                         <box n="7">HEH HEH HEH HEH HEH HEH NYEH!</box>
                     </option>
                 </sp>
-            </condtion>
+            </condition>
         </setting>
         <setting name="2ndXOPuzzle">
             <choice>
@@ -2108,7 +2108,236 @@
             <choice>
                 <option what="talkTo">
                     <sp who="PunkHamster" to="you">
+                        <box n="10">*The capital's getting pretty crowded, so I've heard they're
+                            going to start moving here.</box>
+                        <box n="11">*Hmmm... *I don't wat to see the erasure of our local
+                            culture.</box>
+                        <box n="12">*But I definitely want to see some city slickers slip onto their
+                            butts!</box>
+                        <box n="13">*Yeah, bring 'em on!</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="14">*(The jukebox is broken.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="Grillby" to="you">
+                        <box n="15">*... *... *...</box>
+                    </sp>
+                    <sp who="RedBird" to="you">
+                        <box n="16">*Gillbz said that he'd offer you a glass of water, but he
+                            doesn't touch the stuff.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="RedBird" to="you">
+                        <box n="17">*Those dogs are part of the ROYAL GUARD, the elite military
+                            group led by UNDYNE.</box>
+                        <box n="18">*She's rude, loud, and beats up everybody who gets in her
+                            way...</box>
+                        <box n="19">*It's no wonder all the kids want to be like her when they grow
+                            up!</box>
+                        <box n="20">*I want to be like UNDYNE when I grow up, too! *Hoo hoo
+                            hoo!</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="UglyFish" to="you">
+                        <box n="21">*I "put out a line" for some girls today.</box>
+                        <box n="22">*Someone told me that there are plenty of fish in the
+                            sea...</box>
+                        <box n="23">*Well, I'm taking that seriously.</box>
+                        <box n="24">*I'm literally going to make out with a fish.</box>
+                        <box n="25">*I gues I could ask out Undyne. *But I think she likes someone
+                            already.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="game" to="you">
+                        <box n="26">*(It's playing poker against itself.)</box>
+                        <box n="27">*(It appears to be losing.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="Dogi" to="you">
+                        <box n="28">*(We're sentries, but we never get any respect.)</box>
+                        <box n="29">*(I wish those skeletons would throw us a bone.)</box>
+                        <box n="30">*(We love bones.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="Dogi" to="you">
+                        <box n="31">*You better watch where you sit down in here, kid.</box>
+                        <box n="32">*Because that big guy WILL jump into your lap and give you lots
+                            of love and attention.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="Doggo" to="you">
+                        <box n="33">*I'm thinking of getting a spiked collar to show off my
+                            personality.</box>
+                        <box n="34">*It makes a statement like... *"Attach a leash to me and take me
+                            for a walk please."</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="Library">
+            <choice>
+                <option what="talkTo">
+                    <sp who="LibraryLizard">
+                        <box n="1">*</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="ScarfLady" to="you">
+                        <box n="2">*</box>
+                        <box n="3">*</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="LadyGarf">
+                        <box n="4">*</box>
+                        <box n="5">*</box>
+                        <box n="6">*</box>
+                        <box n="7">*</box>
+                        <box n="8">*</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="9">*</box>
                         <box n="10">*</box>
+                        <box n="11">*</box>
+                        <box n="12">*</box>
+                        <box n="13">*</box>
+                        <box n="14">*</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="15">*</box>
+                        <box n="16">*</box>
+                        <box n="17">*</box>
+                        <box n="18">*</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="19">*</box>
+                        <box n="20">*</box>
+                        <box n="21">*</box>
+                        <box n="22">*</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="23">*</box>
+                        <box n="24">*</box>
+                        <box n="25">*</box>
+                        <box n="26">*</box>
+                        <box n="27">*</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="28">*</box>
+                        <box n="29">*</box>
+                        <box n="30">*</box>
+                        <box n="31">*</box>
+                        <box n="32">*</box>
+                        <box n="33">*</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="34">*</box>
+                        <box n="35">*</box>
+                        <box n="36">*</box>
+                    </sp>
+                </option>
+            </choice>
+            <condition what="pickedJrJumble">
+                <choice>
+                    <option what="talkTo">
+                        <sp who="LibraryLoox" to="you">
+                            <box n="1">*That look in your eye...</box>
+                            <box n="2">*You're someone that has difficulty solving Junior Jumble,
+                                aren't you?</box>
+                        </sp>
+                    </option>
+                </choice>
+            </condition>
+            <condition what="pickedCrossword">
+                <choice>
+                    <option what="talkTo">
+                        <sp who="LibraryLoox" to="you">
+                            <box n="1">*That look in your eye...</box>
+                            <box n="2">*You're someone that has trouble doing crosswords, aren't
+                                you?</box>
+                        </sp>
+                    </option>
+                </choice>
+            </condition>
+            <condition what="postUndyne">
+                <choice>
+                    <option what="talkTo">
+                        <sp who="LibraryLizard" to="you">
+                            <box n="1">*</box>
+                            <box n="2">*</box>
+                        </sp>
+                    </option>
+                </choice>
+            </condition>
+        </setting>
+        <setting name="PapyrusAndSansHouse">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="PapyrusRoom">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*</box>
                     </sp>
                 </option>
             </choice>
@@ -2191,6 +2420,11 @@
                     </option>
                 </choice>
             </condition>
+        </setting>
+        <setting name="PapyrusArena">
+            <sp who="Papyrus" to="you">
+                <box n="1"/>
+            </sp>
         </setting>
     </path>
 </map>
