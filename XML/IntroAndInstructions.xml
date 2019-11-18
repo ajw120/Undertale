@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="IntroAndInstructionsRelaxNG.rnc" type="application/relax-ng-compact-syntax"?>
+<!--2019-10-07 ebb: I just updated your schema line so it could find your schema in the GitHub repo! 
+Your schema is not in the same file directory with the XML, but is up one directory (in the parent directory), so I added ../
+The schema is definitely in a good place in the repo (I wouldn't move it), because the XML in your other directories probably has to reach it.
+-->
+<!-- 2019-10-28 ama: At some point you moved the schema back into the '<intro&instructions>' directory. I removed Dr. B's addition of '../' so that this XML document is now properly associated with the schema again-->
+
+<Intro SepiaTonedMemories="beginning"><title>Undertale</title>
+    <p n="1">Story A long time ago, two races ruled peacefully over the Earth: HUMANS and
+        MONSTERS.</p>
+    <p n="2">One day, a terrible war broke out between the two races.</p>
+    <p n="3">After a long battle, the humans were victorious.</p>
+    <p n="4">They sealed the monsters underground with a magical spell.</p>
+    <p n="5">Many years later...</p>
+    <p n="6">MT. Ebbot 201X</p>
+    <p n="7">Legends say that those who climb the mountain never return.</p>
+    <p n="8">Seeking refuge from the rainy weather, the child enters a cave and discovers an
+        enormous hole.</p>
+    <p>Moving closer to get a better look…</p>
+    <p n="9">the child falls in.</p>
+    <p n="10">Now, our story begins.</p>
+    <title>Instruction</title>
+    <instruction>
+        <command Confirm="ZorEnter">[Z or ENTER] – Confirm</command>
+        <command Cancel="XorShift">[X or SHIFT] – Cancel</command>
+        <command In-GameMenu="CorControl">[C or CONTROL] – Menu (In-Game)</command>
+        <command Fullscreen="F4">[F4] – Fullscreen</command>
+        <command Quit="HoldEsc">[Hold ESC] – Quit</command>
+        <GameOver lose="HP0">When HP is 0, you lose.</GameOver>
+    </instruction>
+    <!--ebb: You have stray </instruction> close-tag here which is 
+    preventing your XML from being well-formed. Do you want to wrap <instruction> around <GameOver>, or remove it?
+    Looking at your schema, apparently <GameOver> can be inside <Intro> and also inside <instruction>, so it's not clear to me how best
+    to fix this! Once you deal with it though, your XML is well formed! 
+    -->
+    <!-- 2019-10-28 ama: As someone who has not played Undertale and is not very familiar with it, are these multiple characters speaking in the following paragraph? If so, maybe include speaker and speech tags to make this a little easier to read. Or are these the responses from each character if the player tries to name themselves after one of them? A sort of way the developers have created 'reserved words'. -->
+    Name the Fallen Human (Name’s Allowed) (Non-Special Names) Is this name correct? AAAAAA Not very
+    creative…? Mercy That’s a little on-the-nose, isn’t it? Murder That’s a little on-the-nose,
+    isn’t it? Drak Is this name correct? {Fights Fsteak} Gigi Is this name correct? {Fights Fsteak}
+    Gugu Is this name correct? {Fights Fsteak} Frisk WARNING: This name will make your life hell.
+    Proceed anyway? Napsta ……….. (They’re powerless to stop you.) Blooky ………… (They’re powerless to
+    stop you.) Papyru I’LL ALLOW IT!!!! Jerry Jerry. Woshua Clean name. Aaron Is this name correct?
+    ;) Shyren …? Gerson Wah ha ha! Why not? Temmie hOI! Alphy Uh…. OK? Metta OOOOH!!! ARE YOU
+    PROMOTING MY BRAND? Mett OOOOH!!! ARE YOU PROMOTING MY BRAND? Catty Bratty! Bratty! That’s MY
+    name! Bratty Like, OK I guess. Bpants You are really scraping the bottom of the barrel. Chara
+    The true name. (Names not allowed) Flowey I already CHOSE that name. Toriel I think you should
+    think of your own name, my child. Sans nope. Undyne Get your OWN name! Alphys D-don’t do that.
+    Asgore You cannot. Asriel
+</Intro>
+<!-- not sure what  it wants me to do here-->

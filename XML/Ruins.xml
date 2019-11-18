@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="Ruins">
+    <path route="neutral | pacifist | genocide">
+        <setting name="RoomWithFlowers">
+            <choice>
+                <option C_Or_Control="In-Game_Menu">
+                    <stats> Chara LV 1 HP 20/20 G 0<choice>Item Stat</choice><option what="Stat">
+                            <box n="4">"Chara LV1 HP 20/20 AT 0(0) EXP:0 DF0(0) NEXT:10 WEAPON:Stick
+                                ARMOR:Bandage GOLD:0</box>
+                        </option>
+                        <box n="2"/></stats>
+                </option>
+            </choice>
+        </setting>
+        <setting name="FloweyHall">
+            <sp who="Flowey" to="you">
+                <box n="1">*Howdy! *I'm FLOWEY. *FLOWEY the FLOWER!</box>
+                <box n="2">*Hmmm...</box>
+                <box n="3">*You're new to the UNDERGROUND, aren'tcha?</box>
+                <box n="4">*Golly, you must be so confused.</box>
+                <box n="5">*Someone ought to teach you how things work around here!</box>
+                <box n="6">*I guess little old me will have to do.</box>
+                <box n="7">*Ready? *Here we go!</box>
+            </sp>
+            <condition variation="Close_Window_Once">
+                <sp who="Flowey" to="you">
+                    <box n="1">*Howdy! *I'm FLOWEY. *FLOWEY the FLOWER!</box>
+                    <box n="2">*Hee hee hee...</box>
+                    <box n="3">*Why'd you make me introduce myself?</box>
+                    <box n="4">*It's rude to act like you don't know who I am.</box>
+                    <box n="5">*Someone ought to teach you proper manners.</box>
+                    <box n="6">I guess little old me will have to do.</box>
+                    <box n="7">Ready? *Here we go!</box>
+                </sp>
+            </condition>
+            <condition variation="Close_Window_Twice">
+                <sp who="Flowey" to="you">
+                    <box n="1">*Don't you have anything better to do?</box>
+                </sp>
+            </condition>
+            <condition variation="Befriend_Everyone">
+                <sp who="Flowey" to="you">
+                    <box n="1">*Remember...</box>
+                    <box n="2">*THIS time, you've GOT to become friends with everyone.</box>
+                    <box n="3">*OK?</box>
+                    <box n="4">*If you DON"T, you'll be miserable FOREVER</box>
+                    <box n="5">*And we wouldn't want THAT, would we?</box>
+                    <box n="6">*No... *We just want you to be happy, right?</box>
+                    <box n="7">*Good luck.</box>
+                </sp>
+            </condition>
+            <condition variation="Don't_Kill_Anyone">
+                <sp who="Flowey" to="you">
+                    <box n="1">*Hey. *Remember.</box>
+                    <box n="2">*DON'T kill anyone.</box>
+                    <box n="3">*...</box>
+                    <box n="4">*I can't believe this is a REAL thing I have to remind you.</box>
+                    <box n="5">*Hee hee hee...</box>
+                    <box n="6">*Good luck!</box>
+                </sp>
+            </condition>
+            <condition variation="Abort_Genocide">
+                <sp who="Flowey" to="you">
+                    <box n="1" who="Flowey" to="you">*Really, Chara?</box>
+                    <box n="2" who="Flowey" to="you">*Well, do what you will.</box>
+                    <box n="3" who="Flowey" to="you">*I'll be waiting for you!</box>
+                </sp>
+            </condition>
+            <sp who="Toriel" to="you">
+                <box n="1">*Hello... *Are you all right?</box>
+                <box n="2">*You must be so lost and confused...</box>
+                <box n="3">*Ah, do not be afraid, my child.</box>
+                <box n="4">*I am TORIEL caretaker of the RUINS.</box>
+                <box n="5">*I pass through here every day to see if anyone has fallen down.</box>
+                <box n="6">*You are the first human to come here in a long time.</box>
+                <box n="7">*I will do my best to protect you during your time here.</box>
+                <box n="8">*Come! *I shall guide you through the catacombs.</box>
+            </sp>
+        </setting>
+        <setting name="RuinsEntrance">
+            <choice>
+                <option what="select saveGame" HP="restore">
+                    <sp who="determination game" to="you">
+                        <box n="1" who="determination game" to="you">*(The shadow of the ruins looms
+                            above, filling you with determination.)</box>
+                        <box n="2" who="game" to="you">*(HP fully restored.)</box>
+                        <box n="3" who="game" to="you"> EMPTY -- LV) 0:00<choice>Save
+                                Return</choice>
+                            <option what="save">Chara LV! 1:35 Ruins-Entrance File
+                            saved.</option></box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="1stPuzzleRoom">
+            <sp who="Toriel" to="you">
+                <box n="1">*Welcome to your new home, innocent one.</box>
+                <box n="2">*Allow me to educate you in the operation of the RUINS.</box>
+                <box n="3">*The Ruins are full of puzzles</box>
+                <box n="4">*Ancient fusions between diversions and doorkeys.</box>
+                <box n="5">*One must solve them to move from room to room.</box>
+                <box n="6">*Please adjust yourself to the sight of them.</box>
+                <box n="7">*Only the fearless may proceed. *Brave ones, foolish ones. *Both walk not
+                    the middle road.</box>
+            </sp>
+        </setting>
+        <setting name="LablledSwitchRoom">
+            <sp who="Toriel" to="you">
+                <box n="1">*To make progress here, you will need to trigger several switches.</box>
+                <box n="2">*Do not worry, I have labelled the ones that you need to flip.</box>
+                <box n="3">*"Press [Z] to read signs!"</box>
+                <box n="4">*Stay on the path.</box>
+                <box n="5">*The first switch is over on the wall.</box>
+                <box n="6">* Do you need some help..? *Press the switch on the wall.</box>
+                <box n="7">*Come on, you can do it!</box>
+            </sp>
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="8">*Please press this switch. -TORIEL</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select"/>
+            </choice>
+            <sp who="Toriel" to="you">
+                <box n="9">*Go on, press the switch on the left.</box>
+                <box n="10">*You do know which way left is, do you not?</box>
+                <box n="11">*Press the switch that I labelled for you.</box>
+            </sp>
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="12">*Please press this switch too. -TORIEL</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="Toriel" to="you">
+                        <box n="13">*Splendid! *I am proud of you, little one.</box>
+                        <box n="14">* Let us move to the next room.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="15">*This switch doesn't even work...</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="DummyRoom">
+            <sp who="Toriel" to="you">
+                <box n="1">*As ahuman living in the UNDERGROUND, monsters may attack you.</box>
+                <box n="2">*You will need to be prepared for this situation.</box>
+                <box n="3">*However, worry not! *The process is simple.</box>
+                <box n="4">*When you encounter a monster, you will enter a FIGHT.</box>
+                <box n="5">*While you are in a FIGHT, strike up a friendly conversation.</box>
+                <box n="6">*Stall for time. I will come to reolve the conflict.</box>
+                <box n="7">*Practice talking to the dummy.</box>
+                <box n="8">*Do you need some ideas for conversation topics?</box>
+                <box n="9">*Well, I often start with a simple 'how do you do...'</box>
+                <box n="10">*You could ask them about their favorite books...</box>
+                <box n="11">*Jokes can be useful for 'breaking the ice.'</box>
+                <box n="12">*Listen to this one...</box>
+                <box n="13">*What did the skeleton tile his roof with?</box>
+                <box n="14">*... SHIN-gles!</box>
+                <box n="15">*...</box>
+                <box n="16">*Well, I thought it was amusing.</box>
+                <box n="17">*You can say anything... *The dummy will not be bothered.</box>
+                <box n="18">*Practice talking to the dummy.</box>
+            </sp>
+            <event name="1stMonsterBattle practice">
+                <choice>
+                    <option what="talkTo">
+                        <sp who="Toriel" to="you">
+                            <box n="1">*Ah, very good! *You are very good.</box>
+                        </sp>
+                    </option>
+                    <option what="kill">
+                        <sp who="Toriel" to="you">
+                            <box n="1">*Ahh, the dummies are not for fighting! *They are for
+                                talking!</box>
+                            <box n="2">*We do not want to hurt anybody, do we...? *Come now.</box>
+                        </sp>
+                    </option>
+                    <option what="ran">
+                        <sp who="Toriel" to="you">
+                            <box n="1">*...</box>
+                            <box n="2">*... you ran away...</box>
+                            <box n="3">*Truthfully, that was not a poor choice.</box>
+                            <box n="4">*It is better to avoid conflict whenever possible.</box>
+                            <box n="5">*That... however, is only a dummy. *It cannot harm you.</box>
+                            <box n="6">*It is made of cotton. *It has no desire for revenge...</box>
+                            <box n="7">*Nevermind. *Stay close to me and I will keep you safe.</box>
+                        </sp>
+                    </option>
+                    <option what="bored">
+                        <sp who="Toriel" to="you">
+                            <box n="1">*...</box>
+                            <box n="2">*...</box>
+                            <box n="3">*The next room awaits.</box>
+                        </sp>
+                    </option>
+                </choice>
+            </event>
+        </setting>
+        <setting name="SpikedTileRoom">
+            <sp who="Toriel" to="you">
+                <box n="1">*There is another puzzle in this room...</box>
+                <box n="2">*I wonder if you can solve it?</box>
+                <box n="3">*The western room is the eastern room's blueprint.</box>
+                <box n="4">*This is the puzzle, but...</box>
+                <box n="5">*Here, take my hand for a moment.</box>
+                <box n="8">*Puzzles seem a little too dangerous for now.</box>
+            </sp>
+        </setting>
+        <setting name="IndependenceHallway">
+            <sp who="Toriel" to="you">
+                <box n="1">*You have done excellently thus far, my child.</box>
+                <box n="2">*However... I have a difficult request to ask of you.</box>
+                <box n="3">*...</box>
+                <box n="4">*I would like you to walk to the end of the room by yourself.</box>
+                <box n="5">*Forgive me for this.</box>
+                <box n="6">...</box>
+                <box n="7">*Greetings, my child. *Do not worry, I did not leave you.</box>
+                <box n="8">*I was merely behind this pillar the whole time.</box>
+                <box n="9">*Thank you for trusting me.</box>
+                <box n="10">*However, there was an important reason for this exercise.</box>
+                <box n="11">*... to test your independence.</box>
+                <box n="12">*I must attend to some business, and you must stay alone for a
+                    while.</box>
+                <box n="13">*Please remain here. *It's dangerous to explore by yourself.</box>
+                <box n="14">*I have an idea. *I will give you a CELL PHONE.</box>
+                <box n="15">*If you have a need for anything, just call.</box>
+                <box n="16">*Be good, alright?</box>
+            </sp>
+        </setting>
+        <setting name="LeafPileSaveRoom">
+            <choice>
+                <option what="talkTo">
+                    <sp who="Froggit" to="you">
+                        <box n="1">*Ribbit, ribbit. *(Excuse me, human.)</box>
+                        <box n="2">*(I have some advice for you about battling monsters.)</box>
+                        <box n="3">*(If you ACT a certain way or FIGHT until you almost defeat
+                            them...)</box>
+                        <box n="4">*(They might not want to battle you anymore.)</box>
+                        <box n="5">*(If a monster does not want to fight you, please...)</box>
+                        <box n="6">*(Use some MERCY, human.) *Ribbit</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select saveGame" HP="restore">
+                    <sp who="determination">
+                        <box n="7">*(Playfully crinkling through the leaves fills you with
+                            determination.)</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="MonsterCandyRoom">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*It says 'take one.' *Take a piece of candy? Yes No</box>
+                        <Option what="No">
+                            <box n="3">*You decided not to take some.</box>
+                        </Option>
+                        <option what="Yes">
+                            <condition item="full">
+                                <box n="6">*You tried to take a piece of candy, but you didn't have
+                                    any room.</box>
+                            </condition>
+                        </option>
+                        <option what="Yes"><box n="2"/>*You took a piece of candy. *(Press [C] to
+                            open the menu.)</option>
+                        <option what="select">
+                            <conition candy="tookOne">
+                                <box n="1">*'Take one.' *Take a candy? Yes No</box>
+                                <option what="Yes">
+                                    <box n="2">*You took more candy. *How disgusting..</box>
+                                </option>
+                            </conition>
+                        </option>
+                        <option what="select">
+                            <condition candy="tookTwo">
+                                <box n="1">*'Take one.' *Take a candy? Yes No</box>
+                                <option what="Yes">
+                                    <box n="2">*You take another piece. *You feelf like the scum of
+                                        the earth...</box>
+                                </option>
+                            </condition>
+                        </option>
+                        <option what="select">
+                            <condition candy="tookThree">
+                                <box n="1">*'Take one.' *Take a candy? Yes No</box>
+                                <option what="Yes">
+                                    <box n="2">*You took too much too fast. *The candy spills onto
+                                        the floor.</box>
+                                    <box n="3">*Look at what you've done.</box>
+                                </option>
+                            </condition>
+                        </option>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="1stRockPuzzle">
+            <sp who="cellPhone Toriel" to="you">
+                <box n="1">*Ring...</box>
+                <box n="2">*Hello? *This is TORIEL.</box>
+                <box n="3">*For no reason in particular... *Which do you prefer?</box>
+                <box n="4">Cinnamon or butterscotch? Cinnamon Bscotch</box>
+                <choice>
+                    <option what="Cinnamon Bscotch">
+                        <box n="5">*Oh, I see. *Thank you very much!</box>
+                        <box n="6">*Click...</box>
+                        <box n="1">*Ring...</box>
+                        <box n="2">*Hello? *This is TORIEL.</box>
+                        <box n="3A" select="Bscotch">*You do not DISLIKE cinnamon, do you?</box>
+                        <box n="3B" select="Cinnamon">*You do not DISLIKE butterscotch, do
+                            you?</box>
+                        <box n="4">*I know what your preference is, but...</box>
+                        <box n="5">*Would you turn up your nose if you found it on your plate?</box>
+                        <box n="6">*Right, right, I understand.</box>
+                        <box n="7">*Thank you for being patient, by the way.</box>
+                        <box n="8">*Click...</box>
+                    </option>
+                    <option what="Cinnamon"/>
+                </choice>
+            </sp>
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*Three out of four grey rocks recommend you push them.</box>
+                    </sp>
+                </option>
+            </choice>
+            <sp who="cellPhone Toriel">
+                <box n="1">*Ring...</box>
+                <box n="2">*Hello?</box>
+                <box n="3">*You do not have any allergies, do you ?</box>
+                <box n="4">*Huh? *Why am I asking?</box>
+                <box n="5">*No reason... *No reason at all.</box>
+                <box n="6">*Click...</box>
+            </sp>
+        </setting>
+        <setting name="Don'tStepOnTheLeavesRoom">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*Please don't step on the leaves.</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="2ndCrackedTileRoom">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*Didn't you read the sign downstairs?</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="2ndRockPuzzleRoom">
+            <sp who="rock1" to="you">
+                <box n="1">*WHOA there, pardner! *Who said you could push me around?</box>
+                <box n="2">*HMM? *So you're ASKIN' me to move over?</box>
+                <box n="3">*Okay, just for you pumpkin.</box>
+                <box n="4">*HMM? *You want me to move some more?</box>
+                <box n="5">*Alright, how's this?</box>
+                <box n="6">*HMM? *That was the wrong direction?</box>
+                <box n="7">*Okay, think I got it.</box>
+                <box n="8">*Was that helpful?</box>
+                <box n="9">*HMM? *You wanted me to STAY there?</box>
+                <box n="10">*You're giving me a real workout.</box>
+                <box n="11">Aren't things easier when you just ask?</box>
+            </sp>
+        </setting>
+        <setting name="TableWithCheeseRoom">
+            <choice>
+                <option what="select saveGame" HP="restore">
+                    <sp who="determination">
+                        <box n="1">*(Knowing the mouse might one day leave its hole and get the
+                            cheese...)</box>
+                        <box n="2">*(It fills you with determination.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="4">*This cheese has been here quite a long time.</box>
+                        <box n="5">*It's stuck to the table...</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="NapstablookRoom">
+            <sp who="Napstablook" to="you">
+                <box n="1">*ZZZZZZZZZZZZZZZ... *ZZZZZZZZZZZZZZ...</box>
+                <box n="2">*ZZZZZZZZZZ... *(are they gone yet) *ZZZZZZZZZZZZZZZ...</box>
+            </sp>
+            <sp who="game" to="you">
+                <box n="3">*(This ghost keeps saying 'z' out loud repeatedly, pretending to
+                    sleep.)</box>
+                <box n="4">*Move it with force? Yes No</box>
+                <option what="Yes"/>
+            </sp>
+            <choice what="spare kill">
+                <option what="spare">
+                    <sp who="Napstablook" to="you">
+                        <box n="1">*i usually come to the RUINS because there's nobody
+                            around...</box>
+                        <box n="2">*but today i met somebody nice...</box>
+                        <box n="3">*...</box>
+                        <box n="4">*oh, i'm rambling again</box>
+                        <box n="5">*i'll get out of your way</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="SpiderBakeSale">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*Spider Bake Sale *All proceeds go to real spiders.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="2">*Leave 7G in the web? Yes No</box>
+                    </sp>
+                </option>
+                <option what="yes">
+                    <sp who="game" to="you">
+                        <box n="3">*Some spiders crawled down and gave you a donut.</box>
+                        <condition what="NotEnoughGold">
+                            <box n="1">*You didn't have enough gold.</box>
+                        </condition>
+                        <condition what="ItemFull">
+                            <box n="1">*You are carrying too many items.</box>
+                        </condition>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="4">*Leave 18G in the web? Yes No</box>
+                    </sp>
+                </option>
+                <option what="Yes">
+                    <sp who="game" to="you">
+                        <box n="5">*Some spiders crawled down and gave you a jug.</box>
+                        <condition what="NotEnoughGold">
+                            <box n="2">*You didn't have enough gold.</box>
+                        </condition>
+                        <condition what="ItemFull">
+                            <box n="1">*You are carrying too many items.</box>
+                        </condition>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="FroggitHallway">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*Did you miss it? *Spider Bakesale down and to the right.</box>
+                        <box n="2">*Come eat food made by spiders, for spiders of spiders!</box>
+                    </sp>
+                </option>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="Froggit1">
+                            <box n="3">*Ribbit, ribbit. *(Sigh...)</box>
+                            <box n="4">*(My friend never listens to me.)</box>
+                            <box n="5">*(Whenevre I talk, they skip through my words by pressing
+                                [X].)</box>
+                            <box n="6">*(That's right.......) *(Pressing [X]............)
+                                *(................)</box>
+                            <box n="7A">*(Well, at least you listen to me.)</box>
+                            <box n="7B">*(Oh, not you too!)</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="Froggit2">
+                            <box n="8">*Ribbit, ribbit. *(I heard using "F4" can make you have a
+                                "full screen.") </box>
+                            <box n="9">*(But what does "F4" stand for?) *("Four Frogs"?)</box>
+                            <box n="10">*(I have only seen a maximum of three frogs in this
+                                room...)</box>
+                            <box n="11">*(This is troubling, to say the least.) *Ribbit.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="12">*(There's an ant-sized frog in a crack in the wall...) *(It
+                                waves at you.)</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="Froggit3">
+                            <box n="13">*Ribbit, ribbit. *(I have heard you are quite merciful, for
+                                a human...)</box>
+                            <box n="14">*(Surely you know by now a monster wears a YELLOW name when
+                                you can SPARE it.)</box>
+                        </sp>
+                    </option>
+                </choice>
+                <sp who="cellPhone Toriel">
+                    <box n="15">*Ring...</box>
+                    <box n="16">*Hello?</box>
+                    <box n="17">*I just realized that it has been a while since I have cleaned
+                        up.</box>
+                    <box n="18">*I was not expecting to have company so soon.</box>
+                    <box n="19">*There are probably a lot of things lying about here and
+                        there.</box>
+                    <box n="20">*You can pick them up, but do not carry more than you need.</box>
+                    <box n="21">*Someday you might see something you really like.</box>
+                    <box n="22">*You will want to leave room in your pockets for that.</box>
+                    <box n="23">*Click...</box>
+                </sp>
+            </choice>
+        </setting>
+        <setting name="SixHolesRoom" where="BottomMiddle">
+            <choice>
+                <option what="talkTo">
+                    <sp who="Napstablook" to="you"/>
+                    <box n="1">*i fell down a hole... *now i cant get up...</box>
+                    <box n="2">*go on without me...</box>
+                    <box n="3">*wait, ghosts can fly, can't they...</box>
+                    <box n="4">*oh well...</box>
+                </option>
+            </choice>
+        </setting>
+        <setting name="SixSwitchesPuzzle">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*There is just one switch.</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="SwitchesRoom" perspective="A">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*The far door is not an exit. *It simply marks a rotation in
+                            perspective.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select blueSwitch">
+                    <sp who="game" to="you">
+                        <box n="2">*It's a switch *Press it? Yes No</box>
+                    </sp>
+                </option>
+                <option what="Yes">
+                    <box n="3">*Nothing happened.</box>
+                </option>
+            </choice>
+            <choice>
+                <option what="select yellowSwitch">
+                    <box n="4">*It's a switch *Press it? Yes No</box>
+                    <option what="Yes">
+                        <box n="5">*Nothing happened.</box>
+                    </option>
+                </option>
+            </choice>
+            <choice>
+                <option what="select redSwitch">
+                    <box n="6">*It's a switch *Press it? Yes No</box>
+                    <option what="Yes">
+                        <box n="5">*Nothing happened.</box>
+                    </option>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <condition what="PressingTheSwitchesTooManyTimes">
+                        <sp who="game" to="you">
+                            <box n="1">*You're making the switches uncomfortable with all this
+                                attention.</box>
+                        </sp>
+                    </condition>
+                </option>
+            </choice>
+        </setting>
+        <setting name="SwitchesRoom" persepective="B">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*If you can read this, press the blue switch.</box>
+                    </sp>
+                </option>
+                <condition what="foundBlueSwitch">
+                    <sp who="game" to="you">
+                        <box n="1">*(You noticed there was a blue switch behind the top
+                            pillar.)</box>
+                        <option what="select">
+                            <sp who="game" to="you">
+                                <box n="2">*It's a switch *Press it? Yes No</box>
+                                <option what="Yes">
+                                    <box n="3">*You hear a clicking sound.</box>
+                                </option>
+                            </sp>
+                        </option>
+                    </sp>
+                </condition>
+            </choice>
+        </setting>
+        <seting name="SwitchesRoom" perspective="C">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="1">*If you can read this, press the red switch.</box>
+                    </sp>
+                </option>
+                <option what="select redSwitch">
+                    <sp who="game" to="you">
+                        <box n="4">*It's a switch. *Press it? Yes No</box>
+                        <option what="Yes">
+                            <box n="5">*You hear a clicking sound.</box>
+                        </option>
+                    </sp>
+                </option>
+            </choice>
+        </seting>
+        <setting name="SwitchesRoom" perspective="D">
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="3">*If you can read this, press the green switch.</box>
+                    </sp>
+                </option>
+                <condition what="foundGreenSwitch">
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="4">*It's a switch *Press it? Yes No</box>
+                            <option what="Yes">
+                                <box n="5">*You hear a clicking sound.</box>
+                            </option>
+                        </sp>
+                    </option>
+                </condition>
+            </choice>
+        </setting>
+        <setting name="FroggitNearToyKnife">
+            <choice>
+                <option what="talkTo">
+                    <sp who="Froggit" to="you">
+                        <box n="1">*Ribbit, ribbit *(Just between you and me...)</box>
+                        <box n="2">*(I saw TORIEL come out of here just a little while ago.)</box>
+                        <box n="3">*(She was carrying some groceries.</box>
+                        <box n="4">*(I didn't ask what they were for...)</box>
+                        <box n="5">*(We're all too intimidated to talk to her.) *Ribbit.</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="ToyKnifeRoom">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*You found the Toy Knife.</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="BlackTreeRoom">
+            <sp who="Toriel" to="you">
+                <box n="1">*Oh dear, that took longer than I thought it would.</box>
+                <box n="3">*How did you get here, my child? *Are you hurt?</box>
+                <condition what="fullHP">
+                    <box n="1">*Not a scratch... *Impressive! *But still...</box>
+                </condition>
+                <condition what="wounded">
+                    <box n="1">*There, there, I will heal you.</box>
+                </condition>
+                <condition what="2HPorLess">
+                    <box n="1">*Who did this to you? *You will get an apology.</box>
+                </condition>
+            </sp>
+        </setting>
+        <setting name="EntranceToToriel'sHome">
+            <sp who="Toriel" to="you">
+                <box n="1">*I should not have left you alone for so long.</box>
+                <box n="2">*It was irresponsible to try to surprise you like this.</box>
+                <box n="3">*Err...</box>
+                <box n="4">*Well, I suppose I cannot hide it any longer.</box>
+                <box n="5">*Come, small one!</box>
+            </sp>
+            <option what="select">
+                <sp who="game" to="you">
+                    <box n="6">*Every time this old tree grows any leaves, they fall right
+                        off.</box>
+                </sp>
+            </option>
+            <option what="select saveGame" HP="restore">
+                <sp who="determination" to="you">
+                    <box n="7">*(Seeing such a cute, tidy house in the RUINS gives you
+                        determination.)</box>
+                </sp>
+            </option>
+        </setting>
+        <setting name="TorielHome">
+            <sp who="Toriel" to="you">
+                <box n="1">*Do you smell that?</box>
+                <box n="2">*Surprise!</box>
+                <box n="3">*It is a butterscotch-cinnamon pie.</box>
+                <box n="4">*I thought we might celebrate your arrival.</box>
+                <box n="5">*I want you to have a nice time living here.</box>
+                <box n="6">*So I will hold off on snail pie for tonight.</box>
+                <box n="7">*Here, I have another surprise for you.</box>
+                <choice>
+                    <option what="select">
+                        <box n="8">*Inside is an old calendar from the beginning of 201X.</box>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="select">
+                        <box n="9">*These books are worn... *They must have been read many
+                            times.</box>
+                    </option>
+                </choice>
+            </sp>
+        </setting>
+        <setting name="TorielLivingRoom">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*The ends of the tools have been filed down to make them
+                            safer.</box>
+                    </sp>
+                </option>
+            </choice>
+            <option what="select">
+                <sp who="game" to="you">
+                    <box n="2">*It's a history book. *Here's a random page...</box>
+                    <box n="3">*Trapped behind the barrier and fearful of further human attacks, we
+                        retreated.</box>
+                    <box n="4">*This was our new home, which we named...</box>
+                    <box n="5">*"Home"</box>
+                    <box n="6">*As great as our king is, he is pretty lousy at names.</box>
+                </sp>
+            </option>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="7">*This fire isn't burning hot... *Just pleasantly warm. *You could
+                            put your hand inside.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="8">*(Seems like the right size for Toriel.)</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="Kitchen">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*For some reason, there is a brand-name chocolate bar in the
+                            fridge.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="2">*There is some white fur stuck in the drain.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="3">*Inside the cupboard are cookie cutters for gingerbread
+                            monsters.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="4">*The size of the pie intimidates you too much for you to eat
+                            it.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="5">*The stovetop is very clean. *Toriel must use fire magic
+                            instead.</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="Bedrooms">
+            <sp who="Toriel" to="you">
+                <box n="1">*This is it...</box>
+                <box n="3">*A room of your own. *I hope you like it!</box>
+                <box n="5">*Is something burning...? *Um, make yourself at home!</box>
+            </sp>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="6">*You have seen this type of plant before but do not know its
+                            name.</box>
+                        <condition what="readBook">
+                            <box n="1">*Oh! *It is a "water sausage."</box>
+                        </condition>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="7">*Inside the drawer are flower seeds and some broken
+                            crayons.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="8">*It's you!</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="read">
+                    <sp who="sign" to="you">
+                        <box n="9">*"Room under renovations."</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="Toriel'sRoom">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*Just a regular old bucket of snails.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="2">*(Toriel's small chair. *(Its name is Chairel.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="3">*It's TORIEL's diary. *Read the circled passage? Yes No</box>
+                        <option what="Yes">
+                            <box n="4">*You read the passage...</box>
+                            <box n="5">*"Why did the skeleton want a friend?"</box>
+                            <box n="6">*"Because she was feeling BONELY..."></box>
+                            <box n="7">*The rest of the page is filled with jokes of a similar
+                                caliber.</box>
+                        </option>
+                    </sp>
+                </option>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="8">*(Definitely bigger than a twin-sized bed.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="9">*It's an encyclopedia of subterranean plants. YOu opend to the
+                            middle...</box>
+                        <box n="10">*"Typha" - A group of wetland flowering plants with brown,
+                            oblong seedpods.</box>
+                        <box n="11">*Known more commonly as "water sausages."</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="12">*You peek inside... *Scandalous!</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="13">*It's TORIEL's sock drawer.</box>
+                        <box n="14">*You can't stop looking at the socks.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="15">*Ah, the cactus. *Truly the most tsundere of plants.</box>
+                    </sp>
+                </option>
+            </choice>
+        </setting>
+        <setting name="Asriel'sRoom">
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*Look at these cool toys! *They don't inerest you at all.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="2">*(An empty photo frame.) *(It's really dusty...)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="3">*(A box of kids' shoes in a disparity of sizes.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <condition what="pie">
+                    <option what="select">
+                        <sp who="game" to="you">
+                            <box n="4">*You found a slice of butterscotch-cinnamon pie.</box>
+                        </sp>
+                    </option>
+                </condition>
+            </choice>
+            <condition what="runAwayFromToriel killToriel">
+                <sp who="game" to="you">
+                    <box n="1">*Chara, please...</box>
+                    <box n="2">*Wake up!</box>
+                    <box n="3">*You are the future of humans and monsters...</box>
+                </sp>
+            </condition>
+        </setting>
+        <setting name="Basement">
+            <condition what="beforeTryingToLeave">
+                <condition what="beforeTorielShowsYourRoom"><box n="1">*Hey, do not go down
+                        here.</box>*I have something to show you upstairs.</condition>
+                <condition what="beforeAskingToExitTheRuins">
+                    <box n="1">*I think you should play upstairs instead.</box>
+                    <box n="2">*It is dangerous to play here.</box>
+                    <box n="3">*It is drafty here. *You will catch a cold.</box>
+                    <box n="4">*It is dusty here. *You will catcha cough.</box>
+                    <box n="5">*There is nothing to see here.</box>
+                    <box n="6">*Do you want to read a book?</box>
+                    <box n="7">*I do not like the game you are playing.</box>
+                    <box n="8">*Why not go for a walk in the yard?</box>
+                    <box n="9">*Really now.</box>
+                    <box n="10">*...</box>
+                </condition>
+            </condition>
+            <condition what="1stPart">
+                <sp who="Toriel" to="you">
+                    <box n="1">*You wish to know how to return "home," do you not?</box>
+                    <box n="2">*Ahead of us likes the end of the RUINS.</box>
+                    <box n="3">*A one-way exit to the rest of the underground.</box>
+                    <box n="4">*I am going to destroy it.</box>
+                    <box n="5">* No one will ever be able to leave again.</box>
+                    <box n="6">*Now be a good child and go upstairs.</box>
+                </sp>
+            </condition>
+            <condition what="2ndPart">
+                <sp who="Toriel" to="you">
+                    <box n="1">*Every human that falls down her meets the same fate.</box>
+                    <box n="2">*I have seen it again and again.</box>
+                    <box n="3">*They come.</box>
+                    <box n="4">*They leave.</box>
+                    <box n="5">*They die.</box>
+                    <box n="6">*You naive child... *If you leave the RUINS...</box>
+                    <box n="7">*They... *ASGORE... *Will kill you.</box>
+                    <box n="8">*I am only protecting you , do you undertand?</box>
+                    <box n="9">*... go to your room.</box>
+                </sp>
+            </condition>
+            <condition what="3rdPart">
+                <sp who="Toriel" to="you">
+                    <box n="!">*Do not try to stop me.</box>
+                    <box n="2">*This is your final warning.</box>
+                </sp>
+            </condition>
+        </setting>
+        <setting name="TorielBossRoom">
+            <sp who="Toriel">
+                <box n="1">*You want to leave so badly?</box>
+                <box n="2">*Hmph.</box>
+                <box n="3">*You are just like the others.</box>
+                <box n="4">*There is only one solution to this.</box>
+                <box n="5">*Prove yourself...</box>
+                <box n="6">*Prove to me you are strong enough to survive.</box>
+                <condition what="runAway">
+                    <box n="1">*That is right.</box>
+                    <box n="2">*Go upstairs.</box>
+                </condition>
+                <condition what="re-fight">
+                    <box n="1">*Already?</box>
+                    <box n="2">*What will it take for you to learn your lesson?</box>
+                </condition>
+                <condition what="spare">
+                    <box n="1">*If you truly wish to leave the RUINS...</box>
+                    <box n="2">*I will not stop you.</box>
+                    <box n="3">*However, when you leave...</box>
+                    <box n="4">*Please do not come back.</box>
+                    <box n="5">*I hope you understand.</box>
+                    <box n="7">*Goodbye, my child.</box>
+                </condition>
+                <condition what="killedTorielBefore">
+                    <box n="1">*There is only one solution to this.</box>
+                    <box n="2">*Prove to me you are strong enough to survive!</box>
+                    <box n="3">*... wait.</box>
+                    <box n="4">*... why are you looking at me like that?</box>
+                    <box n="5">*Like you have seen a ghost.</box>
+                    <box n="6">Do you know something that I do not?</box>
+                    <box n="7">*No... *That is impossible.</box>
+                </condition>
+            </sp>
+        </setting>
+        <setting name="FloweyExitHall">
+            <condition what="sparedToriel">
+                <sp who="Flowey" to="you">
+                    <box n="1">*Clever. *Verrrryyy clever.</box>
+                    <box n="2">*You think you're really smart, don't you?</box>
+                    <box n="3">*In this world, it's kill or be killed.</box>
+                    <box n="4">*So you were able to play by your own rules.</box>
+                    <box n="5">*You spared the life of a single person.</box>
+                    <box n="6">*Hee hee hee...</box>
+                    <box n="7">*I bet you feel really great.</box>
+                    <box n="8">*You didn't kill anybody this time.</box>
+                    <box n="9">*But what will you do if you meet a relentless killer?</box>
+                    <box n="10">*You'll die and you'll die and you'll die.</box>
+                    <box n="11">*Until you tire of trying.</box>
+                    <box n="12">*What will you do then?</box>
+                    <box n="13">*Will you kill out of frustration?</box>
+                    <box n="14">*Or will you give up entirely on this world...</box>
+                    <box n="15">*...and let ME inherit the power to control it?</box>
+                    <box n="16">*I am the prince of this world's future.</box>
+                    <box n="17">*Don't worry my little monarch, my plan isn't regicide.</box>
+                    <box n="18">*This is SO much more interesting.</box>
+                </sp>
+            </condition>
+            <condition what="killedToriel">
+                <sp who="Flowey" to="you">
+                    <box n="1">*Hee hee hee...</box>
+                    <box n="2">*I hope you like your choice.</box>
+                    <box n="3">*After all, it's not as if you can go back and change fate.</box>
+                    <box n="4">*In this world, it's kill or be killed.</box>
+                    <box n="5">*That old hag thought she could break the rules.</box>
+                    <box n="6">*She tried so hard to save you humans.</box>
+                    <box n="7">*But when it came down to it...</box>
+                    <box n="8">*Hee hee...</box>
+                    <box n="9">*SHE COULDN"T EVEN SAVE HERSELF.</box>
+                    <box n="10">*WHAT AN IDIOT!!</box>
+                </sp>
+            </condition>
+            <condition what="killedThenSparedToriel">
+                <sp who="Flowey" to="you">
+                    <box n="1">*Clever. *Verrrryyy clever.</box>
+                    <box n="2">*You think you're really smart, don't you.</box>
+                    <box n="3">*In this world, it's kill or be killed.</box>
+                    <box n="4">*So you were able to play by your own rules.</box>
+                    <box n="5">*You spared the life of a single person.</box>
+                    <box n="6">*Hee hee hee...</box>
+                    <box n="7">*Bud don't act so cocky.</box>
+                    <box n="8">*I know what you did.</box>
+                    <box n="9">*You murdered her.</box>
+                    <box n="10">*And then you went back, because you regretted it.</box>
+                    <box n="11">*Ha ha ha ha...</box>
+                    <box n="12">*You naive idiot.</box>
+                    <box n="13">*Do you think you are the only one with that power?</box>
+                    <box n="14">*The power to reshape the world...</box>
+                    <box n="15">*Purely by your own determination.</box>
+                    <box n="16">*The ability to play God!</box>
+                    <box n="17">*The ability to "SAVE."</box>
+                    <box n="18">*I thought I was the only one with that power. But...</box>
+                    <box n="19">*I can't SAVE anymore.</box>
+                    <box n="20">*Apparently YOUR desires for this world override MINE.</box>
+                    <box n="21">*Well well</box>
+                    <box n="22">*Enjoy that power while you can.</box>
+                    <box n="23">*I'll be watching.</box>
+                </sp>
+            </condition>
+            <condition what="sparedThenKilledToriel">
+                <sp who="Flowey" to="you">
+                    <box n="1">*Wow, you're utterly repulsive.</box>
+                    <box n="2">*You spared her life...</box>
+                    <box n="3">*Then you decided that just wasn't interesting enough for you.</box>
+                    <box n="4">*So you murdered her just to see what would happen.</box>
+                    <box n="5">*You killed her out of boredom.</box>
+                    <box n="6">*Hee hee...</box>
+                    <box n="7">*you naive idiot.</box>
+                    <box n="8">*Do you think you are the only one with that power?</box>
+                    <box n="9">*The power to reshape the world...</box>
+                    <box n="10">*Purely by your own determination.</box>
+                    <box n="11">*The ability to play God!</box>
+                    <box n="12">*The ability to "SAVE."</box>
+                    <box n="13">*I thought I was the only one with that power. But...</box>
+                    <box n="14">*I can't SAVE anymore.</box>
+                    <box n="15">*Apparently YOUR desires for this world override MINE.</box>
+                    <box n="16">*Well well.</box>
+                    <box n="17">*Enjoy that power while you can.</box>
+                    <box n="18">*I;ll be watching.</box>
+                </sp>
+            </condition>
+            <condition what="killedTorielTwice">
+                <sp who="Flowey" to="you">
+                    <box n="1">*Heheheheh.</box>
+                    <box n="2">*You just can't get enough, can you!?</box>
+                    <box n="3">*...</box>
+                    <box n="4">*How many more times will you kill her?</box>
+                    <box n="5">*Ha ha ha ha ha...</box>
+                    <box n="6">*You disgusting animal.</box>
+                    <box n="7">*You didn't even TRY to spare her.</box>
+                </sp>
+            </condition>
+            <condition what="killTorielThree+Times">
+                <sp who="Flowey" to="you">
+                    <box n="1">*Wow, you really can't get enough.</box>
+                    <box n="2">*You kind of remind me of myself.</box>
+                </sp>
+            </condition>
+            <condition what="killedMonstersSparedToriel">
+                <sp who="Flowey" to="you">
+                    <box n="1">*Clever. *Verrrryyy clever.</box>
+                    <box n="2">*You think you're really smart, don't you.</box>
+                    <box n="3">*In this world, it's kill or be killed.</box>
+                    <box n="4">*So you were able to play by your own rules.</box>
+                    <box n="5">*You spared the life of a single person.</box>
+                    <box n="6">*Hee hee hee...</box>
+                    <box n="7">*Froggit, Whimsun. *Vegetoid, Loox. *Migosp, Moldsmal.</box>
+                    <box n="8">*Think about those names.</box>
+                    <box n="9">*Do you think any of those monsters have families?</box>
+                    <box n="10">*Do you think any of them have friends?</box>
+                    <box n="11">*Each one could have been someone else's Toriel.</box>
+                    <box n="12">*Selfish brat.</box>
+                    <box n="13">*Somebody is dead because of you.</box>
+                </sp>
+            </condition>
+            <condition what="KillSpareKillToriel">
+                <box n="1">*Wow, you're utterly repulsive.</box>
+                <box n="2">*You spared her life...</box>
+                <box n="3">*Then you decided that wasn't interesting enough for you.</box>
+                <box n="4">*So you murdered her just to see what would happen.</box>
+                <box n="5">*You killed her out of boredom.</box>
+                <box n="6">*Truly disgusting...</box>
+            </condition>
+        </setting>
+    </path>
+</map>

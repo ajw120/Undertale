@@ -1,0 +1,38 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+start = map
+map = element map {name, path+}
+path = element path {route, setting*, sp*}
+route = attribute route {list {("pacifist" | "neutral" | "genocide")*}}
+setting = element setting {name, (sp | choice | event | conditions | path)*}
+name =  attribute name{"Waterfall" |"Ruins" |
+"SansStation" | "SnailFarm"| "napstablookhouse"|"FallingRocks" | "TutuRoom" | "1stUndyneEncounter" | "1stBridgeSeedRoom" | "2ndBridgeSeedRoom" | "QuicheRoom" | "WishingRoom" | "HistoryPlaque" | "SeaWeedHidingSpot" | "MouseRoom" | "SansTelescopeRoom" | "UndyneHouse" |
+"Undyne" }
+# 2019-11-07 ebb: We'll need Schematron to control which names are allowed on which specific elements.
+battle = element battle {monster}
+monster = element monster{name}
+# 2019-11-07 ebb: We don't know what goes inside battle yet. 
+sp = element sp {speaker, (box | choice | conditions)*}
+speaker = attribute speaker {text}
+# ebb: REFINE THIS with specific values.
+choice = element choice {(option | box | text)*}
+event = element event {(sp | choice | path)*}
+conditions = element conditions {(box | choice | killed | fought | holding |spearsdodged | ferry | taken | equipped)*}
+equipped = attribute equipped{text}
+taken = attribute taken{text}
+spearsdodged = attribute spearsdodged{text}
+ferry = attribute ferry{text}
+holding= attribute holding{text}
+killed = attribute killed{text}
+fought = attribute fought{text}
+box = element box { mixed{(choice |n| who? | to? | option*)*} }
+# ebb: We need Schematron to refine this.
+who = attribute who {text}
+# ebb: REFINE THIS with specific values.
+to = attribute to {text}
+# ebb: REFINE THIS with specific values.
+n = attribute n {xsd:integer}
+option = element option{ TalkTo?, what, mixed{read? | sp* | box* | choice?}}
+TalkTo = attribute TalkTo {text}
+# ebb: REFINE THIS with specific values. (Same as the who attribute?)
+what = attribute what {list{("select" | "Yeah" | "LeaveIt" | "Im_busy" | "TakeIt" | "LeaveIt" | "ReadSign" | "Yes" | "No" |  "Talk" | "saveGame" | "HPRestore" | "TalkTo")*}}
+read = attribute read {"signPost"}

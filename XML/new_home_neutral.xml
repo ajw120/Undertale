@@ -1,440 +1,261 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
-    <location>
-        <title>New Home</title>
-        <route>Neutral</route>
-    <setting type="castle_elevator">
-        <title>Castle Elevator</title>
-        <interaction>
-            <p>*(The elevator is in use.)</p>
-        </interaction>
+<map name="newHome">
+    <path type="neutral">
+    <setting name="newHomeView">
+    <option choice="select"/>*
+        <sp speaker="game">
+            <box n="1" who="game" to="you">(The elevator is in use.)</box>
+        </sp>
     </setting>
-    <setting type="asgores_foyer">
-        <title>Asgore’s Foyer</title>
-        <interaction>
-            <p>*(It’s a golden flower.)</p>
-            <p>*(The way is blocked by two padlocks.)</p>
-            <p>*(There’s a note attached.)</p>
-            <p>*(Howdy! I’m in the garden.)</p>
-            <p>*(If you have anything you need to get off your chest, please don’t hesitate to come.)</p>
-            <p>*(The keys are in the kitchen and the hallway.)</p>
-            <p>*(You’ll need both keys to get through.)</p>
-            <p>*(You unlocked the chain.)</p>
-            <p>*(There’s an old calendar from the end of 201X.)</p>
-            <p>*(A date is circled on it.)</p>
-        </interaction>
+    <setting name="asgore'sFoyer">
+      <option choice="select"/>
+        <sp speaker="game">
+            <box n="1" who="game" to="you">*(It’s a golden flower.</box>
+        </sp>
+      <option choice="select"/>
+        <sp speaker="game">
+            <box n="2" who="game" to="you">*(The way is blocked by two padlocks.)*(There’s a note attached.)</box>
+        </sp>
+      <option read="note"/>
+        <sp speaker="note">
+            <box n="3" who="note" to="you">*(Howdy! I'm in the garden.)</box>
+            <box n="4" who="note" to="you">*(If you have anything you need to get off your chest, please don't hesitate to come.)</box>
+            <box n="5" who="note" to="you">*(The keys are in the kitchen and the hallway.)</box>
+            <box n="6" who="note" to="you">*(You'll need both keys to get through.)</box>
+        </sp>
+        <sp speaker="game"/>
+        <box n="7" who="game" to="you">*(You unlocked the chain.)</box>
+        <box n="8" who="game" to="you">*(There's an old calendar from the end of 201X.) *(A date is circled on it.)</box>
     </setting>
-    <setting type="living_room">
-        <title>Living Room</title>
-        <interaction>
-            <p>*Seems like gardening tools.</p>
-            <p>*(There are photo albums…)</p>
-            <p>*(Scrapbooks…)</p>
-            <p>*(Books on how to make tea…)</p>
-            <p>*The coals are still warm.</p>
-            <p>*(It’s a great reading chair.)</p>
-            <p>*(But it doesn’t seem like anyone uses it.)</p>
-            <p>*It’s a golden flower.</p>
-        </interaction>
+    <setting name="livingRoom">
+        <option choice="select"/>
+           <sp speaker="game">
+               <box n="1" who="game" to="you">*Seems like gardening tools.</box>
+               <box n="2" who="game" to="you">*(There are photo albums...)*(Scrapbooks…)*(Books on how to make tea…)</box>
+               <box n="3" who="game" to="you">*The coals are still warm.</box>
+               <box n="4" who="game" to="you">*(It’s a great reading chair.)*(But it doesn't seem like anyone uses it.)</box>
+               <box n="5" who="game" to="you">*It’s a golden flower.</box>
+           </sp>
     </setting>
-    <setting type="kitchen">
-        <title>Kitchen</title>
-        <interaction>
-            <p>*(The fridge is full of unopened containers of snails.)</p>
-            <p>*(There is some white fur stuck in the drain.)</p>
-            <p>*(It’s a note.)</p>
-            <p>*Howdy! Help yourself to anything you want!</p>
-            <p>*(You took the key and put it on your phone’s key-chain.)</p>
-            <p>*(The stove top is very clean.)</p>
-            <p>*(Someone must use fire magic instead.)</p>
-            <p>*(It’s a trash can.)</p>
-            <p>*(It’s full of crumpled-up recipes for butterscotch pie.)</p>
-        </interaction>
+    <setting name="kitchen">
+        <option choice="select"/>
+          <sp speaker="game">
+              <box n="1" who="game" to="you">*(The fridge is full of unopened containers of snails.)</box>
+              <box n="2" who="game" to="you">*(There is some white fur stuck in the drain.)</box>
+              <box n="3" who="game" to="you">*(It’s a note.)*Howdy! Help yourself to anything you want!</box>
+              <box n="4" who="game" to="you">*(You took the key and put it on your phone’s key-chain.)</box>
+              <box n="5" who="game" to="you">*(The stove top is very clean.)*(Someone must use fire magic instead.)</box>
+              <box n="6" who="game" to="you">*(It’s a trash can.)</box>
+              <box n="7" who="game" to="you">*(It’s full of crumpled-up recipes for butterscotch pie.)</box>
+          </sp>
     </setting>
-    <setting type="bedrooms">
-        <title>Bedrooms</title>
-        <interaction>
-            <p>*It’s a golden flower.</p>
-            <p>*It’s a golden flower.</p>
-            <p>*It’s a golden flower.</p>
-            <p>*”Room under renovations.”</p>
-            <p>*(You took the key and put it on your phone’s keychain.)</p>
-            <p>*Despite everything, it’s still you.</p>
-            <p>*It’s a golden flower.</p>
-        </interaction>
+    <setting name="bedrooms">
+        <option choice="select"/>
+            <sp speaker="game">
+                <box n="1" who="game" to="you">*It’s a golden flower.</box>
+                <box n="2" who="game" to="you">*It’s a golden flower.</box>
+                <box n="3" who="game" to="you">*It’s a golden flower.</box>
+                <box n="4" who="game" to="you">*”Room under renovations.”</box>
+                <box n="5" who="game" to="you">*(You took the key and put it on your phone’s keychain.</box>
+                <box n="6" who="game" to="you">*Despite everything, it’s still you.</box>
+                <box n="7" who="game" to="you">*It’s a golden flower.</box>
+            </sp>
     </setting>
-    <setting type="asgores_room">
-        <title>Asgore’s Room</title>
-        <interaction>
-            <p>*(It’s ASGORE’s journal.)</p>
-            <p>*(All the current page says is ‘Nice day today!’)</p>
-            <p>*(The ink is still almost wet.)</p>
-            <p>*(It’s just a chair.)</p>
-            <p>*(It’s a king-sized bed.)</p>
-            <p>*(Macaroni art of a flower.)</p>
-            <p>*(‘For King Dad!’)</p>
-            <p>*It’s a bureau.</p>
-            <p>*There’s a Santa Claus outfit inside.</p>
-            <p>*It’s a clothes drawer.</p>
-            <p>*There are robes, button-up shirts…</p>
-            <p>*… and a pink, hand-knit sweater that says ‘Mr. Dad Guy.’)</p>
-            <p>*(It’s a trophy.)</p>
-            <p>*(Number 1 Nose-Nuzzle Champs ’98!)</p>
-        </interaction>
+    <setting name="asgore'sRoom"> 
+        <option choice="select"/>
+          <sp speaker="game">
+              <box n="1" who="game" to="you">*(It’s ASGORE’s journal.)*(All the current page says is ‘Nice day today!’)</box>
+              <box n="2" who="game" to="you">*(The ink is still almost wet.)</box>
+              <box n="3" who="game" to="you">*(It's just a chair.)</box>
+              <box n="4" who="game" to="you">*(It’s a king-sized bed.)</box>
+              <box n="5" who="game" to="you">*(Macaroni art of a flower.)*(‘For King Dad!’)</box>
+              <box n="6" who="game" to="you">*It's a bureau.</box>
+              <box n="7" who="game" to="you">*There's a Santa Claus outfit inside.</box>
+              <box n="8" who="game" to="you">*It’s a clothes drawer.*There are robes, button-up shirts…</box>
+              <box n="9" who="game" to="you">*...and a pink, hand-knit sweater that says 'Mr. Dad Guy.')</box>
+              <box n="8" who="game" to="you">*(It's a trophy.)*(Number 1 Nose-Nuzzle Champs '98!)</box>
+          </sp>
     </setting>
-    <setting type="childrens_room">
-        <title>Children’s Room</title>
-        <interaction>
-            <p>*(Dusty toys.)</p>
-            <p>*(It’s a twin-sized bed.)</p>
-            <p>*(There are a lot of striped shirts in here.)</p>
-            <p>*(It’s a family photograph.)</p>
-            <p>*(Everyone is smiling.)</p>
-            <p>*(It’s a drawing of a golden flower.)</p>
-            <p>*(What a comfortable bed.)</p>
-            <p>*(If you laid down here, you might not ever get up.)</p>
-            <p>*(You’re carrying too much.)</p>
-            <p>*(There’s a worn dagger inside the box.)</p>
-            <choice>
-                <option>*(Will you take it?)</option>
-                <div>
-                    <option>TAKE IT</option>
-                    <outcome>*(You got the Worn dagger.)</outcome>
-                </div>
-                <option>LEAVE IT</option>
-            </choice>
-            <p>*(There’s a heart-shaped locket inside the box.)</p>
-            <choice>
-                <option>*(Will you take it?)</option>
-                <div>
-                    <option>TAKE IT</option>
-                    <outcome>
-                        <p>*(You got the Heart-shaped Locket.)</p>
-                    </outcome>
-                </div>
-                <option>LEAVE IT</option>
-            </choice>
-            <p>*(The box is empty.)</p>
-            <p>*(The box is empty.)</p>
-        </interaction>
+    <setting name="children'sRoom">
+        <option choice="select"/>
+        <sp speaker="game">
+            <box n="1" who="game" to="you">*(Dusty toys.)</box>
+            <box n="2" who="game" to="you">*(It's a twin-sized bed.)</box>
+            <box n="3" who="game" to="you">*(There are a lot of striped shirts in here.)</box>
+            <box n="4" who="game" to="you">*(It's a family photograph.)*(Everyone is smiling.)</box>
+            <box n="5" who="game" to="you">*(It's a drawing of a golden flower.)</box>
+            <box n="6" who="game" to="you">*(What a comfortable bed.)*(If you laid down here, you might not ever get up.)</box>
+            <box n="7" who="game" to="you">*(You're carrying too much.)</box>
+            <box n="8" who="game" to="you">*(There's a worn dagger inside the box.)</box>
+            <box n="9" who="game" to="you">*(Will you take it?)</box>
+            <option choice="takeIt"/>
+                  <box n="10" who="game" to="you">*(You got the Worn dagger.)</box>
+                  <box n="11" who="game" to="you">*(There's a heart-shaped locket inside the box.)</box>
+                  <box n="12" who="game" to="you">*(Will you take it?)</box>
+            <option choice="takeIt"/>
+                  <box n="13" who="game" to="you">*(You got hte Heat-shaped Locket.)</box>
+                  <box n="14" who="game" to="you">*(The box is empty.)</box>
+                  <box n="15" who="game" to="you">*(The box is empty.)</box>
+        </sp>
+    </setting>   
+    <setting name="coffins">
+        <option choice="select"/>
+        <sp speaker="game">
+            <box n="1" who="game" to="you">*(it's a coffin.)*(There's a name engraved on it.)</box>
+            <box n="2" who="game" to="you">*("Chara.")</box>
+            <box n="3" who="game" to="you">*(It's empty.)</box>
+        </sp>
     </setting>
-    <setting type="coffins">
-        <title>Coffins</title>
-        <interaction>
-            <p>*(It’s a coffin.)</p>
-            <p>*(There’s a name engraved on it.)</p>
-            <p>*(“Chara” “Player’s Name.”)</p>
-            <p>*(It’s empty.)</p>
-        </interaction>
+    </path>
+    <setting name="judgmentHall">
+       <path type="neautral">
+           <sp speaker="sans">
+               <box n="1" who="sans" to="you">*So you finally made it.</box>
+               <box n="2" who="sans" to="you">*The end of your journey is at hand.</box>
+               <box n="3" who="sans" to="you">*In a few moments, you will meet the king.</box>
+               <box n="4" who="sans" to="you">*Together...</box>
+               <box n="5" who="sans" to="you">*You will determine the future of this world.</box>
+               <box n="6" who="sans" to="you">*That's then.</box>
+               <box n="7" who="sans" to="you">*Now.</box>
+               <box n="8" who="sans" to="you">*You will be judged.</box>
+               <box n="9" who="sans" to="you">*You will be judged for your every action.</box>
+               <box n="10" who="sans" to="you">*You will be judged for every EXP you've earned.</box>
+               <box n="11" who="sans" to="you">*What's EXP?</box>
+               <box n="12" who="sans" to="you">*It's an acronym.</box>
+               <box n="13" who="sans" to="you">*It stands for "execution points."</box>
+               <box n="14" who="sans" to="you">*A way of quantifying the pain you have inflicted on others.</box>
+               <box n="15" who="sans" to="you">*When you kill someone, your EXP increases.</box>
+               <box n="16" who="sans" to="you">*When you have enough EXP, your LOVE increases.</box>
+               <box n="17" who="sans" to="you">*LOVE, too, is an acronym.</box>
+               <box n="18" who="sans" to="you">*It stands for "Level of Violence."</box>
+               <box n="19" who="sans" to="you">*A way of measuring someone's capacity to hurt.</box>
+               <box n="20" who="sans" to="you">*The more you kill, the easier it becomes to distance yourself.</box>
+               <box n="21" who="sans" to="you">*The more you distance yourself, the less you will hurt.</box>
+               <box n="21" who="sans" to="you">*The more easily you can bring yourself to hurt others.</box>
+                    <option choice="monstersKilled"/>
+                         <box n="1" who="sans" to="you">*Now you understand.</box>
+                         <box n="2" who="sans" to="you">*It's time to begin your judgment.</box>
+                         <box n="3" who="sans" to="you">*Look inside yourself.</box>
+                         <box n="4" who="sans" to="you">*Have you really done the right thing?</box>
+                         <box n="5" who="sans" to="you">*And, considering what you've done...</box>
+                         <box n="6" who="sans" to="you">*What will you do now?</box>
+                         <box n="7" who="sans" to="you">*Take a moment to think about this.</box>
+                         <box n="8" who="sans" to="you">*...</box>
+                         <box n="9" who="sans" to="you">*Truthfully, it doesn't really matter what you said.</box>
+                         <box n="10" who="sans" to="you">*all that's important is that you were honest with yourself.</box>
+                         <box n="11" who="sans" to="you">*what happens now...</box>
+                         <box n="12" who="sans" to="you">*we leave up to you.</box>
+           </sp>
+           <sp speaker="sans">
+               <conditions killed="papyrus">
+                   <box n="1" who="sans" to="you">*though...</box>
+                   <box n="2" who="sans" to="you">*one thing about you always struck me as kinda odd.</box>
+                   <box n="3" who="sans" to="you">*now, I understand acting in self defense.</box>
+                   <box n="4" who="sans" to="you">*you were thrown into those situations against your will.</box>
+                   <box n="5" who="sans" to="you">*but...</box>
+                   <box n="6" who="sans" to="you">*sometimes...</box>
+                   <box n="7" who="sans" to="you">*you act like you know what's going to happen.</box>
+                   <box n="8" who="sans" to="you">*like you've already experienced it all before.</box>
+                   <box n="9" who="sans" to="you">*this is an odd thing to say, but...</box>
+                   <box n="10" who="sans" to="you">*if you have some sort of special power...</box>
+                   <box n="11" who="sans" to="you">*isn't it your responsibility to do the right thing?</box>
+                    <option choice="no"/>
+                           <box n="1" who="sans" to="you">*heh.</box>
+                           <box n="2" who="sans" to="you">*well, that's your viewpoint.</box>
+                           <box n="3" who="sans" to="you">*I won't judge you for it.</box>
+                           <box n="4" who="sans" to="you">*...</box>
+                           <box n="5" who="sans" to="you">*You dirty brother killer.</box>
+                   <option choice="yes"/>
+                           <box n="1" who="sans" to="you">*ah.</box>
+                           <box n="2" who="sans" to="you">*I see.</box>
+                           <box n="3" who="sans" to="you">*...</box>
+                           <box n="4" who="sans" to="you">*Then why'd you kill my brother?</box>
+               </conditions>
+           </sp>
+       </path>
     </setting>
-    <setting type="judgement_hall">
-        <titile>Judgment Hall</titile>
-        <speech spkr="sans">
-            <p>*So you finally made it.</p>
-            <p>*The end of your journey is at hand.</p>
-            <p>*In a few moments, you will meet the king.</p>
-            <p>*Together…</p>
-            <p>*You will determine the future of this world.</p>
-            <p>*That’s then.</p>
-            <p>*Now.</p>
-            <p>*You will be judged.</p>
-            <p>*You will be judged for your every action.</p>
-            <p>*You will be judged for every EXP you’ve earned.</p>
-            <p>*What’s EXP?</p>
-            <p>*It’s an acronym.</p>
-            <p>*It stands for “execution points.”</p>
-            <p>*A way of quantifying the pain you have inflicted on others.</p>
-            <p>*When you kill someone, your EXP increases.</p>
-            <p>*When you have enough EXP, you LOVE increases.</p>
-            <p>*LOVE, too, is an acronym.</p>
-            <p>*It stands for “Level of Violence.”</p>
-            <p>*A way of measuring someone’s capacity to hurt.</p>
-            <p>*The more you kill, the easier it becomes to distance yourself.</p>
-            <p>*The more you distance yourself, the less you will hurt.</p>
-            <p>*The more easily you can bring yourself to hurt others.</p>
-            <p>*Now you understand.</p>
-            <p>*It’s time to begin your judgment.</p>
-            <p>*Look inside yourself.</p>
-            <p>*Have you really done the right thing?</p>
-            <p>*And, considering what you’ve done…</p>
-            <p>*What will you do now?</p>
-            <p>*Take a moment to think about this.</p>
-            <p>*…</p>
-            <p>*Truthfully, it doesn’t really matter what you said.</p>
-            <p>*all that’s important is that you were honest with yourself.</p>
-            <p>*what happens now…</p>
-            <p>*we leave up to you.</p>
-        </speech>
-        <scenario>
-            <title>PAPYRUS IS KILLED</title>
-            <speech spkr="sans">
-                <p>*though</p>
-                <p>*one thing about you always struck me as kinda odd.</p>
-                <p>*now, I understand acting in self defense</p>
-                <p>*you were thrown into those situations against your will</p>
-                <p>*but</p>
-                <p>*sometimes…</p>
-                <p>*you act like you know what’s going to happen</p>
-                <p>*like you’ve already experienced it all before.</p>
-                <p>*this is an odd thing to say, but…</p>
-                <choice>
-                    <question>
-                        <p>*if you have some sort of special power…</p>
-                        <p>*isn’t it your responsibility to do the right thing?</p>
-                    </question>
-                    <div>
-                        <option>YES</option>
-                        <outcome>
-                            <p>*ah.</p>
-                            <p>*I see.</p>
-                            <p>*…</p>
-                            <p>*Then why’d you kill my brother?</p>
-                        </outcome>
-                    </div>
-                    <div>
-                        <option>NO</option>
-                        <outcome>
-                            <p>*heh.</p>
-                            <p>*well, that’s your viewpoint.</p>
-                            <p>*I won’t judge you for it.</p>
-                            <p>*…</p>
-                            <p>*You dirty brother killer.</p>
-                        </outcome>
-                    </div>
-                </choice>
-                <choice>
-                    <option>Reset</option>
-                    <div>
-                        <option>Looked Bored</option>
-                        <outcome>
-                            <speech spkr="#sans">
-                                <p>*huh?</p>
-                                <p>*you look bored.</p>
-                                <p>* i get the feeling you aren’t gonna learn anything from this.</p>
-                                <p>*well, guess i gotta judge you then.</p>
-                            </speech>
-                            <scenario>
-                                <title>LVL 1 WITH EXP</title>
-                                <speech spkr="#sans">
-                                    <p>*come on. really?</p>
-                                </speech>
-                            </scenario>
-                            <scenario>
-                                <title>LVL 2</title>
-                                <speech spkr="#sans">
-                                    <p>*lv2…</p>
-                                    <p>*seems like you messed up the slightest amount.</p>
-                                    <p>*welp.</p>
-                                    <p>*that’s pretty sad.</p>
-                                    <p>*you probably weren’t even aware of what you were doing...</p>
-                                    <p>*and when you learned, it was too late.</p>
-                                    <p>*nah, just kidding.</p>
-                                    <p>*who gets lv2 on accident?</p>
-                                    <p>*get outta here.</p>
-                                </speech>
-                            </scenario>
-                            <scenario>
-                                <title>LVL 3</title>
-                                <speech spkr="#sans">
-                                    <p>*lv3…</p>
-                                    <p>*3’s just an ok number, i guess.</p>
-                                    <p>*I’ll give you a C+.</p>
-                                    <p>*you can do better, right?</p>
-                                </speech>
-                            </scenario>
-                            <scenario>
-                                <title>LVL 4-9</title>
-                                <speech spkr="sans">
-                                    <p>*hmmm…</p>
-                                    <p>*over lv3, huh.</p>
-                                    <p>*you killed some people on purpose, didn’t you?</p>
-                                    <p>*that’s probably bad.</p>
-                                    <p>*though, maybe some of it was in self-defense…</p>
-                                    <p>*I don’t know.</p>
-                                    <p>*help me out here.</p>
-                                    <p>*I wasn’t watching.</p>
-                                    <p>*anyways, don’t do that.</p>
-                                </speech>
-                            </scenario>
-                            <scenario>
-                                <title>LVL10-14</title>
-                                <speech spkr="#sans">
-                                    <p>*hmmm…</p>
-                                    <p>*over lv9, huh.</p>
-                                    <p>*that’s over halfway to lv20, the maximum</p>
-                                    <p>*but don’t think that means you’re still 50-percent good.</p>
-                                    <p>*50-percent. 20-percent.</p>
-                                    <p>*those are still failing grades.</p>
-                                    <p>*besides.</p>
-                                    <p>*chances are…</p>
-                                    <p>*I’ve already tried to steer you in the right direction.</p>
-                                    <p>*so what can I say?</p>
-                                    <p>*what can I say that will change the mind of a being like you…?</p>
-                                </speech>
-                            </scenario>
-                            <scenario>
-                                <title>LVL 15+</title>
-                                <speech spkr="#sans">
-                                    <p>*hmmm…</p>
-                                    <p>*over lv14, huh.</p>
-                                    <p>*well, hmmm…</p>
-                                    <p>*judgment-wise…</p>
-                                    <p>*you’re a pretty bad person.</p>
-                                    <p>*you wander around, looking for people?</p>
-                                    <p>*killing them to take their money.</p>
-                                    <p>*that’s just plain messed up.</p>
-                                    <p>*and what’s worse, is that as bad as you are…</p>
-                                    <p>*you aren’t anywhere near as bad as you could be.</p>
-                                    <p>*you pretty much suck at being evil</p>
-                                    <p>*honestly, it’s super embarrassing.</p>
-                                    <p>*but maybe you’d better…</p>
-                                    <p>*at not killing anyone?</p>
-                                    <p>*crazy idea, huh?</p>
-                                    <p>*let me know how that one goes.</p>
-                                </speech>
-                            </scenario>
-                            <scenario>
-                                <title>Reset Again</title>
-                                <speech spkr="#sans">
-                                    <p>*huh?</p>
-                                    <p>*you look bored.</p>
-                                    <p>*I get the feeling you aren’t gonna learn anything from this.</p>
-                                    <p>*well,  guess I judge you then.</p>
-                                    <p>*huh?</p>
-                                    <p>*you STILL look bored.</p>
-                                    <p>*okay then, consider our session over.</p>
-                                </speech>
-                            </scenario>
-                            <scenario>
-                                <title>Received Judgment, Reset Again, Raised LV By 1</title>
-                                <speech spkr="#sans">
-                                    <p>*huh?</p>
-                                    <p>*what’s with that look in your eye?</p>
-                                    <p>*did you go through and kill someone…</p>
-                                    <p>*wow.</p>
-                                    <p>*you’re a pretty gross person, huh?</p>
-                                </speech>
-                            </scenario>
-                            <scenario>
-                                <title>Receive 1st Judgment With LV2+, Reset For Custom Judgment, Reset Again, and Get Judgment With LV1</title>
-                                <speech spkr="#sans">
-                                    <p>*come on.</p>
-                                    <p>*really?</p>
-                                </speech>
-                            </scenario>
-                        </outcome>
-                    </div>
-                </choice>
-            </speech>
-        </scenario>
+       <path type="neutral">
+    <setting name="throneRoomEntrance">
+        <option choice="select"/>
+            <box n="1" who="game" to="you">Throne Room.</box>
+    </setting>    
+    <setting name="throneRoom">
+        <sp speaker="asgore">
+            <box n="1" who="asgore" to="you">*Dum deed um...</box>
+            <box n="2" who="asgore" to="you">*Oh?*Is someone there?</box>
+            <box n="3" who="asgore" to="you">*Just a moment!</box>
+            <box n="4" who="asgore" to="you">*I have almost finished watering these flowers.</box>
+            <box n="5" who="asgore" to="you">*...Here we are!</box>
+            <box n="6" who="asgore" to="you">*Howdy!*How can I...</box>
+            <box n="7" who="asgore" to="you">*Oh.</box>
+            <box n="8" who="asgore" to="you">*...</box>
+            <box n="9" who="asgore" to="you">*I so badly want to say, "would you like a cup of tea?"</box>
+            <box n="10" who="asgore" to="you">But...</box>
+            <box n="11" who="asgore" to="you">*You know how it is.</box>
+            <box n="12" who="asgore" to="you">*Nice day today, huh?</box>
+            <box n="13" who="asgore" to="you">*Birds are singing, flowers are blooming...</box>
+            <box n="14" who="asgore" to="you">*Perfect weather for a game of catch.</box>
+            <box n="15" who="asgore" to="you">*...</box>
+            <box n="16" who="asgore" to="you">*You know what we must do.</box>
+            <box n="17" who="asgore" to="you">*When you are ready, come into the next room.</box>
+        </sp>
+        <sp speaker="game">
+            <option choice="select"/>
+            <box n="1" who="game" to="you">*(It's a throne.)</box>
+            <box n="2" who="game" to="you">*(It's another throne covered by a white sheet.)</box>
+        </sp>
     </setting>
-    <setting type="throne_room_entrance">
-        <title>Throne Room Entrance</title>
-        <interaction>
-            <p>*Throne Room</p>
-        </interaction>
+    <setting name="theEnd">
+        <sp speaker="asgore">
+            <box n="1" who="asgore" to="you">*How tense...</box>
+            <box n="2" who="asgore" to="you">*Just think of it like...</box>
+            <box n="3" who="asgore" to="you">*A visit to the dentist.</box>
+            <box n="4" who="asgore" to="you">*Are you ready?</box>
+            <box n="5" who="asgore" to="you">*If you are not, I understand.</box>
+            <box n="6" who="asgore" to="you">*I am not ready either.</box>
+        </sp>
     </setting>
-    <setting type="throne_room">
-        <title>Throne Room</title>
-        <speech spkr="flowey">
-            <p>*Dum deed um…</p>
-            <p>*Oh?</p>
-            <p>*Is someone there?</p>
-            <p>*Just a moment!</p>
-            <p>*I have almost finished watering these flowers.</p>
-            <p>*…Here we are!</p>
-            <p>*Howdy!</p>
-            <p>*How can I…</p>
-            <p>*Oh.</p>
-            <p>*…</p>
-            <p>*I so badly want to say, “would you like a cup of tea?”</p>
-            <p>*But…</p>
-            <p>*You know how it is.</p>
-            <p>*Nice day today, huh?</p>
-            <p>*Birds are singing, flowers are blooming…</p>
-            <p>*Perfect weather for a game of catch.</p>
-            <p>*…</p>
-            <p>*You know what we must do.</p>
-            <p>*When you are ready, come into the next room.</p>
-            <p>*(It’s a throne.)</p>
-            <p>*(It’s another throne covered by a white sheet.) </p>
-            <scenario>
-                <title>The End</title>
-                <speech spkr="flowey">
-                    <p>*How tense…</p>
-                    <p>*Just think of it like…</p>
-                    <p>*A visit to the dentist.</p>
-                    <p>*Are you ready?</p>
-                    <p>*If you are not, I understand.</p>
-                    <p>*I am not ready either.</p>
-                </speech>
-            </scenario>
-            <scenario>
-                <title>Barrier</title>
-                <speech spkr="flowey">
-                    <p>*This is the barrier.</p>
-                    <p>*This is what keeps us all trapped underground.</p>
-                    <p>*…</p>
-                    <p>*If…</p>
-                    <choice>
-                        <question>
-                            <p>*If by chance you have any unfinished business…</p>
-                            <p>*Please do what you must.</p>
-                        </question>
-                        <div>
-                            <option>CONTINUE OR READY</option>
-                            <outcome>
-                                <speech spkr="flowey">
-                                    <p>*…</p>
-                                    <p>*… I see…</p>
-                                    <p>*This is it, then.</p>
-                                    <p>*Ready?</p>
-                                </speech>
-                            </outcome>
-                        </div>
-                        <div>
-                            <title>GO BACK</title>
-                            <coutcome>
-                                <speech spkr="flowey">
-                                    <p>*I see.</p>
-                                    <p>*Anything you want to do is important enough.</p>
-                                    <p>*Even something as small as reading a book, or taking a walk…</p>
-                                    <p>*Please take your time.</p>
-                                    <p>*Oh..</p>
-                                    <choice>
-                                        <question>
-                                            <p>*Back so soon?</p>
-                                            <p>*How are you feeling?</p>
-                                        </question>
-                                        <div>
-                                            <option>GO BACK</option>
-                                            <outcome>
-                                                <speech spkr="flowey">
-                                                    <p>*I see.</p>
-                                                    <p>*Do what you have to.</p>
-                                                </speech>
-                                            </outcome>
-                                        </div>
-                                    </choice>
-                                </speech>
-                            </coutcome>
-                        </div>
-                    </choice>
-                </speech>
-            </scenario>
-        </speech>
+    <setting name="barrier">
+        <sp speaker="asgore">
+        <box n="1" who="asgore" to="you">*This is the barrier.</box>
+        <box n="2" who="asgore" to="you">*This is what keeps us all trapped underground.</box>
+        <box n="3" who="asgore" to="you">*...</box>
+        <box n="4" who="asgore" to="you">*If...</box>
+        <box n="5" who="asgore" to="you">*If by chance you have any unfinished business...</box>
+        <box n="6" who="asgore" to="you">*Please do what you must.</box>
+        <option choice="continue"/>
+           <box n="1" who="asgore" to="you">*...</box>
+           <box n="2" who="asgore" to="you">*... I see...</box>
+           <box n="3" who="asgore" to="you">*This is it, then.</box>
+           <box n="4" who="asgore" to="you">*Ready?</box>
+        <option choice="goBack"/>
+           <box n="1" who="asgore" to="you">*I see.</box>
+           <box n="2" who="asgore" to="you">*Anything you want to do is important enough.</box>
+           <box n="3" who="asgore" to="you">*Even something as small as reading a book, or taking a walk...</box>
+           <box n="4" who="asgore" to="you">*Please take your time.</box>
+           <box n="5" who="asgore" to="you">*Oh... *Back so soon?</box>
+           <box n="6" who="asgore" to="you">*How are you feeling?</box>
+        <option choice="goBack"/>
+           <box n="1" who="asgore" to="you">*I see.</box>
+           <box n="2" who="asgore" to="you">*Do what you have to.</box>
+    </sp>
     </setting>
-        <setting type="floweytale">
-            <title>Floweytale</title>
-            <p>Long ago, two races ruled over Earth: HUMANS and MONSTERS</p>
-            <p>One day, they all disappeared without a trace.</p>
-            <p>Flowey’s Save File</p>
-            <p>Flowey LV9999 999:99</p>
-            <choice>
-                <option>My world</option>
-                <option>Continue</option>
-                <option>Restart</option>
-            </choice>
-        </setting>
-    </location>
-</root>
+    <setting name="flowey">
+        <sp speaker="game">
+            <box n="1" who="game" to="you">Floweytale</box>
+            <box n="2" who="game" to="you">Long ago, two races ruled over Earth: HUMANS and MONSTERS</box>
+            <box n="3" who="game" to="you">One day, they all disappeared without a trace.</box>
+        </sp>
+    </setting>
+    <setting name="flowey'sSaveFile">
+        <sp speaker="game">
+            <box n="1" who="game" to="you">Flowey LV999 999:99</box>
+            <box n="2" who="asgore" to="you">My world</box>
+            <option choice="continue"/>
+            <option choice="restart"/>
+        </sp>
+    </setting>
+       </path>
+</map>
+       
+

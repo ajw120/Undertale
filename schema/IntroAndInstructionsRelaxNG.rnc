@@ -1,0 +1,35 @@
+start = Intro
+Intro = element Intro {(SepiaTonedMemories | title+ | p+ | instruction | command | GameOver | text)*}
+# 2019-10-07 ebb: SepiaTonedMemories is an awfully long name for an attribute! Is it always associated with the beginning sequence, 
+# or what role do they have in the game?
+# I'm just wondering if it makes more sense for it to be an attribute value instead of a name, like this:
+# the attribute to be start="SepiaTonedMemories"  or begin="SepiaTonedMemories"? Alternatively, if you see those sepia toned memories in 
+# places other than the Intro segment, and they're special (nothing like them), you could abbreviate this attribute name so there's less typing:
+# STM="start" STM="end" 
+SepiaTonedMemories = attribute SepiaTonedMemories {text}
+# Should SepiaTonedMemories be an attribute, or the value of an attribute? 
+title = element title {text}
+p = element p {(n | text)*}
+# ebb: Do you want the <p> elements to contain any markup? For this, you would only ever have zero or one n attribute, and 
+# probably you want to make it required. (Also, you can go in and have the computer automatically add paragraph numbers later, so you don't really
+# need to hand-code them: you could probably remove the n.) Try:
+# p = element p {text}
+# or p = element p {mixed{(element1 | element2 | element3)*}} if you want to have a few elements available for marking up interesting things in paragraphs
+n = attribute n {xsd:int}
+instruction = element instruction {(text | command | GameOver)*}
+# ebb: Here you should really be using mixed{} in your content model. (What you have here does work, 
+# but this situation with elements showing up anywhere around text
+# is what mixed{} was designed to handle. It would look like this:
+# instruction = element instruction {mixed{(command | GameOver)*}}
+# Why do we liked mixed{}? Well, when you're coding a schema like this, it sometimes helps to define the elements that can float around text in
+# their own special area. As you keep working on your project it'll be easy to add new elements and 
+# keep in mind that they sit in a special "mixed content" relationship in the markup. 
+command = element command {(text | Confirm | Cancel | In-GameMenu | Fullscreen | Quit | GameOver)*}
+# ebb: Here too, you can be using the mixed{} syntax to describe what's happening, text floating anywhere around these elements.
+Confirm = attribute Confirm {text}
+Cancel = attribute Cancel {text}
+In-GameMenu = attribute In-GameMenu {text}
+Fullscreen = attribute Fullscreen {text}
+Quit = attribute Quit {text}
+GameOver = element GameOver {lose, text}
+lose = attribute lose {text}
