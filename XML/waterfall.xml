@@ -34,17 +34,17 @@
                     </sp>
                 </option>
             </choice>
-            <sp speaker="sans">
-                <box n="11" who="sans" to="you">*what? *haven't you seen a guy with two jobs
+            <sp speaker="Sans">
+                <box n="11" who="Sans" to="you">*what? *haven't you seen a guy with two jobs
                     before?</box>
-                <box n="12" who="sans" to="you">*fortunately, two jobs means twice as many
+                <box n="12" who="Sans" to="you">*fortunately, two jobs means twice as many
                     legally-required breaks.</box>
-                <box n="13" who="sans" to="you">*i'm going to grillby's. *wanna come? <choice>Yeah
+                <box n="13" who="Sans" to="you">*i'm going to grillby's. *wanna come? <choice>Yeah
                         I'm busy</choice></box>
                 <choice>
                     <option what="Yeah">
-                        <sp speaker="sans">
-                            <box n="15" who="sans" to="you">*well, if you insist... *i'll pry myself
+                        <sp speaker="Sans">
+                            <box n="15" who="Sans" to="you">*well, if you insist... *i'll pry myself
                                 away from my work.</box>
                         </sp>
                     </option>
@@ -548,7 +548,7 @@
             </choice>
             <choice>
                 <option what="Talk">
-                    <sp speaker="sans">
+                    <sp speaker="Sans">
                         <box n="2" who="Sans" to="you"> * i'm thinking about getting into the
                             telescope business. </box>
                         <box n="3" who="Sans" to="you">*it's normally 50000G to use this premium
@@ -592,15 +592,15 @@
             </sp></path>
         </setting>
         <setting name="SnailFarm">
-            <sp speaker="napstablook">
+            <sp speaker="Napstablook">
                 <box n="1">hm... i should probably try to make friends with my neighbors</box>
                 <box n="2">she's kind of scary,but i feel like i'm always too late to make
                     friends...</box>
                 <box n="3">i should at least try...</box>
             </sp>
         </setting>
-        <setting name="napstablookhouse">
-            <sp speaker="naspstablook">
+        <setting name="Napstablookhouse">
+            <sp speaker="Napstablook">
                 <box n="1">I've almost got a mix cd finished for my scary neighbor...</box>
                 <box n="2">it's 74 minutes of people screaming their signature wrestling moves</box>
                 <box n="3">but they're all autotuned. i hope she likes it</box>
