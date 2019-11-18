@@ -48,7 +48,7 @@
                                 away from my work.</box>
                         </sp>
                     </option>
-                    <option what="I'm busy">
+                    <option what="Im_busy">
                         <sp speaker="Sans">
                             <box n="16" who="Sans" to="you">*Ok. havefun. </box>
                         </sp>
@@ -60,7 +60,7 @@
         </setting>
         <setting name="FallingRocks">
             <choice>
-                <option read="signPost">
+                <option what="ReadSign" read="signPost">
                     <sp speaker="signPost">
                         <box n="1" who="signPost" to="you"> *(This is a box.) </box>
                         <box n="2" who="signPost" to="you"> *(You can put an item in or take a item
@@ -132,7 +132,7 @@
                         bad guys!</box>
                 </sp>
                 <choice>
-                    <option determination="SaveGame">
+                    <option what="select saveGame HPRestore" >
                         <sp speaker="Determination">
                             <box n="27" who="Determination" to="You">*(A feeling of dread hangs over
                                 you...) *(But you stay determined.)</box>
@@ -143,7 +143,7 @@
         </setting>
         <setting name="1stBridgeSeedRoom">
             <choice>
-                <option what="readSign">
+                <option what="ReadSign">
                     <sp speaker="signPost">
                         <box n="1" who="signPost" to="you">*When four Bridge Seeds align in the
                             water, they will sprout.</box>
@@ -153,7 +153,7 @@
         </setting>
         <setting name="2ndBridgeSeedRoom">
             <choice>
-                <option what="readSign">
+                <option what="ReadSign">
                     <sp speaker="signPost">
                         <box n="1" who="signPost" to="you">*If an error is made, the Bell Blossom
                             can call Bridge Seeds back to where they started.</box>
@@ -161,7 +161,7 @@
                 </option>
             </choice>
             <choice>
-                <option what="readSign">
+                <option what="ReadSign">
                     <sp speaker="sign">
                         <box n="2" who="sign" to="you">*Congratulations!</box>
                         <box n="3" who="sign" to="you">*You failed the puzzle!</box>
@@ -266,7 +266,7 @@
                             <box n="4" who="Papyrus" to="you">HAVE A NICE DAY!</box>
                             <box n="5" who="phone" to="you">*Click...</box>
                         </option>
-                        <option what="NO">
+                        <option what="No">
                             <box n="2" who="Papyrus" to="you">SO YOU AREN'T WEARING A
                                 BANDANNA...</box>
                             <box n="3" who="Papyrus" to="you">GOT IT!</box>
@@ -287,7 +287,7 @@
                             this bench.)</box>
                         <box n="2" who="game" to="you">*(Will you take it?) *Take it Leave it</box>
                         <choice>
-                            <option what="Leave it">
+                            <option what="LeaveIt">
                                 <box n="3" who="game" to="you">*(The quiche was left all
                                     alone...)</box>
                             </option>
@@ -308,7 +308,7 @@
                 </choice>
             </sp>
             <choice>
-                <option talkTo="echoFlower">
+                <option what="Talk" TalkTo="echoFlower">
                     <sp speaker="echoFlower">
                         <box n="7" who="echoFlower" to="you">*I just wasn't ready for the
                             responsibility</box>
@@ -318,7 +318,7 @@
         </setting>
         <setting name="WishingRoom">
             <choice>
-                <option what="talkTo">
+                <option what="TalkTo">
                     <sp speaker="echoFlower">
                         <box n="1" who="echoFlower" to="you">*A long time ago, monsters would
                             whisper their wishes o the stars in the sky.</box>
@@ -369,7 +369,7 @@
             </choice>
             <choice>
                 <option what="Yes">
-                    <box n="10" who="telescope" to="you">CHECK WALL</box>
+                    <sp speaker="telescope"><box n="10" >CHECK WALL</box></sp>
                 </option>
             </choice>
             <choice>
@@ -443,13 +443,13 @@
                             <option what="No">
                                 <box n="2">* Later, then.</box>
                             </option>
-                            <option what="yes">
+                            <option what="Yes">
                                 <box n="4">*Hop on!</box>
                             </option>
                         </choice>
                     </sp>
                     <sp speaker="ferry">
-                        <conditions killed="Undyne" disembarked="ferry">
+                        <conditions killed="Undyne" ferry="disembarked">
                             <box n="1" who="ferry" to="you">*Thanks for stepping on my face. *
                                 Here's the 3 gold.</box>
                             <box n="2" who="ferry" to="you">*(You got 3 gold.)</box>
@@ -506,7 +506,7 @@
                         </option>
                     </choice>
                 </option>
-            </choice>
+                    </choice>
         </setting>
 
         <setting name="MouseRoom">
@@ -527,7 +527,7 @@
                 </option>
             </choice>
             <choice>
-                <option what="select" determination="saveGame">
+                <option what="saveGame">
                     <sp speaker="determination">
                         <box n="4" who="determination" to="you">*(Knowing the mouse might one day
                             extract the cheese from the mystical crystal...) </box>
@@ -537,7 +537,7 @@
                 </option>
             </choice>
         </setting>
-        <setting name="SansTelescopeRooom">
+        <setting name="SansTelescopeRoom">
             <choice>
                 <option what="select">
                     <sp speaker="telescope">
@@ -547,7 +547,7 @@
 
             </choice>
             <choice>
-                <option what="talk">
+                <option what="Talk">
                     <sp speaker="sans">
                         <box n="2" who="Sans" to="you"> * i'm thinking about getting into the
                             telescope business. </box>
@@ -578,35 +578,33 @@
         </setting>
 
         <setting name="UndyneHouse">
+            <path route="neutral">
             <sp speaker="Papyrus">
-                <conditions route="neutral" killed="Undyne">
+                <conditions killed="Undyne">
                     <box n="1">HEY! READY TO HANG OUT WITH UNDYNE???</box>
-                    <box N="2">GREAT!!! ME TOO!!!</box>
+                    <box n="2">GREAT!!! ME TOO!!!</box>
                     <box n="3">HOWEVER, SHE'S NOT HERE.</box>
                     <box n="4">NORMALLY SHE RETURNS AT ABOUT THIS TIME</box>
                     <box n="5">SHE'S LATE THOUGH...</box>
                     <box n="6">AND SHE'S NOT ANSWERING HER PHONE</box>
                     <box n="7"> </box>
                 </conditions>
-            </sp>
+            </sp></path>
         </setting>
-        <snailfarm>
+        <setting name="SnailFarm">
             <sp speaker="napstablook">
                 <box n="1">hm... i should probably try to make friends with my neighbors</box>
                 <box n="2">she's kind of scary,but i feel like i'm always too late to make
                     friends...</box>
                 <box n="3">i should at least try...</box>
             </sp>
-        </snailfarm>
-        <napstablookhouse speaker="napstablook">
+        </setting>
+        <setting name="napstablookhouse">
             <sp speaker="naspstablook">
                 <box n="1">I've almost got a mix cd finished for my scary neighbor...</box>
                 <box n="2">it's 74 minutes of people screaming their signature wrestling moves</box>
                 <box n="3">but they're all autotuned. i hope she likes it</box>
             </sp>
-        </napstablookhouse>
-        <battle>
-            <monster name="Undyne"> </monster>
-        </battle>
+        </setting>
     </path>
 </map>
