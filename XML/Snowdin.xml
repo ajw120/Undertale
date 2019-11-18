@@ -2657,6 +2657,72 @@
                 <box n="24">THE NEWEST MEMBER...</box>
                 <box n="25">OF THE ROYAL GUARD!</box>
             </sp>
+            <condition what="sparePapyrus">
+                <sp who="Papyrus" to="you">
+                    <box n="1">NYOO HOO HOO...</box>
+                    <box n="2">I CAN'T EVEN STOP SOMEONE AS WEAK AS YOU...</box>
+                    <box n="3">UNDYNE'S GOING TO BE DISAPPOINTED IN ME.</box>
+                    <box n="4">I'LL NEVER JOIN THE ROYAL GUARD AND...</box>
+                    <box n="5">MY FRIEND QUANTITY WILL REMAIN STAGNANT!</box>
+                </sp>
+                <sp who="game" to="you">
+                    <box n="1">*(What should you say?) Let's be friends What a loser</box>
+                </sp>
+                <choice>
+                    <option what="WhatALoser">
+                        <sp who="Papyrus" to="you">
+                            <box n="2">HUH? WHY WOULD YOU...</box>
+                            <box n="3">BERATE YOURSELF SO LOUDLY???</box>
+                            <box n="4">IS IT BECAUSE...</box>
+                            <box n="5">YOU DON'T THINK YOU'RE GOOD ENOUGH TO BE MY FRIEND?</box>
+                            <box n="6">NO!!! YOU'RE GREAT!!! I'LL BE YOUR FRIEND!</box>
+                        </sp>
+                    </option>
+                    <option what="LetsBeFriends">
+                        <sp who="Papyrus" to="you">
+                            <box n="2">REALLY!? YOU WANT TO BE FRIENDS, WITH ME???</box>
+                            <box n="3">WELL THEN...</box>
+                            <box n="4">I GUESS...</box>
+                            <box n="5">I GUESS I CAN MAKE AN ALLOWANCE FOR YOU!</box>
+                        </sp>
+                    </option>
+                </choice>
+            </condition>
+            <condition what="datingPapyrus">
+                <sp who="Papyrus" to="you">
+                    <box n="1">WOWIE!! WE HAVEN'T EVEN HAD OUR FIRST DATE...</box>
+                    <box n="2">AND I'VE ALREADY MANGAGED TO HIT THE FRIEND ZONE!!!</box>
+                    <box n="3">WHO KNEW THAT ALL I NEEDED TO MAKE PALS...</box>
+                </sp>
+            </condition>
+            <sp who="Papyrus" to="you">
+                <box n="1">WAS TO GIVE PEOPLE AWFUL PUZZLES AND THEN FIGHT THEM??</box>
+                <box n="2">YOU TAUGHT ME A LOT, HUMAN.</box>
+                <box n="3">I HERBY GRANT YOU PERMISSION TO PASS THROUGH!</box>
+                <box n="4">AND I'LL GIVE YOU DIRECTIONS TO THE SURFACE.</box>
+                <box n="5">CONTINUE FORWARD UNTIL YOU REACH THE END OF THE CAVERN.</box>
+                <box n="6">THEN... WHEN YOU REACH THE CAPITAL, CROSS THE BARRIER.</box>
+                <box n="7">THAT'S THE MAGICAL SEAL TRAPPING US ALL UNDERGROUND.</box>
+                <box n="8">ANYTHING CAN ENTER THROUGH IT, BUT NOTHING CAN EXIT...</box>
+                <box n="9">EXCEPT SOMEONE WITH A POWERFUL SOUL.</box>
+                <box n="10">... LIKE YOU!!</box>
+                <box n="11">THAT'S WHY THE KING WANTS TO ACQUIRE A HUMAN.</box>
+                <box n="12">HE WANTS TO OPEN THE BARRIER WITH SOUL POWER.</box>
+                <box n="13">THEN US MONSTERS CAN RETURN TO THE SURFACE!</box>
+                <box n="14">OH, I ALMOST FORGOT TO TELL YOU...</box>
+                <box n="15">TO REACH THE EXIT, YOU WILL HAVE TO PASS...</box>
+                <box n="16">THROUGH THE KING'S CASTLE.</box>
+                <box n="17">THE KING OF ALL MONSTERS...</box>
+                <box n="18">HE IS...</box>
+                <box n="19">...WELL...</box>
+                <box n="20">HE'S A BIG FUZZY PUSHOVER!!!</box>
+                <box n="21">EVERYBODY LOVES THAT GUY.</box>
+                <box n="22">I AM CERTAIN IF YOU JUST SAY...</box>
+                <box n="23">-EXCUSE ME, MR. DREEMUR... CAN I PLEASE GO HOME?- </box>
+                <box n="24">HE'LL GUIDE YOU RIGHT TO THE BARRIER HIMSELF!</box>
+                <box n="25">ANYWAY!!! THAT'S ENOUGH TALKING!!!</box>
+                <box n="26">I'LL BE AT HOME BEING A COOL FRIEND!!!</box>
+            </sp>
         </setting>
     </path>
 </map>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/Undertale.rnc" type="application/relax-ng-compact-syntax"?>
 <map name="Ruins">
     <path route="neutral | pacifist | genocide">
         <setting name="RoomWithFlowers">
             <choice>
                 <option C_Or_Control="In-Game_Menu">
-                    <stats> Chara LV 1 HP 20/20 G 0<choice>Item Stat</choice><option what="Stat"
-                                ><box n="4">"Chara LV1 HP 20/20 AT 0(0) EXP:0 DF0(0) NEXT:10
-                                WEAPON:Stick ARMOR:Bandage GOLD:0</box></option>
+                    <stats> Chara LV 1 HP 20/20 G 0<choice>Item Stat</choice><option what="Stat">
+                            <box n="4">"Chara LV1 HP 20/20 AT 0(0) EXP:0 DF0(0) NEXT:10 WEAPON:Stick
+                                ARMOR:Bandage GOLD:0</box>
+                        </option>
                         <box n="2"/></stats>
                 </option>
             </choice>
@@ -965,7 +965,53 @@
                 </sp>
             </condition>
         </setting>
-        <setting name="Basement"/>
+        <setting name="Basement">
+            <condition what="beforeTryingToLeave">
+                <condition what="beforeTorielShowsYourRoom"><box n="1">*Hey, do not go down
+                        here.</box>*I have something to show you upstairs.</condition>
+                <condition what="beforeAskingToExitTheRuins">
+                    <box n="1">*I think you should play upstairs instead.</box>
+                    <box n="2">*It is dangerous to play here.</box>
+                    <box n="3">*It is drafty here. *You will catch a cold.</box>
+                    <box n="4">*It is dusty here. *You will catcha cough.</box>
+                    <box n="5">*There is nothing to see here.</box>
+                    <box n="6">*Do you want to read a book?</box>
+                    <box n="7">*I do not like the game you are playing.</box>
+                    <box n="8">*Why not go for a walk in the yard?</box>
+                    <box n="9">*Really now.</box>
+                    <box n="10">*...</box>
+                </condition>
+            </condition>
+            <condition what="1stPart">
+                <sp who="Toriel" to="you">
+                    <box n="1">*You wish to know how to return "home," do you not?</box>
+                    <box n="2">*Ahead of us likes the end of the RUINS.</box>
+                    <box n="3">*A one-way exit to the rest of the underground.</box>
+                    <box n="4">*I am going to destroy it.</box>
+                    <box n="5">* No one will ever be able to leave again.</box>
+                    <box n="6">*Now be a good child and go upstairs.</box>
+                </sp>
+            </condition>
+            <condition what="2ndPart">
+                <sp who="Toriel" to="you">
+                    <box n="1">*Every human that falls down her meets the same fate.</box>
+                    <box n="2">*I have seen it again and again.</box>
+                    <box n="3">*They come.</box>
+                    <box n="4">*They leave.</box>
+                    <box n="5">*They die.</box>
+                    <box n="6">*You naive child... *If you leave the RUINS...</box>
+                    <box n="7">*They... *ASGORE... *Will kill you.</box>
+                    <box n="8">*I am only protecting you , do you undertand?</box>
+                    <box n="9">*... go to your room.</box>
+                </sp>
+            </condition>
+            <condition what="3rdPart">
+                <sp who="Toriel" to="you">
+                    <box n="!">*Do not try to stop me.</box>
+                    <box n="2">*This is your final warning.</box>
+                </sp>
+            </condition>
+        </setting>
         <setting name="TorielBossRoom">
             <sp who="Toriel">
                 <box n="1">*You want to leave so badly?</box>
