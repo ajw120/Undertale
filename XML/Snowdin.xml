@@ -1565,6 +1565,85 @@
                 </option>
             </choice>
         </setting>
+        <setting name="RockFamily">
+            <choice>
+                <option what="talkTo">
+                    <sp who="KidSlime1" to="you">
+                        <box n="1">*Let's play Monsters and Humans!</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="KidSlime2">
+                        <box n="2">*You aren't gonna make me be the human again, are you?</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="talkTo">
+                    <sp who="DadSlime" to="you">
+                        <box n="3">*Ah, to be young again. *The world sure felt boundless.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="someone">
+                        <box n="4">*Ahh, what a beautiful knock...! *Maybe if I don't answer, I'll
+                            hear it again.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="someone">
+                        <box n="5">*Ahh, my patience rewards me.</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="someone">
+                        <box n="6">*Ahh...</box>
+                    </sp>
+                </option>
+            </choice>
+            <condition what="postUndyne">
+                <choice>
+                    <option what="talkTo">
+                        <sp who="KidSlime1">
+                            <box n="1">*Let's continue to play Monsters and Humans!</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="KidSlime2">
+                            <box n="2">*Can we PLEASE play something else...?</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="DadSlime">
+                            <box n="3">*You like to wander. *You must be young.</box>
+                        </sp>
+                    </option>
+                </choice>
+            </condition>
+            <condition what="SnowdinGuardOrPapyrusKilled">
+                <!--possible route-difference indicator here, like NeutralGenocide or something-->
+                <choice>
+                    <option what="talkTo">
+                        <sp who="DadSlime" to="you">
+                            <box n="1">*I've sent the kids inside.</box>
+                            <box n="2">*It feels unsafe here today.</box>
+                        </sp>
+                    </option>
+                </choice>
+            </condition>
+        </setting>
         <setting name="SnowdinTown">
             <choice>
                 <option what="read">
@@ -2200,94 +2279,112 @@
                 </option>
             </choice>
         </setting>
-        <setting name="Library">
+        <setting name="Librarby">
             <choice>
                 <option what="talkTo">
                     <sp who="LibraryLizard">
-                        <box n="1">*</box>
+                        <box n="1">*Welcome to the library. *Yes ,we know. *The sign is
+                            mispelled</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="talkTo">
                     <sp who="ScarfLady" to="you">
-                        <box n="2">*</box>
-                        <box n="3">*</box>
+                        <box n="2">*I love working on the newspaper</box>
+                        <box n="3">*There's so little to report that we just fill it with comics and
+                            games.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="talkTo">
                     <sp who="LadyGarf">
-                        <box n="4">*</box>
-                        <box n="5">*</box>
-                        <box n="6">*</box>
-                        <box n="7">*</box>
-                        <box n="8">*</box>
+                        <box n="4">*(cough, cough)</box>
+                        <box n="5">*When I was younger, my teachers gave me word searches when they
+                            ran out of assignments.</box>
+                        <box n="6">*I thought they were a waste of time.</box>
+                        <box n="7">*But look at me now...</box>
+                        <box n="8">*I'm the number-one word=search creator in the entire
+                            underground!</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
                     <sp who="game" to="you">
-                        <box n="9">*</box>
-                        <box n="10">*</box>
-                        <box n="11">*</box>
-                        <box n="12">*</box>
-                        <box n="13">*</box>
-                        <box n="14">*</box>
+                        <box n="9">*(It's a school report about monster funerals.)</box>
+                        <box n="10">*Monster funerals, technically speaking, are cool as heck.</box>
+                        <box n="11">*When monsters get old and kick the bucket, they turn into
+                            dust.</box>
+                        <box n="12">*At funerals, we take that dust and spread it on that person's
+                            favorite thing.</box>
+                        <box n="13">*Then their essence will live on in that thing...</box>
+                        <box n="14">*Uhhh, am I at the page minimum yet? *I'm kinda sick of writing
+                            this.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
                     <sp who="game" to="you">
-                        <box n="15">*</box>
-                        <box n="16">*</box>
-                        <box n="17">*</box>
-                        <box n="18">*</box>
+                        <box n="15">*While monsters are mostly made of magic, human beings are
+                            mostly made of water.</box>
+                        <box n="16">*Humans , with their physical forms, are far stronger than
+                            us.</box>
+                        <box n="17">*But they will never know the joy of expressing themselves
+                            through magic.</box>
+                        <box n="18">*They'll never get a bullet-pattern birthday card...</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
                     <sp who="game" to="you">
-                        <box n="19">*</box>
-                        <box n="20">*</box>
-                        <box n="21">*</box>
-                        <box n="22">*</box>
+                        <box n="19">*(Her I am... *Writing this book.)</box>
+                        <box n="20">*(A person comes in and picks up the book...)</box>
+                        <box n="21">*(They start reading it...!)</box>
+                        <box n="22">*Oh. sorry. *I'm still writing that one.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
                     <sp who="game" to="you">
-                        <box n="23">*</box>
-                        <box n="24">*</box>
-                        <box n="25">*</box>
-                        <box n="26">*</box>
-                        <box n="27">*</box>
+                        <box n="23">*Because they are made of magic, monsters' bodies are attuned to
+                            their SOUL.</box>
+                        <box n="24">*If a monster doesn't want to fight, its defenses will
+                            weaken.</box>
+                        <box n="25">*And the crueller the intentions of our enemies, the more their
+                            attacks will hurt us.</box>
+                        <box n="26">*Therefore, if a being with a powerful SOUL struck with the
+                            desire to kill...</box>
+                        <box n="27">*Um, let's end the chapter here...</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
                     <sp who="game" to="you">
-                        <box n="28">*</box>
-                        <box n="29">*</box>
-                        <box n="30">*</box>
-                        <box n="31">*</box>
-                        <box n="32">*</box>
-                        <box n="33">*</box>
+                        <box n="28">**"MONSTER HISTORY PART 4"</box>
+                        <box n="29">*Fearing the humans no longer, we moved out of our old city,
+                            HOME.</box>
+                        <box n="30">*We braved harsh cold, damp, swampland, and searing
+                            heat...</box>
+                        <box n="31">*Until we reached we now call our capital.</box>
+                        <box n="32">*"NEW HOME."</box>
+                        <box n="33">*Again, our King is really bad at names...?</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
                     <sp who="game" to="you">
-                        <box n="34">*</box>
-                        <box n="35">*</box>
-                        <box n="36">*</box>
+                        <box n="34">*Love, hope, compassion... *This is what people say monster
+                            SOULs are made of.</box>
+                        <box n="35">*But the absolute nature of "SOUL" is unknown.</box>
+                        <box n="36">*After all, humans have proven their SOULs don't need these
+                            things to exist.</box>
                     </sp>
                 </option>
             </choice>
@@ -2317,8 +2414,35 @@
                 <choice>
                     <option what="talkTo">
                         <sp who="LibraryLizard" to="you">
-                            <box n="1">*</box>
-                            <box n="2">*</box>
+                            <box n="1">*Yes, we know *The sign is mispelled.</box>
+                            <box n="2">*We have someone working on it!</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="LibraryLoox" to="you">
+                            <box n="3">*That look in your eye...</box>
+                            <box n="4">*You think Sudoku is just moderately challenging, don't
+                                you?</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="ScarfLady" to="you">
+                            <box n="5">*Yes. *I illustrate all of the comics myself.</box>
+                            <box n="6">*Yes. *I give everyone huge beautiful eyes and giant
+                                muscles.</box>
+                        </sp>
+                    </option>
+                </choice>
+                <choice>
+                    <option what="talkTo">
+                        <sp who="LadyGarf" to="you">
+                            <box n="7">*(cough,cough)</box>
+                            <box n="8">*There's a day I just don't want to work.</box>
+                            <box n="9">*It's called "Today."</box>
                         </sp>
                     </option>
                 </choice>
@@ -2332,98 +2456,206 @@
                     </sp>
                 </option>
             </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="1">*(This rock is covered in sprinkles.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="2">*(You touch the couch.) *(It makes a jangling sound.)</box>
+                        <box n="3">*(You find a bunch of loose coins inside the couch...)</box>
+                        <box n="4">*(You got 20G.)</box>
+                        <box n="5">*(It's a saggy old couch.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="6">*(It's a joke book.)</box>
+                        <box n="7">*(Take a look inside?) Yes No</box>
+                        <option what="Yes">
+                            <box n="8">*(Inside the joke book was a quantum physics book.)</box>
+                            <box n="9">*(You look inside...)</box>
+                            <box n="10">*(Inside the quantum physics book was another joke
+                                book.)</box>
+                            <box n="11">*(You look inside...)</box>
+                            <box n="12">*(There's another quantum physics book...)</box>
+                            <box n="13">*(You decide to stop.)</box>
+                        </option>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="14">*(It says "STAY TUNED FOR A NEW PROGRAM - MTT.")</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="15">*(It's a dirty sock with a series of notes on it.)</box>
+                        <box n="16">SANS! PLEASE PICK UP YOUR SOCK!</box>
+                        <box n="17">*ok.</box>
+                        <box n="18">DON'T PUT IT BACK DOWN! MOVE IT!</box>
+                        <box n="19">*ok</box>
+                        <box n="20">YOU MOVED IT TWO INCHES! MOVE IT TO YOUR ROOM!</box>
+                        <box n="21">*ok</box>
+                        <box n="22">AND DON'T BRING IT BACK!</box>
+                        <box n="23">*ok</box>
+                        <box n="24">IT'S STILL HERE!</box>
+                        <box n="25">*didn't you just say not to bring it back to my room?</box>
+                        <box n="26">FORGET IT!</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="27">*(It's the door to Papyrus's room.)</box>
+                        <box n="28">*(It's covered in many labels...)</box>
+                        <box n="29">- (NO BOYS ALLOWED!)</box>
+                        <box n="30">- (NO GIRLS ALLOWED!)</box>
+                        <box n="31">- (PAPYRUS ALLOWED.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="32">*(It's a painting of a cartoon bone.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="33">*(The door is locked.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="34">*(You visited the trash can.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="35">*(There's an empty pie tin inside the stove.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="36">*(This sink is so tall, you can't even wash your hands...)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="37">*(Half of the fridge is filled with containers all labelled
+                            "spaghetti.")</box>
+                        <box n="38">*(The other half contains nothing but an empty bag of
+                            chips.)</box>
+                    </sp>
+                </option>
+            </choice>
         </setting>
         <setting name="PapyrusRoom">
             <choice>
                 <option what="select">
                     <sp who="game" to="you">
-                        <box n="1">*</box>
-                    </sp>
-                </option>
-            </choice>
-        </setting>
-        <setting name="RockFamily">
-            <choice>
-                <option what="talkTo">
-                    <sp who="KidSlime1" to="you">
-                        <box n="1">*Let's play Monsters and Humans!</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="talkTo">
-                    <sp who="KidSlime2">
-                        <box n="2">*You aren't gonna make me be the human again, are you?</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="talkTo">
-                    <sp who="DadSlime" to="you">
-                        <box n="3">*Ah, to be young again. *The world sure felt boundless.</box>
+                        <box n="1">*(It's a box of bones.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="someone">
-                        <box n="4">*Ahh, what a beautiful knock...! *Maybe if I don't answer, I'll
-                            hear it again.</box>
+                    <sp who="game" to="you">
+                        <box n="2">*(The computer's internet browser is opened to a social media
+                            site.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="someone">
-                        <box n="5">*Ahh, my patience rewards me.</box>
+                    <sp who="game" to="you">
+                        <box n="3">*(Look in the closet?) Yes No</box>
+                        <option what="Yes">
+                            <box n="4">*(Clothes are hung up neatly inside.)</box>
+                        </option>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="someone">
-                        <box n="6">*Ahh...</box>
+                    <sp who="game" to="you">
+                        <box n="5">*(The bookshelf is filled with complex tomes about puzzle
+                            creation.)</box>
+                        <box n="6">*(And children's books.)</box>
                     </sp>
                 </option>
             </choice>
-            <condition what="postUndyne">
-                <choice>
-                    <option what="talkTo">
-                        <sp who="KidSlime1">
-                            <box n="1">*Let's continue to play Monsters and Humans!</box>
-                        </sp>
-                    </option>
-                </choice>
-                <choice>
-                    <option what="talkTo">
-                        <sp who="KidSlime2">
-                            <box n="2">*Can we PLEASE play something else...?</box>
-                        </sp>
-                    </option>
-                </choice>
-                <choice>
-                    <option what="talkTo">
-                        <sp who="DadSlime">
-                            <box n="3">*You like to wander. *You must be young.</box>
-                        </sp>
-                    </option>
-                </choice>
-            </condition>
-            <condition what="SnowdinGuardOrPapyrusKilled">
-                <!--possible route-difference indicator here, like NeutralGenocide or something-->
-                <choice>
-                    <option what="talkTo">
-                        <sp who="DadSlime" to="you">
-                            <box n="1">*I've sent the kids inside.</box>
-                            <box n="2">*It feels unsafe here today.</box>
-                        </sp>
-                    </option>
-                </choice>
-            </condition>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="7">*(It's a beat-up pirate flag.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="8">*(Action figures of many sexy robots.)</box>
+                    </sp>
+                </option>
+            </choice>
+            <choice>
+                <option what="select">
+                    <sp who="game" to="you">
+                        <box n="9">*(It's a racecar bed, neatly made.)</box>
+                    </sp>
+                </option>
+            </choice>
         </setting>
         <setting name="PapyrusArena">
             <sp who="Papyrus" to="you">
-                <box n="1"/>
+                <box n="1">HUMAN.</box>
+                <box n="2">ALLOW ME TO TELL YOU ABOUT SOME COMPLEX FEELINGS.</box>
+                <box n="3">FEELINGS LIKE...</box>
+                <box n="4">THE JOY OF FINDING ANOTHER PASTA LOVER.</box>
+                <box n="5">THE ADMIRATION FOR ANOTHER'S PUZZLE-SOLVING SKILLS.</box>
+                <box n="6">THE DESIRE TO HAVE A COOL, SMART PERSON THINK YOU ARE COOL.</box>
+                <box n="7">THESE FEELINGS...</box>
+                <box n="8">THEY MUST BE WHAT YOU ARE FEELING RIGHT NOW!!!</box>
+                <box n="9">I CAN HARDLY IMAGINE WHAT IT MUST BE LIKE TO FEEL THAT WAY.</box>
+                <box n="10">AFTER ALL, I AM VERY GREAT.</box>
+                <box n="11">I DON'T EVER WONDER WHAT HAVING LOTS OF FRIENDS IS LIKE.</box>
+                <box n="12">I PITY YOU... LONELY HUMAN...</box>
+                <box n="13">WORRY NOT!!! YOU SHALL BE LONELY NO LONGER!</box>
+                <box n="14">I, THE GREAT PAPYRUS WILL BE YOUR...</box>
+                <box n="15">...</box>
+                <box n="16">NO...</box>
+                <box n="17">NO, THIS IS ALL WRONG!</box>
+                <box n="18">I CAN'T BE YOUR FRIEND!!!</box>
+                <box n="19">YOU ARE A HUMAN!</box>
+                <box n="20">I MUST CAPTURE YOU!!!</box>
+                <box n="21">THEN, I CAN FULFILL MY LIFELONG DREAM!!!</box>
+                <box n="22">POWERFUL! POPULAR! PRESTIFIOUS!!!</box>
+                <box n="23">THAT'S PAPYRUS!!!</box>
+                <box n="24">THE NEWEST MEMBER...</box>
+                <box n="25">OF THE ROYAL GUARD!</box>
             </sp>
         </setting>
     </path>
