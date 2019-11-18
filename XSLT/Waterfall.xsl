@@ -28,7 +28,9 @@
         <xsl:apply-templates></xsl:apply-templates>
     </xsl:template>
     <xsl:template match="descendant::conditions">
-        <br></br><span>
-        <xsl:apply-templates></xsl:apply-templates></span>
+        <br></br><br></br><span condition="equipped">
+        <b>Equipped: <xsl:value-of select="@equipped"/></b>
+        </span>
+        <xsl:apply-templates></xsl:apply-templates>
     </xsl:template>
 </xsl:stylesheet>
