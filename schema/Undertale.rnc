@@ -6,7 +6,7 @@ route = attribute route {list {("pacifist" | "neutral" | "genocide")*}}
 setting = element setting {name, (sp | choice | event | conditions | path)*}
 name =  attribute name{"Waterfall" |"Ruins" |
 "SansStation" | "SnailFarm"| "napstablookhouse"|"FallingRocks" | "TutuRoom" | "1stUndyneEncounter" | "1stBridgeSeedRoom" | "2ndBridgeSeedRoom" | "QuicheRoom" | "WishingRoom" | "HistoryPlaque" | "SeaWeedHidingSpot" | "MouseRoom" | "SansTelescopeRoom" | "UndyneHouse" |
-"Undyne" }
+"Undyne" | "Snowdin" }
 # 2019-11-07 ebb: We'll need Schematron to control which names are allowed on which specific elements.
 battle = element battle {monster}
 monster = element monster{name}
