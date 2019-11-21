@@ -12,7 +12,6 @@
             
             <xsl:value-of select="current()"/><xsl:text>&#10;</xsl:text>
         </xsl:for-each>
-      
        
     </xsl:template>
     
