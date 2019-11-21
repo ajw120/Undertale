@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Desktop/Untitled1.rnc" type="application/relax-ng-compact-syntax"?>
 <map name="Ruins">
-    <path route="neutral | pacifist | genocide">
-        <setting name="RoomWithFlowers">
-            <choice>
-                <option C_Or_Control="In-Game_Menu">
-                    <stats> Chara LV 1 HP 20/20 G 0<choice>Item Stat</choice><option what="Stat">
-                            <box n="4">"Chara LV1 HP 20/20 AT 0(0) EXP:0 DF0(0) NEXT:10 WEAPON:Stick
-                                ARMOR:Bandage GOLD:0</box>
-                        </option>
-                        <box n="2"/></stats>
-                </option>
-            </choice>
-        </setting>
+    <path route="neutral pacifist genocide">
         <setting name="FloweyHall">
             <sp who="Flowey" to="you">
                 <box n="1">*Howdy! *I'm FLOWEY. *FLOWEY the FLOWER!</box>
@@ -22,7 +12,7 @@
                 <box n="6">*I guess little old me will have to do.</box>
                 <box n="7">*Ready? *Here we go!</box>
             </sp>
-            <condition variation="Close_Window_Once">
+            <condition variation="CloseWindowOnce">
                 <sp who="Flowey" to="you">
                     <box n="1">*Howdy! *I'm FLOWEY. *FLOWEY the FLOWER!</box>
                     <box n="2">*Hee hee hee...</box>
@@ -33,12 +23,12 @@
                     <box n="7">Ready? *Here we go!</box>
                 </sp>
             </condition>
-            <condition variation="Close_Window_Twice">
+            <condition variation="CloseWindowTwice">
                 <sp who="Flowey" to="you">
                     <box n="1">*Don't you have anything better to do?</box>
                 </sp>
             </condition>
-            <condition variation="Befriend_Everyone">
+            <condition variation="BefriendEveryone">
                 <sp who="Flowey" to="you">
                     <box n="1">*Remember...</box>
                     <box n="2">*THIS time, you've GOT to become friends with everyone.</box>
@@ -49,7 +39,7 @@
                     <box n="7">*Good luck.</box>
                 </sp>
             </condition>
-            <condition variation="Don't_Kill_Anyone">
+            <condition variation="DontKillAnyone">
                 <sp who="Flowey" to="you">
                     <box n="1">*Hey. *Remember.</box>
                     <box n="2">*DON'T kill anyone.</box>
@@ -59,11 +49,11 @@
                     <box n="6">*Good luck!</box>
                 </sp>
             </condition>
-            <condition variation="Abort_Genocide">
+            <condition variation="AbortGenocide">
                 <sp who="Flowey" to="you">
-                    <box n="1" who="Flowey" to="you">*Really, Chara?</box>
-                    <box n="2" who="Flowey" to="you">*Well, do what you will.</box>
-                    <box n="3" who="Flowey" to="you">*I'll be waiting for you!</box>
+                    <box n="1">*Really, Chara?</box>
+                    <box n="2">*Well, do what you will.</box>
+                    <box n="3">*I'll be waiting for you!</box>
                 </sp>
             </condition>
             <sp who="Toriel" to="you">
@@ -79,7 +69,7 @@
         </setting>
         <setting name="RuinsEntrance">
             <choice>
-                <option what="select saveGame" HP="restore">
+                <option what="select saveGame HPrestore">
                     <sp who="determination game" to="you">
                         <box n="1" who="determination game" to="you">*(The shadow of the ruins looms
                             above, filling you with determination.)</box>
