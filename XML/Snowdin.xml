@@ -4,7 +4,7 @@
         <setting name="OutsideRuinsDoor">
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="1">*...!? *There's a camera hidden in the bushes.</box>
                     </sp>
                 </option>
@@ -13,7 +13,7 @@
         <setting name="SansHallway">
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="1">*(It's a tough-looking branch.) *(It's too heavy to pick
                             up.)</box>
                     </sp>
@@ -21,7 +21,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="2">*(It's a tough-looking branch.) *(It's too heavy to pick
                             up.)</box>
                     </sp>
@@ -29,7 +29,7 @@
             </choice>
         </setting>
         <setting name="MeetingSans">
-            <sp who="Sans" to="you">
+            <sp speaker="Sans" to="you">
                 <box n="1">*i'm ans. *sans the skeleton.</box>
                 <box n="2">*im actually supposed to be on watch for humans right now.</box>
                 <box n="3">*but... y'know...</box>
@@ -42,22 +42,22 @@
                     anyone.</box>
             </sp>
             <condition what="normalMeeting">
-                <sp who="Sans" to="you">
+                <sp speaker="Sans" to="you">
                     <box n="1">*Human.</box>
                     <box n="2">*Don't you know how to greet a new pal?</box>
                     <box n="3">*Turn around and shake my hand.</box>
                     <box n="4">*</box>
                     <box n="5">*</box>
-                    <box n="6">*heheh... the old whoopee cushion in the hand trick.</box>
+                    <box n="6">*heheh... the old speakeropee cushion in the hand trick.</box>
                     <box n="7">*it's ALWAYS funny.</box>
                     <box n="8">*anyways, you're a human, right?</box>
                     <box n="9">*that's hilarious.</box>
                 </sp>
             </condition>
             <condition what="reset">
-                <sp who="Sans" to="you">
+                <sp speaker="Sans" to="you">
                     <box n="1">*Human.</box>
-                    <box n="2">*heh, the old whoopee cushion in the hand trick...</box>
+                    <box n="2">*heh, the old speakeropee cushion in the hand trick...</box>
                     <box n="3">*wait a sec... *have you heard it before or something?</box>
                     <box n="4">*you turned around before i said to... *...weird.</box>
                     <box n="5">*...whatever. *you're a human, right?</box>
@@ -65,23 +65,23 @@
             </condition>
         </setting>
         <setting name="MeetingPapyrus">
-            <sp who="Sans" to="you">
+            <sp speaker="Sans" to="you">
                 <box n="1">*quick, behind that conveniently-shaped lamp.</box>
             </sp>
-            <sp who="Sans" to="Papyrus">
+            <sp speaker="Sans" to="Papyrus">
                 <box n="2">*sup, bro?</box>
             </sp>
-            <sp who="Papyrus" to="Sans">
+            <sp speaker="Papyrus" to="Sans">
                 <box n="3">YOU KNOW WHAT -SUP,- BROTHER!</box>
                 <box n="4">IT'S BEEN EIGHT DAYS AND YOU STILL HAVEN'T...</box>
                 <box n="5">RECALIBRATED. YOUR. PUZZLES!</box>
                 <box n="6">YOU JUST HANG AROUND OUTSIDE YOUR STATION!</box>
                 <box n="7">WHAT ARE YOU EVEN DOING?!?</box>
             </sp>
-            <sp who="Sans" to="Papyrus">
+            <sp speaker="Sans" to="Papyrus">
                 <box n="8">*staring at this lamp. *it's really cool. *do you wanna look?</box>
             </sp>
-            <sp who="Papyrus" to="Sans">
+            <sp speaker="Papyrus" to="Sans">
                 <box n="9">NO!! I DON'T HAVE TIME FOR THAT!!</box>
                 <box n="10">WHAT IF A HUMAN COMES THROUGH HERE!?!</box>
                 <box n="11">I WANT TO BE READY!!!</box>
@@ -94,36 +94,36 @@
                 <box n="18">PEOPLE WILL ASK, TO, BE MY, -FRIEND?-</box>
                 <box n="19">I WILL BATHE IN A SHOWER OF KISSES EVERY MORNING.</box>
             </sp>
-            <sp who="Sans" to="Papyrus">
+            <sp speaker="Sans" to="Papyrus">
                 <box n="20">*hmm...</box>
                 <box n="21">*maybe this lamp will help you.</box>
             </sp>
-            <sp who="Papyrus" to="Sans">
+            <sp speaker="Papyrus" to="Sans">
                 <box n="22">SANS!! YOU ARE NOT HELPING!! YOU LAZYBONES!!</box>
                 <box n="23">ALL YOU DO IS SIT AND BOONDOGGLE!</box>
                 <box n="24">YOU GET LAZIER AND LAZIER EVERY DAY!!!</box>
             </sp>
-            <sp who="Sans" to="Papyrus">
+            <sp speaker="Sans" to="Papyrus">
                 <box n="25">*hey, take it easy. *i've gotten a ton of work done today.</box>
                 <box n="26">*a skele-ton.</box>
             </sp>
-            <sp who="Papyrus" to="Sans">
+            <sp speaker="Papyrus" to="Sans">
                 <box n="28">SANS!!!</box>
             </sp>
-            <sp who="Sans" to="Papyrus">
+            <sp speaker="Sans" to="Papyrus">
                 <box n="29">*come on. *you're smiling.</box>
             </sp>
-            <sp who="Papyrus" to="Sans">
+            <sp speaker="Papyrus" to="Sans">
                 <box n="30">I AM AND I HATE IT!</box>
                 <box n="31">SIGH...</box>
                 <box n="32">WHY DOES SOMEONE AS GREAT AS ME...</box>
                 <box n="33">HAVE TO DO SO MUCH JUST TO GET SOME RECOGNITION...</box>
             </sp>
-            <sp who="Sans" to="Papyrus">
+            <sp speaker="Sans" to="Papyrus">
                 <box n="34">*wow, sounds like you're really working yourself...</box>
                 <box n="35">*down to the bone.</box>
             </sp>
-            <sp who="Papyrus" to="Sans">
+            <sp speaker="Papyrus" to="Sans">
                 <box n="37">UGH!!!</box>
                 <box n="38">I WILL ATTEND TO MY PUZZLES...</box>
                 <box n="39">AS FOR YOUR WORK?</box>
@@ -132,19 +132,19 @@
                 <box n="42">NYEHEHEHEHEHEHEHEHEHEHEHE!!!</box>
                 <box n="43">HEH!</box>
             </sp>
-            <sp who="Sans" to="Papyrus">*ok, you can come out now.</sp>
+            <sp speaker="Sans" to="Papyrus">*ok, you can come out now.</sp>
         </setting>
         <setting name="AfterPapyrus">
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="1">*Just a conveniently-shaped lamp.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="Sans" to="you">
+                    <sp speaker="Sans" to="you">
                         <box n="2">*you oughta get going. *he might come back. *and if he
                             does...</box>
                         <box n="3">*...you'll have to sit through more of my hilarious jokes.</box>
@@ -157,14 +157,14 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="7">*It's some sort of checkpoint or sentry-station.</box>
                         <box n="8">*But there are bottles of ketchup, mustard, and relish sitting
                             inside...</box>
                     </sp>
                 </option>
             </choice>
-            <sp who="Sans" to="you">
+            <sp speaker="Sans" to="you">
                 <box n="9">*actually, hey... *hate to bother ya, but can you do me a favor?</box>
                 <box n="10">*i was thinking... *my brother's been kind of down lately...</box>
                 <box n="11">*he's never seen a human before. and seeing you might just make his
@@ -177,7 +177,7 @@
         <setting name="SavePoint">
             <choice>
                 <option what="select saveGame restoreHP">
-                    <sp who="determination" to="you">
+                    <sp speaker="determination" to="you">
                         <box n="1">*(The convenience of that lamp still fills you with
                             determination.)</box>
                     </sp>
@@ -185,7 +185,7 @@
             </choice>
             <choice>
                 <option what="read">
-                    <sp who="sign" to="you">
+                    <sp speaker="sign" to="you">
                         <box n="3">*(This is a box.)</box>
                         <box n="4">*(You can put an item inside or take an item out.)</box>
                         <box n="5">*(The same box will appear later, so don't worry about coming
@@ -196,7 +196,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="7">*Use the box? Yes No</box>
                     </sp>
                 </option>
@@ -208,7 +208,7 @@
         <setting name="FishingPoleRoom">
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="1">*It's a fishing rod affixed to the ground...</box>
                         <box n="2">*Reel it in? Yes No</box>
                         <option what="No">
@@ -226,20 +226,20 @@
             </choice>
         </setting>
         <setting name="SansAndPapyrus">
-            <sp who="Papyrus" to="Sans">
+            <sp speaker="Papyrus" to="Sans">
                 <box n="1">OH.</box>
             </sp>
-            <sp who="Sans" to="Papyrus">
+            <sp speaker="Sans" to="Papyrus">
                 <box n="2">*hey, what's that in front of that rock?</box>
             </sp>
-            <sp who="Papyrus" to="Sans">
+            <sp speaker="Papyrus" to="Sans">
                 <box n="3">OH MY GOD!!!</box>
                 <box n="4">(IS... IS THAT A HUMAN)</box>
             </sp>
-            <sp who="Sans" to="Papyrus">
+            <sp speaker="Sans" to="Papyrus">
                 <box n="5">(yes)</box>
             </sp>
-            <sp who="Papyrus" to="Sans">
+            <sp speaker="Papyrus" to="Sans">
                 <box n="6">OH MY GOD!!!</box>
                 <box n="7">SANS! I FINALLY DID IT!!</box>
                 <box n="8">UNDYNE WILL...</box>
@@ -247,7 +247,7 @@
                 <box n="10">I'LL BE SO...</box>
                 <box n="11">POPULAR!!! POPULAR!!! POPULAR!!!</box>
             </sp>
-            <sp who="Papyrus" to="you">
+            <sp speaker="Papyrus" to="you">
                 <box n="12">...'AHEM'</box>
                 <box n="13">HUMAN! YOU SHALL NOT PASS THIS AREA!</box>
                 <box n="14">I, THE GREAT PAPYRUS, WILL STOP YOU!!!</box>
@@ -259,7 +259,7 @@
                 <box n="20">CONTINUE... ONLY IF YOU DARE!!!</box>
                 <box n="21">NEYH HEH HEH HEH HEH HEH HEH HEH!!!</box>
             </sp>
-            <sp who="Sans" to="you">
+            <sp speaker="Sans" to="you">
                 <box n="22">*well, that went well.</box>
                 <box n="23">*don't sweat it, kid.</box>
                 <box n="24">*i'll keep an eyesocket out for ya.</box>
@@ -268,7 +268,7 @@
         <setting name="PapyrusStation">
             <choice>
                 <option what="read">
-                    <sp who="game sign" to="you">
+                    <sp speaker="game sign" to="you">
                         <box n="1">*There's some narration on this cardboard box.</box>
                         <box n="2">YOU OBSERVE THE WELL-CRAFTED SENTRY STATION.</box>
                         <box n="3">WHO COULD HAVE BUILT THIS, YOU PONDER...</box>
@@ -281,12 +281,12 @@
         <setting name="DoggoStation">
             <choice>
                 <option what="read">
-                    <sp who="sign" to="you">
+                    <sp speaker="sign" to="you">
                         <box n="1">*(Absolutely NO MOVING!!!)</box>
                     </sp>
                 </option>
             </choice>
-            <sp who="Doggo">
+            <sp speaker="Doggo">
                 <box n="2">*Did something move? *Was it my imagination?</box>
                 <box n="3">*I can only see moving things.</box>
                 <box n="4">* if something WAS moving... *For example a human...</box>
@@ -294,7 +294,7 @@
             </sp>
             <choice>
                 <option what="select">
-                    <sp who="Doggo">
+                    <sp speaker="Doggo">
                         <box n="1">*Hello? *Is anybody there...? *No?</box>
                         <box n="2">*Are you two playing a trick on me? *Real funny.</box>
                         <box n="3">*Big guy? *Is that you? *Come on...</box>
@@ -310,13 +310,13 @@
                 </option>
             </choice>
             <condition what="spareWithPet">
-                <sp who="Doggo">
+                <sp speaker="Doggo">
                     <box n="1">*S-S-S Something pet me... *Something that isn't m-m-moving...</box>
                     <box n="2">*I'm gonna need some dog treats for this!!!</box>
                 </sp>
             </condition>
             <condition what="spareWithStick">
-                <sp who="Doggo">
+                <sp speaker="Doggo">
                     <box n="1">*A stick appeared out of nowhere, then disappeared.</box>
                     <box n="2">*Was it a ghost stick?</box>
                     <box n="3">*Did I just return it to the afterlife?</box>
@@ -326,7 +326,7 @@
             <condition what="reachedSnowdinTown">
                 <choice>
                     <option what="select">
-                        <sp who="game" to="you">
+                        <sp speaker="game" to="you">
                             <box n="1">*(This note is written very oddly, as if the paper was moving
                                 while it was written.)</box>
                             <box n="2">*(It says...) *(Out to lunch...?)</box>
@@ -339,7 +339,7 @@
         <setting name="SlipperyIceRoom">
             <choice>
                 <option what="talkTo">
-                    <sp who="Sans" to="you">
+                    <sp speaker="Sans" to="you">
                         <box n="1">*hey, here's something important to remember.</box>
                         <box n="2">*my brother has a very special attack.</box>
                         <box n="3">*if you see a blue attack, don't move and it won't hurt
@@ -356,7 +356,7 @@
             </choice>
             <choice>
                 <option what="read">
-                    <sp who="sign" to="you">
+                    <sp speaker="sign" to="you">
                         <box n="9">*North: Ice *South: Ice *West: Ice</box>
                         <box n="10">*East: Snowdin Town</box>
                         <box n="11">*(... and ice)</box>
@@ -367,7 +367,7 @@
         <setting name="SnowmanRoom">
             <choice>
                 <option what="talkTo">
-                    <sp who="Snowman game" to="you">
+                    <sp speaker="Snowman game" to="you">
                         <box n="1">*Hello. *I am a snowman.</box>
                         <box n="2">*I want to see the world... *But I cannot move.</box>
                         <box n="3">*If you would be so kind, traveller, please...</box>
@@ -417,7 +417,7 @@
             </choice>
         </setting>
         <setting name="ElectricMazeRoom">
-            <sp who="Papyrus" to="you">
+            <sp speaker="Papyrus" to="you">
                 <box n="1">IN ORDER TO STOP YOU...</box>
                 <box n="2">MY BROTHER AND I HAVE CREATED SOME PUZZLES!</box>
                 <box n="3">I THINK YOU WILL FIND THIS ONE...</box>
@@ -432,16 +432,16 @@
                 <box n="12">IS ACTUALLY RATHER SMALL I THINK.</box>
                 <box n="13">OK, YOU CAN GO AHEAD NOW.</box>
             </sp>
-            <sp who="Papyrus" to="Sans">
+            <sp speaker="Papyrus" to="Sans">
                 <box n="15">SANS!! WHAT DID YOU DO?!?!</box>
             </sp>
-            <sp who="Sans" to="Papyrus">
+            <sp speaker="Sans" to="Papyrus">
                 <box n="16">*i think the human has to hold the orb.</box>
             </sp>
-            <sp who="Papyrus" to="Sans">
+            <sp speaker="Papyrus" to="Sans">
                 <box n="17">OH, OKAY.</box>
             </sp>
-            <sp who="Papyrus" to="you">
+            <sp speaker="Papyrus" to="you">
                 <box n="18">HOLD THIS PLEASE!</box>
                 <box n="19">OKAY, TRY NOW!</box>
                 <box n="20">INCREDIBLE!! YOU SLIPPERY SNAIL!!</box>
@@ -453,7 +453,7 @@
                 <box n="26">I KNOW I AM!</box>
                 <box n="27">NYEH HEH HEH HEH HEH!!</box>
             </sp>
-            <sp who="Sans" to="you">
+            <sp speaker="Sans" to="you">
                 <box n="28">*hey, thanks... *my brother seems like he's having fun.</box>
                 <box n="29">*by the way, did you see that weird outfit he's wearing?</box>
                 <box n="30">*we made that a few weeks ago for a costume party.</box>
@@ -463,7 +463,7 @@
                 <box n="34">*isn't my brother cool?</box>
             </sp>
             <condition what="tryingToLeave">
-                <sp who="Papyrus" to="you">
+                <sp speaker="Papyrus" to="you">
                     <box n="1">COME ON! DON'T BE SO RUDE!!!</box>
                     <box n="2">I SET UP THIS PUZZLE JUST FOR YOU!</box>
                     <box n="3">DO YOU TREAT YOUR MOTHER THIS WAY...</box>
@@ -472,15 +472,15 @@
                 </sp>
             </condition>
             <condition what="reset">
-                <sp who="Papyrus" to="Sans">
+                <sp speaker="Papyrus" to="Sans">
                     <box n="1">REALLY THOUGH!!! THAT HUMAN!!!</box>
                     <box n="2">DO I KNOW THAT PERSON???</box>
                 </sp>
-                <sp who="Sans" to="Papyrus">
+                <sp speaker="Sans" to="Papyrus">
                     <box n="3">*do you not know...</box>
-                    <box n="4">*who you know?</box>
+                    <box n="4">*speaker you know?</box>
                 </sp>
-                <sp who="Papyrus" to="Sans">
+                <sp speaker="Papyrus" to="Sans">
                     <box n="5">PBPBPPBPT!!</box>
                     <box n="6">OF COURSE I KNOW WHO I KNOW!!</box>
                     <box n="7">I WANTED TO KNOW IF YOU KNOW...</box>
@@ -493,12 +493,12 @@
         <setting name="BallGameRoom">
             <choice>
                 <option what="talkTo">
-                    <sp who="NiceCreamGuy game">
+                    <sp speaker="NiceCreamGuy game">
                         <box n="1">*I don't understand why these aren't selling...</box>
                         <box n="2">*It's the perfect weather for something cold...</box>
                         <box n="3">*OH!!! *A CUSTOMER!!!</box>
                     </sp>
-                    <sp who="NiceCreamGuy" to="you">
+                    <sp speaker="NiceCreamGuy" to="you">
                         <box n="4">*Hello! *Would you like some Nice Cream?</box>
                         <box n="5">*It's the frozen treat that warms your heart!</box>
                         <box n="6">*Now just 15G! Yes No</box>
@@ -522,21 +522,21 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="14">*...!? *There's a camera hidden inside this lump of snow.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="15">*Ah! Wow! Woah! *It's a "Hole".</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="16">*(It looks like a snow ball...</box>
                         <box n="17">*(Actually, it's a snowdecahedron.)</box>
                     </sp>
@@ -544,7 +544,7 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="Sans" to="you">
+                    <sp speaker="Sans" to="you">
                         <box n="1">*i've been thinking about selling treats too.</box>
                         <box n="2">*want some fried snow? *it's just 5G. Buy No</box>
                         <option what="No">
@@ -587,9 +587,9 @@
             </choice>
             <choice>
                 <option what="playBallGame">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <condition what="lightBlue">
-                            <sp who="game" to="you">
+                            <sp speaker="game" to="you">
                                 <box n="1">*LIGHT BLUE - "Ball" is "Small." *You waited, still, for
                                     this oppprotunity...</box>
                                 <box n="2">*... then dethroned "Ball" with a sharp attack.</box>
@@ -624,7 +624,7 @@
                             </option>
                         </condition>
                         <condition what="orange">
-                            <box n="1">*ORANGE - You are the kind of person who rushes fists-first
+                            <box n="1">*ORANGE - You are the kind of person speaker rushes fists-first
                                 through all obstacles.</box>
                             <box n="2">*(You are awarded 5G.)</box>
                             <option what="select">
@@ -660,14 +660,14 @@
         <setting name="DogiStation">
             <choice>
                 <option what="read">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="1">*(His.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="read">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="2">*SMELL DANGER RATING</box>
                         <box n="3">*Snow Smell - Snowman WHITE Rating Can become YELLOW Rating</box>
                         <box n="4">*Unsuspicious Smell - Puppy BLUE Rating Smell of rolling
@@ -678,54 +678,54 @@
             </choice>
             <choice>
                 <option what="read">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="6">*(Hers.)</box>
                     </sp>
                 </option>
             </choice>
         </setting>
         <setting name="CrosswordRoom">
-            <sp who="Papyrus" to="you">
+            <sp speaker="Papyrus" to="you">
                 <box n="1">HUMAN!!! I HOPE YOU'RE READY FOR...</box>
             </sp>
-            <sp who="Papyrus" to="Sans">
+            <sp speaker="Papyrus" to="Sans">
                 <box n="2">SANS!! WHERE'S THE PUZZLE!!!</box>
             </sp>
-            <sp who="Sans" to="Papyrus">
+            <sp speaker="Sans" to="Papyrus">
                 <box n="3">*it's right there. *on the ground.</box>
                 <box n="4">*trust me. *there's now way they can get past this one.</box>
             </sp>
-            <sp who="crossword" to="you">
+            <sp speaker="crossword" to="you">
                 <box n="5">Monster Kidz Word Search Ice-E: Hey Kid's! Can you help me Solve this
                     puzzle?
                     GIASFCLFUBREHBERNPBAVUUJJCSEOMEOIWLSNOTELEKSTMFBRLXETMONSTERMNGOPMDIAMREMAUUJHITSCIGARSVXRSOUDCW
                     fall monster cigars winter skeletons cig spring mermaid giasfclfebrehber summer
                     robot hot</box>
             </sp>
-            <sp who="Papyrus" to="Sans">
+            <sp speaker="Papyrus" to="Sans">
                 <box n="6">SANS!! THAT DIDN'T DO ANYTHING!</box>
             </sp>
-            <sp who="Sans" to="Papyrus">
-                <box n="7">*whoops.</box>
+            <sp speaker="Sans" to="Papyrus">
+                <box n="7">*speakerops.</box>
                 <box n="8">*i knew i should have used today's crossword instead.</box>
             </sp>
-            <sp who="Papyrus" to="Sans">
+            <sp speaker="Papyrus" to="Sans">
                 <box n="9">WHAT!? CROSSWORD!?</box>
                 <box n="10">I CAN'T BELIEVE YOU SAID THAT!!</box>
                 <box n="11">IN MY OPINION...</box>
                 <box n="12">JUNIOR JUMBLE IS EASILY THE HARDEST.</box>
             </sp>
-            <sp who="Sans" to="Papyrus">
+            <sp speaker="Sans" to="Papyrus">
                 <box n="13">*what? really, dude? *that easy-peasy word scramble?</box>
                 <box n="14">*that's for baby bones.</box>
             </sp>
-            <sp who="Papyrus game" to="Sans you">
+            <sp speaker="Papyrus game" to="Sans you">
                 <box n="15">UN BELIEVABLE</box>
                 <box n="16">HUMAN!!! SOLVE THIS DISPUTE!</box>
                 <box n="1">*(Which is harder?) Jumble Crossword</box>
             </sp>
             <option what="Jumble">
-                <sp who="Papyrus Sans" to="you Sans">
+                <sp speaker="Papyrus Sans" to="you Sans">
                     <box n="2">HA! HA! YES!</box>
                     <box n="3">HUMANS MUST BE VERY INTELLIGENT!</box>
                     <box n="4">IF THEY ALSO FIND JUNIOR JUMBLE SO DIFFICULT!</box>
@@ -735,7 +735,7 @@
                 </sp>
             </option>
             <option what="Crossword">
-                <sp who="Papyrus Sans" to="you Sans">
+                <sp speaker="Papyrus Sans" to="you Sans">
                     <box n="1">YOU TWO ARE WEIRD!</box>
                     <box n="2">CROSSWORDS ARE SO EASY.</box>
                     <box n="3">IT'S THE SAME SOLUTION EVERY TIME.</box>
@@ -748,7 +748,7 @@
                 </sp>
             </option>
             <option what="runAway">
-                <sp who="Papyrus" to="Sans you">
+                <sp speaker="Papyrus" to="Sans you">
                     <box n="1">SANS!!!! THE HUMAN IS ESCAPING!!!</box>
                     <box n="2">YOU MADE THE PUZZLE TOO HARD!!</box>
                     <box n="3">HEY YOU!!! GET BACK HERE!</box>
@@ -758,7 +758,7 @@
         <setting name="SpaghettiRoom">
             <choice>
                 <option what="">
-                    <sp who="game Papyrus">
+                    <sp speaker="game Papyrus">
                         <box n="1">*It's a note from Papyrus...</box>
                         <box n="2">HUMAN!! PLEASE ENJOY THIS SPAGHETTI.</box>
                         <box n="3">(LITTLE DO YOU KNOW THIS SPAGHETTI IS A TRAP...)</box>
@@ -772,7 +772,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="9">*(It's a plate of frozen spaghetti.)</box>
                         <box n="10">*(It's so cold, it's stuck to the table...</box>
                     </sp>
@@ -780,7 +780,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="11">*(It's an uplugged microwave.)</box>
                         <box n="12">*(All of the settings say "spaghetti.")</box>
                     </sp>
@@ -788,7 +788,7 @@
             </choice>
             <choice>
                 <option what="select saveGame restoreHP">
-                    <sp who="determination" to="you">
+                    <sp speaker="determination" to="you">
                         <box n="13">*(Knowing the mouse might one day find a way to heat up the
                             spaghetti...)</box>
                         <box n="14">*(It fills you with determination.)</box>
@@ -800,7 +800,7 @@
         <setting name="DogiArena">
             <choice>
                 <option what="read">
-                    <sp who="sign">
+                    <sp speaker="sign">
                         <box n="1">*Warning: Dog Marriage</box>
                         <box n="2">*(Yes, you read that correctly.)</box>
                     </sp>
@@ -808,20 +808,20 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="3">*...!? *There's a camera hidden inside this tree.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="4">*There's a switch hidden in the snow. *Click!</box>
                         <box n="5">*The switch is stuck now.</box>
                     </sp>
                 </option>
             </choice>
-            <sp who="Dogi">
+            <sp speaker="Dogi">
                 <box n="7">*What's that smell? *(Where's that smell?)</box>
                 <box n="8">*If you're a smell... *(... identify yoursmellf!)</box>
                 <box n="9">*Hmmm... *Here's that weird smell...</box>
@@ -850,13 +850,13 @@
         <setting name="1stXOPuzzle">
             <choice>
                 <option what="read">
-                    <sp who="sign" to="you">
+                    <sp speaker="sign" to="you">
                         <box n="1">*Turn every X into and O. *Then press the switch.</box>
                     </sp>
                 </option>
             </choice>
             <condition what="solved">
-                <sp who="Papyrus game" to="you">
+                <sp speaker="Papyrus game" to="you">
                     <box n="2">WHAT!? HOW DID YOU AVOID MY TRAP?</box>
                     <box n="3">AND, MORE IMPORTANTLY...</box>
                     <box n="4">IS THERE ANY LEFT FOR ME???</box>
@@ -885,7 +885,7 @@
         <setting name="2ndXOPuzzle">
             <choice>
                 <option what="talkTo">
-                    <sp who="Papyrus" to="you">
+                    <sp speaker="Papyrus" to="you">
                         <box n="1">MY BROTHER STARTED A SOCK COLLECTION RECENTLY.</box>
                         <box n="2">HOW SADDENING...</box>
                         <box n="3">SOMETIMES I WONDER WHAT HE WOULD DO...</box>
@@ -894,7 +894,7 @@
                     </sp>
                 </option>
             </choice>
-            <sp who="Papyrus game" to="you">
+            <sp speaker="Papyrus game" to="you">
                 <box n="1">HUMAN!</box>
                 <box n="2">HMMM... HOW DO I SAY THIS...</box>
                 <box n="3">YOU WERE TAKING A LONG TIME TO ARRIVE, SO>>></box>
@@ -952,7 +952,7 @@
             </sp>
             <choice>
                 <option what="talkTo">
-                    <sp who="Sans" to="you">
+                    <sp speaker="Sans" to="you">
                         <condition what="noHints">
                             <box n="1">*good job on solving it so quickly.</box>
                             <box n="2">*you didn't even need my help.</box>
@@ -973,7 +973,7 @@
             </choice>
         </setting>
         <setting name="ColoredTilePuzzle">
-            <sp who="Papyrus game" to="Sans you">
+            <sp speaker="Papyrus game" to="Sans you">
                 <box n="1">HEY!</box>
                 <box n="2">IT'S THE HUMAN!</box>
                 <box n="3">YOU'RE GONNA LOVE THIS PUZZLE!</box>
@@ -1065,7 +1065,7 @@
             </sp>
             <choice>
                 <option what="talkTo">
-                    <sp who="Sans" to="you">
+                    <sp speaker="Sans" to="you">
                         <box n="3">*actually, that spaghetti from earlier...</box>
                         <box n="4">*it wasn't too bad for my brother.</box>
                         <box n="5">*since he started cooking lessons, he's been improving a
@@ -1079,35 +1079,35 @@
         <setting name="LesserDogStation">
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="1">*On the floor inside is a box of pomeraisins.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="read">
-                    <sp who="sign" to="you">
+                    <sp speaker="sign" to="you">
                         <box n="2">*AWARE OF DOG *pleas pet dog</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="3">*...!? *There's a camera behind the sentry station.</box>
                     </sp>
                 </option>
             </choice>
             <condition what="didntPetLesserDog">
                 <choice what="talkTo">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="1">*This dog is staring blankly into the snow, waiting for it to
                             turn into art.</box>
                     </sp>
                 </choice>
                 <choice>
                     <option what="talkTo">
-                        <sp who="Faun" to="you">
+                        <sp speaker="Faun" to="you">
                             <box n="2">*That dog considers itself an artist, but doesn't ever know
                                 what to create.</box>
                             <box n="3">*It probably doesn't help that its brain is the size of a
@@ -1117,7 +1117,7 @@
                 </choice>
                 <choice>
                     <option what="select saveGame restoreHP">
-                        <sp who="determination" to="you">
+                        <sp speaker="determination" to="you">
                             <box n="4">*(Knowing that dog will never give up trying to make the
                                 perfect snowdog...)</box>
                             <box n="5">*(It fills you with determination.)</box>
@@ -1127,7 +1127,7 @@
                 <condition what="reachedSnowdinTown">
                     <choice>
                         <option what="talkTo">
-                            <sp who="Faun" to="you">
+                            <sp speaker="Faun" to="you">
                                 <box n="1">*That dog from earlier...? *It's at Grillby's. *I
                                     think.</box>
                                 <box n="2">*After work, all of the dogs go there to play cards
@@ -1144,14 +1144,14 @@
             <condition what="petLesserDog1-2Times">
                 <choice>
                     <option what="select">
-                        <sp who="game" to="you">
+                        <sp speaker="game" to="you">
                             <box n="1">*Seems like the base of a snowdog.</box>
                         </sp>
                     </option>
                 </choice>
                 <choice>
                     <option what="talkTo">
-                        <sp who="Faun" to="you">
+                        <sp speaker="Faun" to="you">
                             <box n="2">*That dog considers itself an artist, but doesn't ever know
                                 what to create.</box>
                             <box n="3">*It probably doesn't help that its brain is the size of a
@@ -1163,77 +1163,77 @@
             <condition what="petLesserDog3+Times">
                 <choice>
                     <option what="select">
-                        <sp who="game" to="you">
+                        <sp speaker="game" to="you">
                             <box n="1">*It's the broken head of a snowdog.</box>
                         </sp>
                     </option>
                 </choice>
                 <choice>
                     <option what="select">
-                        <sp who="game" to="you">
+                        <sp speaker="game" to="you">
                             <box n="2">*Seems like the base of a snowdog.</box>
                         </sp>
                     </option>
                 </choice>
                 <choice>
                     <option what="select">
-                        <sp who="game" to="you">
+                        <sp speaker="game" to="you">
                             <box n="3">It's the broken heaed of a snowdog.</box>
                         </sp>
                     </option>
                 </choice>
                 <choice>
                     <option what="select">
-                        <sp who="game" to="you">
+                        <sp speaker="game" to="you">
                             <box n="4">*Seems like the base of a snowdog.</box>
                         </sp>
                     </option>
                 </choice>
                 <choice>
                     <option what="select">
-                        <sp who="game" to="you">
+                        <sp speaker="game" to="you">
                             <box n="5">*Seems like the base of a snowdog.</box>
                         </sp>
                     </option>
                 </choice>
                 <choice>
                     <option what="select">
-                        <sp who="game" to="you">
+                        <sp speaker="game" to="you">
                             <box n="6">*Seems like the base of a snowdog.</box>
                         </sp>
                     </option>
                 </choice>
                 <choice>
                     <option what="select">
-                        <sp who="game" to="you">
+                        <sp speaker="game" to="you">
                             <box n="7">*It's the broken head of a snowdog.</box>
                         </sp>
                     </option>
                 </choice>
                 <choice>
                     <option what="select">
-                        <sp who="game" to="you">
+                        <sp speaker="game" to="you">
                             <box n="8">*It's the broken head of a snowdog.</box>
                         </sp>
                     </option>
                 </choice>
                 <choice>
                     <option what="select">
-                        <sp who="game" to="you">
+                        <sp speaker="game" to="you">
                             <box n="9">*It's the broken head of a snowdog.</box>
                         </sp>
                     </option>
                 </choice>
                 <choice>
                     <option what="select">
-                        <sp who="game" to="you">
+                        <sp speaker="game" to="you">
                             <box n="10">*Seems like the base of a snowdog.</box>
                         </sp>
                     </option>
                 </choice>
                 <choice>
                     <option what="talkTo">
-                        <sp who="Faun" to="you">
+                        <sp speaker="Faun" to="you">
                             <box n="11">*A dog just rushed in here filled with inspiration.</box>
                             <box n="12">*It kept tyring to build a snowdog that expressed its own
                                 emotions...</box>
@@ -1249,14 +1249,14 @@
             <condition what="killedLesserDog">
                 <choice>
                     <option what="select">
-                        <sp who="game" to="you">
+                        <sp speaker="game" to="you">
                             <box n="1">*It's a pile of mushy snow.</box>
                         </sp>
                     </option>
                 </choice>
                 <choice>
                     <option what="select saveGame restoreHP">
-                        <sp who="determination" to="you">
+                        <sp speaker="determination" to="you">
                             <box n="2">*(Snow can always be broken down and rebuilt into something
                                 more useful.)</box>
                             <box n="3">*(This simple fact fills you with determination.)</box>
@@ -1268,7 +1268,7 @@
         <setting name="PapyrusAndSansSnowmen">
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="1">*(It's a lump of snow with the word 'sans' written on it in red
                             marker.)</box>
                     </sp>
@@ -1276,7 +1276,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="2">*(It's a snow Papyrus.)</box>
                     </sp>
                 </option>
@@ -1285,28 +1285,28 @@
         <setting name="GyftrotRoom">
             <choice>
                 <option what="talkTo">
-                    <sp who="Sans" to="you">
+                    <sp speaker="Sans" to="you">
                         <box n="1">*what's up?</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option>
-                    <sp who="Sans" to="you">
+                    <sp speaker="Sans" to="you">
                         <box n="2">*are you lost?</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option>
-                    <sp who="Sans" to="you">
+                    <sp speaker="Sans" to="you">
                         <box n="3">*you sure do like to exercise.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="Sans" to="you">
+                    <sp speaker="Sans" to="you">
                         <box n="4">*say..</box>
                         <box n="5">*are you following me?</box>
                     </sp>
@@ -1316,7 +1316,7 @@
         <setting name="MysteriousDoorRoom">
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="1">*It's a door.</box>
                     </sp>
                 </option>
@@ -1329,14 +1329,14 @@
         <setting name="DevelopersRoom">
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="1">*(Rope.) *(Looks like this dog does all its own stunts.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="2">*(You tried to pet the dog but it collapsed into a pile of
                             fluff...)</box>
                         <box n="3">*(Seems like it was actually a dog-shaped husk of dog
@@ -1347,16 +1347,16 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="5">*(By barking with text-to-speech on, the dog accidentially
-                            programmed a whole game.)</box>
+                            programmed a speakerle game.)</box>
                         <box n="6">*(Hmmm... seems fine.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="7">*(Looks like this dog makes a lot of bad posts on-line.)</box>
                         <box n="8">*(Text to speech is on.)</box>
                         <box n="9">*(Seems like the dog barks and it translates to these bad
@@ -1370,7 +1370,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="13">*(Finally, the pieces of the puzzle are coming together.) *(The
                             jigsaw puzzle.)</box>
                     </sp>
@@ -1378,7 +1378,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="14">*(It's a small white dog.)</box>
                         <box n="15">*(Fight the dog?) Yes No</box>
                         <option what="Yes">
@@ -1404,77 +1404,77 @@
         <setting name="GreaterDogStation">
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="1">*It's a snow poff.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="2">*And this... *Is a snow poff</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="3">*(What a tiny doghouse!)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="read">
-                    <sp who="sign" to="you">
+                    <sp speaker="sign" to="you">
                         <box n="4">*(Woof.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="5">*This, however, is a snow poff.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="6">*Surprisingly, it's a snow poff.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="7">*Snow poff...</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="8">*Is it really a snow poff?</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="9">*Behold! *A snow poff.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="10">*Eh? *There's 30G inside this... what is this?</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="11">*What's this called?</box>
                     </sp>
                 </option>
@@ -1482,7 +1482,7 @@
             <condition what="afterGreaterDog">
                 <choice>
                     <option what="select">
-                        <sp who="game" to="you">
+                        <sp speaker="game" to="you">
                             <box n="1">*(It must be bigger on the inside.)</box>
                         </sp>
                     </option>
@@ -1492,12 +1492,12 @@
         <setting name="GauntletOfDeadlyTerror">
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="1">*...!? *There's a camera underneath the bridge.</box>
                     </sp>
                 </option>
             </choice>
-            <sp who="Papyrus Sans" to="you">
+            <sp speaker="Papyrus Sans" to="you">
                 <box n="2">HUMAN!</box>
                 <box n="3">THIS IS YOUR FINAL AND MOST DANGEROUS CHALLENGE!</box>
                 <box n="4">BEHOLD! THE GAUNTLET OF DEADLY TERROR!</box>
@@ -1512,17 +1512,17 @@
                 <box n="13">ABOUT!</box>
                 <box n="14">TO DO IT!</box>
             </sp>
-            <sp who="Sans" to="Papyrus">
+            <sp speaker="Sans" to="Papyrus">
                 <box n="15">*well? *what's the holdup?</box>
             </sp>
-            <sp who="Papyrus" to="Sans">
+            <sp speaker="Papyrus" to="Sans">
                 <box n="16">HOLDUP!? WHAT HOLDUP!?</box>
                 <box n="17">I'M... I'M ABOUT TO ACTIVATE IT NOW!</box>
             </sp>
-            <sp who="Sans" to="Papyrus">
+            <sp speaker="Sans" to="Papyrus">
                 <box n="18">* that, uh, doesn't look very activated.</box>
             </sp>
-            <sp who="Papyrus" to="Sans">
+            <sp speaker="Papyrus" to="Sans">
                 <box n="19">WELL!!!</box>
                 <box n="20">THIS CHALLENGE!!!</box>
                 <box n="21">IT SEEMS...</box>
@@ -1535,7 +1535,7 @@
                 <box n="28">AWAY IT GOES!</box>
                 <box n="29">PHEW!</box>
             </sp>
-            <sp who="Papyrus" to="you">
+            <sp speaker="Papyrus" to="you">
                 <box n="30">WHAT ARE YOU LOOKING AT!?</box>
                 <box n="31">THIS WAS ANOTHER DECISIVE VICTORY FOR PAPYRUS!!</box>
                 <box n="32">NYEH!!</box>
@@ -1545,14 +1545,14 @@
             </sp>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="36">*...!? *There's a camera underneath the bridge.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="Sans" to="you">
+                    <sp speaker="Sans" to="you">
                         <box n="37">*i don't know what my brother's going to do now.</box>
                         <box n="38">*if i were you, i would make sure i understand blue
                             attacks.</box>
@@ -1568,28 +1568,28 @@
         <setting name="RockFamily">
             <choice>
                 <option what="talkTo">
-                    <sp who="KidSlime1" to="you">
+                    <sp speaker="KidSlime1" to="you">
                         <box n="1">*Let's play Monsters and Humans!</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="KidSlime2">
+                    <sp speaker="KidSlime2">
                         <box n="2">*You aren't gonna make me be the human again, are you?</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="DadSlime" to="you">
+                    <sp speaker="DadSlime" to="you">
                         <box n="3">*Ah, to be young again. *The world sure felt boundless.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="someone">
+                    <sp speaker="someone">
                         <box n="4">*Ahh, what a beautiful knock...! *Maybe if I don't answer, I'll
                             hear it again.</box>
                     </sp>
@@ -1597,14 +1597,14 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="someone">
+                    <sp speaker="someone">
                         <box n="5">*Ahh, my patience rewards me.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="someone">
+                    <sp speaker="someone">
                         <box n="6">*Ahh...</box>
                     </sp>
                 </option>
@@ -1612,21 +1612,21 @@
             <condition what="postUndyne">
                 <choice>
                     <option what="talkTo">
-                        <sp who="KidSlime1">
+                        <sp speaker="KidSlime1">
                             <box n="1">*Let's continue to play Monsters and Humans!</box>
                         </sp>
                     </option>
                 </choice>
                 <choice>
                     <option what="talkTo">
-                        <sp who="KidSlime2">
+                        <sp speaker="KidSlime2">
                             <box n="2">*Can we PLEASE play something else...?</box>
                         </sp>
                     </option>
                 </choice>
                 <choice>
                     <option what="talkTo">
-                        <sp who="DadSlime">
+                        <sp speaker="DadSlime">
                             <box n="3">*You like to wander. *You must be young.</box>
                         </sp>
                     </option>
@@ -1636,7 +1636,7 @@
                 <!--possible route-difference indicator here, like NeutralGenocide or something-->
                 <choice>
                     <option what="talkTo">
-                        <sp who="DadSlime" to="you">
+                        <sp speaker="DadSlime" to="you">
                             <box n="1">*I've sent the kids inside.</box>
                             <box n="2">*It feels unsafe here today.</box>
                         </sp>
@@ -1647,14 +1647,14 @@
         <setting name="SnowdinTown">
             <choice>
                 <option what="read">
-                    <sp who="sign" to="you">
+                    <sp speaker="sign" to="you">
                         <box n="1">*(Welcome to Snowdin Town!)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select saveGame restoreHP">
-                    <sp who="determination" to="you">
+                    <sp speaker="determination" to="you">
                         <box n="2">*(The sight of such a friendly town fills you with
                             determination.)</box>
                     </sp>
@@ -1662,7 +1662,7 @@
             </choice>
             <choice>
                 <option what="read">
-                    <sp who="sign" to="you">
+                    <sp speaker="sign" to="you">
                         <box n="5">*(don't want to walk to the other side of town?)</box>
                         <box n="6">*(Try the undersnow tunnels!) *(They're efficiently laid
                             out.)</box>
@@ -1671,7 +1671,7 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="RabbitKid" to="you">
+                    <sp speaker="RabbitKid" to="you">
                         <box n="7">*That lady over there...</box>
                         <box n="8">*Something about her disturbs me.</box>
                         <option what="talkTo">
@@ -1682,7 +1682,7 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="RabbitGirl">
+                    <sp speaker="RabbitGirl">
                         <box n="10">*Isn't my little Cinnamon just the cutest?</box>
                         <box n="11">*Bub-buns are so adorable... *Tee hee!</box>
                         <box n="12">*Bun-bun-bun-bun-bun...</box>
@@ -1691,7 +1691,7 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="GiftBear" to="you">
+                    <sp speaker="GiftBear" to="you">
                         <box n="13">*Awful teens tormented a local monster by decorating its
                             tree-like horns.</box>
                         <box n="14">*So we started giving that monster presents to make it feel
@@ -1705,7 +1705,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="17">*(It's a carefully decorated tree.)</box>
                         <box n="18">*(Some of the presents are addressed from "Santa" to various
                             locals.)</box>
@@ -1714,7 +1714,7 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="MonsterKid">
+                    <sp speaker="MonsterKid">
                         <box n="19">*Yo! *You're a kid too, right?</box>
                         <box n="20">*I can tell 'cause you're wearing a striped shirt.</box>
                         <box n="21">*I wonder if that weird skeleton is an adult or a kid.</box>
@@ -1723,7 +1723,7 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="PoliticsBear">
+                    <sp speaker="PoliticsBear">
                         <box n="22">*This town doesn't have a mayor.</box>
                         <box n="23">*But if there's ever a problem, a skeleton will tell a fish lady
                             about it.</box>
@@ -1734,7 +1734,7 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="ScarfMouse" to="you">
+                    <sp speaker="ScarfMouse" to="you">
                         <box n="26">*Everyone is always laughing and cracking jokes, trying to
                             forget our modern crises...</box>
                         <box n="27">*Dreariness. *Crowding. *Lack of sunlight.</box>
@@ -1745,7 +1745,7 @@
             </choice>
             <choice>
                 <option>
-                    <sp who="NacaratJester" to="you">
+                    <sp speaker="NacaratJester" to="you">
                         <box n="30">*We all know the underground has problems, but we smile
                             anyway.</box>
                         <box n="31">*Why?</box>
@@ -1756,21 +1756,21 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="34">*...!? *There's a camera hidden in the trees here.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="35">*(It's a mailbox overflowing with unread junk mail.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="36">*(This mailbox is labelled "PAPYRUS".)</box>
                         <box n="37">*(Look inside?) Yes No</box>
                         <option what="Yes">
@@ -1784,21 +1784,21 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="41">*(It's locked.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you"/>
+                    <sp speaker="game" to="you"/>
                     <box n="42">*(It's locked from the inside.)</box>
                 </option>
             </choice>
             <condition what="killedSnowdinRoyalGuard">
                 <choice>
                     <option what="talkTo">
-                        <sp who="RabbitKid">
+                        <sp speaker="RabbitKid">
                             <box n="1">*That lady over there seems happy today.</box>
                             <box n="2">*Don't know why, but it's sending shivers down my
                                 spine...</box>
@@ -1807,7 +1807,7 @@
                 </choice>
                 <choice>
                     <option what="talkTo">
-                        <sp who="RabbitGirl">
+                        <sp speaker="RabbitGirl">
                             <box n="3">*Ah, it's so peaceful and quiet...</box>
                             <box n="4">*Usually one of those dogs chases my little Cinnamon
                                 around.</box>
@@ -1816,7 +1816,7 @@
                 </choice>
                 <choice>
                     <option what="talkTo">
-                        <sp who="GiftBear">
+                        <sp speaker="GiftBear">
                             <box n="5">*You know what's cute?</box>
                             <box n="6">*Those two married dogs always put presents under the tree
                                 for each other.</box>
@@ -1830,7 +1830,7 @@
                 </choice>
                 <choice>
                     <option what="talkTo">
-                        <sp who="ScarfMouse">
+                        <sp speaker="ScarfMouse">
                             <box n="11">*It just feels like... *Like everything is getting worse and
                                 worse.</box>
                         </sp>
@@ -1840,7 +1840,7 @@
             <condition what="befriendedPapyrus">
                 <choice>
                     <option what="select">
-                        <sp who="Papyrus" to="you">
+                        <sp speaker="Papyrus" to="you">
                             <box n="1">HOW NICE OF YOU TO CHECK MY MAIL</box>
                             <box n="2">WAIT, NO. THAT'S VERY STRANGE.</box>
                             <box n="3">THAT'S MY EMPTINESS, NOT YOURS.</box>
@@ -1852,7 +1852,7 @@
                 <condition what="afterPapyrusUndyneWaterfallMeeting">
                     <choice>
                         <option what="talkTo">
-                            <sp who="Papyrus" to="you">
+                            <sp speaker="Papyrus" to="you">
                                 <box n="1">HELLO... H-HOW ARE YOU, MY F-FRIEND?</box>
                                 <box n="2">I'M FEELING VERY NOT SUSPICIOUS TODAY.</box>
                             </sp>
@@ -1862,7 +1862,7 @@
                 <condition what="afterPapyrusSecondWaterfallCall">
                     <choice>
                         <option what="talkTo">
-                            <sp who="Papyrus" to="you">
+                            <sp speaker="Papyrus" to="you">
                                 <box n="1">HELLO... H-HOW ARE YOU, MY F-FRIEND?</box>
                                 <box n="2">I'M FEELING VERY NOT SUSPICIOUS TODAY.</box>
                                 <box n="3">HEY, I HAVE A GREAT IDEA.</box>
@@ -1876,7 +1876,7 @@
             <condition what="postUndyne">
                 <choice>
                     <option what="talkTo">
-                        <sp who="RabbitKid">
+                        <sp speaker="RabbitKid">
                             <box n="1">*That lady over there's been going for a walk for a while
                                 now.</box>
                             <box n="2">*...but she hasn't moved an inch from where she's
@@ -1888,7 +1888,7 @@
                 </choice>
                 <choice>
                     <option what="talkTo">
-                        <sp who="RabbitGirl">
+                        <sp speaker="RabbitGirl">
                             <box n="4">*Huh? Yes, I'm taking my bunny for a walk.</box>
                             <box n="5">*It's just a very slow one.</box>
                         </sp>
@@ -1896,7 +1896,7 @@
                 </choice>
                 <choice>
                     <option what="talkTo">
-                        <sp who="GiftBear">
+                        <sp speaker="GiftBear">
                             <box n="6">*Hmm? *Adjusting the presents is my responsibility.</box>
                             <box n="7">*Nah, to be honest, I just keep looking to see if I've gotten
                                 one...</box>
@@ -1905,7 +1905,7 @@
                 </choice>
                 <choice>
                     <option what="talkTo">
-                        <sp who="PoliticsBear">
+                        <sp speaker="PoliticsBear">
                             <box n="8">*What if I ran for mayor...?</box>
                             <box n="9">*I don't think I would do a good job, and I hate
                                 responsibility...</box>
@@ -1915,7 +1915,7 @@
                 </choice>
                 <choice>
                     <option what="talkTo">
-                        <sp who="ScarfMouse">
+                        <sp speaker="ScarfMouse">
                             <box n="11">*Wait! *I've got a joke!</box>
                             <box n="12">*Knock knock!</box>
                             <box n="13">*...Uh *That's all I've thought of.</box>
@@ -1924,7 +1924,7 @@
                 </choice>
                 <choice>
                     <option what="talkTo">
-                        <sp who="NacaratJester">
+                        <sp speaker="NacaratJester">
                             <box n="14">*Maybe I'll try frowning for once.</box>
                             <box n="15">*...no. *I just can't do it.</box>
                         </sp>
@@ -1934,45 +1934,45 @@
             <condition what="befriendedUndyne">
                 <choice>
                     <option what="talkTo">
-                        <sp who="Undyne" to="you">
+                        <sp speaker="Undyne" to="you">
                             <box n="1">*Hey, punk! *What's up!?</box>
                             <box n="2">*A-ACHOO!</box>
                         </sp>
-                        <sp who="Undyne" to="Papyrus">
+                        <sp speaker="Undyne" to="Papyrus">
                             <box n="3">*Papyrus, how can you stand this cold?</box>
                         </sp>
-                        <sp who="Papyrus" to="Undyne">
+                        <sp speaker="Papyrus" to="Undyne">
                             <box n="4">I HAVE NO SKIN.</box>
                         </sp>
-                        <sp who="Undyne" to="Papyrus">
+                        <sp speaker="Undyne" to="Papyrus">
                             <box n="5">*So why don't we stand in Grillby's instead?</box>
                         </sp>
-                        <sp who="Papyrus" to="Undyne">
+                        <sp speaker="Papyrus" to="Undyne">
                             <box n="6">BECAUSE I HATE GREASE.</box>
                         </sp>
-                        <sp who="Undyne" to="Papyrus">
+                        <sp speaker="Undyne" to="Papyrus">
                             <box n="7">*But you don't have a stomach!!</box>
                         </sp>
-                        <sp who="Papyrus" to="Undyne">
+                        <sp speaker="Papyrus" to="Undyne">
                             <box n="8">NO, BUT I HAVE STANDARDS!!!</box>
                         </sp>
-                        <sp who="Undyne" to="Papyrus">
+                        <sp speaker="Undyne" to="Papyrus">
                             <box n="9">*Papyrus...</box>
                             <box n="10">*Why do you live in an icy wasteland?</box>
                         </sp>
-                        <sp who="Papyrus" to="Undyne">
+                        <sp speaker="Papyrus" to="Undyne">
                             <box n="11">THE RENT'S CHEAP.</box>
                         </sp>
-                        <sp who="Undyne" to="Papyrus">
+                        <sp speaker="Undyne" to="Papyrus">
                             <box n="12">*Really? *Don't you live in a huge house?</box>
                         </sp>
-                        <sp who="Papyrus" to="Undyne">
+                        <sp speaker="Papyrus" to="Undyne">
                             <box n="13">YEAH, BUT MY BROTHER PAYS FOR IT.</box>
                         </sp>
-                        <sp who="Undyne" to="Papyrus">
+                        <sp speaker="Undyne" to="Papyrus">
                             <box n="14">*Where's your brother get the money to pay for it...?</box>
                         </sp>
-                        <sp who="Papyrus" to="Undyne">
+                        <sp speaker="Papyrus" to="Undyne">
                             <box n="15">OH, THAT'S SIMPLE.</box>
                             <box n="16">IT'S A MYSTERY.</box>
                         </sp>
@@ -1980,7 +1980,7 @@
                 </choice>
                 <choice>
                     <option what="talkTo">
-                        <sp who="Papyrus" to="you">
+                        <sp speaker="Papyrus" to="you">
                             <box n="17">I'M SO GLAD YOU AND UNDYNE ARE FRIENDS NOW.</box>
                             <box n="18">YOU TWO GO TOGETHER LIKE PASTA AND BURNING!</box>
                         </sp>
@@ -1988,19 +1988,19 @@
                 </choice>
                 <choice>
                     <option what="select">
-                        <sp who="Papyrus" to="you">
+                        <sp speaker="Papyrus" to="you">
                             <box n="19">HELLO THAT'S NOT MY HOUSE.</box>
                             <box n="20">THAT'S JUST MY COOL TOOLSHED.</box>
                         </sp>
-                        <sp who="Undyne" to="Papyrus">
+                        <sp speaker="Undyne" to="Papyrus">
                             <box n="21">*Do you call it your COOLSHED!?</box>
                         </sp>
-                        <sp who="Papyrus" to="Undyne">
+                        <sp speaker="Papyrus" to="Undyne">
                             <box n="22">NO!!! I'VE NEVER THOUGHT OF THAT!!!</box>
                             <box n="23">THAT'S WHY WE'RE FRIENDS, UNDYNE.</box>
                             <box n="24">YOU ENRICH MY LIFE WITH SHED-BASED PUNS.</box>
                         </sp>
-                        <sp who="Undyne" to="Papyrus">
+                        <sp speaker="Undyne" to="Papyrus">
                             <box n="25">*That's the only one I've every made, dude.</box>
                         </sp>
                     </option>
@@ -2008,7 +2008,7 @@
                 <condition what="reachedCore">
                     <choice>
                         <option what="talkTo">
-                            <sp who="Papyrus" to="you">
+                            <sp speaker="Papyrus" to="you">
                                 <box n="1">OH, HEY...</box>
                                 <box n="2">YOU'RE LEAVING SOON, RIGHT!?</box>
                                 <box n="3">DON'T COME HERE TO SAY GOODBYE!!</box>
@@ -2021,18 +2021,18 @@
             </condition>
         </setting>
         <setting name="SnowdinShop">
-            <sp who="SnowdinShopkeeper" to="you">
+            <sp speaker="SnowdinShopkeeper" to="you">
                 <box n="1">*Hello, traveller. *How can I help you?</box>
             </sp>
-            <sp who="game" to="you">
+            <sp speaker="game" to="you">
                 <box n="1">Buy Sell Talk Exit</box>
             </sp>
             <choice>
                 <option what="Talk">
-                    <sp who="game" to="you">Say hello What to do here Town history Your life
+                    <sp speaker="game" to="you">Say hello What to do here Town history Your life
                         Exit</sp>
                     <option what="sayHello">
-                        <sp who="SnowdinShopkeeper" to="you">
+                        <sp speaker="SnowdinShopkeeper" to="you">
                             <box n="1">*Hiya! Welcome to Snowdin! *I can't remember the last time I
                                 saw a fresh face around here.</box>
                             <box n="2">*Where did you come from? *The capital?</box>
@@ -2042,7 +2042,7 @@
                     </option>
                     <choice>
                         <option what="whatToDoHere">
-                            <sp who="SnowdinShopkeeper" to="you">
+                            <sp speaker="SnowdinShopkeeper" to="you">
                                 <box n="1">*You want to know what to do here in Snowdin?</box>
                                 <box n="2">*Grillby's has food, and the library has
                                     information...</box>
@@ -2059,7 +2059,7 @@
                     </choice>
                     <choice>
                         <option what="townHistory">
-                            <sp who="SnowdinShopkeeper" to="you">
+                            <sp speaker="SnowdinShopkeeper" to="you">
                                 <box n="1">*Think back to your history class...</box>
                                 <box n="2">*A long time ago, monsters lived in the RUINS back there
                                     in the forest.</box>
@@ -2076,7 +2076,7 @@
                     </choice>
                     <choice>
                         <option what="YourLife">
-                            <sp who="SnowdinShopkeeper" to="you">
+                            <sp speaker="SnowdinShopkeeper" to="you">
                                 <box n="2">*Life is the same as usual.</box>
                                 <box n="3">*A little claustrophobic...</box>
                                 <box n="4">*But... we all know deep down that freedom is coming,
@@ -2091,7 +2091,7 @@
             </choice>
             <choice>
                 <option what="Sell">
-                    <sp who="SnowdinShopkeeper" to="you">
+                    <sp speaker="SnowdinShopkeeper" to="you">
                         <box n="2">*Huh? *Sell somethin'? *Does this look like a pawn shop?</box>
                         <box n="3">*I don't know how it works wher ou come from... but...</box>
                         <box n="4">*If I started spending money oon old branches and used bandages,
@@ -2104,7 +2104,7 @@
             </choice>
             <choice>
                 <option what="Exit">
-                    <sp who="SnowdinShopkeeper" to="you">
+                    <sp speaker="SnowdinShopkeeper" to="you">
                         <box n="2">*Bye now! *Come again sometime!</box>
                     </sp>
                 </option>
@@ -2113,7 +2113,7 @@
         <setting name="SnowedInn">
             <choice>
                 <option what="talkTo">
-                    <sp who="InnKeeprsKid" to="you">
+                    <sp speaker="InnKeeprsKid" to="you">
                         <box n="1">*Mom says that sleeping can recover your health above your
                             maximum HP.</box>
                         <box n="2">*... what's maximum HP?</box>
@@ -2122,13 +2122,13 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="InnKeeper" to="you">
+                    <sp speaker="InnKeeper" to="you">
                         <box n="3">*Welcome to Snowed Inn! *Snowdin's premier hotel!</box>
                         <box n="4">*One night is 80G Stay Leave</box>
                     </sp>
                 </option>
                 <option what="Stay">
-                    <sp who="InnKeeper" to="you">
+                    <sp speaker="InnKeeper" to="you">
                         <box n="1">*Here's your room key. *Make sure to bundle up!</box>
                         <box n="3">*Hiya! *You look like you had a great sleep.</box>
                         <box n="4">*Which is incredible, because you were only up there for about
@@ -2137,7 +2137,7 @@
                             overnight.</box>
                     </sp>
                     <condition what="notEnoughG">
-                        <sp who="InnKeeper" to="you">
+                        <sp speaker="InnKeeper" to="you">
                             <box n="1">*... You don't even have 80G?</box>
                             <box n="2">*Oh! You poor thing. *I can only imagine what you've been
                                 through.</box>
@@ -2163,7 +2163,7 @@
         <setting name="Grillbys">
             <choice>
                 <option what="talkTo">
-                    <sp who="DrunkBun" to="you">
+                    <sp speaker="DrunkBun" to="you">
                         <box n="1">*No matter where I go, it's the same menu, the same
                             people...</box>
                         <box n="2">*Help! *I want new drinks an' h-h-h-hot guys!!!!</box>
@@ -2173,10 +2173,10 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="BigMouth" to="you">
+                    <sp speaker="BigMouth" to="you">
                         <box n="4">*Hmmm... *Isn't human food different from monster food?</box>
                         <box n="5">*It does things like "spoil."</box>
-                        <box n="6">*And when you eat it, it passes all the way through your whole
+                        <box n="6">*And when you eat it, it passes all the way through your speakerle
                             body.</box>
                         <box n="7">*Disgusting.</box>
                         <box n="8">*I'd love to try it sometime.</box>
@@ -2186,7 +2186,7 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="PunkHamster" to="you">
+                    <sp speaker="PunkHamster" to="you">
                         <box n="10">*The capital's getting pretty crowded, so I've heard they're
                             going to start moving here.</box>
                         <box n="11">*Hmmm... *I don't wat to see the erasure of our local
@@ -2199,17 +2199,17 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="14">*(The jukebox is broken.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="Grillby" to="you">
+                    <sp speaker="Grillby" to="you">
                         <box n="15">*... *... *...</box>
                     </sp>
-                    <sp who="RedBird" to="you">
+                    <sp speaker="RedBird" to="you">
                         <box n="16">*Gillbz said that he'd offer you a glass of water, but he
                             doesn't touch the stuff.</box>
                     </sp>
@@ -2217,10 +2217,10 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="RedBird" to="you">
+                    <sp speaker="RedBird" to="you">
                         <box n="17">*Those dogs are part of the ROYAL GUARD, the elite military
                             group led by UNDYNE.</box>
-                        <box n="18">*She's rude, loud, and beats up everybody who gets in her
+                        <box n="18">*She's rude, loud, and beats up everybody speaker gets in her
                             way...</box>
                         <box n="19">*It's no wonder all the kids want to be like her when they grow
                             up!</box>
@@ -2231,7 +2231,7 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="UglyFish" to="you">
+                    <sp speaker="UglyFish" to="you">
                         <box n="21">*I "put out a line" for some girls today.</box>
                         <box n="22">*Someone told me that there are plenty of fish in the
                             sea...</box>
@@ -2244,7 +2244,7 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="26">*(It's playing poker against itself.)</box>
                         <box n="27">*(It appears to be losing.)</box>
                     </sp>
@@ -2252,7 +2252,7 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="Dogi" to="you">
+                    <sp speaker="Dogi" to="you">
                         <box n="28">*(We're sentries, but we never get any respect.)</box>
                         <box n="29">*(I wish those skeletons would throw us a bone.)</box>
                         <box n="30">*(We love bones.)</box>
@@ -2261,7 +2261,7 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="Dogi" to="you">
+                    <sp speaker="Dogi" to="you">
                         <box n="31">*You better watch where you sit down in here, kid.</box>
                         <box n="32">*Because that big guy WILL jump into your lap and give you lots
                             of love and attention.</box>
@@ -2270,7 +2270,7 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="Doggo" to="you">
+                    <sp speaker="Doggo" to="you">
                         <box n="33">*I'm thinking of getting a spiked collar to show off my
                             personality.</box>
                         <box n="34">*It makes a statement like... *"Attach a leash to me and take me
@@ -2282,7 +2282,7 @@
         <setting name="Librarby">
             <choice>
                 <option what="talkTo">
-                    <sp who="LibraryLizard">
+                    <sp speaker="LibraryLizard">
                         <box n="1">*Welcome to the library. *Yes ,we know. *The sign is
                             mispelled</box>
                     </sp>
@@ -2290,7 +2290,7 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="ScarfLady" to="you">
+                    <sp speaker="ScarfLady" to="you">
                         <box n="2">*I love working on the newspaper</box>
                         <box n="3">*There's so little to report that we just fill it with comics and
                             games.</box>
@@ -2299,7 +2299,7 @@
             </choice>
             <choice>
                 <option what="talkTo">
-                    <sp who="LadyGarf">
+                    <sp speaker="LadyGarf">
                         <box n="4">*(cough, cough)</box>
                         <box n="5">*When I was younger, my teachers gave me word searches when they
                             ran out of assignments.</box>
@@ -2312,7 +2312,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="9">*(It's a school report about monster funerals.)</box>
                         <box n="10">*Monster funerals, technically speaking, are cool as heck.</box>
                         <box n="11">*When monsters get old and kick the bucket, they turn into
@@ -2327,7 +2327,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="15">*While monsters are mostly made of magic, human beings are
                             mostly made of water.</box>
                         <box n="16">*Humans , with their physical forms, are far stronger than
@@ -2340,7 +2340,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="19">*(Her I am... *Writing this book.)</box>
                         <box n="20">*(A person comes in and picks up the book...)</box>
                         <box n="21">*(They start reading it...!)</box>
@@ -2350,7 +2350,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="23">*Because they are made of magic, monsters' bodies are attuned to
                             their SOUL.</box>
                         <box n="24">*If a monster doesn't want to fight, its defenses will
@@ -2365,7 +2365,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="28">**"MONSTER HISTORY PART 4"</box>
                         <box n="29">*Fearing the humans no longer, we moved out of our old city,
                             HOME.</box>
@@ -2379,7 +2379,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="34">*Love, hope, compassion... *This is what people say monster
                             SOULs are made of.</box>
                         <box n="35">*But the absolute nature of "SOUL" is unknown.</box>
@@ -2391,7 +2391,7 @@
             <condition what="pickedJrJumble">
                 <choice>
                     <option what="talkTo">
-                        <sp who="LibraryLoox" to="you">
+                        <sp speaker="LibraryLoox" to="you">
                             <box n="1">*That look in your eye...</box>
                             <box n="2">*You're someone that has difficulty solving Junior Jumble,
                                 aren't you?</box>
@@ -2402,7 +2402,7 @@
             <condition what="pickedCrossword">
                 <choice>
                     <option what="talkTo">
-                        <sp who="LibraryLoox" to="you">
+                        <sp speaker="LibraryLoox" to="you">
                             <box n="1">*That look in your eye...</box>
                             <box n="2">*You're someone that has trouble doing crosswords, aren't
                                 you?</box>
@@ -2413,7 +2413,7 @@
             <condition what="postUndyne">
                 <choice>
                     <option what="talkTo">
-                        <sp who="LibraryLizard" to="you">
+                        <sp speaker="LibraryLizard" to="you">
                             <box n="1">*Yes, we know *The sign is mispelled.</box>
                             <box n="2">*We have someone working on it!</box>
                         </sp>
@@ -2421,7 +2421,7 @@
                 </choice>
                 <choice>
                     <option what="talkTo">
-                        <sp who="LibraryLoox" to="you">
+                        <sp speaker="LibraryLoox" to="you">
                             <box n="3">*That look in your eye...</box>
                             <box n="4">*You think Sudoku is just moderately challenging, don't
                                 you?</box>
@@ -2430,7 +2430,7 @@
                 </choice>
                 <choice>
                     <option what="talkTo">
-                        <sp who="ScarfLady" to="you">
+                        <sp speaker="ScarfLady" to="you">
                             <box n="5">*Yes. *I illustrate all of the comics myself.</box>
                             <box n="6">*Yes. *I give everyone huge beautiful eyes and giant
                                 muscles.</box>
@@ -2439,7 +2439,7 @@
                 </choice>
                 <choice>
                     <option what="talkTo">
-                        <sp who="LadyGarf" to="you">
+                        <sp speaker="LadyGarf" to="you">
                             <box n="7">*(cough,cough)</box>
                             <box n="8">*There's a day I just don't want to work.</box>
                             <box n="9">*It's called "Today."</box>
@@ -2451,21 +2451,21 @@
         <setting name="PapyrusAndSansHouse">
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="1">*</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="1">*(This rock is covered in sprinkles.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="2">*(You touch the couch.) *(It makes a jangling sound.)</box>
                         <box n="3">*(You find a bunch of loose coins inside the couch...)</box>
                         <box n="4">*(You got 20G.)</box>
@@ -2475,7 +2475,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="6">*(It's a joke book.)</box>
                         <box n="7">*(Take a look inside?) Yes No</box>
                         <option what="Yes">
@@ -2492,14 +2492,14 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="14">*(It says "STAY TUNED FOR A NEW PROGRAM - MTT.")</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="15">*(It's a dirty sock with a series of notes on it.)</box>
                         <box n="16">SANS! PLEASE PICK UP YOUR SOCK!</box>
                         <box n="17">*ok.</box>
@@ -2517,7 +2517,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="27">*(It's the door to Papyrus's room.)</box>
                         <box n="28">*(It's covered in many labels...)</box>
                         <box n="29">- (NO BOYS ALLOWED!)</box>
@@ -2528,42 +2528,42 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="32">*(It's a painting of a cartoon bone.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="33">*(The door is locked.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="34">*(You visited the trash can.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="35">*(There's an empty pie tin inside the stove.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="36">*(This sink is so tall, you can't even wash your hands...)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="37">*(Half of the fridge is filled with containers all labelled
                             "spaghetti.")</box>
                         <box n="38">*(The other half contains nothing but an empty bag of
@@ -2575,14 +2575,14 @@
         <setting name="PapyrusRoom">
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="1">*(It's a box of bones.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="2">*(The computer's internet browser is opened to a social media
                             site.)</box>
                     </sp>
@@ -2590,7 +2590,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="3">*(Look in the closet?) Yes No</box>
                         <option what="Yes">
                             <box n="4">*(Clothes are hung up neatly inside.)</box>
@@ -2600,7 +2600,7 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="5">*(The bookshelf is filled with complex tomes about puzzle
                             creation.)</box>
                         <box n="6">*(And children's books.)</box>
@@ -2609,28 +2609,28 @@
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="7">*(It's a beat-up pirate flag.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="8">*(Action figures of many sexy robots.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="select">
-                    <sp who="game" to="you">
+                    <sp speaker="game" to="you">
                         <box n="9">*(It's a racecar bed, neatly made.)</box>
                     </sp>
                 </option>
             </choice>
         </setting>
         <setting name="PapyrusArena">
-            <sp who="Papyrus" to="you">
+            <sp speaker="Papyrus" to="you">
                 <box n="1">HUMAN.</box>
                 <box n="2">ALLOW ME TO TELL YOU ABOUT SOME COMPLEX FEELINGS.</box>
                 <box n="3">FEELINGS LIKE...</box>
@@ -2658,19 +2658,19 @@
                 <box n="25">OF THE ROYAL GUARD!</box>
             </sp>
             <condition what="sparePapyrus">
-                <sp who="Papyrus" to="you">
+                <sp speaker="Papyrus" to="you">
                     <box n="1">NYOO HOO HOO...</box>
                     <box n="2">I CAN'T EVEN STOP SOMEONE AS WEAK AS YOU...</box>
                     <box n="3">UNDYNE'S GOING TO BE DISAPPOINTED IN ME.</box>
                     <box n="4">I'LL NEVER JOIN THE ROYAL GUARD AND...</box>
                     <box n="5">MY FRIEND QUANTITY WILL REMAIN STAGNANT!</box>
                 </sp>
-                <sp who="game" to="you">
+                <sp speaker="game" to="you">
                     <box n="1">*(What should you say?) Let's be friends What a loser</box>
                 </sp>
                 <choice>
                     <option what="WhatALoser">
-                        <sp who="Papyrus" to="you">
+                        <sp speaker="Papyrus" to="you">
                             <box n="2">HUH? WHY WOULD YOU...</box>
                             <box n="3">BERATE YOURSELF SO LOUDLY???</box>
                             <box n="4">IS IT BECAUSE...</box>
@@ -2679,7 +2679,7 @@
                         </sp>
                     </option>
                     <option what="LetsBeFriends">
-                        <sp who="Papyrus" to="you">
+                        <sp speaker="Papyrus" to="you">
                             <box n="2">REALLY!? YOU WANT TO BE FRIENDS, WITH ME???</box>
                             <box n="3">WELL THEN...</box>
                             <box n="4">I GUESS...</box>
@@ -2689,13 +2689,13 @@
                 </choice>
             </condition>
             <condition what="datingPapyrus">
-                <sp who="Papyrus" to="you">
+                <sp speaker="Papyrus" to="you">
                     <box n="1">WOWIE!! WE HAVEN'T EVEN HAD OUR FIRST DATE...</box>
                     <box n="2">AND I'VE ALREADY MANGAGED TO HIT THE FRIEND ZONE!!!</box>
                     <box n="3">WHO KNEW THAT ALL I NEEDED TO MAKE PALS...</box>
                 </sp>
             </condition>
-            <sp who="Papyrus" to="you">
+            <sp speaker="Papyrus" to="you">
                 <box n="1">WAS TO GIVE PEOPLE AWFUL PUZZLES AND THEN FIGHT THEM??</box>
                 <box n="2">YOU TAUGHT ME A LOT, HUMAN.</box>
                 <box n="3">I HERBY GRANT YOU PERMISSION TO PASS THROUGH!</box>

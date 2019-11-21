@@ -51,8 +51,8 @@
                     <option what="Im_busy">
                         <sp speaker="Sans">
                             <box n="16" who="Sans" to="you">*Ok. havefun. </box>
-                        </sp>
-                        <box n="17" who="Sans" to="you">*over here. *i know a shortcut</box>
+                        
+                        <box n="17" who="Sans" to="you">*over here. *i know a shortcut</box></sp>
                     </option>
                 </choice>
             </sp>
