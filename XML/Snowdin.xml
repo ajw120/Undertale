@@ -48,7 +48,7 @@
                     <box n="3">*Turn around and shake my hand.</box>
                     <box n="4">*</box>
                     <box n="5">*</box>
-                    <box n="6">*heheh... the old speakeropee cushion in the hand trick.</box>
+                    <box n="6">*heheh... the old whoopee cushion in the hand trick.</box>
                     <box n="7">*it's ALWAYS funny.</box>
                     <box n="8">*anyways, you're a human, right?</box>
                     <box n="9">*that's hilarious.</box>
@@ -57,7 +57,7 @@
             <condition what="reset">
                 <sp speaker="Sans" to="you">
                     <box n="1">*Human.</box>
-                    <box n="2">*heh, the old speakeropee cushion in the hand trick...</box>
+                    <box n="2">*heh, the old whoopee cushion in the hand trick...</box>
                     <box n="3">*wait a sec... *have you heard it before or something?</box>
                     <box n="4">*you turned around before i said to... *...weird.</box>
                     <box n="5">*...whatever. *you're a human, right?</box>
@@ -478,7 +478,7 @@
                 </sp>
                 <sp speaker="Sans" to="Papyrus">
                     <box n="3">*do you not know...</box>
-                    <box n="4">*speaker you know?</box>
+                    <box n="4">*who you know?</box>
                 </sp>
                 <sp speaker="Papyrus" to="Sans">
                     <box n="5">PBPBPPBPT!!</box>
@@ -624,7 +624,7 @@
                             </option>
                         </condition>
                         <condition what="orange">
-                            <box n="1">*ORANGE - You are the kind of person speaker rushes fists-first
+                            <box n="1">*ORANGE - You are the kind of person who rushes fists-first
                                 through all obstacles.</box>
                             <box n="2">*(You are awarded 5G.)</box>
                             <option what="select">
@@ -706,7 +706,7 @@
                 <box n="6">SANS!! THAT DIDN'T DO ANYTHING!</box>
             </sp>
             <sp speaker="Sans" to="Papyrus">
-                <box n="7">*speakerops.</box>
+                <box n="7">*whoops.</box>
                 <box n="8">*i knew i should have used today's crossword instead.</box>
             </sp>
             <sp speaker="Papyrus" to="Sans">
@@ -2176,7 +2176,7 @@
                     <sp speaker="BigMouth" to="you">
                         <box n="4">*Hmmm... *Isn't human food different from monster food?</box>
                         <box n="5">*It does things like "spoil."</box>
-                        <box n="6">*And when you eat it, it passes all the way through your speakerle
+                        <box n="6">*And when you eat it, it passes all the way through your whole
                             body.</box>
                         <box n="7">*Disgusting.</box>
                         <box n="8">*I'd love to try it sometime.</box>
@@ -2220,7 +2220,7 @@
                     <sp speaker="RedBird" to="you">
                         <box n="17">*Those dogs are part of the ROYAL GUARD, the elite military
                             group led by UNDYNE.</box>
-                        <box n="18">*She's rude, loud, and beats up everybody speaker gets in her
+                        <box n="18">*She's rude, loud, and beats up everybody who gets in her
                             way...</box>
                         <box n="19">*It's no wonder all the kids want to be like her when they grow
                             up!</box>
