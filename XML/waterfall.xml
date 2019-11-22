@@ -4,7 +4,7 @@
     <path route="neutral genocide pacifist">
         <setting name="SansStation">
             <sp speaker="MonsterKid">
-                <box n="1" speaker="MonsterKid" to="you">*Yo! *Are you sneaking out to see her,
+                <box n="1">*Yo! *Are you sneaking out to see her,
                     too?</box>
                 <box n="2" speaker="MonsterKid" to="you">*Awesome... *She's the coolest, right!?</box>
                 <box n="3" speaker="MonsterKid" to="you">*I wanna be just like her when I grow
