@@ -4,7 +4,7 @@ map = element map {name, path+}
 path = element path {route, setting*, sp*}
 route = attribute route {list {("pacifist" | "neutral" | "genocide")*}}
 setting = element setting {name, (sp | choice | battle | conditions | path)*}
-name =  attribute name{"Waterfall" |"Ruins" |
+name =  attribute name{"Waterfall" |"Ruins" | "FloweyHall" | "RuinsEntrance" | "1stPuzzleRoom" | "LablledSwitchRoom" | "DummyRoom" | "1stMonsterBattle" | "SpikedTileRoom" | "IndependenceHallway" | "LeafPileSaveRoom" | "MonsterCandyRoom" | "1stRockPuzzle" | "DontStepOnTheLeavesRoom" | "2ndCrackedTileRoom" | "2ndRockPuzzleRoom" | "TableWithCheeseRoom" | "NapstablookRoom" | "SpiderBakeSale" | 
 "SansStation" | "SnailFarm"| "napstablookhouse"|"FallingRocks" | "TutuRoom" | "1stUndyneEncounter" | "1stBridgeSeedRoom" | "2ndBridgeSeedRoom" | "QuicheRoom" | "WishingRoom" | "HistoryPlaque" | "SeaWeedHidingSpot" | "MouseRoom" | "SansTelescopeRoom" | "UndyneHouse" |
 "Undyne" | "Snowdin" }
 # 2019-11-07 ebb: We'll need Schematron to control which names are allowed on which specific elements.
@@ -32,7 +32,7 @@ holding= attribute holding {text}
 killed = attribute killed {text}
 spared = attribute spared {text}
 fought = attribute fought {text}
-box = element box {n, (speaker | to)? }
+box = element box {n, (speaker | to)*, text }
 # ebb: We need Schematron to refine this.
 # ebb: REFINE THIS with specific values.
 # ebb: REFINE THIS with specific values.
