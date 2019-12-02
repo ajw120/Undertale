@@ -3,7 +3,7 @@ start = map
 map = element map {name, path+}
 path = element path {route, setting*, sp*}
 route = attribute route {list {("pacifist" | "neutral" | "genocide")*}}
-setting = element setting {name, (sp | choice | battle | conditions | path)*}
+setting = element setting {name, (sp | choice | option | battle | conditions | path)*}
 name =  attribute name{"Waterfall" |"Ruins" | "FloweyHall" | "RuinsEntrance" | "1stPuzzleRoom" | "LablledSwitchRoom" | "DummyRoom" | "1stMonsterBattle" | "SpikedTileRoom" | "IndependenceHallway" | "LeafPileSaveRoom" | "MonsterCandyRoom" | "1stRockPuzzle" | "DontStepOnTheLeavesRoom" | "2ndCrackedTileRoom" | "2ndRockPuzzleRoom" | "TableWithCheeseRoom" | "NapstablookRoom" | "SpiderBakeSale" | 
 "SansStation" | "SnailFarm"| "napstablookhouse"|"FallingRocks" | "TutuRoom" | "1stUndyneEncounter" | "1stBridgeSeedRoom" | "2ndBridgeSeedRoom" | "QuicheRoom" | "WishingRoom" | "HistoryPlaque" | "SeaWeedHidingSpot" | "MouseRoom" | "SansTelescopeRoom" | "UndyneHouse" |
 "Undyne" | "Snowdin" }
