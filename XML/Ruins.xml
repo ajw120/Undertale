@@ -71,8 +71,8 @@
             <choice>
                 <option what="gameSave">
                     <sp speaker="determination game" to="you">
-                        <box n="1">*(The shadow of the ruins looms
-                            above, filling you with determination.)</box>
+                        <box n="1">*(The shadow of the ruins looms above, filling you with
+                            determination.)</box>
                     </sp>
                 </option>
             </choice>
@@ -248,51 +248,46 @@
             </choice>
         </setting>
         <setting name="MonsterCandyRoom">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*It says 'take one.' *Take a piece of candy? Yes No</box>
-                        <option what="No">
-                            <box n="3">*You decided not to take some.</box>
-                        </option>
-                        <option what="Yes">
-                            <conditions item="full">
-                                <box n="6">*You tried to take a piece of candy, but you didn't have
-                                    any room.</box>
-                            </conditions>
-                        </option>
-                        <option what="Yes"><box n="2"/>*You took a piece of candy. *(Press [C] to
-                            open the menu.)</option>
-                        <option what="select">
-                            <conition candy="tookOne">
-                                <box n="1">*'Take one.' *Take a candy? Yes No</box>
-                                <option what="Yes">
-                                    <box n="2">*You took more candy. *How disgusting..</box>
-                                </option>
-                            </conition>
-                        </option>
-                        <option what="select">
-                            <conditions candy="tookTwo">
-                                <box n="1">*'Take one.' *Take a candy? Yes No</box>
-                                <option what="Yes">
-                                    <box n="2">*You take another piece. *You feelf like the scum of
-                                        the earth...</box>
-                                </option>
-                            </conditions>
-                        </option>
-                        <option what="gameNarr">
-                            <conditions candy="tookThree">
-                                <box n="1">*'Take one.' *Take a candy? Yes No</box>
-                                <option what="Yes">
-                                    <box n="2">*You took too much too fast. *The candy spills onto
-                                        the floor.</box>
-                                    <box n="3">*Look at what you've done.</box>
-                                </option>
-                            </conditions>
-                        </option>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*It says 'take one.' *Take a piece of candy? Yes No</box>
+
+                    <box n="3">*You decided not to take some.</box>
+
+
+
+                    <box n="6">*You tried to take a piece of candy, but you didn't have any
+                        room.</box>
+
+
+                    <box n="2">*You took a piece of candy. *(Press [C] to open the menu.)</box>
+
+
+                    <box n="1">*'Take one.' *Take a candy? Yes No</box>
+
+                    <box n="2">*You took more candy. *How disgusting..</box>
+
+
+
+
+
+                    <box n="1">*'Take one.' *Take a candy? Yes No</box>
+
+                    <box n="2">*You take another piece. *You feelf like the scum of the
+                        earth...</box>
+
+
+
+
+
+                    <box n="1">*'Take one.' *Take a candy? Yes No</box>
+
+                    <box n="2">*You took too much too fast. *The candy spills onto the floor.</box>
+                    <box n="3">*Look at what you've done.</box>
+                </sp>
+            </option>
+
         </setting>
         <setting name="1stRockPuzzle">
             <sp speaker="cellPhone Toriel" to="you">
@@ -301,31 +296,29 @@
                 <box n="3">*For no reason in particular... *Which do you prefer?</box>
                 <box n="4">Cinnamon or butterscotch? Cinnamon Bscotch</box>
                 <choice>
-                    <option what="Cinnamon Bscotch">
+                    <option what="gameNarr">
                         <box n="5">*Oh, I see. *Thank you very much!</box>
                         <box n="6">*Click...</box>
                         <box n="1">*Ring...</box>
                         <box n="2">*Hello? *This is TORIEL.</box>
-                        <box n="3A" select="Bscotch">*You do not DISLIKE cinnamon, do you?</box>
-                        <box n="3B" select="Cinnamon">*You do not DISLIKE butterscotch, do
-                            you?</box>
+                        <box n="3">*You do not DISLIKE cinnamon, do you?</box>
+                        <box n="3">*You do not DISLIKE butterscotch, do you?</box>
                         <box n="4">*I know what your preference is, but...</box>
                         <box n="5">*Would you turn up your nose if you found it on your plate?</box>
                         <box n="6">*Right, right, I understand.</box>
                         <box n="7">*Thank you for being patient, by the way.</box>
                         <box n="8">*Click...</box>
                     </option>
-                    <option what="Cinnamon"/>
                 </choice>
             </sp>
             <choice>
-                <option what="read">
+                <option what="gameNarr">
                     <sp speaker="sign" to="you">
                         <box n="1">*Three out of four grey rocks recommend you push them.</box>
                     </sp>
                 </option>
             </choice>
-            <sp speaker="cellPhone Toriel">
+            <sp speaker="cellPhone Toriel" to="you">
                 <box n="1">*Ring...</box>
                 <box n="2">*Hello?</box>
                 <box n="3">*You do not have any allergies, do you ?</box>
@@ -336,7 +329,7 @@
         </setting>
         <setting name="DontStepOnTheLeavesRoom">
             <choice>
-                <option what="read">
+                <option what="gameNarr">
                     <sp speaker="sign" to="you">
                         <box n="1">*Please don't step on the leaves.</box>
                     </sp>
@@ -345,7 +338,7 @@
         </setting>
         <setting name="2ndCrackedTileRoom">
             <choice>
-                <option what="read">
+                <option what="gameNarr">
                     <sp speaker="sign" to="you">
                         <box n="1">*Didn't you read the sign downstairs?</box>
                     </sp>
@@ -369,8 +362,8 @@
         </setting>
         <setting name="TableWithCheeseRoom">
             <choice>
-                <option what="select saveGame" HP="restore">
-                    <sp speaker="determination">
+                <option what="gameSave">
+                    <sp speaker="determination" to="you">
                         <box n="1">*(Knowing the mouse might one day leave its hole and get the
                             cheese...)</box>
                         <box n="2">*(It fills you with determination.)</box>
@@ -378,7 +371,7 @@
                 </option>
             </choice>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="4">*This cheese has been here quite a long time.</box>
                         <box n="5">*It's stuck to the table...</box>
@@ -395,9 +388,9 @@
                 <box n="3">*(This ghost keeps saying 'z' out loud repeatedly, pretending to
                     sleep.)</box>
                 <box n="4">*Move it with force? Yes No</box>
-                <option what="Yes"/>
+
             </sp>
-            <choice what="spare kill">
+            <choice>
                 <option what="spare">
                     <sp speaker="Napstablook" to="you">
                         <box n="1">*i usually come to the RUINS because there's nobody
@@ -412,139 +405,131 @@
         </setting>
         <setting name="SpiderBakeSale">
             <choice>
-                <option what="read">
+                <option what="gameNarr">
                     <sp speaker="sign" to="you">
                         <box n="1">*Spider Bake Sale *All proceeds go to real spiders.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="2">*Leave 7G in the web? Yes No</box>
                     </sp>
                 </option>
-                <option what="yes">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="3">*Some spiders crawled down and gave you a donut.</box>
-                        <conditions what="NotEnoughGold">
-                            <box n="1">*You didn't have enough gold.</box>
-                        </conditions>
-                        <conditions what="ItemFull">
-                            <box n="1">*You are carrying too many items.</box>
-                        </conditions>
+
+                        <box n="1">*You didn't have enough gold.</box>
+
+
+                        <box n="1">*You are carrying too many items.</box>
+
                     </sp>
                 </option>
             </choice>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="4">*Leave 18G in the web? Yes No</box>
                     </sp>
                 </option>
-                <option what="Yes">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="5">*Some spiders crawled down and gave you a jug.</box>
-                        <conditions what="NotEnoughGold">
-                            <box n="2">*You didn't have enough gold.</box>
-                        </conditions>
-                        <conditions what="ItemFull">
-                            <box n="1">*You are carrying too many items.</box>
-                        </conditions>
+
+                        <box n="2">*You didn't have enough gold.</box>
+
+
+                        <box n="1">*You are carrying too many items.</box>
+
                     </sp>
                 </option>
             </choice>
         </setting>
         <setting name="FroggitHallway">
-            <choice>
-                <option what="read">
-                    <sp speaker="sign" to="you">
-                        <box n="1">*Did you miss it? *Spider Bakesale down and to the right.</box>
-                        <box n="2">*Come eat food made by spiders, for spiders of spiders!</box>
-                    </sp>
-                </option>
-                <choice>
-                    <option what="talkTo">
-                        <sp speaker="Froggit1">
-                            <box n="3">*Ribbit, ribbit. *(Sigh...)</box>
-                            <box n="4">*(My friend never listens to me.)</box>
-                            <box n="5">*(Whenevre I talk, they skip through my words by pressing
-                                [X].)</box>
-                            <box n="6">*(That's right.......) *(Pressing [X]............)
-                                *(................)</box>
-                            <box n="7A">*(Well, at least you listen to me.)</box>
-                            <box n="7B">*(Oh, not you too!)</box>
-                        </sp>
-                    </option>
-                </choice>
-                <choice>
-                    <option what="talkTo">
-                        <sp speaker="Froggit2">
-                            <box n="8">*Ribbit, ribbit. *(I heard using "F4" can make you have a
-                                "full screen.") </box>
-                            <box n="9">*(But what does "F4" stand for?) *("Four Frogs"?)</box>
-                            <box n="10">*(I have only seen a maximum of three frogs in this
-                                room...)</box>
-                            <box n="11">*(This is troubling, to say the least.) *Ribbit.</box>
-                        </sp>
-                    </option>
-                </choice>
-                <choice>
-                    <option what="select">
-                        <sp speaker="game" to="you">
-                            <box n="12">*(There's an ant-sized frog in a crack in the wall...) *(It
-                                waves at you.)</box>
-                        </sp>
-                    </option>
-                </choice>
-                <choice>
-                    <option what="talkTo">
-                        <sp speaker="Froggit3">
-                            <box n="13">*Ribbit, ribbit. *(I have heard you are quite merciful, for
-                                a human...)</box>
-                            <box n="14">*(Surely you know by now a monster wears a YELLOW name when
-                                you can SPARE it.)</box>
-                        </sp>
-                    </option>
-                </choice>
-                <sp speaker="cellPhone Toriel">
-                    <box n="15">*Ring...</box>
-                    <box n="16">*Hello?</box>
-                    <box n="17">*I just realized that it has been a while since I have cleaned
-                        up.</box>
-                    <box n="18">*I was not expecting to have company so soon.</box>
-                    <box n="19">*There are probably a lot of things lying about here and
-                        there.</box>
-                    <box n="20">*You can pick them up, but do not carry more than you need.</box>
-                    <box n="21">*Someday you might see something you really like.</box>
-                    <box n="22">*You will want to leave room in your pockets for that.</box>
-                    <box n="23">*Click...</box>
+
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="1">*Did you miss it? *Spider Bakesale down and to the right.</box>
+                    <box n="2">*Come eat food made by spiders, for spiders of spiders!</box>
                 </sp>
-            </choice>
+            </option>
+
+            <option what="gameNarr">
+                <sp speaker="Froggit1" to="you">
+                    <box n="3">*Ribbit, ribbit. *(Sigh...)</box>
+                    <box n="4">*(My friend never listens to me.)</box>
+                    <box n="5">*(Whenevre I talk, they skip through my words by pressing [X].)</box>
+                    <box n="6">*(That's right.......) *(Pressing [X]............)
+                        *(................)</box>
+                    <box n="7">*(Well, at least you listen to me.)</box>
+                    <box n="7">*(Oh, not you too!)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="Froggit2" to="you">
+                    <box n="8">*Ribbit, ribbit. *(I heard using "F4" can make you have a "full
+                        screen.") </box>
+                    <box n="9">*(But what does "F4" stand for?) *("Four Frogs"?)</box>
+                    <box n="10">*(I have only seen a maximum of three frogs in this room...)</box>
+                    <box n="11">*(This is troubling, to say the least.) *Ribbit.</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="12">*(There's an ant-sized frog in a crack in the wall...) *(It waves at
+                        you.)</box>
+                </sp>
+            </option>
+
+            <option what="gameNarr">
+                <sp speaker="Froggit3" to="you">
+                    <box n="13">*Ribbit, ribbit. *(I have heard you are quite merciful, for a
+                        human...)</box>
+                    <box n="14">*(Surely you know by now a monster wears a YELLOW name when you can
+                        SPARE it.)</box>
+                </sp>
+            </option>
+
+            <sp speaker="cellPhone Toriel" to="you">
+                <box n="15">*Ring...</box>
+                <box n="16">*Hello?</box>
+                <box n="17">*I just realized that it has been a while since I have cleaned up.</box>
+                <box n="18">*I was not expecting to have company so soon.</box>
+                <box n="19">*There are probably a lot of things lying about here and there.</box>
+                <box n="20">*You can pick them up, but do not carry more than you need.</box>
+                <box n="21">*Someday you might see something you really like.</box>
+                <box n="22">*You will want to leave room in your pockets for that.</box>
+                <box n="23">*Click...</box>
+            </sp>
+
         </setting>
-        <setting name="SixHolesRoom" where="BottomMiddle">
-            <choice>
-                <option what="talkTo">
-                    <sp speaker="Napstablook" to="you"/>
-                    <box n="1">*i fell down a hole... *now i cant get up...</box>
-                    <box n="2">*go on without me...</box>
-                    <box n="3">*wait, ghosts can fly, can't they...</box>
-                    <box n="4">*oh well...</box>
-                </option>
-            </choice>
+        <setting name="SixHolesRoom">
+            <option what="gameNarr">
+                <sp speaker="Napstablook" to="you"/>
+                <box n="1">*i fell down a hole... *now i cant get up...</box>
+                <box n="2">*go on without me...</box>
+                <box n="3">*wait, ghosts can fly, can't they...</box>
+                <box n="4">*oh well...</box>
+            </option>
+
         </setting>
         <setting name="SixSwitchesPuzzle">
             <choice>
-                <option what="read">
+                <option what="gameNarr">
                     <sp speaker="sign" to="you">
                         <box n="1">*There is just one switch.</box>
                     </sp>
                 </option>
             </choice>
         </setting>
-        <setting name="SwitchesRoom" perspective="A">
+        <setting name="SwitchesRoom">
             <choice>
-                <option what="read">
+                <option what="gameNarr">
                     <sp speaker="sign" to="you">
                         <box n="1">*The far door is not an exit. *It simply marks a rotation in
                             perspective.</box>
@@ -552,104 +537,96 @@
                 </option>
             </choice>
             <choice>
-                <option what="select blueSwitch">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="2">*It's a switch *Press it? Yes No</box>
                     </sp>
                 </option>
-                <option what="Yes">
+                <option what="gameNarr">
                     <box n="3">*Nothing happened.</box>
                 </option>
             </choice>
             <choice>
-                <option what="select yellowSwitch">
+                <option what="gameNarr">
                     <box n="4">*It's a switch *Press it? Yes No</box>
-                    <option what="Yes">
-                        <box n="5">*Nothing happened.</box>
-                    </option>
+                    <box n="5">*Nothing happened.</box>
                 </option>
             </choice>
             <choice>
-                <option what="select redSwitch">
+                <option what="gameNarr">
                     <box n="6">*It's a switch *Press it? Yes No</box>
-                    <option what="Yes">
-                        <box n="5">*Nothing happened.</box>
-                    </option>
+
+                    <box n="5">*Nothing happened.</box>
+
                 </option>
             </choice>
             <choice>
-                <option what="select">
-                    <conditions what="PressingTheSwitchesTooManyTimes">
-                        <sp speaker="game" to="you">
-                            <box n="1">*You're making the switches uncomfortable with all this
-                                attention.</box>
-                        </sp>
-                    </conditions>
-                </option>
-            </choice>
-        </setting>
-        <setting name="SwitchesRoom" persepective="B">
-            <choice>
-                <option what="read">
-                    <sp speaker="sign" to="you">
-                        <box n="1">*If you can read this, press the blue switch.</box>
-                    </sp>
-                </option>
-                <conditions what="foundBlueSwitch">
+                <option what="gameNarr">
+
                     <sp speaker="game" to="you">
-                        <box n="1">*(You noticed there was a blue switch behind the top
-                            pillar.)</box>
-                        <option what="select">
-                            <sp speaker="game" to="you">
-                                <box n="2">*It's a switch *Press it? Yes No</box>
-                                <option what="Yes">
-                                    <box n="3">*You hear a clicking sound.</box>
-                                </option>
-                            </sp>
-                        </option>
+                        <box n="1">*You're making the switches uncomfortable with all this
+                            attention.</box>
                     </sp>
-                </conditions>
+
+                </option>
             </choice>
         </setting>
-        <seting name="SwitchesRoom" perspective="C">
+        <setting name="SwitchesRoom">
+
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="1">*If you can read this, press the blue switch.</box>
+                </sp>
+
+                <box n="1">*(You noticed there was a blue switch behind the top pillar.)</box>
+
+                <sp speaker="game" to="you">
+                    <box n="2">*It's a switch *Press it? Yes No</box>
+
+                    <box n="3">*You hear a clicking sound.</box>
+
+                </sp>
+            </option>
+
+
+
+        </setting>
+        <setting name="SwitchesRoom">
             <choice>
-                <option what="read">
+                <option what="gameNarr">
                     <sp speaker="sign" to="you">
                         <box n="1">*If you can read this, press the red switch.</box>
                     </sp>
                 </option>
-                <option what="select redSwitch">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="4">*It's a switch. *Press it? Yes No</box>
-                        <option what="Yes">
-                            <box n="5">*You hear a clicking sound.</box>
-                        </option>
+                        <box n="5">*You hear a clicking sound.</box>
+
                     </sp>
                 </option>
             </choice>
-        </seting>
-        <setting name="SwitchesRoom" perspective="D">
+        </setting>
+        <setting name="SwitchesRoom">
             <choice>
-                <option what="read">
+                <option what="gameNarr">
                     <sp speaker="sign" to="you">
                         <box n="3">*If you can read this, press the green switch.</box>
                     </sp>
                 </option>
-                <conditions what="foundGreenSwitch">
-                    <option what="select">
-                        <sp speaker="game" to="you">
-                            <box n="4">*It's a switch *Press it? Yes No</box>
-                            <option what="Yes">
-                                <box n="5">*You hear a clicking sound.</box>
-                            </option>
-                        </sp>
-                    </option>
-                </conditions>
+                <option what="gameNarr">
+                    <sp speaker="game" to="you">
+                        <box n="4">*It's a switch *Press it? Yes No</box>
+
+                        <box n="5">*You hear a clicking sound.</box>
+
+                    </sp>
+                </option>
             </choice>
         </setting>
         <setting name="FroggitNearToyKnife">
             <choice>
-                <option what="talkTo">
+                <option what="gameNarr">
                     <sp speaker="Froggit" to="you">
                         <box n="1">*Ribbit, ribbit *(Just between you and me...)</box>
                         <box n="2">*(I saw TORIEL come out of here just a little while ago.)</box>
@@ -662,7 +639,7 @@
         </setting>
         <setting name="ToyKnifeRoom">
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="1">*You found the Toy Knife.</box>
                     </sp>
@@ -673,18 +650,18 @@
             <sp speaker="Toriel" to="you">
                 <box n="1">*Oh dear, that took longer than I thought it would.</box>
                 <box n="3">*How did you get here, my child? *Are you hurt?</box>
-                <conditions what="fullHP">
-                    <box n="1">*Not a scratch... *Impressive! *But still...</box>
-                </conditions>
-                <conditions what="wounded">
-                    <box n="1">*There, there, I will heal you.</box>
-                </conditions>
-                <conditions what="2HPorLess">
-                    <box n="1">*Who did this to you? *You will get an apology.</box>
-                </conditions>
+
+                <box n="1">*Not a scratch... *Impressive! *But still...</box>
+
+
+                <box n="1">*There, there, I will heal you.</box>
+
+
+                <box n="1">*Who did this to you? *You will get an apology.</box>
+
             </sp>
         </setting>
-        <setting name="EntranceToToriel'sHome">
+        <setting name="EntranceToTorielsHome">
             <sp speaker="Toriel" to="you">
                 <box n="1">*I should not have left you alone for so long.</box>
                 <box n="2">*It was irresponsible to try to surprise you like this.</box>
@@ -692,20 +669,20 @@
                 <box n="4">*Well, I suppose I cannot hide it any longer.</box>
                 <box n="5">*Come, small one!</box>
             </sp>
-            <option what="select">
+            <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="6">*Every time this old tree grows any leaves, they fall right
                         off.</box>
                 </sp>
             </option>
-            <option what="select saveGame" HP="restore">
+            <option what="gameSave">
                 <sp speaker="determination" to="you">
                     <box n="7">*(Seeing such a cute, tidy house in the RUINS gives you
                         determination.)</box>
                 </sp>
             </option>
         </setting>
-        <setting name="TorielHome">
+        <setting name="TorielsHome">
             <sp speaker="Toriel" to="you">
                 <box n="1">*Do you smell that?</box>
                 <box n="2">*Surprise!</box>
@@ -715,28 +692,28 @@
                 <box n="6">*So I will hold off on snail pie for tonight.</box>
                 <box n="7">*Here, I have another surprise for you.</box>
                 <choice>
-                    <option what="select">
+                    <option what="gameNarr">
                         <box n="8">*Inside is an old calendar from the beginning of 201X.</box>
                     </option>
                 </choice>
                 <choice>
-                    <option what="select">
+                    <option what="gameNarr">
                         <box n="9">*These books are worn... *They must have been read many
                             times.</box>
                     </option>
                 </choice>
             </sp>
         </setting>
-        <setting name="TorielLivingRoom">
+        <setting name="TorielsLivingRoom">
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="1">*The ends of the tools have been filed down to make them
                             safer.</box>
                     </sp>
                 </option>
             </choice>
-            <option what="select">
+            <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="2">*It's a history book. *Here's a random page...</box>
                     <box n="3">*Trapped behind the barrier and fearful of further human attacks, we
@@ -747,7 +724,7 @@
                 </sp>
             </option>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="7">*This fire isn't burning hot... *Just pleasantly warm. *You could
                             put your hand inside.</box>
@@ -755,7 +732,7 @@
                 </option>
             </choice>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="8">*(Seems like the right size for Toriel.)</box>
                     </sp>
@@ -764,7 +741,7 @@
         </setting>
         <setting name="Kitchen">
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="1">*For some reason, there is a brand-name chocolate bar in the
                             fridge.</box>
@@ -772,14 +749,14 @@
                 </option>
             </choice>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="2">*There is some white fur stuck in the drain.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="3">*Inside the cupboard are cookie cutters for gingerbread
                             monsters.</box>
@@ -787,7 +764,7 @@
                 </option>
             </choice>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="4">*The size of the pie intimidates you too much for you to eat
                             it.</box>
@@ -795,7 +772,7 @@
                 </option>
             </choice>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="5">*The stovetop is very clean. *Toriel must use fire magic
                             instead.</box>
@@ -810,18 +787,18 @@
                 <box n="5">*Is something burning...? *Um, make yourself at home!</box>
             </sp>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="6">*You have seen this type of plant before but do not know its
                             name.</box>
-                        <conditions what="readBook">
-                            <box n="1">*Oh! *It is a "water sausage."</box>
-                        </conditions>
+
+                        <box n="1">*Oh! *It is a "water sausage."</box>
+
                     </sp>
                 </option>
             </choice>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="7">*Inside the drawer are flower seeds and some broken
                             crayons.</box>
@@ -829,56 +806,56 @@
                 </option>
             </choice>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="8">*It's you!</box>
                     </sp>
                 </option>
             </choice>
             <choice>
-                <option what="read">
+                <option what="gameNarr">
                     <sp speaker="sign" to="you">
                         <box n="9">*"Room under renovations."</box>
                     </sp>
                 </option>
             </choice>
         </setting>
-        <setting name="Toriel'sRoom">
+        <setting name="TorielsRoom">
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="1">*Just a regular old bucket of snails.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="2">*(Toriel's small chair. *(Its name is Chairel.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="3">*It's TORIEL's diary. *Read the circled passage? Yes No</box>
-                        <option what="Yes">
-                            <box n="4">*You read the passage...</box>
-                            <box n="5">*"Why did the skeleton want a friend?"</box>
-                            <box n="6">*"Because she was feeling BONELY..."></box>
-                            <box n="7">*The rest of the page is filled with jokes of a similar
-                                caliber.</box>
-                        </option>
+
+                        <box n="4">*You read the passage...</box>
+                        <box n="5">*"Why did the skeleton want a friend?"</box>
+                        <box n="6">*"Because she was feeling BONELY..."></box>
+                        <box n="7">*The rest of the page is filled with jokes of a similar
+                            caliber.</box>
+
                     </sp>
                 </option>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="8">*(Definitely bigger than a twin-sized bed.)</box>
                     </sp>
                 </option>
             </choice>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="9">*It's an encyclopedia of subterranean plants. YOu opend to the
                             middle...</box>
@@ -889,14 +866,14 @@
                 </option>
             </choice>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="12">*You peek inside... *Scandalous!</box>
                     </sp>
                 </option>
             </choice>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="13">*It's TORIEL's sock drawer.</box>
                         <box n="14">*You can't stop looking at the socks.</box>
@@ -904,116 +881,116 @@
                 </option>
             </choice>
             <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="15">*Ah, the cactus. *Truly the most tsundere of plants.</box>
                     </sp>
                 </option>
             </choice>
         </setting>
-        <setting name="Asriel'sRoom">
+        <setting name="AsrielsRoom">
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*Look at these cool toys! *They don't inerest you at all.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="2">*(An empty photo frame.) *(It's really dusty...)</box>
+                </sp>
+            </option>
+
             <choice>
-                <option what="select">
-                    <sp speaker="game" to="you">
-                        <box n="1">*Look at these cool toys! *They don't inerest you at all.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="select">
-                    <sp speaker="game" to="you">
-                        <box n="2">*(An empty photo frame.) *(It's really dusty...)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="select">
+                <option what="gameNarr">
                     <sp speaker="game" to="you">
                         <box n="3">*(A box of kids' shoes in a disparity of sizes.)</box>
                     </sp>
                 </option>
             </choice>
-            <choice>
-                <conditions what="pie">
-                    <option what="select">
-                        <sp speaker="game" to="you">
-                            <box n="4">*You found a slice of butterscotch-cinnamon pie.</box>
-                        </sp>
-                    </option>
-                </conditions>
-            </choice>
-            <conditions what="runAwayFromToriel killToriel">
+
+
+            <option what="gameNarr">
                 <sp speaker="game" to="you">
-                    <box n="1">*Chara, please...</box>
-                    <box n="2">*Wake up!</box>
-                    <box n="3">*You are the future of humans and monsters...</box>
+                    <box n="4">*You found a slice of butterscotch-cinnamon pie.</box>
                 </sp>
-            </conditions>
+            </option>
+
+
+
+            <sp speaker="game" to="you">
+                <box n="1">*Chara, please...</box>
+                <box n="2">*Wake up!</box>
+                <box n="3">*You are the future of humans and monsters...</box>
+            </sp>
+
         </setting>
         <setting name="Basement">
-            <conditions what="beforeTryingToLeave">
-                <conditions what="beforeTorielShowsYourRoom"><box n="1">*Hey, do not go down
-                        here.</box>*I have something to show you upstairs.</conditions>
-                <conditions what="beforeAskingToExitTheRuins">
-                    <box n="1">*I think you should play upstairs instead.</box>
-                    <box n="2">*It is dangerous to play here.</box>
-                    <box n="3">*It is drafty here. *You will catch a cold.</box>
-                    <box n="4">*It is dusty here. *You will catcha cough.</box>
-                    <box n="5">*There is nothing to see here.</box>
-                    <box n="6">*Do you want to read a book?</box>
-                    <box n="7">*I do not like the game you are playing.</box>
-                    <box n="8">*Why not go for a walk in the yard?</box>
-                    <box n="9">*Really now.</box>
-                    <box n="10">*...</box>
-                </conditions>
-            </conditions>
-            <conditions what="1stPart">
-                <sp speaker="Toriel" to="you">
-                    <box n="1">*You wish to know how to return "home," do you not?</box>
-                    <box n="2">*Ahead of us likes the end of the RUINS.</box>
-                    <box n="3">*A one-way exit to the rest of the underground.</box>
-                    <box n="4">*I am going to destroy it.</box>
-                    <box n="5">* No one will ever be able to leave again.</box>
-                    <box n="6">*Now be a good child and go upstairs.</box>
-                </sp>
-            </conditions>
-            <conditions what="2ndPart">
-                <sp speaker="Toriel" to="you">
-                    <box n="1">*Every human that falls down her meets the same fate.</box>
-                    <box n="2">*I have seen it again and again.</box>
-                    <box n="3">*They come.</box>
-                    <box n="4">*They leave.</box>
-                    <box n="5">*They die.</box>
-                    <box n="6">*You naive child... *If you leave the RUINS...</box>
-                    <box n="7">*They... *ASGORE... *Will kill you.</box>
-                    <box n="8">*I am only protecting you , do you undertand?</box>
-                    <box n="9">*... go to your room.</box>
-                </sp>
-            </conditions>
-            <conditions what="3rdPart">
-                <sp speaker="Toriel" to="you">
-                    <box n="!">*Do not try to stop me.</box>
-                    <box n="2">*This is your final warning.</box>
-                </sp>
-            </conditions>
+
+            <sp speaker="Toriel" to="you">
+                <box n="1">*Hey, do not go down here.*I have something to show you upstairs.</box>
+                <box n="1">*I think you should play upstairs instead.</box>
+                <box n="2">*It is dangerous to play here.</box>
+                <box n="3">*It is drafty here. *You will catch a cold.</box>
+                <box n="4">*It is dusty here. *You will catcha cough.</box>
+                <box n="5">*There is nothing to see here.</box>
+                <box n="6">*Do you want to read a book?</box>
+                <box n="7">*I do not like the game you are playing.</box>
+                <box n="8">*Why not go for a walk in the yard?</box>
+                <box n="9">*Really now.</box>
+                <box n="10">*...</box>
+            </sp>
+
+
+
+            <sp speaker="Toriel" to="you">
+                <box n="1">*You wish to know how to return "home," do you not?</box>
+                <box n="2">*Ahead of us likes the end of the RUINS.</box>
+                <box n="3">*A one-way exit to the rest of the underground.</box>
+                <box n="4">*I am going to destroy it.</box>
+                <box n="5">* No one will ever be able to leave again.</box>
+                <box n="6">*Now be a good child and go upstairs.</box>
+            </sp>
+
+
+            <sp speaker="Toriel" to="you">
+                <box n="1">*Every human that falls down her meets the same fate.</box>
+                <box n="2">*I have seen it again and again.</box>
+                <box n="3">*They come.</box>
+                <box n="4">*They leave.</box>
+                <box n="5">*They die.</box>
+                <box n="6">*You naive child... *If you leave the RUINS...</box>
+                <box n="7">*They... *ASGORE... *Will kill you.</box>
+                <box n="8">*I am only protecting you , do you undertand?</box>
+                <box n="9">*... go to your room.</box>
+            </sp>
+
+
+            <sp speaker="Toriel" to="you">
+                <box n="1">*Do not try to stop me.</box>
+                <box n="2">*This is your final warning.</box>
+            </sp>
+
         </setting>
         <setting name="TorielBossRoom">
-            <sp speaker="Toriel">
+            <sp speaker="Toriel" to="you">
                 <box n="1">*You want to leave so badly?</box>
                 <box n="2">*Hmph.</box>
                 <box n="3">*You are just like the others.</box>
                 <box n="4">*There is only one solution to this.</box>
                 <box n="5">*Prove yourself...</box>
                 <box n="6">*Prove to me you are strong enough to survive.</box>
-                <conditions what="runAway">
-                    <box n="1">*That is right.</box>
-                    <box n="2">*Go upstairs.</box>
-                </conditions>
-                <conditions what="re-fight">
-                    <box n="1">*Already?</box>
-                    <box n="2">*What will it take for you to learn your lesson?</box>
-                </conditions>
-                <conditions what="spare">
+
+                <box n="1">*That is right.</box>
+                <box n="2">*Go upstairs.</box>
+
+
+                <box n="1">*Already?</box>
+                <box n="2">*What will it take for you to learn your lesson?</box>
+
+                <conditions spared="Toriel">
                     <box n="1">*If you truly wish to leave the RUINS...</box>
                     <box n="2">*I will not stop you.</box>
                     <box n="3">*However, when you leave...</box>
@@ -1021,19 +998,19 @@
                     <box n="5">*I hope you understand.</box>
                     <box n="7">*Goodbye, my child.</box>
                 </conditions>
-                <conditions what="killedTorielBefore">
-                    <box n="1">*There is only one solution to this.</box>
-                    <box n="2">*Prove to me you are strong enough to survive!</box>
-                    <box n="3">*... wait.</box>
-                    <box n="4">*... why are you looking at me like that?</box>
-                    <box n="5">*Like you have seen a ghost.</box>
-                    <box n="6">Do you know something that I do not?</box>
-                    <box n="7">*No... *That is impossible.</box>
-                </conditions>
+
+                <box n="1">*There is only one solution to this.</box>
+                <box n="2">*Prove to me you are strong enough to survive!</box>
+                <box n="3">*... wait.</box>
+                <box n="4">*... why are you looking at me like that?</box>
+                <box n="5">*Like you have seen a ghost.</box>
+                <box n="6">Do you know something that I do not?</box>
+                <box n="7">*No... *That is impossible.</box>
+
             </sp>
         </setting>
         <setting name="FloweyExitHall">
-            <conditions what="sparedToriel">
+            <conditions spared="Toriel">
                 <sp speaker="Flowey" to="you">
                     <box n="1">*Clever. *Verrrryyy clever.</box>
                     <box n="2">*You think you're really smart, don't you?</box>
@@ -1055,7 +1032,7 @@
                     <box n="18">*This is SO much more interesting.</box>
                 </sp>
             </conditions>
-            <conditions what="killedToriel">
+            <conditions killed="Toriel">
                 <sp speaker="Flowey" to="you">
                     <box n="1">*Hee hee hee...</box>
                     <box n="2">*I hope you like your choice.</box>
@@ -1069,7 +1046,7 @@
                     <box n="10">*WHAT AN IDIOT!!</box>
                 </sp>
             </conditions>
-            <conditions what="killedThenSparedToriel">
+            <conditions timesKilled="1" timesSpared="1">
                 <sp speaker="Flowey" to="you">
                     <box n="1">*Clever. *Verrrryyy clever.</box>
                     <box n="2">*You think you're really smart, don't you.</box>
@@ -1096,7 +1073,7 @@
                     <box n="23">*I'll be watching.</box>
                 </sp>
             </conditions>
-            <conditions what="sparedThenKilledToriel">
+            <conditions timesSpared="1" timesKilled="1">
                 <sp speaker="Flowey" to="you">
                     <box n="1">*Wow, you're utterly repulsive.</box>
                     <box n="2">*You spared her life...</box>
@@ -1118,7 +1095,7 @@
                     <box n="18">*I;ll be watching.</box>
                 </sp>
             </conditions>
-            <conditions what="killedTorielTwice">
+            <conditions timesKilled="2">
                 <sp speaker="Flowey" to="you">
                     <box n="1">*Heheheheh.</box>
                     <box n="2">*You just can't get enough, can you!?</box>
@@ -1129,13 +1106,13 @@
                     <box n="7">*You didn't even TRY to spare her.</box>
                 </sp>
             </conditions>
-            <conditions what="killTorielThree+Times">
+            <conditions timesKilled="3">
                 <sp speaker="Flowey" to="you">
                     <box n="1">*Wow, you really can't get enough.</box>
                     <box n="2">*You kind of remind me of myself.</box>
                 </sp>
             </conditions>
-            <conditions what="killedMonstersSparedToriel">
+            <conditions killed="monsters" spared="Toriel">
                 <sp speaker="Flowey" to="you">
                     <box n="1">*Clever. *Verrrryyy clever.</box>
                     <box n="2">*You think you're really smart, don't you.</box>
@@ -1152,7 +1129,7 @@
                     <box n="13">*Somebody is dead because of you.</box>
                 </sp>
             </conditions>
-            <conditions what="KillSpareKillToriel">
+            <conditions timesKilled="2" timesSpared="1">
                 <box n="1">*Wow, you're utterly repulsive.</box>
                 <box n="2">*You spared her life...</box>
                 <box n="3">*Then you decided that wasn't interesting enough for you.</box>
