@@ -1,199 +1,38 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 start = map
-map = element map { name, path+ }
-path = element path { route, setting*, sp* }
-route =
-    attribute route {
-        list { ("pacifist" | "neutral" | "genocide")* }
-    }
-setting = element setting { name, (sp | choice | option | battle | conditions | path)* }
-name =
-    attribute name {
-        "Waterfall"
-        | "Ruins"
-        | "FloweyHall"
-        | "RuinsEntrance"
-        | "1stPuzzleRoom"
-        | "LablledSwitchRoom"
-        | "DummyRoom"
-        | "1stMonsterBattle"
-        | "SpikedTileRoom"
-        | "IndependenceHallway"
-        | "LeafPileSaveRoom"
-        | "MonsterCandyRoom"
-        | "1stRockPuzzle"
-        | "DontStepOnTheLeavesRoom"
-        | "2ndCrackedTileRoom"
-        | "2ndRockPuzzleRoom"
-        | "TableWithCheeseRoom"
-        | "NapstablookRoom"
-        | "SpiderBakeSale"
-        | "FroggitHallway"
-        | "SixHolesRoom"
-        | "SixSwitchesPuzzle"
-        | "AsrielsRoom"
-        | "SwitchesRoom"
-        | "FroggitNearToyKnife"
-        | "ToyKnifeRoom"
-        | "BlackTreeRoom"
-        | "EntranceToTorielsHome"
-        | "TorielsHome"
-        | "TorielsLivingRoom"
-        | "Kitchen"
-        | "Bedrooms"
-        | "TorielsRoom"
-        | "Basement"
-        | "TorielBossRoom"
-        | "FloweyExitHall"
-        | "OutsideRuinsDoor"
-        | "SansHallway"
-        | "MeetingSans"
-        | "MeetingPapyrus"
-        | "AfterPapyrus"
-        | "SavePoint"
-        | "FishingPoleRoom"
-        | "SansAndPapyrus"
-        | "DoggoStation"
-        | "SlipperyIceRoom"
-        | "SnowmanRoom"
-        | "ElectricMazeRoom"
-        | "BallGameRoom"
-        | "DogiStation"
-        | "CrosswordRoom"
-        | "SpaghettiRoom"
-        | "DogiArena"
-        | "1stXOPuzzle"
-        | "2ndXOPuzzle"
-        | "ColoredTilePuzzle"
-        | "LesserDogStation"
-        | "PapyrusAndSansSnowmen"
-        | "GyftroRoom"
-        | "MysteriousDoorRoom"
-        | "DevelopersRoom"
-        | "GreaterDogStation"
-        | "RockFamily"
-        | "SnowdinTown"
-        | "SnowdinShop"
-        | "Grillbys"
-        | "Librarby"
-        | "PapyrusAndSansHouse"
-        | "PapyrusRoom"
-        | "PapyrusArena"
-        | "SansStation"
-        | "SnailFarm"
-        | "NapstablookHouse"
-        | "FallingRocks"
-        | "TutuRoom"
-        | "1stUndyneEncounter"
-        | "1stBridgeSeedRoom"
-        | "2ndBridgeSeedRoom"
-        | "QuicheRoom"
-        | "WishingRoom"
-        | "HistoryPlaque"
-        | "SeaWeedHidingSpot"
-        | "MouseRoom"
-        | "SansTelescopeRoom"
-        | "UndyneHouse"
-        | "Undyne"
-        | "WaterRoom"
-        | "SavePointRoom"
-        | "RiverpersonRoom"
-        | "AlphysLab(Dark)"
-        | "AlphysBedroom"
-        | "HallwayOutsideOfLab"
-        | "SplitBeamsHall"
-        | "SteamVentRoom"
-        | "FrypanRoom"
-        | "LaserPuzzle"
-        | "ShootingPuzzleBeginning"
-        | "WorkingMonsters"
-        | "ShootingPuzzle1"
-        | "SchoolKids"
-        | "ShootingPuzzle2"
-        | "VentsBeforeMettaton"
-        | "CookingWithAKillerRobot"
-        | "FirstCoreView"
-        | "ElevatorR1"
-        | "ElevatorR2"
-        | "SansHotdogStation"
-        | "HotPicsHallway"
-        | "SoSorryRoom"
-        | "ApronRoom"
-        | "ConveyorPuzzle"
-        | "SwitchVentPuzzle"
-        | "CheeseRoom"
-        | "RoyalGuards"
-        | "2ndCoreView"
-        | "MettatonNewsReport"
-        | "L3Elevator"
-        | "FinalVentPuzzle"
-        | "ShootingPuzzle3"
-        | "LasersAndFlower"
-        | "FinalShootingPuzzle"
-        | "SpiderSavePoint"
-        | "MuffetArena"
-        | "MettatonPoster"
-        | "MettatonOpera"
-        | "TilePuzzle"
-        | "ElevatorR3"
-        | "NiceCreamGuy"
-        | "ResortEntrance"
-        | "CattyAndBattysShop"
-        | "HotelLobby"
-        | "HotelBedroom"
-        | "BurgerpantsShop"
-        | "HotelRooms"
-        | "Restaurant"
-        | "CoreEntrance"
-        | "Snowdin"
-    }
+map = element map {name, path+}
+path = element path {route, setting*, sp*}
+route = attribute route {list {("pacifist" | "neutral" | "genocide")*}}
+setting = element setting {name, (sp | choice | event | conditions | path)*}
+name =  attribute name{"Waterfall" |"Ruins" | "newHome" | "core" | 
+"SansStation" | "SnailFarm"| "napstablookhouse"|"FallingRocks" | "TutuRoom" | "1stUndyneEncounter" | "1stBridgeSeedRoom" | "2ndBridgeSeedRoom" | "QuicheRoom" | "WishingRoom" | "HistoryPlaque" | "SeaWeedHidingSpot" | "MouseRoom" | "SansTelescopeRoom" | "UndyneHouse" |
+"Undyne" }
 # 2019-11-07 ebb: We'll need Schematron to control which names are allowed on which specific elements.
-sp = element sp { speaker, to, (box | choice | conditions)* }
-speaker = attribute speaker { text }
-to = attribute to { text }
+battle = element battle {monster}
+monster = element monster{name}
+# 2019-11-07 ebb: We don't know what goes inside battle yet. 
+sp = element sp {speaker, (box | choice | conditions)*}
+speaker = attribute speaker {text}
 # ebb: REFINE THIS with specific values.
-choice = element choice { (option | box | text)* }
-option = element option { what, (sp | box | choice | pathChange)* }
-pathChange = element pathChange { (fromRt | toRt), sp* }
-fromRt = attribute fromRt { "pacifist" | "genocide" }
-toRt = attribute toRt { "neutral" }
-battle = element battle { name, (sp | choice)* }
-conditions =
-    element conditions {
-        (killed
-         | spared
-         | fought
-         | holding
-         | equipped
-         | spearsdodged
-         | ferry
-         | taken
-         | timesTalkedTo
-         | timesKilled
-         | timesSpared)*,
-        (box | choice | sp)*
-    }
-timesTalkedTo = attribute timesTalkedTo { xsd:integer }
-timesKilled = attribute timesKilled { xsd:integer }
-timesSpared = attribute timesSpared { xsd:integer }
-equipped = attribute equipped { text }
-taken = attribute taken { text }
-spearsdodged = attribute spearsdodged { "enough" | "notEnough" }
-ferry = attribute ferry { text }
-holding = attribute holding { text }
-killed = attribute killed { text }
-spared = attribute spared { text }
-fought = attribute fought { text }
-box = element box { n, (speaker | to)*, text }
+choice = element choice {(option | box | text)*}
+event = element event {(sp | choice | path)*}
+conditions = element conditions {(box | choice | killed | fought | holding |spearsdodged | ferry | taken | equipped)*}
+equipped = attribute equipped{text}
+taken = attribute taken{text}
+spearsdodged = attribute spearsdodged{text}
+ferry = attribute ferry{text}
+holding= attribute holding{text}
+killed = attribute killed{text}
+fought = attribute fought{text}
+box = element box { mixed{(choice |n| who? | to? | option*)*} }
 # ebb: We need Schematron to refine this.
+who = attribute who {text}
 # ebb: REFINE THIS with specific values.
+to = attribute to {text}
 # ebb: REFINE THIS with specific values.
-n = attribute n { xsd:integer }
+n = attribute n {xsd:integer}
+option = element option{ TalkTo?, what, mixed{read? | sp* | box* | choice?}}
+TalkTo = attribute TalkTo {text}
 # ebb: REFINE THIS with specific values. (Same as the who attribute?)
-what = attribute what { "gameNarr" | "gameSave" | "kill" | "spare" }
-# what attribute values: We're trying to keep these simple: 
-# what="gameNarr" is the computer game guiding your interaction with characters or objects
-# what="gameSave" marks all the save moments, which are important because here the computer makes an assessment of your game route/
-# what="kill" is simply the decision to kill
-# what="save" is the decision to save
-
-# OLD SWAMP OF WHAT VALUES PRESERVED FOR POSTERITY AND AMUSEMENT ;-) what = attribute what {list{("select" | "Yeah" | "Im_busy" | "TakeIt" | "LeaveIt" | "ReadSign" | "Yes" | "No" |  "Talk" |  "talkTo" | "saveGame" | "HPRestore" | "C_Or_Control" | "run" | "kill" | "spare" | "killedBefore" | "sparedBefore" | "read" | "bored" | "Cinnamon" | "Bscotch" | "killedMonstersSparedToriel" | "KillSpareKillToriel" | "killTorielThree+Times" | "killedThenSparedToriel" | "sparedThenKilledToriel" | "killedTorielTwice" | "re-fight" | "ItemFull" | "NotEnoughG" | "blueSwitch" | "yellowSwitch" | "redSwitch" | "foundBlueSwitch" | "foundGreenSwitch" | "PressingTheSwitchesTooManyTimes" | "fullHP" | "wounded" | "2HPorLess" | "readBook" | "pie" | "runAwayFromToriel" | "beforeTryingToLeave" | "beforeTorielShowsYourRoom" | "beforeAskingToExitTheRuins" | "1stPart" | "2ndPart" | "3rdPart" | "runAway" | "killToriel")*}} 
+what = attribute what {list{("select" | "Yeah" | "LeaveIt" | "Im_busy" | "TakeIt" | "LeaveIt" | "ReadSign" | "Yes" | "No" |  "Talk" | "saveGame" | "HPRestore" | "TalkTo")*}}
+read = attribute read {"signPost"}
