@@ -1,64 +1,41 @@
-BigMouth
-Box
-DadSlime
-Determination
-Doggo
-Dogi
-DrunkBun
-EchoFlower
-EchoFlowerExplainer
-Faun
-Flowey
-Froggit
-Froggit1
-Froggit2
-Froggit3
-GiftBear
-Grillby
-InnKeeper
-InnKeeprsKid
-KidSlime1
-KidSlime2
-LadyGarf
-LibraryLizard
-LibraryLoox
-MonsterKid
-NacaratJester
-Napstablook
-NiceCreamGuy
-Papyrus
-PoliticsBear
-PunkHamster
-RabbitGirl
-RabbitKid
-RedBird
-Sans
-ScarfLady
-ScarfMouse
-SignPost
-SnowdinShopkeeper
-Snowman
-Toriel
-UglyFish
-Undyne
-You
-asgore
-bench
-cellPhone
-cheese
-crossword
-determination
-echoFlower
-echoflower
-ferry
-game
-monsterkid
-note
-phone
-rock1
-sans
-sign
-signPost
-someone
-telescope
-you
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+   <g transform="(70, 525)">
+      <line x1="20"
+            y1="0"
+            x2="20"
+            y2="-500"
+            stroke-width="3"
+            stroke="black"/>
+      <line x1="20"
+            y1="0"
+            x2="900"
+            y2="0"
+            stroke-width="3"
+            stroke="black"/>
+      <text x="150"
+            y="-550"
+            text-anchor="middle"
+            stroke="black"
+            font-size="20">Number of Alice's quotes in Each Chapter</text>
+      <text x="5" y="0" text-anchor="middle">0</text>
+      <text x="5" y="-70" text-anchor="middle">10</text>
+      <text x="5" y="-140" text-anchor="middle">20</text>
+      <text x="5" y="-210" text-anchor="middle">30</text>
+      <text x="5" y="-280" text-anchor="middle">40</text>
+      <text x="5" y="-350" text-anchor="middle">50</text>
+      <text x="5" y="-420" text-anchor="middle">60</text>
+      <text x="70" y="20">Chapter 1</text>
+      <text x="140" y="20">Chapter 2</text>
+      <text x="210" y="20">Chapter 3</text>
+      <text x="280" y="20">Chapter 4</text>
+      <text x="350" y="20">Chapter 5</text>
+      <text x="420" y="20">Chapter 6</text>
+      <text x="490" y="20">Chapter 7</text>
+      <text x="560" y="20">Chapter 8</text>
+      <text x="630" y="20">Chapter 9</text>
+      <text x="700" y="20">Chapter 10</text>
+      <text x="770" y="20">Chapter 11</text>
+      <text x="840" y="20">Chapter 12</text>
+   </g>
+</svg>
