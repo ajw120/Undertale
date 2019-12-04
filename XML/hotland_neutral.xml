@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/Undertale.rnc" type="application/relax-ng-compact-syntax"?>
+<map name="hotland">
+    <path route="neutral">
+        <setting name="alphy'sLab">
+           <sp speaker="alphys">
+               <box n="1">*...</box>
+               <box n="2">*Well that was certainly something.</box>
+           </sp> 
+        </setting>
+    </path>
+    
+</map>

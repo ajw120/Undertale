@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/Undertale.rnc" type="application/relax-ng-compact-syntax"?>
+<map name="core">
+    <path route="neutral">
+        <setting name="mettatonRoom">
+            <sp speaker="mettaton" to="you">
+                <box n="1">*OH YES. *THERE YOU ARE, DARLING.</box>
+                <box n="2">*IT'S TIME TO HAVE OUR LITTLE SHOWDOWN.</box>
+                <box n="3">*IT'S TIME TO FINALLY STOP THE "MALFUNCTIONING" ROBOT.</box>
+                <box n="4">*...NOT!!!</box>
+                <box n="5">*MALFUNCTION? *REPROGRAMMING? *GET REAL.</box>
+                <box n="6">*THIS WAS ALL JUST A BIG SHOW.</box>
+                <box n="7">*AN ACT.</box>
+                <box n="8">*ALPHYS HAS BEEN PLAYING YOU FOR A FOOL THE WHOLE TIME.</box>
+                <box n="9">*AS SHE WATCHED YOU ON SCREEN, SHE GREW ATTACHED TO YOUR ADVENTURE.</box>
+                <box n="10">*SHE DESPARETLY WANTED TO BE A PART OF IT.</box>
+                <box n="11">SO SHE DECIDED TO INSERT HERSELF INTO YOUR STORY.</box>
+                <box n="12">*SHE REACTIVATED PUZZLES. *SHE DISABLED ELAVTORS. *SHE ENLISTED ME TO TORMENT YOU.</box>
+                <box n="13">*ALL SO SHE COULD SAVE YOU FROM DANGERS THAT DIDN'T EXIST.</box>
+                <box n="14">*ALL SO YOU WOULD THINK SHE'S THE GREAT PERSON...</box>
+                <box n="15">*THAT SHE'S NOT.</box>
+                <box n="16">*AND NOW, IT'S TIME FOR HER FINEST HOUR.</box>
+                <box n="17">*AT THIS VERY MOMENT, APLHYS IS WAITING OUTSIDE THE ROOM.</box>
+                <box n="18">*DURING OUR "BATTLE," SHE WILL INTERRUPT.</box>
+                <box n="19">*SHE WILL PRETEND TO "DEACTIVE" ME, "SAVING" YOU ONE FINAL TIME.</box>
+                <box n="20">*FINALLY. *SHE'LL BE THE HEROINE OF YOUR ADVENTURE.</box>
+                <box n="21">*YOU'LL REGARD HER SO HIGHLY SHE'LL EVEN BE ABLE TO CONVINCE YOU TO NOT LEAVE.</box>
+                <box n="22">*... OR NOT.</box>
+                <box n="23">*YOU SEE, I'VE HAD ENOUGH OF THIS PREDICTABLE CHARADE.</box>
+                <box n="24">*I HAVE NO DESIRE TO HARM HUMANS. *FAR FROM IT, ACTUALLY.</box>
+                <box n="25">*MY ONLY DESIRE IS TO ENTERTAIN.</box>
+                <box n="26">*AFTER ALL, THE AUDIENCE DESERVES A GOOD SHOW, DON'T THEY?</box>
+                <box n="27">*AND WHAT'S A GOOD SHOW...</box>
+                <box n="28">*WIHTOUT A PLOT TWIST?</box>     
+            </sp>
+            <sp speaker="alphys" to="you">
+                <box n="29">*H-hey!! *Wh-wh-what's going on!?</box>
+                <box n="30">*Th-th-the door just locked itself!</box>
+            </sp>
+            <sp speaker="mettaton" to="you">
+                <box n="31">*SORRY, FOLKS! *THE OLD PROGRAM'S BEEN CANCELLED!!!</box>
+                <box n="32">*BUT WE'VE GOT A FINALE THAT WILL DRIVE YOU WILD!!</box>
+                <box n="33">*REAL DRAMA!! *REAL ACTION!! *REAL BLOODSHED!!</box>
+                <box n="34">*ON OUR NEW SHOW...</box>
+                <box n="35">*"ATTACK OF THE KILLER ROBOT!"</box>
+            </sp>
+        </setting>
+    </path>
+    <path route="neutral">
+        <setting name="mettatonRoom">
+            <conditions fought="ratingsSpare"/>
+            <sp speaker="alphys" to="you">
+                <box n="1">*I... I managed to open the lock! *Are you two...</box>
+                <box n="2">*Oh my god.</box>
+                <box n="3">*Mettaton!</box>
+                <box n="4">*Mettaton, are you...</box>
+                <box n="5">... thank GOD, it's just the batteries.</box>
+                <box n="6">*Mettaton, if you were gone, I would have...</box>
+                <box n="7">*...</box>
+                <box n="8">*I m-mean, h-hey, it's n-no problem, you know?</box>
+                <box n="9">*He's just a robot,if you messed it up, I c-could always...</box>
+                <box n="10">*J-just build another.</box>
+                <box n="11">*...</box>
+                <box n="12">*Why don't you go ahead?</box>
+                <box n="13">*I... I just need a moment.</box>
+            </sp>
+            <sp speaker="game" to="you">
+                <box n="14">*(It's out of batteries.)</box>
+            </sp>
+        </setting>
+    </path>
+    <path route="neutral">
+        <setting name="mettatonRoom">
+            <conditions killed="killedMettaton"/>
+            <sp speaker="alphys" to="you">
+                <box n="1">*I... I managed to open the lock! *Are you two...</box>
+                <box n="2">*Oh my god.</box>
+                <box n="3">*Mettaton!</box>
+                <box n="4">*Mettaton, are you...</box>
+                <box n="5">*H...hey...</box>
+                <box n="6">D...don't worry about it...</box>
+                <box n="7">*I can always...</box>
+                <box n="8">*I can always build a different robot!</box>
+                <box n="9">*...</box>
+                <box n="10">*Why don't you go ahead?</box>
+                <box n="11">*I... I just need a moment.</box>
+            </sp>
+            <sp speaker="game" to="you">
+                <box n="12">*(It's completely trashed.) *(There's no way it could ever be repaired.)</box>
+            </sp>
+        </setting>
+    </path>
+</map>
