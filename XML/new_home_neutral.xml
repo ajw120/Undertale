@@ -4,34 +4,34 @@
     <path route="neutral">
     <setting name="newHomeView">
     <option choice="select"/>*
-        <sp speaker="game" to="you">
+        <sp speaker="gameNarr" to="you">
             <box n="1">(The elevator is in use.)</box>
         </sp>
     </setting>
     <setting name="asgore'sFoyer">
       <option choice="select"/>
-        <sp speaker="game" to="you">
+        <sp speaker="gameNarr" to="you">
             <box n="1">*(It’s a golden flower.</box>
         </sp>
       <option choice="select"/>
-        <sp speaker="game" to="you">
+        <sp speaker="gameNarr" to="you">
             <box n="2">*(The way is blocked by two padlocks.)*(There’s a note attached.)</box>
         </sp>
       <option read="note"/>
-        <sp speaker="game" to="you">
+        <sp speaker="gameNarr" to="you">
             <box n="3">*(Howdy! I'm in the garden.)</box>
             <box n="4">*(If you have anything you need to get off your chest, please don't hesitate to come.)</box>
             <box n="5">*(The keys are in the kitchen and the hallway.)</box>
             <box n="6">*(You'll need both keys to get through.)</box>
         </sp>
-        <sp speaker="game" to="you">
+        <sp speaker="gameNarr" to="you">
         <box n="7">*(You unlocked the chain.)</box>
         <box n="8">*(There's an old calendar from the end of 201X.) *(A date is circled on it.)</box>
         </sp>
     </setting>
     <setting name="livingRoom">
         <option choice="select"/>
-           <sp speaker="game" to="you">
+           <sp speaker="gameNarr" to="you">
                <box n="1">*Seems like gardening tools.</box>
                <box n="2">*(There are photo albums...)*(Scrapbooks…)*(Books on how to make tea…)</box>
                <box n="3">*The coals are still warm.</box>
@@ -41,7 +41,7 @@
     </setting>
     <setting name="kitchen">
         <option choice="select"/>
-          <sp speaker="game" to="you">
+          <sp speaker="gameNarr" to="you">
               <box n="1">*(The fridge is full of unopened containers of snails.)</box>
               <box n="2">*(There is some white fur stuck in the drain.)</box>
               <box n="3">*(It’s a note.)*Howdy! Help yourself to anything you want!</box>
@@ -53,7 +53,7 @@
     </setting>
     <setting name="bedrooms">
         <option choice="select"/>
-            <sp speaker="game" to="you">
+            <sp speaker="gameNarr" to="you">
                 <box n="1">*It’s a golden flower.</box>
                 <box n="2">*It’s a golden flower.</box>
                 <box n="3">*It’s a golden flower.</box>
@@ -65,7 +65,7 @@
     </setting>
     <setting name="asgore'sRoom"> 
         <option choice="select"/>
-          <sp speaker="game" to="you">
+          <sp speaker="gameNarr" to="you">
               <box n="1">*(It’s ASGORE’s journal.)*(All the current page says is ‘Nice day today!’)</box>
               <box n="2">*(The ink is still almost wet.)</box>
               <box n="3">*(It's just a chair.)</box>
@@ -80,7 +80,7 @@
     </setting>
     <setting name="children'sRoom">
         <option choice="select"/>
-        <sp speaker="game" to="you">
+        <sp speaker="gameNarr" to="you">
             <box n="1">*(Dusty toys.)</box>
             <box n="2">*(It's a twin-sized bed.)</box>
             <box n="3">*(There are a lot of striped shirts in here.)</box>
@@ -102,7 +102,7 @@
     </setting>   
     <setting name="coffins">
         <option choice="select"/>
-        <sp speaker="game" to="you">
+        <sp speaker="gameNarr" to="you">
             <box n="1">*(it's a coffin.)*(There's a name engraved on it.)</box>
             <box n="2">*("Chara.")</box>
             <box n="3">*(It's empty.)</box>
@@ -148,30 +148,30 @@
                          <box n="11">*what happens now...</box>
                          <box n="12">*we leave up to you.</box>
            </sp>
-           <sp speaker="sans">
+           <sp speaker="sans" to="you">
                <conditions killed="papyrus">
-                   <box n="1" who="sans" to="you">*though...</box>
-                   <box n="2" who="sans" to="you">*one thing about you always struck me as kinda odd.</box>
-                   <box n="3" who="sans" to="you">*now, I understand acting in self defense.</box>
-                   <box n="4" who="sans" to="you">*you were thrown into those situations against your will.</box>
-                   <box n="5" who="sans" to="you">*but...</box>
-                   <box n="6" who="sans" to="you">*sometimes...</box>
-                   <box n="7" who="sans" to="you">*you act like you know what's going to happen.</box>
-                   <box n="8" who="sans" to="you">*like you've already experienced it all before.</box>
-                   <box n="9" who="sans" to="you">*this is an odd thing to say, but...</box>
-                   <box n="10" who="sans" to="you">*if you have some sort of special power...</box>
-                   <box n="11" who="sans" to="you">*isn't it your responsibility to do the right thing?</box>
+                   <box n="1">*though...</box>
+                   <box n="2">*one thing about you always struck me as kinda odd.</box>
+                   <box n="3">*now, I understand acting in self defense.</box>
+                   <box n="4">*you were thrown into those situations against your will.</box>
+                   <box n="5">*but...</box>
+                   <box n="6">*sometimes...</box>
+                   <box n="7">*you act like you know what's going to happen.</box>
+                   <box n="8">*like you've already experienced it all before.</box>
+                   <box n="9">*this is an odd thing to say, but...</box>
+                   <box n="10">*if you have some sort of special power...</box>
+                   <box n="11">*isn't it your responsibility to do the right thing?</box>
                     <choice option="no"/>
-                           <box n="1" who="sans" to="you">*heh.</box>
-                           <box n="2" who="sans" to="you">*well, that's your viewpoint.</box>
-                           <box n="3" who="sans" to="you">*I won't judge you for it.</box>
-                           <box n="4" who="sans" to="you">*...</box>
-                           <box n="5" who="sans" to="you">*You dirty brother killer.</box>
+                           <box n="1">*heh.</box>
+                           <box n="2">*well, that's your viewpoint.</box>
+                           <box n="3">*I won't judge you for it.</box>
+                           <box n="4">*...</box>
+                           <box n="5">*You dirty brother killer.</box>
                    <choice option="yes"/>
-                           <box n="1" who="sans" to="you">*ah.</box>
-                           <box n="2" who="sans" to="you">*I see.</box>
-                           <box n="3" who="sans" to="you">*...</box>
-                           <box n="4" who="sans" to="you">*Then why'd you kill my brother?</box>
+                           <box n="1">*ah.</box>
+                           <box n="2">*I see.</box>
+                           <box n="3">*...</box>
+                           <box n="4">*Then why'd you kill my brother?</box>
                </conditions>
            </sp>
     </setting>
@@ -179,7 +179,7 @@
        <path route="neutral">
     <setting name="throneRoomEntrance">
         <option choice="select"/>
-        <sp speaker="game" to="you">
+        <sp speaker="gameNarr" to="you">
             <box n="1">Throne Room.</box>
         </sp>
     </setting>    
@@ -203,10 +203,10 @@
             <box n="16">*You know what we must do.</box>
             <box n="17">*When you are ready, come into the next room.</box>
         </sp>
-        <sp speaker="game">
+        <sp speaker="gameNarr" to="you">
             <conditions choice="select"/>
-            <box n="1" who="game" to="you">*(It's a throne.)</box>
-            <box n="2" who="game" to="you">*(It's another throne covered by a white sheet.)</box>
+            <box n="1">*(It's a throne.)</box>
+            <box n="2">*(It's another throne covered by a white sheet.)</box>
         </sp>
     </setting>
     <setting name="theEnd">
@@ -245,14 +245,14 @@
     </sp>
     </setting>
     <setting name="flowey">
-        <sp speaker="game">
-            <box n="1" who="game" to="you">Floweytale</box>
-            <box n="2" who="game" to="you">Long ago, two races ruled over Earth: HUMANS and MONSTERS</box>
-            <box n="3" who="game" to="you">One day, they all disappeared without a trace.</box>
+        <sp speaker="gameNarr" to="you">
+            <box n="1">Floweytale</box>
+            <box n="2">Long ago, two races ruled over Earth: HUMANS and MONSTERS</box>
+            <box n="3">One day, they all disappeared without a trace.</box>
         </sp>
     </setting>
     <setting name="flowey'sSaveFile">
-        <sp speaker="game" to="you">
+        <sp speaker="gameNarr" to="you">
             <box n="1">Flowey LV999 999:99</box>
             <box n="2">My world</box>
             <option choice="continue"/>

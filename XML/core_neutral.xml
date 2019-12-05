@@ -85,7 +85,7 @@
                 <box n="10">*Why don't you go ahead?</box>
                 <box n="11">*I... I just need a moment.</box>
             </sp>
-            <sp speaker="game" to="you">
+            <sp speaker="gameNarr" to="you">
                 <box n="12">*(It's completely trashed.) *(There's no way it could ever be repaired.)</box>
             </sp>
         </setting>

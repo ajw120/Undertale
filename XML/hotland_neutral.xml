@@ -3,10 +3,99 @@
 <map name="hotland">
     <path route="neutral">
         <setting name="alphy'sLab">
-           <sp speaker="alphys">
+           <sp speaker="alphys" to="you">
                <box n="1">*...</box>
                <box n="2">*Well that was certainly something.</box>
+               <box n="3">*Th-that last question...</box>
+               <box n="4">*He wasn't supposed to ask that one...</box>
+               <box n="5">*Wait, wait!</box>
+               <box n="6">*Let me give you my ph-phone number!</box>
+               <box n="7">*Th-then... m-maybe... *If you need help, I could...</box>
+               <box n="8">*Wh...where'd you get that phone!? *It's ANCIENT!</box>
+               <box n="9">*It doens't even have texting.</box>
+               <box n="10">*W-wait a second, please!</box>
+               <box n="11">*Here, I upgraded it for you!</box>
+               <box n="12">*It can do texting, items, it's got a key chain...</box>
+               <box n="13">*I even signed you up for the underground's No.1 social network!</box>
+               <box n="14">*Now we're officially friends! *Ehehehe!</box>
+               <box n="15">*Heheh...</box>
+               <box n="16">*Heh...</box>
+               <box n="17">*...</box>
+               <box n="18">*...</box>
+               <box n="19">*...</box>
+               <box n="20">*...</box>
+               <box n="21">*...</box>
+               <box n="22">*I'm going to the bathroom.</box>
            </sp> 
+           <sp speaker="gameNarr" to="you">
+               <box n="1">*(It's a bag of dog food.) *(It's half-full.)</box>
+               <box n="2">*(The fridge is filled with instant noodles and soda.)</box>
+               <box n="3">*(Take a package of noodles?)</box>
+               <conditions taken="takeIt"/>
+               <box n="4">*(You got instant noodles.)</box>
+               <box n="5">*(Take a package of noodles?)</box>
+               <conditions taken="leaveIt"/>
+               <box n="6">*(You decide to stay healthy.)</box>
+               <box n="7">*(It's a beat-up figurine of a female human with cat ears.)</box>
+               <box n="8">*(It's a teacup shaped like a yellow lizard.) *(It's full of soda.)</box>
+               <box n="9">*(It's a computer.) *(It's accessing some kind of puzzle in Snowdin.)</box>
+               <box n="10">*(It seems like a walkthrough to a game, or...?)</box>
+               <box n="11">*(Seems like the notes to something, but it's all written in chicken scratch.)</box>
+               <box n="12">*(A garbage can.) *(But it's pretty cute.)</box>
+               <box n="13">*(It's a video feed of your location.)</box>
+               <box n="14">*(The space behind the wall is only a few feet wide.)</box>
+               <box n="15">*(It's a bathroom sign.)</box>
+               <box n="16">*(Yellow feet are tapping just behind the door.)</box>
+           </sp>
+           <conditions timesKilled="1"/>
+           <sp speaker="gameNarr" to="you">
+               <box n="1">*(It's a half-empty bag of dog food.)</box>           
+           </sp>
+           <conditions timesKilled="21"/>
+            <sp speaker="gameNarr" to="you">
+                <box n="1">*(You just remembered something funny.)</box>
+            </sp>
+        </setting>
+    </path>
+    <path route="neutral">
+        <setting name="soSorryRoom">
+            <sp speaker="gameNarr" to="you">
+                <box n="1">*Art Club: Meet here! *Next meeting: *October 10th, 8PM</box>
+            </sp>
+            <sp speaker="soSorry" to="you">
+                <box n="1">*Ahhhh! *I'm late!!!! *I'm late!!!</box>
+                <box n="2">*I'm so sorry!!!</box>
+            </sp>
+            <conditions spared="spareSoSorry"/>
+            <sp speaker="soSorry" to="you">
+                <box n="1">*Let's meet again someday!</box>
+            </sp>
+            <conditions killed="killSoSorry"/>
+            <sp speaker="gameNarr" to="you">
+                <box n="1">*(Art is dead.)</box>
+            </sp>            
+        </setting>
+    </path>
+    <path route="neutral">
+        <setting name="NiceCreamGuy">
+         <sp speaker="royalGuard" to="you">
+             <box n="1">*Oh, hey.</box>
+             <box n="2">*We're, like, taking a rain check on that killing-you thing.</box>
+             <box n="3">*Like, don't tell Undyne about this, OK?</box>
+             <box n="4">*You didn't tell her, did you...?</box>
+         </sp>   
+         <sp speaker="gameNarr" to="you">
+             <box n="5">*(... he seems happy.)</box>
+         </sp>
+         <sp speaker="niceCreamGuy" to="you">
+             <box n="6">*Hey! *It's you again!</box>
+             <box n="7">*Business is excellent here! *These two fellas bought ALL my ice cream!</box>
+             <box n="8">*I've actually sold out of everything!!!</box>
+             <box n="9">*... sorry.</box>
+             <box n="10">*Wait! *I've still got something for you!</box>
+             <box n="11">*... a big smile! *How about that!</box>
+             <box n="12">*I'm so happy!! *Nice Cream is really changing the world!!</box>
+         </sp>
         </setting>
     </path>
     
