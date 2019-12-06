@@ -3,45 +3,50 @@
 <map name="newHome">
     <path route="neutral">
     <setting name="newHomeView">
-    <option choice="select"/>*
-        <sp speaker="gameNarr" to="you">
+        <option what="gameNarr">
+        <sp speaker="game" to="you">
             <box n="1">(The elevator is in use.)</box>
         </sp>
+        </option>
     </setting>
     <setting name="asgore'sFoyer">
-      <option choice="select"/>
-        <sp speaker="gameNarr" to="you">
+      <option what="gameNarr">
+        <sp speaker="game" to="you">
             <box n="1">*(It’s a golden flower.</box>
         </sp>
-      <option choice="select"/>
-        <sp speaker="gameNarr" to="you">
+      </option> 
+      <option what="gameNarr">
+        <sp speaker="game" to="you">
             <box n="2">*(The way is blocked by two padlocks.)*(There’s a note attached.)</box>
         </sp>
-      <option read="note"/>
-        <sp speaker="gameNarr" to="you">
+      </option>
+      <option what="gameNarr">
+        <sp speaker="game" to="you">
             <box n="3">*(Howdy! I'm in the garden.)</box>
             <box n="4">*(If you have anything you need to get off your chest, please don't hesitate to come.)</box>
             <box n="5">*(The keys are in the kitchen and the hallway.)</box>
             <box n="6">*(You'll need both keys to get through.)</box>
         </sp>
-        <sp speaker="gameNarr" to="you">
+      </option> 
+        <sp speaker="game" to="you">
         <box n="7">*(You unlocked the chain.)</box>
         <box n="8">*(There's an old calendar from the end of 201X.) *(A date is circled on it.)</box>
         </sp>
     </setting>
     <setting name="livingRoom">
-        <option choice="select"/>
-           <sp speaker="gameNarr" to="you">
+        <option what="gameNarr">
+           <sp speaker="game" to="you">
                <box n="1">*Seems like gardening tools.</box>
                <box n="2">*(There are photo albums...)*(Scrapbooks…)*(Books on how to make tea…)</box>
                <box n="3">*The coals are still warm.</box>
                <box n="4">*(It’s a great reading chair.)*(But it doesn't seem like anyone uses it.)</box>
                <box n="5">*It’s a golden flower.</box>
            </sp>
+           </option>
     </setting>
     <setting name="kitchen">
-        <option choice="select"/>
-          <sp speaker="gameNarr" to="you">
+        <option what="gameNarr">
+          <sp speaker="game" to="you">
               <box n="1">*(The fridge is full of unopened containers of snails.)</box>
               <box n="2">*(There is some white fur stuck in the drain.)</box>
               <box n="3">*(It’s a note.)*Howdy! Help yourself to anything you want!</box>
@@ -50,10 +55,11 @@
               <box n="6">*(It’s a trash can.)</box>
               <box n="7">*(It’s full of crumpled-up recipes for butterscotch pie.)</box>
           </sp>
+        </option>
     </setting>
     <setting name="bedrooms">
-        <option choice="select"/>
-            <sp speaker="gameNarr" to="you">
+        <option what="gameNarr">
+            <sp speaker="game" to="you">
                 <box n="1">*It’s a golden flower.</box>
                 <box n="2">*It’s a golden flower.</box>
                 <box n="3">*It’s a golden flower.</box>
@@ -62,10 +68,11 @@
                 <box n="6">*Despite everything, it’s still you.</box>
                 <box n="7">*It’s a golden flower.</box>
             </sp>
+        </option>
     </setting>
     <setting name="asgore'sRoom"> 
-        <option choice="select"/>
-          <sp speaker="gameNarr" to="you">
+        <option what="gameNarr">
+          <sp speaker="game" to="you">
               <box n="1">*(It’s ASGORE’s journal.)*(All the current page says is ‘Nice day today!’)</box>
               <box n="2">*(The ink is still almost wet.)</box>
               <box n="3">*(It's just a chair.)</box>
@@ -77,10 +84,11 @@
               <box n="9">*...and a pink, hand-knit sweater that says 'Mr. Dad Guy.')</box>
               <box n="8">*(It's a trophy.)*(Number 1 Nose-Nuzzle Champs '98!)</box>
           </sp>
+        </option>
     </setting>
     <setting name="children'sRoom">
-        <option choice="select"/>
-        <sp speaker="gameNarr" to="you">
+        <option what="gameNarr">
+        <sp speaker="game" to="you">
             <box n="1">*(Dusty toys.)</box>
             <box n="2">*(It's a twin-sized bed.)</box>
             <box n="3">*(There are a lot of striped shirts in here.)</box>
@@ -90,23 +98,25 @@
             <box n="7">*(You're carrying too much.)</box>
             <box n="8">*(There's a worn dagger inside the box.)</box>
             <box n="9">*(Will you take it?)</box>
-            <option choice="takeIt"/>
+            <conditions taken="takeIt"/>
                   <box n="10">*(You got the Worn dagger.)</box>
                   <box n="11">*(There's a heart-shaped locket inside the box.)</box>
                   <box n="12">*(Will you take it?)</box>
-            <option choice="takeIt"/>
+            <conditions taken="takeIt"/>
                   <box n="13">*(You got hte Heat-shaped Locket.)</box>
                   <box n="14">*(The box is empty.)</box>
                   <box n="15">*(The box is empty.)</box>
         </sp>
+        </option> 
     </setting>   
     <setting name="coffins">
-        <option choice="select"/>
-        <sp speaker="gameNarr" to="you">
+        <option what="gameNarr">
+        <sp speaker="game" to="you">
             <box n="1">*(it's a coffin.)*(There's a name engraved on it.)</box>
             <box n="2">*("Chara.")</box>
             <box n="3">*(It's empty.)</box>
         </sp>
+        </option>
     </setting>
     </path>
     <path route="neutral">
@@ -161,13 +171,11 @@
                    <box n="9">*this is an odd thing to say, but...</box>
                    <box n="10">*if you have some sort of special power...</box>
                    <box n="11">*isn't it your responsibility to do the right thing?</box>
-                    <choice option="no"/>
                            <box n="1">*heh.</box>
                            <box n="2">*well, that's your viewpoint.</box>
                            <box n="3">*I won't judge you for it.</box>
                            <box n="4">*...</box>
                            <box n="5">*You dirty brother killer.</box>
-                   <choice option="yes"/>
                            <box n="1">*ah.</box>
                            <box n="2">*I see.</box>
                            <box n="3">*...</box>
@@ -178,7 +186,6 @@
     </path>
        <path route="neutral">
     <setting name="throneRoomEntrance">
-        <option choice="select"/>
         <sp speaker="gameNarr" to="you">
             <box n="1">Throne Room.</box>
         </sp>
@@ -204,7 +211,6 @@
             <box n="17">*When you are ready, come into the next room.</box>
         </sp>
         <sp speaker="gameNarr" to="you">
-            <conditions choice="select"/>
             <box n="1">*(It's a throne.)</box>
             <box n="2">*(It's another throne covered by a white sheet.)</box>
         </sp>
@@ -227,19 +233,16 @@
         <box n="4">*If...</box>
         <box n="5">*If by chance you have any unfinished business...</box>
         <box n="6">*Please do what you must.</box>
-        <option choice="continue"/>
            <box n="1">*...</box>
            <box n="2">*... I see...</box>
            <box n="3">*This is it, then.</box>
            <box n="4">*Ready?</box>
-        <option choice="goBack"/>
            <box n="1">*I see.</box>
            <box n="2">*Anything you want to do is important enough.</box>
            <box n="3">*Even something as small as reading a book, or taking a walk...</box>
            <box n="4">*Please take your time.</box>
            <box n="5">*Oh... *Back so soon?</box>
            <box n="6">*How are you feeling?</box>
-        <option choice="goBack"/>
            <box n="1">*I see.</box>
            <box n="2">*Do what you have to.</box>
     </sp>
@@ -255,8 +258,6 @@
         <sp speaker="gameNarr" to="you">
             <box n="1">Flowey LV999 999:99</box>
             <box n="2">My world</box>
-            <option choice="continue"/>
-            <option choice="restart"/>
         </sp>
     </setting>
        </path>

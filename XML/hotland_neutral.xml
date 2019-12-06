@@ -96,6 +96,17 @@
              <box n="11">*... a big smile! *How about that!</box>
              <box n="12">*I'm so happy!! *Nice Cream is really changing the world!!</box>
          </sp>
+         <conditions killed="guardsKilled"/>
+         <sp speaker="niceCreamGuy" to="you">
+             <box n="1">*I thought foe sure if went to Hotland, I'd sell some Nice Creams.</box>
+             <box n="2">*But nobody wants them. *Everyone's just eating Starfaits and Glamburgers.</box>
+             <box n="3">*So!!!</box>
+             <box n="4">*I'm having a going out of business sale.</box>
+             <box n="5">*Hello... *Would you like some Nice Cream...?</box>
+             <box n="6">*It's the frozen treat... *That warms you heart.</box>
+             <box n="7">*Now only 126!</box>
+             
+         </sp>
         </setting>
     </path>
     
