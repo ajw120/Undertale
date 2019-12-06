@@ -98,15 +98,26 @@
          </sp>
          <conditions killed="guardsKilled"/>
          <sp speaker="niceCreamGuy" to="you">
-             <box n="1">*I thought foe sure if went to Hotland, I'd sell some Nice Creams.</box>
+             <box n="1">*I thought for sure if went to Hotland, I'd sell some Nice Creams.</box>
              <box n="2">*But nobody wants them. *Everyone's just eating Starfaits and Glamburgers.</box>
              <box n="3">*So!!!</box>
              <box n="4">*I'm having a going out of business sale.</box>
              <box n="5">*Hello... *Would you like some Nice Cream...?</box>
-             <box n="6">*It's the frozen treat... *That warms you heart.</box>
-             <box n="7">*Now only 126!</box>
-             
+             <box n="6">*It's the frozen treat... *That warms your heart.</box>
+             <box n="7">*Now only 126!</box>     
          </sp>
+        </setting>
+    </path>
+    <path route="neutral">
+        <setting name="Restaurant">
+            <sp speaker="host" to="you">
+                <box n="1">*Blub blub... *You'll have to reserve a table to eat here.</box>
+                <box n="2">*You'll also need to reserve your chair, your silverware, your food, your...</box>
+           </sp>
+            <sp speaker="game" to="you">
+                <box n="3"></box>
+            </sp>
+            
         </setting>
     </path>
     
