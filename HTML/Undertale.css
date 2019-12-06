@@ -9,7 +9,7 @@ body {
     background: black;
     height: 100vh;
     width: 98vw;
-    font-family: arial, helvetica, sans-serif;
+    font-family: undertale, arial, helvetica, sans-serif;
     color: #FFFFFF;
     overflow-x: hidden;
 }
@@ -96,4 +96,8 @@ body {
     height: 100%;
     flex-direction: column;
     align-items: center
+}
+@font-face {
+  font-family: undertale;
+  src: url(MonsterFriendFore.otf);
 }
