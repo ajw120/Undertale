@@ -38,9 +38,66 @@
         </span>
         <xsl:apply-templates></xsl:apply-templates>
     </xsl:template>
+    
     <xsl:template match="descendant::conditions[@spared]">
-        <br></br><br></br><span class="{@spared}">
-            <b>Equipped: <xsl:value-of select="@spared"/></b>
+        <br></br><br></br><span class="spared">
+            <b>Sparred: <xsl:value-of select="@spared"/></b>
+        </span>
+        <xsl:apply-templates></xsl:apply-templates>
+    </xsl:template>
+    <xsl:template match="descendant::conditions[@killed]">
+        <br></br><br></br><span class="killed">
+            <b>Killed: <xsl:value-of select="@killed"/></b>
+        </span>
+        <xsl:apply-templates></xsl:apply-templates>
+    </xsl:template>
+    <xsl:template match="descendant::conditions[@fought]">
+        <br></br><br></br><span class="fought">
+            <b>Fought: <xsl:value-of select="@fought"/></b>
+        </span>
+        <xsl:apply-templates></xsl:apply-templates>
+        
+    </xsl:template>
+    <xsl:template match="descendant::conditions[@holding]">
+        <br></br><br></br><span class="holding">
+            <b>Holding: <xsl:value-of select="@holding"/></b>
+        </span>
+        <xsl:apply-templates></xsl:apply-templates>
+        
+    </xsl:template>
+    <xsl:template match="descendant::conditions[@spearsdodged]">
+        <br></br><br></br><span class="spearsdodged">
+            <b>Spears Dodged: <xsl:value-of select="@spearsdodged"/></b>
+        </span>
+        <xsl:apply-templates></xsl:apply-templates>
+    </xsl:template>
+    <xsl:template match="descendant::conditions[@ferry]">
+        <br></br><br></br><span class="ferry">
+            <b>Ferry: <xsl:value-of select="@ferry"/></b>
+        </span>
+        <xsl:apply-templates></xsl:apply-templates>
+    </xsl:template>
+    <xsl:template match="descendant::conditions[@taken]">
+        <br></br><br></br><span class="taken">
+            <b>Taken: <xsl:value-of select="@taken"/></b>
+        </span>
+        <xsl:apply-templates></xsl:apply-templates>
+    </xsl:template>    
+    <xsl:template match="descendant::conditions[@timesTalkedTo]">
+        <br></br><br></br><span class="timesTalkedTo">
+            <b>Times Talked To: <xsl:value-of select="@timesTalkedTo"/></b>
+        </span>
+        <xsl:apply-templates></xsl:apply-templates>
+    </xsl:template>
+    <xsl:template match="descendant::conditions[@timesKilled]">
+        <br></br><br></br><span class="timesKilled">
+            <b>Times Killed: <xsl:value-of select="@timesKilled"/></b>
+        </span>
+        <xsl:apply-templates></xsl:apply-templates>
+    </xsl:template>
+    <xsl:template match="descendant::conditions[@timesSpared]">
+        <br></br><br></br><span class="timesSpared">
+            <b>Times Spared: <xsl:value-of select="@timesSpared"/></b>
         </span>
         <xsl:apply-templates></xsl:apply-templates>
     </xsl:template>
