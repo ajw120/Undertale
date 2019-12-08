@@ -7,7 +7,6 @@
     <xsl:template match="/">
         <html>
             <head>
-                
                 <link rel="stylesheet" href="Undertale.css" />
                 <title>
                     Snowdin
@@ -22,6 +21,7 @@
         <br></br>
         <xsl:apply-templates></xsl:apply-templates>
     </xsl:template>
+    
     <xsl:template match="descendant::sp">
         <br></br>
         <br></br>
@@ -31,9 +31,16 @@
             <xsl:apply-templates></xsl:apply-templates>
         </span>
     </xsl:template>
-    <xsl:template match="descendant::conditions">
+    
+    <xsl:template match="descendant::conditions[@equipped]">
         <br></br><br></br><span class="{@equipped}">
         <b>Equipped: <xsl:value-of select="@equipped"/></b>
+        </span>
+        <xsl:apply-templates></xsl:apply-templates>
+    </xsl:template>
+    <xsl:template match="descendant::conditions[@spared]">
+        <br></br><br></br><span class="{@spared}">
+            <b>Equipped: <xsl:value-of select="@spared"/></b>
         </span>
         <xsl:apply-templates></xsl:apply-templates>
     </xsl:template>
