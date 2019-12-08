@@ -25,12 +25,14 @@
     <xsl:template match="descendant::sp">
         <br></br>
         <br></br>
-        <b><xsl:value-of select="@speaker"/>:</b>
-        <br></br>
-        <xsl:apply-templates></xsl:apply-templates>
+        <span class="{@speaker}">
+            <b><xsl:value-of select='@speaker'/></b>
+            <br></br>
+            <xsl:apply-templates></xsl:apply-templates>
+        </span>
     </xsl:template>
     <xsl:template match="descendant::conditions">
-        <br></br><br></br><span condition="equipped">
+        <br></br><br></br><span class="{@equipped}">
         <b>Equipped: <xsl:value-of select="@equipped"/></b>
         </span>
         <xsl:apply-templates></xsl:apply-templates>

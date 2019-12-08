@@ -142,3 +142,9 @@ body {
     height: 65vh;
     width: auto
 }
+span.Sans{
+    font-family:Comic Sans MS
+}
+span.Papyrus{
+    font-family:papyrus
+}
