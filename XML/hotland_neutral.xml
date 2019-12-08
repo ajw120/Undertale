@@ -115,7 +115,12 @@
                 <box n="2">*You'll also need to reserve your chair, your silverware, your food, your...</box>
            </sp>
             <sp speaker="game" to="you">
-                <box n="3"></box>
+                <box n="3">*(It's a potted plant.)</box>
+                <box n="4">*(It's a potted plant.)</box>
+            </sp>
+            <sp speaker="Snowdrake" to="you">
+                <box n="5">*I'm the resort comedian. *I'm very funny. *People laugh at my jokes.</box>
+                <box n="6">*</box>
             </sp>
             
         </setting>
