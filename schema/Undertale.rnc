@@ -231,7 +231,9 @@ speaker =
         | "EchoFlowerExplainer"
         | "EchoFlower"
         | "telescope"
-        | "bench" | "ferry" | "cheese"
+        | "bench"
+        | "ferry"
+        | "cheese"
     }
 to = attribute to { text }
 # ebb: REFINE THIS with specific values.
@@ -253,7 +255,9 @@ conditions =
          | taken
          | timesTalkedTo
          | timesKilled
-         | timesSpared)*,
+         | timesSpared
+         | timesPlayed
+         | pastRoute)*,
         (box | choice | sp)*
     }
 timesTalkedTo = attribute timesTalkedTo { xsd:integer }
@@ -274,6 +278,11 @@ box = element box { n, (speaker | to | option)*, text }
 n = attribute n { xsd:integer }
 # ebb: REFINE THIS with specific values. (Same as the who attribute?)
 what = attribute what { "gameNarr" | "gameSave" | "kill" | "spare" }
+timesPlayed = attribute timesPlayed { xsd:integer }
+pastRoute =
+    attribute pastRoute {
+        list { ("pacifist" | "neutral" | "genocide")* }
+    }
 # what attribute values: We're trying to keep these simple: 
 # what="gameNarr" is the computer game guiding your interaction with characters or objects
 # what="gameSave" marks all the save moments, which are important because here the computer makes an assessment of your game route/

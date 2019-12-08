@@ -3,16 +3,18 @@
 <map name="Ruins">
     <path route="neutral pacifist genocide">
         <setting name="FloweyHall">
-            <sp speaker="Flowey" to="you">
-                <box n="1">*Howdy! *I'm FLOWEY. *FLOWEY the FLOWER!</box>
-                <box n="2">*Hmmm...</box>
-                <box n="3">*You're new to the UNDERGROUND, aren'tcha?</box>
-                <box n="4">*Golly, you must be so confused.</box>
-                <box n="5">*Someone ought to teach you how things work around here!</box>
-                <box n="6">*I guess little old me will have to do.</box>
-                <box n="7">*Ready? *Here we go!</box>
-            </sp>
-            <conditions>
+            <conditions timesPlayed="0">
+                <sp speaker="Flowey" to="you">
+                    <box n="1">*Howdy! *I'm FLOWEY. *FLOWEY the FLOWER!</box>
+                    <box n="2">*Hmmm...</box>
+                    <box n="3">*You're new to the UNDERGROUND, aren'tcha?</box>
+                    <box n="4">*Golly, you must be so confused.</box>
+                    <box n="5">*Someone ought to teach you how things work around here!</box>
+                    <box n="6">*I guess little old me will have to do.</box>
+                    <box n="7">*Ready? *Here we go!</box>
+                </sp>
+            </conditions>
+            <conditions timesPlayed="1">
                 <sp speaker="Flowey" to="you">
                     <box n="1">*Howdy! *I'm FLOWEY. *FLOWEY the FLOWER!</box>
                     <box n="2">*Hee hee hee...</box>
@@ -23,12 +25,12 @@
                     <box n="7">Ready? *Here we go!</box>
                 </sp>
             </conditions>
-            <conditions>
+            <conditions timesPlayed="2">
                 <sp speaker="Flowey" to="you">
                     <box n="1">*Don't you have anything better to do?</box>
                 </sp>
             </conditions>
-            <conditions>
+            <conditions timesPlayed="1" pastRoute="genocide neutral">
                 <sp speaker="Flowey" to="you">
                     <box n="1">*Remember...</box>
                     <box n="2">*THIS time, you've GOT to become friends with everyone.</box>
@@ -39,7 +41,7 @@
                     <box n="7">*Good luck.</box>
                 </sp>
             </conditions>
-            <conditions>
+            <conditions timesPlayed="1" pastRoute="genocide neutral">
                 <sp speaker="Flowey" to="you">
                     <box n="1">*Hey. *Remember.</box>
                     <box n="2">*DON'T kill anyone.</box>
@@ -49,7 +51,7 @@
                     <box n="6">*Good luck!</box>
                 </sp>
             </conditions>
-            <conditions>
+            <conditions timesPlayed="1" pastRoute="pacifist">
                 <sp speaker="Flowey" to="you">
                     <box n="1">*Really, Chara?</box>
                     <box n="2">*Well, do what you will.</box>
@@ -404,49 +406,49 @@
 
         </setting>
         <setting name="SpiderBakeSale">
-           
-                <option what="gameNarr">
-                    <sp speaker="sign" to="you">
-                        <box n="1">*Spider Bake Sale *All proceeds go to real spiders.</box>
-                    </sp>
-                </option>
-            
-          
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="2">*Leave 7G in the web? Yes No</box>
-                    </sp>
-                </option>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="3">*Some spiders crawled down and gave you a donut.</box>
 
-                        <box n="1">*You didn't have enough gold.</box>
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="1">*Spider Bake Sale *All proceeds go to real spiders.</box>
+                </sp>
+            </option>
 
 
-                        <box n="1">*You are carrying too many items.</box>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="2">*Leave 7G in the web? Yes No</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="3">*Some spiders crawled down and gave you a donut.</box>
 
-                    </sp>
-                </option>
-            
-           
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="4">*Leave 18G in the web? Yes No</box>
-                    </sp>
-                </option>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="5">*Some spiders crawled down and gave you a jug.</box>
-
-                        <box n="2">*You didn't have enough gold.</box>
+                    <box n="1">*You didn't have enough gold.</box>
 
 
-                        <box n="1">*You are carrying too many items.</box>
+                    <box n="1">*You are carrying too many items.</box>
 
-                    </sp>
-                </option>
-            
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="4">*Leave 18G in the web? Yes No</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="5">*Some spiders crawled down and gave you a jug.</box>
+
+                    <box n="2">*You didn't have enough gold.</box>
+
+
+                    <box n="1">*You are carrying too many items.</box>
+
+                </sp>
+            </option>
+
         </setting>
         <setting name="FroggitHallway">
 
@@ -519,57 +521,57 @@
 
         </setting>
         <setting name="SixSwitchesPuzzle">
-            
-                <option what="gameNarr">
-                    <sp speaker="sign" to="you">
-                        <box n="1">*There is just one switch.</box>
-                    </sp>
-                </option>
-            
+
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="1">*There is just one switch.</box>
+                </sp>
+            </option>
+
         </setting>
         <setting name="SwitchesRoom">
-           
-                <option what="gameNarr">
-                    <sp speaker="sign" to="you">
-                        <box n="1">*The far door is not an exit. *It simply marks a rotation in
-                            perspective.</box>
-                    </sp>
-                </option>
-            
-            
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="2">*It's a switch *Press it? Yes No</box>
-                    </sp>
-                </option>
-                <option what="gameNarr">
-                    <box n="3">*Nothing happened.</box>
-                </option>
-            
-            
-                <option what="gameNarr">
-                    <box n="4">*It's a switch *Press it? Yes No</box>
-                    <box n="5">*Nothing happened.</box>
-                </option>
-            
-          
-                <option what="gameNarr">
-                    <box n="6">*It's a switch *Press it? Yes No</box>
 
-                    <box n="5">*Nothing happened.</box>
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="1">*The far door is not an exit. *It simply marks a rotation in
+                        perspective.</box>
+                </sp>
+            </option>
 
-                </option>
-            
-           
-                <option what="gameNarr">
 
-                    <sp speaker="game" to="you">
-                        <box n="1">*You're making the switches uncomfortable with all this
-                            attention.</box>
-                    </sp>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="2">*It's a switch *Press it? Yes No</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <box n="3">*Nothing happened.</box>
+            </option>
 
-                </option>
-            
+
+            <option what="gameNarr">
+                <box n="4">*It's a switch *Press it? Yes No</box>
+                <box n="5">*Nothing happened.</box>
+            </option>
+
+
+            <option what="gameNarr">
+                <box n="6">*It's a switch *Press it? Yes No</box>
+
+                <box n="5">*Nothing happened.</box>
+
+            </option>
+
+
+            <option what="gameNarr">
+
+                <sp speaker="game" to="you">
+                    <box n="1">*You're making the switches uncomfortable with all this
+                        attention.</box>
+                </sp>
+
+            </option>
+
         </setting>
         <setting name="SwitchesRoom">
 
@@ -592,59 +594,59 @@
 
         </setting>
         <setting name="SwitchesRoom">
-            
-                <option what="gameNarr">
-                    <sp speaker="sign" to="you">
-                        <box n="1">*If you can read this, press the red switch.</box>
-                    </sp>
-                </option>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="4">*It's a switch. *Press it? Yes No</box>
-                        <box n="5">*You hear a clicking sound.</box>
 
-                    </sp>
-                </option>
-            
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="1">*If you can read this, press the red switch.</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="4">*It's a switch. *Press it? Yes No</box>
+                    <box n="5">*You hear a clicking sound.</box>
+
+                </sp>
+            </option>
+
         </setting>
         <setting name="SwitchesRoom">
-           
-                <option what="gameNarr">
-                    <sp speaker="sign" to="you">
-                        <box n="3">*If you can read this, press the green switch.</box>
-                    </sp>
-                </option>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="4">*It's a switch *Press it? Yes No</box>
 
-                        <box n="5">*You hear a clicking sound.</box>
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="3">*If you can read this, press the green switch.</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="4">*It's a switch *Press it? Yes No</box>
 
-                    </sp>
-                </option>
-            
+                    <box n="5">*You hear a clicking sound.</box>
+
+                </sp>
+            </option>
+
         </setting>
         <setting name="FroggitNearToyKnife">
-           
-                <option what="gameNarr">
-                    <sp speaker="Froggit" to="you">
-                        <box n="1">*Ribbit, ribbit *(Just between you and me...)</box>
-                        <box n="2">*(I saw TORIEL come out of here just a little while ago.)</box>
-                        <box n="3">*(She was carrying some groceries.</box>
-                        <box n="4">*(I didn't ask what they were for...)</box>
-                        <box n="5">*(We're all too intimidated to talk to her.) *Ribbit.</box>
-                    </sp>
-                </option>
-            
+
+            <option what="gameNarr">
+                <sp speaker="Froggit" to="you">
+                    <box n="1">*Ribbit, ribbit *(Just between you and me...)</box>
+                    <box n="2">*(I saw TORIEL come out of here just a little while ago.)</box>
+                    <box n="3">*(She was carrying some groceries.</box>
+                    <box n="4">*(I didn't ask what they were for...)</box>
+                    <box n="5">*(We're all too intimidated to talk to her.) *Ribbit.</box>
+                </sp>
+            </option>
+
         </setting>
         <setting name="ToyKnifeRoom">
-            
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*You found the Toy Knife.</box>
-                    </sp>
-                </option>
-            
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*You found the Toy Knife.</box>
+                </sp>
+            </option>
+
         </setting>
         <setting name="BlackTreeRoom">
             <sp speaker="Toriel" to="you">
@@ -705,14 +707,13 @@
             </sp>
         </setting>
         <setting name="TorielsLivingRoom">
-          
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*The ends of the tools have been filed down to make them
-                            safer.</box>
-                    </sp>
-                </option>
-            
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*The ends of the tools have been filed down to make them safer.</box>
+                </sp>
+            </option>
+
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="2">*It's a history book. *Here's a random page...</box>
@@ -723,62 +724,62 @@
                     <box n="6">*As great as our king is, he is pretty lousy at names.</box>
                 </sp>
             </option>
-         
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="7">*This fire isn't burning hot... *Just pleasantly warm. *You could
-                            put your hand inside.</box>
-                    </sp>
-                </option>
-            
-           
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="8">*(Seems like the right size for Toriel.)</box>
-                    </sp>
-                </option>
-            
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="7">*This fire isn't burning hot... *Just pleasantly warm. *You could put
+                        your hand inside.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="8">*(Seems like the right size for Toriel.)</box>
+                </sp>
+            </option>
+
         </setting>
         <setting name="Kitchen">
-            
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*For some reason, there is a brand-name chocolate bar in the
-                            fridge.</box>
-                    </sp>
-                </option>
-            
-            
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="2">*There is some white fur stuck in the drain.</box>
-                    </sp>
-                </option>
-            
-            
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="3">*Inside the cupboard are cookie cutters for gingerbread
-                            monsters.</box>
-                    </sp>
-                </option>
-            
-         
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="4">*The size of the pie intimidates you too much for you to eat
-                            it.</box>
-                    </sp>
-                </option>
-            
-            
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="5">*The stovetop is very clean. *Toriel must use fire magic
-                            instead.</box>
-                    </sp>
-                </option>
-            
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*For some reason, there is a brand-name chocolate bar in the
+                        fridge.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="2">*There is some white fur stuck in the drain.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="3">*Inside the cupboard are cookie cutters for gingerbread
+                        monsters.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="4">*The size of the pie intimidates you too much for you to eat
+                        it.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="5">*The stovetop is very clean. *Toriel must use fire magic
+                        instead.</box>
+                </sp>
+            </option>
+
         </setting>
         <setting name="Bedrooms">
             <sp speaker="Toriel" to="you">
@@ -786,39 +787,38 @@
                 <box n="3">*A room of your own. *I hope you like it!</box>
                 <box n="5">*Is something burning...? *Um, make yourself at home!</box>
             </sp>
-            
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="6">*You have seen this type of plant before but do not know its
-                            name.</box>
 
-                        <box n="1">*Oh! *It is a "water sausage."</box>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="6">*You have seen this type of plant before but do not know its
+                        name.</box>
 
-                    </sp>
-                </option>
-            
-          
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="7">*Inside the drawer are flower seeds and some broken
-                            crayons.</box>
-                    </sp>
-                </option>
-            
-          
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="8">*It's you!</box>
-                    </sp>
-                </option>
-            
-           
-                <option what="gameNarr">
-                    <sp speaker="sign" to="you">
-                        <box n="9">*"Room under renovations."</box>
-                    </sp>
-                </option>
-            
+                    <box n="1">*Oh! *It is a "water sausage."</box>
+
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="7">*Inside the drawer are flower seeds and some broken crayons.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="8">*It's you!</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="9">*"Room under renovations."</box>
+                </sp>
+            </option>
+
         </setting>
         <setting name="TorielsRoom">
 
