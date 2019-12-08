@@ -3,7 +3,7 @@
 <map name="hotland">
     <path route="neutral">
         <setting name="alphy'sLab">
-           <sp speaker="alphys" to="you">
+           <sp speaker="Alphys" to="you">
                <box n="1">*...</box>
                <box n="2">*Well that was certainly something.</box>
                <box n="3">*Th-that last question...</box>
@@ -27,7 +27,7 @@
                <box n="21">*...</box>
                <box n="22">*I'm going to the bathroom.</box>
            </sp> 
-           <sp speaker="gameNarr" to="you">
+           <sp speaker="game" to="you">
                <box n="1">*(It's a bag of dog food.) *(It's half-full.)</box>
                <box n="2">*(The fridge is filled with instant noodles and soda.)</box>
                <box n="3">*(Take a package of noodles?)</box>
@@ -48,46 +48,46 @@
                <box n="16">*(Yellow feet are tapping just behind the door.)</box>
            </sp>
            <conditions timesKilled="1"/>
-           <sp speaker="gameNarr" to="you">
+           <sp speaker="game" to="you">
                <box n="1">*(It's a half-empty bag of dog food.)</box>           
            </sp>
            <conditions timesKilled="21"/>
-            <sp speaker="gameNarr" to="you">
+            <sp speaker="game" to="you">
                 <box n="1">*(You just remembered something funny.)</box>
             </sp>
         </setting>
     </path>
     <path route="neutral">
         <setting name="soSorryRoom">
-            <sp speaker="gameNarr" to="you">
+            <sp speaker="game" to="you">
                 <box n="1">*Art Club: Meet here! *Next meeting: *October 10th, 8PM</box>
             </sp>
-            <sp speaker="soSorry" to="you">
+            <sp speaker="SoSorry" to="you">
                 <box n="1">*Ahhhh! *I'm late!!!! *I'm late!!!</box>
                 <box n="2">*I'm so sorry!!!</box>
             </sp>
             <conditions spared="spareSoSorry"/>
-            <sp speaker="soSorry" to="you">
+            <sp speaker="SoSorry" to="you">
                 <box n="1">*Let's meet again someday!</box>
             </sp>
             <conditions killed="killSoSorry"/>
-            <sp speaker="gameNarr" to="you">
+            <sp speaker="game" to="you">
                 <box n="1">*(Art is dead.)</box>
             </sp>            
         </setting>
     </path>
     <path route="neutral">
         <setting name="NiceCreamGuy">
-         <sp speaker="royalGuard" to="you">
+         <sp speaker="RoyalGuard" to="you">
              <box n="1">*Oh, hey.</box>
              <box n="2">*We're, like, taking a rain check on that killing-you thing.</box>
              <box n="3">*Like, don't tell Undyne about this, OK?</box>
              <box n="4">*You didn't tell her, did you...?</box>
          </sp>   
-         <sp speaker="gameNarr" to="you">
+         <sp speaker="game" to="you">
              <box n="5">*(... he seems happy.)</box>
          </sp>
-         <sp speaker="niceCreamGuy" to="you">
+         <sp speaker="NiceCreamGuy" to="you">
              <box n="6">*Hey! *It's you again!</box>
              <box n="7">*Business is excellent here! *These two fellas bought ALL my ice cream!</box>
              <box n="8">*I've actually sold out of everything!!!</box>
@@ -97,7 +97,7 @@
              <box n="12">*I'm so happy!! *Nice Cream is really changing the world!!</box>
          </sp>
          <conditions killed="guardsKilled"/>
-         <sp speaker="niceCreamGuy" to="you">
+         <sp speaker="NiceCreamGuy" to="you">
              <box n="1">*I thought for sure if went to Hotland, I'd sell some Nice Creams.</box>
              <box n="2">*But nobody wants them. *Everyone's just eating Starfaits and Glamburgers.</box>
              <box n="3">*So!!!</box>
@@ -110,7 +110,7 @@
     </path>
     <path route="neutral">
         <setting name="Restaurant">
-            <sp speaker="host" to="you">
+            <sp speaker="someone" to="you">
                 <box n="1">*Blub blub... *You'll have to reserve a table to eat here.</box>
                 <box n="2">*You'll also need to reserve your chair, your silverware, your food, your...</box>
            </sp>

@@ -219,6 +219,13 @@ speaker =
         | "ScarfLady"
         | "LadyGarf"
         | "LibraryLoox"
+        | "NiceCreamGuy"
+        | "RoyalGuard"
+        | "SoSorry"
+        | "Alphys"
+        | "Sans"
+        | "Mettaton"
+        | "Asgore"
     }
 to = attribute to { text }
 # ebb: REFINE THIS with specific values.

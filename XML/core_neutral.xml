@@ -3,7 +3,7 @@
 <map name="core">
     <path route="neutral">
         <setting name="mettatonRoom">
-            <sp speaker="mettaton" to="you">
+            <sp speaker="Mettaton" to="you">
                 <box n="1">*OH YES. *THERE YOU ARE, DARLING.</box>
                 <box n="2">*IT'S TIME TO HAVE OUR LITTLE SHOWDOWN.</box>
                 <box n="3">*IT'S TIME TO FINALLY STOP THE "MALFUNCTIONING" ROBOT.</box>
@@ -33,11 +33,11 @@
                 <box n="27">*AND WHAT'S A GOOD SHOW...</box>
                 <box n="28">*WIHTOUT A PLOT TWIST?</box>     
             </sp>
-            <sp speaker="alphys" to="you">
+            <sp speaker="Alphys" to="you">
                 <box n="29">*H-hey!! *Wh-wh-what's going on!?</box>
                 <box n="30">*Th-th-the door just locked itself!</box>
             </sp>
-            <sp speaker="mettaton" to="you">
+            <sp speaker="Mettaton" to="you">
                 <box n="31">*SORRY, FOLKS! *THE OLD PROGRAM'S BEEN CANCELLED!!!</box>
                 <box n="32">*BUT WE'VE GOT A FINALE THAT WILL DRIVE YOU WILD!!</box>
                 <box n="33">*REAL DRAMA!! *REAL ACTION!! *REAL BLOODSHED!!</box>
@@ -49,7 +49,7 @@
     <path route="neutral">
         <setting name="mettatonRoom">
             <conditions fought="ratingsSpare"/>
-            <sp speaker="alphys" to="you">
+            <sp speaker="Alphys" to="you">
                 <box n="1">*I... I managed to open the lock! *Are you two...</box>
                 <box n="2">*Oh my god.</box>
                 <box n="3">*Mettaton!</box>
@@ -72,7 +72,7 @@
     <path route="neutral">
         <setting name="mettatonRoom">
             <conditions killed="killedMettaton"/>
-            <sp speaker="alphys" to="you">
+            <sp speaker="Alphys" to="you">
                 <box n="1">*I... I managed to open the lock! *Are you two...</box>
                 <box n="2">*Oh my god.</box>
                 <box n="3">*Mettaton!</box>
@@ -85,7 +85,7 @@
                 <box n="10">*Why don't you go ahead?</box>
                 <box n="11">*I... I just need a moment.</box>
             </sp>
-            <sp speaker="gameNarr" to="you">
+            <sp speaker="game" to="you">
                 <box n="12">*(It's completely trashed.) *(There's no way it could ever be repaired.)</box>
             </sp>
         </setting>
