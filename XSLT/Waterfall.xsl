@@ -7,6 +7,8 @@
     <xsl:template match="/">
         <html>
             <head>
+                
+                <link rel="stylesheet" href="Undertale.css" />
                 <title>
                     Snowdin
                 </title>
