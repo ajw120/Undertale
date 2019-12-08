@@ -13,6 +13,8 @@ body {
     color: #FFFFFF;
     overflow-x: hidden;
 }
+
+
 .navbar {
     display: flex;
     width: 100%;
@@ -98,6 +100,6 @@ body {
     align-items: center
 }
 @font-face {
-  font-family: undertale;
-  src: url(MonsterFriendFore.otf);
+    font-family: undertale;
+    src: url(MonsterFriendFore.otf);
 }
