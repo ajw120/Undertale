@@ -170,6 +170,7 @@ name =
         | "newHome"
         | "hotland"
         | "TorielFight"
+        | "PapyrusFight"
     }
 # 2019-11-07 ebb: We'll need Schematron to control which names are allowed on which specific elements.
 sp = element sp { speaker, to, (box | choice | conditions)* }

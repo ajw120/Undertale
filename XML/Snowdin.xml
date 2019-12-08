@@ -3,31 +3,29 @@
 <map name="Snowdin">
     <path route="neutral pacifist genocide">
         <setting name="OutsideRuinsDoor">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*...!? *There's a camera hidden in the bushes.</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*...!? *There's a camera hidden in the bushes.</box>
+                </sp>
+            </option>
+
         </setting>
         <setting name="SansHallway">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*(It's a tough-looking branch.) *(It's too heavy to pick
-                            up.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="2">*(It's a tough-looking branch.) *(It's too heavy to pick
-                            up.)</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*(It's a tough-looking branch.) *(It's too heavy to pick up.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="2">*(It's a tough-looking branch.) *(It's too heavy to pick up.)</box>
+                </sp>
+            </option>
+
         </setting>
         <setting name="MeetingSans">
             <sp speaker="Sans" to="you">
@@ -138,35 +136,33 @@
             </sp>
         </setting>
         <setting name="AfterPapyrus">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*Just a conveniently-shaped lamp.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Sans" to="you">
-                        <box n="2">*you oughta get going. *he might come back. *and if he
-                            does...</box>
-                        <box n="3">*...you'll have to sit through more of my hilarious jokes.</box>
-                        <box n="4">*what's the holdup? *look, there's nothin to be afraid of.</box>
-                        <box n="5">*it's just a dark cavern filled with skeletons and horrible
-                            monsters.</box>
-                        <box n="6">*well?</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="7">*It's some sort of checkpoint or sentry-station.</box>
-                        <box n="8">*But there are bottles of ketchup, mustard, and relish sitting
-                            inside...</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*Just a conveniently-shaped lamp.</box>
+                </sp>
+            </option>
+
+            <option what="gameNarr">
+                <sp speaker="Sans" to="you">
+                    <box n="2">*you oughta get going. *he might come back. *and if he does...</box>
+                    <box n="3">*...you'll have to sit through more of my hilarious jokes.</box>
+                    <box n="4">*what's the holdup? *look, there's nothin to be afraid of.</box>
+                    <box n="5">*it's just a dark cavern filled with skeletons and horrible
+                        monsters.</box>
+                    <box n="6">*well?</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="7">*It's some sort of checkpoint or sentry-station.</box>
+                    <box n="8">*But there are bottles of ketchup, mustard, and relish sitting
+                        inside...</box>
+                </sp>
+            </option>
+
             <sp speaker="Sans" to="you">
                 <box n="9">*actually, hey... *hate to bother ya, but can you do me a favor?</box>
                 <box n="10">*i was thinking... *my brother's been kind of down lately...</box>
@@ -178,55 +174,54 @@
             </sp>
         </setting>
         <setting name="SavePoint">
-            <choice>
-                <option what="gameSave">
-                    <sp speaker="determination" to="you">
-                        <box n="1">*(The convenience of that lamp still fills you with
-                            determination.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="sign" to="you">
-                        <box n="3">*(This is a box.)</box>
-                        <box n="4">*(You can put an item inside or take an item out.)</box>
-                        <box n="5">*(The same box will appear later, so don't worry about coming
-                            back.)</box>
-                        <box n="6">*(Sincerely, a box lover.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="7">*Use the box? Yes No</box>
-                    </sp>
-                </option>
-                <option what="gameNarr">
-                    <box n="8">INVENTORY BOX Press [X] to Finish</box>
-                </option>
-            </choice>
+
+            <option what="gameSave">
+                <sp speaker="determination" to="you">
+                    <box n="1">*(The convenience of that lamp still fills you with
+                        determination.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="3">*(This is a box.)</box>
+                    <box n="4">*(You can put an item inside or take an item out.)</box>
+                    <box n="5">*(The same box will appear later, so don't worry about coming
+                        back.)</box>
+                    <box n="6">*(Sincerely, a box lover.)</box>
+                </sp>
+            </option>
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="7">*Use the box? Yes No</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <box n="8">INVENTORY BOX Press [X] to Finish</box>
+            </option>
+
         </setting>
         <setting name="FishingPoleRoom">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*It's a fishing rod affixed to the ground...</box>
-                        <box n="2">*Reel it in? Yes No</box>
 
-                        <box n="3">*You leave it alone.</box>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*It's a fishing rod affixed to the ground...</box>
+                    <box n="2">*Reel it in? Yes No</box>
+
+                    <box n="3">*You leave it alone.</box>
 
 
-                        <box n="4">*All that's attached to the end is a photo of a weird-looking
-                            monster...</box>
-                        <box n="5">*(Call Me! Here's my number!)</box>
-                        <box n="6">*You decide not to call.</box>
-                        <box n="7">*You send the line back out.</box>
+                    <box n="4">*All that's attached to the end is a photo of a weird-looking
+                        monster...</box>
+                    <box n="5">*(Call Me! Here's my number!)</box>
+                    <box n="6">*You decide not to call.</box>
+                    <box n="7">*You send the line back out.</box>
 
-                    </sp>
-                </option>
-            </choice>
+                </sp>
+            </option>
+
         </setting>
         <setting name="SansAndPapyrus">
             <sp speaker="Papyrus" to="Sans">
@@ -269,49 +264,45 @@
             </sp>
         </setting>
         <setting name="PapyrusStation">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="sign" to="you">
-                        <box n="1">*There's some narration on this cardboard box.</box>
-                        <box n="2">YOU OBSERVE THE WELL-CRAFTED SENTRY STATION.</box>
-                        <box n="3">WHO COULD HAVE BUILT THIS, YOU PONDER...</box>
-                        <box n="4">I BET IT WAS THAT VERY FAMOUS ROYAL GUARDSMAN!</box>
-                        <box n="5">(NOTE. NOT YET A VERY FAMOUS ROYAL GUARDSMAN.</box>
-                    </sp>
-                </option>
-            </choice>
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="1">*There's some narration on this cardboard box.</box>
+                    <box n="2">YOU OBSERVE THE WELL-CRAFTED SENTRY STATION.</box>
+                    <box n="3">WHO COULD HAVE BUILT THIS, YOU PONDER...</box>
+                    <box n="4">I BET IT WAS THAT VERY FAMOUS ROYAL GUARDSMAN!</box>
+                    <box n="5">(NOTE. NOT YET A VERY FAMOUS ROYAL GUARDSMAN.</box>
+                </sp>
+            </option>
         </setting>
         <setting name="DoggoStation">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="sign" to="you">
-                        <box n="1">*(Absolutely NO MOVING!!!)</box>
-                    </sp>
-                </option>
-            </choice>
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="1">*(Absolutely NO MOVING!!!)</box>
+                </sp>
+            </option>
             <sp speaker="Doggo" to="Doggo">
                 <box n="2">*Did something move? *Was it my imagination?</box>
                 <box n="3">*I can only see moving things.</box>
                 <box n="4">* if something WAS moving... *For example a human...</box>
                 <box n="5">I'll make sure it NEVER moves again!</box>
             </sp>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Doggo" to="Doggo">
-                        <box n="1">*Hello? *Is anybody there...? *No?</box>
-                        <box n="2">*Are you two playing a trick on me? *Real funny.</box>
-                        <box n="3">*Big guy? *Is that you? *Come on...</box>
-                        <box n="4">*Well, it's not the tall skeleton... *He's too loud.</box>
-                        <box n="5">*Whoever you are, knock it off!!!</box>
-                        <box n="6">*...</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <box n="6">*(Someone's been smoking dog treats.)</box>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="Doggo" to="Doggo">
+                    <box n="1">*Hello? *Is anybody there...? *No?</box>
+                    <box n="2">*Are you two playing a trick on me? *Real funny.</box>
+                    <box n="3">*Big guy? *Is that you? *Come on...</box>
+                    <box n="4">*Well, it's not the tall skeleton... *He's too loud.</box>
+                    <box n="5">*Whoever you are, knock it off!!!</box>
+                    <box n="6">*...</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <box n="6">*(Someone's been smoking dog treats.)</box>
+            </option>
+
 
             <sp speaker="Doggo" to="Doggo">
                 <box n="1">*S-S-S Something pet me... *Something that isn't m-m-moving...</box>
@@ -327,94 +318,89 @@
             </sp>
 
 
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*(This note is written very oddly, as if the paper was moving
-                            while it was written.)</box>
-                        <box n="2">*(It says...) *(Out to lunch...?)</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*(This note is written very oddly, as if the paper was moving while
+                        it was written.)</box>
+                    <box n="2">*(It says...) *(Out to lunch...?)</box>
+                </sp>
+            </option>
+
 
 
         </setting>
         <setting name="SlipperyIceRoom">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Sans" to="you">
-                        <box n="1">*hey, here's something important to remember.</box>
-                        <box n="2">*my brother has a very special attack.</box>
-                        <box n="3">*if you see a blue attack, don't move and it won't hurt
-                            you.</box>
-                        <box n="4">*here's an easy way to keep it in mind.</box>
-                        <box n="5">*imagine a stop sign. *when you see astop sign, you stop,
-                            right?</box>
-                        <box n="6">*stop signs are red. *so imagine a blue stop sign instead.</box>
-                        <box n="7">*simple, right? *when fighting, thinkg about blue stop
-                            signs.</box>
-                        <box n="8">*remember... *blue stop signs.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="sign" to="you">
-                        <box n="9">*North: Ice *South: Ice *West: Ice</box>
-                        <box n="10">*East: Snowdin Town</box>
-                        <box n="11">*(... and ice)</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="Sans" to="you">
+                    <box n="1">*hey, here's something important to remember.</box>
+                    <box n="2">*my brother has a very special attack.</box>
+                    <box n="3">*if you see a blue attack, don't move and it won't hurt you.</box>
+                    <box n="4">*here's an easy way to keep it in mind.</box>
+                    <box n="5">*imagine a stop sign. *when you see astop sign, you stop,
+                        right?</box>
+                    <box n="6">*stop signs are red. *so imagine a blue stop sign instead.</box>
+                    <box n="7">*simple, right? *when fighting, thinkg about blue stop signs.</box>
+                    <box n="8">*remember... *blue stop signs.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="9">*North: Ice *South: Ice *West: Ice</box>
+                    <box n="10">*East: Snowdin Town</box>
+                    <box n="11">*(... and ice)</box>
+                </sp>
+            </option>
+
         </setting>
         <setting name="SnowmanRoom">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Snowman" to="you">
-                        <box n="1">*Hello. *I am a snowman.</box>
-                        <box n="2">*I want to see the world... *But I cannot move.</box>
-                        <box n="3">*If you would be so kind, traveller, please...</box>
-                        <box n="4">*Take a piece of me and bring it very far away. Yes No</box>
 
-                        <box n="5">*I see. *Good journey, then.</box>
+            <option what="gameNarr">
+                <sp speaker="Snowman" to="you">
+                    <box n="1">*Hello. *I am a snowman.</box>
+                    <box n="2">*I want to see the world... *But I cannot move.</box>
+                    <box n="3">*If you would be so kind, traveller, please...</box>
+                    <box n="4">*Take a piece of me and bring it very far away. Yes No</box>
 
-                        <box n="7">*Thank you... good luck!</box>
-                        <box n="8">*(You got the Snowman Piece.)</box>
+                    <box n="5">*I see. *Good journey, then.</box>
 
-                        <box n="9">*How am I doing? *By "I" I mean the piece of me I gave
-                            you...</box>
+                    <box n="7">*Thank you... good luck!</box>
+                    <box n="8">*(You got the Snowman Piece.)</box>
 
-                        <box n="1">*How am I doing? *By "I" I mean the piece of me I gave
-                            you...</box>
-                        <box n="2">*Huh? You lost it...? *...I suppose I can give you another
-                            piece...</box>
-                        <box n="3">*Please be careful this time.</box>
-                        <box n="4">*(You got the Snowman Piece.)</box>
+                    <box n="9">*How am I doing? *By "I" I mean the piece of me I gave you...</box>
+
+                    <box n="1">*How am I doing? *By "I" I mean the piece of me I gave you...</box>
+                    <box n="2">*Huh? You lost it...? *...I suppose I can give you another
+                        piece...</box>
+                    <box n="3">*Please be careful this time.</box>
+                    <box n="4">*(You got the Snowman Piece.)</box>
 
 
-                        <box n="1">Huh? Again...?</box>
-                        <box n="2">I'm sorry... if I give you any more, there will be nothing left
-                            of me.</box>
-                        <box n="3">*I suppose it is true. *Travelling beyond our limits is but a
-                            fantasy.</box>
-                        <box n="4">*It's no different for anyone else.</box>
-                        <box n="5">*All of monsterkind are doomed to stay underground,
-                            forever...</box>
+                    <box n="1">Huh? Again...?</box>
+                    <box n="2">I'm sorry... if I give you any more, there will be nothing left of
+                        me.</box>
+                    <box n="3">*I suppose it is true. *Travelling beyond our limits is but a
+                        fantasy.</box>
+                    <box n="4">*It's no different for anyone else.</box>
+                    <box n="5">*All of monsterkind are doomed to stay underground, forever...</box>
 
 
 
-                        <box n="1">*It seems you do not have enough room for me.</box>
+                    <box n="1">*It seems you do not have enough room for me.</box>
 
-                        <box n="1">*You ate the Snowman Piece. *Your HP was maxed out.</box>
-                        <box n="2">*Did you just... *Consume the part of me I had given you?</box>
-                        <box n="3">*In front of my very eyes!?</box>
-                        <box n="4">*I have no words for you... *Begone!</box>
-                        <box n="5">*I shouldn't have given myself away so easily...</box>
+                    <box n="1">*You ate the Snowman Piece. *Your HP was maxed out.</box>
+                    <box n="2">*Did you just... *Consume the part of me I had given you?</box>
+                    <box n="3">*In front of my very eyes!?</box>
+                    <box n="4">*I have no words for you... *Begone!</box>
+                    <box n="5">*I shouldn't have given myself away so easily...</box>
 
 
-                    </sp>
-                </option>
-            </choice>
+                </sp>
+            </option>
+
         </setting>
         <setting name="ElectricMazeRoom">
             <sp speaker="Papyrus" to="you">
@@ -491,186 +477,186 @@
 
         </setting>
         <setting name="BallGameRoom">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="NiceCreamGuy" to="you">
-                        <box n="1">*I don't understand why these aren't selling...</box>
-                        <box n="2">*It's the perfect weather for something cold...</box>
-                        <box n="3">*OH!!! *A CUSTOMER!!!</box>
-                    </sp>
-                    <sp speaker="NiceCreamGuy" to="you">
-                        <box n="4">*Hello! *Would you like some Nice Cream?</box>
-                        <box n="5">*It's the frozen treat that warms your heart!</box>
-                        <box n="6">*Now just 15G! Yes No</box>
 
-                        <box n="7">*Well then... *Tell your friends...</box>
-                        <box n="8">*There's ice cream... *Out in the middle of the woods...</box>
+            <option what="gameNarr">
+                <sp speaker="NiceCreamGuy" to="you">
+                    <box n="1">*I don't understand why these aren't selling...</box>
+                    <box n="2">*It's the perfect weather for something cold...</box>
+                    <box n="3">*OH!!! *A CUSTOMER!!!</box>
+                </sp>
+                <sp speaker="NiceCreamGuy" to="you">
+                    <box n="4">*Hello! *Would you like some Nice Cream?</box>
+                    <box n="5">*It's the frozen treat that warms your heart!</box>
+                    <box n="6">*Now just 15G! Yes No</box>
 
-                        <box n="10">*Here you go! *Have a super-duper day! *(You got the Nice
-                            Cream.)</box>
+                    <box n="7">*Well then... *Tell your friends...</box>
+                    <box n="8">*There's ice cream... *Out in the middle of the woods...</box>
 
-                        <box n="11">*Huh? *You don't have enough mnoney...</box>
-                        <box n="12">*I wish I could make Nice Cream for free...</box>
+                    <box n="10">*Here you go! *Have a super-duper day! *(You got the Nice
+                        Cream.)</box>
 
-                        <box n="1"> *It looks like you're holding too much stuff! *Oh well!</box>
+                    <box n="11">*Huh? *You don't have enough mnoney...</box>
+                    <box n="12">*I wish I could make Nice Cream for free...</box>
 
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="14">*...!? *There's a camera hidden inside this lump of snow.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="15">*Ah! Wow! Woah! *It's a "Hole".</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="16">*(It looks like a snow ball...</box>
-                        <box n="17">*(Actually, it's a snowdecahedron.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Sans" to="you">
-                        <box n="1">*i've been thinking about selling treats too.</box>
-                        <box n="2">*want some fried snow? *it's just 5G. Buy No</box>
+                    <box n="1"> *It looks like you're holding too much stuff! *Oh well!</box>
 
-                        <box n="3">*you're right.</box>
-                        <box n="4">*i should charge way more than that.</box>
+                </sp>
+            </option>
 
 
-                        <box n="6">*di i say 5G? *i meant 50G Buy No</box>
-
-                        <box n="7">*you're right.</box>
-                        <box n="8">*that's still too low.</box>
-
-
-                        <box n="10">*really *how about 5000G Buy No</box>
-
-                        <box n="11">*i have to pay for the raw materials somehow.</box>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="14">*...!? *There's a camera hidden inside this lump of snow.</box>
+                </sp>
+            </option>
 
 
-                        <box n="13">*50000G *that's my final offer. Buy No</box>
-
-                        <box n="14">*don't you know a good deal when you hear one?</box>
-
-
-                        <box n="16">*what? you don't have the money.</box>
-                        <box n="17">*hey, that's okay.</box>
-                        <box n="18">*i don't have any snow.</box>
-
-                        <box n="2">*wow, that's a lot of cash.</box>
-                        <box n="3">*that's why i'm sorry to say...</box>
-                        <box n="4">*i can't sell you this fried snow.</box>
-                        <box n="5">*it's got too much sentimental value.</box>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="15">*Ah! Wow! Woah! *It's a "Hole".</box>
+                </sp>
+            </option>
 
 
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="16">*(It looks like a snow ball...</box>
+                    <box n="17">*(Actually, it's a snowdecahedron.)</box>
+                </sp>
+            </option>
 
 
-                    </sp>
+            <option what="gameNarr">
+                <sp speaker="Sans" to="you">
+                    <box n="1">*i've been thinking about selling treats too.</box>
+                    <box n="2">*want some fried snow? *it's just 5G. Buy No</box>
 
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
+                    <box n="3">*you're right.</box>
+                    <box n="4">*i should charge way more than that.</box>
 
 
-                        <box n="1">*LIGHT BLUE - "Ball" is "Small." *You waited, still, for this
-                            oppprotunity...</box>
-                        <box n="2">*... then dethroned "Ball" with a sharp attack.</box>
-                        <box n="3">*(You are awareded 4G.)</box>
+                    <box n="6">*di i say 5G? *i meant 50G Buy No</box>
 
-                        <box n="4">*(This flag has nothing else to offer.)</box>
+                    <box n="7">*you're right.</box>
+                    <box n="8">*that's still too low.</box>
+
+
+                    <box n="10">*really *how about 5000G Buy No</box>
+
+                    <box n="11">*i have to pay for the raw materials somehow.</box>
+
+
+                    <box n="13">*50000G *that's my final offer. Buy No</box>
+
+                    <box n="14">*don't you know a good deal when you hear one?</box>
+
+
+                    <box n="16">*what? you don't have the money.</box>
+                    <box n="17">*hey, that's okay.</box>
+                    <box n="18">*i don't have any snow.</box>
+
+                    <box n="2">*wow, that's a lot of cash.</box>
+                    <box n="3">*that's why i'm sorry to say...</box>
+                    <box n="4">*i can't sell you this fried snow.</box>
+                    <box n="5">*it's got too much sentimental value.</box>
 
 
 
 
-                        <box n="1">*BLUE - Hopping and twirling, your original style pulled you
-                            through.</box>
-                        <box n="2">*(You are awarded 2G.)</box>
+                </sp>
 
-                        <box n="3">*(This flag has nothing else to offer.)</box>
-
-                        <box n="1">*YELLOW - Your sure-fire accuracy put an end to the mayhem of
-                            "Ball."</box>
-                        <box n="2">*(You are awarded 3G.)</box>
-
-                        <box n="3">*(This flag has nothing else to offer.)</box>
+            </option>
 
 
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
 
-                        <box n="1">*GREEN - Your concern and care for "Ball" led you to a delicious
-                            victory.</box>
-                        <box n="2">*(You are awarded 1G.)</box>
 
-                        <box n="3">*(This flag has nothing else to offer.)</box>
+                    <box n="1">*LIGHT BLUE - "Ball" is "Small." *You waited, still, for this
+                        oppprotunity...</box>
+                    <box n="2">*... then dethroned "Ball" with a sharp attack.</box>
+                    <box n="3">*(You are awareded 4G.)</box>
+
+                    <box n="4">*(This flag has nothing else to offer.)</box>
 
 
 
-                        <box n="1">*ORANGE - You are the kind of person who rushes fists-first
-                            through all obstacles.</box>
-                        <box n="2">*(You are awarded 5G.)</box>
 
-                        <box n="3">*(This flag has nothing else to offer.)</box>
+                    <box n="1">*BLUE - Hopping and twirling, your original style pulled you
+                        through.</box>
+                    <box n="2">*(You are awarded 2G.)</box>
 
+                    <box n="3">*(This flag has nothing else to offer.)</box>
 
+                    <box n="1">*YELLOW - Your sure-fire accuracy put an end to the mayhem of
+                        "Ball."</box>
+                    <box n="2">*(You are awarded 3G.)</box>
 
-                        <box n="1">*PURPLE - Even when you felt trapped, you took notes and achieved
-                            the end of "Ball."</box>
-                        <box n="2">*(You are awarded 2G.)</box>
-
-                        <box n="3">*(This flag has nothing else to offer.)</box>
-
+                    <box n="3">*(This flag has nothing else to offer.)</box>
 
 
-                        <box n="1">*Bravery. Justice. *Integrity. Kindness. *Perseverance.
-                            Patience.</box>
-                        <box n="2">*Using these, you were able to win at "Ball Game."</box>
-                        <box n="3">*(You are awarded 50G.)</box>
 
-                        <box n="4">*(This flag has nothing else to offer.)</box>
+                    <box n="1">*GREEN - Your concern and care for "Ball" led you to a delicious
+                        victory.</box>
+                    <box n="2">*(You are awarded 1G.)</box>
 
-
-                        <box n="1">*RED - Try as you might, you continue to be yourself.</box>
-                        <box n="2">*(You are awarded 10G.)</box>
-
-                        <box n="3">*(This flag has nothing else to offer.)</box>
+                    <box n="3">*(This flag has nothing else to offer.)</box>
 
 
-                    </sp>
-                </option>
-            </choice>
+
+                    <box n="1">*ORANGE - You are the kind of person who rushes fists-first through
+                        all obstacles.</box>
+                    <box n="2">*(You are awarded 5G.)</box>
+
+                    <box n="3">*(This flag has nothing else to offer.)</box>
+
+
+
+                    <box n="1">*PURPLE - Even when you felt trapped, you took notes and achieved the
+                        end of "Ball."</box>
+                    <box n="2">*(You are awarded 2G.)</box>
+
+                    <box n="3">*(This flag has nothing else to offer.)</box>
+
+
+
+                    <box n="1">*Bravery. Justice. *Integrity. Kindness. *Perseverance.
+                        Patience.</box>
+                    <box n="2">*Using these, you were able to win at "Ball Game."</box>
+                    <box n="3">*(You are awarded 50G.)</box>
+
+                    <box n="4">*(This flag has nothing else to offer.)</box>
+
+
+                    <box n="1">*RED - Try as you might, you continue to be yourself.</box>
+                    <box n="2">*(You are awarded 10G.)</box>
+
+                    <box n="3">*(This flag has nothing else to offer.)</box>
+
+
+                </sp>
+            </option>
+
         </setting>
         <setting name="DogiStation">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*(His.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="2">*SMELL DANGER RATING</box>
-                        <box n="3">*Snow Smell - Snowman WHITE Rating Can become YELLOW Rating</box>
-                        <box n="4">*Unsuspicious Smell - Puppy BLUE Rating Smell of rolling
-                            around.</box>
-                        <box n="5">*Weird Smell - Humans GREEN Rating Destroy at all costs!</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*(His.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="2">*SMELL DANGER RATING</box>
+                    <box n="3">*Snow Smell - Snowman WHITE Rating Can become YELLOW Rating</box>
+                    <box n="4">*Unsuspicious Smell - Puppy BLUE Rating Smell of rolling
+                        around.</box>
+                    <box n="5">*Weird Smell - Humans GREEN Rating Destroy at all costs!</box>
+                </sp>
+            </option>
+
             <choice>
                 <option what="gameNarr">
                     <sp speaker="game" to="you">
@@ -751,71 +737,71 @@
             </option>
         </setting>
         <setting name="SpaghettiRoom">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Papyrus" to="you">
-                        <box n="1">*It's a note from Papyrus...</box>
-                        <box n="2">HUMAN!! PLEASE ENJOY THIS SPAGHETTI.</box>
-                        <box n="3">(LITTLE DO YOU KNOW THIS SPAGHETTI IS A TRAP...)</box>
-                        <box n="4">(DESIGNED TO ENTICE YOU!!!)</box>
-                        <box n="5">(YOU'LL BE SO BUSY EATING IT...)</box>
-                        <box n="6">(THAT YOU WON'T REALIZE THAT YOU AREN'T PROGRESSING!!)</box>
-                        <box n="7">(THOROUGHLY JAPED AGAIN BY THE GREAT PAPYRUS!!!)</box>
-                        <box n="8">NYEH- HEH- HEH, PAPYRUS</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="9">*(It's a plate of frozen spaghetti.)</box>
-                        <box n="10">*(It's so cold, it's stuck to the table...</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="11">*(It's an uplugged microwave.)</box>
-                        <box n="12">*(All of the settings say "spaghetti.")</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameSave">
-                    <sp speaker="determination" to="you">
-                        <box n="13">*(Knowing the mouse might one day find a way to heat up the
-                            spaghetti...)</box>
-                        <box n="14">*(It fills you with determination.)</box>
-                        <box n="15">File saved.</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="Papyrus" to="you">
+                    <box n="1">*It's a note from Papyrus...</box>
+                    <box n="2">HUMAN!! PLEASE ENJOY THIS SPAGHETTI.</box>
+                    <box n="3">(LITTLE DO YOU KNOW THIS SPAGHETTI IS A TRAP...)</box>
+                    <box n="4">(DESIGNED TO ENTICE YOU!!!)</box>
+                    <box n="5">(YOU'LL BE SO BUSY EATING IT...)</box>
+                    <box n="6">(THAT YOU WON'T REALIZE THAT YOU AREN'T PROGRESSING!!)</box>
+                    <box n="7">(THOROUGHLY JAPED AGAIN BY THE GREAT PAPYRUS!!!)</box>
+                    <box n="8">NYEH- HEH- HEH, PAPYRUS</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="9">*(It's a plate of frozen spaghetti.)</box>
+                    <box n="10">*(It's so cold, it's stuck to the table...</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="11">*(It's an uplugged microwave.)</box>
+                    <box n="12">*(All of the settings say "spaghetti.")</box>
+                </sp>
+            </option>
+
+
+            <option what="gameSave">
+                <sp speaker="determination" to="you">
+                    <box n="13">*(Knowing the mouse might one day find a way to heat up the
+                        spaghetti...)</box>
+                    <box n="14">*(It fills you with determination.)</box>
+                    <box n="15">File saved.</box>
+                </sp>
+            </option>
+
         </setting>
         <setting name="DogiArena">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="sign" to="you">
-                        <box n="1">*Warning: Dog Marriage</box>
-                        <box n="2">*(Yes, you read that correctly.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="3">*...!? *There's a camera hidden inside this tree.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="4">*There's a switch hidden in the snow. *Click!</box>
-                        <box n="5">*The switch is stuck now.</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="1">*Warning: Dog Marriage</box>
+                    <box n="2">*(Yes, you read that correctly.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="3">*...!? *There's a camera hidden inside this tree.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="4">*There's a switch hidden in the snow. *Click!</box>
+                    <box n="5">*The switch is stuck now.</box>
+                </sp>
+            </option>
+
             <sp speaker="Dogi" to="Dogi">
                 <box n="7">*What's that smell? *(Where's that smell?)</box>
                 <box n="8">*If you're a smell... *(... identify yoursmellf!)</box>
@@ -835,13 +821,13 @@
             </sp>
         </setting>
         <setting name="1stXOPuzzle">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="sign" to="you">
-                        <box n="1">*Turn every X into and O. *Then press the switch.</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="1">*Turn every X into and O. *Then press the switch.</box>
+                </sp>
+            </option>
+
 
             <sp speaker="Papyrus" to="you">
                 <box n="2">WHAT!? HOW DID YOU AVOID MY TRAP?</box>
@@ -870,17 +856,17 @@
 
         </setting>
         <setting name="2ndXOPuzzle">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Papyrus" to="you">
-                        <box n="1">MY BROTHER STARTED A SOCK COLLECTION RECENTLY.</box>
-                        <box n="2">HOW SADDENING...</box>
-                        <box n="3">SOMETIMES I WONDER WHAT HE WOULD DO...</box>
-                        <box n="4">WITHOUT SUCH A COOL GUY TAKING CARE OF HIM???</box>
-                        <box n="5">NYEH HEH HEH!</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="Papyrus" to="you">
+                    <box n="1">MY BROTHER STARTED A SOCK COLLECTION RECENTLY.</box>
+                    <box n="2">HOW SADDENING...</box>
+                    <box n="3">SOMETIMES I WONDER WHAT HE WOULD DO...</box>
+                    <box n="4">WITHOUT SUCH A COOL GUY TAKING CARE OF HIM???</box>
+                    <box n="5">NYEH HEH HEH!</box>
+                </sp>
+            </option>
+
             <sp speaker="Papyrus" to="you">
                 <box n="1">HUMAN!</box>
                 <box n="2">HMMM... HOW DO I SAY THIS...</box>
@@ -935,25 +921,25 @@
                 <box n="5">NYEH! HEH HEH! HEHEHEH!!!</box>
 
             </sp>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Sans" to="you">
 
-                        <box n="1">*good job on solving it so quickly.</box>
-                        <box n="2">*you didn't even need my help.</box>
-                        <box n="3">*which is great, 'cause i love doing absolutely nothing.</box>
+            <option what="gameNarr">
+                <sp speaker="Sans" to="you">
+
+                    <box n="1">*good job on solving it so quickly.</box>
+                    <box n="2">*you didn't even need my help.</box>
+                    <box n="3">*which is great, 'cause i love doing absolutely nothing.</box>
 
 
-                        <box n="1">*hey, why didn't you ask for help?</box>
-                        <box n="2">*i was right her.</box>
+                    <box n="1">*hey, why didn't you ask for help?</box>
+                    <box n="2">*i was right her.</box>
 
-                        <box n="1">*... you must be really good at puzzles, huh?</box>
-                        <box n="2">*i mean.</box>
-                        <box n="3">*it's impossible for you to have seen this one before.</box>
+                    <box n="1">*... you must be really good at puzzles, huh?</box>
+                    <box n="2">*i mean.</box>
+                    <box n="3">*it's impossible for you to have seen this one before.</box>
 
-                    </sp>
-                </option>
-            </choice>
+                </sp>
+            </option>
+
         </setting>
         <setting name="ColoredTilePuzzle">
             <sp speaker="Papyrus" to="Sans you">
@@ -1024,17 +1010,8 @@
                 <box n="10">AND DO IT AT YOUR OWN PACE.</box>
                 <box n="11">GOOD LUCK.</box>
                 <box n="12">NYEH... HEH... HEH!</box>
-
-                <choice>
-                    <option what="gameNarr">
-                        <box n="1">*(The machine isn't working.)</box>
-                    </option>
-                </choice>
-                <choice>
-                    <box n="2">*It's illegible chicken-scratch.</box>
-                </choice>
-
-
+                <box n="1">*(The machine isn't working.)</box>
+                <box n="2">*It's illegible chicken-scratch.</box>
                 <box n="2">GREAT!! THEN THERE'S ONE LAST THING...</box>
                 <box n="3">THIS PUZZLE...</box>
                 <box n="4">IS ENTIRELY RANDOM!!!!!!</box>
@@ -1042,51 +1019,44 @@
                 <box n="6">THAT HAS NEVER BEEN SEEN BEFORE!</box>
                 <box n="7">NOT EVEN I WILL KNOW THE SOLUTION!</box>
                 <box n="8">NYEH HEH HEH! GET READY...!</box>
-
             </sp>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Sans" to="you">
-                        <box n="3">*actually, that spaghetti from earlier...</box>
-                        <box n="4">*it wasn't too bad for my brother.</box>
-                        <box n="5">*since he started cooking lessons, he's been improving a
-                            lot.</box>
-                        <box n="6">*i bet if he keeps it up, next year he'll even make something
-                            edible.</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="Sans" to="you">
+                    <box n="3">*actually, that spaghetti from earlier...</box>
+                    <box n="4">*it wasn't too bad for my brother.</box>
+                    <box n="5">*since he started cooking lessons, he's been improving a lot.</box>
+                    <box n="6">*i bet if he keeps it up, next year he'll even make something
+                        edible.</box>
+                </sp>
+            </option>
+
         </setting>
         <setting name="LesserDogStation">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*On the floor inside is a box of pomeraisins.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="sign" to="you">
-                        <box n="2">*AWARE OF DOG *pleas pet dog</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*On the floor inside is a box of pomeraisins.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="2">*AWARE OF DOG *pleas pet dog</box>
+                </sp>
+            </option>
+
 
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="3">*...!? *There's a camera behind the sentry station.</box>
                 </sp>
             </option>
-
-
-
             <sp speaker="game" to="you">
                 <box n="1">*This dog is staring blankly into the snow, waiting for it to turn into
                     art.</box>
             </sp>
-
-
             <option what="gameNarr">
                 <sp speaker="Faun" to="you">
                     <box n="2">*That dog considers itself an artist, but doesn't ever know what to
@@ -1095,17 +1065,13 @@
                         kibble. </box>
                 </sp>
             </option>
-
-            <choice>
-                <option what="gameSave">
-                    <sp speaker="determination" to="you">
-                        <box n="4">*(Knowing that dog will never give up trying to make the perfect
-                            snowdog...)</box>
-                        <box n="5">*(It fills you with determination.)</box>
-                    </sp>
-                </option>
-            </choice>
-
+            <option what="gameSave">
+                <sp speaker="determination" to="you">
+                    <box n="4">*(Knowing that dog will never give up trying to make the perfect
+                        snowdog...)</box>
+                    <box n="5">*(It fills you with determination.)</box>
+                </sp>
+            </option>
             <option what="gameNarr">
                 <sp speaker="Faun" to="you">
                     <box n="1">*That dog from earlier...? *It's at Grillby's. *I think.</box>
@@ -1115,26 +1081,20 @@
                         others...</box>
                 </sp>
             </option>
-
-
-
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="1">*Seems like the base of a snowdog.</box>
                 </sp>
             </option>
+            <option what="gameNarr">
+                <sp speaker="Faun" to="you">
+                    <box n="2">*That dog considers itself an artist, but doesn't ever know what to
+                        create.</box>
+                    <box n="3">*It probably doesn't help that its brain is the size of a piece of
+                        kibble. </box>
+                </sp>
+            </option>
 
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Faun" to="you">
-                        <box n="2">*That dog considers itself an artist, but doesn't ever know what
-                            to create.</box>
-                        <box n="3">*It probably doesn't help that its brain is the size of a piece
-                            of kibble. </box>
-                    </sp>
-                </option>
-            </choice>
 
 
             <option what="gameNarr">
@@ -1143,83 +1103,83 @@
                 </sp>
             </option>
 
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="2">*Seems like the base of a snowdog.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="3">It's the broken heaed of a snowdog.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="4">*Seems like the base of a snowdog.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="5">*Seems like the base of a snowdog.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="6">*Seems like the base of a snowdog.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="7">*It's the broken head of a snowdog.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="8">*It's the broken head of a snowdog.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="9">*It's the broken head of a snowdog.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="10">*Seems like the base of a snowdog.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Faun" to="you">
-                        <box n="11">*A dog just rushed in here filled with inspiration.</box>
-                        <box n="12">*It kept tyring to build a snowdog that expressed its own
-                            emotions...</box>
-                        <box n="13">*But, as it built, it kept getting more excited about the
-                            sculpture...</box>
-                        <box n="14">*Its neck got longer and longer, and it added more and more
-                            snow, until...</box>
-                        <box n="15">*It was rather sad to watch, but I couldn't turn away.</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="2">*Seems like the base of a snowdog.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="3">It's the broken heaed of a snowdog.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="4">*Seems like the base of a snowdog.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="5">*Seems like the base of a snowdog.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="6">*Seems like the base of a snowdog.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="7">*It's the broken head of a snowdog.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="8">*It's the broken head of a snowdog.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="9">*It's the broken head of a snowdog.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="10">*Seems like the base of a snowdog.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="Faun" to="you">
+                    <box n="11">*A dog just rushed in here filled with inspiration.</box>
+                    <box n="12">*It kept tyring to build a snowdog that expressed its own
+                        emotions...</box>
+                    <box n="13">*But, as it built, it kept getting more excited about the
+                        sculpture...</box>
+                    <box n="14">*Its neck got longer and longer, and it added more and more snow,
+                        until...</box>
+                    <box n="15">*It was rather sad to watch, but I couldn't turn away.</box>
+                </sp>
+            </option>
+
 
 
 
@@ -1229,246 +1189,228 @@
                 </sp>
             </option>
 
-            <choice>
-                <option what="gameSave">
-                    <sp speaker="determination" to="you">
-                        <box n="2">*(Snow can always be broken down and rebuilt into something more
-                            useful.)</box>
-                        <box n="3">*(This simple fact fills you with determination.)</box>
-                    </sp>
-                </option>
-            </choice>
 
-        </setting>
-        <setting name="PapyrusAndSansSnowmen">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*(It's a lump of snow with the word 'sans' written on it in red
-                            marker.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="2">*(It's a snow Papyrus.)</box>
-                    </sp>
-                </option>
-            </choice>
-        </setting>
-        <setting name="GyftrotRoom">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Sans" to="you">
-                        <box n="1">*what's up?</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Sans" to="you">
-                        <box n="2">*are you lost?</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Sans" to="you">
-                        <box n="3">*you sure do like to exercise.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Sans" to="you">
-                        <box n="4">*say..</box>
-                        <box n="5">*are you following me?</box>
-                    </sp>
-                </option>
-            </choice>
-        </setting>
-        <setting name="MysteriousDoorRoom">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*It's a door.</box>
-                    </sp>
-                </option>
-                <box n="1">*You used the Mystery Key. *The door's lock clicks...</box>
-                <box n="2">*...as you fail to fit the key into it.</box>
-            </choice>
-        </setting>
-        <setting name="DevelopersRoom">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*(Rope.) *(Looks like this dog does all its own stunts.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="2">*(You tried to pet the dog but it collapsed into a pile of
-                            fluff...)</box>
-                        <box n="3">*(Seems like it was actually a dog-shaped husk of dog
-                            residue.)</box>
-                        <box n="4">*(It's a pile of dog residue.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="5">*(By barking with text-to-speech on, the dog accidentially
-                            programmed a speakerle game.)</box>
-                        <box n="6">*(Hmmm... seems fine.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="7">*(Looks like this dog makes a lot of bad posts on-line.)</box>
-                        <box n="8">*(Text to speech is on.)</box>
-                        <box n="9">*(Seems like the dog barks and it translates to these bad
-                            posts.)</box>
-                        <box n="10">*(It doesn't really know what it's saying.)</box>
-                        <box n="11">*(Seems like most bad posts on-line, are actually this
-                            dog.)</box>
-                        <box n="12">*(Thinking about this...) *(Brings you relief.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="13">*(Finally, the pieces of the puzzle are coming together.) *(The
-                            jigsaw puzzle.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="14">*(It's a small white dog.)</box>
-                        <box n="15">*(Fight the dog?) Yes No</box>
-
-                        <box n="2">*(Can't fight the dog.)</box>
-                        <box n="3">*(Seems like the fabric it's sleeping on has too many holes in
-                            it.)</box>
-                        <box n="4">*(Seems like the dog needs to "patch" the fabric.)</box>
-                        <box n="5">*(Then you can fight the dog.) *(... maybe.)</box>
-                        <box n="6">*(Upon closer examination, the holes in the fabric seem to be
-                            growing.)</box>
-                        <box n="7">*(Might take a while for the dog to fix all of them.)</box>
-                        <box n="8">*(Dogs aren't usually very good at knitting.)</box>
-                        <box n="9">*(A crocheting dog is out of the question.)</box>
-
-                        <box n="2">*(Let sleeping dogs lie, instead of fighting them.) *(That's how
-                            the saying goes.)</box>
-
-                    </sp>
-                </option>
-            </choice>
-        </setting>
-        <setting name="GreaterDogStation">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*It's a snow poff.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="2">*And this... *Is a snow poff</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="3">*(What a tiny doghouse!)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="sign" to="you">
-                        <box n="4">*(Woof.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="5">*This, however, is a snow poff.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="6">*Surprisingly, it's a snow poff.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="7">*Snow poff...</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="8">*Is it really a snow poff?</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="9">*Behold! *A snow poff.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="10">*Eh? *There's 30G inside this... what is this?</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="11">*What's this called?</box>
-                    </sp>
-                </option>
-            </choice>
-
-
-            <option what="gameNarr">
-                <sp speaker="game" to="you">
-                    <box n="1">*(It must be bigger on the inside.)</box>
+            <option what="gameSave">
+                <sp speaker="determination" to="you">
+                    <box n="2">*(Snow can always be broken down and rebuilt into something more
+                        useful.)</box>
+                    <box n="3">*(This simple fact fills you with determination.)</box>
                 </sp>
             </option>
 
 
         </setting>
+        <setting name="PapyrusAndSansSnowmen">
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*(It's a lump of snow with the word 'sans' written on it in red
+                        marker.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="2">*(It's a snow Papyrus.)</box>
+                </sp>
+            </option>
+
+        </setting>
+        <setting name="GyftrotRoom">
+
+            <option what="gameNarr">
+                <sp speaker="Sans" to="you">
+                    <box n="1">*what's up?</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="Sans" to="you">
+                    <box n="2">*are you lost?</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="Sans" to="you">
+                    <box n="3">*you sure do like to exercise.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="Sans" to="you">
+                    <box n="4">*say..</box>
+                    <box n="5">*are you following me?</box>
+                </sp>
+            </option>
+
+        </setting>
+        <setting name="MysteriousDoorRoom">
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*It's a door.</box>
+
+
+                    <box n="1">*You used the Mystery Key. *The door's lock clicks...</box>
+                    <box n="2">*...as you fail to fit the key into it.</box>
+                </sp>
+            </option>
+
+        </setting>
+        <setting name="DevelopersRoom">
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*(Rope.) *(Looks like this dog does all its own stunts.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="2">*(You tried to pet the dog but it collapsed into a pile of
+                        fluff...)</box>
+                    <box n="3">*(Seems like it was actually a dog-shaped husk of dog residue.)</box>
+                    <box n="4">*(It's a pile of dog residue.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="5">*(By barking with text-to-speech on, the dog accidentially programmed
+                        a speakerle game.)</box>
+                    <box n="6">*(Hmmm... seems fine.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="7">*(Looks like this dog makes a lot of bad posts on-line.)</box>
+                    <box n="8">*(Text to speech is on.)</box>
+                    <box n="9">*(Seems like the dog barks and it translates to these bad
+                        posts.)</box>
+                    <box n="10">*(It doesn't really know what it's saying.)</box>
+                    <box n="11">*(Seems like most bad posts on-line, are actually this dog.)</box>
+                    <box n="12">*(Thinking about this...) *(Brings you relief.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="13">*(Finally, the pieces of the puzzle are coming together.) *(The
+                        jigsaw puzzle.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="14">*(It's a small white dog.)</box>
+                    <box n="15">*(Fight the dog?) Yes No</box>
+
+                    <box n="2">*(Can't fight the dog.)</box>
+                    <box n="3">*(Seems like the fabric it's sleeping on has too many holes in
+                        it.)</box>
+                    <box n="4">*(Seems like the dog needs to "patch" the fabric.)</box>
+                    <box n="5">*(Then you can fight the dog.) *(... maybe.)</box>
+                    <box n="6">*(Upon closer examination, the holes in the fabric seem to be
+                        growing.)</box>
+                    <box n="7">*(Might take a while for the dog to fix all of them.)</box>
+                    <box n="8">*(Dogs aren't usually very good at knitting.)</box>
+                    <box n="9">*(A crocheting dog is out of the question.)</box>
+                    <box n="2">*(Let sleeping dogs lie, instead of fighting them.) *(That's how the
+                        saying goes.)</box>
+                </sp>
+            </option>
+        </setting>
+        <setting name="GreaterDogStation">
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*It's a snow poff.</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="2">*And this... *Is a snow poff</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="3">*(What a tiny doghouse!)</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="4">*(Woof.)</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="5">*This, however, is a snow poff.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="6">*Surprisingly, it's a snow poff.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="7">*Snow poff...</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="8">*Is it really a snow poff?</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="9">*Behold! *A snow poff.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="10">*Eh? *There's 30G inside this... what is this?</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="11">*What's this called?</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*(It must be bigger on the inside.)</box>
+                </sp>
+            </option>
+        </setting>
         <setting name="GauntletOfDeadlyTerror">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*...!? *There's a camera underneath the bridge.</box>
-                    </sp>
-                </option>
-            </choice>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*...!? *There's a camera underneath the bridge.</box>
+                </sp>
+            </option>
             <sp speaker="Papyrus" to="you">
                 <box n="2">HUMAN!</box>
                 <box n="3">THIS IS YOUR FINAL AND MOST DANGEROUS CHALLENGE!</box>
@@ -1515,50 +1457,44 @@
                 <box n="34">...</box>
                 <box n="35">HEH???</box>
             </sp>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="36">*...!? *There's a camera underneath the bridge.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Sans" to="you">
-                        <box n="37">*i don't know what my brother's going to do now.</box>
-                        <box n="38">*if i were you, i would make sure i understand blue
-                            attacks.</box>
-                        <conditions killed="Papyrus">
-                            <box n="1">*here, i'll give you some advice about fighting my
-                                brother.</box>
-                            <box n="2">*don't *capiche?</box>
-                        </conditions>
-                    </sp>
-                </option>
-            </choice>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="36">*...!? *There's a camera underneath the bridge.</box>
+                </sp>
+            </option>
+
+            <option what="gameNarr">
+                <sp speaker="Sans" to="you">
+                    <box n="37">*i don't know what my brother's going to do now.</box>
+                    <box n="38">*if i were you, i would make sure i understand blue attacks.</box>
+                    <conditions killed="Papyrus">
+                        <box n="1">*here, i'll give you some advice about fighting my brother.</box>
+                        <box n="2">*don't *capiche?</box>
+                    </conditions>
+                </sp>
+            </option>
         </setting>
         <setting name="RockFamily">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="KidSlime1" to="you">
-                        <box n="1">*Let's play Monsters and Humans!</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="KidSlime2" to="you">
-                        <box n="2">*You aren't gonna make me be the human again, are you?</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="DadSlime" to="you">
-                        <box n="3">*Ah, to be young again. *The world sure felt boundless.</box>
-                    </sp>
-                </option>
-            </choice>
+            <option what="gameNarr">
+                <sp speaker="KidSlime1" to="you">
+                    <box n="1">*Let's play Monsters and Humans!</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="KidSlime2" to="you">
+                    <box n="2">*You aren't gonna make me be the human again, are you?</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="DadSlime" to="you">
+                    <box n="3">*Ah, to be young again. *The world sure felt boundless.</box>
+                </sp>
+            </option>
+
 
             <option what="gameNarr">
                 <sp speaker="someone" to="you">
@@ -1589,100 +1525,88 @@
                 </sp>
             </option>
 
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="KidSlime2" to="you">
-                        <box n="2">*Can we PLEASE play something else...?</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="DadSlime" to="you">
-                        <box n="3">*You like to wander. *You must be young.</box>
-                    </sp>
-                </option>
-            </choice>
 
+            <option what="gameNarr">
+                <sp speaker="KidSlime2" to="you">
+                    <box n="2">*Can we PLEASE play something else...?</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="DadSlime" to="you">
+                    <box n="3">*You like to wander. *You must be young.</box>
+                </sp>
+            </option>
             <conditions killed="SnowdinGuardOrPapyrus">
                 <!--possible route-difference indicator here, like NeutralGenocide or something-->
-                <choice>
-                    <option what="gameNarr">
-                        <sp speaker="DadSlime" to="you">
-                            <box n="1">*I've sent the kids inside.</box>
-                            <box n="2">*It feels unsafe here today.</box>
-                        </sp>
-                    </option>
-                </choice>
+                <sp speaker="DadSlime" to="you">
+                    <box n="1">*I've sent the kids inside.</box>
+                    <box n="2">*It feels unsafe here today.</box>
+                </sp>
             </conditions>
         </setting>
         <setting name="SnowdinTown">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="sign" to="you">
-                        <box n="1">*(Welcome to Snowdin Town!)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameSave">
-                    <sp speaker="determination" to="you">
-                        <box n="2">*(The sight of such a friendly town fills you with
-                            determination.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="sign" to="you">
-                        <box n="5">*(don't want to walk to the other side of town?)</box>
-                        <box n="6">*(Try the undersnow tunnels!) *(They're efficiently laid
-                            out.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="RabbitKid" to="you">
-                        <box n="7">*That lady over there...</box>
-                        <box n="8">*Something about her disturbs me.</box>
-                        <box n="9">*I think I've figured it out. *...no, nevermind.</box>
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="1">*(Welcome to Snowdin Town!)</box>
+                </sp>
+            </option>
+            <option what="gameSave">
+                <sp speaker="determination" to="you">
+                    <box n="2">*(The sight of such a friendly town fills you with
+                        determination.)</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="sign" to="you">
+                    <box n="5">*(don't want to walk to the other side of town?)</box>
+                    <box n="6">*(Try the undersnow tunnels!) *(They're efficiently laid out.)</box>
+                </sp>
+            </option>
 
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="RabbitGirl" to="you">
-                        <box n="10">*Isn't my little Cinnamon just the cutest?</box>
-                        <box n="11">*Bub-buns are so adorable... *Tee hee!</box>
-                        <box n="12">*Bun-bun-bun-bun-bun...</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="GiftBear" to="you">
-                        <box n="13">*Awful teens tormented a local monster by decorating its
-                            tree-like horns.</box>
-                        <box n="14">*So we started giving that monster presents to make it feel
-                            better.</box>
-                        <box n="15">*Now it's a tradition to put presents underneath a decorated
-                            tree.</box>
-                        <box n="16">*Guess it was a good thing those teens tormented that
-                            monster...?</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="17">*(It's a carefully decorated tree.)</box>
-                        <box n="18">*(Some of the presents are addressed from "Santa" to various
-                            locals.)</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="RabbitKid" to="you">
+                    <box n="7">*That lady over there...</box>
+                    <box n="8">*Something about her disturbs me.</box>
+                    <box n="9">*I think I've figured it out. *...no, nevermind.</box>
+
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="RabbitGirl" to="you">
+                    <box n="10">*Isn't my little Cinnamon just the cutest?</box>
+                    <box n="11">*Bub-buns are so adorable... *Tee hee!</box>
+                    <box n="12">*Bun-bun-bun-bun-bun...</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="GiftBear" to="you">
+                    <box n="13">*Awful teens tormented a local monster by decorating its tree-like
+                        horns.</box>
+                    <box n="14">*So we started giving that monster presents to make it feel
+                        better.</box>
+                    <box n="15">*Now it's a tradition to put presents underneath a decorated
+                        tree.</box>
+                    <box n="16">*Guess it was a good thing those teens tormented that
+                        monster...?</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="17">*(It's a carefully decorated tree.)</box>
+                    <box n="18">*(Some of the presents are addressed from "Santa" to various
+                        locals.)</box>
+                </sp>
+            </option>
+
 
             <option what="gameNarr">
                 <sp speaker="MonsterKid" to="you">
@@ -1725,34 +1649,34 @@
                 </sp>
             </option>
 
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="34">*...!? *There's a camera hidden in the trees here.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="35">*(It's a mailbox overflowing with unread junk mail.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="36">*(This mailbox is labelled "PAPYRUS".)</box>
-                        <box n="37">*(Look inside?) Yes No</box>
 
-                        <box n="38">*(It's empty.)</box>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="34">*...!? *There's a camera hidden in the trees here.</box>
+                </sp>
+            </option>
 
 
-                        <box n="40">*(You realize that would probably be illegal.)</box>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="35">*(It's a mailbox overflowing with unread junk mail.</box>
+                </sp>
+            </option>
 
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="36">*(This mailbox is labelled "PAPYRUS".)</box>
+                    <box n="37">*(Look inside?) Yes No</box>
+
+                    <box n="38">*(It's empty.)</box>
+
+
+                    <box n="40">*(You realize that would probably be illegal.)</box>
+
+                </sp>
+            </option>
+
 
             <option what="gameNarr">
                 <sp speaker="game" to="you">
@@ -1760,66 +1684,64 @@
                 </sp>
             </option>
 
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you"/>
-                    <box n="42">*(It's locked from the inside.)</box>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you"/>
+                <box n="42">*(It's locked from the inside.)</box>
+            </option>
+
             <conditions killed="SnowdinGuard">
-                <choice>
-                    <option what="gameNarr">
-                        <sp speaker="RabbitKid" to="you">
-                            <box n="1">*That lady over there seems happy today.</box>
-                            <box n="2">*Don't know why, but it's sending shivers down my
-                                spine...</box>
-                        </sp>
-                    </option>
-                </choice>
-                <choice>
-                    <option what="gameNarr">
-                        <sp speaker="RabbitGirl" to="you">
-                            <box n="3">*Ah, it's so peaceful and quiet...</box>
-                            <box n="4">*Usually one of those dogs chases my little Cinnamon
-                                around.</box>
-                        </sp>
-                    </option>
-                </choice>
-                <choice>
-                    <option what="gameNarr">
-                        <sp speaker="GiftBear" to="you">
-                            <box n="5">*You know what's cute?</box>
-                            <box n="6">*Those two married dogs always put presents under the tree
-                                for each other.</box>
-                            <box n="7">*It's always the same. *A single bone.</box>
-                            <box n="8">*But every time, they act like it's the first time they've
-                                gotten it.</box>
-                            <box n="9">*Then Papyrus comes to take his bones back.</box>
-                            <box n="10">*Anyway, where are those two...?</box>
-                        </sp>
-                    </option>
-                </choice>
-                <choice>
-                    <option what="gameNarr">
-                        <sp speaker="ScarfMouse" to="you">
-                            <box n="11">*It just feels like... *Like everything is getting worse and
-                                worse.</box>
-                        </sp>
-                    </option>
-                </choice>
+
+
+                <sp speaker="RabbitKid" to="you">
+                    <box n="1">*That lady over there seems happy today.</box>
+                    <box n="2">*Don't know why, but it's sending shivers down my spine...</box>
+                </sp>
+
+
+
+
+                <sp speaker="RabbitGirl" to="you">
+                    <box n="3">*Ah, it's so peaceful and quiet...</box>
+                    <box n="4">*Usually one of those dogs chases my little Cinnamon around.</box>
+                </sp>
+
+
+
+
+                <sp speaker="GiftBear" to="you">
+                    <box n="5">*You know what's cute?</box>
+                    <box n="6">*Those two married dogs always put presents under the tree for each
+                        other.</box>
+                    <box n="7">*It's always the same. *A single bone.</box>
+                    <box n="8">*But every time, they act like it's the first time they've gotten
+                        it.</box>
+                    <box n="9">*Then Papyrus comes to take his bones back.</box>
+                    <box n="10">*Anyway, where are those two...?</box>
+                </sp>
+
+
+
+
+                <sp speaker="ScarfMouse" to="you">
+                    <box n="11">*It just feels like... *Like everything is getting worse and
+                        worse.</box>
+                </sp>
+
+
             </conditions>
 
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Papyrus" to="you">
-                        <box n="1">HOW NICE OF YOU TO CHECK MY MAIL</box>
-                        <box n="2">WAIT, NO. THAT'S VERY STRANGE.</box>
-                        <box n="3">THAT'S MY EMPTINESS, NOT YOURS.</box>
-                        <box n="4">STOP LOOKING IN MY EMPTY MAILBOX.</box>
-                        <box n="5">PLEASE DON'T ENTER THE MYSTERIOIUS SHACK.</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="Papyrus" to="you">
+                    <box n="1">HOW NICE OF YOU TO CHECK MY MAIL</box>
+                    <box n="2">WAIT, NO. THAT'S VERY STRANGE.</box>
+                    <box n="3">THAT'S MY EMPTINESS, NOT YOURS.</box>
+                    <box n="4">STOP LOOKING IN MY EMPTY MAILBOX.</box>
+                    <box n="5">PLEASE DON'T ENTER THE MYSTERIOIUS SHACK.</box>
+                </sp>
+            </option>
+
 
 
             <option what="gameNarr">
@@ -1853,127 +1775,107 @@
                 </sp>
             </option>
 
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="RabbitGirl" to="you">
-                        <box n="4">*Huh? Yes, I'm taking my bunny for a walk.</box>
-                        <box n="5">*It's just a very slow one.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="GiftBear" to="you">
-                        <box n="6">*Hmm? *Adjusting the presents is my responsibility.</box>
-                        <box n="7">*Nah, to be honest, I just keep looking to see if I've gotten
-                            one...</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="PoliticsBear" to="you">
-                        <box n="8">*What if I ran for mayor...?</box>
-                        <box n="9">*I don't think I would do a good job, and I hate
-                            responsibility...</box>
-                        <box n="10">*But I love politics. *So I might be a perfect match.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="ScarfMouse" to="you">
-                        <box n="11">*Wait! *I've got a joke!</box>
-                        <box n="12">*Knock knock!</box>
-                        <box n="13">*...Uh *That's all I've thought of.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="NacaratJester" to="you">
-                        <box n="14">*Maybe I'll try frowning for once.</box>
-                        <box n="15">*...no. *I just can't do it.</box>
-                    </sp>
-                </option>
-            </choice>
 
+            <option what="gameNarr">
+                <sp speaker="RabbitGirl" to="you">
+                    <box n="4">*Huh? Yes, I'm taking my bunny for a walk.</box>
+                    <box n="5">*It's just a very slow one.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="GiftBear" to="you">
+                    <box n="6">*Hmm? *Adjusting the presents is my responsibility.</box>
+                    <box n="7">*Nah, to be honest, I just keep looking to see if I've gotten
+                        one...</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="PoliticsBear" to="you">
+                    <box n="8">*What if I ran for mayor...?</box>
+                    <box n="9">*I don't think I would do a good job, and I hate
+                        responsibility...</box>
+                    <box n="10">*But I love politics. *So I might be a perfect match.</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="ScarfMouse" to="you">
+                    <box n="11">*Wait! *I've got a joke!</box>
+                    <box n="12">*Knock knock!</box>
+                    <box n="13">*...Uh *That's all I've thought of.</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="NacaratJester" to="you">
+                    <box n="14">*Maybe I'll try frowning for once.</box>
+                    <box n="15">*...no. *I just can't do it.</box>
+                </sp>
+            </option>
             <conditions spared="Undyne">
-                <choice>
-                    <option what="gameNarr">
-                        <sp speaker="Undyne" to="you">
-                            <box n="1">*Hey, punk! *What's up!?</box>
-                            <box n="2">*A-ACHOO!</box>
-                        </sp>
-                        <sp speaker="Undyne" to="Papyrus">
-                            <box n="3">*Papyrus, how can you stand this cold?</box>
-                        </sp>
-                        <sp speaker="Papyrus" to="Undyne">
-                            <box n="4">I HAVE NO SKIN.</box>
-                        </sp>
-                        <sp speaker="Undyne" to="Papyrus">
-                            <box n="5">*So why don't we stand in Grillby's instead?</box>
-                        </sp>
-                        <sp speaker="Papyrus" to="Undyne">
-                            <box n="6">BECAUSE I HATE GREASE.</box>
-                        </sp>
-                        <sp speaker="Undyne" to="Papyrus">
-                            <box n="7">*But you don't have a stomach!!</box>
-                        </sp>
-                        <sp speaker="Papyrus" to="Undyne">
-                            <box n="8">NO, BUT I HAVE STANDARDS!!!</box>
-                        </sp>
-                        <sp speaker="Undyne" to="Papyrus">
-                            <box n="9">*Papyrus...</box>
-                            <box n="10">*Why do you live in an icy wasteland?</box>
-                        </sp>
-                        <sp speaker="Papyrus" to="Undyne">
-                            <box n="11">THE RENT'S CHEAP.</box>
-                        </sp>
-                        <sp speaker="Undyne" to="Papyrus">
-                            <box n="12">*Really? *Don't you live in a huge house?</box>
-                        </sp>
-                        <sp speaker="Papyrus" to="Undyne">
-                            <box n="13">YEAH, BUT MY BROTHER PAYS FOR IT.</box>
-                        </sp>
-                        <sp speaker="Undyne" to="Papyrus">
-                            <box n="14">*Where's your brother get the money to pay for it...?</box>
-                        </sp>
-                        <sp speaker="Papyrus" to="Undyne">
-                            <box n="15">OH, THAT'S SIMPLE.</box>
-                            <box n="16">IT'S A MYSTERY.</box>
-                        </sp>
-                    </option>
-                </choice>
-                <choice>
-                    <option what="gameNarr">
-                        <sp speaker="Papyrus" to="you">
-                            <box n="17">I'M SO GLAD YOU AND UNDYNE ARE FRIENDS NOW.</box>
-                            <box n="18">YOU TWO GO TOGETHER LIKE PASTA AND BURNING!</box>
-                        </sp>
-                    </option>
-                </choice>
-                <choice>
-                    <option what="gameNarr">
-                        <sp speaker="Papyrus" to="you">
-                            <box n="19">HELLO THAT'S NOT MY HOUSE.</box>
-                            <box n="20">THAT'S JUST MY COOL TOOLSHED.</box>
-                        </sp>
-                        <sp speaker="Undyne" to="Papyrus">
-                            <box n="21">*Do you call it your COOLSHED!?</box>
-                        </sp>
-                        <sp speaker="Papyrus" to="Undyne">
-                            <box n="22">NO!!! I'VE NEVER THOUGHT OF THAT!!!</box>
-                            <box n="23">THAT'S WHY WE'RE FRIENDS, UNDYNE.</box>
-                            <box n="24">YOU ENRICH MY LIFE WITH SHED-BASED PUNS.</box>
-                        </sp>
-                        <sp speaker="Undyne" to="Papyrus">
-                            <box n="25">*That's the only one I've every made, dude.</box>
-                        </sp>
-                    </option>
-                </choice>
-
-
+                <sp speaker="Undyne" to="you">
+                    <box n="1">*Hey, punk! *What's up!?</box>
+                    <box n="2">*A-ACHOO!</box>
+                </sp>
+                <sp speaker="Undyne" to="Papyrus">
+                    <box n="3">*Papyrus, how can you stand this cold?</box>
+                </sp>
+                <sp speaker="Papyrus" to="Undyne">
+                    <box n="4">I HAVE NO SKIN.</box>
+                </sp>
+                <sp speaker="Undyne" to="Papyrus">
+                    <box n="5">*So why don't we stand in Grillby's instead?</box>
+                </sp>
+                <sp speaker="Papyrus" to="Undyne">
+                    <box n="6">BECAUSE I HATE GREASE.</box>
+                </sp>
+                <sp speaker="Undyne" to="Papyrus">
+                    <box n="7">*But you don't have a stomach!!</box>
+                </sp>
+                <sp speaker="Papyrus" to="Undyne">
+                    <box n="8">NO, BUT I HAVE STANDARDS!!!</box>
+                </sp>
+                <sp speaker="Undyne" to="Papyrus">
+                    <box n="9">*Papyrus...</box>
+                    <box n="10">*Why do you live in an icy wasteland?</box>
+                </sp>
+                <sp speaker="Papyrus" to="Undyne">
+                    <box n="11">THE RENT'S CHEAP.</box>
+                </sp>
+                <sp speaker="Undyne" to="Papyrus">
+                    <box n="12">*Really? *Don't you live in a huge house?</box>
+                </sp>
+                <sp speaker="Papyrus" to="Undyne">
+                    <box n="13">YEAH, BUT MY BROTHER PAYS FOR IT.</box>
+                </sp>
+                <sp speaker="Undyne" to="Papyrus">
+                    <box n="14">*Where's your brother get the money to pay for it...?</box>
+                </sp>
+                <sp speaker="Papyrus" to="Undyne">
+                    <box n="15">OH, THAT'S SIMPLE.</box>
+                    <box n="16">IT'S A MYSTERY.</box>
+                </sp>
+                <sp speaker="Papyrus" to="you">
+                    <box n="17">I'M SO GLAD YOU AND UNDYNE ARE FRIENDS NOW.</box>
+                    <box n="18">YOU TWO GO TOGETHER LIKE PASTA AND BURNING!</box>
+                </sp>
+                <sp speaker="Papyrus" to="you">
+                    <box n="19">HELLO THAT'S NOT MY HOUSE.</box>
+                    <box n="20">THAT'S JUST MY COOL TOOLSHED.</box>
+                </sp>
+                <sp speaker="Undyne" to="Papyrus">
+                    <box n="21">*Do you call it your COOLSHED!?</box>
+                </sp>
+                <sp speaker="Papyrus" to="Undyne">
+                    <box n="22">NO!!! I'VE NEVER THOUGHT OF THAT!!!</box>
+                    <box n="23">THAT'S WHY WE'RE FRIENDS, UNDYNE.</box>
+                    <box n="24">YOU ENRICH MY LIFE WITH SHED-BASED PUNS.</box>
+                </sp>
+                <sp speaker="Undyne" to="Papyrus">
+                    <box n="25">*That's the only one I've every made, dude.</box>
+                </sp>
                 <sp speaker="Papyrus" to="you">
                     <box n="1">OH, HEY...</box>
                     <box n="2">YOU'RE LEAVING SOON, RIGHT!?</box>
@@ -2052,305 +1954,288 @@
                     </option>
                 </choice>
             </option>
-
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="SnowdinShopkeeper" to="you">
-                        <box n="2">*Huh? *Sell somethin'? *Does this look like a pawn shop?</box>
-                        <box n="3">*I don't know how it works wher ou come from... but...</box>
-                        <box n="4">*If I started spending money oon old branches and used bandages,
-                            I'd be out of business in a jiffy!</box>
-                        <box n="5">*If you're really hurtin' for cash, then maybe you could do some
-                            crowdfunding.</box>
-                        <box n="6">*I hear people will pay for ANYTHING nowadays.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="SnowdinShopkeeper" to="you">
-                        <box n="2">*Bye now! *Come again sometime!</box>
-                    </sp>
-                </option>
-            </choice>
+            <option what="gameNarr">
+                <sp speaker="SnowdinShopkeeper" to="you">
+                    <box n="2">*Huh? *Sell somethin'? *Does this look like a pawn shop?</box>
+                    <box n="3">*I don't know how it works wher ou come from... but...</box>
+                    <box n="4">*If I started spending money oon old branches and used bandages, I'd
+                        be out of business in a jiffy!</box>
+                    <box n="5">*If you're really hurtin' for cash, then maybe you could do some
+                        crowdfunding.</box>
+                    <box n="6">*I hear people will pay for ANYTHING nowadays.</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="SnowdinShopkeeper" to="you">
+                    <box n="2">*Bye now! *Come again sometime!</box>
+                </sp>
+            </option>
         </setting>
         <setting name="SnowedInn">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="InnKeeprsKid" to="you">
-                        <box n="1">*Mom says that sleeping can recover your health above your
-                            maximum HP.</box>
-                        <box n="2">*... what's maximum HP?</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="InnKeeper" to="you">
-                        <box n="3">*Welcome to Snowed Inn! *Snowdin's premier hotel!</box>
-                        <box n="4">*One night is 80G Stay Leave</box>
-                    </sp>
-                </option>
-                <option what="gameNarr">
-                    <sp speaker="InnKeeper" to="you">
-                        <box n="1">*Here's your room key. *Make sure to bundle up!</box>
-                        <box n="3">*Hiya! *You look like you had a great sleep.</box>
-                        <box n="4">*Which is incredible, because you were only up there for about
-                            two minutes...</box>
-                        <box n="5">*Here's your money back. *You can pay me if you're going to stay
-                            overnight.</box>
-                    </sp>
+            <option what="gameNarr">
+                <sp speaker="InnKeeprsKid" to="you">
+                    <box n="1">*Mom says that sleeping can recover your health above your maximum
+                        HP.</box>
+                    <box n="2">*... what's maximum HP?</box>
+                </sp>
+            </option>
 
-                    <sp speaker="InnKeeper" to="you">
-                        <box n="1">*... You don't even have 80G?</box>
-                        <box n="2">*Oh! You poor thing. *I can only imagine what you've been
-                            through.</box>
-                        <box n="3">*One of the rooms upstairs is empty.</box>
-                        <box n="4">You can sleep there for free, okay?</box>
-                        <box n="6">*Hiya! *You look like you had a great sleep.</box>
-                        <box n="7">*Which is incredible, because you were only up there for about
-                            two minutes...</box>
-                        <box n="8">*Feel free to come back if you get tired.</box>
+            <option what="gameNarr">
+                <sp speaker="InnKeeper" to="you">
+                    <box n="3">*Welcome to Snowed Inn! *Snowdin's premier hotel!</box>
+                    <box n="4">*One night is 80G Stay Leave</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="InnKeeper" to="you">
+                    <box n="1">*Here's your room key. *Make sure to bundle up!</box>
+                    <box n="3">*Hiya! *You look like you had a great sleep.</box>
+                    <box n="4">*Which is incredible, because you were only up there for about two
+                        minutes...</box>
+                    <box n="5">*Here's your money back. *You can pay me if you're going to stay
+                        overnight.</box>
+                </sp>
+                <sp speaker="InnKeeper" to="you">
+                    <box n="1">*... You don't even have 80G?</box>
+                    <box n="2">*Oh! You poor thing. *I can only imagine what you've been
+                        through.</box>
+                    <box n="3">*One of the rooms upstairs is empty.</box>
+                    <box n="4">You can sleep there for free, okay?</box>
+                    <box n="6">*Hiya! *You look like you had a great sleep.</box>
+                    <box n="7">*Which is incredible, because you were only up there for about two
+                        minutes...</box>
+                    <box n="8">*Feel free to come back if you get tired.</box>
 
-                        <box n="9">*Back again? *Well, stay as long as you like. Stay Leave</box>
+                    <box n="9">*Back again? *Well, stay as long as you like. Stay Leave</box>
 
-                    </sp>
+                </sp>
 
-                    <box n="1">*What? *No, you can't get a second key!</box>
-                </option>
-                <option what="gameNarr">
-                    <box n="2">*Well, feel free to come back any time.</box>
-                </option>
-            </choice>
+                <box n="1">*What? *No, you can't get a second key!</box>
+            </option>
+            <option what="gameNarr">
+                <box n="2">*Well, feel free to come back any time.</box>
+            </option>
+
         </setting>
         <setting name="Grillbys">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="DrunkBun" to="you">
-                        <box n="1">*No matter where I go, it's the same menu, the same
-                            people...</box>
-                        <box n="2">*Help! *I want new drinks an' h-h-h-hot guys!!!!</box>
-                        <box n="3">*I guess the bartender's kind of h-h-h-hot...</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="BigMouth" to="you">
-                        <box n="4">*Hmmm... *Isn't human food different from monster food?</box>
-                        <box n="5">*It does things like "spoil."</box>
-                        <box n="6">*And when you eat it, it passes all the way through your whole
-                            body.</box>
-                        <box n="7">*Disgusting.</box>
-                        <box n="8">*I'd love to try it sometime.</box>
-                        <box n="9">*And I've heard they have things called bathrooms.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="PunkHamster" to="you">
-                        <box n="10">*The capital's getting pretty crowded, so I've heard they're
-                            going to start moving here.</box>
-                        <box n="11">*Hmmm... *I don't wat to see the erasure of our local
-                            culture.</box>
-                        <box n="12">*But I definitely want to see some city slickers slip onto their
-                            butts!</box>
-                        <box n="13">*Yeah, bring 'em on!</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="14">*(The jukebox is broken.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Grillby" to="you">
-                        <box n="15">*... *... *...</box>
-                    </sp>
-                    <sp speaker="RedBird" to="you">
-                        <box n="16">*Gillbz said that he'd offer you a glass of water, but he
-                            doesn't touch the stuff.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="RedBird" to="you">
-                        <box n="17">*Those dogs are part of the ROYAL GUARD, the elite military
-                            group led by UNDYNE.</box>
-                        <box n="18">*She's rude, loud, and beats up everybody who gets in her
-                            way...</box>
-                        <box n="19">*It's no wonder all the kids want to be like her when they grow
-                            up!</box>
-                        <box n="20">*I want to be like UNDYNE when I grow up, too! *Hoo hoo
-                            hoo!</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="UglyFish" to="you">
-                        <box n="21">*I "put out a line" for some girls today.</box>
-                        <box n="22">*Someone told me that there are plenty of fish in the
-                            sea...</box>
-                        <box n="23">*Well, I'm taking that seriously.</box>
-                        <box n="24">*I'm literally going to make out with a fish.</box>
-                        <box n="25">*I gues I could ask out Undyne. *But I think she likes someone
-                            already.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="26">*(It's playing poker against itself.)</box>
-                        <box n="27">*(It appears to be losing.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Dogi" to="you">
-                        <box n="28">*(We're sentries, but we never get any respect.)</box>
-                        <box n="29">*(I wish those skeletons would throw us a bone.)</box>
-                        <box n="30">*(We love bones.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Dogi" to="you">
-                        <box n="31">*You better watch where you sit down in here, kid.</box>
-                        <box n="32">*Because that big guy WILL jump into your lap and give you lots
-                            of love and attention.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="Doggo" to="you">
-                        <box n="33">*I'm thinking of getting a spiked collar to show off my
-                            personality.</box>
-                        <box n="34">*It makes a statement like... *"Attach a leash to me and take me
-                            for a walk please."</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="DrunkBun" to="you">
+                    <box n="1">*No matter where I go, it's the same menu, the same people...</box>
+                    <box n="2">*Help! *I want new drinks an' h-h-h-hot guys!!!!</box>
+                    <box n="3">*I guess the bartender's kind of h-h-h-hot...</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="BigMouth" to="you">
+                    <box n="4">*Hmmm... *Isn't human food different from monster food?</box>
+                    <box n="5">*It does things like "spoil."</box>
+                    <box n="6">*And when you eat it, it passes all the way through your whole
+                        body.</box>
+                    <box n="7">*Disgusting.</box>
+                    <box n="8">*I'd love to try it sometime.</box>
+                    <box n="9">*And I've heard they have things called bathrooms.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="PunkHamster" to="you">
+                    <box n="10">*The capital's getting pretty crowded, so I've heard they're going
+                        to start moving here.</box>
+                    <box n="11">*Hmmm... *I don't wat to see the erasure of our local culture.</box>
+                    <box n="12">*But I definitely want to see some city slickers slip onto their
+                        butts!</box>
+                    <box n="13">*Yeah, bring 'em on!</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="14">*(The jukebox is broken.)</box>
+                </sp>
+            </option>
+
+            <option what="gameNarr">
+                <sp speaker="Grillby" to="you">
+                    <box n="15">*... *... *...</box>
+                </sp>
+                <sp speaker="RedBird" to="you">
+                    <box n="16">*Gillbz said that he'd offer you a glass of water, but he doesn't
+                        touch the stuff.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="RedBird" to="you">
+                    <box n="17">*Those dogs are part of the ROYAL GUARD, the elite military group
+                        led by UNDYNE.</box>
+                    <box n="18">*She's rude, loud, and beats up everybody who gets in her
+                        way...</box>
+                    <box n="19">*It's no wonder all the kids want to be like her when they grow
+                        up!</box>
+                    <box n="20">*I want to be like UNDYNE when I grow up, too! *Hoo hoo hoo!</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="UglyFish" to="you">
+                    <box n="21">*I "put out a line" for some girls today.</box>
+                    <box n="22">*Someone told me that there are plenty of fish in the sea...</box>
+                    <box n="23">*Well, I'm taking that seriously.</box>
+                    <box n="24">*I'm literally going to make out with a fish.</box>
+                    <box n="25">*I gues I could ask out Undyne. *But I think she likes someone
+                        already.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="26">*(It's playing poker against itself.)</box>
+                    <box n="27">*(It appears to be losing.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="Dogi" to="you">
+                    <box n="28">*(We're sentries, but we never get any respect.)</box>
+                    <box n="29">*(I wish those skeletons would throw us a bone.)</box>
+                    <box n="30">*(We love bones.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="Dogi" to="you">
+                    <box n="31">*You better watch where you sit down in here, kid.</box>
+                    <box n="32">*Because that big guy WILL jump into your lap and give you lots of
+                        love and attention.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="Doggo" to="you">
+                    <box n="33">*I'm thinking of getting a spiked collar to show off my
+                        personality.</box>
+                    <box n="34">*It makes a statement like... *"Attach a leash to me and take me for
+                        a walk please."</box>
+                </sp>
+            </option>
+
         </setting>
         <setting name="Librarby">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="LibraryLizard" to="you">
-                        <box n="1">*Welcome to the library. *Yes ,we know. *The sign is
-                            mispelled</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="ScarfLady" to="you">
-                        <box n="2">*I love working on the newspaper</box>
-                        <box n="3">*There's so little to report that we just fill it with comics and
-                            games.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="LadyGarf" to="you">
-                        <box n="4">*(cough, cough)</box>
-                        <box n="5">*When I was younger, my teachers gave me word searches when they
-                            ran out of assignments.</box>
-                        <box n="6">*I thought they were a waste of time.</box>
-                        <box n="7">*But look at me now...</box>
-                        <box n="8">*I'm the number-one word=search creator in the entire
-                            underground!</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="9">*(It's a school report about monster funerals.)</box>
-                        <box n="10">*Monster funerals, technically speaking, are cool as heck.</box>
-                        <box n="11">*When monsters get old and kick the bucket, they turn into
-                            dust.</box>
-                        <box n="12">*At funerals, we take that dust and spread it on that person's
-                            favorite thing.</box>
-                        <box n="13">*Then their essence will live on in that thing...</box>
-                        <box n="14">*Uhhh, am I at the page minimum yet? *I'm kinda sick of writing
-                            this.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="15">*While monsters are mostly made of magic, human beings are
-                            mostly made of water.</box>
-                        <box n="16">*Humans , with their physical forms, are far stronger than
-                            us.</box>
-                        <box n="17">*But they will never know the joy of expressing themselves
-                            through magic.</box>
-                        <box n="18">*They'll never get a bullet-pattern birthday card...</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="19">*(Her I am... *Writing this book.)</box>
-                        <box n="20">*(A person comes in and picks up the book...)</box>
-                        <box n="21">*(They start reading it...!)</box>
-                        <box n="22">*Oh. sorry. *I'm still writing that one.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="23">*Because they are made of magic, monsters' bodies are attuned to
-                            their SOUL.</box>
-                        <box n="24">*If a monster doesn't want to fight, its defenses will
-                            weaken.</box>
-                        <box n="25">*And the crueller the intentions of our enemies, the more their
-                            attacks will hurt us.</box>
-                        <box n="26">*Therefore, if a being with a powerful SOUL struck with the
-                            desire to kill...</box>
-                        <box n="27">*Um, let's end the chapter here...</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="28">**"MONSTER HISTORY PART 4"</box>
-                        <box n="29">*Fearing the humans no longer, we moved out of our old city,
-                            HOME.</box>
-                        <box n="30">*We braved harsh cold, damp, swampland, and searing
-                            heat...</box>
-                        <box n="31">*Until we reached we now call our capital.</box>
-                        <box n="32">*"NEW HOME."</box>
-                        <box n="33">*Again, our King is really bad at names...?</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="34">*Love, hope, compassion... *This is what people say monster
-                            SOULs are made of.</box>
-                        <box n="35">*But the absolute nature of "SOUL" is unknown.</box>
-                        <box n="36">*After all, humans have proven their SOULs don't need these
-                            things to exist.</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="LibraryLizard" to="you">
+                    <box n="1">*Welcome to the library. *Yes ,we know. *The sign is mispelled</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="ScarfLady" to="you">
+                    <box n="2">*I love working on the newspaper</box>
+                    <box n="3">*There's so little to report that we just fill it with comics and
+                        games.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="LadyGarf" to="you">
+                    <box n="4">*(cough, cough)</box>
+                    <box n="5">*When I was younger, my teachers gave me word searches when they ran
+                        out of assignments.</box>
+                    <box n="6">*I thought they were a waste of time.</box>
+                    <box n="7">*But look at me now...</box>
+                    <box n="8">*I'm the number-one word=search creator in the entire
+                        underground!</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="9">*(It's a school report about monster funerals.)</box>
+                    <box n="10">*Monster funerals, technically speaking, are cool as heck.</box>
+                    <box n="11">*When monsters get old and kick the bucket, they turn into
+                        dust.</box>
+                    <box n="12">*At funerals, we take that dust and spread it on that person's
+                        favorite thing.</box>
+                    <box n="13">*Then their essence will live on in that thing...</box>
+                    <box n="14">*Uhhh, am I at the page minimum yet? *I'm kinda sick of writing
+                        this.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="15">*While monsters are mostly made of magic, human beings are mostly
+                        made of water.</box>
+                    <box n="16">*Humans , with their physical forms, are far stronger than us.</box>
+                    <box n="17">*But they will never know the joy of expressing themselves through
+                        magic.</box>
+                    <box n="18">*They'll never get a bullet-pattern birthday card...</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="19">*(Her I am... *Writing this book.)</box>
+                    <box n="20">*(A person comes in and picks up the book...)</box>
+                    <box n="21">*(They start reading it...!)</box>
+                    <box n="22">*Oh. sorry. *I'm still writing that one.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="23">*Because they are made of magic, monsters' bodies are attuned to
+                        their SOUL.</box>
+                    <box n="24">*If a monster doesn't want to fight, its defenses will weaken.</box>
+                    <box n="25">*And the crueller the intentions of our enemies, the more their
+                        attacks will hurt us.</box>
+                    <box n="26">*Therefore, if a being with a powerful SOUL struck with the desire
+                        to kill...</box>
+                    <box n="27">*Um, let's end the chapter here...</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="28">**"MONSTER HISTORY PART 4"</box>
+                    <box n="29">*Fearing the humans no longer, we moved out of our old city,
+                        HOME.</box>
+                    <box n="30">*We braved harsh cold, damp, swampland, and searing heat...</box>
+                    <box n="31">*Until we reached we now call our capital.</box>
+                    <box n="32">*"NEW HOME."</box>
+                    <box n="33">*Again, our King is really bad at names...?</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="34">*Love, hope, compassion... *This is what people say monster SOULs
+                        are made of.</box>
+                    <box n="35">*But the absolute nature of "SOUL" is unknown.</box>
+                    <box n="36">*After all, humans have proven their SOULs don't need these things
+                        to exist.</box>
+                </sp>
+            </option>
+
 
 
             <option what="gameNarr">
@@ -2388,175 +2273,166 @@
                 </sp>
             </option>
 
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="ScarfLady" to="you">
-                        <box n="5">*Yes. *I illustrate all of the comics myself.</box>
-                        <box n="6">*Yes. *I give everyone huge beautiful eyes and giant
-                            muscles.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="LadyGarf" to="you">
-                        <box n="7">*(cough,cough)</box>
-                        <box n="8">*There's a day I just don't want to work.</box>
-                        <box n="9">*It's called "Today."</box>
-                    </sp>
-                </option>
-            </choice>
 
+            <option what="gameNarr">
+                <sp speaker="ScarfLady" to="you">
+                    <box n="5">*Yes. *I illustrate all of the comics myself.</box>
+                    <box n="6">*Yes. *I give everyone huge beautiful eyes and giant muscles.</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="LadyGarf" to="you">
+                    <box n="7">*(cough,cough)</box>
+                    <box n="8">*There's a day I just don't want to work.</box>
+                    <box n="9">*It's called "Today."</box>
+                </sp>
+            </option>
         </setting>
         <setting name="PapyrusAndSansHouse">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*(This rock is covered in sprinkles.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="2">*(You touch the couch.) *(It makes a jangling sound.)</box>
-                        <box n="3">*(You find a bunch of loose coins inside the couch...)</box>
-                        <box n="4">*(You got 20G.)</box>
-                        <box n="5">*(It's a saggy old couch.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="6">*(It's a joke book.)</box>
-                        <box n="7">*(Take a look inside?) Yes No</box>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*</box>
+                </sp>
+            </option>
 
-                        <box n="8">*(Inside the joke book was a quantum physics book.)</box>
-                        <box n="9">*(You look inside...)</box>
-                        <box n="10">*(Inside the quantum physics book was another joke book.)</box>
-                        <box n="11">*(You look inside...)</box>
-                        <box n="12">*(There's another quantum physics book...)</box>
-                        <box n="13">*(You decide to stop.)</box>
 
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="14">*(It says "STAY TUNED FOR A NEW PROGRAM - MTT.")</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="15">*(It's a dirty sock with a series of notes on it.)</box>
-                        <box n="16">SANS! PLEASE PICK UP YOUR SOCK!</box>
-                        <box n="17">*ok.</box>
-                        <box n="18">DON'T PUT IT BACK DOWN! MOVE IT!</box>
-                        <box n="19">*ok</box>
-                        <box n="20">YOU MOVED IT TWO INCHES! MOVE IT TO YOUR ROOM!</box>
-                        <box n="21">*ok</box>
-                        <box n="22">AND DON'T BRING IT BACK!</box>
-                        <box n="23">*ok</box>
-                        <box n="24">IT'S STILL HERE!</box>
-                        <box n="25">*didn't you just say not to bring it back to my room?</box>
-                        <box n="26">FORGET IT!</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="27">*(It's the door to Papyrus's room.)</box>
-                        <box n="28">*(It's covered in many labels...)</box>
-                        <box n="29">- (NO BOYS ALLOWED!)</box>
-                        <box n="30">- (NO GIRLS ALLOWED!)</box>
-                        <box n="31">- (PAPYRUS ALLOWED.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="32">*(It's a painting of a cartoon bone.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="33">*(The door is locked.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="34">*(You visited the trash can.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="35">*(There's an empty pie tin inside the stove.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="36">*(This sink is so tall, you can't even wash your hands...)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="37">*(Half of the fridge is filled with containers all labelled
-                            "spaghetti.")</box>
-                        <box n="38">*(The other half contains nothing but an empty bag of
-                            chips.)</box>
-                    </sp>
-                </option>
-            </choice>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*(This rock is covered in sprinkles.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="2">*(You touch the couch.) *(It makes a jangling sound.)</box>
+                    <box n="3">*(You find a bunch of loose coins inside the couch...)</box>
+                    <box n="4">*(You got 20G.)</box>
+                    <box n="5">*(It's a saggy old couch.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="6">*(It's a joke book.)</box>
+                    <box n="7">*(Take a look inside?) Yes No</box>
+
+                    <box n="8">*(Inside the joke book was a quantum physics book.)</box>
+                    <box n="9">*(You look inside...)</box>
+                    <box n="10">*(Inside the quantum physics book was another joke book.)</box>
+                    <box n="11">*(You look inside...)</box>
+                    <box n="12">*(There's another quantum physics book...)</box>
+                    <box n="13">*(You decide to stop.)</box>
+
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="14">*(It says "STAY TUNED FOR A NEW PROGRAM - MTT.")</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="15">*(It's a dirty sock with a series of notes on it.)</box>
+                    <box n="16">SANS! PLEASE PICK UP YOUR SOCK!</box>
+                    <box n="17">*ok.</box>
+                    <box n="18">DON'T PUT IT BACK DOWN! MOVE IT!</box>
+                    <box n="19">*ok</box>
+                    <box n="20">YOU MOVED IT TWO INCHES! MOVE IT TO YOUR ROOM!</box>
+                    <box n="21">*ok</box>
+                    <box n="22">AND DON'T BRING IT BACK!</box>
+                    <box n="23">*ok</box>
+                    <box n="24">IT'S STILL HERE!</box>
+                    <box n="25">*didn't you just say not to bring it back to my room?</box>
+                    <box n="26">FORGET IT!</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="27">*(It's the door to Papyrus's room.)</box>
+                    <box n="28">*(It's covered in many labels...)</box>
+                    <box n="29">- (NO BOYS ALLOWED!)</box>
+                    <box n="30">- (NO GIRLS ALLOWED!)</box>
+                    <box n="31">- (PAPYRUS ALLOWED.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="32">*(It's a painting of a cartoon bone.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="33">*(The door is locked.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="34">*(You visited the trash can.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="35">*(There's an empty pie tin inside the stove.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="36">*(This sink is so tall, you can't even wash your hands...)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="37">*(Half of the fridge is filled with containers all labelled
+                        "spaghetti.")</box>
+                    <box n="38">*(The other half contains nothing but an empty bag of chips.)</box>
+                </sp>
+            </option>
         </setting>
         <setting name="PapyrusRoom">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*(It's a box of bones.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="2">*(The computer's internet browser is opened to a social media
-                            site.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="3">*(Look in the closet?) Yes No</box>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*(It's a box of bones.)</box>
+                </sp>
+            </option>
 
-                        <box n="4">*(Clothes are hung up neatly inside.)</box>
 
-                    </sp>
-                </option>
-            </choice>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="2">*(The computer's internet browser is opened to a social media
+                        site.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="3">*(Look in the closet?) Yes No</box>
+
+                    <box n="4">*(Clothes are hung up neatly inside.)</box>
+
+                </sp>
+            </option>
+
 
             <option what="gameNarr">
                 <sp speaker="game" to="you">
@@ -2565,57 +2441,55 @@
                     <box n="6">*(And children's books.)</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="7">*(It's a beat-up pirate flag.)</box>
                 </sp>
             </option>
-
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="8">*(Action figures of many sexy robots.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="9">*(It's a racecar bed, neatly made.)</box>
-                    </sp>
-                </option>
-            </choice>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="8">*(Action figures of many sexy robots.)</box>
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="9">*(It's a racecar bed, neatly made.)</box>
+                </sp>
+            </option>
         </setting>
         <setting name="PapyrusArena">
-            <sp speaker="Papyrus" to="you">
-                <box n="1">HUMAN.</box>
-                <box n="2">ALLOW ME TO TELL YOU ABOUT SOME COMPLEX FEELINGS.</box>
-                <box n="3">FEELINGS LIKE...</box>
-                <box n="4">THE JOY OF FINDING ANOTHER PASTA LOVER.</box>
-                <box n="5">THE ADMIRATION FOR ANOTHER'S PUZZLE-SOLVING SKILLS.</box>
-                <box n="6">THE DESIRE TO HAVE A COOL, SMART PERSON THINK YOU ARE COOL.</box>
-                <box n="7">THESE FEELINGS...</box>
-                <box n="8">THEY MUST BE WHAT YOU ARE FEELING RIGHT NOW!!!</box>
-                <box n="9">I CAN HARDLY IMAGINE WHAT IT MUST BE LIKE TO FEEL THAT WAY.</box>
-                <box n="10">AFTER ALL, I AM VERY GREAT.</box>
-                <box n="11">I DON'T EVER WONDER WHAT HAVING LOTS OF FRIENDS IS LIKE.</box>
-                <box n="12">I PITY YOU... LONELY HUMAN...</box>
-                <box n="13">WORRY NOT!!! YOU SHALL BE LONELY NO LONGER!</box>
-                <box n="14">I, THE GREAT PAPYRUS WILL BE YOUR...</box>
-                <box n="15">...</box>
-                <box n="16">NO...</box>
-                <box n="17">NO, THIS IS ALL WRONG!</box>
-                <box n="18">I CAN'T BE YOUR FRIEND!!!</box>
-                <box n="19">YOU ARE A HUMAN!</box>
-                <box n="20">I MUST CAPTURE YOU!!!</box>
-                <box n="21">THEN, I CAN FULFILL MY LIFELONG DREAM!!!</box>
-                <box n="22">POWERFUL! POPULAR! PRESTIFIOUS!!!</box>
-                <box n="23">THAT'S PAPYRUS!!!</box>
-                <box n="24">THE NEWEST MEMBER...</box>
-                <box n="25">OF THE ROYAL GUARD!</box>
-            </sp>
+            <battle name="PapyrusFight">
+                <sp speaker="Papyrus" to="you">
+                    <box n="1">HUMAN.</box>
+                    <box n="2">ALLOW ME TO TELL YOU ABOUT SOME COMPLEX FEELINGS.</box>
+                    <box n="3">FEELINGS LIKE...</box>
+                    <box n="4">THE JOY OF FINDING ANOTHER PASTA LOVER.</box>
+                    <box n="5">THE ADMIRATION FOR ANOTHER'S PUZZLE-SOLVING SKILLS.</box>
+                    <box n="6">THE DESIRE TO HAVE A COOL, SMART PERSON THINK YOU ARE COOL.</box>
+                    <box n="7">THESE FEELINGS...</box>
+                    <box n="8">THEY MUST BE WHAT YOU ARE FEELING RIGHT NOW!!!</box>
+                    <box n="9">I CAN HARDLY IMAGINE WHAT IT MUST BE LIKE TO FEEL THAT WAY.</box>
+                    <box n="10">AFTER ALL, I AM VERY GREAT.</box>
+                    <box n="11">I DON'T EVER WONDER WHAT HAVING LOTS OF FRIENDS IS LIKE.</box>
+                    <box n="12">I PITY YOU... LONELY HUMAN...</box>
+                    <box n="13">WORRY NOT!!! YOU SHALL BE LONELY NO LONGER!</box>
+                    <box n="14">I, THE GREAT PAPYRUS WILL BE YOUR...</box>
+                    <box n="15">...</box>
+                    <box n="16">NO...</box>
+                    <box n="17">NO, THIS IS ALL WRONG!</box>
+                    <box n="18">I CAN'T BE YOUR FRIEND!!!</box>
+                    <box n="19">YOU ARE A HUMAN!</box>
+                    <box n="20">I MUST CAPTURE YOU!!!</box>
+                    <box n="21">THEN, I CAN FULFILL MY LIFELONG DREAM!!!</box>
+                    <box n="22">POWERFUL! POPULAR! PRESTIFIOUS!!!</box>
+                    <box n="23">THAT'S PAPYRUS!!!</box>
+                    <box n="24">THE NEWEST MEMBER...</box>
+                    <box n="25">OF THE ROYAL GUARD!</box>
+                </sp>
+            </battle>
+            <choice><option what="spare">
+                    <pathChange fromRt="genocide"/>
+                </option></choice>
             <conditions spared="Papyrus">
                 <sp speaker="Papyrus" to="you">
                     <box n="1">NYOO HOO HOO...</box>
@@ -2646,41 +2520,41 @@
                         </sp>
                     </option>
                 </choice>
-            </conditions>
-            <sp speaker="Papyrus" to="you">
-                <box n="1">WOWIE!! WE HAVEN'T EVEN HAD OUR FIRST DATE...</box>
-                <box n="2">AND I'VE ALREADY MANGAGED TO HIT THE FRIEND ZONE!!!</box>
-                <box n="3">WHO KNEW THAT ALL I NEEDED TO MAKE PALS...</box>
-            </sp>
 
-            <sp speaker="Papyrus" to="you">
-                <box n="1">WAS TO GIVE PEOPLE AWFUL PUZZLES AND THEN FIGHT THEM??</box>
-                <box n="2">YOU TAUGHT ME A LOT, HUMAN.</box>
-                <box n="3">I HERBY GRANT YOU PERMISSION TO PASS THROUGH!</box>
-                <box n="4">AND I'LL GIVE YOU DIRECTIONS TO THE SURFACE.</box>
-                <box n="5">CONTINUE FORWARD UNTIL YOU REACH THE END OF THE CAVERN.</box>
-                <box n="6">THEN... WHEN YOU REACH THE CAPITAL, CROSS THE BARRIER.</box>
-                <box n="7">THAT'S THE MAGICAL SEAL TRAPPING US ALL UNDERGROUND.</box>
-                <box n="8">ANYTHING CAN ENTER THROUGH IT, BUT NOTHING CAN EXIT...</box>
-                <box n="9">EXCEPT SOMEONE WITH A POWERFUL SOUL.</box>
-                <box n="10">... LIKE YOU!!</box>
-                <box n="11">THAT'S WHY THE KING WANTS TO ACQUIRE A HUMAN.</box>
-                <box n="12">HE WANTS TO OPEN THE BARRIER WITH SOUL POWER.</box>
-                <box n="13">THEN US MONSTERS CAN RETURN TO THE SURFACE!</box>
-                <box n="14">OH, I ALMOST FORGOT TO TELL YOU...</box>
-                <box n="15">TO REACH THE EXIT, YOU WILL HAVE TO PASS...</box>
-                <box n="16">THROUGH THE KING'S CASTLE.</box>
-                <box n="17">THE KING OF ALL MONSTERS...</box>
-                <box n="18">HE IS...</box>
-                <box n="19">...WELL...</box>
-                <box n="20">HE'S A BIG FUZZY PUSHOVER!!!</box>
-                <box n="21">EVERYBODY LOVES THAT GUY.</box>
-                <box n="22">I AM CERTAIN IF YOU JUST SAY...</box>
-                <box n="23">-EXCUSE ME, MR. DREEMUR... CAN I PLEASE GO HOME?- </box>
-                <box n="24">HE'LL GUIDE YOU RIGHT TO THE BARRIER HIMSELF!</box>
-                <box n="25">ANYWAY!!! THAT'S ENOUGH TALKING!!!</box>
-                <box n="26">I'LL BE AT HOME BEING A COOL FRIEND!!!</box>
-            </sp>
+                <sp speaker="Papyrus" to="you">
+                    <box n="1">WOWIE!! WE HAVEN'T EVEN HAD OUR FIRST DATE...</box>
+                    <box n="2">AND I'VE ALREADY MANGAGED TO HIT THE FRIEND ZONE!!!</box>
+                    <box n="3">WHO KNEW THAT ALL I NEEDED TO MAKE PALS...</box>
+                </sp>
+                <sp speaker="Papyrus" to="you">
+                    <box n="1">WAS TO GIVE PEOPLE AWFUL PUZZLES AND THEN FIGHT THEM??</box>
+                    <box n="2">YOU TAUGHT ME A LOT, HUMAN.</box>
+                    <box n="3">I HERBY GRANT YOU PERMISSION TO PASS THROUGH!</box>
+                    <box n="4">AND I'LL GIVE YOU DIRECTIONS TO THE SURFACE.</box>
+                    <box n="5">CONTINUE FORWARD UNTIL YOU REACH THE END OF THE CAVERN.</box>
+                    <box n="6">THEN... WHEN YOU REACH THE CAPITAL, CROSS THE BARRIER.</box>
+                    <box n="7">THAT'S THE MAGICAL SEAL TRAPPING US ALL UNDERGROUND.</box>
+                    <box n="8">ANYTHING CAN ENTER THROUGH IT, BUT NOTHING CAN EXIT...</box>
+                    <box n="9">EXCEPT SOMEONE WITH A POWERFUL SOUL.</box>
+                    <box n="10">... LIKE YOU!!</box>
+                    <box n="11">THAT'S WHY THE KING WANTS TO ACQUIRE A HUMAN.</box>
+                    <box n="12">HE WANTS TO OPEN THE BARRIER WITH SOUL POWER.</box>
+                    <box n="13">THEN US MONSTERS CAN RETURN TO THE SURFACE!</box>
+                    <box n="14">OH, I ALMOST FORGOT TO TELL YOU...</box>
+                    <box n="15">TO REACH THE EXIT, YOU WILL HAVE TO PASS...</box>
+                    <box n="16">THROUGH THE KING'S CASTLE.</box>
+                    <box n="17">THE KING OF ALL MONSTERS...</box>
+                    <box n="18">HE IS...</box>
+                    <box n="19">...WELL...</box>
+                    <box n="20">HE'S A BIG FUZZY PUSHOVER!!!</box>
+                    <box n="21">EVERYBODY LOVES THAT GUY.</box>
+                    <box n="22">I AM CERTAIN IF YOU JUST SAY...</box>
+                    <box n="23">-EXCUSE ME, MR. DREEMUR... CAN I PLEASE GO HOME?- </box>
+                    <box n="24">HE'LL GUIDE YOU RIGHT TO THE BARRIER HIMSELF!</box>
+                    <box n="25">ANYWAY!!! THAT'S ENOUGH TALKING!!!</box>
+                    <box n="26">I'LL BE AT HOME BEING A COOL FRIEND!!!</box>
+                </sp>
+            </conditions>
         </setting>
     </path>
 </map>
