@@ -229,6 +229,7 @@ speaker =
         | "Mettaton"
         | "Asgore"
         | "EchoFlowerExplainer"
+        | "EchoFlower" | "telescope"
     }
 to = attribute to { text }
 # ebb: REFINE THIS with specific values.
