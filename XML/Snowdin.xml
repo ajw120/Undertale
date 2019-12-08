@@ -297,28 +297,19 @@
                     <box n="6">*...</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <box n="6">*(Someone's been smoking dog treats.)</box>
             </option>
-
-
             <sp speaker="Doggo" to="Doggo">
                 <box n="1">*S-S-S Something pet me... *Something that isn't m-m-moving...</box>
                 <box n="2">*I'm gonna need some dog treats for this!!!</box>
             </sp>
-
-
             <sp speaker="Doggo" to="you">
                 <box n="1">*A stick appeared out of nowhere, then disappeared.</box>
                 <box n="2">*Was it a ghost stick?</box>
                 <box n="3">*Did I just return it to the afterlife?</box>
                 <box n="4">*I need some dog treats to think about this.</box>
             </sp>
-
-
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="1">*(This note is written very oddly, as if the paper was moving while
@@ -345,8 +336,6 @@
                     <box n="8">*remember... *blue stop signs.</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="sign" to="you">
                     <box n="9">*North: Ice *South: Ice *West: Ice</box>
@@ -354,31 +343,23 @@
                     <box n="11">*(... and ice)</box>
                 </sp>
             </option>
-
         </setting>
         <setting name="SnowmanRoom">
-
             <option what="gameNarr">
                 <sp speaker="Snowman" to="you">
                     <box n="1">*Hello. *I am a snowman.</box>
                     <box n="2">*I want to see the world... *But I cannot move.</box>
                     <box n="3">*If you would be so kind, traveller, please...</box>
                     <box n="4">*Take a piece of me and bring it very far away. Yes No</box>
-
                     <box n="5">*I see. *Good journey, then.</box>
-
                     <box n="7">*Thank you... good luck!</box>
                     <box n="8">*(You got the Snowman Piece.)</box>
-
                     <box n="9">*How am I doing? *By "I" I mean the piece of me I gave you...</box>
-
                     <box n="1">*How am I doing? *By "I" I mean the piece of me I gave you...</box>
                     <box n="2">*Huh? You lost it...? *...I suppose I can give you another
                         piece...</box>
                     <box n="3">*Please be careful this time.</box>
                     <box n="4">*(You got the Snowman Piece.)</box>
-
-
                     <box n="1">Huh? Again...?</box>
                     <box n="2">I'm sorry... if I give you any more, there will be nothing left of
                         me.</box>
@@ -386,21 +367,14 @@
                         fantasy.</box>
                     <box n="4">*It's no different for anyone else.</box>
                     <box n="5">*All of monsterkind are doomed to stay underground, forever...</box>
-
-
-
                     <box n="1">*It seems you do not have enough room for me.</box>
-
                     <box n="1">*You ate the Snowman Piece. *Your HP was maxed out.</box>
                     <box n="2">*Did you just... *Consume the part of me I had given you?</box>
                     <box n="3">*In front of my very eyes!?</box>
                     <box n="4">*I have no words for you... *Begone!</box>
                     <box n="5">*I shouldn't have given myself away so easily...</box>
-
-
                 </sp>
             </option>
-
         </setting>
         <setting name="ElectricMazeRoom">
             <sp speaker="Papyrus" to="you">
@@ -448,7 +422,6 @@
                 <box n="33">*man.</box>
                 <box n="34">*isn't my brother cool?</box>
             </sp>
-
             <sp speaker="Papyrus" to="you">
                 <box n="1">COME ON! DON'T BE SO RUDE!!!</box>
                 <box n="2">I SET UP THIS PUZZLE JUST FOR YOU!</box>
@@ -456,8 +429,6 @@
                 <box n="4">WHEN SHE MAKES YOU A PUZZLE?!?!?</box>
                 <box n="5">HUMANS...</box>
             </sp>
-
-
             <sp speaker="Papyrus" to="Sans">
                 <box n="1">REALLY THOUGH!!! THAT HUMAN!!!</box>
                 <box n="2">DO I KNOW THAT PERSON???</box>
@@ -474,10 +445,8 @@
                 <box n="9">...YOU KNOW?</box>
                 <box n="10">OH-HO! SPEAK OF THE DEVIL!</box>
             </sp>
-
         </setting>
         <setting name="BallGameRoom">
-
             <option what="gameNarr">
                 <sp speaker="NiceCreamGuy" to="you">
                     <box n="1">*I don't understand why these aren't selling...</box>
@@ -488,165 +457,97 @@
                     <box n="4">*Hello! *Would you like some Nice Cream?</box>
                     <box n="5">*It's the frozen treat that warms your heart!</box>
                     <box n="6">*Now just 15G! Yes No</box>
-
                     <box n="7">*Well then... *Tell your friends...</box>
                     <box n="8">*There's ice cream... *Out in the middle of the woods...</box>
-
                     <box n="10">*Here you go! *Have a super-duper day! *(You got the Nice
                         Cream.)</box>
-
                     <box n="11">*Huh? *You don't have enough mnoney...</box>
                     <box n="12">*I wish I could make Nice Cream for free...</box>
-
                     <box n="1"> *It looks like you're holding too much stuff! *Oh well!</box>
-
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="14">*...!? *There's a camera hidden inside this lump of snow.</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="15">*Ah! Wow! Woah! *It's a "Hole".</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="16">*(It looks like a snow ball...</box>
                     <box n="17">*(Actually, it's a snowdecahedron.)</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="Sans" to="you">
                     <box n="1">*i've been thinking about selling treats too.</box>
                     <box n="2">*want some fried snow? *it's just 5G. Buy No</box>
-
                     <box n="3">*you're right.</box>
                     <box n="4">*i should charge way more than that.</box>
-
-
                     <box n="6">*di i say 5G? *i meant 50G Buy No</box>
-
                     <box n="7">*you're right.</box>
                     <box n="8">*that's still too low.</box>
-
-
                     <box n="10">*really *how about 5000G Buy No</box>
-
                     <box n="11">*i have to pay for the raw materials somehow.</box>
-
-
                     <box n="13">*50000G *that's my final offer. Buy No</box>
-
                     <box n="14">*don't you know a good deal when you hear one?</box>
-
-
                     <box n="16">*what? you don't have the money.</box>
                     <box n="17">*hey, that's okay.</box>
                     <box n="18">*i don't have any snow.</box>
-
                     <box n="2">*wow, that's a lot of cash.</box>
                     <box n="3">*that's why i'm sorry to say...</box>
                     <box n="4">*i can't sell you this fried snow.</box>
                     <box n="5">*it's got too much sentimental value.</box>
-
-
-
-
                 </sp>
-
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
-
-
                     <box n="1">*LIGHT BLUE - "Ball" is "Small." *You waited, still, for this
                         oppprotunity...</box>
                     <box n="2">*... then dethroned "Ball" with a sharp attack.</box>
                     <box n="3">*(You are awareded 4G.)</box>
-
                     <box n="4">*(This flag has nothing else to offer.)</box>
-
-
-
-
                     <box n="1">*BLUE - Hopping and twirling, your original style pulled you
                         through.</box>
                     <box n="2">*(You are awarded 2G.)</box>
-
                     <box n="3">*(This flag has nothing else to offer.)</box>
-
                     <box n="1">*YELLOW - Your sure-fire accuracy put an end to the mayhem of
                         "Ball."</box>
                     <box n="2">*(You are awarded 3G.)</box>
-
                     <box n="3">*(This flag has nothing else to offer.)</box>
-
-
-
                     <box n="1">*GREEN - Your concern and care for "Ball" led you to a delicious
                         victory.</box>
                     <box n="2">*(You are awarded 1G.)</box>
-
                     <box n="3">*(This flag has nothing else to offer.)</box>
-
-
-
                     <box n="1">*ORANGE - You are the kind of person who rushes fists-first through
                         all obstacles.</box>
                     <box n="2">*(You are awarded 5G.)</box>
-
                     <box n="3">*(This flag has nothing else to offer.)</box>
-
-
-
                     <box n="1">*PURPLE - Even when you felt trapped, you took notes and achieved the
                         end of "Ball."</box>
                     <box n="2">*(You are awarded 2G.)</box>
-
                     <box n="3">*(This flag has nothing else to offer.)</box>
-
-
-
                     <box n="1">*Bravery. Justice. *Integrity. Kindness. *Perseverance.
                         Patience.</box>
                     <box n="2">*Using these, you were able to win at "Ball Game."</box>
                     <box n="3">*(You are awarded 50G.)</box>
-
                     <box n="4">*(This flag has nothing else to offer.)</box>
-
-
                     <box n="1">*RED - Try as you might, you continue to be yourself.</box>
                     <box n="2">*(You are awarded 10G.)</box>
-
                     <box n="3">*(This flag has nothing else to offer.)</box>
-
-
                 </sp>
             </option>
-
         </setting>
         <setting name="DogiStation">
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="1">*(His.)</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="2">*SMELL DANGER RATING</box>
@@ -656,7 +557,6 @@
                     <box n="5">*Weird Smell - Humans GREEN Rating Destroy at all costs!</box>
                 </sp>
             </option>
-
             <choice>
                 <option what="gameNarr">
                     <sp speaker="game" to="you">
@@ -737,7 +637,6 @@
             </option>
         </setting>
         <setting name="SpaghettiRoom">
-
             <option what="gameNarr">
                 <sp speaker="Papyrus" to="you">
                     <box n="1">*It's a note from Papyrus...</box>
@@ -750,24 +649,18 @@
                     <box n="8">NYEH- HEH- HEH, PAPYRUS</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="9">*(It's a plate of frozen spaghetti.)</box>
                     <box n="10">*(It's so cold, it's stuck to the table...</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="11">*(It's an uplugged microwave.)</box>
                     <box n="12">*(All of the settings say "spaghetti.")</box>
                 </sp>
             </option>
-
-
             <option what="gameSave">
                 <sp speaker="determination" to="you">
                     <box n="13">*(Knowing the mouse might one day find a way to heat up the
@@ -776,65 +669,48 @@
                     <box n="15">File saved.</box>
                 </sp>
             </option>
-
         </setting>
         <setting name="DogiArena">
-
             <option what="gameNarr">
                 <sp speaker="sign" to="you">
                     <box n="1">*Warning: Dog Marriage</box>
                     <box n="2">*(Yes, you read that correctly.)</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="3">*...!? *There's a camera hidden inside this tree.</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="4">*There's a switch hidden in the snow. *Click!</box>
                     <box n="5">*The switch is stuck now.</box>
                 </sp>
             </option>
-
             <sp speaker="Dogi" to="Dogi">
                 <box n="7">*What's that smell? *(Where's that smell?)</box>
                 <box n="8">*If you're a smell... *(... identify yoursmellf!)</box>
                 <box n="9">*Hmmm... *Here's that weird smell...</box>
                 <box n="10">*It makes me want to eliminate.</box>
                 <box n="11">*(... Eliminate YOU!)</box>
-
-
-
                 <box n="1">*Dogs can pet other dogs??? *(A new world has opened up for us...)</box>
                 <box n="2">*Thanks, weird puppy!</box>
-
-
                 <box n="1">*Weird smells can bring good things... *(Friendly fun fetch!)</box>
                 <box n="2">Thanks, weird smell! *(It sure was fun to "stick" together!)</box>
-
             </sp>
         </setting>
         <setting name="1stXOPuzzle">
-
             <option what="gameNarr">
                 <sp speaker="sign" to="you">
                     <box n="1">*Turn every X into and O. *Then press the switch.</box>
                 </sp>
             </option>
-
-
             <sp speaker="Papyrus" to="you">
                 <box n="2">WHAT!? HOW DID YOU AVOID MY TRAP?</box>
                 <box n="3">AND, MORE IMPORTANTLY...</box>
                 <box n="4">IS THERE ANY LEFT FOR ME???</box>
                 <box n="5">*(What do you tell Papyrus about his spaghetti?) Ate it Left it</box>
-
                 <box n="1">REALLY!?</box>
                 <box n="2">WOWIE...</box>
                 <box n="3">NO ONE'S EVER ENJOYED MY COOKING BEFORE...</box>
@@ -842,8 +718,6 @@
                 <box n="5">FRET NOT HUMAN! I, MASTER CHEF PAPYRUS...</box>
                 <box n="6">WILL MAKE YOU ALL THE PASTA YOU COULD EVER WANT!</box>
                 <box n="7">HEH HEH HEH HEH HEH HEH NYEH!</box>
-
-
                 <box n="1">REALLY!?</box>
                 <box n="2">WOWIE...</box>
                 <box n="3">YOU RESISTED THE FLAVOR OF MY HOMECOOKED PASTA..</box>
@@ -851,12 +725,9 @@
                 <box n="5">FRET NOT HUMAN! I, MASTER CHEF PAPYRUS...</box>
                 <box n="6">WILL MAKE YOU ALL THE PASTA YOU COULD EVER WANT!</box>
                 <box n="7">HEH HEH HEH HEH HEH HEH NYEH!</box>
-
             </sp>
-
         </setting>
         <setting name="2ndXOPuzzle">
-
             <option what="gameNarr">
                 <sp speaker="Papyrus" to="you">
                     <box n="1">MY BROTHER STARTED A SOCK COLLECTION RECENTLY.</box>
@@ -866,7 +737,6 @@
                     <box n="5">NYEH HEH HEH!</box>
                 </sp>
             </option>
-
             <sp speaker="Papyrus" to="you">
                 <box n="1">HUMAN!</box>
                 <box n="2">HMMM... HOW DO I SAY THIS...</box>
@@ -882,7 +752,6 @@
                 <box n="12">THEN WE CAN BOTH PROCEED!</box>
                 <box n="13">MEANWHILE, FEEL FREE TO TRY THE PUZZLE YOURSELF!</box>
                 <box n="14">I'LL TRY NOT TO GIVE AWAY THE ANSWER!!!</box>
-
                 <box n="1">SO, YOU WANT A HINT, HUH?</box>
                 <box n="2">WELL... I'VE BEEN LOOKING AT THE PUZZLE...</box>
                 <box n="3">AND I THINK THE SOLUTION...</box>
@@ -896,43 +765,29 @@
                 <box n="11">YOU SEEM LIKE YOU'RE HAVING FUN, THOUGH...</box>
                 <box n="12">DO YOU ABSOLUTELY DAPSOLUTELY WANT THE SOLUTION???</box>
                 <box n="1">*(Do you absolutely dapsolutely want the answer?) Yes No</box>
-
-
                 <box n="2">WOW... YOU'RE TRULY A PUZZLE PASSIONEER!</box>
                 <box n="3">I'M SO ENTHUSED BY YOUR ENTHUSIASM!!!</box>
                 <box n="4">YOU CAN DO IT, HUMAN!!!</box>
-
                 <box n="2">THE! SOLUTION! IS!</box>
                 <box n="3">(PLEASE IMAGINE A DRUMROLL IN YOUR HEAD)</box>
                 <box n="4">...THAT THE TREE OVER THERE HAS A SWITCH ON IT!</box>
                 <box n="5">CHECK IT OUTIE!!!</box>
-
-
                 <box n="1">WOW!!! YOU SOLVED IT!!</box>
                 <box n="2">AND YOU DID IT ALL WITHOUT MY HELP...</box>
-
                 <box n="1">MY ADVICE HELPED! IT REALLY HELPED YOU!!</box>
-
-
                 <box n="1">INCREDIBLE! I'M IMPRESSED!!</box>
                 <box n="2">YOU MUST CARE ABOUT PUZZLES LIKE I DO!</box>
                 <box n="3">WELL, I"M SURE YOU'LL LOVE THE NEXT PUZZLE THEN!</box>
                 <box n="4">IT MIGHT EVEN BE TOO EASY FOR YOU!!</box>
                 <box n="5">NYEH! HEH HEH! HEHEHEH!!!</box>
-
             </sp>
-
             <option what="gameNarr">
                 <sp speaker="Sans" to="you">
-
                     <box n="1">*good job on solving it so quickly.</box>
                     <box n="2">*you didn't even need my help.</box>
                     <box n="3">*which is great, 'cause i love doing absolutely nothing.</box>
-
-
                     <box n="1">*hey, why didn't you ask for help?</box>
-                    <box n="2">*i was right her.</box>
-
+                    <box n="2">*i was right here.</box>
                     <box n="1">*... you must be really good at puzzles, huh?</box>
                     <box n="2">*i mean.</box>
                     <box n="3">*it's impossible for you to have seen this one before.</box>
