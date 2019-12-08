@@ -229,7 +229,7 @@ speaker =
     }
 to = attribute to { text }
 # ebb: REFINE THIS with specific values.
-choice = element choice { (option | box | text)* }
+choice = element choice { (option | box | sp | text)* }
 option = element option { what, (sp | box | choice | pathChange)* }
 pathChange = element pathChange { (fromRt | toRt), sp* }
 fromRt = attribute fromRt { "pacifist" | "genocide" }
