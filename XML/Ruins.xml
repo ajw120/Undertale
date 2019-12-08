@@ -821,72 +821,71 @@
             </choice>
         </setting>
         <setting name="TorielsRoom">
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="1">*Just a regular old bucket of snails.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="2">*(Toriel's small chair. *(Its name is Chairel.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="3">*It's TORIEL's diary. *Read the circled passage? Yes No</box>
 
-                        <box n="4">*You read the passage...</box>
-                        <box n="5">*"Why did the skeleton want a friend?"</box>
-                        <box n="6">*"Because she was feeling BONELY..."></box>
-                        <box n="7">*The rest of the page is filled with jokes of a similar
-                            caliber.</box>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="1">*Just a regular old bucket of snails.</box>
+                </sp>
+            </option>
 
-                    </sp>
-                </option>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="8">*(Definitely bigger than a twin-sized bed.)</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="9">*It's an encyclopedia of subterranean plants. YOu opend to the
-                            middle...</box>
-                        <box n="10">*"Typha" - A group of wetland flowering plants with brown,
-                            oblong seedpods.</box>
-                        <box n="11">*Known more commonly as "water sausages."</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="12">*You peek inside... *Scandalous!</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="13">*It's TORIEL's sock drawer.</box>
-                        <box n="14">*You can't stop looking at the socks.</box>
-                    </sp>
-                </option>
-            </choice>
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="15">*Ah, the cactus. *Truly the most tsundere of plants.</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="2">*(Toriel's small chair. *(Its name is Chairel.)</box>
+                </sp>
+            </option>
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="3">*It's TORIEL's diary. *Read the circled passage? Yes No</box>
+
+                    <box n="4">*You read the passage...</box>
+                    <box n="5">*"Why did the skeleton want a friend?"</box>
+                    <box n="6">*"Because she was feeling BONELY..."></box>
+                    <box n="7">*The rest of the page is filled with jokes of a similar
+                        caliber.</box>
+
+                </sp>
+            </option>
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="8">*(Definitely bigger than a twin-sized bed.)</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="9">*It's an encyclopedia of subterranean plants. YOu opend to the
+                        middle...</box>
+                    <box n="10">*"Typha" - A group of wetland flowering plants with brown, oblong
+                        seedpods.</box>
+                    <box n="11">*Known more commonly as "water sausages."</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="12">*You peek inside... *Scandalous!</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="13">*It's TORIEL's sock drawer.</box>
+                    <box n="14">*You can't stop looking at the socks.</box>
+                </sp>
+            </option>
+
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="15">*Ah, the cactus. *Truly the most tsundere of plants.</box>
+                </sp>
+            </option>
+
         </setting>
         <setting name="AsrielsRoom">
 
@@ -903,13 +902,13 @@
                 </sp>
             </option>
 
-            <choice>
-                <option what="gameNarr">
-                    <sp speaker="game" to="you">
-                        <box n="3">*(A box of kids' shoes in a disparity of sizes.)</box>
-                    </sp>
-                </option>
-            </choice>
+
+            <option what="gameNarr">
+                <sp speaker="game" to="you">
+                    <box n="3">*(A box of kids' shoes in a disparity of sizes.)</box>
+                </sp>
+            </option>
+
 
 
             <option what="gameNarr">
@@ -975,39 +974,37 @@
 
         </setting>
         <setting name="TorielBossRoom">
-            <sp speaker="Toriel" to="you">
-                <box n="1">*You want to leave so badly?</box>
-                <box n="2">*Hmph.</box>
-                <box n="3">*You are just like the others.</box>
-                <box n="4">*There is only one solution to this.</box>
-                <box n="5">*Prove yourself...</box>
-                <box n="6">*Prove to me you are strong enough to survive.</box>
+            <battle name="TorielFight">
+                <sp speaker="Toriel" to="you">
+                    <box n="1">*You want to leave so badly?</box>
+                    <box n="2">*Hmph.</box>
+                    <box n="3">*You are just like the others.</box>
+                    <box n="4">*There is only one solution to this.</box>
+                    <box n="5">*Prove yourself...</box>
+                    <box n="6">*Prove to me you are strong enough to survive.</box>
+                    <box n="1">*That is right.</box>
+                    <box n="2">*Go upstairs.</box>
+                    <box n="1">*Already?</box>
+                    <box n="2">*What will it take for you to learn your lesson?</box>
 
-                <box n="1">*That is right.</box>
-                <box n="2">*Go upstairs.</box>
-
-
-                <box n="1">*Already?</box>
-                <box n="2">*What will it take for you to learn your lesson?</box>
-
-                <conditions spared="Toriel">
-                    <box n="1">*If you truly wish to leave the RUINS...</box>
-                    <box n="2">*I will not stop you.</box>
-                    <box n="3">*However, when you leave...</box>
-                    <box n="4">*Please do not come back.</box>
-                    <box n="5">*I hope you understand.</box>
-                    <box n="7">*Goodbye, my child.</box>
-                </conditions>
-
-                <box n="1">*There is only one solution to this.</box>
-                <box n="2">*Prove to me you are strong enough to survive!</box>
-                <box n="3">*... wait.</box>
-                <box n="4">*... why are you looking at me like that?</box>
-                <box n="5">*Like you have seen a ghost.</box>
-                <box n="6">Do you know something that I do not?</box>
-                <box n="7">*No... *That is impossible.</box>
-
-            </sp>
+                    <choice><option what="spare">
+                            <pathChange fromRt="genocide" toRt="neutral"/>
+                            <box n="1">*If you truly wish to leave the RUINS...</box>
+                            <box n="2">*I will not stop you.</box>
+                            <box n="3">*However, when you leave...</box>
+                            <box n="4">*Please do not come back.</box>
+                            <box n="5">*I hope you understand.</box>
+                            <box n="7">*Goodbye, my child.</box>
+                        </option></choice>
+                    <box n="1">*There is only one solution to this.</box>
+                    <box n="2">*Prove to me you are strong enough to survive!</box>
+                    <box n="3">*... wait.</box>
+                    <box n="4">*... why are you looking at me like that?</box>
+                    <box n="5">*Like you have seen a ghost.</box>
+                    <box n="6">Do you know something that I do not?</box>
+                    <box n="7">*No... *That is impossible.</box>
+                </sp>
+            </battle>
         </setting>
         <setting name="FloweyExitHall">
             <conditions spared="Toriel">
