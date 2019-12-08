@@ -7,8 +7,8 @@ body {
 }
 body {
     background: black;
-    height: 100vh;
-    width: 98vw;
+   /* height: 100vh;
+    width: 98vw;*/
     font-family: undertale, arial, helvetica, sans-serif;
     color: #FFFFFF;
     overflow-x: hidden;
@@ -143,8 +143,9 @@ body {
     width: auto
 }
 span.Sans{
-    font-family:Comic Sans MS
+    font-family:'Comic Sans MS'
 }
 span.Papyrus{
     font-family:papyrus
 }
+div#undergroundMap{width:90%;}
