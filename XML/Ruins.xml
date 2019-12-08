@@ -70,7 +70,7 @@
         <setting name="RuinsEntrance">
             <choice>
                 <option what="gameSave">
-                    <sp speaker="determination game" to="you">
+                    <sp speaker="determination" to="you">
                         <box n="1">*(The shadow of the ruins looms above, filling you with
                             determination.)</box>
                     </sp>
@@ -290,7 +290,7 @@
 
         </setting>
         <setting name="1stRockPuzzle">
-            <sp speaker="cellPhone Toriel" to="you">
+            <sp speaker="cellPhone" to="you">
                 <box n="1">*Ring...</box>
                 <box n="2">*Hello? *This is TORIEL.</box>
                 <box n="3">*For no reason in particular... *Which do you prefer?</box>
@@ -318,7 +318,7 @@
                     </sp>
                 </option>
             </choice>
-            <sp speaker="cellPhone Toriel" to="you">
+            <sp speaker="cellPhone" to="you">
                 <box n="1">*Ring...</box>
                 <box n="2">*Hello?</box>
                 <box n="3">*You do not have any allergies, do you ?</box>
@@ -495,7 +495,7 @@
                 </sp>
             </option>
 
-            <sp speaker="cellPhone Toriel" to="you">
+            <sp speaker="cellPhone" to="you">
                 <box n="15">*Ring...</box>
                 <box n="16">*Hello?</box>
                 <box n="17">*I just realized that it has been a while since I have cleaned up.</box>
