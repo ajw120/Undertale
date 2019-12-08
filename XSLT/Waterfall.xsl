@@ -101,4 +101,16 @@
         </span>
         <xsl:apply-templates></xsl:apply-templates>
     </xsl:template>
+    <xsl:template match="descendant::conditions[@timesPlayed]">
+        <br></br><br></br><span class="timesPlayed">
+            <b>Times Played: <xsl:value-of select="@timesPlayed"/></b>
+        </span>
+        <xsl:apply-templates></xsl:apply-templates>
+    </xsl:template>
+    <xsl:template match="descendant::conditions[@pastRoute]">
+        <br></br><br></br><span class="pastRoute">
+            <b>Past Route: <xsl:value-of select="@pastRoute"/></b>
+        </span>
+        <xsl:apply-templates></xsl:apply-templates>
+    </xsl:template>
 </xsl:stylesheet>
