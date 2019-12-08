@@ -169,6 +169,7 @@ name =
         | "core"
         | "newHome"
         | "hotland"
+        | "TorielFight"
     }
 # 2019-11-07 ebb: We'll need Schematron to control which names are allowed on which specific elements.
 sp = element sp { speaker, to, (box | choice | conditions)* }
@@ -261,7 +262,7 @@ holding = attribute holding { text }
 killed = attribute killed { text }
 spared = attribute spared { text }
 fought = attribute fought { text }
-box = element box { n, (speaker | to)*, text }
+box = element box { n, (speaker | to | option)*, text }
 # ebb: We need Schematron to refine this.
 # ebb: REFINE THIS with specific values.
 # ebb: REFINE THIS with specific values.
