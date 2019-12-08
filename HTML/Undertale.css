@@ -102,7 +102,7 @@ body {
 }
 @font-face {
     font-family: undertale;
-    src: url(MonsterFriendFore.otf);
+    src: url(fonts/MonsterFriendFore.otf);
 }
 .content{
     display: flex;
