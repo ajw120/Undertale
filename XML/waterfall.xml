@@ -39,22 +39,22 @@
                     before?</box>
                 <box n="12" speaker="Sans" to="you">*fortunately, two jobs means twice as many
                     legally-required breaks.</box>
-                <box n="13" speaker="Sans" to="you">*i'm going to grillby's. *wanna come?
-                        Yeah I'm busy</box>
-                
-                   
-                      
-                            <box n="15" speaker="Sans" to="you">*well, if you insist... *i'll pry
-                                myself away from my work.</box>
-                        
-                    
-               
-                     
-                            <box n="16" speaker="Sans" to="you">*Ok. havefun. </box>
-                        
-                        <box n="17" speaker="Sans" to="you">*over here. *i know a shortcut</box>
-                    
-                
+                <box n="13" speaker="Sans" to="you">*i'm going to grillby's. *wanna come? Yeah I'm
+                    busy</box>
+
+
+
+                <box n="15" speaker="Sans" to="you">*well, if you insist... *i'll pry myself away
+                    from my work.</box>
+
+
+
+
+                <box n="16" speaker="Sans" to="you">*Ok. havefun. </box>
+
+                <box n="17" speaker="Sans" to="you">*over here. *i know a shortcut</box>
+
+
             </sp>
 
         </setting>
@@ -63,10 +63,10 @@
                 <option what="gameNarr">
                     <sp speaker="sign" to="you">
                         <box n="1" speaker="sign" to="you"> *(This is a box.) </box>
-                        <box n="2" speaker="sign" to="you"> *(You can put an item in or take a
-                            item out.) </box>
-                        <box n="3" speaker="sign" to="you"> *(Why would you, though???) *(You
-                            can't use items when they're in the box!) </box>
+                        <box n="2" speaker="sign" to="you"> *(You can put an item in or take a item
+                            out.) </box>
+                        <box n="3" speaker="sign" to="you"> *(Why would you, though???) *(You can't
+                            use items when they're in the box!) </box>
                         <box n="4" speaker="sign" to="you"> *(Sincerely, a box hater.) </box>
                     </sp>
                 </option>
@@ -74,8 +74,7 @@
             <choice>
                 <option what="gameNarr">
                     <sp speaker="game" to="you">
-                        <box n="5" speaker="game" to="you">*Use the box? Yes
-                            No</box>
+                        <box n="5" speaker="game" to="you">*Use the box? Yes No</box>
                     </sp>
                     <sp speaker="EchoFlower" to="you">
                         <box n="6" speaker="EchoFlower" to="you">*I swore I saw something... *Behind
@@ -89,58 +88,62 @@
                 <box n="1" speaker="game" to="you">*(There's a tutu lying on the ground here.) </box>
                 <choice>
                     <box n="2" speaker="game" to="you"> *(Will you take it?) </box>
-                    <option what="gameNarr"><box n="1">Take it.</box> <box n="3" speaker="game" to="you">*(You got the
-                            Old Tutu.)</box></option>
-                    <option what="gameNarr"><box n="1">Leave it.</box></option>
+                    <option what="gameNarr">
+                        <box n="1">Take it.</box>
+                        <box n="3" speaker="game" to="you">*(You got the Old Tutu.)</box>
+                    </option>
+                    <option what="gameNarr">
+                        <box n="1">Leave it.</box>
+                    </option>
                 </choice>
             </sp>
         </setting>
         <setting name="FallingRocks">
-           
-                <sp speaker="Papyrus" to="you">
-                    <box n="1" speaker="Papyrus" to="Undyne">H... HI, UNDYNE! I'M HERE WITH MY DAILY
-                        REPORT...</box>
-                    <box n="2" speaker="Papyrus" to="Undyne">UHHH... REGARDING THAT HUMAN I CALLED
-                        YOU ABOUT EARLIER...</box>
-                    <box n="3" speaker="Papyrus" to="Undyne">... HUH? DID I FIGHT THEM?</box>
-                    <box n="4" speaker="Papyrus" to="Undyne"> Y-YES! OF COURSE I DID!</box>
-                    <box n="5" speaker="Papyrus" to="Undyne">I FOUGHT THEM VALIANTLY!</box>
-                    <box n="6" speaker="Papyrus" to="Undyne">...WHAT? DID I CAPTURE THEM...?</box>
-                    <box n="7" speaker="Papyrus" to="Undyne">W- W- WELL...</box>
-                    <box n="8" speaker="Papyrus" to="Undyne">NO.</box>
-                    <box n="9" speaker="Papyrus" to="Undyne">I TRIED VERY HARD, UNDYNE, BUT IN THE
-                        END...</box>
-                    <box n="10" speaker="Papyrus" to="Undyne">I FAILED.</box>
-                    <box n="11" speaker="Papyrus" to="Undyne">... W-WHAT?</box>
-                    <box n="12" speaker="Papyrus" to="Undyne">YOU'RE GOING TO TAKE THE HUMAN'S SOUL
-                        YOURSELF...</box>
-                    <box n="13" speaker="Papyrus" to="Undyne">BUT UNDYNE, YOU DON'T H- HAVE TO
-                        DESTROY THEM! YOU SEE...</box>
-                    <box n="14" speaker="Papyrus" to="Undyne">YOU SEE...></box>
-                    <box n="15" speaker="Papyrus" to="Undyne">...</box>
-                    <box n="16" speaker="Papyrus" to="Undyne">... I UNDERSTAND.</box>
-                    <box n="17" speaker="Papyrus" to="Undyne">I'LL HELP YOU IN ANY WAY I CAN.</box>
-                </sp>
-                <sp speaker="MonsterKid" to="you">
-                    <box n="21" speaker="MonsterKid" to="You">*Yo... did you see the way she was
-                        staring at you...?</box>
-                    <box n="22" speaker="MonsterKid" to="You">*That...</box>
-                    <box n="23" speaker="MonsterKid" to="You">*... was AWESOME!</box>
-                    <box n="24" speaker="MonsterKid" to="You">*I'm SOOOO jealous!</box>
-                    <box n="25" speaker="MonsterKid" to="You">*What'd you do to get her
-                        attention...? *Ha ha.</box>
-                    <box n="26" speaker="MonsterKid" to="You">*C'mon! *Let's go watch her beat up
-                        some bad guys!</box>
-                </sp>
-                <choice>
-                    <option what="gameSave">
-                        <sp speaker="determination" to="you">
-                            <box n="27" speaker="determination" to="You">*(A feeling of dread hangs
-                                over you...) *(But you stay determined.)</box>
-                        </sp>
-                    </option>
-                </choice>
-            
+
+            <sp speaker="Papyrus" to="you">
+                <box n="1" speaker="Papyrus" to="Undyne">H... HI, UNDYNE! I'M HERE WITH MY DAILY
+                    REPORT...</box>
+                <box n="2" speaker="Papyrus" to="Undyne">UHHH... REGARDING THAT HUMAN I CALLED YOU
+                    ABOUT EARLIER...</box>
+                <box n="3" speaker="Papyrus" to="Undyne">... HUH? DID I FIGHT THEM?</box>
+                <box n="4" speaker="Papyrus" to="Undyne"> Y-YES! OF COURSE I DID!</box>
+                <box n="5" speaker="Papyrus" to="Undyne">I FOUGHT THEM VALIANTLY!</box>
+                <box n="6" speaker="Papyrus" to="Undyne">...WHAT? DID I CAPTURE THEM...?</box>
+                <box n="7" speaker="Papyrus" to="Undyne">W- W- WELL...</box>
+                <box n="8" speaker="Papyrus" to="Undyne">NO.</box>
+                <box n="9" speaker="Papyrus" to="Undyne">I TRIED VERY HARD, UNDYNE, BUT IN THE
+                    END...</box>
+                <box n="10" speaker="Papyrus" to="Undyne">I FAILED.</box>
+                <box n="11" speaker="Papyrus" to="Undyne">... W-WHAT?</box>
+                <box n="12" speaker="Papyrus" to="Undyne">YOU'RE GOING TO TAKE THE HUMAN'S SOUL
+                    YOURSELF...</box>
+                <box n="13" speaker="Papyrus" to="Undyne">BUT UNDYNE, YOU DON'T H- HAVE TO DESTROY
+                    THEM! YOU SEE...</box>
+                <box n="14" speaker="Papyrus" to="Undyne">YOU SEE...></box>
+                <box n="15" speaker="Papyrus" to="Undyne">...</box>
+                <box n="16" speaker="Papyrus" to="Undyne">... I UNDERSTAND.</box>
+                <box n="17" speaker="Papyrus" to="Undyne">I'LL HELP YOU IN ANY WAY I CAN.</box>
+            </sp>
+            <sp speaker="MonsterKid" to="you">
+                <box n="21" speaker="MonsterKid" to="You">*Yo... did you see the way she was staring
+                    at you...?</box>
+                <box n="22" speaker="MonsterKid" to="You">*That...</box>
+                <box n="23" speaker="MonsterKid" to="You">*... was AWESOME!</box>
+                <box n="24" speaker="MonsterKid" to="You">*I'm SOOOO jealous!</box>
+                <box n="25" speaker="MonsterKid" to="You">*What'd you do to get her attention...?
+                    *Ha ha.</box>
+                <box n="26" speaker="MonsterKid" to="You">*C'mon! *Let's go watch her beat up some
+                    bad guys!</box>
+            </sp>
+            <choice>
+                <option what="gameSave">
+                    <sp speaker="determination" to="you">
+                        <box n="27" speaker="determination" to="You">*(A feeling of dread hangs over
+                            you...) *(But you stay determined.)</box>
+                    </sp>
+                </option>
+            </choice>
+
         </setting>
         <setting name="1stBridgeSeedRoom">
             <choice>
@@ -156,8 +159,8 @@
             <choice>
                 <option what="gameNarr">
                     <sp speaker="sign" to="you">
-                        <box n="1" speaker="sign" to="you">*If an error is made, the Bell
-                            Blossom can call Bridge Seeds back to where they started.</box>
+                        <box n="1" speaker="sign" to="you">*If an error is made, the Bell Blossom
+                            can call Bridge Seeds back to where they started.</box>
                     </sp>
                 </option>
             </choice>
@@ -185,24 +188,23 @@
                     <box n="2" speaker="Papyrus" to="you">IS THAT TRUE? ARE YOU WEARING A GROSS
                         BANDAGE?</box>
                     <box n="1" speaker="game" to="you">*(What will you say?) *Yes No</box>
-                    
-                       
-                            <box n="2" speaker="Papyrus" to="you">SO YOU ARE WEARING A GROSS
-                                BANDAGE</box>
-                            <box n="3" speaker="Papyrus" to="you">GOT IT!!! WINK WINK!!!</box>
-                            <box n="4" speaker="Papyrus" to="you">HAVE A NICE DAY!</box>
-                            <box n="5" speaker="cellPhone" to="you">Click...</box>
-                        
-                     
-                            <box n="2" speaker="Papyrus" to="you">SO YOU AREN'T WEARING A GROSS
-                                BANDAGE...</box>
-                            <box n="3" speaker="Papyrus" to="you">GOT IT!</box>
-                            <box n="4" speaker="Papyrus" to="you">YOU'RE MY FRIEND, SO I TRUST YOU
-                                100-PERCENT</box>
-                            <box n="5" speaker="Papyrus" to="you">HAVE A NICE DAY!</box>
-                            <box n="6" speaker="cellPhone" to="you">Click...</box>
-                        
-                    
+
+
+                    <box n="2" speaker="Papyrus" to="you">SO YOU ARE WEARING A GROSS BANDAGE</box>
+                    <box n="3" speaker="Papyrus" to="you">GOT IT!!! WINK WINK!!!</box>
+                    <box n="4" speaker="Papyrus" to="you">HAVE A NICE DAY!</box>
+                    <box n="5" speaker="cellPhone" to="you">Click...</box>
+
+
+                    <box n="2" speaker="Papyrus" to="you">SO YOU AREN'T WEARING A GROSS
+                        BANDAGE...</box>
+                    <box n="3" speaker="Papyrus" to="you">GOT IT!</box>
+                    <box n="4" speaker="Papyrus" to="you">YOU'RE MY FRIEND, SO I TRUST YOU
+                        100-PERCENT</box>
+                    <box n="5" speaker="Papyrus" to="you">HAVE A NICE DAY!</box>
+                    <box n="6" speaker="cellPhone" to="you">Click...</box>
+
+
                 </conditions>
                 <conditions equipped="Ribbon">
                     <box n="1" speaker="Papyrus" to="you">SHE THOUGHT SHE SAW YOU WEARING A FADED
@@ -284,17 +286,17 @@
         <setting name="QuicheRoom">
             <choice>
                 <option what="gameNarr">
-                    <sp speaker="bench">
+                    <sp speaker="bench" to="you">
                         <box n="1" speaker="game" to="you">*(There's a long quiche sitting
                             underneath this bench.)</box>
                         <box n="2" speaker="game" to="you">*(Will you take it?) *Take it Leave
                             it</box>
                         <choice>
-                            <option what="LeaveIt">
+                            <option what="gameNarr">
                                 <box n="3" speaker="game" to="you">*(The quiche was left all
                                     alone...)</box>
                             </option>
-                            <option what="TakeIt">
+                            <option what="gameNarr">
                                 <box n="5" speaker="game" to="you">*(You got the Abandoned
                                     Quiche.)</box>
                             </option>
@@ -302,7 +304,7 @@
                     </sp>
                 </option>
             </choice>
-            <sp speaker="bench">
+            <sp speaker="bench" to="you">
                 <conditions taken="quiche"/>
                 <choice>
                     <option what="gameNarr">
@@ -321,8 +323,8 @@
         </setting>
         <setting name="WishingRoom">
             <choice>
-                <option what="what">
-                    <sp speaker="EchoFlower">
+                <option what="gameNarr">
+                    <sp speaker="EchoFlower" to="you">
                         <box n="1" speaker="EchoFlower" to="you">*A long time ago, monsters would
                             whisper their wishes o the stars in the sky.</box>
                         <box n="2" speaker="EchoFlower" to="you">*If you hoped with all your heart,
@@ -334,14 +336,14 @@
             </choice>
             <choice>
                 <option what="gameNarr">
-                    <sp speaker="sign">
+                    <sp speaker="sign" to="you">
                         <box n="4" speaker="sign" to="you">* WISHING ROOM</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="gameNarr">
-                    <sp speaker="echoflower">
+                    <sp speaker="EchoFlower" to="you">
                         <box n="5" speaker="EchoFlower" to="you">*Thousands of people wishing
                             together can't be wrong!</box>
                         <box n="6" speaker="EchoFlower" to="you">*The king will prove that.</box>
@@ -350,14 +352,14 @@
             </choice>
             <choice>
                 <option what="gameNarr">
-                    <sp speaker="echoflower">
+                    <sp speaker="EchoFlower" to="you">
                         <box n="7">*C'mon, sis! *Make a wish!</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="gameNarr">
-                    <sp speaker="EchoFlower">
+                    <sp speaker="EchoFlower" to="you">
                         <box n="8" speaker="EchoFlower" to="you">*I wish my sister and I will see
                             the real stars someday...</box>
                     </sp>
@@ -365,22 +367,22 @@
             </choice>
             <choice>
                 <option what="gameNarr">
-                    <sp speaker="telescope">
+                    <sp speaker="telescope" to="you">
                         <box n="9" speaker="game" to="you">*(Look through the telescope?) *Yes
                             No</box>
                     </sp>
                 </option>
             </choice>
             <choice>
-                <option what="Yes">
-                    <sp speaker="telescope">
+                <option what="gameNarr">
+                    <sp speaker="telescope" to="you">
                         <box n="10">CHECK WALL</box>
                     </sp>
                 </option>
             </choice>
             <choice>
                 <option what="gameNarr">
-                    <sp speaker="echoflower">
+                    <sp speaker="EchoFlower" to="you">
                         <box n="11" speaker="EchoFlower" to="you">*Ah... seems my horoscope is the
                             same as last week's...</box>
                     </sp>
@@ -390,7 +392,7 @@
         <setting name="HistoryPlaque">
             <choice>
                 <option what="gameNarr">
-                    <sp speaker="sign">
+                    <sp speaker="sign" to="you">
                         <box n="1" speaker="sign" to="you">*(Ancient writing covers the walls... you
                             can just make out the words.)</box>
                         <box n="2" speaker="sign" to="you">*"The War of Humans and Monsters."</box>
@@ -399,7 +401,7 @@
             </choice>
             <choice>
                 <option what="gameNarr">
-                    <sp speaker="sign">
+                    <sp speaker="sign" to="you">
                         <box n="3" speaker="sign" to="you">*Why did the humans attack?*Indeed, it
                             seemed that they had nothing to fear.</box>
                         <box n="4" speaker="sign" to="you">*Humans are unbelievably strong. *It
@@ -411,7 +413,7 @@
             </choice>
             <choice>
                 <option what="gameNarr">
-                    <sp speaker="sign">
+                    <sp speaker="sign" to="you">
                         <box n="6" speaker="sign" to="you">*But humans have one weakness.
                             *Ironically, it is the strength of their SOUL.</box>
                         <box n="7" speaker="sign" to="you">*Its power allows it to persist outside
@@ -421,7 +423,7 @@
             </choice>
             <choice>
                 <option what="gameNarr">
-                    <sp speaker="sign">
+                    <sp speaker="sign" to="you">
                         <box n="8" speaker="sign" to="you">*If a monster defeats a human, they can
                             take its SOUL.</box>
                         <box n="9" speaker="sign" to="you">*A monster with a human SOUL... *A
@@ -431,7 +433,7 @@
             </choice>
             <choice>
                 <option what="gameNarr">
-                    <sp speaker="sign">
+                    <sp speaker="sign" to="you">
                         <box n="10" speaker="game" to="you">*(It's an illustration of a strange
                             creature...)</box>
                         <box n="11" speaker="game" to="you">*(There's something very unsettling
@@ -443,18 +445,18 @@
         <setting name="SeaWeedHidingSpot">
             <choice>
                 <option what="gameNarr">
-                    <sp speaker="ferry">
+                    <sp speaker="ferry" to="you">
                         <box n="1" speaker="ferry" to="you">*Three gold for the ferry *Yes No</box>
                         <choice>
-                            <option what="No">
+                            <option what="gameNarr">
                                 <box n="2">* Later, then.</box>
                             </option>
-                            <option what="Yes">
+                            <option what="gameNarr">
                                 <box n="4">*Hop on!</box>
                             </option>
                         </choice>
                     </sp>
-                    <sp speaker="ferry">
+                    <sp speaker="ferry" to="you">
                         <conditions killed="Undyne" ferry="disembarked">
                             <box n="1" speaker="ferry" to="you">*Thanks for stepping on my face. *
                                 Here's the 3 gold.</box>
@@ -463,7 +465,7 @@
                     </sp>
                 </option>
             </choice>
-            <sp speaker="MonsterKid">
+            <sp speaker="MonsterKid" to="you">
                 <box n="1" speaker="MonsterKid" to="you">*Yo... did you see that!?</box>
                 <box n="2" speaker="MonsterKid" to="you">*Undyne just...</box>
                 <box n="3" speaker="MonsterKid" to="you">*... TOUCHED ME!</box>
@@ -482,7 +484,7 @@
                     <box n="10" speaker="MonsterKid" to="you">*Yo! *There's always next time, right?
                         Let's go!</box>
                 </conditions>
-                <conditions spearsdodged="notenough">
+                <conditions spearsdodged="notEnough">
                     <box n="7" speaker="MonsterKid" to="you">*Yo, don't worry! *I'm sure we'll see
                         her again!</box>
                 </conditions>
@@ -490,7 +492,7 @@
             <conditions holding="umbrella">
                 <choice>
                     <option what="gameNarr">
-                        <sp speaker="ferry">
+                        <sp speaker="ferry" to="you">
                             <box n="1" speaker="ferry" to="you">*Ahhh... *No umbrellas
                                 allowed!</box>
                         </sp>
@@ -499,15 +501,15 @@
             </conditions>
             <choice>
                 <option what="gameNarr">
-                    <sp speaker="ferry">
+                    <sp speaker="ferry" to="you">
                         <box n="1" speaker="ferry" to="you"> *Three gold for the ferry. *Yes No
                         </box>
                     </sp>
                     <choice>
-                        <option what="No">
+                        <option what="gameNarr">
                             <box n="3" speaker="ferry" to="you">*Later, then.</box>
                         </option>
-                        <option what="Yes">
+                        <option what="gameNarr">
                             <box n="4" speaker="ferry" to="you">* Hop on!</box>
                             <box n="1" speaker="ferry" to="you"> *Thanks for stepping on my face.
                                 *Here's the 3 gold. </box>
@@ -521,7 +523,7 @@
         <setting name="MouseRoom">
             <choice>
                 <option what="gameNarr">
-                    <sp speaker="cheese">
+                    <sp speaker="cheese" to="you">
                         <box n="1" speaker="game" to="you">*This cheese has been here so long, a
                             magical crystal has rown around it.</box>
                         <box n="2" speaker="game" to="you">*It's stuck to the table...</box>
@@ -530,14 +532,14 @@
             </choice>
             <choice>
                 <option what="gameNarr">
-                    <sp speaker="EchoFlower">
+                    <sp speaker="EchoFlower" to="you">
                         <box n="3" speaker="EchoFlower" to="you">*Squeak.</box>
                     </sp>
                 </option>
             </choice>
             <choice>
-                <option what="saveGame">
-                    <sp speaker="determination">
+                <option what="gameSave">
+                    <sp speaker="determination" to="you">
                         <box n="4" speaker="determination" to="you">*(Knowing the mouse might one
                             day extract the cheese from the mystical crystal...) </box>
                         <box n="5" speaker="determination" to="you">*(It fills you with
@@ -549,7 +551,7 @@
         <setting name="SansTelescopeRoom">
             <choice>
                 <option what="gameNarr">
-                    <sp speaker="telescope">
+                    <sp speaker="telescope" to="you">
                         <box n="1" speaker="game" to="you">*(It's an odd-looking telescope.)</box>
                     </sp>
                 </option>
@@ -582,15 +584,15 @@
                 </option>
             </choice>
             <choice>
-                <option what="gameNarr"><box n="14" speaker="game" to="you"/>*Use the box? Yes
-                    No</option>
+                <option what="gameNarr"><box n="14" speaker="game" to="you"/><box n="1">*Use the box? Yes
+                    No</box></option>
                 <!-- not sure of the character involved with the next 9 pages-->
             </choice>
         </setting>
 
         <setting name="UndyneHouse">
             <path route="neutral">
-                <sp speaker="Papyrus">
+                <sp speaker="Papyrus" to="you">
                     <conditions killed="Undyne">
                         <box n="1">HEY! READY TO HANG OUT WITH UNDYNE???</box>
                         <box n="2">GREAT!!! ME TOO!!!</box>
@@ -604,15 +606,15 @@
             </path>
         </setting>
         <setting name="SnailFarm">
-            <sp speaker="Napstablook">
+            <sp speaker="Napstablook" to="you">
                 <box n="1">hm... i should probably try to make friends with my neighbors</box>
                 <box n="2">she's kind of scary,but i feel like i'm always too late to make
                     friends...</box>
                 <box n="3">i should at least try...</box>
             </sp>
         </setting>
-        <setting name="Napstablookhouse">
-            <sp speaker="Napstablook">
+        <setting name="NapstablookHouse">
+            <sp speaker="Napstablook" to="you">
                 <box n="1">I've almost got a mix cd finished for my scary neighbor...</box>
                 <box n="2">it's 74 minutes of people screaming their signature wrestling moves</box>
                 <box n="3">but they're all autotuned. i hope she likes it</box>
