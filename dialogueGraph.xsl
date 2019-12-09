@@ -11,10 +11,7 @@
 
             <g transform="translate(300, 1900)">
 
-                <line x1="0" y1="0" x2="0" y2="{-37 * $Y-Spacer}" stroke-width="3" stroke="blue"/>
-
-                <line x1="0" y1="0" x2="{110 * $X-Stretcher}" y2="0" stroke-width="3"
-                    stroke="maroon"/>
+               
                 <text x="0" y="15" font-size="20" font-family="papyrus" stroke="white">0</text>
                 <text x="80" y="15" font-size="20" font-family="papyrus" stroke="white">10</text>
                 <line x1="89" x2="89" y1="0" y2="-10" stroke-width="3" stroke="white"/>
@@ -40,7 +37,7 @@
                 <text x="200" y="{-37.5 * $Y-Spacer}" stroke="white" font-size="30" font-family="papyrus">Available
                     Dialogue Per Setting</text>
                 <xsl:for-each select="descendant::map">
-                    <text x="340" y="{-36.9 * $Y-Spacer}" stroke="white" font-size="25" font-family="papyrus">
+                    <text x="345" y="{-36.9 * $Y-Spacer}" stroke="white" font-size="25" font-family="papyrus">
                         <xsl:value-of select="@name"/>
                     </text>
                 </xsl:for-each>
@@ -52,9 +49,12 @@
                         </text>
                         <line x1="0" x2="{(count(descendant::box)) * $X-Stretcher}"
                             y1="{-position() * $Y-Spacer + $Y-Spacer div 2 }"
-                            y2="{-position() * $Y-Spacer + $Y-Spacer div 2}" stroke="green"
+                            y2="{-position() * $Y-Spacer + $Y-Spacer div 2}" stroke="chocolate"
                             stroke-width="10"/>
-                    </g>
+                    </g> <line x1="0" y1="0" x2="0" y2="{-37 * $Y-Spacer}" stroke-width="3" stroke="blue"/>
+                    
+                    <line x1="0" y1="0" x2="{110 * $X-Stretcher}" y2="0" stroke-width="3"
+                        stroke="red"/>
                 </xsl:for-each>
 
             </g>
