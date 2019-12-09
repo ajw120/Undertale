@@ -104,6 +104,10 @@ body {
     font-family: undertale;
     src: url(fonts/MonsterFriendFore.otf);
 }
+@font-face {
+    font-family: mono;
+    src: url(fonts/DTM-Mono.otf);
+}
 .content{
     display: flex;
     height: 100vh;
@@ -141,6 +145,9 @@ body {
 .bottom img{
     height: 65vh;
     width: auto
+}
+span.mono{
+    font-family:mono
 }
 span.Sans{
     font-family:'Comic Sans MS'
