@@ -70,14 +70,12 @@
             </sp>
         </setting>
         <setting name="RuinsEntrance">
-
             <option what="gameSave">
                 <sp speaker="determination" to="you">
                     <box n="1">*(The shadow of the ruins looms above, filling you with
                         determination.)</box>
                 </sp>
             </option>
-
         </setting>
         <setting name="1stPuzzleRoom">
             <sp speaker="Toriel" to="you">
@@ -101,43 +99,33 @@
                 <box n="6">* Do you need some help..? *Press the switch on the wall.</box>
                 <box n="7">*Come on, you can do it!</box>
             </sp>
-
             <option what="gameNarr">
                 <sp speaker="sign" to="you">
                     <box n="8">*Please press this switch. -TORIEL</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr"/>
-
             <sp speaker="Toriel" to="you">
                 <box n="9">*Go on, press the switch on the left.</box>
                 <box n="10">*You do know which way left is, do you not?</box>
                 <box n="11">*Press the switch that I labelled for you.</box>
             </sp>
-
             <option what="gameNarr">
                 <sp speaker="sign" to="you">
                     <box n="12">*Please press this switch too. -TORIEL</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="Toriel" to="you">
                     <box n="13">*Splendid! *I am proud of you, little one.</box>
                     <box n="14">* Let us move to the next room.</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="15">*This switch doesn't even work...</box>
                 </sp>
             </option>
-
         </setting>
         <setting name="DummyRoom">
             <sp speaker="Toriel" to="you">
@@ -227,7 +215,6 @@
             </sp>
         </setting>
         <setting name="LeafPileSaveRoom">
-
             <option what="gameNarr">
                 <sp speaker="Froggit" to="you">
                     <box n="1">*Ribbit, ribbit. *(Excuse me, human.)</box>
@@ -239,57 +226,31 @@
                     <box n="6">*(Use some MERCY, human.) *Ribbit</box>
                 </sp>
             </option>
-
-
             <option what="gameSave">
                 <sp speaker="determination" to="you">
                     <box n="7">*(Playfully crinkling through the leaves fills you with
                         determination.)</box>
                 </sp>
             </option>
-
         </setting>
         <setting name="MonsterCandyRoom">
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="1">*It says 'take one.' *Take a piece of candy? Yes No</box>
-
                     <box n="3">*You decided not to take some.</box>
-
-
-
                     <box n="6">*You tried to take a piece of candy, but you didn't have any
                         room.</box>
-
-
                     <box n="2">*You took a piece of candy. *(Press [C] to open the menu.)</box>
-
-
                     <box n="1">*'Take one.' *Take a candy? Yes No</box>
-
                     <box n="2">*You took more candy. *How disgusting..</box>
-
-
-
-
-
                     <box n="1">*'Take one.' *Take a candy? Yes No</box>
-
                     <box n="2">*You take another piece. *You feelf like the scum of the
                         earth...</box>
-
-
-
-
-
                     <box n="1">*'Take one.' *Take a candy? Yes No</box>
-
                     <box n="2">*You took too much too fast. *The candy spills onto the floor.</box>
                     <box n="3">*Look at what you've done.</box>
                 </sp>
             </option>
-
         </setting>
         <setting name="1stRockPuzzle">
             <sp speaker="cellPhone" to="you">
@@ -313,7 +274,6 @@
                     </option>
                 </choice>
             </sp>
-
             <option what="gameNarr">
                 <sp speaker="sign" to="you">
                     <box n="1">*Three out of four grey rocks recommend you push them.</box>
@@ -424,14 +384,9 @@
                     <box n="3">*Some spiders crawled down and gave you a donut.</box>
 
                     <box n="1">*You didn't have enough gold.</box>
-
-
                     <box n="1">*You are carrying too many items.</box>
-
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="4">*Leave 18G in the web? Yes No</box>
@@ -440,25 +395,18 @@
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="5">*Some spiders crawled down and gave you a jug.</box>
-
                     <box n="2">*You didn't have enough gold.</box>
-
-
                     <box n="1">*You are carrying too many items.</box>
-
                 </sp>
             </option>
-
         </setting>
         <setting name="FroggitHallway">
-
             <option what="gameNarr">
                 <sp speaker="sign" to="you">
                     <box n="1">*Did you miss it? *Spider Bakesale down and to the right.</box>
                     <box n="2">*Come eat food made by spiders, for spiders of spiders!</box>
                 </sp>
             </option>
-
             <option what="gameNarr">
                 <sp speaker="Froggit1" to="you">
                     <box n="3">*Ribbit, ribbit. *(Sigh...)</box>
@@ -470,8 +418,6 @@
                     <box n="7">*(Oh, not you too!)</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="Froggit2" to="you">
                     <box n="8">*Ribbit, ribbit. *(I heard using "F4" can make you have a "full
@@ -496,7 +442,6 @@
                         SPARE it.)</box>
                 </sp>
             </option>
-
             <sp speaker="cellPhone" to="you">
                 <box n="15">*Ring...</box>
                 <box n="16">*Hello?</box>
@@ -508,7 +453,6 @@
                 <box n="22">*You will want to leave room in your pockets for that.</box>
                 <box n="23">*Click...</box>
             </sp>
-
         </setting>
         <setting name="SixHolesRoom">
             <option what="gameNarr">
@@ -518,27 +462,21 @@
                 <box n="3">*wait, ghosts can fly, can't they...</box>
                 <box n="4">*oh well...</box>
             </option>
-
         </setting>
         <setting name="SixSwitchesPuzzle">
-
             <option what="gameNarr">
                 <sp speaker="sign" to="you">
                     <box n="1">*There is just one switch.</box>
                 </sp>
             </option>
-
         </setting>
         <setting name="SwitchesRoom">
-
             <option what="gameNarr">
                 <sp speaker="sign" to="you">
                     <box n="1">*The far door is not an exit. *It simply marks a rotation in
                         perspective.</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="2">*It's a switch *Press it? Yes No</box>
@@ -547,31 +485,20 @@
             <option what="gameNarr">
                 <box n="3">*Nothing happened.</box>
             </option>
-
-
             <option what="gameNarr">
                 <box n="4">*It's a switch *Press it? Yes No</box>
                 <box n="5">*Nothing happened.</box>
             </option>
-
-
             <option what="gameNarr">
                 <box n="6">*It's a switch *Press it? Yes No</box>
-
                 <box n="5">*Nothing happened.</box>
-
             </option>
-
-
             <option what="gameNarr">
-
                 <sp speaker="game" to="you">
                     <box n="1">*You're making the switches uncomfortable with all this
                         attention.</box>
                 </sp>
-
             </option>
-
         </setting>
         <setting name="SwitchesRoom">
 
