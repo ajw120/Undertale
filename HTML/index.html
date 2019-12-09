@@ -27,13 +27,15 @@
     </head>
     <body>
           
-
+        <audio id="bark">
+            <source  src="undertaleSFX/Undertale%20Sound%20Effects/borfborf.wav" ></source>
+        </audio>
         <audio autoplay loop   >
             <source src="music/Mus_menu0.ogg" type="audio/ogg">
                         
             Your browser does not support the audio element.
         </audio>
-        
+ 
         <!--https://newtfire.org/undertale-->
         
         <center><h1>Undertale</h1></center>
@@ -90,7 +92,7 @@
                 </span>
             </div>
         </div></center>
-        <img id="dog" src="images/dog.png" onmouseover="onHover();" 
+        <img id="dog" src="images/dog.png" onmouseover="onHover();" onmouseenter="PlaySound('bark')" 
             onmouseout="offHover();">
    <!--2019-12-08 ebb: I'm adding this just to experiment to see how it works to make an old-fashioned image map scaleable. -->     
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

@@ -24,7 +24,9 @@
 </style>
     </head>
     <body>
-        
+        <audio id="bark">
+            <source  src="undertaleSFX/Undertale%20Sound%20Effects/borfborf.wav" ></source>
+        </audio>
         <audio autoplay loop   >
             <source src="music/Mus_story.ogg" type="audio/ogg">
             
@@ -68,7 +70,7 @@
                 <th><img src="images/characters/chara.png" alt="Chara" style="width:25%">
                     <p>Chara</p></th>
                 <th><img src="images/dog.png" id="dog" alt="Annoying Dog" onmouseover="onHover();" 
-                    onmouseout="offHover();" style="width:25%">
+                    onmouseout="offHover();" style="width:25%" onmouseenter="PlaySound('bark')">
                     <p>Annoying Dog</p></th>
         </table></center>
         <center><h2>Misc. Characters</h2></center>

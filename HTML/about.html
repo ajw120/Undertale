@@ -4,6 +4,8 @@
         <link rel="icon" href="images/characters/dog.png"/>
         <link rel="stylesheet" href="Undertale.css" />  
         
+        <script type = "text/javascript" src = "undertale.js" ></script>
+        
             <title>About</title>
         
         <meta charset="UTF-8" />
@@ -26,7 +28,7 @@
 
 #barking-dog:hover {
     background: url(images/dog-bark.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;z
 } 
 .game {
   background-color: purple;
@@ -45,6 +47,9 @@
 </style>
     </head>
     <body>
+        <audio id="bark">
+            <source  src="undertaleSFX/Undertale%20Sound%20Effects/borfborf.wav" ></source>
+        </audio>
         <audio autoplay loop   >
             <source src="music/Mus_dogsong.ogg" type="audio/ogg">
             
@@ -59,7 +64,7 @@
             <th><a href="data.html">Data</a></th>
         </tr>
     </table>
-        <div id="barking-dog"></div>
+        <div id="barking-dog" onmouseenter="PlaySound('bark')"></div>
         <div class="game">
             <h2>About the Game</h2>
             <span class="mono">
