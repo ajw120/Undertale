@@ -120,9 +120,57 @@
             </sp>
             <sp speaker="Snowdrake" to="you">
                 <box n="5">*I'm the resort comedian. *I'm very funny. *People laugh at my jokes.</box>
-                <box n="6">*</box>
+                <box n="6">*Now, my son. *He wants to be a comedian like his fathah.</box>
+                <box n="7">*But his jokes. *Aren't funny.</box>
+                <box n="8">*He tells these awful puns. *He's an embarrassment to our family.</box>
+                <box n="9">*Ha ha ha ha...</box>
+                <box n="10">*That's not funny.</box>
+                <box n="11">*Since his mothah passed on, he couldn't stand. *Living at home anymore.</box>
+                <box n="12">*So he ran away. *I haven't seen him since.</box>
+                <box n="13">*I'm a terrible fathah. *Ha ha ha ha...</box>
+                <box n="14">*That's not funny.</box>
+                <box n="15">*Talking to you about this... *It's breakin' my heart.</box>
+                <box n="16">*Ha ha ha ha...</box>
+                <box n="17">*That's not funny.</box>
             </sp>
-            
+            <conditions killed="snowdrakeKilled"/>
+            <sp speaker="Snowdrake" to="you">
+                <box n="1">*My son... *He was always making these weird ice puns.</box>
+                <box n="2">*I hated them, so he ran away from home...</box>
+                <box n="3">*I think I should try to patch things up with him. </box>
+                <box n="4">*Have you seen him? *Have you seen my son?</box>
+            </sp>
+            <sp speaker="someone" to="you">
+                <box n="18">*I work at the CORE. *The inside is a maze made out of swappable parts...</box>
+                <box n="19">*The inside is a maze made out of swappable parts.</box>
+                <box n="20">*That means we can shuffle the layout at will.</box>
+                <box n="21">*Boy, was today a FUN day! *I sure love PUZZLE!!!</box>
+            </sp>
+            <sp speaker="someone" to="you">
+                <box n="22">*Originally, we dug mazes with puzzles in order to foil human attacks.</box>
+                <box n="23">*But now, building things winding and confusing... *It's some awful tradition.</box>
+                <box n="24">*You can't go (ugh) two feet without being up to your armpits in puzzles.</box>
+            </sp>
+            <sp speaker="game" to="you">
+                <box n="25">*(It's a performance schedule.) *(Comedians, dancers, Sans...) *(Seems there's a break now.)</box>
+                <box n="26">*(It's some kind of TV show featuring Mettaton.)</box>
+                <box n="27">*(It's a Wall of Fame full of quotes and photos from visiting celebrities.)</box>
+                <box n="28">*"The food is to die for!" *"Gorgeous style and fragrance!" *"My face tastes beautiful!"</box>
+                <box n="29">*(...These are all Mettaton.)</box>
+            </sp>
+        </setting>
+        <setting name="CoreEntrance">
+            <sp speaker="game" to="you">
+                <box n="1">*Ring...</box>
+            </sp>
+            <sp speaker="Alphys" to="you">
+                <box n="2">*Huh? *Who are they?</box>
+                <box n="3">*N-nobody else is s-supossed to be here...</box>
+                <box n="4">*Oh well! *We can't worry about that now!</box>
+            </sp>
+            <sp speaker="game" to="you">
+                <box n="5">*Click...</box>
+            </sp>
         </setting>
     </path>
     
