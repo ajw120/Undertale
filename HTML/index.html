@@ -7,6 +7,7 @@
     
     
     <head>
+        <script type = "text/javascript" src = "undertale.js" ></script>
         <link rel="icon" href="images/characters/dog.png"/>  
         <link rel="stylesheet" href="Undertale.css" />
                <title>Undertale</title>
@@ -89,6 +90,8 @@
                 </span>
             </div>
         </div></center>
+        <img id="dog"src="images/dog.png" onmouseover="onHover();" 
+            onmouseout="offHover();">
    <!--2019-12-08 ebb: I'm adding this just to experiment to see how it works to make an old-fashioned image map scaleable. -->     
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="jquery.rwdImageMaps.min.js"></script>
@@ -100,6 +103,7 @@ $(document).ready(function(e) {
 		alert($(this).attr('alt') + ' clicked');
 	});
 }); */
+
 </script>
     </body>
     
