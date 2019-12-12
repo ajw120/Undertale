@@ -3,7 +3,7 @@
      width="2000"
      height="1000"
      style="background-color: black;">
-   <g transform="translate(100, 900)">
+   <g transform="translate(300, 900)">
       <text x="0"
             y="15"
             font-size="20"
