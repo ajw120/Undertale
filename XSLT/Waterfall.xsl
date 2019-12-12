@@ -9,7 +9,7 @@
             <head>
                 <link rel="stylesheet" href="Undertale.css" />
                 <title>
-                    Waterfall
+                    New Home
                 </title>
             </head>
             <body>
