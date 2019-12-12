@@ -48,7 +48,7 @@
     </path>
     <path route="neutral">
         <setting name="mettatonRoom">
-            <conditions fought="ratingsSpare"/>
+            <conditions spared="Mettaton"/>
             <sp speaker="Alphys" to="you">
                 <box n="1">*I... I managed to open the lock! *Are you two...</box>
                 <box n="2">*Oh my god.</box>

@@ -9,7 +9,7 @@
             <head>
                 <link rel="stylesheet" href="Undertale.css" />
                 <title>
-                    Snowdin
+                    Waterfall
                 </title>
             </head>
             <body>
