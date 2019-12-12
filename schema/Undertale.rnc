@@ -1,6 +1,6 @@
 start = map
 map = element map { name, path+ }
-path = element path { route, setting*, sp* }
+path = element path { route, conditions*, setting*, sp* }
 route =
     attribute route {
         list { ("pacifist" | "neutral" | "genocide")* }
@@ -170,9 +170,9 @@ name =
         | "newHome"
         | "hotland"
         | "TorielFight"
-        | "PapyrusFight"
+        | "PapyrusFight" 
+        |"FinalUndyneEncounter"
     }
-# 2019-11-07 ebb: We'll need Schematron to control which names are allowed on which specific elements.
 sp = element sp { speaker, to, (box | choice | conditions)* }
 speaker =
     attribute speaker {
