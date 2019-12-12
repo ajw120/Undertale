@@ -7,7 +7,7 @@ body {
 }
 body {
     background: black;
-   /* height: 100vh;
+    /* height: 100vh;
     width: 98vw;*/
     font-family: undertale, arial, helvetica, sans-serif;
     color: #FFFFFF;
@@ -108,20 +108,20 @@ body {
     font-family: mono;
     src: url(fonts/DTM-Mono.otf);
 }
-.content{
+.content {
     display: flex;
     height: 100vh;
     width: 100vw;
     flex-direction: column;
 }
-.audio{
+.audio {
     display: flex;
     height: 5vh;
     width: 100vw;
     align-items: flex-start;
     justify-content: flex-start;
 }
-.top{
+.top {
     display: flex;
     height: 10%;
     width: 100%;
@@ -129,31 +129,36 @@ body {
     align-items: center;
     justify-content: center;
 }
-.middle{
+.middle {
     display: flex;
     height: 20%;
     width: 100%;
     flex-direction: column;
 }
-.bottom{
+.bottom {
     display: flex;
     height: 70%;
     width: 100%;
     justify-content: center;
     flex-direction: row;
 }
-.bottom img{
+.bottom img {
     height: 65vh;
     width: auto
 }
-span.mono{
-    font-family:mono
+span.mono {
+    font-family: mono
 }
-span.Sans{
-    font-family:'Comic Sans MS'
+span.Sans {
+    font-family: 'Comic Sans MS'
 }
-span.Papyrus{
-    font-family:papyrus
+span.Papyrus {
+    font-family: papyrus
 }
-div#undergroundMap{width:90%;}
-img#map_undertale{max-width:100%; width:auto;}
+div#undergroundMap {
+    width: 90%;
+}
+img#map_undertale {
+    max-width: 100%;
+    width: auto;
+}
