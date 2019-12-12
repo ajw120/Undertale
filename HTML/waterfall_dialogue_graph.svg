@@ -235,11 +235,11 @@
             stroke-width="3"
             stroke="white"/>
       <text x="200"
-            y="-785"
+            y="-809"
             stroke="white"
             font-size="30"
             font-family="papyrus">Available
-                    Dialogue Per Setting</text>
+            Dialogue Per Setting</text><text x="305" y="-785" stroke="white" font-size="20" font-family="papyrus">(by number of text boxes)</text>
       <text x="345"
             y="-755"
             stroke="white"
