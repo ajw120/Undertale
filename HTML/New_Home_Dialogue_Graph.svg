@@ -240,11 +240,11 @@
             font-size="30"
             font-family="papyrus">Available
                     Dialogue Per Setting </text><text x="305" y="-750" stroke="white" font-size="20" font-family="papyrus">(by number of text boxes)</text>
-      <text x="345"
+      <text x="250"
             y="-720"
             stroke="white"
             font-size="25"
-            font-family="papyrus">New Home</text>
+            font-family="papyrus">New Home/Dreemur Castle</text>
       <g>
          <text x="-20"
                y="-20"
@@ -252,7 +252,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">newHomeView</text>
+               stroke="blueviolet">New Home View</text>
          <line x1="0"
                x2="8"
                y1="-22.5"
@@ -285,7 +285,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">asgore'sFoyer</text>
+               stroke="blueviolet">Asgore's Foyer</text>
          <line x1="0"
                x2="64"
                y1="-67.5"
@@ -318,7 +318,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">livingRoom</text>
+               stroke="blueviolet">Living Room</text>
          <line x1="0"
                x2="40"
                y1="-112.5"
@@ -351,7 +351,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">kitchen</text>
+               stroke="blueviolet">Kitchen</text>
          <line x1="0"
                x2="56"
                y1="-157.5"
@@ -384,7 +384,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">bedrooms</text>
+               stroke="blueviolet">Bedrooms</text>
          <line x1="0"
                x2="56"
                y1="-202.5"
@@ -417,7 +417,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">asgore'sRoom</text>
+               stroke="blueviolet">Asgore's Room</text>
          <line x1="0"
                x2="80"
                y1="-247.5"
@@ -450,7 +450,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">children'sRoom</text>
+               stroke="blueviolet">Children's Room</text>
          <line x1="0"
                x2="120"
                y1="-292.5"
@@ -483,7 +483,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">coffins</text>
+               stroke="blueviolet">Coffins</text>
          <line x1="0"
                x2="24"
                y1="-337.5"
@@ -516,7 +516,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">judgmentHall</text>
+               stroke="blueviolet">Judgment Hall</text>
          <line x1="0"
                x2="432"
                y1="-382.5"
@@ -549,7 +549,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">throneRoomEntrance</text>
+               stroke="blueviolet">Throne Room Entrance</text>
          <line x1="0"
                x2="8"
                y1="-427.5"
@@ -582,7 +582,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">throneRoom</text>
+               stroke="blueviolet">Throne Room</text>
          <line x1="0"
                x2="152"
                y1="-472.5"
@@ -615,7 +615,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">theEnd</text>
+               stroke="blueviolet">The End</text>
          <line x1="0"
                x2="48"
                y1="-517.5"
@@ -648,7 +648,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">barrier</text>
+               stroke="blueviolet">Barrier</text>
          <line x1="0"
                x2="144"
                y1="-562.5"
@@ -681,7 +681,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">flowey</text>
+               stroke="blueviolet">Flowey</text>
          <line x1="0"
                x2="24"
                y1="-607.5"
@@ -714,7 +714,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">flowey'sSaveFile</text>
+               stroke="blueviolet">Flowey's Save File</text>
          <line x1="0"
                x2="16"
                y1="-652.5"
