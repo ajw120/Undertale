@@ -239,9 +239,9 @@
             stroke="white"
             font-size="30"
             font-family="papyrus">Available
-                    Dialogue Per Setting</text>
+            Dialogue Per Setting</text><text x="295" y="-345" stroke="white" font-size="20" font-family="papyrus">(by number of text boxes)</text>
       <text x="345"
-            y="-330"
+            y="-300"
             stroke="white"
             font-size="25"
             font-family="papyrus">Hotland</text>
@@ -252,7 +252,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">alphy'sLab</text>
+               stroke="blueviolet">Alphys's Lab</text>
          <line x1="0"
                x2="320"
                y1="-22.5"
@@ -285,7 +285,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">soSorryRoom</text>
+               stroke="blueviolet">So Sorry Room</text>
          <line x1="0"
                x2="40"
                y1="-67.5"
@@ -318,7 +318,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">NiceCreamGuy</text>
+               stroke="blueviolet">Nice Cream Guy</text>
          <line x1="0"
                x2="152"
                y1="-112.5"
@@ -384,7 +384,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">CoreEntrance</text>
+               stroke="blueviolet">Core Entrance</text>
          <line x1="0"
                x2="40"
                y1="-202.5"

@@ -285,7 +285,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">RuinsEntrance</text>
+               stroke="blueviolet">Ruins Entrance</text>
          <line x1="0"
                x2="8"
                y1="-67.5"
@@ -318,7 +318,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">1stPuzzleRoom</text>
+               stroke="blueviolet">1st Puzzle Room</text>
          <line x1="0"
                x2="56"
                y1="-112.5"
@@ -351,7 +351,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">LablledSwitchRoom</text>
+               stroke="blueviolet">Labeled Switch Room</text>
          <line x1="0"
                x2="120"
                y1="-157.5"
@@ -384,7 +384,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">DummyRoom</text>
+               stroke="blueviolet">Dummy Room</text>
          <line x1="0"
                x2="248"
                y1="-202.5"
@@ -417,7 +417,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SpikedTileRoom</text>
+               stroke="blueviolet">Spiked Tile Room</text>
          <line x1="0"
                x2="48"
                y1="-247.5"
@@ -450,7 +450,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">IndependenceHallway</text>
+               stroke="blueviolet">Independence Hallway</text>
          <line x1="0"
                x2="128"
                y1="-292.5"
@@ -483,7 +483,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">LeafPileSaveRoom</text>
+               stroke="blueviolet">Leaf Pile Save Room</text>
          <line x1="0"
                x2="56"
                y1="-337.5"
@@ -516,7 +516,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">MonsterCandyRoom</text>
+               stroke="blueviolet">Monster Candy Room</text>
          <line x1="0"
                x2="88"
                y1="-382.5"
@@ -549,7 +549,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">1stRockPuzzle</text>
+               stroke="blueviolet">1st Rock Puzzle</text>
          <line x1="0"
                x2="176"
                y1="-427.5"
@@ -582,7 +582,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">DontStepOnTheLeavesRoom</text>
+               stroke="blueviolet">Don'tStepOnTheLeavesRoom</text>
          <line x1="0"
                x2="8"
                y1="-472.5"
@@ -615,7 +615,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">2ndCrackedTileRoom</text>
+               stroke="blueviolet">2nd Cracked Tile Room</text>
          <line x1="0"
                x2="8"
                y1="-517.5"
@@ -648,7 +648,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">2ndRockPuzzleRoom</text>
+               stroke="blueviolet">2nd Rock Puzzle Room</text>
          <line x1="0"
                x2="88"
                y1="-562.5"
@@ -681,7 +681,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">TableWithCheeseRoom</text>
+               stroke="blueviolet">Table With Cheese Room</text>
          <line x1="0"
                x2="32"
                y1="-607.5"
@@ -714,7 +714,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">NapstablookRoom</text>
+               stroke="blueviolet">Napstablook Room</text>
          <line x1="0"
                x2="72"
                y1="-652.5"
@@ -747,7 +747,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SpiderBakeSale</text>
+               stroke="blueviolet">Spider Bake Sale</text>
          <line x1="0"
                x2="72"
                y1="-697.5"
@@ -780,7 +780,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">FroggitHallway</text>
+               stroke="blueviolet">Froggit Hallway</text>
          <line x1="0"
                x2="192"
                y1="-742.5"
@@ -813,7 +813,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SixHolesRoom</text>
+               stroke="blueviolet">Six Holes Room</text>
          <line x1="0"
                x2="32"
                y1="-787.5"
@@ -846,7 +846,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SixSwitchesPuzzle</text>
+               stroke="blueviolet">Six Switches Puzzle</text>
          <line x1="0"
                x2="8"
                y1="-832.5"
@@ -879,7 +879,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SwitchesRoom</text>
+               stroke="blueviolet">Switches Room</text>
          <line x1="0"
                x2="64"
                y1="-877.5"
@@ -912,7 +912,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SwitchesRoom</text>
+               stroke="blueviolet">Switches Room</text>
          <line x1="0"
                x2="32"
                y1="-922.5"
@@ -945,7 +945,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SwitchesRoom</text>
+               stroke="blueviolet">Switches Room</text>
          <line x1="0"
                x2="24"
                y1="-967.5"
@@ -978,7 +978,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SwitchesRoom</text>
+               stroke="blueviolet">Switches Room</text>
          <line x1="0"
                x2="24"
                y1="-1012.5"
@@ -1011,7 +1011,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">FroggitNearToyKnife</text>
+               stroke="blueviolet">Froggit Near Toy Knife</text>
          <line x1="0"
                x2="40"
                y1="-1057.5"
@@ -1044,7 +1044,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">ToyKnifeRoom</text>
+               stroke="blueviolet">Toy Knife Room</text>
          <line x1="0"
                x2="8"
                y1="-1102.5"
@@ -1077,7 +1077,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">BlackTreeRoom</text>
+               stroke="blueviolet">Black Tree Room</text>
          <line x1="0"
                x2="40"
                y1="-1147.5"
@@ -1110,7 +1110,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">EntranceToTorielsHome</text>
+               stroke="blueviolet">Entrance To Toriel's Home</text>
          <line x1="0"
                x2="56"
                y1="-1192.5"
@@ -1143,7 +1143,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">TorielsHome</text>
+               stroke="blueviolet">Toriel's Home</text>
          <line x1="0"
                x2="72"
                y1="-1237.5"
@@ -1176,7 +1176,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">TorielsLivingRoom</text>
+               stroke="blueviolet">Toriel's Living Room</text>
          <line x1="0"
                x2="64"
                y1="-1282.5"
@@ -1275,7 +1275,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">TorielsRoom</text>
+               stroke="blueviolet">Toriel's Room</text>
          <line x1="0"
                x2="120"
                y1="-1417.5"
@@ -1308,7 +1308,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">AsrielsRoom</text>
+               stroke="blueviolet">Asriel's Room</text>
          <line x1="0"
                x2="56"
                y1="-1462.5"
@@ -1374,7 +1374,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">TorielBossRoom</text>
+               stroke="blueviolet">Toriel Boss Room</text>
          <line x1="0"
                x2="184"
                y1="-1552.5"
@@ -1407,7 +1407,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">FloweyExitHall</text>
+               stroke="blueviolet">Flowey Exit Hall</text>
          <line x1="0"
                x2="776"
                y1="-1597.5"

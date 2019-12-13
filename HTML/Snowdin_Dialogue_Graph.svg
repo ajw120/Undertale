@@ -252,7 +252,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">OutsideRuinsDoor</text>
+               stroke="blueviolet">Outside Ruins Door</text>
          <line x1="0"
                x2="8"
                y1="-22.5"
@@ -285,7 +285,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SansHallway</text>
+               stroke="blueviolet">Sans Hallway</text>
          <line x1="0"
                x2="16"
                y1="-67.5"
@@ -318,7 +318,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">MeetingSans</text>
+               stroke="blueviolet">Meeting Sans</text>
          <line x1="0"
                x2="184"
                y1="-112.5"
@@ -351,7 +351,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">MeetingPapyrus</text>
+               stroke="blueviolet">Meeting Papyrus</text>
          <line x1="0"
                x2="336"
                y1="-157.5"
@@ -384,7 +384,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">AfterPapyrus</text>
+               stroke="blueviolet">After Papyrus</text>
          <line x1="0"
                x2="112"
                y1="-202.5"
@@ -417,7 +417,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SavePoint</text>
+               stroke="blueviolet">Save Point</text>
          <line x1="0"
                x2="56"
                y1="-247.5"
@@ -450,7 +450,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">FishingPoleRoom</text>
+               stroke="blueviolet">Fishing Pole Room</text>
          <line x1="0"
                x2="56"
                y1="-292.5"
@@ -483,7 +483,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SansAndPapyrus</text>
+               stroke="blueviolet">Sans And Papyrus</text>
          <line x1="0"
                x2="192"
                y1="-337.5"
@@ -516,7 +516,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">PapyrusStation</text>
+               stroke="blueviolet">Papyrus Station</text>
          <line x1="0"
                x2="40"
                y1="-382.5"
@@ -549,7 +549,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">DoggoStation</text>
+               stroke="blueviolet">Doggo Station</text>
          <line x1="0"
                x2="160"
                y1="-427.5"
@@ -582,7 +582,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SlipperyIceRoom</text>
+               stroke="blueviolet">Slippery Ice Room</text>
          <line x1="0"
                x2="88"
                y1="-472.5"
@@ -615,7 +615,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SnowmanRoom</text>
+               stroke="blueviolet">Snowman Room</text>
          <line x1="0"
                x2="184"
                y1="-517.5"
@@ -648,7 +648,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">ElectricMazeRoom</text>
+               stroke="blueviolet">Electric Maze Room</text>
          <line x1="0"
                x2="384"
                y1="-562.5"
@@ -681,7 +681,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">BallGameRoom</text>
+               stroke="blueviolet">Ball Game Room</text>
          <line x1="0"
                x2="480"
                y1="-607.5"
@@ -714,7 +714,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">DogiStation</text>
+               stroke="blueviolet">Dogi Station</text>
          <line x1="0"
                x2="48"
                y1="-652.5"
@@ -747,7 +747,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">CrosswordRoom</text>
+               stroke="blueviolet">Crossword Room</text>
          <line x1="0"
                x2="280"
                y1="-697.5"
@@ -780,7 +780,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SpaghettiRoom</text>
+               stroke="blueviolet">Spaghetti Room</text>
          <line x1="0"
                x2="120"
                y1="-742.5"
@@ -813,7 +813,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">DogiArena</text>
+               stroke="blueviolet">Dogi Arena</text>
          <line x1="0"
                x2="112"
                y1="-787.5"
@@ -846,7 +846,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">1stXOPuzzle</text>
+               stroke="blueviolet">1st XO Puzzle</text>
          <line x1="0"
                x2="152"
                y1="-832.5"
@@ -879,7 +879,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">2ndXOPuzzle</text>
+               stroke="blueviolet">2nd XO Puzzle</text>
          <line x1="0"
                x2="440"
                y1="-877.5"
@@ -912,7 +912,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">ColoredTilePuzzle</text>
+               stroke="blueviolet">Colored Tile Puzzle</text>
          <line x1="0"
                x2="624"
                y1="-922.5"
@@ -945,7 +945,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">LesserDogStation</text>
+               stroke="blueviolet">Lesser Dog Station</text>
          <line x1="0"
                x2="264"
                y1="-967.5"
@@ -978,7 +978,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">PapyrusAndSansSnowmen</text>
+               stroke="blueviolet">Papyrus And Sans Snowmen</text>
          <line x1="0"
                x2="16"
                y1="-1012.5"
@@ -1011,7 +1011,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">GyftrotRoom</text>
+               stroke="blueviolet">Gyftrot Room</text>
          <line x1="0"
                x2="40"
                y1="-1057.5"
@@ -1044,7 +1044,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">MysteriousDoorRoom</text>
+               stroke="blueviolet">Mysterious Door Room</text>
          <line x1="0"
                x2="24"
                y1="-1102.5"
@@ -1077,7 +1077,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">DevelopersRoom</text>
+               stroke="blueviolet">Developers Room</text>
          <line x1="0"
                x2="192"
                y1="-1147.5"
@@ -1110,7 +1110,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">GreaterDogStation</text>
+               stroke="blueviolet">Greater Dog Station</text>
          <line x1="0"
                x2="96"
                y1="-1192.5"
@@ -1143,7 +1143,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">GauntletOfDeadlyTerror</text>
+               stroke="blueviolet">Gauntlet Of Deadly Terror</text>
          <line x1="0"
                x2="320"
                y1="-1237.5"
@@ -1176,7 +1176,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">RockFamily</text>
+               stroke="blueviolet">Rock Family</text>
          <line x1="0"
                x2="88"
                y1="-1282.5"
@@ -1209,7 +1209,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SnowdinTown</text>
+               stroke="blueviolet">Snowdin Town</text>
          <line x1="0"
                x2="856"
                y1="-1327.5"
@@ -1242,7 +1242,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SnowdinShop</text>
+               stroke="blueviolet">Snowdin Shop</text>
          <line x1="0"
                x2="232"
                y1="-1372.5"
@@ -1275,7 +1275,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SnowedInn</text>
+               stroke="blueviolet">Snowed Inn</text>
          <line x1="0"
                x2="144"
                y1="-1417.5"
@@ -1308,7 +1308,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">Grillbys</text>
+               stroke="blueviolet">Grillby's</text>
          <line x1="0"
                x2="272"
                y1="-1462.5"
@@ -1374,7 +1374,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">PapyrusAndSansHouse</text>
+               stroke="blueviolet">Papyrus And Sans House</text>
          <line x1="0"
                x2="312"
                y1="-1552.5"
@@ -1407,7 +1407,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">PapyrusRoom</text>
+               stroke="blueviolet">Papyrus Room</text>
          <line x1="0"
                x2="72"
                y1="-1597.5"
@@ -1440,7 +1440,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">PapyrusArena</text>
+               stroke="blueviolet">Papyrus Arena</text>
          <line x1="0"
                x2="552"
                y1="-1642.5"
