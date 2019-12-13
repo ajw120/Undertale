@@ -239,9 +239,9 @@
             stroke="white"
             font-size="30"
             font-family="papyrus">Available
-                    Dialogue Per Setting</text>
-      <text x="345"
-            y="-1710"
+            Dialogue Per Setting</text><text x="290" y="-1730" stroke="white" font-size="20" font-family="papyrus">(by number of text boxes)</text>
+      <text x="350"
+            y="-1700"
             stroke="white"
             font-size="25"
             font-family="papyrus">Ruins</text>

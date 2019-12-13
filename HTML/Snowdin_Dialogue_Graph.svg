@@ -239,9 +239,9 @@
             stroke="white"
             font-size="30"
             font-family="papyrus">Available
-                    Dialogue Per Setting</text>
-      <text x="345"
-            y="-1730"
+            Dialogue Per Setting</text><text x="305" y="-1740" stroke="white" font-size="20" font-family="papyrus">(by number of text boxes)</text>
+      <text x="348"
+            y="-1719"
             stroke="white"
             font-size="25"
             font-family="papyrus">Snowdin</text>
