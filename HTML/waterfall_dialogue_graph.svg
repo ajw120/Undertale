@@ -252,7 +252,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SansStation</text>
+               stroke="blueviolet">Sans Station</text>
          <line x1="0"
                x2="120"
                y1="-22.5"
@@ -285,7 +285,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">FallingRocks</text>
+               stroke="blueviolet">Falling Rocks</text>
          <line x1="0"
                x2="48"
                y1="-67.5"
@@ -318,7 +318,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">TutuRoom</text>
+               stroke="blueviolet">Tutu Room</text>
          <line x1="0"
                x2="40"
                y1="-112.5"
@@ -351,7 +351,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">FallingRocks</text>
+               stroke="blueviolet">Falling Rocks</text>
          <line x1="0"
                x2="192"
                y1="-157.5"
@@ -384,7 +384,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">1stBridgeSeedRoom</text>
+               stroke="blueviolet">1st Bridge Seed Room</text>
          <line x1="0"
                x2="8"
                y1="-202.5"
@@ -417,7 +417,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">2ndBridgeSeedRoom</text>
+               stroke="blueviolet">2nd Bridge Seed Room</text>
          <line x1="0"
                x2="472"
                y1="-247.5"
@@ -450,7 +450,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">QuicheRoom</text>
+               stroke="blueviolet">Quiche Room</text>
          <line x1="0"
                x2="48"
                y1="-292.5"
@@ -483,7 +483,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">WishingRoom</text>
+               stroke="blueviolet">Wishing Room</text>
          <line x1="0"
                x2="88"
                y1="-337.5"
@@ -516,7 +516,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">HistoryPlaque</text>
+               stroke="blueviolet">History Plaque</text>
          <line x1="0"
                x2="88"
                y1="-382.5"
@@ -549,7 +549,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SeaWeedHidingSpot</text>
+               stroke="blueviolet">Seaweed Hiding Spot</text>
          <line x1="0"
                x2="176"
                y1="-427.5"
@@ -582,7 +582,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">MouseRoom</text>
+               stroke="blueviolet">Mouse Room</text>
          <line x1="0"
                x2="40"
                y1="-472.5"
@@ -615,7 +615,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SansTelescopeRoom</text>
+               stroke="blueviolet">Sans's Telescope Room</text>
          <line x1="0"
                x2="96"
                y1="-517.5"
@@ -648,7 +648,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">FinalUndyneEncounter</text>
+               stroke="blueviolet">Final Undyne Encounter</text>
          <line x1="0"
                x2="736"
                y1="-562.5"
@@ -681,7 +681,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">UndyneHouse</text>
+               stroke="blueviolet">Undyne House</text>
          <line x1="0"
                x2="56"
                y1="-607.5"
@@ -714,7 +714,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">SnailFarm</text>
+               stroke="blueviolet">Snail Farm</text>
          <line x1="0"
                x2="24"
                y1="-652.5"
@@ -747,7 +747,7 @@
                text-anchor="end"
                font-size="20"
                font-family="comic sans Ms"
-               stroke="blueviolet">NapstablookHouse</text>
+               stroke="blueviolet">Napstablook House</text>
          <line x1="0"
                x2="24"
                y1="-697.5"
