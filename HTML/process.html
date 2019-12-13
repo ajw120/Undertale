@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="images/characters/dog.png"/>
+        <link rel="stylesheet" href="Undertale.css" />  
+        <title> process</title>
+    </head>
+    <body>
+        <span class="mono">
+            <p>Our project started with the desire to transcribe the entirety of the game Undertale into text, and to mark the major changes within the game. Thus, in our XML and in our schema, we tried to mark every detail, every decision, and every condition that led to every piece of dialogue and outcome. It took some time to create a standardized schema. Once we met with our instructor team, we started to create a standardized XML that had boxes inside of speaker tags inside of setting tags inside of a main map tag, which tended to remain the same for the duration of the project. We also added a what attribute, which quickly became overcrowded and lost a lot of its meaning. We also added choice and option tags to signify when the game gave you a choice to make, and a conditions tag that signified when a previous condition had to be met in order for dialogue to be triggered, such as the killing of a character or the wearing of a certain piece of clothing.
+            </p><p>
+            As we progressed through our project we realized that transcribing and marking up the entire game while marking up what we were marking up was too much work to complete in a semester, so we decided to cut down the scope of what we were transcribing by only including important scenes relevant to our project question, which happened to be scenes that came mostly from the neutral playthrough, such as the effects of killing or sparing each character and when we would encounter a path change. We also decided to change how we were marking up our code here. We simplified the what Attribute to only have a few options, such as GameNarr, kill and spare. We also added the path element to signify what dialogue was only available under certain paths and the pathChange element, which signifies dialogue that occurs when you switch from one path to another.
+            </p><p>
+            Our final xml has an emphasis on the conditions element, which signifies the conditions under which certain pieces of dialogue occur. Although we expected the pathChange element to play a large role in our final XML, we found that dialogue that occurred from a path change was sparse and often didn’t have as large an impact on the story as the actual act of killing or sparing did, regardless of what path you were already on.
+            </p><p>
+            If we had more time to work on this project, or if we return to this project in another semester, ideally we would add the entire script to the game, and we would be able to also add more images with the dialogue, potentially adding character portraits and dialogue boxes onto the HTML. We could also look at more data, potentially looking at who was the most dialogue in each route of the game, which would let us see which characters are present more proportionally in some paths rather than others. We could also look at how much dialogue only show up if the player has played the game before a certain number of times, and potentially how many playthroughs it would take to access every piece of dialogue. We would find it fruitful to, in the future, track more conditions, such as the hidden "fun" varaible, and map out every single neutral end screen, as a lot of them exist that we did not have time to cover.
+        </p></span>
+    </body>
+</html>
