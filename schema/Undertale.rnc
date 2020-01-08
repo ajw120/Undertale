@@ -163,7 +163,7 @@ name =
         | "barrier"
         | "flowey"
         | "flowey'sSaveFile"
-        | "alphy'sLab"
+        | "alphys'sLabPostMettaton"
         | "bedrooms"
         | "Snowdin"
         | "core"
@@ -173,6 +173,8 @@ name =
         | "PapyrusFight"
         | "FinalUndyneEncounter"
         | "waterRoom"
+        | "MeetingAlphys"
+        | "MeetingMettaton"
     }
 sp = element sp { (speaker | to)*, (box | choice | conditions)* }
 speaker =

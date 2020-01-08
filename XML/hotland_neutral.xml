@@ -83,9 +83,90 @@
             <sp speaker="RiverPerson">
                 <box n="7">*Where will we go today? Snowdin Waterfall</box>
                 <box n="8">*Then we're off...</box>
+                <box n="1">*Come gain some time. *Tra la la.</box>
+            </sp>
+            <conditions timesTalkedTo="1">
+                <sp speaker="RiverPerson">
+                    <box n="1">*Tra la la. *Care for a ride?</box>
+                </sp>
+                <sp speaker="game">
+                    <box n="2">*(Ride in the boat? Yes No</box>
+                </sp>
+                <sp speaker="RiverPerson">
+                    <box n="3">*Where will we go today? Snowdin Waterfall</box>
+                    <box n="4">*Then we're off...</box>
+                </sp>
+            </conditions>
+        </setting>
+        <setting name="AlphysLab(Dark)">
+            <sp speaker="game">
+                <box n="1">*It's you...?</box>
+                <box n="2">*(It's too dark to see near the walls.)</box>
             </sp>
         </setting>
-        <setting name="alphy'sLab">
+        <setting name="MeetingAlphys">
+            <sp speaker="Alphys" to="you">
+                <box n="1">*Oh. *My god.</box>
+                <box n="2">*I didn't expect you to show up so soon!</box>
+                <box n="3">*I haven't showered, I'm barely dressed, it's all messy, and...</box>
+                <box n="4">*Ummm...</box>
+                <box n="5">*H-h-hiya!</box>
+                <box n="6">*I'm Dr. Alphys. *I'm ASGORE's royal scientist!</box>
+                <box n="7">*B-b-but, ahhhh, I'm not one of the "bad guys"!</box>
+                <box n="8">*Actually, since you stepped out of the RUINS, I've, um...</box>
+                <box n="9">*... been "observing" your journey through my console.</box>
+                <box n="10">*Your fights... *Your friendships... *Everything!</box>
+                <box n="11">*I was originally going to stop you, but...</box>
+                <box n="12">*Watching someone on a screen really makes you root for them.</box>
+                <box n="13">*S-so, ahh, now I want help you!</box>
+                <box n="14">*Using my knowledge, I can easily guide you through Hotland!</box>
+                <box n="15">*I know a way right to ASGORE's castle, no problem!</box>
+                <box n="16">*...</box>
+                <box n="17">*Well, actually, umm, there's just a tiny issue.</box>
+                <box n="18">*A long time ago, I made a robot named Mettaton.</box>
+                <box n="19">*Originally, I built him to be an entertainment robot.</box>
+                <box n="20">*Uh, you know, like a robotic TV star or something.</box>
+                <box n="21">*Anyway, recently I decided to make him more useful.</box>
+                <box n="22">*You know, just some small practical adjustments.</box>
+                <box n="23">*Like, umm...</box>
+                <box n="24">*Anti... anti-human combat features?</box>
+                <box n="25">*Of c-course, when I saw you coming, I immediately decided...</box>
+                <box n="26">*I have to remove those features!</box>
+                <box n="27">*Unforunately, I may have made a teensy mistake while doing so.</box>
+                <box n="28">*And, um...</box>
+                <box n="29">*Now he's an unstoppable killing machine with a thrist for human
+                    blood?</box>
+                <box n="30">*Ehehehehe...</box>
+                <box n="31">*Heh.</box>
+                <box n="32">*But, umm, hopefully we won't run into him!</box>
+                <box n="33">*...?</box>
+                <box n="34">*Did you hear something?</box>
+                <box n="35">*Oh no.</box>
+            </sp>
+            <conditions timesPlayed="1">
+                <sp speaker="Alphys" to="you">
+                    <box n="1">*Watching you, I felt like... like I was seeing an old friend.</box>
+                </sp>
+            </conditions>
+        </setting>
+        <setting name="MeetingMettaton">
+            <sp speaker="Mettaton">
+                <box n="1">*OHHHH YES!</box>
+                <box n="2">*WELCOME, BEAUTIES...</box>
+                <box n="3">*... TO TODAY'S QUIZ SHOW!!!</box>
+                <box n="4">*OH BOY! *I CAN ALREADY TELL IT'S GONNA BE A GREAT SHOW!</box>
+                <box n="5">*EVERYONE GIVE A BIG HAND FOR OUR WONDERFUL CONTESTANT!</box>
+                <box n="7">*NEVER PLAYED BEFORE, GORGEOUS?</box>
+                <box n="8">*NO PROBLEM! *IT'S SIMPLE!</box>
+                <box n="9">*THERE'S ONLY ONE RULE.</box>
+                <box n="10">*ANSWER CORRECTLY...</box>
+                <box n="11">*OR YOU DIE!!!</box>
+            </sp>
+        </setting>
+        <setting name="alphys'sLabPostMettaton">
+            <sp speaker="Alphys" to="you">
+                <box n="1">*</box>
+            </sp>
             <sp speaker="Alphys" to="you">
                 <box n="1">*...</box>
                 <box n="2">*Well that was certainly something.</box>
