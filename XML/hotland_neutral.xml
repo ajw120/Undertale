@@ -2,56 +2,141 @@
 <?xml-model href="../schema/Undertale.rnc" type="application/relax-ng-compact-syntax"?>
 <map name="hotland">
     <path route="neutral">
+        <setting name="waterRoom">
+            <sp speaker="Undyne">
+                <box n="1">*Armor... so... hot...</box>
+                <box n="2">*But I can't... *Give up...</box>
+            </sp>
+            <sp speaker="game">
+                <box n="3">*(She looks dry...)</box>
+                <box n="4">*(It's a water cooler.) *(Take a cup of water?) Yes No</box>
+                <box n="5">*(You take a cup of water.)</box>
+                <box n="6">*(Give Undyne the water?) Yes No</box>
+                <box n="1">*(Get rid of the water?) Yes No</box>
+                <box n="2">*(You pour the water on the ground next tot the water cooler.)</box>
+                <box n="3">*(Sadistically, you've poured out all the water right in front of
+                    Undyne's eyes.)</box>
+                <box n="7">*(It's a water cooler.) *(Take a cup of water?) Yes No</box>
+                <box n="8">*(You take a cup of water.)</box>
+                <box n="9">*(Get rid of the water? Yes No</box>
+                <box n="10">*(You pour the water on the ground next to the water cooler.)</box>
+                <box n="11">*(Small puddle forming.)</box>
+                <box n="12">*(Medium puddle forming.)</box>
+                <box n="13">*(Large puddle forming.)</box>
+                <box n="14">*(There's no more water left in the cooler.)</box>
+            </sp>
+            <sp speaker="ClamGuy" to="you">
+                <box n="1">*O, k, k, k, k...</box>
+                <box n="2">*I was thirsty, so I came over from Waterfall to get a drink!</box>
+                <box n="1">*O, k, k, k, k...</box>
+                <box n="2">*Are you just carrying that around to look sophisticated?</box>
+                <box n="3">*Cause it's not working.</box>
+                <box n="1">*O, k, k...</box>
+                <box n="2">*What are you doing with all of that water?</box>
+                <box n="3">*O, k, k, k, k...</box>
+                <box n="2">*So now we have a private pool? *Worse things have happened.</box>
+            </sp>
+        </setting>
+        <setting name="SavePointRoom">
+            <sp speaker="game">
+                <box n="1">*(The water evaporated from the heat.)</box>
+                <box n="2">*(The cup evaporated, too.)</box>
+                <box n="1">*(Seeing such a strange laboratory in a place like this...)</box>
+                <box n="2">*(You're filled with determination.)</box>
+            </sp>
+            <sp speaker="RoyalGuard">
+                <box n="4">*Sorry... UNDYNE, like, told us there was totally a human in the
+                    area.</box>
+                <box n="5">*So, like, us Royal Guards are blocking off the elevators for now.</box>
+                <box n="6">*Ngah! Even if the elevators aren't working anyway, we'll do our best,
+                    Ms. UNDYNE!</box>
+                <box n="7">*Like, NO WAY you're getting by us.</box>
+                <box n="8">*But, between you and me... *I think oyu could go through that creepy lab
+                    over there.</box>
+                <box n="9">*Between you, me, and my bro here, I mean.</box>
+                <box n="10">I tell him ALL my secrets.</box>
+                <box n="11">*Hey! *No loitering!</box>
+                <box n="12">*Like, just kidding. *I don't care. *Like, loiter your heart out.</box>
+                <box n="13">*...</box>
+                <box n="14">*...what?</box>
+            </sp>
+            <sp speaker="game">
+                <box n="1">*(There's no response.)</box>
+            </sp>
+        </setting>
+        <setting name="RiverPersonRoom">
+            <sp speaker="RiverPerson">
+                <box n="1">*Tra la la. *I am the riverman.</box>
+                <box n="2">*Or am I the riverwoman...? *It doesn't really matter.</box>
+                <box n="3">*I love to ride in my boat. *Would you care to join me?</box>
+            </sp>
+            <sp speaker="game">
+                <box n="4">*(Ride in the boat?) Yes No</box>
+            </sp>
+            <sp speaker="RiverPerson">
+                <box n="5">*Then perhaps another time.*Or perhaps not. *It doesn't really
+                    matter.</box>
+            </sp>
+            <sp speaker="game">
+                <box n="6">*(Ride in the boat?) Yes No</box>
+            </sp>
+            <sp speaker="RiverPerson">
+                <box n="7">*Where will we go today? Snowdin Waterfall</box>
+                <box n="8">*Then we're off...</box>
+            </sp>
+        </setting>
         <setting name="alphy'sLab">
-           <sp speaker="Alphys" to="you">
-               <box n="1">*...</box>
-               <box n="2">*Well that was certainly something.</box>
-               <box n="3">*Th-that last question...</box>
-               <box n="4">*He wasn't supposed to ask that one...</box>
-               <box n="5">*Wait, wait!</box>
-               <box n="6">*Let me give you my ph-phone number!</box>
-               <box n="7">*Th-then... m-maybe... *If you need help, I could...</box>
-               <box n="8">*Wh...where'd you get that phone!? *It's ANCIENT!</box>
-               <box n="9">*It doens't even have texting.</box>
-               <box n="10">*W-wait a second, please!</box>
-               <box n="11">*Here, I upgraded it for you!</box>
-               <box n="12">*It can do texting, items, it's got a key chain...</box>
-               <box n="13">*I even signed you up for the underground's No.1 social network!</box>
-               <box n="14">*Now we're officially friends! *Ehehehe!</box>
-               <box n="15">*Heheh...</box>
-               <box n="16">*Heh...</box>
-               <box n="17">*...</box>
-               <box n="18">*...</box>
-               <box n="19">*...</box>
-               <box n="20">*...</box>
-               <box n="21">*...</box>
-               <box n="22">*I'm going to the bathroom.</box>
-           </sp> 
-           <sp speaker="game" to="you">
-               <box n="1">*(It's a bag of dog food.) *(It's half-full.)</box>
-               <box n="2">*(The fridge is filled with instant noodles and soda.)</box>
-               <box n="3">*(Take a package of noodles?)</box>
-               <conditions taken="takeIt"/>
-               <box n="4">*(You got instant noodles.)</box>
-               <box n="5">*(Take a package of noodles?)</box>
-               <conditions taken="leaveIt"/>
-               <box n="6">*(You decide to stay healthy.)</box>
-               <box n="7">*(It's a beat-up figurine of a female human with cat ears.)</box>
-               <box n="8">*(It's a teacup shaped like a yellow lizard.) *(It's full of soda.)</box>
-               <box n="9">*(It's a computer.) *(It's accessing some kind of puzzle in Snowdin.)</box>
-               <box n="10">*(It seems like a walkthrough to a game, or...?)</box>
-               <box n="11">*(Seems like the notes to something, but it's all written in chicken scratch.)</box>
-               <box n="12">*(A garbage can.) *(But it's pretty cute.)</box>
-               <box n="13">*(It's a video feed of your location.)</box>
-               <box n="14">*(The space behind the wall is only a few feet wide.)</box>
-               <box n="15">*(It's a bathroom sign.)</box>
-               <box n="16">*(Yellow feet are tapping just behind the door.)</box>
-           </sp>
-           <conditions timesKilled="1"/>
-           <sp speaker="game" to="you">
-               <box n="1">*(It's a half-empty bag of dog food.)</box>           
-           </sp>
-           <conditions timesKilled="21"/>
+            <sp speaker="Alphys" to="you">
+                <box n="1">*...</box>
+                <box n="2">*Well that was certainly something.</box>
+                <box n="3">*Th-that last question...</box>
+                <box n="4">*He wasn't supposed to ask that one...</box>
+                <box n="5">*Wait, wait!</box>
+                <box n="6">*Let me give you my ph-phone number!</box>
+                <box n="7">*Th-then... m-maybe... *If you need help, I could...</box>
+                <box n="8">*Wh...where'd you get that phone!? *It's ANCIENT!</box>
+                <box n="9">*It doens't even have texting.</box>
+                <box n="10">*W-wait a second, please!</box>
+                <box n="11">*Here, I upgraded it for you!</box>
+                <box n="12">*It can do texting, items, it's got a key chain...</box>
+                <box n="13">*I even signed you up for the underground's No.1 social network!</box>
+                <box n="14">*Now we're officially friends! *Ehehehe!</box>
+                <box n="15">*Heheh...</box>
+                <box n="16">*Heh...</box>
+                <box n="17">*...</box>
+                <box n="18">*...</box>
+                <box n="19">*...</box>
+                <box n="20">*...</box>
+                <box n="21">*...</box>
+                <box n="22">*I'm going to the bathroom.</box>
+            </sp>
+            <sp speaker="game" to="you">
+                <box n="1">*(It's a bag of dog food.) *(It's half-full.)</box>
+                <box n="2">*(The fridge is filled with instant noodles and soda.)</box>
+                <box n="3">*(Take a package of noodles?)</box>
+                <conditions taken="takeIt"/>
+                <box n="4">*(You got instant noodles.)</box>
+                <box n="5">*(Take a package of noodles?)</box>
+                <conditions taken="leaveIt"/>
+                <box n="6">*(You decide to stay healthy.)</box>
+                <box n="7">*(It's a beat-up figurine of a female human with cat ears.)</box>
+                <box n="8">*(It's a teacup shaped like a yellow lizard.) *(It's full of soda.)</box>
+                <box n="9">*(It's a computer.) *(It's accessing some kind of puzzle in
+                    Snowdin.)</box>
+                <box n="10">*(It seems like a walkthrough to a game, or...?)</box>
+                <box n="11">*(Seems like the notes to something, but it's all written in chicken
+                    scratch.)</box>
+                <box n="12">*(A garbage can.) *(But it's pretty cute.)</box>
+                <box n="13">*(It's a video feed of your location.)</box>
+                <box n="14">*(The space behind the wall is only a few feet wide.)</box>
+                <box n="15">*(It's a bathroom sign.)</box>
+                <box n="16">*(Yellow feet are tapping just behind the door.)</box>
+            </sp>
+            <conditions timesKilled="1"/>
+            <sp speaker="game" to="you">
+                <box n="1">*(It's a half-empty bag of dog food.)</box>
+            </sp>
+            <conditions timesKilled="21"/>
             <sp speaker="game" to="you">
                 <box n="1">*(You just remembered something funny.)</box>
             </sp>
@@ -73,59 +158,64 @@
             <conditions killed="killSoSorry"/>
             <sp speaker="game" to="you">
                 <box n="1">*(Art is dead.)</box>
-            </sp>            
+            </sp>
         </setting>
     </path>
     <path route="neutral">
         <setting name="NiceCreamGuy">
-         <sp speaker="RoyalGuard" to="you">
-             <box n="1">*Oh, hey.</box>
-             <box n="2">*We're, like, taking a rain check on that killing-you thing.</box>
-             <box n="3">*Like, don't tell Undyne about this, OK?</box>
-             <box n="4">*You didn't tell her, did you...?</box>
-         </sp>   
-         <sp speaker="game" to="you">
-             <box n="5">*(... he seems happy.)</box>
-         </sp>
-         <sp speaker="NiceCreamGuy" to="you">
-             <box n="6">*Hey! *It's you again!</box>
-             <box n="7">*Business is excellent here! *These two fellas bought ALL my ice cream!</box>
-             <box n="8">*I've actually sold out of everything!!!</box>
-             <box n="9">*... sorry.</box>
-             <box n="10">*Wait! *I've still got something for you!</box>
-             <box n="11">*... a big smile! *How about that!</box>
-             <box n="12">*I'm so happy!! *Nice Cream is really changing the world!!</box>
-         </sp>
-         <conditions killed="guardsKilled"/>
-         <sp speaker="NiceCreamGuy" to="you">
-             <box n="1">*I thought for sure if went to Hotland, I'd sell some Nice Creams.</box>
-             <box n="2">*But nobody wants them. *Everyone's just eating Starfaits and Glamburgers.</box>
-             <box n="3">*So!!!</box>
-             <box n="4">*I'm having a going out of business sale.</box>
-             <box n="5">*Hello... *Would you like some Nice Cream...?</box>
-             <box n="6">*It's the frozen treat... *That warms your heart.</box>
-             <box n="7">*Now only 126!</box>     
-         </sp>
+            <sp speaker="RoyalGuard" to="you">
+                <box n="1">*Oh, hey.</box>
+                <box n="2">*We're, like, taking a rain check on that killing-you thing.</box>
+                <box n="3">*Like, don't tell Undyne about this, OK?</box>
+                <box n="4">*You didn't tell her, did you...?</box>
+            </sp>
+            <sp speaker="game" to="you">
+                <box n="5">*(... he seems happy.)</box>
+            </sp>
+            <sp speaker="NiceCreamGuy" to="you">
+                <box n="6">*Hey! *It's you again!</box>
+                <box n="7">*Business is excellent here! *These two fellas bought ALL my ice
+                    cream!</box>
+                <box n="8">*I've actually sold out of everything!!!</box>
+                <box n="9">*... sorry.</box>
+                <box n="10">*Wait! *I've still got something for you!</box>
+                <box n="11">*... a big smile! *How about that!</box>
+                <box n="12">*I'm so happy!! *Nice Cream is really changing the world!!</box>
+            </sp>
+            <conditions killed="guardsKilled"/>
+            <sp speaker="NiceCreamGuy" to="you">
+                <box n="1">*I thought for sure if went to Hotland, I'd sell some Nice Creams.</box>
+                <box n="2">*But nobody wants them. *Everyone's just eating Starfaits and
+                    Glamburgers.</box>
+                <box n="3">*So!!!</box>
+                <box n="4">*I'm having a going out of business sale.</box>
+                <box n="5">*Hello... *Would you like some Nice Cream...?</box>
+                <box n="6">*It's the frozen treat... *That warms your heart.</box>
+                <box n="7">*Now only 126!</box>
+            </sp>
         </setting>
     </path>
     <path route="neutral">
         <setting name="Restaurant">
             <sp speaker="someone" to="you">
                 <box n="1">*Blub blub... *You'll have to reserve a table to eat here.</box>
-                <box n="2">*You'll also need to reserve your chair, your silverware, your food, your...</box>
-           </sp>
+                <box n="2">*You'll also need to reserve your chair, your silverware, your food,
+                    your...</box>
+            </sp>
             <sp speaker="game" to="you">
                 <box n="3">*(It's a potted plant.)</box>
                 <box n="4">*(It's a potted plant.)</box>
             </sp>
             <sp speaker="Snowdrake" to="you">
-                <box n="5">*I'm the resort comedian. *I'm very funny. *People laugh at my jokes.</box>
+                <box n="5">*I'm the resort comedian. *I'm very funny. *People laugh at my
+                    jokes.</box>
                 <box n="6">*Now, my son. *He wants to be a comedian like his fathah.</box>
                 <box n="7">*But his jokes. *Aren't funny.</box>
                 <box n="8">*He tells these awful puns. *He's an embarrassment to our family.</box>
                 <box n="9">*Ha ha ha ha...</box>
                 <box n="10">*That's not funny.</box>
-                <box n="11">*Since his mothah passed on, he couldn't stand. *Living at home anymore.</box>
+                <box n="11">*Since his mothah passed on, he couldn't stand. *Living at home
+                    anymore.</box>
                 <box n="12">*So he ran away. *I haven't seen him since.</box>
                 <box n="13">*I'm a terrible fathah. *Ha ha ha ha...</box>
                 <box n="14">*That's not funny.</box>
@@ -141,21 +231,28 @@
                 <box n="4">*Have you seen him? *Have you seen my son?</box>
             </sp>
             <sp speaker="someone" to="you">
-                <box n="18">*I work at the CORE. *The inside is a maze made out of swappable parts...</box>
+                <box n="18">*I work at the CORE. *The inside is a maze made out of swappable
+                    parts...</box>
                 <box n="19">*The inside is a maze made out of swappable parts.</box>
                 <box n="20">*That means we can shuffle the layout at will.</box>
                 <box n="21">*Boy, was today a FUN day! *I sure love PUZZLE!!!</box>
             </sp>
             <sp speaker="someone" to="you">
-                <box n="22">*Originally, we dug mazes with puzzles in order to foil human attacks.</box>
-                <box n="23">*But now, building things winding and confusing... *It's some awful tradition.</box>
-                <box n="24">*You can't go (ugh) two feet without being up to your armpits in puzzles.</box>
+                <box n="22">*Originally, we dug mazes with puzzles in order to foil human
+                    attacks.</box>
+                <box n="23">*But now, building things winding and confusing... *It's some awful
+                    tradition.</box>
+                <box n="24">*You can't go (ugh) two feet without being up to your armpits in
+                    puzzles.</box>
             </sp>
             <sp speaker="game" to="you">
-                <box n="25">*(It's a performance schedule.) *(Comedians, dancers, Sans...) *(Seems there's a break now.)</box>
+                <box n="25">*(It's a performance schedule.) *(Comedians, dancers, Sans...) *(Seems
+                    there's a break now.)</box>
                 <box n="26">*(It's some kind of TV show featuring Mettaton.)</box>
-                <box n="27">*(It's a Wall of Fame full of quotes and photos from visiting celebrities.)</box>
-                <box n="28">*"The food is to die for!" *"Gorgeous style and fragrance!" *"My face tastes beautiful!"</box>
+                <box n="27">*(It's a Wall of Fame full of quotes and photos from visiting
+                    celebrities.)</box>
+                <box n="28">*"The food is to die for!" *"Gorgeous style and fragrance!" *"My face
+                    tastes beautiful!"</box>
                 <box n="29">*(...These are all Mettaton.)</box>
             </sp>
         </setting>
@@ -173,5 +270,5 @@
             </sp>
         </setting>
     </path>
-    
+
 </map>

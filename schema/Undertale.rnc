@@ -99,7 +99,7 @@ name =
         | "Undyne"
         | "WaterRoom"
         | "SavePointRoom"
-        | "RiverpersonRoom"
+        | "RiverPersonRoom"
         | "AlphysLab(Dark)"
         | "AlphysBedroom"
         | "HallwayOutsideOfLab"
@@ -170,10 +170,11 @@ name =
         | "newHome"
         | "hotland"
         | "TorielFight"
-        | "PapyrusFight" 
-        |"FinalUndyneEncounter"
+        | "PapyrusFight"
+        | "FinalUndyneEncounter"
+        | "waterRoom"
     }
-sp = element sp { speaker, to, (box | choice | conditions)* }
+sp = element sp { (speaker | to)*, (box | choice | conditions)* }
 speaker =
     attribute speaker {
         "game"
@@ -234,6 +235,8 @@ speaker =
         | "bench"
         | "ferry"
         | "cheese"
+        | "ClamGuy"
+        | "RiverPerson"
     }
 to = attribute to { text }
 # ebb: REFINE THIS with specific values.
