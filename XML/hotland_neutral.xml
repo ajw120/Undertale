@@ -191,35 +191,88 @@
                 <box n="21">*...</box>
                 <box n="22">*I'm going to the bathroom.</box>
             </sp>
-            <sp speaker="game" to="you">
-                <box n="1">*(It's a bag of dog food.) *(It's half-full.)</box>
-                <box n="2">*(The fridge is filled with instant noodles and soda.)</box>
-                <box n="3">*(Take a package of noodles?)</box>
-                <conditions taken="takeIt"/>
-                <box n="4">*(You got instant noodles.)</box>
-                <box n="5">*(Take a package of noodles?)</box>
-                <conditions taken="leaveIt"/>
-                <box n="6">*(You decide to stay healthy.)</box>
-                <box n="7">*(It's a beat-up figurine of a female human with cat ears.)</box>
-                <box n="8">*(It's a teacup shaped like a yellow lizard.) *(It's full of soda.)</box>
-                <box n="9">*(It's a computer.) *(It's accessing some kind of puzzle in
-                    Snowdin.)</box>
-                <box n="10">*(It seems like a walkthrough to a game, or...?)</box>
-                <box n="11">*(Seems like the notes to something, but it's all written in chicken
-                    scratch.)</box>
-                <box n="12">*(A garbage can.) *(But it's pretty cute.)</box>
-                <box n="13">*(It's a video feed of your location.)</box>
-                <box n="14">*(The space behind the wall is only a few feet wide.)</box>
-                <box n="15">*(It's a bathroom sign.)</box>
-                <box n="16">*(Yellow feet are tapping just behind the door.)</box>
-            </sp>
+            <option what="gamePlay">
+                <sp speaker="game" to="you">
+                    <box n="24">*(It's a bag of dog food.) *(It's half-full.)</box>
+                    <box n="25">*(The fridge is filled with instant noodles and soda.)</box>
+                    <box n="26">*(Take a package of noodles?) Take it Leave it</box>
+                    <box n="27">*(You got instant noodles.)</box>
+                    <box n="28">*(Take a package of noodles?)</box>
+                    <box n="29">*(You decide to stay healthy.)</box>
+                    <box n="30">*(It's a beat-up figurine of a female human with cat ears.)</box>
+                    <box n="31">*(It's a teacup shaped like a yellow lizard.) *(It's full of
+                        soda.)</box>
+                    <box n="32">*(It's a computer.) *(It's accessing some kind of puzzle in
+                        Snowdin.)</box>
+                    <box n="33">*(It seems like a walkthrough to a game, or...?)</box>
+                    <box n="34">*(Seems like the notes to something, but it's all written in chicken
+                        scratch.)</box>
+                    <box n="35">*(A garbage can.) *(But it's pretty cute.)</box>
+                    <box n="36">*(It's a video feed of your location.)</box>
+                    <box n="37">*(The space behind the wall is only a few feet wide.)</box>
+                    <box n="38">*(It's a bathroom sign.)</box>
+                    <box n="39">*(Yellow feet are tapping just behind the door.)</box>
+                </sp>
+            </option>
             <conditions timesKilled="1"/>
             <sp speaker="game" to="you">
                 <box n="1">*(It's a half-empty bag of dog food.)</box>
             </sp>
-            <conditions timesKilled="21"/>
+            <conditions timesKilled="2"/>
             <sp speaker="game" to="you">
                 <box n="1">*(You just remembered something funny.)</box>
+            </sp>
+        </setting>
+        <setting name="AlphysBedroom">
+            <option what="gamePlay">
+                <sp speaker="game" to="you">
+                    <box n="1">*(Scientific books.) *(They seem very dusty.)</box>
+                    <box n="2">*(All these books are labelled Human History.) Read one Do not</box>
+                    <box n="3">*(You look inside a book)</box>
+                    <box n="4">*(It's a comic of a giant robot fighting a beautiful alien
+                        princess.)</box>
+                    <box n="5">*(This doesn't strike you as very accurate...)</box>
+                    <box n="6">*(All these books are labelled Human History.) Read one Do not</box>
+                    <box n="7">*(You decide not to.)</box>
+                    <box n="08">*(VHSes and DVDs of various cartoons.</box>
+                    <box n="9">*(They are all albelled "Human History.")</box>
+                    <box n="10">*(All these books are labelled Human History.) Read one Do not</box>
+                    <box n="11">*(You look inside a book.) *(It's a comic book.)</box>
+                    <box n="12">*(Two scantily-clad chefs are flinging energy pancakes at each
+                        other.)</box>
+                    <box n="13">*(This doesn't strike you as very accurate...)</box>
+                    <box n="14">*(All these books are labelled Human History.) Read one Do not</box>
+                    <box n="15">*(You decide not to.)</box>
+                    <box n="16">*(All these books are labelled Human History.) Read one Do not</box>
+                    <box n="17">*(You look inside a book.) *(It's a comic book.)</box>
+                    <box n="18">*(A hideous android is running to school with toast in is
+                        mouth.)</box>
+                    <box n="19">*(Seems like it's late.)</box>
+                    <box n="20">*(This doesn't strike you as very accurate...)</box>
+                    <box n="21">*(All these books are labelled Human History.) Read one Do not</box>
+                    <box n="22">*(You decide not to.)</box>
+                    <box n="23">*(Pink goop drips from this strange machine.)</box>
+                    <box n="24">*(Looks like Alphys's work table.) *(Seems dusty.)</box>
+                    <box n="25">*(The wardrobe is full of dirty lab coats...) *(And a single clean
+                        dress.)</box>
+                    <box n="26">*(There are letters from many monsters here...) *(Froggit, Snowy,
+                        Doggo...)</box>
+                    <box n="27">*(They're all unopened.)</box>
+                    <box n="28">*(It's a lamp with pink fish on the lampshade.) *(There's no
+                        lightbulb.)</box>
+                    <box n="29">*(An incredible invention.)</box>
+                    <box n="30">*(When not in use, this bed folds into an extremely-easy-to-draw
+                        box.)</box>
+                    <box n="31">*(It's a promo poster for Mettaton's TV premiere.)</box>
+                    <box n="32">*(On the flap it says "Thank you for making my dreams come
+                        true.")</box>
+                </sp>
+            </option>
+        </setting>
+        <setting name="HallwayOutsideOfLab">
+            <sp speaker="cellPhone">
+                <box n="1">ALPHYS updated status. *just realized i didn't watch undyne fight the
+                    human v. v</box>
             </sp>
         </setting>
     </path>

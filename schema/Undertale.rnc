@@ -176,7 +176,7 @@ name =
         | "MeetingAlphys"
         | "MeetingMettaton"
     }
-sp = element sp { (speaker | to)*, (box | choice | conditions)* }
+sp = element sp { (speaker | to)*, (box | choice | conditions | option)* }
 speaker =
     attribute speaker {
         "game"
@@ -262,7 +262,7 @@ conditions =
          | timesKilled
          | timesSpared
          | timesPlayed
-         | pastRoute)*,
+         | pastRoute | what)*,
         (box | choice | sp)*
     }
 timesTalkedTo = attribute timesTalkedTo { xsd:integer }
@@ -282,7 +282,7 @@ box = element box { n, (speaker | to | option)*, text }
 # ebb: REFINE THIS with specific values.
 n = attribute n { xsd:integer }
 # ebb: REFINE THIS with specific values. (Same as the who attribute?)
-what = attribute what { "gameNarr" | "gameSave" | "kill" | "spare" }
+what = attribute what { "gameNarr" | "gameSave" | "kill" | "spare" | "gamePlay" }
 timesPlayed = attribute timesPlayed { xsd:integer }
 pastRoute =
     attribute pastRoute {
