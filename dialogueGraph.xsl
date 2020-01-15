@@ -73,7 +73,7 @@
                             y1="{-position() * $Y-Spacer + $Y-Spacer div 2 }"
                             y2="{-position() * $Y-Spacer + $Y-Spacer div 2}" stroke="chocolate"
                             stroke-width="10"/>
-                    </g> <line x1="0" y1="0" x2="0" y2="{-37 * $Y-Spacer}" stroke-width="3" stroke="blue"/>
+                    </g> <line x1="0" y1="0" x2="0" y2="{-position() * $Y-Spacer + $Y-Spacer div 1.8}" stroke-width="3" stroke="blue"/>
                     
                     <line x1="0" y1="0" x2="{110 * $X-Stretcher}" y2="0" stroke-width="3"
                         stroke="red"/>

@@ -273,6 +273,61 @@
             <sp speaker="cellPhone">
                 <box n="1">ALPHYS updated status. *just realized i didn't watch undyne fight the
                     human v. v</box>
+                <box n="2">ALPHYS updated status. *well i know she's unbeatable i'll ask her abt it
+                    later ^. ^</box>
+                <box n="3">ALPHYS updated status. *for now i gotta call up the human and guide them
+                    -^. ^-</box>
+            </sp>
+        </setting>
+        <setting name="SplitBeamsHall">
+            <sp speaker="cellPhone">
+                <box n="1">ALPHYS updated status. *gonna call them in a minute!!! -^. ^-</box>
+            </sp>
+        </setting>
+        <setting name="SteamVentRoom">
+            <sp speaker="determination">
+                <box n="1">*(The wooshing sound of steam and cogs... it fills you with
+                    determination.)</box>
+            </sp>
+            <sp speaker="cellPhone">
+                <box n="3">ALPHYS updated status. *I HATE USING THE PHONE I DON'T WANT TO DO THIS
+                    LMAO ^. ^</box>
+                <box n="4">ALPHYS updated status. *omg ive had my claw over the last digit for 5
+                    minutes</box>
+                <box n="5">*omg i'm just gonna do it *i'm just gonna call!!!!</box>
+                <box n="6">*Ring... Ring...</box>
+                <box n="7">*Click...?</box>
+            </sp>
+            <sp speaker="game" to="you">
+                <box n="8">*(Whoever was calling hung up before you answered it.)</box>
+            </sp>
+        </setting>
+        <setting name="FrypanRoom">
+            <option what="gamePlay">
+                <sp speaker="game" to="you">
+                    <box n="1">*(There's a frypan lying on the ground.)</box>
+                    <box n="2">*(Will you take it?) Take it Leave it</box>
+                    <box n="3">*(You got the Burnt Pan.)</box>
+                </sp>
+            </option>
+        </setting>
+        <setting name="LaserPuzzle">
+            <sp speaker="cellPhone">
+                <box n="1">*Ring...</box>
+            </sp>
+            <sp speaker="Alphys">
+                <box n="2">*Uhh! *H-hi, so, the blue lasers...</box>
+                <box n="3">*Uhh! *I mean, Alphys here! *Hi!</box>
+                <box n="4">*The blue lasers won't hurt you if you don't move.</box>
+                <box n="5">*O-orange ones, um... *Y-you have to be moving, and they...</box>
+                <box n="6">*Um, they won't, um...</box>
+                <box n="7">*Move through those ones!</box>
+                <box n="8">*...</box>
+                <box n="9">*Uhh, bye!</box>
+            </sp>
+            <sp speaker="cellPhone">
+                <box n="10">*Click...</box>
+                <box n="11">ALPHYS updated status. *OMG I DID IT!!!</box>
             </sp>
         </setting>
     </path>
