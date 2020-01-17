@@ -365,7 +365,44 @@
             <conditions what="gamePlay">
                 <box n="10">*(The door is locked.)</box>
             </conditions>
-
+            <conditions what="gamePlay">
+                <sp speaker="game" to="you">
+                    <box n="1">*(This half of the door is unlocked.)</box>
+                    <box n="2">*(The door is open.)</box>
+                </sp>
+            </conditions>
+        </setting>
+        <setting name="WorkingMonsters">
+            <conditions what="gamePlay">
+                <sp speaker="BusinessDudes">
+                    <box n="1">*The way to work is blocked, so I had time to catch Mettaton's show
+                        on my phone...</box>
+                    <box n="2">*The special effects were amazing today! *That human almost looked
+                        REAL!</box>
+                    <box n="3">*Of course, an experienced viewer like me knows CGI when they see
+                        it...</box>
+                </sp>
+                <sp speaker="BusinessDudes">
+                    <box n="4">*Mettaton? *Yeah, he's the most popular star in the
+                        underground!</box>
+                    <box n="5">*His fan club probably has at least who... no, THREE dozen
+                        members!</box>
+                    <box n="6">*And that's not even counting me!</box>
+                </sp>
+            </conditions>
+            <sp speaker="cellPhone">
+                <box n="7">ALPHYS updated status. *wonder if it would be unfun if i explained the
+                    puzzle...</box>
+            </sp>
+        </setting>
+        <setting name="ShootingPuzzle1">
+            <sp speaker="FoxHead">
+                <box n="1">*The door leading through the area is closed? *So I tried the
+                    puzzle?</box>
+                <box n="2">*But I kept running out of ammo, and it kept restarting?</box>
+                <box n="3">*And my two co-workers won't help? It's like they don't even wanna go to
+                    work?</box>
+            </sp>
         </setting>
     </path>
     <path route="neutral">

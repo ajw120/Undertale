@@ -238,7 +238,9 @@ speaker =
         | "ferry"
         | "cheese"
         | "ClamGuy"
-        | "RiverPerson")
+        | "RiverPerson"
+        | "BusinessDudes"
+        | "FoxHead")
     }
 to = attribute to { text }
 # ebb: REFINE THIS with specific values.
