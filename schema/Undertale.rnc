@@ -179,7 +179,7 @@ name =
 sp = element sp { (speaker | to)*, (box | choice | conditions | option)* }
 speaker =
     attribute speaker {
-        "game"
+        ("game"
         | "sign"
         | "determination"
         | "cellPhone"
@@ -238,7 +238,7 @@ speaker =
         | "ferry"
         | "cheese"
         | "ClamGuy"
-        | "RiverPerson"
+        | "RiverPerson")
     }
 to = attribute to { text }
 # ebb: REFINE THIS with specific values.

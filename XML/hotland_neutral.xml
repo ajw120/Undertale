@@ -328,7 +328,44 @@
             <sp speaker="cellPhone">
                 <box n="10">*Click...</box>
                 <box n="11">ALPHYS updated status. *OMG I DID IT!!!</box>
+                <box n="12">*claws haven't shook like that since undyne called me to ask about the
+                    weather... v. v</box>
+                <box n="13">ALPHYS updated status. *WAIT THERE'S NO WEATHER DOWN HERE WHY DID SHE
+                    CALL ME</box>
             </sp>
+            <conditions what="gamePlay">
+                <sp speaker="game" to="you">
+                    <box n="14">*(It's a switch.) Press it Don't</box>
+                    <box n="15">*(The lasers were deactivated.)</box>
+                    <box n="16">*(The lasers were reactivated.)</box>
+                </sp>
+            </conditions>
+        </setting>
+        <setting name="ShootingPuzzleBeginning">
+            <sp speaker="cellPhone">
+                <box n="1">ALPHYS updated status. *Oh My God i Forgot to Tell THem Where To Go</box>
+                <box n="2">ALPHYS posted a picture. *CUTE PIC OF ME RIGHT NOW ^. ^</box>
+            </sp>
+            <conditions what="gamePlay">
+                <sp speaker="game" to="you">
+                    <box n="3">*(It's a photo of a garbage can with several pink, glittery filters
+                        over it.)</box>
+                </sp>
+            </conditions>
+            <sp speaker="cellPhone">
+                <box n="4">*Ring...</box>
+                <box n="5">*(A-A-Alphys here!!!!</box>
+                <box n="6">*Th... the northern door will stay locked until you...</box>
+                <box n="7">*S-solve the puzzles on the right and left!</box>
+                <box n="8">*I... I think you sh-should g-g-go to the right first!</box>
+            </sp>
+            <sp speaker="cellPhone">
+                <box n="9">*Click...</box>
+            </sp>
+            <conditions what="gamePlay">
+                <box n="10">*(The door is locked.)</box>
+            </conditions>
+
         </setting>
     </path>
     <path route="neutral">
