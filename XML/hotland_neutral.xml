@@ -402,6 +402,161 @@
                 <box n="2">*But I kept running out of ammo, and it kept restarting?</box>
                 <box n="3">*And my two co-workers won't help? It's like they don't even wanna go to
                     work?</box>
+                <box n="4">*Why don't you try? *Try using the console?</box>
+
+            </sp>
+            <sp speaker="game">
+                <box n="5">*(Shoot the opposing ship!) *(Move the boxes to complete your
+                    mission.)</box>
+            </sp>
+            <sp speaker="FoxHead">
+                <box n="7">*Wow? *You solved it?</box>
+                <box n="8">*I'm impressed? *You must be a total nerd?</box>
+            </sp>
+        </setting>
+        <setting name="SchoolKids">
+            <sp speaker="cellPhone">
+                <box n="1">*Ring...</box>
+                <box n="2">*Alphys! Here!</box>
+                <box n="3">*Th-that blue laser seems totally impassable!</box>
+                <box n="4">*B-b-but!</box>
+                <box n="5">*As the Royal Scientist, I h-have some tricks up my sleeve!</box>
+                <box n="6">*I'll h-hack into the-the Hotland laser datbase and take it out!</box>
+                <box n="7">*Click...</box>
+            </sp>
+            <sp speaker="FukuFire">
+                <box n="8">*Finally! *Someone turned off that laser!</box>
+                <box n="9">*Now that we're free we can... *Well, uh I guess we'll jsut keep standing
+                    here.</box>
+                <box n="10">*Hm? *Nice try, but your loitering technique still needs work.</box>
+            </sp>
+            <sp speaker="SkateboardGirl">
+                <box n="11">*We were hanging out when suddenly, a bucha puzzles reactivated out of
+                    nowhere.</box>
+                <box n="12">*This is a huge problem... *It rules! They've GOTTA cancel school over
+                    this!</box>
+                <box n="13">*Wait a second... *Auuuugh, it's summer vacation!</box>
+            </sp>
+            <conditions what="gamePlay">
+                <sp speaker="cellPhone">
+                    <box n="1">*Ring...</box>
+                    <box n="2">*A-another laser, huh?</box>
+                    <box n="3">*I'm sorry, I won't play around this time.</box>
+                    <box n="4">*Hold on a second!!</box>
+                    <box n="5">*Click...</box>
+                </sp>
+            </conditions>
+        </setting>
+        <setting name="ShootingPuzzle2">
+            <sp speaker="sign">
+                <box n="1">*(Shoot the opposing ship!) *(Move the boxes to complete your
+                    mission.)</box>
+            </sp>
+            <sp speaker="puzzle">
+                <box n="2">RESTART...</box>
+                <box n="3">CONGRATULATIONS!</box>
+            </sp>
+        </setting>
+        <setting name="VentsBeforeMettaton">
+            <sp speaker="cellPhone">
+                <box n="1">ALPHYS updated status. *whatever!!! i'll just explain it!!!</box>
+                <box n="2">*Ring...</box>
+                <box n="3">*Uuuh, I think... *Umm...</box>
+                <box n="4">*Hey! *About the puzzles on the left and right...!</box>
+                <box n="5">*They're a bit difficult to explain, but...</box>
+                <box n="6">*... uhhh, you already s-solved them?</box>
+                <box n="7">*Awesome!</box>
+                <box n="8">*Click...</box>
+            </sp>
+        </setting>
+        <setting name="CookingWithAKillerRobot">
+            <sp speaker="cellPhone">
+                <box n="1">*Ring...</box>
+                <box n="2">*H-hey, it's kind of dark in there, isn't it?</box>
+                <box n="3">*Don't worry!</box>
+                <box n="4">*I'll hack into the light system and brighten it up!</box>
+                <box n="5">*Oh no.</box>
+            </sp>
+            <sp speaker="Mettaton">
+                <box n="6">*OHHHH YES!!!</box>
+                <box n="7">*WELCOME, BEAUTIES, TO THE UNDERGROUND'S PREMIER COOKING SHOW!!!</box>
+
+            </sp>
+            <sp speaker="sign">
+                <box n="8">Cooking with a Killer Robot</box>
+            </sp>
+            <sp speaker="Mettaton">
+                <box n="9">*PRE-HEAT YOUR OVENS, BECAUSE WE'VE GOT A VERY SPECIAL RECIPE FOR YOU
+                    TODAY!</box>
+                <box n="10">*WE'RE GOING TO BE MAKING...</box>
+                <box n="11">*A CAKE!</box>
+                <box n="12">*</box>
+                <box n="13">*</box>
+                <box n="14">*</box>
+                <box n="15">*</box>
+                <box n="16">*</box>
+                <box n="17">*</box>
+                <box n="18">*</box>
+                <box n="19">*</box>
+                <box n="20">*</box>
+                <box n="21">*</box>
+                <box n="22">*</box>
+                <box n="23">*</box>
+                <box n="24">*</box>
+                <box n="25">*</box>
+                <box n="26">*</box>
+                <box n="27">*</box>
+                <box n="28">*</box>
+                <box n="29">*</box>
+                <box n="30">*</box>
+                <box n="31">*</box>
+                <box n="32">*</box>
+                <box n="33">*</box>
+                <box n="34">*</box>
+                <box n="35">*</box>
+                <box n="36">*</box>
+                <box n="37">*</box>
+                <box n="38">*</box>
+                <box n="39">*</box>
+                <box n="40">*</box>
+                <box n="41">*</box>
+                <box n="42">*</box>
+                <box n="43">*</box>
+                <box n="44">*</box>
+                <box n="45">*</box>
+                <box n="46">*</box>
+                <box n="47">*</box>
+                <box n="48">*</box>
+                <box n="49">*</box>
+                <box n="50">*</box>
+                <box n="51">*</box>
+                <box n="52">*</box>
+                <box n="53">*</box>
+                <box n="54">*</box>
+                <box n="55">*</box>
+                <box n="56">*</box>
+                <box n="57">*</box>
+                <box n="58">*</box>
+                <box n="59">*</box>
+                <box n="60">*</box>
+                <box n="61">*</box>
+                <box n="62">*</box>
+                <box n="63">*</box>
+                <box n="64">*</box>
+                <box n="65">*</box>
+                <box n="66">*</box>
+                <box n="67">*</box>
+                <box n="68">*</box>
+                <box n="69">*</box>
+                <box n="70">*</box>
+                <box n="71">*</box>
+                <box n="72">*</box>
+                <box n="73">*</box>
+                <box n="74">*</box>
+                <box n="75">*</box>
+                <box n="76">*</box>
+                <box n="77">*</box>
+                <box n="78">*</box>
             </sp>
         </setting>
     </path>
