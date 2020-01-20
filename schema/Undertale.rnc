@@ -176,7 +176,7 @@ name =
         | "MeetingAlphys"
         | "MeetingMettaton"
     }
-sp = element sp { (speaker | to)*, (box | choice | conditions | option)* }
+sp = element sp { (speaker | to)*, (box | choice | conditions | option)* } #added conditions to the sp element. -bobbyfunks.
 speaker =
     attribute speaker {
         list {
@@ -243,11 +243,11 @@ speaker =
             | "BusinessDudes"
             | "FoxHead"
             | "FukuFire"
-            | "SkateboardGirl" | "puzzle"
+            | "SkateboardGirl"
+            | "puzzle"
         }
     }+
-to = attribute to { "you" | "Sans" | "Papyrus" }
-# ebb: REFINE THIS with specific values.
+to = attribute to { "you" | "Sans" | "Papyrus" | "Alphys" | "Mettaton" }
 choice = element choice { (option | box | sp | text)* }
 option = element option { what, (sp | box | choice | pathChange)* }
 pathChange = element pathChange { (fromRt | toRt)*, sp* }
@@ -269,7 +269,8 @@ conditions =
          | timesSpared
          | timesPlayed
          | pastRoute
-         | what)*,
+         | what
+         | puzzle)*,
         (box | choice | sp)*
     }
 timesTalkedTo = attribute timesTalkedTo { xsd:integer }
@@ -289,12 +290,14 @@ box = element box { n, (speaker | to | option)*, text }
 # ebb: REFINE THIS with specific values.
 n = attribute n { xsd:integer }
 # ebb: REFINE THIS with specific values. (Same as the who attribute?)
-what = attribute what { "gameNarr" | "gameSave" | "kill" | "spare" | "gamePlay" }
+what = attribute what { "gameNarr" | "gameSave" | "kill" | "spare" | "gamePlay" }#Switched use of "gameNarr" to "gamePlay" to highlight player interaction to induce dialogue. -bobbyfunks
 timesPlayed = attribute timesPlayed { xsd:integer }
 pastRoute =
     attribute pastRoute {
         list { ("pacifist" | "neutral" | "genocide")* }
     }
+puzzle = attribute puzzle { "solved" | "failed" }
+# puzzle attribute added as a catch-all for any puzzle in the game. -bobbyfunks
 # what attribute values: We're trying to keep these simple: 
 # what="gameNarr" is the computer game guiding your interaction with characters or objects
 # what="gameSave" marks all the save moments, which are important because here the computer makes an assessment of your game route/

@@ -490,74 +490,217 @@
                     TODAY!</box>
                 <box n="10">*WE'RE GOING TO BE MAKING...</box>
                 <box n="11">*A CAKE!</box>
-                <box n="12">*</box>
-                <box n="13">*</box>
-                <box n="14">*</box>
-                <box n="15">*</box>
-                <box n="16">*</box>
-                <box n="17">*</box>
-                <box n="18">*</box>
-                <box n="19">*</box>
-                <box n="20">*</box>
-                <box n="21">*</box>
-                <box n="22">*</box>
-                <box n="23">*</box>
-                <box n="24">*</box>
-                <box n="25">*</box>
-                <box n="26">*</box>
-                <box n="27">*</box>
-                <box n="28">*</box>
-                <box n="29">*</box>
-                <box n="30">*</box>
-                <box n="31">*</box>
-                <box n="32">*</box>
-                <box n="33">*</box>
-                <box n="34">*</box>
-                <box n="35">*</box>
-                <box n="36">*</box>
-                <box n="37">*</box>
-                <box n="38">*</box>
-                <box n="39">*</box>
-                <box n="40">*</box>
-                <box n="41">*</box>
-                <box n="42">*</box>
-                <box n="43">*</box>
-                <box n="44">*</box>
-                <box n="45">*</box>
-                <box n="46">*</box>
-                <box n="47">*</box>
-                <box n="48">*</box>
-                <box n="49">*</box>
-                <box n="50">*</box>
-                <box n="51">*</box>
-                <box n="52">*</box>
-                <box n="53">*</box>
-                <box n="54">*</box>
-                <box n="55">*</box>
-                <box n="56">*</box>
-                <box n="57">*</box>
-                <box n="58">*</box>
-                <box n="59">*</box>
-                <box n="60">*</box>
-                <box n="61">*</box>
-                <box n="62">*</box>
-                <box n="63">*</box>
-                <box n="64">*</box>
-                <box n="65">*</box>
-                <box n="66">*</box>
-                <box n="67">*</box>
-                <box n="68">*</box>
-                <box n="69">*</box>
-                <box n="70">*</box>
-                <box n="71">*</box>
-                <box n="72">*</box>
-                <box n="73">*</box>
-                <box n="74">*</box>
-                <box n="75">*</box>
-                <box n="76">*</box>
-                <box n="77">*</box>
-                <box n="78">*</box>
+                <box n="12">*MY LOVELY ASSISTANT HERE WILL GATHER THE INGREDIENTS.</box>
+                <box n="13">*EVERYONE GIVE THEM A BIG HAND!!!</box>
+                <box n="14">*WE'LL NEED SUGAR, MILK, AND EGGS.</box>
+                <box n="15">*GO FOR IT, SWEETHEART!</box>
+                <box n="16">*MILK, SUGAR, AND EGGS! *YOU SHOULD BE ABLE TO FIND THEM ON THE BACK
+                    COUNTER!</box>
             </sp>
+            <conditions what="gamePlay">
+                <box n="17">*THIS ISN'T A SHOW ABOUT WASHING YOUR HANDS, DARLING.</box>
+                <box n="18">*THAT'S ON WEDNESDAYS!</box>
+                <box n="19">*MILK? EGGS? IN THE FRIDGE?</box>
+                <box n="20">*NO WAY, DARLING! *THEY'D GET COLD!!!</box>
+                <sp speaker="game">
+                    <box n="21">*(As per culinary standard, a death forcefield surrounds the
+                        kitchen.)</box>
+                    <box n="22">*(As per culinary standard, a death forcefield surrounds the
+                        kitchen.)</box>
+                </sp>
+                <sp speaker="Mettaton">
+                    <box n="23">*MTT-BRAND MICROWAVE! *ORIGIN OF THE MTT CHALLENGE!</box>
+                    <box n="24">*PUT YOUR FOOD IN AND SET THE MICROWAVE ON HIGH FOR FIVE
+                        MINUTES...</box>
+                    <box n="25">*IF YOU CAN STILL RECOGNIZE YOUR MEAL, WE'LL DOUBLE YOUR MONEY
+                        BACK!!!</box>
+                    <box n="26">*OH YES! MTT-BRAND OVENS CAN REACH TEMPERATURES UP TO NINE-THOUSAND
+                        DEGREES!</box>
+                    <box n="27">*ROASTING! TOASTING! BURNING! *CHARRING! YOU'RE EXCITED, AREN'T YOU,
+                        DARLING? (TM)</box>
+                </sp>
+                <sp speaker="game">
+                    <box n="28">*(You found the sugar.)</box>
+                    <box n="29">*(You found the milk.)</box>
+                    <box n="30">*(You found the eggs.)</box>
+                </sp>
+            </conditions>
+            <sp speaker="Mettaton">
+                <box n="31">*GREAT JOB! *JUST PUT THEM IN TEH MIDDLE OF THIS COUNTER!</box>
+                <box n="32">*PERFECT! *GREAT JOB, BEAUTIFUL!</box>
+                <box n="33">*WE'VE GOT ALL OF THE INGREDIENTS WE NEED TO BAKE THE CAKE!</box>
+                <box n="34">*MILK... *SUGAR... *EGGS...</box>
+                <box n="35">*... OH MY! *WAIT A MAGNIFICIENT MOMENT! *HOW COULD I FORGET!!!</box>
+                <box n="36">*WE"RE MISSING THE MOST IMPORTANT INGREDIENT!</box>
+                <box n="37">*A HUMAN SOUL!!!!</box>
+            </sp>
+            <sp speaker="cellPhone">
+                <box n="38">*Ring...</box>
+            </sp>
+            <sp speaker="Mettaton" to="Alphys">
+                <box n="39">*HELLO...? *I'M KIND OF IN THE MIDDLE OF SOMETHING HERE.</box>
+            </sp>
+            <sp speaker="Alphys" to="Mettaton">
+                <box n="40">*W-wait a second!!!</box>
+                <box n="41">*Couldn't you make a...</box>
+                <box n="42">*Couldn't you use a...</box>
+                <box n="43">*Couldn't you make a substitution in the recipe?!</box>
+            </sp>
+            <sp speaker="Mettaton" to="Alphys">
+                <box n="44">*... A SUBSTITUTION? *YOU MEAN, USE A DIFFERENT, NON-HUMAN
+                    INGREDIENT?</box>
+                <box n="45">*... WHY?</box>
+            </sp>
+            <sp speaker="Alphys" to="Mettaton">
+                <box n="46">*Uhh, what if someone's...</box>
+                <box n="47">*...</box>
+                <box n="48">*Vegan?</box>
+            </sp>
+            <sp speaker="Mettaton" to="Alphys">
+                <box n="49">*... VEGAN.</box>
+            </sp>
+            <sp speaker="Alphys" to="Mettaton">
+                <box n="50">*Uh well I mean</box>
+            </sp>
+            <sp speaker="Mettaton" to="Alphys">
+                <box n="51">*THAT'S A BRILLIANT IDEA, ALPHYS!!</box>
+                <box n="52">*ACTUALLY, I HAPPEN TO HAVE AN OPTION RIGHT HERE!!!</box>
+                <box n="53">*MTT-BRAND ALWAYS-CONVENIENT HUMAN-SOUL-FLAVOR-SUBSTITUE!</box>
+                <box n="54">*A CAN OF WHICH... *IS JUST OVER ON THAT COUNTER!!!</box>
+            </sp>
+            <sp speaker="Mettaton" to="you">
+                <box n="56">*WELL, DARLING? *WHY DON"T YOU GOT GET IT?</box>
+                <box n="57">*WHAT'S THE MATTER? *NOT A CAN FAN? *THAT'S TOO BAD!</box>
+                <box n="58">*MTT-BRAND USES ONLY THE FRESHEST ARTIFICIAL INGREDIENTS AND
+                    CHEMICALS!</box>
+            </sp>
+            <conditions what="gamePlay">
+                <sp speaker="cellPhone">
+                    <box n="59">*Ring...</box>
+                </sp>
+                <sp speaker="Alphys" to="you">
+                    <box n="60">*H-hey! *Head over to the right!</box>
+                </sp>
+                <sp speaker="cellPhone">
+                    <box n="61">*Ring...</box>
+                </sp>
+                <sp speaker="Alphys" to="you">
+                    <box n="62">*Um, is it really a good idea to be getting a snack?</box>
+                    <box n="63">*Well, I guess I really shouldn't judge you...</box>
+                    <box n="64">*After all, I'm the one eating potato chips in my PJs!</box>
+                    <box n="65">*Uhhh, I mean... *H-hey, go over to the right!</box>
+                </sp>
+                <sp speaker="Mettaton" to="you">
+                    <box n="66">*STILL FIDDLING WITH THAT MICROWAVE, EH, DARLING?</box>
+                    <box n="67">*CAN'T BLAME YOU FOR BEING TOTALLY ENAMORED WITH AN ELECTRONIC
+                        BOX.</box>
+                </sp>
+                <sp speaker="game" to="you">
+                    <box n="68">*(It's the oven.) *(Looks like someone forgot to preheat it.)</box>
+                </sp>
+            </conditions>
+            <sp speaker="Mettaton" to="you">
+                <box n="69">*BY THE WAY, OUR SHOW RUNS ON A STRICT SCHEDULE.</box>
+                <box n="70">*IF YOU CAN'T GET THE CAN IN THE NEXT ONE MINUTE...</box>
+                <box n="71">*WE'LL JUST HAVE TO GO BACK TO THE ORIGINAL PLAN!!!</box>
+                <box n="72">*SO... *BETTER START CLIMBING, BEAUTIFUL!!!</box>
+            </sp>
+            <sp speaker="cellPhone">
+                <box n="73">*Ring...</box>
+            </sp>
+            <sp speaker="Alphys">
+                <box n="74">*oh no!!! *There's not enough time to climb up!</box>
+                <box n="75">*...</box>
+                <box n="76">*F-f-fourtunately, I might have a plan!</box>
+                <box n="77">*When I was upgrading your phone, I added a few... features.</box>
+                <box n="78">*You see that huge button that says... *"JETPACK"?</box>
+                <box n="79">*Watch this!</box>
+                <box n="80">*There!</box>
+                <box n="81">*You should have just enough fuel to reach the top!</box>
+                <box n="82">*Now, get up there!!!</box>
+            </sp>
+            <conditions puzzle="solved">
+                <sp speaker="Mettaton" to="you">
+                    <box n="1">*MY MY.</box>
+                    <box n="2">*IT SEEMS YOU'VE BESTED ME.</box>
+                    <box n="3">*BUT ONLY BECAUSE YOU HAD THE HELP OF THE BRILLIANT DOCTOR
+                        ALPHYS!</box>
+                    <box n="4">*OH, I LOATHE TO THINK OF WHAT WOULD HAVE HAPPENED TO YOU WITHOUT
+                        HER!!!</box>
+                    <box n="5">*WELL, TOODLES!!</box>
+                    <box n="6">*OH YES! *ABOUT THE SUBSTITUTION...</box>
+                    <box n="7">*HAVEN'T YOU EVER SEEN A COOKING SHOW BEFORE?</box>
+                    <box n="8">*I ALREADY BAKED THE CAKE AHEAD OF TIME!!!!! *SO FORGET IT!!!</box>
+                </sp>
+                <sp speaker="cellPhone">
+                    <box n="9">*Ring...</box>
+                </sp>
+                <sp speaker="Alphys" to="you">
+                    <box n="10">*Wow! *We... we did it!!</box>
+                    <box n="11">*We... we really did it!!!</box>
+                    <box n="12">*Great job out there, team!</box>
+                    <box n="13">*W-well, uh, anyway, let's keep heading forward!!!</box>
+                </sp>
+                <sp speaker="cellPhone">
+                    <box n="14">*Click...</box>
+                </sp>
+            </conditions>
+            <conditions puzzle="failed">
+                <sp speaker="cellPhone">
+                    <box n="1">*Ring...</box>
+                </sp>
+                <sp speaker="Alphys" to="you">
+                    <box n="2">*Wh-what!? *Wh-why aren't you m-m-moving?</box>
+                    <box n="3">*N-no...! *I must not have added enough fuel!</box>
+                    <box n="4">*D-darnit... *I'm sorry...</box>
+                    <box n="5">*Even when it's something like this, I...</box>
+                    <box n="6">*I still...! *I still...</box>
+                </sp>
+                <sp speaker="Mettaton" to="Alphys">
+                    <box n="7">*OH NO, WOULD YOU LOOK AT THAT!</box>
+                </sp>
+                <sp speaker="Alphys" to="Mettaton">
+                    <box n="8">*What?</box>
+                </sp>
+                <sp speaker="Mettaton" to="Alphys">
+                    <box n="9">*I FORGOT! *RIGHT ABOUT NOW IS WHEN WE HAVE OUR COMMERCIAL
+                        BREAK!</box>
+                </sp>
+                <sp speaker="Alphys" to="Mettaton">
+                    <box n="10">*Wh... *What are you...</box>
+                </sp>
+                <sp speaker="Mettaton" to="you">
+                    <box n="11">*UNFORTUNATELY, THAT MEANS NO ONE IS WATCHING THIS RIGHT NOW.</box>
+                    <box n="12">*I'M NOT GOING TO DESTROY YOU WITHOUT A LIVE TELEVISION
+                        AUDIENCE!!</box>
+                    <box n="13">*LOOKS LIKE YOU'VE FOILED ME ONCE AGAIN, THANKS TO THE BRILLIANT DR.
+                        ALPHYS!!!</box>
+                    <box n="14">*UNTIL NEXT TIME, BEAUTIFUL!</box>
+                    <box n="15">*TOODLES!</box>
+                </sp>
+                <sp speaker="cellPhone">
+                    <box n="16">*Ring...</box>
+                </sp>
+                <sp speaker="Alphys" to="you">
+                    <box n="17">*...</box>
+                    <box n="18">*U-um... *I guess we... *... did it?</box>
+                    <box n="19">*W-well, uh, anyway, let's keep heading forward!!!</box>
+                </sp>
+                <sp speaker="cellPhone">
+                    <box n="20">*Click...</box>
+                </sp>
+            </conditions>
+            <conditions what="gamePlay">
+                <sp speaker="game" to="you">
+                    <box n="1">*</box>
+                    <box n="2">*</box>
+                    <box n="3">*</box>
+                    <box n="4">*</box>
+                    <box n="5">*</box>
+                    <box n="6">*</box>
+                </sp>
+            </conditions>
+
         </setting>
     </path>
     <path route="neutral">
