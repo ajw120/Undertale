@@ -692,15 +692,99 @@
             </conditions>
             <conditions what="gamePlay">
                 <sp speaker="game" to="you">
-                    <box n="1">*</box>
-                    <box n="2">*</box>
-                    <box n="3">*</box>
-                    <box n="4">*</box>
-                    <box n="5">*</box>
-                    <box n="6">*</box>
+                    <box n="1">*(It's glued to the table.)</box>
+                    <box n="2">*(It's an oven.) *(It looks pretty modern.)</box>
+                    <box n="3">*(It's a microwave.) *(That's great if you're a microwave fan.) </box>
+                    <box n="4">*(It's a specifically-regular-sized sink.)</box>
+                    <box n="5">*(It's a fridge.) *(It's strangely warm.)</box>
                 </sp>
             </conditions>
 
+        </setting>
+        <setting name="FirstCoreView">
+            <option what="gameSave">
+                <sp speaker="game" to="you">
+                    <box n="1">*(An ominous structure looms in the distance...)</box>
+                    <box n="2">*(You're filled with determination.)</box>
+                </sp>
+                <sp speaker="cellPhone">
+                    <box n="4">*Ring...</box>
+                </sp>
+                <sp speaker="Alphys" to="you">
+                    <box n="5">*S-see that building in the distance?</box>
+                    <box n="6">*That's the CORE. *The source of all power for the underground.</box>
+                    <box n="7">*It converts geothermal energy into magical electricity by...</box>
+                    <box n="8">*Uhh, anyway, that's where we're going to go.</box>
+                    <box n="9">*In the CORE is an elevator directly to ASGORE's castle.</box>
+                    <box n="10">*And from there... *You can go home.</box>
+                </sp>
+                <sp speaker="cellPhone">
+                    <box n="11">*Click...</box>
+                </sp>
+            </option>
+        </setting>
+        <setting name="ElevatorR1">
+            <sp speaker="game" to="you">
+                <box n="1">*Please select a location.</box>
+                <box n="2">*LeftFloor1 Cancel RightFloor2</box>
+            </sp>
+        </setting>
+        <setting name="ElevatorR2">
+            <sp speaker="HeatsFlamesman">
+                <box n="1">*Heh. *I'm Heats Flamesman. *Remember my name!</box>
+                <box n="2">LeftFloor 1 LeftFloor 2 LeftFloor 3 RightFloor 1 Cancel</box>
+            </sp>
+        </setting>
+        <setting name="SansHotdogStation">
+            <option what="gamePlay">
+                <sp speaker="HotDogHarpy" to="you">
+                    <box n="1">*I love hot dogs!</box>
+                    <box n="2">*Hey... *Isn't it weird there's SNOW on that guy's roof?</box>
+                    <box n="3">*... guess he's just too lazy to clean it off.</box>
+                </sp>
+                <sp speaker="HotDogVulkin" to="you">
+                    <box n="4">*Toasty bun!</box>
+                </sp>
+                <sp speaker="Sans" to="you">
+                    <box n="1">*hey buddy, what's up? *wanna buy a hot dog? </box>
+                    <conditions what="gamePlay">
+                        <box n="1">*it's only 30G. Yes No</box>
+                        <box n="2">*whoops, you don't have enough cash.</box>
+                        <box n="3">*you should get a job. *i've heard being a sentry pays
+                            well.</box>
+                    </conditions>
+                    <conditions what="gamePlay">
+                        <box n="1">*it's only 30G. Yes No</box>
+                        <box n="2">*yeah, you've gotta save your money for college and
+                            spiders.</box>
+                    </conditions>
+                    <conditions what="gamePlay">
+                        <box n="1">*it's only 30G Yes No</box>
+                        <box n="2">*thanks, kid. *here's your 'dog.</box>
+                        <box n="3">*Yeah. 'dog. *apostrophe-dog. *it's short for hot-dog.</box>
+                    </conditions>
+                    <conditions what="gamePlay">
+                        <box n="1">*it's only 30G. Yes No</box>
+                        <box n="2">*another dog, coming right up...</box>
+                        <box n="3">*... you really like hot animals, don't you?</box>
+                        <box n="4">*hey, i'm not judging.</box>
+                        <box n="5">*i'd be out of a job without folks like you.</box>
+                    </conditions>
+                    <conditions what="gamePlay">
+                        <box n="1">*it's only 30G</box>
+                        <box n="2">*cool. *here's that ''dog.</box>
+                        <box n="3">*apostrophe-apostrophe dog.</box>
+                        <box n="4">*it's short for apostrophe-dog.</box>
+                        <box n="5">*which is, in turn, short for...</box>
+                    </conditions>
+                    <conditions what="gamePlay">
+                        <box n="1">*it's only 30G. Yes No</box>
+                        <box n="2">*another h'dog? *here you go...</box>
+                        <box n="3">*whoops, i'm actually out of hot dogs.</box>
+                        <box n="4">*here, you can have a hot cat instead.</box>
+                    </conditions>
+                </sp>
+            </option>
         </setting>
     </path>
     <path route="neutral">
