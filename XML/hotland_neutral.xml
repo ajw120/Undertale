@@ -885,6 +885,46 @@
             <sp speaker="Alphys">
                 <box n="3">*Uh, h-h-hey!</box>
                 <box n="4">*I'm going to the bathroom, so I'll be MIA fora bit.</box>
+                <box n="5">*I'm... I'm sureyou can handle this puzzle yourself!</box>
+            </sp>
+            <sp speaker="cellPhone">
+                <box n="6">*Click...</box>
+            </sp>
+        </setting>
+        <setting name="CheeseRoom">
+            <sp speaker="cellPhone">
+                <box n="1">ALPHYS updated status. *OMG? ppl think Mew Mew 2 is better than Mew Mew
+                    1?</box>
+                <box n="2">*LOLLLL that's a joke right...</box>
+            </sp>
+            <option what="gameSave">
+                <sp speaker="game">
+                    <box n="3">*(Knowing the mouse might one day hack the computerized safe and get
+                        the cheese...) </box>
+                    <box n="4">*(It fills you with determination.)</box>
+                </sp>
+            </option>
+            <option what="gamePlay">
+                <box n="6">*(There's a piece of cheese inside this computerized laser-safe.)</box>
+                <box n="7">*(The lasers have melted the edges of the cheese...) *(It's stuck to the
+                    table.)</box>
+            </option>
+            <sp speaker="cellPhone">
+                <box n="8">ALPHYS updated status. *omg... DONT THEY GET IT RUINS Mew Mew's ENTIRE
+                    CHARACTER ARC</box>
+                <box n="9">ALPHYS updated status. *My Mew Mew 2 Review:</box>
+                <box n="10">*Mew Mew Kissy Cutie 2 Is Neither Kissy Nor Cutie. *Its Trash. 0
+                    stars.</box>
+            </sp>
+        </setting>
+        <setting name="RoyalGuards">
+            <sp speaker="RoyalGuard">
+                <box n="1">*Hey! You! *Stop!</box>
+                <box n="2">*We've like, received an anonymous tip about a human wearing a striped
+                    shirt.</box>
+                <box n="3">*They told us they were wandering around Hotland right now...</box>
+                <box n="4">*I know, sounds scary,huh?</box>
+                <box n="5">*Well, just stay chill. *We'll bring you someplace safe, OK?</box>
             </sp>
         </setting>
     </path>
