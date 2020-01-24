@@ -252,7 +252,7 @@ speaker =
     }+
 to = attribute to { "you" | "Sans" | "Papyrus" | "Alphys" | "Mettaton" }
 choice = element choice { (option | box | sp | text)* }
-option = element option { what, (sp | box | choice | pathChange)* }
+option = element option { what, (sp | box | choice | pathChange | conditions)* }
 pathChange = element pathChange { (fromRt | toRt)*, sp* }
 fromRt = attribute fromRt { "pacifist" | "genocide" }
 toRt = attribute toRt { "neutral" }

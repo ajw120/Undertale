@@ -779,17 +779,48 @@
                     </conditions>
                     <conditions what="gamePlay">
                         <box n="1">*it's only 30G. Yes No</box>
+                        <box n="2">*another one? *okay.</box>
+                        <box n="3">*careful. *if you eat too many hot dogs...</box>
+                        <box n="4">*you'll probably get huge like me.</box>
+                        <box n="5">*huge as in super-popular, i mean.</box>
+                        <box n="6">*i'm practically a hot-dog tycoon now.</box>
+                    </conditions>
+                    <conditions what="gamePlay">
+                        <box n="1">*it's only 30G. Yes No</box>
                         <box n="2">*another h'dog? *here you go...</box>
                         <box n="3">*whoops, i'm actually out of hot dogs.</box>
                         <box n="4">*here, you can have a hot cat instead.</box>
                     </conditions>
                 </sp>
+                <sp speaker="HotDogHarpy">
+                    <box n="1">*I love hot dogs!</box>
+                    <box n="2">*But the hot dog guy left... *Even though all of his stuff is still
+                        here.</box>
+                    <box n="3">*... guess he's just too lazy to clean it away.</box>
+                </sp>
             </option>
+        </setting>
+        <setting name="HotPicsHallway">
+            <sp speaker="cellPhone">
+                <box n="1">ALPHYS posted a picutre. *dinner with the girlfriend ;)</box>
+                <box n="2">*It's a picture of a catgirl figurine next to a bowl of instant
+                    noodles.)</box>
+                <box n="3">*CoolSkeleton95 posted a picture. *ARE WE POSTING HOT "PICS???" *HERE IS
+                    ME AND MY COOL FRIEND</box>
+                <box n="4">*(It's a picture of Papyrus flexing in front of a mirror.) *(He is
+                    wearing sunglasses.)</box>
+                <box n="5">*(Giant muscular biceps are pasted onto his arms.)</box>
+                <box n="6">*(The biceps are also wearing sunglasses.)</box>
+                <box n="7">ALPHYS updated status. *LOL, CoolSkeleton95! *... that's a joke,
+                    right?</box>
+                <box n="8">CoolSkeleton95 updated status. *THE ONLY JOKE HERE, IS HOW STRONG MY
+                    MUSCLES ARE.</box>
+            </sp>
         </setting>
     </path>
     <path route="neutral">
         <setting name="soSorryRoom">
-            <sp speaker="game" to="you">
+            <sp speaker="sign" to="you">
                 <box n="1">*Art Club: Meet here! *Next meeting: *October 10th, 8PM</box>
             </sp>
             <sp speaker="SoSorry" to="you">
@@ -803,6 +834,57 @@
             <conditions killed="killSoSorry"/>
             <sp speaker="game" to="you">
                 <box n="1">*(Art is dead.)</box>
+            </sp>
+        </setting>
+        <setting name="ApronRoom">
+            <sp speaker="cellPhone">
+                <box n="1">*NAPSTABLOOK22 has sent you a friend request.</box>
+                <box n="2">*Accept the request? Accept Reject</box>
+                <box n="3">*(It seems to have already rejected itself...)</box>
+            </sp>
+            <sp speaker="game" to="you">
+                <box n="4">*(There's an apron lying on the ground.)</box>
+                <box n="5">*(Will you take it?) Take it Leave it</box>
+                <box n="6">*(You got the Stained Apron.)</box>
+            </sp>
+        </setting>
+        <setting name="ConveyorPuzzle">
+            <sp speaker="cellPhone">
+                <box n="1">*Ring...</box>
+            </sp>
+            <sp speaker="Alphys">
+                <box n="2">*H... hi...! *It's Dr. Alphys.</box>
+                <box n="3">*This p-puzzle is kinda... um... timing-based.</box>
+                <box n="4">*Y-you see those switches over there?</box>
+                <box n="5">*Y-you'll have to press all three of them within 3 seconds.</box>
+                <box n="6">*I'll t-try to help you with the rhythm!</box>
+            </sp>
+            <sp speaker="cellPhone">
+                <box n="7">*Click...</box>
+            </sp>
+            <sp speaker="game">
+                <box n="8">*(It's the kind of every-day death forcefield you see at home.)</box>
+            </sp>
+            <sp speaker="cellPhone">
+                <box n="9">*Ring...</box>
+            </sp>
+            <sp speaker="Alphys">
+                <box n="10">*OK! *Now press the third one!!!</box>
+                <box n="11">*.............</box>
+                <box n="12">*.............</box>
+                <box n="13">*H-h-hey!</box>
+                <box n="14">*Looks like you!!! *Only needed to press! *Two of them!!!</box>
+            </sp>
+        </setting>
+        <setting name="SwitchVentPuzzle">
+            <sp speaker="cellPhone">
+                <box n="1">ALPHYS updated status. *that's the last time i try to help with a puzzle
+                    lmao</box>
+                <box n="2">*Ring...</box>
+            </sp>
+            <sp speaker="Alphys">
+                <box n="3">*Uh, h-h-hey!</box>
+                <box n="4">*I'm going to the bathroom, so I'll be MIA fora bit.</box>
             </sp>
         </setting>
     </path>
