@@ -1011,6 +1011,38 @@
                 <box n="19">*(The door is locked.)</box>
             </sp>
         </option>
+        <option what="gamePlay">
+            <conditions puzzle="solved">
+                <sp speaker="DiamondBoy1" to="you">
+                    <box n="1">*My fave Mettaton Moment(TM)? *Right when everything looks the
+                        baddest, he poses dramatically.</box>
+                    <box n="2">*Like when he's on a cooking show and the eggs don't turn out
+                        right.</box>
+                    <box n="3">*But! *Then he says!</box>
+                    <box n="4">*Even if you suck at cooking, you can always buy an MTT-brand
+                        Glamburger!</box>
+                    <box n="5">*Then he eats one! *Everyone loves it!</box>
+                    <box n="6">*... How does he eat it without a mouth?</box>
+                    <box n="7">*Uhhh... well... *Watch the show!</box>
+                </sp>
+                <sp speaker="DiamondBoy2" to="you">
+                    <box n="8">*My fave Mettaton Moment(TM) is when he beats up the heel-turning
+                        villains!</box>
+                    <box n="9">*Even if it's during what's supposed to be a quiz show.</box>
+                    <box n="10">*Oh! And I like when he tries on all kinds of different fashionable
+                        outfits!</box>
+                    <box n="11">*Even if it's during what's supposed to be a newscast.</box>
+                </sp>
+                <sp speaker="game">
+                    <box n="12">*(This half of the door is unlocked.)</box>
+                </sp>
+            </conditions>
+            <conditions puzzle="solved">
+                <sp speaker="game">
+                    <box n="1">*(The door is open.)</box>
+                </sp>
+            </conditions>
+        </option>
     </setting>
     <setting name="ShootingPuzzle3">
         <option what="gamePlay">
@@ -1021,6 +1053,50 @@
                 </conditions>
             </sp>
         </option>
+    </setting>
+    <setting name="LasersAndFlower">
+        <option what="gamePlay">
+            <sp speaker="game">
+                <box n="1">*(You stop to smell the flowers.)</box>
+            </sp>
+        </option>
+        <sp speaker="cellPhone">
+            <box n="2">*(Ring...)</box>
+        </sp>
+        <sp speaker="Alphys" to="you">
+            <box n="3">*Hey!</box>
+            <box n="4">*This um, doesn't have anything to do with guiding you... but...</box>
+            <box n="5">*...</box>
+            <box n="6">*Uhh, hey, would you want to watch a human TV show together???</box>
+            <box n="7">*Sometime???</box>
+            <box n="8">*It's called, um, M...Mew Mew Kissy Cutie...</box>
+
+        </sp>
+        <sp speaker="you">
+            <box n="9">Sure! ...no...</box>
+        </sp>
+        <sp speaker="Alphys" to="you">
+            <box n="1">*R-really!?</box>
+            <box n="2">*</box>
+            <box n="3">*</box>
+            <box n="4">*</box>
+            <box n="5">*</box>
+            <box n="6">*</box>
+            <box n="7">*</box>
+            <box n="8">*</box>
+            <box n="9">*</box>
+            <box n="10">*</box>
+            <box n="11">*</box>
+            <box n="12">*</box>
+            <box n="13">*</box>
+            <box n="14">*</box>
+            <box n="15">*</box>
+            <box n="16">*</box>
+            <box n="17">*</box>
+            <box n="18">*</box>
+            <box n="19">*</box>
+            <box n="20">*</box>
+        </sp>
     </setting>
     <setting name="NiceCreamGuy">
         <sp speaker="RoyalGuard" to="you">

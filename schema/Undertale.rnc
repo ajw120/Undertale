@@ -248,8 +248,12 @@ speaker =
             | "HeatsFlamesman"
             | "HotDogHarpy"
             | "HotDogVulkin"
-            | "Muffet" | "ScaredDonutGuy"
+            | "Muffet"
+            | "ScaredDonutGuy"
+            | "DiamondBoy1"
+            | "DiamondBoy2"
             | "puzzle"
+            | "you"
         }
     }+
 to = attribute to { "you" | "Sans" | "Papyrus" | "Alphys" | "Mettaton" }
