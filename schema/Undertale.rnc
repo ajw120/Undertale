@@ -1,6 +1,6 @@
 start = map
-map = element map { name, path+ }
-path = element path { route, conditions*, setting*, sp* }
+map = element map { name, setting+, path* }
+path = element path { route, conditions*, setting*, sp*, option* }
 route =
     attribute route {
         list { ("pacifist" | "neutral" | "genocide")* }
@@ -246,7 +246,9 @@ speaker =
             | "FukuFire"
             | "SkateboardGirl"
             | "HeatsFlamesman"
-            | "HotDogHarpy" | "HotDogVulkin"
+            | "HotDogHarpy"
+            | "HotDogVulkin"
+            | "Muffet" | "ScaredDonutGuy"
             | "puzzle"
         }
     }+

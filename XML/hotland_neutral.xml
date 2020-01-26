@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/Undertale.rnc" type="application/relax-ng-compact-syntax"?>
 <map name="hotland">
-    <path route="neutral">
-        <setting name="waterRoom">
+    <setting name="waterRoom">
+        <path route="neutral">
             <sp speaker="Undyne">
                 <box n="1">*Armor... so... hot...</box>
                 <box n="2">*But I can't... *Give up...</box>
@@ -36,1006 +36,1094 @@
                 <box n="3">*O, k, k, k, k...</box>
                 <box n="2">*So now we have a private pool? *Worse things have happened.</box>
             </sp>
-        </setting>
-        <setting name="SavePointRoom">
-            <sp speaker="game">
-                <box n="1">*(The water evaporated from the heat.)</box>
-                <box n="2">*(The cup evaporated, too.)</box>
-                <box n="1">*(Seeing such a strange laboratory in a place like this...)</box>
-                <box n="2">*(You're filled with determination.)</box>
-            </sp>
-            <sp speaker="RoyalGuard">
-                <box n="4">*Sorry... UNDYNE, like, told us there was totally a human in the
-                    area.</box>
-                <box n="5">*So, like, us Royal Guards are blocking off the elevators for now.</box>
-                <box n="6">*Ngah! Even if the elevators aren't working anyway, we'll do our best,
-                    Ms. UNDYNE!</box>
-                <box n="7">*Like, NO WAY you're getting by us.</box>
-                <box n="8">*But, between you and me... *I think oyu could go through that creepy lab
-                    over there.</box>
-                <box n="9">*Between you, me, and my bro here, I mean.</box>
-                <box n="10">I tell him ALL my secrets.</box>
-                <box n="11">*Hey! *No loitering!</box>
-                <box n="12">*Like, just kidding. *I don't care. *Like, loiter your heart out.</box>
-                <box n="13">*...</box>
-                <box n="14">*...what?</box>
-            </sp>
-            <sp speaker="game">
-                <box n="1">*(There's no response.)</box>
-            </sp>
-        </setting>
-        <setting name="RiverPersonRoom">
+        </path>
+    </setting>
+    <setting name="SavePointRoom">
+        <sp speaker="game">
+            <box n="1">*(The water evaporated from the heat.)</box>
+            <box n="2">*(The cup evaporated, too.)</box>
+            <box n="1">*(Seeing such a strange laboratory in a place like this...)</box>
+            <box n="2">*(You're filled with determination.)</box>
+        </sp>
+        <sp speaker="RoyalGuard">
+            <box n="4">*Sorry... UNDYNE, like, told us there was totally a human in the area.</box>
+            <box n="5">*So, like, us Royal Guards are blocking off the elevators for now.</box>
+            <box n="6">*Ngah! Even if the elevators aren't working anyway, we'll do our best, Ms.
+                UNDYNE!</box>
+            <box n="7">*Like, NO WAY you're getting by us.</box>
+            <box n="8">*But, between you and me... *I think oyu could go through that creepy lab
+                over there.</box>
+            <box n="9">*Between you, me, and my bro here, I mean.</box>
+            <box n="10">I tell him ALL my secrets.</box>
+            <box n="11">*Hey! *No loitering!</box>
+            <box n="12">*Like, just kidding. *I don't care. *Like, loiter your heart out.</box>
+            <box n="13">*...</box>
+            <box n="14">*...what?</box>
+        </sp>
+        <sp speaker="game">
+            <box n="1">*(There's no response.)</box>
+        </sp>
+    </setting>
+    <setting name="RiverPersonRoom">
+        <sp speaker="RiverPerson">
+            <box n="1">*Tra la la. *I am the riverman.</box>
+            <box n="2">*Or am I the riverwoman...? *It doesn't really matter.</box>
+            <box n="3">*I love to ride in my boat. *Would you care to join me?</box>
+        </sp>
+        <sp speaker="game">
+            <box n="4">*(Ride in the boat?) Yes No</box>
+        </sp>
+        <sp speaker="RiverPerson">
+            <box n="5">*Then perhaps another time.*Or perhaps not. *It doesn't really matter.</box>
+        </sp>
+        <sp speaker="game">
+            <box n="6">*(Ride in the boat?) Yes No</box>
+        </sp>
+        <sp speaker="RiverPerson">
+            <box n="7">*Where will we go today? Snowdin Waterfall</box>
+            <box n="8">*Then we're off...</box>
+            <box n="1">*Come gain some time. *Tra la la.</box>
+        </sp>
+        <conditions timesTalkedTo="1">
             <sp speaker="RiverPerson">
-                <box n="1">*Tra la la. *I am the riverman.</box>
-                <box n="2">*Or am I the riverwoman...? *It doesn't really matter.</box>
-                <box n="3">*I love to ride in my boat. *Would you care to join me?</box>
+                <box n="1">*Tra la la. *Care for a ride?</box>
             </sp>
             <sp speaker="game">
-                <box n="4">*(Ride in the boat?) Yes No</box>
+                <box n="2">*(Ride in the boat? Yes No</box>
             </sp>
             <sp speaker="RiverPerson">
-                <box n="5">*Then perhaps another time.*Or perhaps not. *It doesn't really
-                    matter.</box>
+                <box n="3">*Where will we go today? Snowdin Waterfall</box>
+                <box n="4">*Then we're off...</box>
             </sp>
-            <sp speaker="game">
-                <box n="6">*(Ride in the boat?) Yes No</box>
-            </sp>
-            <sp speaker="RiverPerson">
-                <box n="7">*Where will we go today? Snowdin Waterfall</box>
-                <box n="8">*Then we're off...</box>
-                <box n="1">*Come gain some time. *Tra la la.</box>
-            </sp>
-            <conditions timesTalkedTo="1">
-                <sp speaker="RiverPerson">
-                    <box n="1">*Tra la la. *Care for a ride?</box>
-                </sp>
-                <sp speaker="game">
-                    <box n="2">*(Ride in the boat? Yes No</box>
-                </sp>
-                <sp speaker="RiverPerson">
-                    <box n="3">*Where will we go today? Snowdin Waterfall</box>
-                    <box n="4">*Then we're off...</box>
-                </sp>
-            </conditions>
-        </setting>
-        <setting name="AlphysLab(Dark)">
-            <sp speaker="game">
-                <box n="1">*It's you...?</box>
-                <box n="2">*(It's too dark to see near the walls.)</box>
-            </sp>
-        </setting>
-        <setting name="MeetingAlphys">
+        </conditions>
+    </setting>
+    <setting name="AlphysLab(Dark)">
+        <sp speaker="game">
+            <box n="1">*It's you...?</box>
+            <box n="2">*(It's too dark to see near the walls.)</box>
+        </sp>
+    </setting>
+    <setting name="MeetingAlphys">
+        <sp speaker="Alphys" to="you">
+            <box n="1">*Oh. *My god.</box>
+            <box n="2">*I didn't expect you to show up so soon!</box>
+            <box n="3">*I haven't showered, I'm barely dressed, it's all messy, and...</box>
+            <box n="4">*Ummm...</box>
+            <box n="5">*H-h-hiya!</box>
+            <box n="6">*I'm Dr. Alphys. *I'm ASGORE's royal scientist!</box>
+            <box n="7">*B-b-but, ahhhh, I'm not one of the "bad guys"!</box>
+            <box n="8">*Actually, since you stepped out of the RUINS, I've, um...</box>
+            <box n="9">*... been "observing" your journey through my console.</box>
+            <box n="10">*Your fights... *Your friendships... *Everything!</box>
+            <box n="11">*I was originally going to stop you, but...</box>
+            <box n="12">*Watching someone on a screen really makes you root for them.</box>
+            <box n="13">*S-so, ahh, now I want help you!</box>
+            <box n="14">*Using my knowledge, I can easily guide you through Hotland!</box>
+            <box n="15">*I know a way right to ASGORE's castle, no problem!</box>
+            <box n="16">*...</box>
+            <box n="17">*Well, actually, umm, there's just a tiny issue.</box>
+            <box n="18">*A long time ago, I made a robot named Mettaton.</box>
+            <box n="19">*Originally, I built him to be an entertainment robot.</box>
+            <box n="20">*Uh, you know, like a robotic TV star or something.</box>
+            <box n="21">*Anyway, recently I decided to make him more useful.</box>
+            <box n="22">*You know, just some small practical adjustments.</box>
+            <box n="23">*Like, umm...</box>
+            <box n="24">*Anti... anti-human combat features?</box>
+            <box n="25">*Of c-course, when I saw you coming, I immediately decided...</box>
+            <box n="26">*I have to remove those features!</box>
+            <box n="27">*Unforunately, I may have made a teensy mistake while doing so.</box>
+            <box n="28">*And, um...</box>
+            <box n="29">*Now he's an unstoppable killing machine with a thrist for human
+                blood?</box>
+            <box n="30">*Ehehehehe...</box>
+            <box n="31">*Heh.</box>
+            <box n="32">*But, umm, hopefully we won't run into him!</box>
+            <box n="33">*...?</box>
+            <box n="34">*Did you hear something?</box>
+            <box n="35">*Oh no.</box>
+        </sp>
+        <conditions timesPlayed="1">
             <sp speaker="Alphys" to="you">
-                <box n="1">*Oh. *My god.</box>
-                <box n="2">*I didn't expect you to show up so soon!</box>
-                <box n="3">*I haven't showered, I'm barely dressed, it's all messy, and...</box>
-                <box n="4">*Ummm...</box>
-                <box n="5">*H-h-hiya!</box>
-                <box n="6">*I'm Dr. Alphys. *I'm ASGORE's royal scientist!</box>
-                <box n="7">*B-b-but, ahhhh, I'm not one of the "bad guys"!</box>
-                <box n="8">*Actually, since you stepped out of the RUINS, I've, um...</box>
-                <box n="9">*... been "observing" your journey through my console.</box>
-                <box n="10">*Your fights... *Your friendships... *Everything!</box>
-                <box n="11">*I was originally going to stop you, but...</box>
-                <box n="12">*Watching someone on a screen really makes you root for them.</box>
-                <box n="13">*S-so, ahh, now I want help you!</box>
-                <box n="14">*Using my knowledge, I can easily guide you through Hotland!</box>
-                <box n="15">*I know a way right to ASGORE's castle, no problem!</box>
-                <box n="16">*...</box>
-                <box n="17">*Well, actually, umm, there's just a tiny issue.</box>
-                <box n="18">*A long time ago, I made a robot named Mettaton.</box>
-                <box n="19">*Originally, I built him to be an entertainment robot.</box>
-                <box n="20">*Uh, you know, like a robotic TV star or something.</box>
-                <box n="21">*Anyway, recently I decided to make him more useful.</box>
-                <box n="22">*You know, just some small practical adjustments.</box>
-                <box n="23">*Like, umm...</box>
-                <box n="24">*Anti... anti-human combat features?</box>
-                <box n="25">*Of c-course, when I saw you coming, I immediately decided...</box>
-                <box n="26">*I have to remove those features!</box>
-                <box n="27">*Unforunately, I may have made a teensy mistake while doing so.</box>
-                <box n="28">*And, um...</box>
-                <box n="29">*Now he's an unstoppable killing machine with a thrist for human
-                    blood?</box>
-                <box n="30">*Ehehehehe...</box>
-                <box n="31">*Heh.</box>
-                <box n="32">*But, umm, hopefully we won't run into him!</box>
-                <box n="33">*...?</box>
-                <box n="34">*Did you hear something?</box>
-                <box n="35">*Oh no.</box>
+                <box n="1">*Watching you, I felt like... like I was seeing an old friend.</box>
             </sp>
-            <conditions timesPlayed="1">
-                <sp speaker="Alphys" to="you">
-                    <box n="1">*Watching you, I felt like... like I was seeing an old friend.</box>
-                </sp>
-            </conditions>
-        </setting>
-        <setting name="MeetingMettaton">
-            <sp speaker="Mettaton">
-                <box n="1">*OHHHH YES!</box>
-                <box n="2">*WELCOME, BEAUTIES...</box>
-                <box n="3">*... TO TODAY'S QUIZ SHOW!!!</box>
-                <box n="4">*OH BOY! *I CAN ALREADY TELL IT'S GONNA BE A GREAT SHOW!</box>
-                <box n="5">*EVERYONE GIVE A BIG HAND FOR OUR WONDERFUL CONTESTANT!</box>
-                <box n="7">*NEVER PLAYED BEFORE, GORGEOUS?</box>
-                <box n="8">*NO PROBLEM! *IT'S SIMPLE!</box>
-                <box n="9">*THERE'S ONLY ONE RULE.</box>
-                <box n="10">*ANSWER CORRECTLY...</box>
-                <box n="11">*OR YOU DIE!!!</box>
-            </sp>
-        </setting>
-        <setting name="alphys'sLabPostMettaton">
-            <sp speaker="Alphys" to="you">
-                <box n="1">*</box>
-            </sp>
-            <sp speaker="Alphys" to="you">
-                <box n="1">*...</box>
-                <box n="2">*Well that was certainly something.</box>
-                <box n="3">*Th-that last question...</box>
-                <box n="4">*He wasn't supposed to ask that one...</box>
-                <box n="5">*Wait, wait!</box>
-                <box n="6">*Let me give you my ph-phone number!</box>
-                <box n="7">*Th-then... m-maybe... *If you need help, I could...</box>
-                <box n="8">*Wh...where'd you get that phone!? *It's ANCIENT!</box>
-                <box n="9">*It doens't even have texting.</box>
-                <box n="10">*W-wait a second, please!</box>
-                <box n="11">*Here, I upgraded it for you!</box>
-                <box n="12">*It can do texting, items, it's got a key chain...</box>
-                <box n="13">*I even signed you up for the underground's No.1 social network!</box>
-                <box n="14">*Now we're officially friends! *Ehehehe!</box>
-                <box n="15">*Heheh...</box>
-                <box n="16">*Heh...</box>
-                <box n="17">*...</box>
-                <box n="18">*...</box>
-                <box n="19">*...</box>
-                <box n="20">*...</box>
-                <box n="21">*...</box>
-                <box n="22">*I'm going to the bathroom.</box>
-            </sp>
-            <option what="gamePlay">
-                <sp speaker="game" to="you">
-                    <box n="24">*(It's a bag of dog food.) *(It's half-full.)</box>
-                    <box n="25">*(The fridge is filled with instant noodles and soda.)</box>
-                    <box n="26">*(Take a package of noodles?) Take it Leave it</box>
-                    <box n="27">*(You got instant noodles.)</box>
-                    <box n="28">*(Take a package of noodles?)</box>
-                    <box n="29">*(You decide to stay healthy.)</box>
-                    <box n="30">*(It's a beat-up figurine of a female human with cat ears.)</box>
-                    <box n="31">*(It's a teacup shaped like a yellow lizard.) *(It's full of
-                        soda.)</box>
-                    <box n="32">*(It's a computer.) *(It's accessing some kind of puzzle in
-                        Snowdin.)</box>
-                    <box n="33">*(It seems like a walkthrough to a game, or...?)</box>
-                    <box n="34">*(Seems like the notes to something, but it's all written in chicken
-                        scratch.)</box>
-                    <box n="35">*(A garbage can.) *(But it's pretty cute.)</box>
-                    <box n="36">*(It's a video feed of your location.)</box>
-                    <box n="37">*(The space behind the wall is only a few feet wide.)</box>
-                    <box n="38">*(It's a bathroom sign.)</box>
-                    <box n="39">*(Yellow feet are tapping just behind the door.)</box>
-                </sp>
-            </option>
-            <conditions timesKilled="1"/>
+        </conditions>
+    </setting>
+    <setting name="MeetingMettaton">
+        <sp speaker="Mettaton">
+            <box n="1">*OHHHH YES!</box>
+            <box n="2">*WELCOME, BEAUTIES...</box>
+            <box n="3">*... TO TODAY'S QUIZ SHOW!!!</box>
+            <box n="4">*OH BOY! *I CAN ALREADY TELL IT'S GONNA BE A GREAT SHOW!</box>
+            <box n="5">*EVERYONE GIVE A BIG HAND FOR OUR WONDERFUL CONTESTANT!</box>
+            <box n="7">*NEVER PLAYED BEFORE, GORGEOUS?</box>
+            <box n="8">*NO PROBLEM! *IT'S SIMPLE!</box>
+            <box n="9">*THERE'S ONLY ONE RULE.</box>
+            <box n="10">*ANSWER CORRECTLY...</box>
+            <box n="11">*OR YOU DIE!!!</box>
+        </sp>
+    </setting>
+    <setting name="alphys'sLabPostMettaton">
+        <sp speaker="Alphys" to="you">
+            <box n="1">*</box>
+        </sp>
+        <sp speaker="Alphys" to="you">
+            <box n="1">*...</box>
+            <box n="2">*Well that was certainly something.</box>
+            <box n="3">*Th-that last question...</box>
+            <box n="4">*He wasn't supposed to ask that one...</box>
+            <box n="5">*Wait, wait!</box>
+            <box n="6">*Let me give you my ph-phone number!</box>
+            <box n="7">*Th-then... m-maybe... *If you need help, I could...</box>
+            <box n="8">*Wh...where'd you get that phone!? *It's ANCIENT!</box>
+            <box n="9">*It doens't even have texting.</box>
+            <box n="10">*W-wait a second, please!</box>
+            <box n="11">*Here, I upgraded it for you!</box>
+            <box n="12">*It can do texting, items, it's got a key chain...</box>
+            <box n="13">*I even signed you up for the underground's No.1 social network!</box>
+            <box n="14">*Now we're officially friends! *Ehehehe!</box>
+            <box n="15">*Heheh...</box>
+            <box n="16">*Heh...</box>
+            <box n="17">*...</box>
+            <box n="18">*...</box>
+            <box n="19">*...</box>
+            <box n="20">*...</box>
+            <box n="21">*...</box>
+            <box n="22">*I'm going to the bathroom.</box>
+        </sp>
+        <option what="gamePlay">
             <sp speaker="game" to="you">
-                <box n="1">*(It's a half-empty bag of dog food.)</box>
+                <box n="24">*(It's a bag of dog food.) *(It's half-full.)</box>
+                <box n="25">*(The fridge is filled with instant noodles and soda.)</box>
+                <box n="26">*(Take a package of noodles?) Take it Leave it</box>
+                <box n="27">*(You got instant noodles.)</box>
+                <box n="28">*(Take a package of noodles?)</box>
+                <box n="29">*(You decide to stay healthy.)</box>
+                <box n="30">*(It's a beat-up figurine of a female human with cat ears.)</box>
+                <box n="31">*(It's a teacup shaped like a yellow lizard.) *(It's full of
+                    soda.)</box>
+                <box n="32">*(It's a computer.) *(It's accessing some kind of puzzle in
+                    Snowdin.)</box>
+                <box n="33">*(It seems like a walkthrough to a game, or...?)</box>
+                <box n="34">*(Seems like the notes to something, but it's all written in chicken
+                    scratch.)</box>
+                <box n="35">*(A garbage can.) *(But it's pretty cute.)</box>
+                <box n="36">*(It's a video feed of your location.)</box>
+                <box n="37">*(The space behind the wall is only a few feet wide.)</box>
+                <box n="38">*(It's a bathroom sign.)</box>
+                <box n="39">*(Yellow feet are tapping just behind the door.)</box>
             </sp>
-            <conditions timesKilled="2"/>
+        </option>
+        <conditions timesKilled="1"/>
+        <sp speaker="game" to="you">
+            <box n="1">*(It's a half-empty bag of dog food.)</box>
+        </sp>
+        <conditions timesKilled="2"/>
+        <sp speaker="game" to="you">
+            <box n="1">*(You just remembered something funny.)</box>
+        </sp>
+    </setting>
+    <setting name="AlphysBedroom">
+        <option what="gamePlay">
             <sp speaker="game" to="you">
-                <box n="1">*(You just remembered something funny.)</box>
+                <box n="1">*(Scientific books.) *(They seem very dusty.)</box>
+                <box n="2">*(All these books are labelled Human History.) Read one Do not</box>
+                <box n="3">*(You look inside a book)</box>
+                <box n="4">*(It's a comic of a giant robot fighting a beautiful alien
+                    princess.)</box>
+                <box n="5">*(This doesn't strike you as very accurate...)</box>
+                <box n="6">*(All these books are labelled Human History.) Read one Do not</box>
+                <box n="7">*(You decide not to.)</box>
+                <box n="08">*(VHSes and DVDs of various cartoons.</box>
+                <box n="9">*(They are all albelled "Human History.")</box>
+                <box n="10">*(All these books are labelled Human History.) Read one Do not</box>
+                <box n="11">*(You look inside a book.) *(It's a comic book.)</box>
+                <box n="12">*(Two scantily-clad chefs are flinging energy pancakes at each
+                    other.)</box>
+                <box n="13">*(This doesn't strike you as very accurate...)</box>
+                <box n="14">*(All these books are labelled Human History.) Read one Do not</box>
+                <box n="15">*(You decide not to.)</box>
+                <box n="16">*(All these books are labelled Human History.) Read one Do not</box>
+                <box n="17">*(You look inside a book.) *(It's a comic book.)</box>
+                <box n="18">*(A hideous android is running to school with toast in is mouth.)</box>
+                <box n="19">*(Seems like it's late.)</box>
+                <box n="20">*(This doesn't strike you as very accurate...)</box>
+                <box n="21">*(All these books are labelled Human History.) Read one Do not</box>
+                <box n="22">*(You decide not to.)</box>
+                <box n="23">*(Pink goop drips from this strange machine.)</box>
+                <box n="24">*(Looks like Alphys's work table.) *(Seems dusty.)</box>
+                <box n="25">*(The wardrobe is full of dirty lab coats...) *(And a single clean
+                    dress.)</box>
+                <box n="26">*(There are letters from many monsters here...) *(Froggit, Snowy,
+                    Doggo...)</box>
+                <box n="27">*(They're all unopened.)</box>
+                <box n="28">*(It's a lamp with pink fish on the lampshade.) *(There's no
+                    lightbulb.)</box>
+                <box n="29">*(An incredible invention.)</box>
+                <box n="30">*(When not in use, this bed folds into an extremely-easy-to-draw
+                    box.)</box>
+                <box n="31">*(It's a promo poster for Mettaton's TV premiere.)</box>
+                <box n="32">*(On the flap it says "Thank you for making my dreams come true.")</box>
             </sp>
-        </setting>
-        <setting name="AlphysBedroom">
-            <option what="gamePlay">
-                <sp speaker="game" to="you">
-                    <box n="1">*(Scientific books.) *(They seem very dusty.)</box>
-                    <box n="2">*(All these books are labelled Human History.) Read one Do not</box>
-                    <box n="3">*(You look inside a book)</box>
-                    <box n="4">*(It's a comic of a giant robot fighting a beautiful alien
-                        princess.)</box>
-                    <box n="5">*(This doesn't strike you as very accurate...)</box>
-                    <box n="6">*(All these books are labelled Human History.) Read one Do not</box>
-                    <box n="7">*(You decide not to.)</box>
-                    <box n="08">*(VHSes and DVDs of various cartoons.</box>
-                    <box n="9">*(They are all albelled "Human History.")</box>
-                    <box n="10">*(All these books are labelled Human History.) Read one Do not</box>
-                    <box n="11">*(You look inside a book.) *(It's a comic book.)</box>
-                    <box n="12">*(Two scantily-clad chefs are flinging energy pancakes at each
-                        other.)</box>
-                    <box n="13">*(This doesn't strike you as very accurate...)</box>
-                    <box n="14">*(All these books are labelled Human History.) Read one Do not</box>
-                    <box n="15">*(You decide not to.)</box>
-                    <box n="16">*(All these books are labelled Human History.) Read one Do not</box>
-                    <box n="17">*(You look inside a book.) *(It's a comic book.)</box>
-                    <box n="18">*(A hideous android is running to school with toast in is
-                        mouth.)</box>
-                    <box n="19">*(Seems like it's late.)</box>
-                    <box n="20">*(This doesn't strike you as very accurate...)</box>
-                    <box n="21">*(All these books are labelled Human History.) Read one Do not</box>
-                    <box n="22">*(You decide not to.)</box>
-                    <box n="23">*(Pink goop drips from this strange machine.)</box>
-                    <box n="24">*(Looks like Alphys's work table.) *(Seems dusty.)</box>
-                    <box n="25">*(The wardrobe is full of dirty lab coats...) *(And a single clean
-                        dress.)</box>
-                    <box n="26">*(There are letters from many monsters here...) *(Froggit, Snowy,
-                        Doggo...)</box>
-                    <box n="27">*(They're all unopened.)</box>
-                    <box n="28">*(It's a lamp with pink fish on the lampshade.) *(There's no
-                        lightbulb.)</box>
-                    <box n="29">*(An incredible invention.)</box>
-                    <box n="30">*(When not in use, this bed folds into an extremely-easy-to-draw
-                        box.)</box>
-                    <box n="31">*(It's a promo poster for Mettaton's TV premiere.)</box>
-                    <box n="32">*(On the flap it says "Thank you for making my dreams come
-                        true.")</box>
-                </sp>
-            </option>
-        </setting>
-        <setting name="HallwayOutsideOfLab">
-            <sp speaker="cellPhone">
-                <box n="1">ALPHYS updated status. *just realized i didn't watch undyne fight the
-                    human v. v</box>
-                <box n="2">ALPHYS updated status. *well i know she's unbeatable i'll ask her abt it
-                    later ^. ^</box>
-                <box n="3">ALPHYS updated status. *for now i gotta call up the human and guide them
-                    -^. ^-</box>
-            </sp>
-        </setting>
-        <setting name="SplitBeamsHall">
-            <sp speaker="cellPhone">
-                <box n="1">ALPHYS updated status. *gonna call them in a minute!!! -^. ^-</box>
-            </sp>
-        </setting>
-        <setting name="SteamVentRoom">
-            <sp speaker="determination">
-                <box n="1">*(The wooshing sound of steam and cogs... it fills you with
-                    determination.)</box>
-            </sp>
-            <sp speaker="cellPhone">
-                <box n="3">ALPHYS updated status. *I HATE USING THE PHONE I DON'T WANT TO DO THIS
-                    LMAO ^. ^</box>
-                <box n="4">ALPHYS updated status. *omg ive had my claw over the last digit for 5
-                    minutes</box>
-                <box n="5">*omg i'm just gonna do it *i'm just gonna call!!!!</box>
-                <box n="6">*Ring... Ring...</box>
-                <box n="7">*Click...?</box>
-            </sp>
+        </option>
+    </setting>
+    <setting name="HallwayOutsideOfLab">
+        <sp speaker="cellPhone">
+            <box n="1">ALPHYS updated status. *just realized i didn't watch undyne fight the human
+                v. v</box>
+            <box n="2">ALPHYS updated status. *well i know she's unbeatable i'll ask her abt it
+                later ^. ^</box>
+            <box n="3">ALPHYS updated status. *for now i gotta call up the human and guide them -^.
+                ^-</box>
+        </sp>
+    </setting>
+    <setting name="SplitBeamsHall">
+        <sp speaker="cellPhone">
+            <box n="1">ALPHYS updated status. *gonna call them in a minute!!! -^. ^-</box>
+        </sp>
+    </setting>
+    <setting name="SteamVentRoom">
+        <sp speaker="determination">
+            <box n="1">*(The wooshing sound of steam and cogs... it fills you with
+                determination.)</box>
+        </sp>
+        <sp speaker="cellPhone">
+            <box n="3">ALPHYS updated status. *I HATE USING THE PHONE I DON'T WANT TO DO THIS LMAO
+                ^. ^</box>
+            <box n="4">ALPHYS updated status. *omg ive had my claw over the last digit for 5
+                minutes</box>
+            <box n="5">*omg i'm just gonna do it *i'm just gonna call!!!!</box>
+            <box n="6">*Ring... Ring...</box>
+            <box n="7">*Click...?</box>
+        </sp>
+        <sp speaker="game" to="you">
+            <box n="8">*(Whoever was calling hung up before you answered it.)</box>
+        </sp>
+    </setting>
+    <setting name="FrypanRoom">
+        <option what="gamePlay">
             <sp speaker="game" to="you">
-                <box n="8">*(Whoever was calling hung up before you answered it.)</box>
+                <box n="1">*(There's a frypan lying on the ground.)</box>
+                <box n="2">*(Will you take it?) Take it Leave it</box>
+                <box n="3">*(You got the Burnt Pan.)</box>
             </sp>
-        </setting>
-        <setting name="FrypanRoom">
-            <option what="gamePlay">
-                <sp speaker="game" to="you">
-                    <box n="1">*(There's a frypan lying on the ground.)</box>
-                    <box n="2">*(Will you take it?) Take it Leave it</box>
-                    <box n="3">*(You got the Burnt Pan.)</box>
-                </sp>
-            </option>
-        </setting>
-        <setting name="LaserPuzzle">
-            <sp speaker="cellPhone">
-                <box n="1">*Ring...</box>
+        </option>
+    </setting>
+    <setting name="LaserPuzzle">
+        <sp speaker="cellPhone">
+            <box n="1">*Ring...</box>
+        </sp>
+        <sp speaker="Alphys">
+            <box n="2">*Uhh! *H-hi, so, the blue lasers...</box>
+            <box n="3">*Uhh! *I mean, Alphys here! *Hi!</box>
+            <box n="4">*The blue lasers won't hurt you if you don't move.</box>
+            <box n="5">*O-orange ones, um... *Y-you have to be moving, and they...</box>
+            <box n="6">*Um, they won't, um...</box>
+            <box n="7">*Move through those ones!</box>
+            <box n="8">*...</box>
+            <box n="9">*Uhh, bye!</box>
+        </sp>
+        <sp speaker="cellPhone">
+            <box n="10">*Click...</box>
+            <box n="11">ALPHYS updated status. *OMG I DID IT!!!</box>
+            <box n="12">*claws haven't shook like that since undyne called me to ask about the
+                weather... v. v</box>
+            <box n="13">ALPHYS updated status. *WAIT THERE'S NO WEATHER DOWN HERE WHY DID SHE CALL
+                ME</box>
+        </sp>
+        <conditions what="gamePlay">
+            <sp speaker="game" to="you">
+                <box n="14">*(It's a switch.) Press it Don't</box>
+                <box n="15">*(The lasers were deactivated.)</box>
+                <box n="16">*(The lasers were reactivated.)</box>
             </sp>
-            <sp speaker="Alphys">
-                <box n="2">*Uhh! *H-hi, so, the blue lasers...</box>
-                <box n="3">*Uhh! *I mean, Alphys here! *Hi!</box>
-                <box n="4">*The blue lasers won't hurt you if you don't move.</box>
-                <box n="5">*O-orange ones, um... *Y-you have to be moving, and they...</box>
-                <box n="6">*Um, they won't, um...</box>
-                <box n="7">*Move through those ones!</box>
-                <box n="8">*...</box>
-                <box n="9">*Uhh, bye!</box>
+        </conditions>
+    </setting>
+    <setting name="ShootingPuzzleBeginning">
+        <sp speaker="cellPhone">
+            <box n="1">ALPHYS updated status. *Oh My God i Forgot to Tell THem Where To Go</box>
+            <box n="2">ALPHYS posted a picture. *CUTE PIC OF ME RIGHT NOW ^. ^</box>
+        </sp>
+        <conditions what="gamePlay">
+            <sp speaker="game" to="you">
+                <box n="3">*(It's a photo of a garbage can with several pink, glittery filters over
+                    it.)</box>
             </sp>
-            <sp speaker="cellPhone">
-                <box n="10">*Click...</box>
-                <box n="11">ALPHYS updated status. *OMG I DID IT!!!</box>
-                <box n="12">*claws haven't shook like that since undyne called me to ask about the
-                    weather... v. v</box>
-                <box n="13">ALPHYS updated status. *WAIT THERE'S NO WEATHER DOWN HERE WHY DID SHE
-                    CALL ME</box>
+        </conditions>
+        <sp speaker="cellPhone">
+            <box n="4">*Ring...</box>
+            <box n="5">*(A-A-Alphys here!!!!</box>
+            <box n="6">*Th... the northern door will stay locked until you...</box>
+            <box n="7">*S-solve the puzzles on the right and left!</box>
+            <box n="8">*I... I think you sh-should g-g-go to the right first!</box>
+        </sp>
+        <sp speaker="cellPhone">
+            <box n="9">*Click...</box>
+        </sp>
+        <conditions what="gamePlay">
+            <box n="10">*(The door is locked.)</box>
+        </conditions>
+        <conditions what="gamePlay">
+            <sp speaker="game" to="you">
+                <box n="1">*(This half of the door is unlocked.)</box>
+                <box n="2">*(The door is open.)</box>
             </sp>
-            <conditions what="gamePlay">
-                <sp speaker="game" to="you">
-                    <box n="14">*(It's a switch.) Press it Don't</box>
-                    <box n="15">*(The lasers were deactivated.)</box>
-                    <box n="16">*(The lasers were reactivated.)</box>
-                </sp>
-            </conditions>
-        </setting>
-        <setting name="ShootingPuzzleBeginning">
-            <sp speaker="cellPhone">
-                <box n="1">ALPHYS updated status. *Oh My God i Forgot to Tell THem Where To Go</box>
-                <box n="2">ALPHYS posted a picture. *CUTE PIC OF ME RIGHT NOW ^. ^</box>
+        </conditions>
+    </setting>
+    <setting name="WorkingMonsters">
+        <conditions what="gamePlay">
+            <sp speaker="BusinessDudes">
+                <box n="1">*The way to work is blocked, so I had time to catch Mettaton's show on my
+                    phone...</box>
+                <box n="2">*The special effects were amazing today! *That human almost looked
+                    REAL!</box>
+                <box n="3">*Of course, an experienced viewer like me knows CGI when they see
+                    it...</box>
             </sp>
-            <conditions what="gamePlay">
-                <sp speaker="game" to="you">
-                    <box n="3">*(It's a photo of a garbage can with several pink, glittery filters
-                        over it.)</box>
-                </sp>
-            </conditions>
-            <sp speaker="cellPhone">
-                <box n="4">*Ring...</box>
-                <box n="5">*(A-A-Alphys here!!!!</box>
-                <box n="6">*Th... the northern door will stay locked until you...</box>
-                <box n="7">*S-solve the puzzles on the right and left!</box>
-                <box n="8">*I... I think you sh-should g-g-go to the right first!</box>
+            <sp speaker="BusinessDudes">
+                <box n="4">*Mettaton? *Yeah, he's the most popular star in the underground!</box>
+                <box n="5">*His fan club probably has at least who... no, THREE dozen members!</box>
+                <box n="6">*And that's not even counting me!</box>
             </sp>
-            <sp speaker="cellPhone">
-                <box n="9">*Click...</box>
-            </sp>
-            <conditions what="gamePlay">
-                <box n="10">*(The door is locked.)</box>
-            </conditions>
-            <conditions what="gamePlay">
-                <sp speaker="game" to="you">
-                    <box n="1">*(This half of the door is unlocked.)</box>
-                    <box n="2">*(The door is open.)</box>
-                </sp>
-            </conditions>
-        </setting>
-        <setting name="WorkingMonsters">
-            <conditions what="gamePlay">
-                <sp speaker="BusinessDudes">
-                    <box n="1">*The way to work is blocked, so I had time to catch Mettaton's show
-                        on my phone...</box>
-                    <box n="2">*The special effects were amazing today! *That human almost looked
-                        REAL!</box>
-                    <box n="3">*Of course, an experienced viewer like me knows CGI when they see
-                        it...</box>
-                </sp>
-                <sp speaker="BusinessDudes">
-                    <box n="4">*Mettaton? *Yeah, he's the most popular star in the
-                        underground!</box>
-                    <box n="5">*His fan club probably has at least who... no, THREE dozen
-                        members!</box>
-                    <box n="6">*And that's not even counting me!</box>
-                </sp>
-            </conditions>
-            <sp speaker="cellPhone">
-                <box n="7">ALPHYS updated status. *wonder if it would be unfun if i explained the
-                    puzzle...</box>
-            </sp>
-        </setting>
-        <setting name="ShootingPuzzle1">
-            <sp speaker="FoxHead">
-                <box n="1">*The door leading through the area is closed? *So I tried the
-                    puzzle?</box>
-                <box n="2">*But I kept running out of ammo, and it kept restarting?</box>
-                <box n="3">*And my two co-workers won't help? It's like they don't even wanna go to
-                    work?</box>
-                <box n="4">*Why don't you try? *Try using the console?</box>
+        </conditions>
+        <sp speaker="cellPhone">
+            <box n="7">ALPHYS updated status. *wonder if it would be unfun if i explained the
+                puzzle...</box>
+        </sp>
+    </setting>
+    <setting name="ShootingPuzzle1">
+        <sp speaker="FoxHead">
+            <box n="1">*The door leading through the area is closed? *So I tried the puzzle?</box>
+            <box n="2">*But I kept running out of ammo, and it kept restarting?</box>
+            <box n="3">*And my two co-workers won't help? It's like they don't even wanna go to
+                work?</box>
+            <box n="4">*Why don't you try? *Try using the console?</box>
 
+        </sp>
+        <sp speaker="game">
+            <box n="5">*(Shoot the opposing ship!) *(Move the boxes to complete your mission.)</box>
+        </sp>
+        <sp speaker="FoxHead">
+            <box n="7">*Wow? *You solved it?</box>
+            <box n="8">*I'm impressed? *You must be a total nerd?</box>
+        </sp>
+    </setting>
+    <setting name="SchoolKids">
+        <sp speaker="cellPhone">
+            <box n="1">*Ring...</box>
+            <box n="2">*Alphys! Here!</box>
+            <box n="3">*Th-that blue laser seems totally impassable!</box>
+            <box n="4">*B-b-but!</box>
+            <box n="5">*As the Royal Scientist, I h-have some tricks up my sleeve!</box>
+            <box n="6">*I'll h-hack into the-the Hotland laser datbase and take it out!</box>
+            <box n="7">*Click...</box>
+        </sp>
+        <sp speaker="FukuFire">
+            <box n="8">*Finally! *Someone turned off that laser!</box>
+            <box n="9">*Now that we're free we can... *Well, uh I guess we'll jsut keep standing
+                here.</box>
+            <box n="10">*Hm? *Nice try, but your loitering technique still needs work.</box>
+        </sp>
+        <sp speaker="SkateboardGirl">
+            <box n="11">*We were hanging out when suddenly, a bucha puzzles reactivated out of
+                nowhere.</box>
+            <box n="12">*This is a huge problem... *It rules! They've GOTTA cancel school over
+                this!</box>
+            <box n="13">*Wait a second... *Auuuugh, it's summer vacation!</box>
+        </sp>
+        <conditions what="gamePlay">
+            <sp speaker="cellPhone">
+                <box n="1">*Ring...</box>
+                <box n="2">*A-another laser, huh?</box>
+                <box n="3">*I'm sorry, I won't play around this time.</box>
+                <box n="4">*Hold on a second!!</box>
+                <box n="5">*Click...</box>
+            </sp>
+        </conditions>
+    </setting>
+    <setting name="ShootingPuzzle2">
+        <sp speaker="sign">
+            <box n="1">*(Shoot the opposing ship!) *(Move the boxes to complete your mission.)</box>
+        </sp>
+        <sp speaker="puzzle">
+            <box n="2">RESTART...</box>
+            <box n="3">CONGRATULATIONS!</box>
+        </sp>
+    </setting>
+    <setting name="VentsBeforeMettaton">
+        <sp speaker="cellPhone">
+            <box n="1">ALPHYS updated status. *whatever!!! i'll just explain it!!!</box>
+            <box n="2">*Ring...</box>
+            <box n="3">*Uuuh, I think... *Umm...</box>
+            <box n="4">*Hey! *About the puzzles on the left and right...!</box>
+            <box n="5">*They're a bit difficult to explain, but...</box>
+            <box n="6">*... uhhh, you already s-solved them?</box>
+            <box n="7">*Awesome!</box>
+            <box n="8">*Click...</box>
+        </sp>
+    </setting>
+    <setting name="CookingWithAKillerRobot">
+        <sp speaker="cellPhone">
+            <box n="1">*Ring...</box>
+            <box n="2">*H-hey, it's kind of dark in there, isn't it?</box>
+            <box n="3">*Don't worry!</box>
+            <box n="4">*I'll hack into the light system and brighten it up!</box>
+            <box n="5">*Oh no.</box>
+        </sp>
+        <sp speaker="Mettaton">
+            <box n="6">*OHHHH YES!!!</box>
+            <box n="7">*WELCOME, BEAUTIES, TO THE UNDERGROUND'S PREMIER COOKING SHOW!!!</box>
+
+        </sp>
+        <sp speaker="sign">
+            <box n="8">Cooking with a Killer Robot</box>
+        </sp>
+        <sp speaker="Mettaton">
+            <box n="9">*PRE-HEAT YOUR OVENS, BECAUSE WE'VE GOT A VERY SPECIAL RECIPE FOR YOU
+                TODAY!</box>
+            <box n="10">*WE'RE GOING TO BE MAKING...</box>
+            <box n="11">*A CAKE!</box>
+            <box n="12">*MY LOVELY ASSISTANT HERE WILL GATHER THE INGREDIENTS.</box>
+            <box n="13">*EVERYONE GIVE THEM A BIG HAND!!!</box>
+            <box n="14">*WE'LL NEED SUGAR, MILK, AND EGGS.</box>
+            <box n="15">*GO FOR IT, SWEETHEART!</box>
+            <box n="16">*MILK, SUGAR, AND EGGS! *YOU SHOULD BE ABLE TO FIND THEM ON THE BACK
+                COUNTER!</box>
+        </sp>
+        <conditions what="gamePlay">
+            <box n="17">*THIS ISN'T A SHOW ABOUT WASHING YOUR HANDS, DARLING.</box>
+            <box n="18">*THAT'S ON WEDNESDAYS!</box>
+            <box n="19">*MILK? EGGS? IN THE FRIDGE?</box>
+            <box n="20">*NO WAY, DARLING! *THEY'D GET COLD!!!</box>
+            <sp speaker="game">
+                <box n="21">*(As per culinary standard, a death forcefield surrounds the
+                    kitchen.)</box>
+                <box n="22">*(As per culinary standard, a death forcefield surrounds the
+                    kitchen.)</box>
+            </sp>
+            <sp speaker="Mettaton">
+                <box n="23">*MTT-BRAND MICROWAVE! *ORIGIN OF THE MTT CHALLENGE!</box>
+                <box n="24">*PUT YOUR FOOD IN AND SET THE MICROWAVE ON HIGH FOR FIVE
+                    MINUTES...</box>
+                <box n="25">*IF YOU CAN STILL RECOGNIZE YOUR MEAL, WE'LL DOUBLE YOUR MONEY
+                    BACK!!!</box>
+                <box n="26">*OH YES! MTT-BRAND OVENS CAN REACH TEMPERATURES UP TO NINE-THOUSAND
+                    DEGREES!</box>
+                <box n="27">*ROASTING! TOASTING! BURNING! *CHARRING! YOU'RE EXCITED, AREN'T YOU,
+                    DARLING? (TM)</box>
             </sp>
             <sp speaker="game">
-                <box n="5">*(Shoot the opposing ship!) *(Move the boxes to complete your
-                    mission.)</box>
+                <box n="28">*(You found the sugar.)</box>
+                <box n="29">*(You found the milk.)</box>
+                <box n="30">*(You found the eggs.)</box>
             </sp>
-            <sp speaker="FoxHead">
-                <box n="7">*Wow? *You solved it?</box>
-                <box n="8">*I'm impressed? *You must be a total nerd?</box>
-            </sp>
-        </setting>
-        <setting name="SchoolKids">
+        </conditions>
+        <sp speaker="Mettaton">
+            <box n="31">*GREAT JOB! *JUST PUT THEM IN TEH MIDDLE OF THIS COUNTER!</box>
+            <box n="32">*PERFECT! *GREAT JOB, BEAUTIFUL!</box>
+            <box n="33">*WE'VE GOT ALL OF THE INGREDIENTS WE NEED TO BAKE THE CAKE!</box>
+            <box n="34">*MILK... *SUGAR... *EGGS...</box>
+            <box n="35">*... OH MY! *WAIT A MAGNIFICIENT MOMENT! *HOW COULD I FORGET!!!</box>
+            <box n="36">*WE"RE MISSING THE MOST IMPORTANT INGREDIENT!</box>
+            <box n="37">*A HUMAN SOUL!!!!</box>
+        </sp>
+        <sp speaker="cellPhone">
+            <box n="38">*Ring...</box>
+        </sp>
+        <sp speaker="Mettaton" to="Alphys">
+            <box n="39">*HELLO...? *I'M KIND OF IN THE MIDDLE OF SOMETHING HERE.</box>
+        </sp>
+        <sp speaker="Alphys" to="Mettaton">
+            <box n="40">*W-wait a second!!!</box>
+            <box n="41">*Couldn't you make a...</box>
+            <box n="42">*Couldn't you use a...</box>
+            <box n="43">*Couldn't you make a substitution in the recipe?!</box>
+        </sp>
+        <sp speaker="Mettaton" to="Alphys">
+            <box n="44">*... A SUBSTITUTION? *YOU MEAN, USE A DIFFERENT, NON-HUMAN INGREDIENT?</box>
+            <box n="45">*... WHY?</box>
+        </sp>
+        <sp speaker="Alphys" to="Mettaton">
+            <box n="46">*Uhh, what if someone's...</box>
+            <box n="47">*...</box>
+            <box n="48">*Vegan?</box>
+        </sp>
+        <sp speaker="Mettaton" to="Alphys">
+            <box n="49">*... VEGAN.</box>
+        </sp>
+        <sp speaker="Alphys" to="Mettaton">
+            <box n="50">*Uh well I mean</box>
+        </sp>
+        <sp speaker="Mettaton" to="Alphys">
+            <box n="51">*THAT'S A BRILLIANT IDEA, ALPHYS!!</box>
+            <box n="52">*ACTUALLY, I HAPPEN TO HAVE AN OPTION RIGHT HERE!!!</box>
+            <box n="53">*MTT-BRAND ALWAYS-CONVENIENT HUMAN-SOUL-FLAVOR-SUBSTITUE!</box>
+            <box n="54">*A CAN OF WHICH... *IS JUST OVER ON THAT COUNTER!!!</box>
+        </sp>
+        <sp speaker="Mettaton" to="you">
+            <box n="56">*WELL, DARLING? *WHY DON"T YOU GOT GET IT?</box>
+            <box n="57">*WHAT'S THE MATTER? *NOT A CAN FAN? *THAT'S TOO BAD!</box>
+            <box n="58">*MTT-BRAND USES ONLY THE FRESHEST ARTIFICIAL INGREDIENTS AND
+                CHEMICALS!</box>
+        </sp>
+        <conditions what="gamePlay">
             <sp speaker="cellPhone">
-                <box n="1">*Ring...</box>
-                <box n="2">*Alphys! Here!</box>
-                <box n="3">*Th-that blue laser seems totally impassable!</box>
-                <box n="4">*B-b-but!</box>
-                <box n="5">*As the Royal Scientist, I h-have some tricks up my sleeve!</box>
-                <box n="6">*I'll h-hack into the-the Hotland laser datbase and take it out!</box>
-                <box n="7">*Click...</box>
+                <box n="59">*Ring...</box>
             </sp>
-            <sp speaker="FukuFire">
-                <box n="8">*Finally! *Someone turned off that laser!</box>
-                <box n="9">*Now that we're free we can... *Well, uh I guess we'll jsut keep standing
-                    here.</box>
-                <box n="10">*Hm? *Nice try, but your loitering technique still needs work.</box>
-            </sp>
-            <sp speaker="SkateboardGirl">
-                <box n="11">*We were hanging out when suddenly, a bucha puzzles reactivated out of
-                    nowhere.</box>
-                <box n="12">*This is a huge problem... *It rules! They've GOTTA cancel school over
-                    this!</box>
-                <box n="13">*Wait a second... *Auuuugh, it's summer vacation!</box>
-            </sp>
-            <conditions what="gamePlay">
-                <sp speaker="cellPhone">
-                    <box n="1">*Ring...</box>
-                    <box n="2">*A-another laser, huh?</box>
-                    <box n="3">*I'm sorry, I won't play around this time.</box>
-                    <box n="4">*Hold on a second!!</box>
-                    <box n="5">*Click...</box>
-                </sp>
-            </conditions>
-        </setting>
-        <setting name="ShootingPuzzle2">
-            <sp speaker="sign">
-                <box n="1">*(Shoot the opposing ship!) *(Move the boxes to complete your
-                    mission.)</box>
-            </sp>
-            <sp speaker="puzzle">
-                <box n="2">RESTART...</box>
-                <box n="3">CONGRATULATIONS!</box>
-            </sp>
-        </setting>
-        <setting name="VentsBeforeMettaton">
-            <sp speaker="cellPhone">
-                <box n="1">ALPHYS updated status. *whatever!!! i'll just explain it!!!</box>
-                <box n="2">*Ring...</box>
-                <box n="3">*Uuuh, I think... *Umm...</box>
-                <box n="4">*Hey! *About the puzzles on the left and right...!</box>
-                <box n="5">*They're a bit difficult to explain, but...</box>
-                <box n="6">*... uhhh, you already s-solved them?</box>
-                <box n="7">*Awesome!</box>
-                <box n="8">*Click...</box>
-            </sp>
-        </setting>
-        <setting name="CookingWithAKillerRobot">
-            <sp speaker="cellPhone">
-                <box n="1">*Ring...</box>
-                <box n="2">*H-hey, it's kind of dark in there, isn't it?</box>
-                <box n="3">*Don't worry!</box>
-                <box n="4">*I'll hack into the light system and brighten it up!</box>
-                <box n="5">*Oh no.</box>
-            </sp>
-            <sp speaker="Mettaton">
-                <box n="6">*OHHHH YES!!!</box>
-                <box n="7">*WELCOME, BEAUTIES, TO THE UNDERGROUND'S PREMIER COOKING SHOW!!!</box>
-
-            </sp>
-            <sp speaker="sign">
-                <box n="8">Cooking with a Killer Robot</box>
-            </sp>
-            <sp speaker="Mettaton">
-                <box n="9">*PRE-HEAT YOUR OVENS, BECAUSE WE'VE GOT A VERY SPECIAL RECIPE FOR YOU
-                    TODAY!</box>
-                <box n="10">*WE'RE GOING TO BE MAKING...</box>
-                <box n="11">*A CAKE!</box>
-                <box n="12">*MY LOVELY ASSISTANT HERE WILL GATHER THE INGREDIENTS.</box>
-                <box n="13">*EVERYONE GIVE THEM A BIG HAND!!!</box>
-                <box n="14">*WE'LL NEED SUGAR, MILK, AND EGGS.</box>
-                <box n="15">*GO FOR IT, SWEETHEART!</box>
-                <box n="16">*MILK, SUGAR, AND EGGS! *YOU SHOULD BE ABLE TO FIND THEM ON THE BACK
-                    COUNTER!</box>
-            </sp>
-            <conditions what="gamePlay">
-                <box n="17">*THIS ISN'T A SHOW ABOUT WASHING YOUR HANDS, DARLING.</box>
-                <box n="18">*THAT'S ON WEDNESDAYS!</box>
-                <box n="19">*MILK? EGGS? IN THE FRIDGE?</box>
-                <box n="20">*NO WAY, DARLING! *THEY'D GET COLD!!!</box>
-                <sp speaker="game">
-                    <box n="21">*(As per culinary standard, a death forcefield surrounds the
-                        kitchen.)</box>
-                    <box n="22">*(As per culinary standard, a death forcefield surrounds the
-                        kitchen.)</box>
-                </sp>
-                <sp speaker="Mettaton">
-                    <box n="23">*MTT-BRAND MICROWAVE! *ORIGIN OF THE MTT CHALLENGE!</box>
-                    <box n="24">*PUT YOUR FOOD IN AND SET THE MICROWAVE ON HIGH FOR FIVE
-                        MINUTES...</box>
-                    <box n="25">*IF YOU CAN STILL RECOGNIZE YOUR MEAL, WE'LL DOUBLE YOUR MONEY
-                        BACK!!!</box>
-                    <box n="26">*OH YES! MTT-BRAND OVENS CAN REACH TEMPERATURES UP TO NINE-THOUSAND
-                        DEGREES!</box>
-                    <box n="27">*ROASTING! TOASTING! BURNING! *CHARRING! YOU'RE EXCITED, AREN'T YOU,
-                        DARLING? (TM)</box>
-                </sp>
-                <sp speaker="game">
-                    <box n="28">*(You found the sugar.)</box>
-                    <box n="29">*(You found the milk.)</box>
-                    <box n="30">*(You found the eggs.)</box>
-                </sp>
-            </conditions>
-            <sp speaker="Mettaton">
-                <box n="31">*GREAT JOB! *JUST PUT THEM IN TEH MIDDLE OF THIS COUNTER!</box>
-                <box n="32">*PERFECT! *GREAT JOB, BEAUTIFUL!</box>
-                <box n="33">*WE'VE GOT ALL OF THE INGREDIENTS WE NEED TO BAKE THE CAKE!</box>
-                <box n="34">*MILK... *SUGAR... *EGGS...</box>
-                <box n="35">*... OH MY! *WAIT A MAGNIFICIENT MOMENT! *HOW COULD I FORGET!!!</box>
-                <box n="36">*WE"RE MISSING THE MOST IMPORTANT INGREDIENT!</box>
-                <box n="37">*A HUMAN SOUL!!!!</box>
+            <sp speaker="Alphys" to="you">
+                <box n="60">*H-hey! *Head over to the right!</box>
             </sp>
             <sp speaker="cellPhone">
-                <box n="38">*Ring...</box>
+                <box n="61">*Ring...</box>
             </sp>
-            <sp speaker="Mettaton" to="Alphys">
-                <box n="39">*HELLO...? *I'M KIND OF IN THE MIDDLE OF SOMETHING HERE.</box>
-            </sp>
-            <sp speaker="Alphys" to="Mettaton">
-                <box n="40">*W-wait a second!!!</box>
-                <box n="41">*Couldn't you make a...</box>
-                <box n="42">*Couldn't you use a...</box>
-                <box n="43">*Couldn't you make a substitution in the recipe?!</box>
-            </sp>
-            <sp speaker="Mettaton" to="Alphys">
-                <box n="44">*... A SUBSTITUTION? *YOU MEAN, USE A DIFFERENT, NON-HUMAN
-                    INGREDIENT?</box>
-                <box n="45">*... WHY?</box>
-            </sp>
-            <sp speaker="Alphys" to="Mettaton">
-                <box n="46">*Uhh, what if someone's...</box>
-                <box n="47">*...</box>
-                <box n="48">*Vegan?</box>
-            </sp>
-            <sp speaker="Mettaton" to="Alphys">
-                <box n="49">*... VEGAN.</box>
-            </sp>
-            <sp speaker="Alphys" to="Mettaton">
-                <box n="50">*Uh well I mean</box>
-            </sp>
-            <sp speaker="Mettaton" to="Alphys">
-                <box n="51">*THAT'S A BRILLIANT IDEA, ALPHYS!!</box>
-                <box n="52">*ACTUALLY, I HAPPEN TO HAVE AN OPTION RIGHT HERE!!!</box>
-                <box n="53">*MTT-BRAND ALWAYS-CONVENIENT HUMAN-SOUL-FLAVOR-SUBSTITUE!</box>
-                <box n="54">*A CAN OF WHICH... *IS JUST OVER ON THAT COUNTER!!!</box>
+            <sp speaker="Alphys" to="you">
+                <box n="62">*Um, is it really a good idea to be getting a snack?</box>
+                <box n="63">*Well, I guess I really shouldn't judge you...</box>
+                <box n="64">*After all, I'm the one eating potato chips in my PJs!</box>
+                <box n="65">*Uhhh, I mean... *H-hey, go over to the right!</box>
             </sp>
             <sp speaker="Mettaton" to="you">
-                <box n="56">*WELL, DARLING? *WHY DON"T YOU GOT GET IT?</box>
-                <box n="57">*WHAT'S THE MATTER? *NOT A CAN FAN? *THAT'S TOO BAD!</box>
-                <box n="58">*MTT-BRAND USES ONLY THE FRESHEST ARTIFICIAL INGREDIENTS AND
-                    CHEMICALS!</box>
+                <box n="66">*STILL FIDDLING WITH THAT MICROWAVE, EH, DARLING?</box>
+                <box n="67">*CAN'T BLAME YOU FOR BEING TOTALLY ENAMORED WITH AN ELECTRONIC
+                    BOX.</box>
             </sp>
-            <conditions what="gamePlay">
-                <sp speaker="cellPhone">
-                    <box n="59">*Ring...</box>
-                </sp>
-                <sp speaker="Alphys" to="you">
-                    <box n="60">*H-hey! *Head over to the right!</box>
-                </sp>
-                <sp speaker="cellPhone">
-                    <box n="61">*Ring...</box>
-                </sp>
-                <sp speaker="Alphys" to="you">
-                    <box n="62">*Um, is it really a good idea to be getting a snack?</box>
-                    <box n="63">*Well, I guess I really shouldn't judge you...</box>
-                    <box n="64">*After all, I'm the one eating potato chips in my PJs!</box>
-                    <box n="65">*Uhhh, I mean... *H-hey, go over to the right!</box>
-                </sp>
-                <sp speaker="Mettaton" to="you">
-                    <box n="66">*STILL FIDDLING WITH THAT MICROWAVE, EH, DARLING?</box>
-                    <box n="67">*CAN'T BLAME YOU FOR BEING TOTALLY ENAMORED WITH AN ELECTRONIC
-                        BOX.</box>
-                </sp>
-                <sp speaker="game" to="you">
-                    <box n="68">*(It's the oven.) *(Looks like someone forgot to preheat it.)</box>
-                </sp>
-            </conditions>
+            <sp speaker="game" to="you">
+                <box n="68">*(It's the oven.) *(Looks like someone forgot to preheat it.)</box>
+            </sp>
+        </conditions>
+        <sp speaker="Mettaton" to="you">
+            <box n="69">*BY THE WAY, OUR SHOW RUNS ON A STRICT SCHEDULE.</box>
+            <box n="70">*IF YOU CAN'T GET THE CAN IN THE NEXT ONE MINUTE...</box>
+            <box n="71">*WE'LL JUST HAVE TO GO BACK TO THE ORIGINAL PLAN!!!</box>
+            <box n="72">*SO... *BETTER START CLIMBING, BEAUTIFUL!!!</box>
+        </sp>
+        <sp speaker="cellPhone">
+            <box n="73">*Ring...</box>
+        </sp>
+        <sp speaker="Alphys">
+            <box n="74">*oh no!!! *There's not enough time to climb up!</box>
+            <box n="75">*...</box>
+            <box n="76">*F-f-fourtunately, I might have a plan!</box>
+            <box n="77">*When I was upgrading your phone, I added a few... features.</box>
+            <box n="78">*You see that huge button that says... *"JETPACK"?</box>
+            <box n="79">*Watch this!</box>
+            <box n="80">*There!</box>
+            <box n="81">*You should have just enough fuel to reach the top!</box>
+            <box n="82">*Now, get up there!!!</box>
+        </sp>
+        <conditions puzzle="solved">
             <sp speaker="Mettaton" to="you">
-                <box n="69">*BY THE WAY, OUR SHOW RUNS ON A STRICT SCHEDULE.</box>
-                <box n="70">*IF YOU CAN'T GET THE CAN IN THE NEXT ONE MINUTE...</box>
-                <box n="71">*WE'LL JUST HAVE TO GO BACK TO THE ORIGINAL PLAN!!!</box>
-                <box n="72">*SO... *BETTER START CLIMBING, BEAUTIFUL!!!</box>
-            </sp>
-            <sp speaker="cellPhone">
-                <box n="73">*Ring...</box>
-            </sp>
-            <sp speaker="Alphys">
-                <box n="74">*oh no!!! *There's not enough time to climb up!</box>
-                <box n="75">*...</box>
-                <box n="76">*F-f-fourtunately, I might have a plan!</box>
-                <box n="77">*When I was upgrading your phone, I added a few... features.</box>
-                <box n="78">*You see that huge button that says... *"JETPACK"?</box>
-                <box n="79">*Watch this!</box>
-                <box n="80">*There!</box>
-                <box n="81">*You should have just enough fuel to reach the top!</box>
-                <box n="82">*Now, get up there!!!</box>
-            </sp>
-            <conditions puzzle="solved">
-                <sp speaker="Mettaton" to="you">
-                    <box n="1">*MY MY.</box>
-                    <box n="2">*IT SEEMS YOU'VE BESTED ME.</box>
-                    <box n="3">*BUT ONLY BECAUSE YOU HAD THE HELP OF THE BRILLIANT DOCTOR
-                        ALPHYS!</box>
-                    <box n="4">*OH, I LOATHE TO THINK OF WHAT WOULD HAVE HAPPENED TO YOU WITHOUT
-                        HER!!!</box>
-                    <box n="5">*WELL, TOODLES!!</box>
-                    <box n="6">*OH YES! *ABOUT THE SUBSTITUTION...</box>
-                    <box n="7">*HAVEN'T YOU EVER SEEN A COOKING SHOW BEFORE?</box>
-                    <box n="8">*I ALREADY BAKED THE CAKE AHEAD OF TIME!!!!! *SO FORGET IT!!!</box>
-                </sp>
-                <sp speaker="cellPhone">
-                    <box n="9">*Ring...</box>
-                </sp>
-                <sp speaker="Alphys" to="you">
-                    <box n="10">*Wow! *We... we did it!!</box>
-                    <box n="11">*We... we really did it!!!</box>
-                    <box n="12">*Great job out there, team!</box>
-                    <box n="13">*W-well, uh, anyway, let's keep heading forward!!!</box>
-                </sp>
-                <sp speaker="cellPhone">
-                    <box n="14">*Click...</box>
-                </sp>
-            </conditions>
-            <conditions puzzle="failed">
-                <sp speaker="cellPhone">
-                    <box n="1">*Ring...</box>
-                </sp>
-                <sp speaker="Alphys" to="you">
-                    <box n="2">*Wh-what!? *Wh-why aren't you m-m-moving?</box>
-                    <box n="3">*N-no...! *I must not have added enough fuel!</box>
-                    <box n="4">*D-darnit... *I'm sorry...</box>
-                    <box n="5">*Even when it's something like this, I...</box>
-                    <box n="6">*I still...! *I still...</box>
-                </sp>
-                <sp speaker="Mettaton" to="Alphys">
-                    <box n="7">*OH NO, WOULD YOU LOOK AT THAT!</box>
-                </sp>
-                <sp speaker="Alphys" to="Mettaton">
-                    <box n="8">*What?</box>
-                </sp>
-                <sp speaker="Mettaton" to="Alphys">
-                    <box n="9">*I FORGOT! *RIGHT ABOUT NOW IS WHEN WE HAVE OUR COMMERCIAL
-                        BREAK!</box>
-                </sp>
-                <sp speaker="Alphys" to="Mettaton">
-                    <box n="10">*Wh... *What are you...</box>
-                </sp>
-                <sp speaker="Mettaton" to="you">
-                    <box n="11">*UNFORTUNATELY, THAT MEANS NO ONE IS WATCHING THIS RIGHT NOW.</box>
-                    <box n="12">*I'M NOT GOING TO DESTROY YOU WITHOUT A LIVE TELEVISION
-                        AUDIENCE!!</box>
-                    <box n="13">*LOOKS LIKE YOU'VE FOILED ME ONCE AGAIN, THANKS TO THE BRILLIANT DR.
-                        ALPHYS!!!</box>
-                    <box n="14">*UNTIL NEXT TIME, BEAUTIFUL!</box>
-                    <box n="15">*TOODLES!</box>
-                </sp>
-                <sp speaker="cellPhone">
-                    <box n="16">*Ring...</box>
-                </sp>
-                <sp speaker="Alphys" to="you">
-                    <box n="17">*...</box>
-                    <box n="18">*U-um... *I guess we... *... did it?</box>
-                    <box n="19">*W-well, uh, anyway, let's keep heading forward!!!</box>
-                </sp>
-                <sp speaker="cellPhone">
-                    <box n="20">*Click...</box>
-                </sp>
-            </conditions>
-            <conditions what="gamePlay">
-                <sp speaker="game" to="you">
-                    <box n="1">*(It's glued to the table.)</box>
-                    <box n="2">*(It's an oven.) *(It looks pretty modern.)</box>
-                    <box n="3">*(It's a microwave.) *(That's great if you're a microwave fan.) </box>
-                    <box n="4">*(It's a specifically-regular-sized sink.)</box>
-                    <box n="5">*(It's a fridge.) *(It's strangely warm.)</box>
-                </sp>
-            </conditions>
-
-        </setting>
-        <setting name="FirstCoreView">
-            <option what="gameSave">
-                <sp speaker="game" to="you">
-                    <box n="1">*(An ominous structure looms in the distance...)</box>
-                    <box n="2">*(You're filled with determination.)</box>
-                </sp>
-                <sp speaker="cellPhone">
-                    <box n="4">*Ring...</box>
-                </sp>
-                <sp speaker="Alphys" to="you">
-                    <box n="5">*S-see that building in the distance?</box>
-                    <box n="6">*That's the CORE. *The source of all power for the underground.</box>
-                    <box n="7">*It converts geothermal energy into magical electricity by...</box>
-                    <box n="8">*Uhh, anyway, that's where we're going to go.</box>
-                    <box n="9">*In the CORE is an elevator directly to ASGORE's castle.</box>
-                    <box n="10">*And from there... *You can go home.</box>
-                </sp>
-                <sp speaker="cellPhone">
-                    <box n="11">*Click...</box>
-                </sp>
-            </option>
-        </setting>
-        <setting name="ElevatorR1">
-            <sp speaker="game" to="you">
-                <box n="1">*Please select a location.</box>
-                <box n="2">*LeftFloor1 Cancel RightFloor2</box>
-            </sp>
-        </setting>
-        <setting name="ElevatorR2">
-            <sp speaker="HeatsFlamesman">
-                <box n="1">*Heh. *I'm Heats Flamesman. *Remember my name!</box>
-                <box n="2">LeftFloor 1 LeftFloor 2 LeftFloor 3 RightFloor 1 Cancel</box>
-            </sp>
-        </setting>
-        <setting name="SansHotdogStation">
-            <option what="gamePlay">
-                <sp speaker="HotDogHarpy" to="you">
-                    <box n="1">*I love hot dogs!</box>
-                    <box n="2">*Hey... *Isn't it weird there's SNOW on that guy's roof?</box>
-                    <box n="3">*... guess he's just too lazy to clean it off.</box>
-                </sp>
-                <sp speaker="HotDogVulkin" to="you">
-                    <box n="4">*Toasty bun!</box>
-                </sp>
-                <sp speaker="Sans" to="you">
-                    <box n="1">*hey buddy, what's up? *wanna buy a hot dog? </box>
-                    <conditions what="gamePlay">
-                        <box n="1">*it's only 30G. Yes No</box>
-                        <box n="2">*whoops, you don't have enough cash.</box>
-                        <box n="3">*you should get a job. *i've heard being a sentry pays
-                            well.</box>
-                    </conditions>
-                    <conditions what="gamePlay">
-                        <box n="1">*it's only 30G. Yes No</box>
-                        <box n="2">*yeah, you've gotta save your money for college and
-                            spiders.</box>
-                    </conditions>
-                    <conditions what="gamePlay">
-                        <box n="1">*it's only 30G Yes No</box>
-                        <box n="2">*thanks, kid. *here's your 'dog.</box>
-                        <box n="3">*Yeah. 'dog. *apostrophe-dog. *it's short for hot-dog.</box>
-                    </conditions>
-                    <conditions what="gamePlay">
-                        <box n="1">*it's only 30G. Yes No</box>
-                        <box n="2">*another dog, coming right up...</box>
-                        <box n="3">*... you really like hot animals, don't you?</box>
-                        <box n="4">*hey, i'm not judging.</box>
-                        <box n="5">*i'd be out of a job without folks like you.</box>
-                    </conditions>
-                    <conditions what="gamePlay">
-                        <box n="1">*it's only 30G</box>
-                        <box n="2">*cool. *here's that ''dog.</box>
-                        <box n="3">*apostrophe-apostrophe dog.</box>
-                        <box n="4">*it's short for apostrophe-dog.</box>
-                        <box n="5">*which is, in turn, short for...</box>
-                    </conditions>
-                    <conditions what="gamePlay">
-                        <box n="1">*it's only 30G. Yes No</box>
-                        <box n="2">*another one? *okay.</box>
-                        <box n="3">*careful. *if you eat too many hot dogs...</box>
-                        <box n="4">*you'll probably get huge like me.</box>
-                        <box n="5">*huge as in super-popular, i mean.</box>
-                        <box n="6">*i'm practically a hot-dog tycoon now.</box>
-                    </conditions>
-                    <conditions what="gamePlay">
-                        <box n="1">*it's only 30G. Yes No</box>
-                        <box n="2">*another h'dog? *here you go...</box>
-                        <box n="3">*whoops, i'm actually out of hot dogs.</box>
-                        <box n="4">*here, you can have a hot cat instead.</box>
-                    </conditions>
-                </sp>
-                <sp speaker="HotDogHarpy">
-                    <box n="1">*I love hot dogs!</box>
-                    <box n="2">*But the hot dog guy left... *Even though all of his stuff is still
-                        here.</box>
-                    <box n="3">*... guess he's just too lazy to clean it away.</box>
-                </sp>
-            </option>
-        </setting>
-        <setting name="HotPicsHallway">
-            <sp speaker="cellPhone">
-                <box n="1">ALPHYS posted a picutre. *dinner with the girlfriend ;)</box>
-                <box n="2">*It's a picture of a catgirl figurine next to a bowl of instant
-                    noodles.)</box>
-                <box n="3">*CoolSkeleton95 posted a picture. *ARE WE POSTING HOT "PICS???" *HERE IS
-                    ME AND MY COOL FRIEND</box>
-                <box n="4">*(It's a picture of Papyrus flexing in front of a mirror.) *(He is
-                    wearing sunglasses.)</box>
-                <box n="5">*(Giant muscular biceps are pasted onto his arms.)</box>
-                <box n="6">*(The biceps are also wearing sunglasses.)</box>
-                <box n="7">ALPHYS updated status. *LOL, CoolSkeleton95! *... that's a joke,
-                    right?</box>
-                <box n="8">CoolSkeleton95 updated status. *THE ONLY JOKE HERE, IS HOW STRONG MY
-                    MUSCLES ARE.</box>
-            </sp>
-        </setting>
-    </path>
-    <path route="neutral">
-        <setting name="soSorryRoom">
-            <sp speaker="sign" to="you">
-                <box n="1">*Art Club: Meet here! *Next meeting: *October 10th, 8PM</box>
-            </sp>
-            <sp speaker="SoSorry" to="you">
-                <box n="1">*Ahhhh! *I'm late!!!! *I'm late!!!</box>
-                <box n="2">*I'm so sorry!!!</box>
-            </sp>
-            <conditions spared="spareSoSorry"/>
-            <sp speaker="SoSorry" to="you">
-                <box n="1">*Let's meet again someday!</box>
-            </sp>
-            <conditions killed="killSoSorry"/>
-            <sp speaker="game" to="you">
-                <box n="1">*(Art is dead.)</box>
-            </sp>
-        </setting>
-        <setting name="ApronRoom">
-            <sp speaker="cellPhone">
-                <box n="1">*NAPSTABLOOK22 has sent you a friend request.</box>
-                <box n="2">*Accept the request? Accept Reject</box>
-                <box n="3">*(It seems to have already rejected itself...)</box>
-            </sp>
-            <sp speaker="game" to="you">
-                <box n="4">*(There's an apron lying on the ground.)</box>
-                <box n="5">*(Will you take it?) Take it Leave it</box>
-                <box n="6">*(You got the Stained Apron.)</box>
-            </sp>
-        </setting>
-        <setting name="ConveyorPuzzle">
-            <sp speaker="cellPhone">
-                <box n="1">*Ring...</box>
-            </sp>
-            <sp speaker="Alphys">
-                <box n="2">*H... hi...! *It's Dr. Alphys.</box>
-                <box n="3">*This p-puzzle is kinda... um... timing-based.</box>
-                <box n="4">*Y-you see those switches over there?</box>
-                <box n="5">*Y-you'll have to press all three of them within 3 seconds.</box>
-                <box n="6">*I'll t-try to help you with the rhythm!</box>
-            </sp>
-            <sp speaker="cellPhone">
-                <box n="7">*Click...</box>
-            </sp>
-            <sp speaker="game">
-                <box n="8">*(It's the kind of every-day death forcefield you see at home.)</box>
+                <box n="1">*MY MY.</box>
+                <box n="2">*IT SEEMS YOU'VE BESTED ME.</box>
+                <box n="3">*BUT ONLY BECAUSE YOU HAD THE HELP OF THE BRILLIANT DOCTOR ALPHYS!</box>
+                <box n="4">*OH, I LOATHE TO THINK OF WHAT WOULD HAVE HAPPENED TO YOU WITHOUT
+                    HER!!!</box>
+                <box n="5">*WELL, TOODLES!!</box>
+                <box n="6">*OH YES! *ABOUT THE SUBSTITUTION...</box>
+                <box n="7">*HAVEN'T YOU EVER SEEN A COOKING SHOW BEFORE?</box>
+                <box n="8">*I ALREADY BAKED THE CAKE AHEAD OF TIME!!!!! *SO FORGET IT!!!</box>
             </sp>
             <sp speaker="cellPhone">
                 <box n="9">*Ring...</box>
             </sp>
-            <sp speaker="Alphys">
-                <box n="10">*OK! *Now press the third one!!!</box>
-                <box n="11">*.............</box>
-                <box n="12">*.............</box>
-                <box n="13">*H-h-hey!</box>
-                <box n="14">*Looks like you!!! *Only needed to press! *Two of them!!!</box>
-            </sp>
-        </setting>
-        <setting name="SwitchVentPuzzle">
-            <sp speaker="cellPhone">
-                <box n="1">ALPHYS updated status. *that's the last time i try to help with a puzzle
-                    lmao</box>
-                <box n="2">*Ring...</box>
-            </sp>
-            <sp speaker="Alphys">
-                <box n="3">*Uh, h-h-hey!</box>
-                <box n="4">*I'm going to the bathroom, so I'll be MIA fora bit.</box>
-                <box n="5">*I'm... I'm sureyou can handle this puzzle yourself!</box>
+            <sp speaker="Alphys" to="you">
+                <box n="10">*Wow! *We... we did it!!</box>
+                <box n="11">*We... we really did it!!!</box>
+                <box n="12">*Great job out there, team!</box>
+                <box n="13">*W-well, uh, anyway, let's keep heading forward!!!</box>
             </sp>
             <sp speaker="cellPhone">
-                <box n="6">*Click...</box>
+                <box n="14">*Click...</box>
             </sp>
-        </setting>
-        <setting name="CheeseRoom">
+        </conditions>
+        <conditions puzzle="failed">
             <sp speaker="cellPhone">
-                <box n="1">ALPHYS updated status. *OMG? ppl think Mew Mew 2 is better than Mew Mew
-                    1?</box>
-                <box n="2">*LOLLLL that's a joke right...</box>
-            </sp>
-            <option what="gameSave">
-                <sp speaker="game">
-                    <box n="3">*(Knowing the mouse might one day hack the computerized safe and get
-                        the cheese...) </box>
-                    <box n="4">*(It fills you with determination.)</box>
-                </sp>
-            </option>
-            <option what="gamePlay">
-                <box n="6">*(There's a piece of cheese inside this computerized laser-safe.)</box>
-                <box n="7">*(The lasers have melted the edges of the cheese...) *(It's stuck to the
-                    table.)</box>
-            </option>
-            <sp speaker="cellPhone">
-                <box n="8">ALPHYS updated status. *omg... DONT THEY GET IT RUINS Mew Mew's ENTIRE
-                    CHARACTER ARC</box>
-                <box n="9">ALPHYS updated status. *My Mew Mew 2 Review:</box>
-                <box n="10">*Mew Mew Kissy Cutie 2 Is Neither Kissy Nor Cutie. *Its Trash. 0
-                    stars.</box>
-            </sp>
-        </setting>
-        <setting name="RoyalGuards">
-            <sp speaker="RoyalGuard">
-                <box n="1">*Hey! You! *Stop!</box>
-                <box n="2">*We've like, received an anonymous tip about a human wearing a striped
-                    shirt.</box>
-                <box n="3">*They told us they were wandering around Hotland right now...</box>
-                <box n="4">*I know, sounds scary,huh?</box>
-                <box n="5">*Well, just stay chill. *We'll bring you someplace safe, OK?</box>
-            </sp>
-        </setting>
-    </path>
-    <path route="neutral">
-        <setting name="NiceCreamGuy">
-            <sp speaker="RoyalGuard" to="you">
-                <box n="1">*Oh, hey.</box>
-                <box n="2">*We're, like, taking a rain check on that killing-you thing.</box>
-                <box n="3">*Like, don't tell Undyne about this, OK?</box>
-                <box n="4">*You didn't tell her, did you...?</box>
-            </sp>
-            <sp speaker="game" to="you">
-                <box n="5">*(... he seems happy.)</box>
-            </sp>
-            <sp speaker="NiceCreamGuy" to="you">
-                <box n="6">*Hey! *It's you again!</box>
-                <box n="7">*Business is excellent here! *These two fellas bought ALL my ice
-                    cream!</box>
-                <box n="8">*I've actually sold out of everything!!!</box>
-                <box n="9">*... sorry.</box>
-                <box n="10">*Wait! *I've still got something for you!</box>
-                <box n="11">*... a big smile! *How about that!</box>
-                <box n="12">*I'm so happy!! *Nice Cream is really changing the world!!</box>
-            </sp>
-            <conditions killed="guardsKilled"/>
-            <sp speaker="NiceCreamGuy" to="you">
-                <box n="1">*I thought for sure if went to Hotland, I'd sell some Nice Creams.</box>
-                <box n="2">*But nobody wants them. *Everyone's just eating Starfaits and
-                    Glamburgers.</box>
-                <box n="3">*So!!!</box>
-                <box n="4">*I'm having a going out of business sale.</box>
-                <box n="5">*Hello... *Would you like some Nice Cream...?</box>
-                <box n="6">*It's the frozen treat... *That warms your heart.</box>
-                <box n="7">*Now only 126!</box>
-            </sp>
-        </setting>
-    </path>
-    <path route="neutral">
-        <setting name="Restaurant">
-            <sp speaker="someone" to="you">
-                <box n="1">*Blub blub... *You'll have to reserve a table to eat here.</box>
-                <box n="2">*You'll also need to reserve your chair, your silverware, your food,
-                    your...</box>
-            </sp>
-            <sp speaker="game" to="you">
-                <box n="3">*(It's a potted plant.)</box>
-                <box n="4">*(It's a potted plant.)</box>
-            </sp>
-            <sp speaker="Snowdrake" to="you">
-                <box n="5">*I'm the resort comedian. *I'm very funny. *People laugh at my
-                    jokes.</box>
-                <box n="6">*Now, my son. *He wants to be a comedian like his fathah.</box>
-                <box n="7">*But his jokes. *Aren't funny.</box>
-                <box n="8">*He tells these awful puns. *He's an embarrassment to our family.</box>
-                <box n="9">*Ha ha ha ha...</box>
-                <box n="10">*That's not funny.</box>
-                <box n="11">*Since his mothah passed on, he couldn't stand. *Living at home
-                    anymore.</box>
-                <box n="12">*So he ran away. *I haven't seen him since.</box>
-                <box n="13">*I'm a terrible fathah. *Ha ha ha ha...</box>
-                <box n="14">*That's not funny.</box>
-                <box n="15">*Talking to you about this... *It's breakin' my heart.</box>
-                <box n="16">*Ha ha ha ha...</box>
-                <box n="17">*That's not funny.</box>
-            </sp>
-            <conditions killed="snowdrakeKilled"/>
-            <sp speaker="Snowdrake" to="you">
-                <box n="1">*My son... *He was always making these weird ice puns.</box>
-                <box n="2">*I hated them, so he ran away from home...</box>
-                <box n="3">*I think I should try to patch things up with him. </box>
-                <box n="4">*Have you seen him? *Have you seen my son?</box>
-            </sp>
-            <sp speaker="someone" to="you">
-                <box n="18">*I work at the CORE. *The inside is a maze made out of swappable
-                    parts...</box>
-                <box n="19">*The inside is a maze made out of swappable parts.</box>
-                <box n="20">*That means we can shuffle the layout at will.</box>
-                <box n="21">*Boy, was today a FUN day! *I sure love PUZZLE!!!</box>
-            </sp>
-            <sp speaker="someone" to="you">
-                <box n="22">*Originally, we dug mazes with puzzles in order to foil human
-                    attacks.</box>
-                <box n="23">*But now, building things winding and confusing... *It's some awful
-                    tradition.</box>
-                <box n="24">*You can't go (ugh) two feet without being up to your armpits in
-                    puzzles.</box>
-            </sp>
-            <sp speaker="game" to="you">
-                <box n="25">*(It's a performance schedule.) *(Comedians, dancers, Sans...) *(Seems
-                    there's a break now.)</box>
-                <box n="26">*(It's some kind of TV show featuring Mettaton.)</box>
-                <box n="27">*(It's a Wall of Fame full of quotes and photos from visiting
-                    celebrities.)</box>
-                <box n="28">*"The food is to die for!" *"Gorgeous style and fragrance!" *"My face
-                    tastes beautiful!"</box>
-                <box n="29">*(...These are all Mettaton.)</box>
-            </sp>
-        </setting>
-        <setting name="CoreEntrance">
-            <sp speaker="game" to="you">
                 <box n="1">*Ring...</box>
             </sp>
             <sp speaker="Alphys" to="you">
-                <box n="2">*Huh? *Who are they?</box>
-                <box n="3">*N-nobody else is s-supossed to be here...</box>
-                <box n="4">*Oh well! *We can't worry about that now!</box>
+                <box n="2">*Wh-what!? *Wh-why aren't you m-m-moving?</box>
+                <box n="3">*N-no...! *I must not have added enough fuel!</box>
+                <box n="4">*D-darnit... *I'm sorry...</box>
+                <box n="5">*Even when it's something like this, I...</box>
+                <box n="6">*I still...! *I still...</box>
             </sp>
+            <sp speaker="Mettaton" to="Alphys">
+                <box n="7">*OH NO, WOULD YOU LOOK AT THAT!</box>
+            </sp>
+            <sp speaker="Alphys" to="Mettaton">
+                <box n="8">*What?</box>
+            </sp>
+            <sp speaker="Mettaton" to="Alphys">
+                <box n="9">*I FORGOT! *RIGHT ABOUT NOW IS WHEN WE HAVE OUR COMMERCIAL BREAK!</box>
+            </sp>
+            <sp speaker="Alphys" to="Mettaton">
+                <box n="10">*Wh... *What are you...</box>
+            </sp>
+            <sp speaker="Mettaton" to="you">
+                <box n="11">*UNFORTUNATELY, THAT MEANS NO ONE IS WATCHING THIS RIGHT NOW.</box>
+                <box n="12">*I'M NOT GOING TO DESTROY YOU WITHOUT A LIVE TELEVISION AUDIENCE!!</box>
+                <box n="13">*LOOKS LIKE YOU'VE FOILED ME ONCE AGAIN, THANKS TO THE BRILLIANT DR.
+                    ALPHYS!!!</box>
+                <box n="14">*UNTIL NEXT TIME, BEAUTIFUL!</box>
+                <box n="15">*TOODLES!</box>
+            </sp>
+            <sp speaker="cellPhone">
+                <box n="16">*Ring...</box>
+            </sp>
+            <sp speaker="Alphys" to="you">
+                <box n="17">*...</box>
+                <box n="18">*U-um... *I guess we... *... did it?</box>
+                <box n="19">*W-well, uh, anyway, let's keep heading forward!!!</box>
+            </sp>
+            <sp speaker="cellPhone">
+                <box n="20">*Click...</box>
+            </sp>
+        </conditions>
+        <conditions what="gamePlay">
             <sp speaker="game" to="you">
-                <box n="5">*Click...</box>
+                <box n="1">*(It's glued to the table.)</box>
+                <box n="2">*(It's an oven.) *(It looks pretty modern.)</box>
+                <box n="3">*(It's a microwave.) *(That's great if you're a microwave fan.) </box>
+                <box n="4">*(It's a specifically-regular-sized sink.)</box>
+                <box n="5">*(It's a fridge.) *(It's strangely warm.)</box>
             </sp>
-        </setting>
-    </path>
+        </conditions>
+
+    </setting>
+    <setting name="FirstCoreView">
+        <option what="gameSave">
+            <sp speaker="game" to="you">
+                <box n="1">*(An ominous structure looms in the distance...)</box>
+                <box n="2">*(You're filled with determination.)</box>
+            </sp>
+            <sp speaker="cellPhone">
+                <box n="4">*Ring...</box>
+            </sp>
+            <sp speaker="Alphys" to="you">
+                <box n="5">*S-see that building in the distance?</box>
+                <box n="6">*That's the CORE. *The source of all power for the underground.</box>
+                <box n="7">*It converts geothermal energy into magical electricity by...</box>
+                <box n="8">*Uhh, anyway, that's where we're going to go.</box>
+                <box n="9">*In the CORE is an elevator directly to ASGORE's castle.</box>
+                <box n="10">*And from there... *You can go home.</box>
+            </sp>
+            <sp speaker="cellPhone">
+                <box n="11">*Click...</box>
+            </sp>
+        </option>
+    </setting>
+    <setting name="ElevatorR1">
+        <sp speaker="game" to="you">
+            <box n="1">*Please select a location.</box>
+            <box n="2">*LeftFloor1 Cancel RightFloor2</box>
+        </sp>
+    </setting>
+    <setting name="ElevatorR2">
+        <sp speaker="HeatsFlamesman">
+            <box n="1">*Heh. *I'm Heats Flamesman. *Remember my name!</box>
+            <box n="2">LeftFloor 1 LeftFloor 2 LeftFloor 3 RightFloor 1 Cancel</box>
+        </sp>
+    </setting>
+    <setting name="SansHotdogStation">
+        <option what="gamePlay">
+            <sp speaker="HotDogHarpy" to="you">
+                <box n="1">*I love hot dogs!</box>
+                <box n="2">*Hey... *Isn't it weird there's SNOW on that guy's roof?</box>
+                <box n="3">*... guess he's just too lazy to clean it off.</box>
+            </sp>
+            <sp speaker="HotDogVulkin" to="you">
+                <box n="4">*Toasty bun!</box>
+            </sp>
+            <sp speaker="Sans" to="you">
+                <box n="1">*hey buddy, what's up? *wanna buy a hot dog? </box>
+                <conditions what="gamePlay">
+                    <box n="1">*it's only 30G. Yes No</box>
+                    <box n="2">*whoops, you don't have enough cash.</box>
+                    <box n="3">*you should get a job. *i've heard being a sentry pays well.</box>
+                </conditions>
+                <conditions what="gamePlay">
+                    <box n="1">*it's only 30G. Yes No</box>
+                    <box n="2">*yeah, you've gotta save your money for college and spiders.</box>
+                </conditions>
+                <conditions what="gamePlay">
+                    <box n="1">*it's only 30G Yes No</box>
+                    <box n="2">*thanks, kid. *here's your 'dog.</box>
+                    <box n="3">*Yeah. 'dog. *apostrophe-dog. *it's short for hot-dog.</box>
+                </conditions>
+                <conditions what="gamePlay">
+                    <box n="1">*it's only 30G. Yes No</box>
+                    <box n="2">*another dog, coming right up...</box>
+                    <box n="3">*... you really like hot animals, don't you?</box>
+                    <box n="4">*hey, i'm not judging.</box>
+                    <box n="5">*i'd be out of a job without folks like you.</box>
+                </conditions>
+                <conditions what="gamePlay">
+                    <box n="1">*it's only 30G</box>
+                    <box n="2">*cool. *here's that ''dog.</box>
+                    <box n="3">*apostrophe-apostrophe dog.</box>
+                    <box n="4">*it's short for apostrophe-dog.</box>
+                    <box n="5">*which is, in turn, short for...</box>
+                </conditions>
+                <conditions what="gamePlay">
+                    <box n="1">*it's only 30G. Yes No</box>
+                    <box n="2">*another one? *okay.</box>
+                    <box n="3">*careful. *if you eat too many hot dogs...</box>
+                    <box n="4">*you'll probably get huge like me.</box>
+                    <box n="5">*huge as in super-popular, i mean.</box>
+                    <box n="6">*i'm practically a hot-dog tycoon now.</box>
+                </conditions>
+                <conditions what="gamePlay">
+                    <box n="1">*it's only 30G. Yes No</box>
+                    <box n="2">*another h'dog? *here you go...</box>
+                    <box n="3">*whoops, i'm actually out of hot dogs.</box>
+                    <box n="4">*here, you can have a hot cat instead.</box>
+                </conditions>
+            </sp>
+            <sp speaker="HotDogHarpy">
+                <box n="1">*I love hot dogs!</box>
+                <box n="2">*But the hot dog guy left... *Even though all of his stuff is still
+                    here.</box>
+                <box n="3">*... guess he's just too lazy to clean it away.</box>
+            </sp>
+        </option>
+    </setting>
+    <setting name="HotPicsHallway">
+        <sp speaker="cellPhone">
+            <box n="1">ALPHYS posted a picutre. *dinner with the girlfriend ;)</box>
+            <box n="2">*It's a picture of a catgirl figurine next to a bowl of instant
+                noodles.)</box>
+            <box n="3">*CoolSkeleton95 posted a picture. *ARE WE POSTING HOT "PICS???" *HERE IS ME
+                AND MY COOL FRIEND</box>
+            <box n="4">*(It's a picture of Papyrus flexing in front of a mirror.) *(He is wearing
+                sunglasses.)</box>
+            <box n="5">*(Giant muscular biceps are pasted onto his arms.)</box>
+            <box n="6">*(The biceps are also wearing sunglasses.)</box>
+            <box n="7">ALPHYS updated status. *LOL, CoolSkeleton95! *... that's a joke, right?</box>
+            <box n="8">CoolSkeleton95 updated status. *THE ONLY JOKE HERE, IS HOW STRONG MY MUSCLES
+                ARE.</box>
+        </sp>
+    </setting>
+    <setting name="soSorryRoom">
+        <sp speaker="sign" to="you">
+            <box n="1">*Art Club: Meet here! *Next meeting: *October 10th, 8PM</box>
+        </sp>
+        <sp speaker="SoSorry" to="you">
+            <box n="1">*Ahhhh! *I'm late!!!! *I'm late!!!</box>
+            <box n="2">*I'm so sorry!!!</box>
+        </sp>
+        <conditions spared="spareSoSorry"/>
+        <sp speaker="SoSorry" to="you">
+            <box n="1">*Let's meet again someday!</box>
+        </sp>
+        <conditions killed="killSoSorry"/>
+        <sp speaker="game" to="you">
+            <box n="1">*(Art is dead.)</box>
+        </sp>
+    </setting>
+    <setting name="ApronRoom">
+        <sp speaker="cellPhone">
+            <box n="1">*NAPSTABLOOK22 has sent you a friend request.</box>
+            <box n="2">*Accept the request? Accept Reject</box>
+            <box n="3">*(It seems to have already rejected itself...)</box>
+        </sp>
+        <sp speaker="game" to="you">
+            <box n="4">*(There's an apron lying on the ground.)</box>
+            <box n="5">*(Will you take it?) Take it Leave it</box>
+            <box n="6">*(You got the Stained Apron.)</box>
+        </sp>
+    </setting>
+    <setting name="ConveyorPuzzle">
+        <sp speaker="cellPhone">
+            <box n="1">*Ring...</box>
+        </sp>
+        <sp speaker="Alphys">
+            <box n="2">*H... hi...! *It's Dr. Alphys.</box>
+            <box n="3">*This p-puzzle is kinda... um... timing-based.</box>
+            <box n="4">*Y-you see those switches over there?</box>
+            <box n="5">*Y-you'll have to press all three of them within 3 seconds.</box>
+            <box n="6">*I'll t-try to help you with the rhythm!</box>
+        </sp>
+        <sp speaker="cellPhone">
+            <box n="7">*Click...</box>
+        </sp>
+        <sp speaker="game">
+            <box n="8">*(It's the kind of every-day death forcefield you see at home.)</box>
+        </sp>
+        <sp speaker="cellPhone">
+            <box n="9">*Ring...</box>
+        </sp>
+        <sp speaker="Alphys">
+            <box n="10">*OK! *Now press the third one!!!</box>
+            <box n="11">*.............</box>
+            <box n="12">*.............</box>
+            <box n="13">*H-h-hey!</box>
+            <box n="14">*Looks like you!!! *Only needed to press! *Two of them!!!</box>
+        </sp>
+    </setting>
+    <setting name="SwitchVentPuzzle">
+        <sp speaker="cellPhone">
+            <box n="1">ALPHYS updated status. *that's the last time i try to help with a puzzle
+                lmao</box>
+            <box n="2">*Ring...</box>
+        </sp>
+        <sp speaker="Alphys">
+            <box n="3">*Uh, h-h-hey!</box>
+            <box n="4">*I'm going to the bathroom, so I'll be MIA fora bit.</box>
+            <box n="5">*I'm... I'm sureyou can handle this puzzle yourself!</box>
+        </sp>
+        <sp speaker="cellPhone">
+            <box n="6">*Click...</box>
+        </sp>
+    </setting>
+    <setting name="CheeseRoom">
+        <sp speaker="cellPhone">
+            <box n="1">ALPHYS updated status. *OMG? ppl think Mew Mew 2 is better than Mew Mew
+                1?</box>
+            <box n="2">*LOLLLL that's a joke right...</box>
+        </sp>
+        <option what="gameSave">
+            <sp speaker="game">
+                <box n="3">*(Knowing the mouse might one day hack the computerized safe and get the
+                    cheese...) </box>
+                <box n="4">*(It fills you with determination.)</box>
+            </sp>
+        </option>
+        <option what="gamePlay">
+            <box n="6">*(There's a piece of cheese inside this computerized laser-safe.)</box>
+            <box n="7">*(The lasers have melted the edges of the cheese...) *(It's stuck to the
+                table.)</box>
+        </option>
+        <sp speaker="cellPhone">
+            <box n="8">ALPHYS updated status. *omg... DONT THEY GET IT RUINS Mew Mew's ENTIRE
+                CHARACTER ARC</box>
+            <box n="9">ALPHYS updated status. *My Mew Mew 2 Review:</box>
+            <box n="10">*Mew Mew Kissy Cutie 2 Is Neither Kissy Nor Cutie. *Its Trash. 0
+                stars.</box>
+        </sp>
+    </setting>
+    <setting name="RoyalGuards">
+        <sp speaker="RoyalGuard">
+            <box n="1">*Hey! You! *Stop!</box>
+            <box n="2">*We've like, received an anonymous tip about a human wearing a striped
+                shirt.</box>
+            <box n="3">*They told us they were wandering around Hotland right now...</box>
+            <box n="4">*I know, sounds scary,huh?</box>
+            <box n="5">*Well, just stay chill. *We'll bring you someplace safe, OK?</box>
+            <box n="6">*... Huh? *what is it, bro?</box>
+            <box n="7">*The shirt they're wearing?</box>
+            <box n="8">*... like, what about it?</box>
+            <box n="9">*Bro...</box>
+            <box n="10">*Are you thinkin... *What I'm thinkin?</box>
+            <box n="11">*Bummer. *This is, like... *Mega embarrassing.</box>
+            <box n="12">**We, like, actually totally have to kill you and stuff.</box>
+        </sp>
+        <sp speaker="cellPhone">
+            <box n="13">ALPHYS updated status. *oopswait how's the humnan doing</box>
+            <box n="14">ALPHYS updated status. *Top 10 Shows That Make You Forget To Do Your Frickin
+                Job</box>
+        </sp>
+    </setting>
+    <setting name="2ndCoreView">
+        <sp speaker="cellPhone">
+            <box n="1">*Ring...</box>
+        </sp>
+        <sp speaker="Alphys">
+            <box n="2">*Um...</box>
+            <box n="3">*I noticed you've been kind of quiet...</box>
+            <box n="4">*Are you w-worried about meeting ASGORE...?</box>
+            <box n="5">*...</box>
+            <box n="6">*W-well, don't worry, okay?</box>
+            <box n="7">*Th-the king is a really nice guy...</box>
+            <box n="8">*I'm sure you can talk to him, and...</box>
+            <box n="9">*W-with your human soul, you can pass through the barrier!</box>
+            <box n="10">*S-so no worrying, OK? *J-just forget about it and smile.</box>
+        </sp>
+        <sp speaker="cellPhone">
+            <box n="11">*Click...</box>
+        </sp>
+    </setting>
+    <setting name="MettatonNewsReport"/>
+    <!-- super long and has to be sorted in UndertaleTextProjectFolder -->
+    <setting name="SpiderBakeSale">
+        <path route="neutral pacifist">
+            <option what="gamePlay">
+                <sp speaker="Muffet" to="you">
+                    <box n="1">*Welcome to our parlor, dearie~ *Interested in some spider
+                        pastries?</box>
+                    <box n="2">*All proceeds go to real spiders~</box>
+                    <box n="3">*Check our the webs to make a purchase~</box>
+                </sp>
+            </option>
+        </path>
+        <path route="pacifist neutral genocide">
+            <sp speaker="game" to="you">
+                <box n="4">*(It looks like some sort of powerful bracelet...)</box>
+                <box n="5">*(Wait.) *(It's just a croissant...)</box>
+                <box n="6">*(It's a spider donut.) *(It looks more...) *(Rubbery than usual.)</box>
+            </sp>
+            <sp speaker="sign" to="you">
+                <box n="7">*Spider Bake Sale *All proceeds go to real spiders.</box>
+            </sp>
+            <sp speaker="game">
+                <box n="8">*Buy a Spider Donut for 9999G? Yes No</box>
+                <box n="9">*Some spiders crawled down and gave you a donut.</box>
+                <box n="10">You didn't have enough gold.</box>
+                <box n="11">*Buy a Spider Cider for 9999G? Yes No</box>
+                <box n="12">*Some spiders crawled down and gave you a jug.</box>
+                <box n="13">*You didn't have enough godl.</box>
+            </sp>
+            <sp speaker="ScaredDonutGuy">
+                <box n="14">*I... I... I ended up buying a donut...</box>
+                <box n="15">*I... I... I didn't want to, but that girl... even though I told her no,
+                    she...</box>
+                <box n="16">*... kept staring at me in this creepy way and licking her lips.</box>
+                <box n="17">*N... now I'm outta cash.</box>
+                <box n="18">*Maybe I can sell it online and double my money back...</box>
+            </sp>
+        </path>
+    </setting>
+    <setting name="FinalVentPuzzle">
+        <sp speaker="cellPhone">
+            <box n="1">*Ring...</box>
+        </sp>
+        <sp speaker="Alphys" to="you">
+            <box n="2">*Hi, Alphys here!</box>
+            <box n="3">*This room is like the room we saw before.</box>
+            <box n="4">*There are two puzzles to the north and south...</box>
+            <box n="5">*You'll have to solve them both to proceed!</box>
+            <box n="6">*...</box>
+            <box n="7">*A-also... I'd like to say!</box>
+            <box n="8">*I don't really... *Like giving away puzzle solutions.</box>
+            <box n="9">*But if you need help, just call me, ok?</box>
+            <box n="10">*Actually, wait, I have an idea!</box>
+            <box n="11">*Let's be friends on UnderNet!</box>
+            <box n="12">*Then you can just ping me when you need help!</box>
+            <box n="13">*...</box>
+            <box n="14">*Wait, we're already friends, aren't we?</box>
+            <box n="15">*I signed you up, didn't I?</box>
+            <box n="16">*You've been reading my posts the whole time...</box>
+            <box n="17">*Well! I hope! You agree with me! *About Mew Mew 2!</box>
+        </sp>
+        <sp speaker="cellPhone">
+            <box n="18">*Click...</box>
+        </sp>
+        <option what="gamePlay">
+            <sp speaker="game" to="you">
+                <box n="19">*(The door is locked.)</box>
+            </sp>
+        </option>
+    </setting>
+    <setting name="ShootingPuzzle3">
+        <option what="gamePlay">
+            <sp speaker="puzzle" to="you">
+                <box n="1">*(Shoot the opposing ship!) *(You have just one shot.)</box>
+                <conditions puzzle="solved">
+                    <box n="2">CONGRATULATONS</box>
+                </conditions>
+            </sp>
+        </option>
+    </setting>
+    <setting name="NiceCreamGuy">
+        <sp speaker="RoyalGuard" to="you">
+            <box n="1">*Oh, hey.</box>
+            <box n="2">*We're, like, taking a rain check on that killing-you thing.</box>
+            <box n="3">*Like, don't tell Undyne about this, OK?</box>
+            <box n="4">*You didn't tell her, did you...?</box>
+        </sp>
+        <sp speaker="game" to="you">
+            <box n="5">*(... he seems happy.)</box>
+        </sp>
+        <sp speaker="NiceCreamGuy" to="you">
+            <box n="6">*Hey! *It's you again!</box>
+            <box n="7">*Business is excellent here! *These two fellas bought ALL my ice cream!</box>
+            <box n="8">*I've actually sold out of everything!!!</box>
+            <box n="9">*... sorry.</box>
+            <box n="10">*Wait! *I've still got something for you!</box>
+            <box n="11">*... a big smile! *How about that!</box>
+            <box n="12">*I'm so happy!! *Nice Cream is really changing the world!!</box>
+        </sp>
+        <conditions killed="guardsKilled"/>
+        <sp speaker="NiceCreamGuy" to="you">
+            <box n="1">*I thought for sure if went to Hotland, I'd sell some Nice Creams.</box>
+            <box n="2">*But nobody wants them. *Everyone's just eating Starfaits and
+                Glamburgers.</box>
+            <box n="3">*So!!!</box>
+            <box n="4">*I'm having a going out of business sale.</box>
+            <box n="5">*Hello... *Would you like some Nice Cream...?</box>
+            <box n="6">*It's the frozen treat... *That warms your heart.</box>
+            <box n="7">*Now only 126!</box>
+        </sp>
+    </setting>
+    <setting name="Restaurant">
+        <sp speaker="someone" to="you">
+            <box n="1">*Blub blub... *You'll have to reserve a table to eat here.</box>
+            <box n="2">*You'll also need to reserve your chair, your silverware, your food,
+                your...</box>
+        </sp>
+        <sp speaker="game" to="you">
+            <box n="3">*(It's a potted plant.)</box>
+            <box n="4">*(It's a potted plant.)</box>
+        </sp>
+        <sp speaker="Snowdrake" to="you">
+            <box n="5">*I'm the resort comedian. *I'm very funny. *People laugh at my jokes.</box>
+            <box n="6">*Now, my son. *He wants to be a comedian like his fathah.</box>
+            <box n="7">*But his jokes. *Aren't funny.</box>
+            <box n="8">*He tells these awful puns. *He's an embarrassment to our family.</box>
+            <box n="9">*Ha ha ha ha...</box>
+            <box n="10">*That's not funny.</box>
+            <box n="11">*Since his mothah passed on, he couldn't stand. *Living at home
+                anymore.</box>
+            <box n="12">*So he ran away. *I haven't seen him since.</box>
+            <box n="13">*I'm a terrible fathah. *Ha ha ha ha...</box>
+            <box n="14">*That's not funny.</box>
+            <box n="15">*Talking to you about this... *It's breakin' my heart.</box>
+            <box n="16">*Ha ha ha ha...</box>
+            <box n="17">*That's not funny.</box>
+        </sp>
+        <conditions killed="snowdrakeKilled"/>
+        <sp speaker="Snowdrake" to="you">
+            <box n="1">*My son... *He was always making these weird ice puns.</box>
+            <box n="2">*I hated them, so he ran away from home...</box>
+            <box n="3">*I think I should try to patch things up with him. </box>
+            <box n="4">*Have you seen him? *Have you seen my son?</box>
+        </sp>
+        <sp speaker="someone" to="you">
+            <box n="18">*I work at the CORE. *The inside is a maze made out of swappable
+                parts...</box>
+            <box n="19">*The inside is a maze made out of swappable parts.</box>
+            <box n="20">*That means we can shuffle the layout at will.</box>
+            <box n="21">*Boy, was today a FUN day! *I sure love PUZZLE!!!</box>
+        </sp>
+        <sp speaker="someone" to="you">
+            <box n="22">*Originally, we dug mazes with puzzles in order to foil human attacks.</box>
+            <box n="23">*But now, building things winding and confusing... *It's some awful
+                tradition.</box>
+            <box n="24">*You can't go (ugh) two feet without being up to your armpits in
+                puzzles.</box>
+        </sp>
+        <sp speaker="game" to="you">
+            <box n="25">*(It's a performance schedule.) *(Comedians, dancers, Sans...) *(Seems
+                there's a break now.)</box>
+            <box n="26">*(It's some kind of TV show featuring Mettaton.)</box>
+            <box n="27">*(It's a Wall of Fame full of quotes and photos from visiting
+                celebrities.)</box>
+            <box n="28">*"The food is to die for!" *"Gorgeous style and fragrance!" *"My face tastes
+                beautiful!"</box>
+            <box n="29">*(...These are all Mettaton.)</box>
+        </sp>
+    </setting>
+    <setting name="CoreEntrance">
+        <sp speaker="game" to="you">
+            <box n="1">*Ring...</box>
+        </sp>
+        <sp speaker="Alphys" to="you">
+            <box n="2">*Huh? *Who are they?</box>
+            <box n="3">*N-nobody else is s-supossed to be here...</box>
+            <box n="4">*Oh well! *We can't worry about that now!</box>
+        </sp>
+        <sp speaker="game" to="you">
+            <box n="5">*Click...</box>
+        </sp>
+    </setting>
+
 
 </map>
