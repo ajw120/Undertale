@@ -1073,10 +1073,150 @@
 
         </sp>
         <sp speaker="you">
-            <box n="9">Sure! ...no...</box>
+            <box n="9">Sure!</box>
         </sp>
         <sp speaker="Alphys" to="you">
             <box n="1">*R-really!?</box>
+            <box n="2">*It's so good! *It's um, my favorite show!</box>
+            <box n="3">*It's all about this human girl named Mew Mew who has cat ears!</box>
+            <box n="4">*Which humans don't have! *S-so she's all sensitive about them!</box>
+            <box n="5">*But like... *Eventually</box>
+            <box n="6">*She realizes that her ears don't matter!</box>
+            <box n="7">*That her friends like her despite the ears!</box>
+            <box n="8">*It's really moving!</box>
+            <box n="9">*Whoops, spoilers</box>
+            <box n="10">*Also, this sounds weird, but she has the power!</box>
+            <box n="11">*To control the minds of anyone she kisses!</box>
+            <box n="12">*She kisses people and controls them to fix her problems!!</box>
+            <box n="13">*They don't remember anything after the kiss I mean!</box>
+            <box n="14">*BUT IF SHE MISSES THE KISS!!! *THEN!!</box>
+            <box n="15">*Then, uh, and uh, also I mean, of course</box>
+            <box n="16">*Eventually, she realizes that controlling people</box>
+            <box n="17">*OKAY WELL I almost spoiled the whole show, but</box>
+            <box n="18">*Uhhh, I think you'd really like it!!!</box>
+            <box n="19">*We should watch it! *After you get through all this!</box>
+        </sp>
+        <sp speaker="cellPhone">
+            <box n="20">*(Click...)</box>
+        </sp>
+        <sp speaker="you">
+            <box n="1">...no...</box>
+        </sp>
+        <sp speaker="Alphys">
+            <box n="2">*Um! Well! *That's okay!</box>
+            <box n="3">*Just thought I'd!! *Ask!!!</box>
+            <box n="4">*B-but I think you'd really like it!!</box>
+            <box n="5">*If you gave it a chance!!</box>
+        </sp>
+        <sp speaker="cellPhone">
+            <box n="6">*(Click...)</box>
+        </sp>
+    </setting>
+    <setting name="FinalShootingPuzzle">
+        <sp speaker="puzzle">
+            <box n="1">*(Shoot the opposing ship!) *(You have just one shot.)</box>
+            <conditions puzzle="solved">
+                <box n="2">CONGRATULATIONS!</box>
+            </conditions>
+        </sp>
+    </setting>
+    <setting name="SpiderSavePoint">
+        <option what="gameSave">
+            <sp speaker="game">
+                <box n="1">*(The smell of cobwebs fills the air...)</box>
+                <box n="2">*(You're filled with determination.)</box>
+            </sp>
+        </option>
+    </setting>
+    <setting name="MuffetArena">
+        <sp speaker="Muffet" to="you">
+            <box n="1">*Ahuhuhuhu...</box>
+            <box n="2">*Did you hear what they just said?</box>
+            <box n="3">*They said a human wearing a striped shirt will come through.</box>
+            <box n="4">*I heard they hate spiders.</box>
+            <box n="5">*I heard they love to stomp on them.</box>
+            <box n="6">*I heard that they like to tear their legs off.</box>
+            <box n="7">*I heard...</box>
+            <box n="8">*... that they're awfully stingy with their money.</box>
+            <box n="9">*Ahuhuhuhu...</box>
+            <box n="10">*You think your taste is too refined for our pastries, don't you,
+                deary?</box>
+            <box n="11">*Ahuhuhu... *I disagree with that notion.</box>
+            <box n="12">*I think your taste...</box>
+            <box n="13">*Is exactly what this next batch needs!</box>
+        </sp>
+    </setting>
+    <setting name="MettatonPoster">
+        <option what="gamePlay">
+            <sp speaker="game">
+                <box n="1">*(It's a poster for Mettaton's latest stage-performance.)</box>
+                <box n="2">*(A tragic tale of two star-crossed lovers, kept apart by the tides of
+                    fate...)</box>
+                <box n="3">*(Looks like it's almost time for the performance.)</box>
+            </sp>
+            <sp speaker="DressLion">
+                <box n="1">*Mettaton looked really... *Really cool in that dress.</box>
+                <box n="2">*It sort of makes me feel like I could wear one, too!</box>
+            </sp>
+        </option>
+    </setting>
+    <setting name="MettatonOpera">
+        <sp speaker="Mettaton">
+            <box n="1">*OH? *THAT HUMAN...</box>
+            <box n="2">*COULD IT BE...?</box>
+            <box n="3">*... MY ONE TRUE LOVE?</box>
+            <box n="4">Oh my love</box>
+            <box n="5">Please run away</box>
+            <box n="6">Monster King</box>
+            <box n="7">Forbids your stay</box>
+            <box n="8">Humans must</box>
+            <box n="9">Live far apart</box>
+            <box n="10">Even if</box>
+            <box n="11">It breaks my heart</box>
+            <box n="12">They'll put you</box>
+            <box n="13">In the dungeon</box>
+            <box n="14">It'll suck</box>
+            <box n="15">And then you'll die a lot</box>
+            <box n="16">Really sad</box>
+            <box n="17">You're gonna die</box>
+            <box n="18">Cry cry cry</box>
+            <box n="19">So sad it's happening.</box>
+            <box n="20">*SO SAD.</box>
+            <box n="21">*SO SAD THAT YOU ARE GOING TO THE DUNGEON.</box>
+            <box n="22">*WELL, TOODLES!</box>
+        </sp>
+        <conditions timesPlayed="1">
+            <sp speaker="Mettaton" to="you">
+                <box n="1">*...</box>
+                <box n="2">*(YOU LOOK BORED, DARLING.)</box>
+                <box n="3">*(I WANT THIS TO BE A STELLAR PERFORMANCE, SO IF YOU WON'T GIVE IT YOUR
+                    ALL...</box>
+                <box n="4">*(THEN I'LL SKIP AHEAD FOR THE AUDIENCE'S SAKE.)</box>
+                <box n="5">*(Perform?)</box>
+            </sp>
+            <sp speaker="you" to="Mettaton">
+                <box n="1">Yeah</box>
+            </sp>
+            <sp speaker="Mettaton" to="you">
+                <box n="2">*(UNDERSTOOD.) *(LET'S KNOCK 'EM DEAD!)</box>
+            </sp>
+            <sp speaker="you" to="Mettaton">
+                <box n="1">Skip this</box>
+            </sp>
+            <sp speaker="Mettaton" to="you">
+                <box n="2">*(KA-SIGH...) *(THE SHOW MUST GO ON!)</box>
+                <box n="3">*OOMPH! *I AM SO OVERWHELMED WITH TRAGEDIES.</box>
+                <box n="4">*THE KING HAS ORDERED YOU TO WASTE AWAY IN THE CASTLE BASEMENT.</box>
+                <box n="5">*AND BEFORE WE EVEN HAD TIME TO SING A SWEET SONG ABOUT IT.</box>
+                <box n="6">*MY DEAR HEART! *I CAN BARELY LOOK UPON YOU, KNOWING WHAT COMES
+                    NEXT...</box>
+                <box n="7">*WELL, TOODLES!</box>
+            </sp>
+        </conditions>
+    </setting>
+    <setting name="TilePuzzle">
+        <sp speaker="Mettaton">
+            <box n="1">*</box>
             <box n="2">*</box>
             <box n="3">*</box>
             <box n="4">*</box>
@@ -1091,13 +1231,51 @@
             <box n="13">*</box>
             <box n="14">*</box>
             <box n="15">*</box>
-            <box n="16">*</box>
-            <box n="17">*</box>
-            <box n="18">*</box>
-            <box n="19">*</box>
-            <box n="20">*</box>
         </sp>
+        <conditions puzzle="failed">
+            <sp speaker="Mettaton" to="you">
+                <box n="1">*</box>
+                <box n="2">*</box>
+                <box n="3">*</box>
+                <box n="4">*</box>
+                <box n="5">*</box>
+                <box n="6">*</box>
+            </sp>
+            <sp speaker="cellPhone">
+                <box n="7">*Ring...</box>
+            </sp>
+            <sp speaker="Alphys" to="you">
+                <box n="8">*</box>
+                <box n="9">*</box>
+            </sp>
+            <sp speaker="Mettaton">
+                <box n="10">*</box>
+                <box n="11">*</box>
+                <box n="12">*</box>
+            </sp>
+            <sp speaker="Alphys">
+                <box n="13">*</box>
+                <box n="14">*</box>
+                <box n="15">*</box>
+                <box n="16">*</box>
+                <box n="17">*</box>
+            </sp>
+            <sp speaker="Mettaton">
+                <box n="18">*</box>
+                <box n="19">*</box>
+                <box n="20">*</box>
+                <box n="21">*</box>
+                <box n="22">*</box>
+                <box n="23">*</box>
+            </sp>
+        </conditions>
+        <conditions puzzle="solved">
+            <sp speaker="Mettaton" to="you">
+                <box n="1">*</box>
+            </sp>
+        </conditions>
     </setting>
+    <setting name="ElevatorR3"/>
     <setting name="NiceCreamGuy">
         <sp speaker="RoyalGuard" to="you">
             <box n="1">*Oh, hey.</box>

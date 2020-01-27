@@ -252,6 +252,7 @@ speaker =
             | "ScaredDonutGuy"
             | "DiamondBoy1"
             | "DiamondBoy2"
+            | "DressLion"
             | "puzzle"
             | "you"
         }
