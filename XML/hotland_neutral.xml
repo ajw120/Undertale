@@ -1215,6 +1215,7 @@
         </conditions>
     </setting>
     <setting name="TilePuzzle">
+        <!--needs dialogue written in boxes -->
         <sp speaker="Mettaton">
             <box n="1">*</box>
             <box n="2">*</box>
@@ -1275,7 +1276,32 @@
             </sp>
         </conditions>
     </setting>
-    <setting name="ElevatorR3"/>
+    <setting name="ElevatorR3">
+        <option what="gamePlay">
+            <sp speaker="HeatsFlamesman" to="you">
+                <box n="1">*Hey, hey! *Did you remember my name?</box>
+            </sp>
+            <sp speaker="game" to="you">
+                <box n="2">*(Did you?)</box>
+            </sp>
+            <sp speaker="you">
+                <box n="1">Yes</box>
+            </sp>
+            <sp speaker="HeatsFlamesman" to="you">
+                <box n="2">*Wh-WHAT!? *You REMEMBER!?</box>
+                <box n="3">*How could I be so easily defeateeeeeeeeed!?</box>
+                <box n="4">*I'll always remember that you remembered!</box>
+            </sp>
+            <sp speaker="you">
+                <box n="1">No</box>
+            </sp>
+            <sp speaker="HeatsFlamesman">
+                <box n="2">*Wh-WHAT!? *You DON'T REMEMBER!?</box>
+                <box n="3">*How could I be so easily defeateeeeeeeeed!?</box>
+                <box n="4">*I'll never forget that you forgot!</box>
+            </sp>
+        </option>
+    </setting>
     <setting name="NiceCreamGuy">
         <sp speaker="RoyalGuard" to="you">
             <box n="1">*Oh, hey.</box>
@@ -1307,6 +1333,187 @@
             <box n="7">*Now only 126!</box>
         </sp>
     </setting>
+    <setting name="ResortEntrance">
+        <option what="gamePlay">
+            <sp speaker="sign">
+                <box n="1">*(Hey!)</box>
+                <box n="2">*(Go up the creepy alleyway on the right for some great deals!)</box>
+            </sp>
+            <sp speaker="game" to="you">
+                <box n="3">*(It's just a regular wall.)</box>
+            </sp>
+            <sp speaker="Sans" to="you">
+                <box n="4">*hey. *i heard you're going to the core.</box>
+                <box n="5">*how bout grabbing some dinner with me first?</box>
+            </sp>
+            <sp speaker="you">
+                <box n="5">I'm busy</box>
+            </sp>
+            <sp speaker="Sans">
+                <box n="6">*well, have fun in there.</box>
+            </sp>
+            <sp speaker="you">
+                <box n="7">Yeah</box>
+            </sp>
+            <sp speaker="Sans">
+                <box n="8">*great, thanks for treating me.</box>
+                <box n="9">*over here. *i know a shortcut.</box>
+            </sp>
+        </option>
+    </setting>
+    <setting name="CattyAndBrattysShop">
+        <!--Burgerpants Sidequest in Talk needs added -->
+        <path route="genocide neutral pacifist">
+            <sp speaker="Bratty Catty">
+                <box n="1">*Hey! *Check it out! *Yeah! *Check it out!</box>
+            </sp>
+            <sp speaker="you">
+                <box n="1">About you two</box>
+            </sp>
+            <sp speaker="Bratty Catty">
+                <box n="2">*I'm Bratty, and this is my best friend, Catty. *I'm Catty, and this is
+                    my best friend, Bratty.</box>
+            </sp>
+            <sp speaker="you">
+                <box n="1">About your wares</box>
+            </sp>
+            <sp speaker="Bratty Catty">
+                <box n="2">*The stuff inside, is like... *TOTALLY wicked expensive.</box>
+                <box n="3">*But, like, this stuff we found is like... *TOTALLY wicked cheap.</box>
+                <box n="4">*You should... *Like...</box>
+                <box n="5">*TOTALLY wicked buy all of it? *TOTALLY wicked buy all of it?</box>
+            </sp>
+            <sp speaker="you">
+                <box n="6">Origin of wares</box>
+            </sp>
+            <sp speaker="Bratty Catty">
+                <box n="7">*I mean, like, where does andy get guns, or food, or... *We found it in
+                    the garbage!</box>
+                <box n="8">*It's GOOD garbage. *It's like, really good garbage.</box>
+            </sp>
+            <sp speaker="you">
+                <box n="9">Origin of garbage</box>
+            </sp>
+            <sp speaker="Bratty Catty">
+                <box n="10">*Where do we get the garbage?</box>
+                <box n="11">*Like, the garbage store, duh!!!</box>
+                <box n="12">*..... *.....</box>
+                <box n="13">*Waterfall mostly. *I found a gun in a dumpster!</box>
+                <box n="14">So, like, what's up?</box>
+            </sp>
+            <sp speaker="you">
+                <box n="1">About Mettaton</box>
+                <box n="2">*Oh my God. *Mettaton. *Oh my GOD, METTATON.</box>
+                <box n="3">*He's like... *My robot husband. *Actually he's like... *MY robot
+                    husband.</box>
+                <box n="4">*I think we're like... both going to marry him. *We're both like, ALREADY
+                    married to him.</box>
+                <box n="5">*He just, like, doesn't know it yet.</box>
+            </sp>
+            <sp speaker="you">
+                <box n="6">Origin of Mettaton</box>
+            </sp>
+            <sp speaker="Bratty Catty">
+                <box n="7">*So, like, Dr. Alphys built Mettaton, right? *That's like, what they TELL
+                    you.</box>
+                <box n="8">*But like... *Mettaton always acts like... *... being built was HIS idea
+                    somehow.</box>
+                <box n="10">*But they're like... *Not friends anymore. *Yeah!!! *Unlike me and
+                    Bratty!! *Best friends for-EVER!!!</box>
+            </sp>
+            <sp speaker="you">
+                <box n="1">About Alphys</box>
+            </sp>
+            <sp speaker="Bratty Catty">
+                <box n="2">*Oh my God. *Alphys *Oh my god, *ALPHYS.</box>
+                <box n="3">*She used to live on our street. *She was like a big sister.</box>
+                <box n="4">*I mean, like, if your big sister... *Takes you on trips to the
+                    dump.</box>
+                <box n="5">*She showed us the coolest places to find trash. *She was always
+                    collecting these weird cartoons.</box>
+                <box n="6">*Then she became the Royal Scientist... *Yeah, we haven't seen her in
+                    forever...</box>
+            </sp>
+            <sp speaker="you">
+                <box n="7">Royal Scientist</box>
+            </sp>
+            <sp speaker="Bratty Catty">
+                <box n="8">*So ALPHYS has always, like... *Thought ASGORE is a SUPER cutie.</box>
+                <box n="9">*So, like, I'm pretty sure she... *Made Mettaton to, like, totally
+                    impress him.</box>
+                <box n="10">*A robot with a SOUL... *That's, like, SUPER relevant to his
+                    hobbies!</box>
+                <box n="11">*So after seeing Mettaton, ASGORE... *Asked her to do all this science
+                    stuff for him!</box>
+                <box n="12">*But nobody's, like, seen anything from her yet.</box>
+                <box n="13">*Or... her at all... *She must, like, just stay in her lab all
+                    day.</box>
+                <box n="14">*Like, live a little, girl. *Yeah!!! *Like us!!! </box>
+            </sp>
+            <sp speaker="you">
+                <box n="15">*About ASGORE</box>
+            </sp>
+            <sp speaker="Bratty Catty">
+                <box n="16">*Oh my God. *He's a total goober. *He's a big, fuzzy goofball!!</box>
+                <box n="17">*Like, I LOVE that guy. *He's like, SO nice.</box>
+                <box n="18">*God, we're like... *God, we're like...</box>
+                <box n="19">*SO hyped for the destruction of humanity. *SO hyped for the destruction
+                    of humanity.</box>
+            </sp>
+            <sp speaker="you">
+                <box n="1">Sell</box>
+            </sp>
+            <sp speaker="Bratty Catty">
+                <box n="2">*Thanks, but we, like, don't really need anything. *Oh my god, can you go
+                    get us some Glamburgers?</box>
+                <box n="3">*We don't. *Really need. *Anything. *Wait! I'll pay you 1000G if you get
+                    Mettaton to autograph my butt! </box>
+                <box n="1">*Oh my God. *Is that a glamburger? *OH MY GOD!!! *GIMME!!!</box>
+                <box n="2">*God, Catty. *Try to have some self-control. *Sorry...</box>
+                <box n="3">*'Casue they OBVIOUSLY brought that Glamburger for ME. *NOOO
+                    WAYYY!!!!!</box>
+            </sp>
+            <sp speaker="you">
+                <box n="1">Exit</box>
+            </sp>
+            <sp speaker="Bratty Catty">
+                <box n="2">*Like, see you later! *Like, later and stuff!</box>
+            </sp>
+        </path>
+    </setting>
+    <setting name="HotelLobby">
+        <option what="gamePlay">
+            <sp speaker="DiamondReceptionist">
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+                <box n="1">*</box>
+            </sp>
+        </option>
+    </setting>
+    <setting name="HotelBedroom"/>
+    <setting name="BurgerpantsShop"/>
+    <setting name="BurgerpantsShop"/>
     <setting name="Restaurant">
         <sp speaker="someone" to="you">
             <box n="1">*Blub blub... *You'll have to reserve a table to eat here.</box>

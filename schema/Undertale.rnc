@@ -175,13 +175,14 @@ name =
         | "waterRoom"
         | "MeetingAlphys"
         | "MeetingMettaton"
+        | "CattyAndBrattysShop"
     }
 sp = element sp { (speaker | to)*, (box | choice | conditions | option)* }
 # added conditions to the sp element. -bobbyfunks.
 speaker =
     attribute speaker {
         list {
-            "game"
+            ("game"
             | "sign"
             | "determination"
             | "cellPhone"
@@ -253,8 +254,11 @@ speaker =
             | "DiamondBoy1"
             | "DiamondBoy2"
             | "DressLion"
+            | "Bratty"
+            | "Catty"
+            | "DiamondReceptionist"
             | "puzzle"
-            | "you"
+            | "you")*
         }
     }+
 to = attribute to { "you" | "Sans" | "Papyrus" | "Alphys" | "Mettaton" }
