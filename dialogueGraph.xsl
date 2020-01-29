@@ -78,7 +78,7 @@
                         >100</text>
                     <line x1="809" x2="809" y1="-1665" y2="-1655" stroke-width="3" stroke="white"/>
 
-                    <text x="200" y="{-39 * $Y-Spacer}" stroke="white" font-size="30"
+                    <text x="200" y="-{descendant::setting => count() * $Y-Spacer}" stroke="white" font-size="30"
                         font-family="papyrus">Available Dialogue Per Setting</text>
                     <xsl:for-each select="descendant::map">
                         <text x="345" y="{-38 * $Y-Spacer}" stroke="white" font-size="25"

@@ -42,7 +42,7 @@
       <line x1="729" x2="729" y1="-1665" y2="-1655" stroke-width="3" stroke="white"></line>
       <text x="800" y="-1635" font-size="20" font-family="papyrus" stroke="white">100</text>
       <line x1="809" x2="809" y1="-1665" y2="-1655" stroke-width="3" stroke="white"></line>
-      <text x="200" y="-1755" stroke="white" font-size="30" font-family="papyrus">Available Dialogue Per Setting</text>
+      <text x="200" y="-2385" stroke="white" font-size="30" font-family="papyrus">Available Dialogue Per Setting</text>
       <text x="345" y="-1710" stroke="white" font-size="25" font-family="papyrus">hotland</text>
       <g>
          <text x="-20" y="-20" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">waterRoom</text>
