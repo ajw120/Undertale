@@ -176,6 +176,7 @@ name =
         | "MeetingAlphys"
         | "MeetingMettaton"
         | "CattyAndBrattysShop"
+        | "ElevatorRoom"
     }
 sp = element sp { (speaker | to)*, (box | choice | conditions | option)* }
 # added conditions to the sp element. -bobbyfunks.

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/Undertale.rnc" type="application/relax-ng-compact-syntax"?>
 <map name="core">
+    <setting name="ElevatorRoom">
+        <sp speaker="cellPhone">
+            <box n="1">*Ring...</box>
+        </sp>
+        <sp speaker="Alphys">
+            <box n="2">*Ready? *This is it!</box>
+            <box n="3">*Take the elevator up to the top of the CORE!</box>
+        </sp>
+        <sp speaker="cellPhone">
+            <box n="4">*Click...</box>
+        </sp>
+    </setting>
     <path route="neutral">
         <setting name="mettatonRoom">
             <sp speaker="Mettaton" to="you">
@@ -15,7 +27,8 @@
                 <box n="9">*AS SHE WATCHED YOU ON SCREEN, SHE GREW ATTACHED TO YOUR ADVENTURE.</box>
                 <box n="10">*SHE DESPARETLY WANTED TO BE A PART OF IT.</box>
                 <box n="11">SO SHE DECIDED TO INSERT HERSELF INTO YOUR STORY.</box>
-                <box n="12">*SHE REACTIVATED PUZZLES. *SHE DISABLED ELAVTORS. *SHE ENLISTED ME TO TORMENT YOU.</box>
+                <box n="12">*SHE REACTIVATED PUZZLES. *SHE DISABLED ELAVTORS. *SHE ENLISTED ME TO
+                    TORMENT YOU.</box>
                 <box n="13">*ALL SO SHE COULD SAVE YOU FROM DANGERS THAT DIDN'T EXIST.</box>
                 <box n="14">*ALL SO YOU WOULD THINK SHE'S THE GREAT PERSON...</box>
                 <box n="15">*THAT SHE'S NOT.</box>
@@ -24,14 +37,15 @@
                 <box n="18">*DURING OUR "BATTLE," SHE WILL INTERRUPT.</box>
                 <box n="19">*SHE WILL PRETEND TO "DEACTIVE" ME, "SAVING" YOU ONE FINAL TIME.</box>
                 <box n="20">*FINALLY. *SHE'LL BE THE HEROINE OF YOUR ADVENTURE.</box>
-                <box n="21">*YOU'LL REGARD HER SO HIGHLY SHE'LL EVEN BE ABLE TO CONVINCE YOU TO NOT LEAVE.</box>
+                <box n="21">*YOU'LL REGARD HER SO HIGHLY SHE'LL EVEN BE ABLE TO CONVINCE YOU TO NOT
+                    LEAVE.</box>
                 <box n="22">*... OR NOT.</box>
                 <box n="23">*YOU SEE, I'VE HAD ENOUGH OF THIS PREDICTABLE CHARADE.</box>
                 <box n="24">*I HAVE NO DESIRE TO HARM HUMANS. *FAR FROM IT, ACTUALLY.</box>
                 <box n="25">*MY ONLY DESIRE IS TO ENTERTAIN.</box>
                 <box n="26">*AFTER ALL, THE AUDIENCE DESERVES A GOOD SHOW, DON'T THEY?</box>
                 <box n="27">*AND WHAT'S A GOOD SHOW...</box>
-                <box n="28">*WIHTOUT A PLOT TWIST?</box>     
+                <box n="28">*WIHTOUT A PLOT TWIST?</box>
             </sp>
             <sp speaker="Alphys" to="you">
                 <box n="29">*H-hey!! *Wh-wh-what's going on!?</box>
@@ -86,7 +100,8 @@
                 <box n="11">*I... I just need a moment.</box>
             </sp>
             <sp speaker="game" to="you">
-                <box n="12">*(It's completely trashed.) *(There's no way it could ever be repaired.)</box>
+                <box n="12">*(It's completely trashed.) *(There's no way it could ever be
+                    repaired.)</box>
             </sp>
         </setting>
     </path>
