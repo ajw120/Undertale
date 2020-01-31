@@ -1513,7 +1513,56 @@
     </setting>
     <setting name="HotelBedroom"/>
     <setting name="BurgerpantsShop"/>
-    <setting name="BurgerpantsShop"/>
+    <setting name="HotelRooms">
+        <option what="gamePlay">
+            <sp speaker="game">
+                <box n="1">*Ooooooaaah! *Room service!</box>
+                <box n="2">*Got my "Sea tea"?</box>
+            </sp>
+            <sp speaker="you">
+                <box n="2">No</box>
+            </sp>
+            <sp speaker="game">
+                <box n="3">*Then...!?</box>
+            </sp>
+            <sp speaker="you">
+                <box n="4">Yes</box>
+                <box n="5">*... *No you don't .</box>
+                <box n="6">*(You pour the Sea Tea under the door.)</box>
+                <box n="7">*HUH !?!?!?!? *That's jsut the way I want ! *Here's a tip.</box>
+                <box n="8">*(You got 99G.)</box>
+                <box n="9">*Thanks a million.</box>
+                <box n="10">*(It's locked fromt the inside.)</box>
+                <box n="11">*Oooooh ! *Room service !</box>
+                <box n="12">*Got my "Cinnamon Bun" ?</box>
+            </sp>
+            <sp speaker="you">
+                <box n="12">No</box>
+            </sp>
+            <sp speaker="game">
+                <box n="13">*Then...!?</box>
+                <box n="14">*Got my "Cinnamon Bun" ?</box>
+            </sp>
+            <sp speaker="you">
+                <box n="14">Yes</box>
+            </sp>
+            <sp speaker="game">
+                <box n="15">*... *No you don't.</box>
+                <box n="16">*(You flatten the Cinnamon Bun unit it's paper thin.) *(You slide it
+                    under the door.)</box>
+                <box n="17">*HUH !?!?!?!? *That's just the way I want ! *Her's a tip.</box>
+                <box n="18">*(You got 99G.)</box>
+                <box n="19">*Thanks a trillion .</box>
+                <box n="20">*(Seems busy.)</box>
+            </sp>
+            <sp speaker="sign">
+                <box n="21">*Learning how to draw? *Come to the Art Lessons on the second
+                    floor!</box>
+                <box n="22">*Located in a similar place.</box>
+            </sp>
+        </option>
+        <!-- Annoying Dog Door-->
+    </setting>
     <setting name="Restaurant">
         <sp speaker="someone" to="you">
             <box n="1">*Blub blub... *You'll have to reserve a table to eat here.</box>
@@ -1573,7 +1622,7 @@
         </sp>
     </setting>
     <setting name="CoreEntrance">
-        <sp speaker="game" to="you">
+        <sp speaker="cellPhone">
             <box n="1">*Ring...</box>
         </sp>
         <sp speaker="Alphys" to="you">
@@ -1581,7 +1630,7 @@
             <box n="3">*N-nobody else is s-supossed to be here...</box>
             <box n="4">*Oh well! *We can't worry about that now!</box>
         </sp>
-        <sp speaker="game" to="you">
+        <sp speaker="cellPhone">
             <box n="5">*Click...</box>
         </sp>
     </setting>
