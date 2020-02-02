@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/Undertale.rnc" type="application/relax-ng-compact-syntax"?>
 <map name="Snowdin">
-    <path route="neutral pacifist genocide">
+    
         <setting name="OutsideRuinsDoor">
 
             <option what="gameNarr">
@@ -2147,5 +2147,5 @@
                 </sp>
             </conditions>
         </setting>
-    </path>
+    
 </map>

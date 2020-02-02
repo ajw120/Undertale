@@ -99,6 +99,7 @@
                                 y1="{-position() * $Y-Spacer + $Y-Spacer div 2 }"
                                 y2="{-position() * $Y-Spacer + $Y-Spacer div 2}" stroke="chocolate"
                                 stroke-width="10"/>
+                            <text x="{((count(descendant::box)) * $X-Stretcher)+2}" y="{-position() * $Y-Spacer + $Y-Spacer div 2}" font-size="20" font-family="papyrus" stroke="white"><xsl:value-of select="(count(descendant::box))"></xsl:value-of></text>
                         </g>
                         <line x1="0" y1="0" x2="0"
                             y2="{(-position() * $Y-Spacer + $Y-Spacer div 1.8)-23}" stroke-width="3"
