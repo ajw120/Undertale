@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/Undertale.rnc" type="application/relax-ng-compact-syntax"?>
 <map name="Waterfall">
-    <path route="neutral genocide pacifist">
         <setting name="SansStation">
             <sp speaker="MonsterKid" to="you">
                 <box n="1">*Yo! *Are you sneaking out to see her, too?</box>
@@ -41,22 +40,11 @@
                     legally-required breaks.</box>
                 <box n="13" speaker="Sans" to="you">*i&apos;m going to grillby&apos;s. *wanna come?
                     Yeah I&apos;m busy</box>
-
-
-
                 <box n="15" speaker="Sans" to="you">*well, if you insist... *i&apos;ll pry myself
                     away from my work.</box>
-
-
-
-
                 <box n="16" speaker="Sans" to="you">*Ok. havefun. </box>
-
                 <box n="17" speaker="Sans" to="you">*over here. *i know a shortcut</box>
-
-
             </sp>
-
         </setting>
         <setting name="FallingRocks">
             <choice>
@@ -125,20 +113,20 @@
                 <box n="17" speaker="Papyrus" to="Undyne">I&apos;LL HELP YOU IN ANY WAY I CAN.</box>
             </sp>
             <sp speaker="MonsterKid" to="you">
-                <box n="21" speaker="MonsterKid" to="You">*Yo... did you see the way she was staring
+                <box n="21" speaker="MonsterKid" to="you">*Yo... did you see the way she was staring
                     at you...?</box>
-                <box n="22" speaker="MonsterKid" to="You">*That...</box>
-                <box n="23" speaker="MonsterKid" to="You">*... was AWESOME!</box>
-                <box n="24" speaker="MonsterKid" to="You">*I&apos;m SOOOO jealous!</box>
-                <box n="25" speaker="MonsterKid" to="You">*What&apos;d you do to get her
+                <box n="22" speaker="MonsterKid" to="you">*That...</box>
+                <box n="23" speaker="MonsterKid" to="you">*... was AWESOME!</box>
+                <box n="24" speaker="MonsterKid" to="you">*I&apos;m SOOOO jealous!</box>
+                <box n="25" speaker="MonsterKid" to="you">*What&apos;d you do to get her
                     attention...? *Ha ha.</box>
-                <box n="26" speaker="MonsterKid" to="You">*C&apos;mon! *Let&apos;s go watch her beat
+                <box n="26" speaker="MonsterKid" to="you">*C&apos;mon! *Let&apos;s go watch her beat
                     up some bad guys!</box>
             </sp>
             <choice>
                 <option what="gameSave">
                     <sp speaker="determination" to="you">
-                        <box n="27" speaker="determination" to="You">*(A feeling of dread hangs over
+                        <box n="27" speaker="determination" to="you">*(A feeling of dread hangs over
                             you...) *(But you stay determined.)</box>
                     </sp>
                 </option>
@@ -758,5 +746,5 @@
                 <box n="3">but they&apos;re all autotuned. i hope she likes it</box>
             </sp>
         </setting>
-    </path>
+    
 </map>

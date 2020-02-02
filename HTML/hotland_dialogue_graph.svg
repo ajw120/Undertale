@@ -45,9 +45,9 @@
       <text x="200" y="-2485" stroke="white" font-size="30" font-family="papyrus">Available Dialogue Per
          Setting
       </text>
-      <text x="355" y="-2445" stroke="white" font-size="25" font-family="papyrus">hotland</text>
+      <text x="355" y="-2445" stroke="white" font-size="25" font-family="papyrus">Hotland</text>
       <g>
-         <text x="-20" y="-20" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">waterRoom</text>
+         <text x="-20" y="-20" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Water Room</text>
          <line x1="0" x2="208" y1="-22.5" y2="-22.5" stroke="chocolate" stroke-width="10"></line>
          <text x="210" y="-22.5" font-size="20" font-family="papyrus" stroke="white">26</text>
       </g>
@@ -55,7 +55,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-65" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">SavePointRoom</text>
+         <text x="-20" y="-65" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Save Point Room</text>
          <line x1="0" x2="128" y1="-67.5" y2="-67.5" stroke="chocolate" stroke-width="10"></line>
          <text x="130" y="-67.5" font-size="20" font-family="papyrus" stroke="white">16</text>
       </g>
@@ -63,7 +63,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-110" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">RiverPersonRoom</text>
+         <text x="-20" y="-110" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">River Person Room</text>
          <line x1="0" x2="104" y1="-112.5" y2="-112.5" stroke="chocolate" stroke-width="10"></line>
          <text x="106" y="-112.5" font-size="20" font-family="papyrus" stroke="white">13</text>
       </g>
@@ -71,7 +71,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-155" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">AlphysLab(Dark)</text>
+         <text x="-20" y="-155" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Alphys's Lab(Dark)</text>
          <line x1="0" x2="16" y1="-157.5" y2="-157.5" stroke="chocolate" stroke-width="10"></line>
          <text x="18" y="-157.5" font-size="20" font-family="papyrus" stroke="white">2</text>
       </g>
@@ -79,7 +79,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-200" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">MeetingAlphys</text>
+         <text x="-20" y="-200" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Meeting Alphys</text>
          <line x1="0" x2="288" y1="-202.5" y2="-202.5" stroke="chocolate" stroke-width="10"></line>
          <text x="290" y="-202.5" font-size="20" font-family="papyrus" stroke="white">36</text>
       </g>
@@ -87,7 +87,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-245" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">MeetingMettaton</text>
+         <text x="-20" y="-245" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Meeting Mettaton</text>
          <line x1="0" x2="80" y1="-247.5" y2="-247.5" stroke="chocolate" stroke-width="10"></line>
          <text x="82" y="-247.5" font-size="20" font-family="papyrus" stroke="white">10</text>
       </g>
@@ -95,7 +95,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-290" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">alphys'sLabPostMettaton</text>
+         <text x="-20" y="-290" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Alphys's Lab Post-Mettaton</text>
          <line x1="0" x2="328" y1="-292.5" y2="-292.5" stroke="chocolate" stroke-width="10"></line>
          <text x="330" y="-292.5" font-size="20" font-family="papyrus" stroke="white">41</text>
       </g>
@@ -103,7 +103,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-335" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">AlphysBedroom</text>
+         <text x="-20" y="-335" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Alphys's Bedroom</text>
          <line x1="0" x2="256" y1="-337.5" y2="-337.5" stroke="chocolate" stroke-width="10"></line>
          <text x="258" y="-337.5" font-size="20" font-family="papyrus" stroke="white">32</text>
       </g>
@@ -111,7 +111,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-380" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">HallwayOutsideOfLab</text>
+         <text x="-20" y="-380" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Hallway Outside Of Lab</text>
          <line x1="0" x2="24" y1="-382.5" y2="-382.5" stroke="chocolate" stroke-width="10"></line>
          <text x="26" y="-382.5" font-size="20" font-family="papyrus" stroke="white">3</text>
       </g>
@@ -119,7 +119,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-425" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">SplitBeamsHall</text>
+         <text x="-20" y="-425" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Split Beams Hall</text>
          <line x1="0" x2="8" y1="-427.5" y2="-427.5" stroke="chocolate" stroke-width="10"></line>
          <text x="10" y="-427.5" font-size="20" font-family="papyrus" stroke="white">1</text>
       </g>
@@ -127,7 +127,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-470" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">SteamVentRoom</text>
+         <text x="-20" y="-470" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Steam Vent Room</text>
          <line x1="0" x2="56" y1="-472.5" y2="-472.5" stroke="chocolate" stroke-width="10"></line>
          <text x="58" y="-472.5" font-size="20" font-family="papyrus" stroke="white">7</text>
       </g>
@@ -135,7 +135,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-515" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">FrypanRoom</text>
+         <text x="-20" y="-515" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Frypan Room</text>
          <line x1="0" x2="24" y1="-517.5" y2="-517.5" stroke="chocolate" stroke-width="10"></line>
          <text x="26" y="-517.5" font-size="20" font-family="papyrus" stroke="white">3</text>
       </g>
@@ -143,7 +143,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-560" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">LaserPuzzle</text>
+         <text x="-20" y="-560" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Laser Puzzle</text>
          <line x1="0" x2="128" y1="-562.5" y2="-562.5" stroke="chocolate" stroke-width="10"></line>
          <text x="130" y="-562.5" font-size="20" font-family="papyrus" stroke="white">16</text>
       </g>
@@ -151,7 +151,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-605" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">ShootingPuzzleBeginning</text>
+         <text x="-20" y="-605" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Shooting Puzzle Beginning</text>
          <line x1="0" x2="96" y1="-607.5" y2="-607.5" stroke="chocolate" stroke-width="10"></line>
          <text x="98" y="-607.5" font-size="20" font-family="papyrus" stroke="white">12</text>
       </g>
@@ -159,7 +159,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-650" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">WorkingMonsters</text>
+         <text x="-20" y="-650" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Working Monsters</text>
          <line x1="0" x2="56" y1="-652.5" y2="-652.5" stroke="chocolate" stroke-width="10"></line>
          <text x="58" y="-652.5" font-size="20" font-family="papyrus" stroke="white">7</text>
       </g>
@@ -167,7 +167,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-695" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">ShootingPuzzle1</text>
+         <text x="-20" y="-695" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Shooting Puzzle 1</text>
          <line x1="0" x2="56" y1="-697.5" y2="-697.5" stroke="chocolate" stroke-width="10"></line>
          <text x="58" y="-697.5" font-size="20" font-family="papyrus" stroke="white">7</text>
       </g>
@@ -175,7 +175,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-740" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">SchoolKids</text>
+         <text x="-20" y="-740" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">School Kids</text>
          <line x1="0" x2="144" y1="-742.5" y2="-742.5" stroke="chocolate" stroke-width="10"></line>
          <text x="146" y="-742.5" font-size="20" font-family="papyrus" stroke="white">18</text>
       </g>
@@ -183,7 +183,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-785" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">ShootingPuzzle2</text>
+         <text x="-20" y="-785" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Shooting Puzzle 2</text>
          <line x1="0" x2="24" y1="-787.5" y2="-787.5" stroke="chocolate" stroke-width="10"></line>
          <text x="26" y="-787.5" font-size="20" font-family="papyrus" stroke="white">3</text>
       </g>
@@ -191,7 +191,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-830" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">VentsBeforeMettaton</text>
+         <text x="-20" y="-830" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Vents Before Mettaton</text>
          <line x1="0" x2="64" y1="-832.5" y2="-832.5" stroke="chocolate" stroke-width="10"></line>
          <text x="66" y="-832.5" font-size="20" font-family="papyrus" stroke="white">8</text>
       </g>
@@ -199,7 +199,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-875" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">CookingWithAKillerRobot</text>
+         <text x="-20" y="-875" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Cooking With A Killer Robot</text>
          <line x1="0" x2="960" y1="-877.5" y2="-877.5" stroke="chocolate" stroke-width="10"></line>
          <text x="962" y="-877.5" font-size="20" font-family="papyrus" stroke="white">120</text>
       </g>
@@ -207,7 +207,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-920" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">FirstCoreView</text>
+         <text x="-20" y="-920" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">First Core View</text>
          <line x1="0" x2="80" y1="-922.5" y2="-922.5" stroke="chocolate" stroke-width="10"></line>
          <text x="82" y="-922.5" font-size="20" font-family="papyrus" stroke="white">10</text>
       </g>
@@ -215,7 +215,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-965" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">ElevatorR1</text>
+         <text x="-20" y="-965" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Elevator R1</text>
          <line x1="0" x2="16" y1="-967.5" y2="-967.5" stroke="chocolate" stroke-width="10"></line>
          <text x="18" y="-967.5" font-size="20" font-family="papyrus" stroke="white">2</text>
       </g>
@@ -223,7 +223,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1010" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">ElevatorR2</text>
+         <text x="-20" y="-1010" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Elevator R2</text>
          <line x1="0" x2="16" y1="-1012.5" y2="-1012.5" stroke="chocolate" stroke-width="10"></line>
          <text x="18" y="-1012.5" font-size="20" font-family="papyrus" stroke="white">2</text>
       </g>
@@ -231,7 +231,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1055" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">SansHotdogStation</text>
+         <text x="-20" y="-1055" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Sans's Hotdog Station</text>
          <line x1="0" x2="288" y1="-1057.5" y2="-1057.5" stroke="chocolate" stroke-width="10"></line>
          <text x="290" y="-1057.5" font-size="20" font-family="papyrus" stroke="white">36</text>
       </g>
@@ -239,7 +239,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1100" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">HotPicsHallway</text>
+         <text x="-20" y="-1100" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Hot Pics Hallway</text>
          <line x1="0" x2="64" y1="-1102.5" y2="-1102.5" stroke="chocolate" stroke-width="10"></line>
          <text x="66" y="-1102.5" font-size="20" font-family="papyrus" stroke="white">8</text>
       </g>
@@ -247,7 +247,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1145" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">soSorryRoom</text>
+         <text x="-20" y="-1145" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">So Sorry Room</text>
          <line x1="0" x2="40" y1="-1147.5" y2="-1147.5" stroke="chocolate" stroke-width="10"></line>
          <text x="42" y="-1147.5" font-size="20" font-family="papyrus" stroke="white">5</text>
       </g>
@@ -255,7 +255,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1190" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">ApronRoom</text>
+         <text x="-20" y="-1190" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Apron Room</text>
          <line x1="0" x2="48" y1="-1192.5" y2="-1192.5" stroke="chocolate" stroke-width="10"></line>
          <text x="50" y="-1192.5" font-size="20" font-family="papyrus" stroke="white">6</text>
       </g>
@@ -263,7 +263,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1235" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">ConveyorPuzzle</text>
+         <text x="-20" y="-1235" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Conveyor Puzzle</text>
          <line x1="0" x2="112" y1="-1237.5" y2="-1237.5" stroke="chocolate" stroke-width="10"></line>
          <text x="114" y="-1237.5" font-size="20" font-family="papyrus" stroke="white">14</text>
       </g>
@@ -271,7 +271,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1280" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">SwitchVentPuzzle</text>
+         <text x="-20" y="-1280" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Switch Vent Puzzle</text>
          <line x1="0" x2="48" y1="-1282.5" y2="-1282.5" stroke="chocolate" stroke-width="10"></line>
          <text x="50" y="-1282.5" font-size="20" font-family="papyrus" stroke="white">6</text>
       </g>
@@ -279,7 +279,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1325" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">CheeseRoom</text>
+         <text x="-20" y="-1325" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Cheese Room</text>
          <line x1="0" x2="72" y1="-1327.5" y2="-1327.5" stroke="chocolate" stroke-width="10"></line>
          <text x="74" y="-1327.5" font-size="20" font-family="papyrus" stroke="white">9</text>
       </g>
@@ -287,7 +287,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1370" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">RoyalGuards</text>
+         <text x="-20" y="-1370" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Royal Guards</text>
          <line x1="0" x2="112" y1="-1372.5" y2="-1372.5" stroke="chocolate" stroke-width="10"></line>
          <text x="114" y="-1372.5" font-size="20" font-family="papyrus" stroke="white">14</text>
       </g>
@@ -295,7 +295,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1415" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">2ndCoreView</text>
+         <text x="-20" y="-1415" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">2nd Core View</text>
          <line x1="0" x2="88" y1="-1417.5" y2="-1417.5" stroke="chocolate" stroke-width="10"></line>
          <text x="90" y="-1417.5" font-size="20" font-family="papyrus" stroke="white">11</text>
       </g>
@@ -303,7 +303,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1460" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">MettatonNewsReport</text>
+         <text x="-20" y="-1460" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Mettaton News Report</text>
          <line x1="0" x2="0" y1="-1462.5" y2="-1462.5" stroke="chocolate" stroke-width="10"></line>
          <text x="2" y="-1462.5" font-size="20" font-family="papyrus" stroke="white">0</text>
       </g>
@@ -311,7 +311,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1505" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">SpiderBakeSale</text>
+         <text x="-20" y="-1505" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Spider Bake Sale</text>
          <line x1="0" x2="144" y1="-1507.5" y2="-1507.5" stroke="chocolate" stroke-width="10"></line>
          <text x="146" y="-1507.5" font-size="20" font-family="papyrus" stroke="white">18</text>
       </g>
@@ -319,7 +319,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1550" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">FinalVentPuzzle</text>
+         <text x="-20" y="-1550" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Final Vent Puzzle</text>
          <line x1="0" x2="256" y1="-1552.5" y2="-1552.5" stroke="chocolate" stroke-width="10"></line>
          <text x="258" y="-1552.5" font-size="20" font-family="papyrus" stroke="white">32</text>
       </g>
@@ -327,7 +327,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1595" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">ShootingPuzzle3</text>
+         <text x="-20" y="-1595" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Shooting Puzzle 3</text>
          <line x1="0" x2="16" y1="-1597.5" y2="-1597.5" stroke="chocolate" stroke-width="10"></line>
          <text x="18" y="-1597.5" font-size="20" font-family="papyrus" stroke="white">2</text>
       </g>
@@ -335,7 +335,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1640" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">LasersAndFlower</text>
+         <text x="-20" y="-1640" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Lasers And Flower</text>
          <line x1="0" x2="280" y1="-1642.5" y2="-1642.5" stroke="chocolate" stroke-width="10"></line>
          <text x="282" y="-1642.5" font-size="20" font-family="papyrus" stroke="white">35</text>
       </g>
@@ -343,7 +343,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1685" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">FinalShootingPuzzle</text>
+         <text x="-20" y="-1685" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Final Shooting Puzzle</text>
          <line x1="0" x2="16" y1="-1687.5" y2="-1687.5" stroke="chocolate" stroke-width="10"></line>
          <text x="18" y="-1687.5" font-size="20" font-family="papyrus" stroke="white">2</text>
       </g>
@@ -351,7 +351,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1730" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">SpiderSavePoint</text>
+         <text x="-20" y="-1730" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Spider Save Point</text>
          <line x1="0" x2="16" y1="-1732.5" y2="-1732.5" stroke="chocolate" stroke-width="10"></line>
          <text x="18" y="-1732.5" font-size="20" font-family="papyrus" stroke="white">2</text>
       </g>
@@ -359,7 +359,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1775" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">MuffetArena</text>
+         <text x="-20" y="-1775" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Muffet Arena</text>
          <line x1="0" x2="104" y1="-1777.5" y2="-1777.5" stroke="chocolate" stroke-width="10"></line>
          <text x="106" y="-1777.5" font-size="20" font-family="papyrus" stroke="white">13</text>
       </g>
@@ -367,7 +367,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1820" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">MettatonPoster</text>
+         <text x="-20" y="-1820" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Mettaton Poster</text>
          <line x1="0" x2="40" y1="-1822.5" y2="-1822.5" stroke="chocolate" stroke-width="10"></line>
          <text x="42" y="-1822.5" font-size="20" font-family="papyrus" stroke="white">5</text>
       </g>
@@ -375,7 +375,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1865" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">MettatonOpera</text>
+         <text x="-20" y="-1865" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Mettaton Opera</text>
          <line x1="0" x2="288" y1="-1867.5" y2="-1867.5" stroke="chocolate" stroke-width="10"></line>
          <text x="290" y="-1867.5" font-size="20" font-family="papyrus" stroke="white">36</text>
       </g>
@@ -383,7 +383,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1910" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">TilePuzzle</text>
+         <text x="-20" y="-1910" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Tile Puzzle</text>
          <line x1="0" x2="312" y1="-1912.5" y2="-1912.5" stroke="chocolate" stroke-width="10"></line>
          <text x="314" y="-1912.5" font-size="20" font-family="papyrus" stroke="white">39</text>
       </g>
@@ -391,7 +391,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-1955" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">ElevatorR3</text>
+         <text x="-20" y="-1955" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Elevator R3</text>
          <line x1="0" x2="80" y1="-1957.5" y2="-1957.5" stroke="chocolate" stroke-width="10"></line>
          <text x="82" y="-1957.5" font-size="20" font-family="papyrus" stroke="white">10</text>
       </g>
@@ -399,7 +399,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-2000" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">NiceCreamGuy</text>
+         <text x="-20" y="-2000" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Nice Cream Guy</text>
          <line x1="0" x2="152" y1="-2002.5" y2="-2002.5" stroke="chocolate" stroke-width="10"></line>
          <text x="154" y="-2002.5" font-size="20" font-family="papyrus" stroke="white">19</text>
       </g>
@@ -407,7 +407,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-2045" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">ResortEntrance</text>
+         <text x="-20" y="-2045" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Resort Entrance</text>
          <line x1="0" x2="80" y1="-2047.5" y2="-2047.5" stroke="chocolate" stroke-width="10"></line>
          <text x="82" y="-2047.5" font-size="20" font-family="papyrus" stroke="white">10</text>
       </g>
@@ -415,7 +415,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-2090" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">CattyAndBrattysShop</text>
+         <text x="-20" y="-2090" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Catty And Bratty's Shop</text>
          <line x1="0" x2="424" y1="-2092.5" y2="-2092.5" stroke="chocolate" stroke-width="10"></line>
          <text x="426" y="-2092.5" font-size="20" font-family="papyrus" stroke="white">53</text>
       </g>
@@ -423,7 +423,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-2135" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">HotelLobby</text>
+         <text x="-20" y="-2135" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Hotel Lobby</text>
          <line x1="0" x2="192" y1="-2137.5" y2="-2137.5" stroke="chocolate" stroke-width="10"></line>
          <text x="194" y="-2137.5" font-size="20" font-family="papyrus" stroke="white">24</text>
       </g>
@@ -431,7 +431,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-2180" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">HotelBedroom</text>
+         <text x="-20" y="-2180" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Hotel Bedroom</text>
          <line x1="0" x2="0" y1="-2182.5" y2="-2182.5" stroke="chocolate" stroke-width="10"></line>
          <text x="2" y="-2182.5" font-size="20" font-family="papyrus" stroke="white">0</text>
       </g>
@@ -439,7 +439,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-2225" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">BurgerpantsShop</text>
+         <text x="-20" y="-2225" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Burgerpants Shop</text>
          <line x1="0" x2="0" y1="-2227.5" y2="-2227.5" stroke="chocolate" stroke-width="10"></line>
          <text x="2" y="-2227.5" font-size="20" font-family="papyrus" stroke="white">0</text>
       </g>
@@ -447,7 +447,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-2270" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">HotelRooms</text>
+         <text x="-20" y="-2270" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Hotel Rooms</text>
          <line x1="0" x2="200" y1="-2272.5" y2="-2272.5" stroke="chocolate" stroke-width="10"></line>
          <text x="202" y="-2272.5" font-size="20" font-family="papyrus" stroke="white">25</text>
       </g>
@@ -463,7 +463,7 @@
       <line x1="0" y1="0" x2="880" y2="0" stroke-width="3" stroke="red"></line>
       <line x1="0" y1="-2385" x2="880" y2="-2385" stroke-width="3" stroke="red"></line>
       <g>
-         <text x="-20" y="-2360" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">CoreEntrance</text>
+         <text x="-20" y="-2360" fill="blueviolet" text-anchor="end" font-size="20" font-family="comic sans Ms" stroke="blueviolet">Core Entrance</text>
          <line x1="0" x2="40" y1="-2362.5" y2="-2362.5" stroke="chocolate" stroke-width="10"></line>
          <text x="42" y="-2362.5" font-size="20" font-family="papyrus" stroke="white">5</text>
       </g>

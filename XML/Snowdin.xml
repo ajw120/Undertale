@@ -3,13 +3,11 @@
 <map name="Snowdin">
     
         <setting name="OutsideRuinsDoor">
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="1">*...!? *There's a camera hidden in the bushes.</box>
                 </sp>
             </option>
-
         </setting>
         <setting name="SansHallway">
             <option what="gameNarr">
@@ -149,8 +147,6 @@
                     <box n="6">*well?</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="7">*It's some sort of checkpoint or sentry-station.</box>
@@ -158,7 +154,6 @@
                         inside...</box>
                 </sp>
             </option>
-
             <sp speaker="Sans" to="you">
                 <box n="9">*actually, hey... *hate to bother ya, but can you do me a favor?</box>
                 <box n="10">*i was thinking... *my brother's been kind of down lately...</box>
@@ -170,15 +165,12 @@
             </sp>
         </setting>
         <setting name="SavePoint">
-
             <option what="gameSave">
                 <sp speaker="determination" to="you">
                     <box n="1">*(The convenience of that lamp still fills you with
                         determination.)</box>
                 </sp>
             </option>
-
-
             <option what="gameNarr">
                 <sp speaker="sign" to="you">
                     <box n="3">*(This is a box.)</box>
@@ -188,7 +180,6 @@
                     <box n="6">*(Sincerely, a box lover.)</box>
                 </sp>
             </option>
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="7">*Use the box? Yes No</box>
@@ -197,27 +188,20 @@
             <option what="gameNarr">
                 <box n="8">INVENTORY BOX Press [X] to Finish</box>
             </option>
-
         </setting>
         <setting name="FishingPoleRoom">
-
             <option what="gameNarr">
                 <sp speaker="game" to="you">
                     <box n="1">*It's a fishing rod affixed to the ground...</box>
                     <box n="2">*Reel it in? Yes No</box>
-
                     <box n="3">*You leave it alone.</box>
-
-
                     <box n="4">*All that's attached to the end is a photo of a weird-looking
                         monster...</box>
                     <box n="5">*(Call Me! Here's my number!)</box>
                     <box n="6">*You decide not to call.</box>
                     <box n="7">*You send the line back out.</box>
-
                 </sp>
             </option>
-
         </setting>
         <setting name="SansAndPapyrus">
             <sp speaker="Papyrus" to="Sans">
@@ -282,7 +266,6 @@
                 <box n="4">* if something WAS moving... *For example a human...</box>
                 <box n="5">I'll make sure it NEVER moves again!</box>
             </sp>
-
             <option what="gameNarr">
                 <sp speaker="Doggo" to="Doggo">
                     <box n="1">*Hello? *Is anybody there...? *No?</box>
@@ -313,12 +296,8 @@
                     <box n="2">*(It says...) *(Out to lunch...?)</box>
                 </sp>
             </option>
-
-
-
         </setting>
         <setting name="SlipperyIceRoom">
-
             <option what="gameNarr">
                 <sp speaker="Sans" to="you">
                     <box n="1">*hey, here's something important to remember.</box>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/Undertale.rnc" type="application/relax-ng-compact-syntax"?>
-<map name="newHome">
-    <path route="neutral">
+<map name="newHome/DreemurrCastle">
     <setting name="newHomeView">
         <option what="gameNarr">
         <sp speaker="game" to="you">
@@ -118,7 +117,7 @@
         </sp>
         </option>
     </setting>
-    </path>
+    
     <path route="neutral">
     <setting name="judgmentHall">
            <sp speaker="Sans" to="you">

@@ -2,7 +2,7 @@
 
 <?xml-model href="../schema/Undertale.rnc" type="application/relax-ng-compact-syntax"?>
 
-<map name="hotland">
+<map name="Hotland">
    <setting name="waterRoom">
       <path route="neutral">
          <sp speaker="Undyne">
