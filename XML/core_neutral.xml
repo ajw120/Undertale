@@ -13,53 +13,113 @@
             <box n="4">*Click...</box>
         </sp>
     </setting>
-    <path route="neutral">
-        <setting name="mettatonRoom">
-            <sp speaker="Mettaton" to="you">
-                <box n="1">*OH YES. *THERE YOU ARE, DARLING.</box>
-                <box n="2">*IT'S TIME TO HAVE OUR LITTLE SHOWDOWN.</box>
-                <box n="3">*IT'S TIME TO FINALLY STOP THE "MALFUNCTIONING" ROBOT.</box>
-                <box n="4">*...NOT!!!</box>
-                <box n="5">*MALFUNCTION? *REPROGRAMMING? *GET REAL.</box>
-                <box n="6">*THIS WAS ALL JUST A BIG SHOW.</box>
-                <box n="7">*AN ACT.</box>
-                <box n="8">*ALPHYS HAS BEEN PLAYING YOU FOR A FOOL THE WHOLE TIME.</box>
-                <box n="9">*AS SHE WATCHED YOU ON SCREEN, SHE GREW ATTACHED TO YOUR ADVENTURE.</box>
-                <box n="10">*SHE DESPARETLY WANTED TO BE A PART OF IT.</box>
-                <box n="11">SO SHE DECIDED TO INSERT HERSELF INTO YOUR STORY.</box>
-                <box n="12">*SHE REACTIVATED PUZZLES. *SHE DISABLED ELAVTORS. *SHE ENLISTED ME TO
-                    TORMENT YOU.</box>
-                <box n="13">*ALL SO SHE COULD SAVE YOU FROM DANGERS THAT DIDN'T EXIST.</box>
-                <box n="14">*ALL SO YOU WOULD THINK SHE'S THE GREAT PERSON...</box>
-                <box n="15">*THAT SHE'S NOT.</box>
-                <box n="16">*AND NOW, IT'S TIME FOR HER FINEST HOUR.</box>
-                <box n="17">*AT THIS VERY MOMENT, APLHYS IS WAITING OUTSIDE THE ROOM.</box>
-                <box n="18">*DURING OUR "BATTLE," SHE WILL INTERRUPT.</box>
-                <box n="19">*SHE WILL PRETEND TO "DEACTIVE" ME, "SAVING" YOU ONE FINAL TIME.</box>
-                <box n="20">*FINALLY. *SHE'LL BE THE HEROINE OF YOUR ADVENTURE.</box>
-                <box n="21">*YOU'LL REGARD HER SO HIGHLY SHE'LL EVEN BE ABLE TO CONVINCE YOU TO NOT
-                    LEAVE.</box>
-                <box n="22">*... OR NOT.</box>
-                <box n="23">*YOU SEE, I'VE HAD ENOUGH OF THIS PREDICTABLE CHARADE.</box>
-                <box n="24">*I HAVE NO DESIRE TO HARM HUMANS. *FAR FROM IT, ACTUALLY.</box>
-                <box n="25">*MY ONLY DESIRE IS TO ENTERTAIN.</box>
-                <box n="26">*AFTER ALL, THE AUDIENCE DESERVES A GOOD SHOW, DON'T THEY?</box>
-                <box n="27">*AND WHAT'S A GOOD SHOW...</box>
-                <box n="28">*WIHTOUT A PLOT TWIST?</box>
+    <setting name="FlamingPitRoom"/>
+    <setting name="LaserHallway">
+        <sp speaker="cellPhone">
+            <box n="1">*Ring...</box>
+        </sp>
+        <sp speaker="Alphys">
+            <box n="2">*Looks like you can't proceed unitl you hit the switch.</box>
+            <box n="3">*B-but, those lasers will activate when you do.</box>
+            <box n="4">*Ummm... *Looks like they'll come in this order:</box>
+            <box n="5">*Orange, Orange, Blue.</box>
+            <box n="6">*G-got it? *Move until the third one!</box>
+        </sp>
+        <sp speaker="cellPhone">
+            <box n="7">*Click...</box>
+        </sp>
+        <option what="gamePlay">
+            <sp speaker="game">
+                <box n="8">*(It's a forcefield.)</box>
+                <box n="9">*(It's a forcefield.)</box>
+            </sp>
+        </option>
+        <conditions what="gamePlay">
+            <sp speaker="cellPhone">
+                <box n="1">*Ring...</box>
             </sp>
             <sp speaker="Alphys" to="you">
-                <box n="29">*H-hey!! *Wh-wh-what's going on!?</box>
-                <box n="30">*Th-th-the door just locked itself!</box>
+                <box n="2">*Oh my god, are you okay? </box>
+                <box n="3">*I... I'm sorry, I gave you the wrong order.</box>
+                <box n="4">*...</box>
+                <box n="5">*E-everything's fine, okay?</box>
+                <box n="6">*L-let's just keep heading to the right.</box>
             </sp>
-            <sp speaker="Mettaton" to="you">
-                <box n="31">*SORRY, FOLKS! *THE OLD PROGRAM'S BEEN CANCELLED!!!</box>
-                <box n="32">*BUT WE'VE GOT A FINALE THAT WILL DRIVE YOU WILD!!</box>
-                <box n="33">*REAL DRAMA!! *REAL ACTION!! *REAL BLOODSHED!!</box>
-                <box n="34">*ON OUR NEW SHOW...</box>
-                <box n="35">*"ATTACK OF THE KILLER ROBOT!"</box>
+            <sp speaker="cellPhone">
+                <box n="7">*Click...</box>
             </sp>
-        </setting>
-    </path>
+        </conditions>
+    </setting>
+    <setting name="BranchingHallway">
+        <sp speaker="cellPhone">
+            <box n="1">*Ring...</box>
+        </sp>
+        <sp speaker="Alphys">
+            <box n="2">*A crossroads... *Uhh...</box>
+            <box n="3">*Uhhh...</box>
+            <box n="4">*Tr... *Try heading to the right!</box>
+        </sp>
+        <sp speaker="cellPhone">
+            <box n="5">*Click...</box>
+        </sp>
+        <conditions what="gamePlay">
+            <sp speaker="cellPhone">
+                <box n="1">*Ring...</box>
+            </sp>
+            <sp speaker="Alphys" to="you">
+                <box n="2">*W-wait! *No, I think you should h-head up!</box>
+            </sp>
+            <sp speaker="cellPhone">
+                <box n="3">*Click...</box>
+            </sp>
+        </conditions>
+    </setting>
+    <setting name="mettatonRoom">
+        <sp speaker="Mettaton" to="you">
+            <box n="1">*OH YES. *THERE YOU ARE, DARLING.</box>
+            <box n="2">*IT'S TIME TO HAVE OUR LITTLE SHOWDOWN.</box>
+            <box n="3">*IT'S TIME TO FINALLY STOP THE "MALFUNCTIONING" ROBOT.</box>
+            <box n="4">*...NOT!!!</box>
+            <box n="5">*MALFUNCTION? *REPROGRAMMING? *GET REAL.</box>
+            <box n="6">*THIS WAS ALL JUST A BIG SHOW.</box>
+            <box n="7">*AN ACT.</box>
+            <box n="8">*ALPHYS HAS BEEN PLAYING YOU FOR A FOOL THE WHOLE TIME.</box>
+            <box n="9">*AS SHE WATCHED YOU ON SCREEN, SHE GREW ATTACHED TO YOUR ADVENTURE.</box>
+            <box n="10">*SHE DESPARETLY WANTED TO BE A PART OF IT.</box>
+            <box n="11">SO SHE DECIDED TO INSERT HERSELF INTO YOUR STORY.</box>
+            <box n="12">*SHE REACTIVATED PUZZLES. *SHE DISABLED ELAVTORS. *SHE ENLISTED ME TO
+                TORMENT YOU.</box>
+            <box n="13">*ALL SO SHE COULD SAVE YOU FROM DANGERS THAT DIDN'T EXIST.</box>
+            <box n="14">*ALL SO YOU WOULD THINK SHE'S THE GREAT PERSON...</box>
+            <box n="15">*THAT SHE'S NOT.</box>
+            <box n="16">*AND NOW, IT'S TIME FOR HER FINEST HOUR.</box>
+            <box n="17">*AT THIS VERY MOMENT, APLHYS IS WAITING OUTSIDE THE ROOM.</box>
+            <box n="18">*DURING OUR "BATTLE," SHE WILL INTERRUPT.</box>
+            <box n="19">*SHE WILL PRETEND TO "DEACTIVE" ME, "SAVING" YOU ONE FINAL TIME.</box>
+            <box n="20">*FINALLY. *SHE'LL BE THE HEROINE OF YOUR ADVENTURE.</box>
+            <box n="21">*YOU'LL REGARD HER SO HIGHLY SHE'LL EVEN BE ABLE TO CONVINCE YOU TO NOT
+                LEAVE.</box>
+            <box n="22">*... OR NOT.</box>
+            <box n="23">*YOU SEE, I'VE HAD ENOUGH OF THIS PREDICTABLE CHARADE.</box>
+            <box n="24">*I HAVE NO DESIRE TO HARM HUMANS. *FAR FROM IT, ACTUALLY.</box>
+            <box n="25">*MY ONLY DESIRE IS TO ENTERTAIN.</box>
+            <box n="26">*AFTER ALL, THE AUDIENCE DESERVES A GOOD SHOW, DON'T THEY?</box>
+            <box n="27">*AND WHAT'S A GOOD SHOW...</box>
+            <box n="28">*WIHTOUT A PLOT TWIST?</box>
+        </sp>
+        <sp speaker="Alphys" to="you">
+            <box n="29">*H-hey!! *Wh-wh-what's going on!?</box>
+            <box n="30">*Th-th-the door just locked itself!</box>
+        </sp>
+        <sp speaker="Mettaton" to="you">
+            <box n="31">*SORRY, FOLKS! *THE OLD PROGRAM'S BEEN CANCELLED!!!</box>
+            <box n="32">*BUT WE'VE GOT A FINALE THAT WILL DRIVE YOU WILD!!</box>
+            <box n="33">*REAL DRAMA!! *REAL ACTION!! *REAL BLOODSHED!!</box>
+            <box n="34">*ON OUR NEW SHOW...</box>
+            <box n="35">*"ATTACK OF THE KILLER ROBOT!"</box>
+        </sp>
+    </setting>
+
     <path route="neutral">
         <setting name="mettatonRoom">
             <conditions spared="Mettaton"/>
