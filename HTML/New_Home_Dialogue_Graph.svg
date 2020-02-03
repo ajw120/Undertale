@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" width="2000" height="2000" style="background-color: black;">
-      <g transform="translate(300, 1900), scale(.75)">
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1000" style="background-color: black;">
+      <g transform="translate(300, 800), scale(.85)">
             <text x="0" y="20" font-size="20" font-family="papyrus" stroke="white">0</text>
             <text x="80" y="25" font-size="20" font-family="papyrus" stroke="white">10</text>
             <line x1="89" x2="89" y1="0" y2="-10" stroke-width="3" stroke="white"></line>
