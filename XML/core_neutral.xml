@@ -142,6 +142,20 @@
                 <box n="14">*(It's out of batteries.)</box>
             </sp>
         </setting>
+        <setting name="MalfunctioningLaserRoom">
+            <sp speaker="cellPhone">
+                <box n="1">*Ring...</box>
+            </sp>
+            <sp speaker="Alphys">
+                <box n="2">*M... more lasers...</box>
+                <box n="3">*Okay, I... *I won't mess around this time.</box>
+                <box n="4">*I'll just deactivate the lasers and let you through.</box>
+                <box n="5">*...</box>
+                <box n="6">*They're... *They're not turning off...</box>
+                <box n="7">*I can't turn them off, I...</box>
+                <box n="8">*</box>
+            </sp>
+        </setting>
     </path>
     <path route="neutral">
         <setting name="mettatonRoom">
